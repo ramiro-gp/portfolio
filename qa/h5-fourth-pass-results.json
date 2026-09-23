@@ -1,0 +1,927 @@
+{
+  "routes": [
+    {
+      "locale": "es",
+      "width": 360,
+      "route": "mobile",
+      "overflow": 0,
+      "bottomGap": 36
+    },
+    {
+      "locale": "es",
+      "width": 390,
+      "route": "mobile",
+      "overflow": 0,
+      "bottomGap": 36
+    },
+    {
+      "locale": "es",
+      "width": 430,
+      "route": "mobile",
+      "overflow": 0,
+      "bottomGap": 36
+    },
+    {
+      "locale": "es",
+      "width": 768,
+      "route": "tablet",
+      "overflow": 0,
+      "bottomGap": 36
+    },
+    {
+      "locale": "es",
+      "width": 900,
+      "route": "tablet",
+      "overflow": 0,
+      "bottomGap": 36
+    },
+    {
+      "locale": "es",
+      "width": 1024,
+      "route": "desktop",
+      "overflow": 0,
+      "bottomGap": 40.953125
+    },
+    {
+      "locale": "es",
+      "width": 1366,
+      "route": "desktop",
+      "overflow": 0,
+      "bottomGap": 54.625
+    },
+    {
+      "locale": "es",
+      "width": 1920,
+      "route": "desktop",
+      "overflow": 0,
+      "bottomGap": 56
+    },
+    {
+      "locale": "es",
+      "width": 2560,
+      "route": "desktop",
+      "overflow": 0,
+      "bottomGap": 56
+    },
+    {
+      "locale": "en",
+      "width": 360,
+      "route": "mobile",
+      "overflow": 0,
+      "bottomGap": 36
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "route": "mobile",
+      "overflow": 0,
+      "bottomGap": 36
+    },
+    {
+      "locale": "en",
+      "width": 430,
+      "route": "mobile",
+      "overflow": 0,
+      "bottomGap": 36
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "route": "tablet",
+      "overflow": 0,
+      "bottomGap": 36
+    },
+    {
+      "locale": "en",
+      "width": 900,
+      "route": "tablet",
+      "overflow": 0,
+      "bottomGap": 36
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "route": "desktop",
+      "overflow": 0,
+      "bottomGap": 40.953125
+    },
+    {
+      "locale": "en",
+      "width": 1366,
+      "route": "desktop",
+      "overflow": 0,
+      "bottomGap": 54.625
+    },
+    {
+      "locale": "en",
+      "width": 1920,
+      "route": "desktop",
+      "overflow": 0,
+      "bottomGap": 56
+    },
+    {
+      "locale": "en",
+      "width": 2560,
+      "route": "desktop",
+      "overflow": 0,
+      "bottomGap": 56
+    },
+    {
+      "locale": "pt",
+      "width": 360,
+      "route": "mobile",
+      "overflow": 0,
+      "bottomGap": 36
+    },
+    {
+      "locale": "pt",
+      "width": 390,
+      "route": "mobile",
+      "overflow": 0,
+      "bottomGap": 36
+    },
+    {
+      "locale": "pt",
+      "width": 430,
+      "route": "mobile",
+      "overflow": 0,
+      "bottomGap": 36
+    },
+    {
+      "locale": "pt",
+      "width": 768,
+      "route": "tablet",
+      "overflow": 0,
+      "bottomGap": 36
+    },
+    {
+      "locale": "pt",
+      "width": 900,
+      "route": "tablet",
+      "overflow": 0,
+      "bottomGap": 36
+    },
+    {
+      "locale": "pt",
+      "width": 1024,
+      "route": "desktop",
+      "overflow": 0,
+      "bottomGap": 40.953125
+    },
+    {
+      "locale": "pt",
+      "width": 1366,
+      "route": "desktop",
+      "overflow": 0,
+      "bottomGap": 54.625
+    },
+    {
+      "locale": "pt",
+      "width": 1920,
+      "route": "desktop",
+      "overflow": 0,
+      "bottomGap": 56
+    },
+    {
+      "locale": "pt",
+      "width": 2560,
+      "route": "desktop",
+      "overflow": 0,
+      "bottomGap": 56
+    },
+    {
+      "locale": "fr",
+      "width": 360,
+      "route": "mobile",
+      "overflow": 0,
+      "bottomGap": 36
+    },
+    {
+      "locale": "fr",
+      "width": 390,
+      "route": "mobile",
+      "overflow": 0,
+      "bottomGap": 36
+    },
+    {
+      "locale": "fr",
+      "width": 430,
+      "route": "mobile",
+      "overflow": 0,
+      "bottomGap": 36
+    },
+    {
+      "locale": "fr",
+      "width": 768,
+      "route": "tablet",
+      "overflow": 0,
+      "bottomGap": 36
+    },
+    {
+      "locale": "fr",
+      "width": 900,
+      "route": "tablet",
+      "overflow": 0,
+      "bottomGap": 36
+    },
+    {
+      "locale": "fr",
+      "width": 1024,
+      "route": "desktop",
+      "overflow": 0,
+      "bottomGap": 40.953125
+    },
+    {
+      "locale": "fr",
+      "width": 1366,
+      "route": "desktop",
+      "overflow": 0,
+      "bottomGap": 54.625
+    },
+    {
+      "locale": "fr",
+      "width": 1920,
+      "route": "desktop",
+      "overflow": 0,
+      "bottomGap": 56
+    },
+    {
+      "locale": "fr",
+      "width": 2560,
+      "route": "desktop",
+      "overflow": 0,
+      "bottomGap": 56
+    },
+    {
+      "locale": "ja",
+      "width": 360,
+      "route": "mobile",
+      "overflow": 0,
+      "bottomGap": 36
+    },
+    {
+      "locale": "ja",
+      "width": 390,
+      "route": "mobile",
+      "overflow": 0,
+      "bottomGap": 36
+    },
+    {
+      "locale": "ja",
+      "width": 430,
+      "route": "mobile",
+      "overflow": 0,
+      "bottomGap": 36
+    },
+    {
+      "locale": "ja",
+      "width": 768,
+      "route": "tablet",
+      "overflow": 0,
+      "bottomGap": 36
+    },
+    {
+      "locale": "ja",
+      "width": 900,
+      "route": "tablet",
+      "overflow": 0,
+      "bottomGap": 36
+    },
+    {
+      "locale": "ja",
+      "width": 1024,
+      "route": "desktop",
+      "overflow": 0,
+      "bottomGap": 40.953125
+    },
+    {
+      "locale": "ja",
+      "width": 1366,
+      "route": "desktop",
+      "overflow": 0,
+      "bottomGap": 54.625
+    },
+    {
+      "locale": "ja",
+      "width": 1920,
+      "route": "desktop",
+      "overflow": 0,
+      "bottomGap": 56
+    },
+    {
+      "locale": "ja",
+      "width": 2560,
+      "route": "desktop",
+      "overflow": 0,
+      "bottomGap": 56
+    }
+  ],
+  "desktop": [
+    {
+      "locale": "es",
+      "width": 1024,
+      "first": {
+        "name": "services-entry",
+        "scroll": 346.59999999999997,
+        "distance": 292.0845947265625
+      },
+      "middle": {
+        "name": "inside-stack",
+        "scroll": 1791.565625,
+        "distance": 1965.5074462890625
+      },
+      "exit": {
+        "name": "outside-stack",
+        "scroll": 2784.355625,
+        "distance": 3337.599365234375
+      },
+      "bottomGap": 40.953125
+    },
+    {
+      "locale": "es",
+      "width": 1366,
+      "first": {
+        "name": "services-entry",
+        "scroll": 439.11562499999997,
+        "distance": 279.7453918457031
+      },
+      "middle": {
+        "name": "inside-stack",
+        "scroll": 1908.690625,
+        "distance": 2111.9052734375
+      },
+      "exit": {
+        "name": "outside-stack",
+        "scroll": 2911.730625,
+        "distance": 3349.896484375
+      },
+      "bottomGap": 54.625
+    },
+    {
+      "locale": "es",
+      "width": 1920,
+      "first": {
+        "name": "services-entry",
+        "scroll": 487,
+        "distance": 374.65155029296875
+      },
+      "middle": {
+        "name": "inside-stack",
+        "scroll": 2502.575,
+        "distance": 2677.139404296875
+      },
+      "exit": {
+        "name": "outside-stack",
+        "scroll": 3951.775,
+        "distance": 4360.45263671875
+      },
+      "bottomGap": 56
+    },
+    {
+      "locale": "es",
+      "width": 2560,
+      "first": {
+        "name": "services-entry",
+        "scroll": 648.9999999999999,
+        "distance": 554.6515502929688
+      },
+      "middle": {
+        "name": "inside-stack",
+        "scroll": 3294.575,
+        "distance": 3397.139892578125
+      },
+      "exit": {
+        "name": "outside-stack",
+        "scroll": 5258.575,
+        "distance": 5620.45263671875
+      },
+      "bottomGap": 56
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "first": {
+        "name": "services-entry",
+        "scroll": 346.59999999999997,
+        "distance": 255.3189697265625
+      },
+      "middle": {
+        "name": "inside-stack",
+        "scroll": 1791.565625,
+        "distance": 1928.7418212890625
+      },
+      "exit": {
+        "name": "outside-stack",
+        "scroll": 2784.355625,
+        "distance": 3300.833740234375
+      },
+      "bottomGap": 40.953125
+    },
+    {
+      "locale": "en",
+      "width": 1366,
+      "first": {
+        "name": "services-entry",
+        "scroll": 439.11562499999997,
+        "distance": 279.7453918457031
+      },
+      "middle": {
+        "name": "inside-stack",
+        "scroll": 1943.878125,
+        "distance": 2147.0927734375
+      },
+      "exit": {
+        "name": "outside-stack",
+        "scroll": 2946.918125,
+        "distance": 3385.083984375
+      },
+      "bottomGap": 54.625
+    },
+    {
+      "locale": "en",
+      "width": 1920,
+      "first": {
+        "name": "services-entry",
+        "scroll": 487,
+        "distance": 374.65155029296875
+      },
+      "middle": {
+        "name": "inside-stack",
+        "scroll": 2537.7625,
+        "distance": 2712.326904296875
+      },
+      "exit": {
+        "name": "outside-stack",
+        "scroll": 3986.9625,
+        "distance": 4395.6396484375
+      },
+      "bottomGap": 56
+    },
+    {
+      "locale": "en",
+      "width": 2560,
+      "first": {
+        "name": "services-entry",
+        "scroll": 648.9999999999999,
+        "distance": 554.6515502929688
+      },
+      "middle": {
+        "name": "inside-stack",
+        "scroll": 3329.7625,
+        "distance": 3432.327392578125
+      },
+      "exit": {
+        "name": "outside-stack",
+        "scroll": 5293.7625,
+        "distance": 5655.64013671875
+      },
+      "bottomGap": 56
+    },
+    {
+      "locale": "pt",
+      "width": 1024,
+      "first": {
+        "name": "services-entry",
+        "scroll": 346.59999999999997,
+        "distance": 255.3189697265625
+      },
+      "middle": {
+        "name": "inside-stack",
+        "scroll": 1791.565625,
+        "distance": 1928.7418212890625
+      },
+      "exit": {
+        "name": "outside-stack",
+        "scroll": 2784.355625,
+        "distance": 3300.833740234375
+      },
+      "bottomGap": 40.953125
+    },
+    {
+      "locale": "pt",
+      "width": 1366,
+      "first": {
+        "name": "services-entry",
+        "scroll": 439.11562499999997,
+        "distance": 279.7453918457031
+      },
+      "middle": {
+        "name": "inside-stack",
+        "scroll": 1908.690625,
+        "distance": 2111.9052734375
+      },
+      "exit": {
+        "name": "outside-stack",
+        "scroll": 2911.730625,
+        "distance": 3349.896484375
+      },
+      "bottomGap": 54.625
+    },
+    {
+      "locale": "pt",
+      "width": 1920,
+      "first": {
+        "name": "services-entry",
+        "scroll": 487,
+        "distance": 320.6515808105469
+      },
+      "middle": {
+        "name": "inside-stack",
+        "scroll": 2502.575,
+        "distance": 2623.139404296875
+      },
+      "exit": {
+        "name": "outside-stack",
+        "scroll": 3951.775,
+        "distance": 4306.45263671875
+      },
+      "bottomGap": 56
+    },
+    {
+      "locale": "pt",
+      "width": 2560,
+      "first": {
+        "name": "services-entry",
+        "scroll": 648.9999999999999,
+        "distance": 500.65155029296875
+      },
+      "middle": {
+        "name": "inside-stack",
+        "scroll": 3294.575,
+        "distance": 3343.139892578125
+      },
+      "exit": {
+        "name": "outside-stack",
+        "scroll": 5258.575,
+        "distance": 5566.45263671875
+      },
+      "bottomGap": 56
+    },
+    {
+      "locale": "fr",
+      "width": 1024,
+      "first": {
+        "name": "services-entry",
+        "scroll": 346.59999999999997,
+        "distance": 255.3189697265625
+      },
+      "middle": {
+        "name": "inside-stack",
+        "scroll": 1791.565625,
+        "distance": 1928.7418212890625
+      },
+      "exit": {
+        "name": "outside-stack",
+        "scroll": 2784.355625,
+        "distance": 3300.833740234375
+      },
+      "bottomGap": 40.953125
+    },
+    {
+      "locale": "fr",
+      "width": 1366,
+      "first": {
+        "name": "services-entry",
+        "scroll": 537.2249999999999,
+        "distance": 279.7452697753906
+      },
+      "middle": {
+        "name": "inside-stack",
+        "scroll": 2006.8,
+        "distance": 2111.9052734375
+      },
+      "exit": {
+        "name": "outside-stack",
+        "scroll": 3009.84,
+        "distance": 3349.896484375
+      },
+      "bottomGap": 54.625
+    },
+    {
+      "locale": "fr",
+      "width": 1920,
+      "first": {
+        "name": "services-entry",
+        "scroll": 487,
+        "distance": 320.6515808105469
+      },
+      "middle": {
+        "name": "inside-stack",
+        "scroll": 2502.575,
+        "distance": 2623.139404296875
+      },
+      "exit": {
+        "name": "outside-stack",
+        "scroll": 3951.775,
+        "distance": 4306.45263671875
+      },
+      "bottomGap": 56
+    },
+    {
+      "locale": "fr",
+      "width": 2560,
+      "first": {
+        "name": "services-entry",
+        "scroll": 648.9999999999999,
+        "distance": 500.65155029296875
+      },
+      "middle": {
+        "name": "inside-stack",
+        "scroll": 3294.575,
+        "distance": 3343.139892578125
+      },
+      "exit": {
+        "name": "outside-stack",
+        "scroll": 5258.575,
+        "distance": 5566.45263671875
+      },
+      "bottomGap": 56
+    },
+    {
+      "locale": "ja",
+      "width": 1024,
+      "first": {
+        "name": "services-entry",
+        "scroll": 346.59999999999997,
+        "distance": 277.2095947265625
+      },
+      "middle": {
+        "name": "inside-stack",
+        "scroll": 1798.175,
+        "distance": 1957.2418212890625
+      },
+      "exit": {
+        "name": "outside-stack",
+        "scroll": 2790.965,
+        "distance": 3329.333740234375
+      },
+      "bottomGap": 40.953125
+    },
+    {
+      "locale": "ja",
+      "width": 1366,
+      "first": {
+        "name": "services-entry",
+        "scroll": 494.02187499999997,
+        "distance": 280.7453918457031
+      },
+      "middle": {
+        "name": "inside-stack",
+        "scroll": 1968.003125,
+        "distance": 2117.3115234375
+      },
+      "exit": {
+        "name": "outside-stack",
+        "scroll": 2971.043125,
+        "distance": 3355.302734375
+      },
+      "bottomGap": 54.625
+    },
+    {
+      "locale": "ja",
+      "width": 1920,
+      "first": {
+        "name": "services-entry",
+        "scroll": 487,
+        "distance": 345.85467529296875
+      },
+      "middle": {
+        "name": "inside-stack",
+        "scroll": 2506.98125,
+        "distance": 2652.748779296875
+      },
+      "exit": {
+        "name": "outside-stack",
+        "scroll": 3956.18125,
+        "distance": 4336.06201171875
+      },
+      "bottomGap": 56
+    },
+    {
+      "locale": "ja",
+      "width": 2560,
+      "first": {
+        "name": "services-entry",
+        "scroll": 648.9999999999999,
+        "distance": 525.8546752929688
+      },
+      "middle": {
+        "name": "inside-stack",
+        "scroll": 3298.98125,
+        "distance": 3372.749267578125
+      },
+      "exit": {
+        "name": "outside-stack",
+        "scroll": 5262.98125,
+        "distance": 5596.06201171875
+      },
+      "bottomGap": 56
+    }
+  ],
+  "mobile": [
+    {
+      "locale": "es",
+      "width": 360,
+      "route": "mobile",
+      "bottomGap": 36
+    },
+    {
+      "locale": "es",
+      "width": 390,
+      "route": "mobile",
+      "bottomGap": 36
+    },
+    {
+      "locale": "es",
+      "width": 430,
+      "route": "mobile",
+      "bottomGap": 36
+    },
+    {
+      "locale": "es",
+      "width": 768,
+      "route": "tablet",
+      "bottomGap": 36
+    },
+    {
+      "locale": "es",
+      "width": 900,
+      "route": "tablet",
+      "bottomGap": 36
+    },
+    {
+      "locale": "en",
+      "width": 360,
+      "route": "mobile",
+      "bottomGap": 36
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "route": "mobile",
+      "bottomGap": 36
+    },
+    {
+      "locale": "en",
+      "width": 430,
+      "route": "mobile",
+      "bottomGap": 36
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "route": "tablet",
+      "bottomGap": 36
+    },
+    {
+      "locale": "en",
+      "width": 900,
+      "route": "tablet",
+      "bottomGap": 36
+    },
+    {
+      "locale": "pt",
+      "width": 360,
+      "route": "mobile",
+      "bottomGap": 36
+    },
+    {
+      "locale": "pt",
+      "width": 390,
+      "route": "mobile",
+      "bottomGap": 36
+    },
+    {
+      "locale": "pt",
+      "width": 430,
+      "route": "mobile",
+      "bottomGap": 36
+    },
+    {
+      "locale": "pt",
+      "width": 768,
+      "route": "tablet",
+      "bottomGap": 36
+    },
+    {
+      "locale": "pt",
+      "width": 900,
+      "route": "tablet",
+      "bottomGap": 36
+    },
+    {
+      "locale": "fr",
+      "width": 360,
+      "route": "mobile",
+      "bottomGap": 36
+    },
+    {
+      "locale": "fr",
+      "width": 390,
+      "route": "mobile",
+      "bottomGap": 36
+    },
+    {
+      "locale": "fr",
+      "width": 430,
+      "route": "mobile",
+      "bottomGap": 36
+    },
+    {
+      "locale": "fr",
+      "width": 768,
+      "route": "tablet",
+      "bottomGap": 36
+    },
+    {
+      "locale": "fr",
+      "width": 900,
+      "route": "tablet",
+      "bottomGap": 36
+    },
+    {
+      "locale": "ja",
+      "width": 360,
+      "route": "mobile",
+      "bottomGap": 36
+    },
+    {
+      "locale": "ja",
+      "width": 390,
+      "route": "mobile",
+      "bottomGap": 36
+    },
+    {
+      "locale": "ja",
+      "width": 430,
+      "route": "mobile",
+      "bottomGap": 36
+    },
+    {
+      "locale": "ja",
+      "width": 768,
+      "route": "tablet",
+      "bottomGap": 36
+    },
+    {
+      "locale": "ja",
+      "width": 900,
+      "route": "tablet",
+      "bottomGap": 36
+    }
+  ],
+  "interaction": [
+    {
+      "width": 1366,
+      "highestHead": 602.747314453125
+    },
+    {
+      "width": 1920,
+      "highestHead": 816.367919921875
+    },
+    {
+      "width": 2560,
+      "highestHead": 1014.20166015625
+    },
+    {
+      "y": 2052,
+      "distance": 2017.4142187500001,
+      "headViewportY": 762.08251953125
+    },
+    {
+      "y": 2277,
+      "distance": 2346.8042187499996,
+      "headViewportY": 573.375
+    },
+    {
+      "y": 3541,
+      "distance": 4033.65421875,
+      "headViewportY": 701.8896484375
+    },
+    {
+      "y": 2503,
+      "distance": 2677.69421875,
+      "headViewportY": 383.929931640625
+    },
+    {
+      "curveSteps": 17,
+      "slowDownUp": true
+    },
+    {
+      "resize": "desktop → mobile → desktop",
+      "route": "desktop"
+    },
+    {
+      "cursor": {
+        "pressed": 12,
+        "normal": 18,
+        "hover": 30
+      }
+    }
+  ],
+  "reducedMotion": {
+    "offset": 0,
+    "pulse": "none",
+    "route": "mobile"
+  }
+}

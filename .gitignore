@@ -1,0 +1,22 @@
+node_modules/
+dist/
+.astro/
+.cache/
+.pnpm-store/
+.vite/
+coverage/
+test-results/
+playwright-report/
+
+# Local configuration and credentials. A documented example may be versioned.
+.env
+.env.*
+!.env.example
+
+# Generated logs and temporary files; QA evidence remains versioned.
+*.log
+*.tmp
+*.temp
+*.tsbuildinfo
+.DS_Store
+Thumbs.db

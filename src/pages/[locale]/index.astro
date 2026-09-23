@@ -1,0 +1,10 @@
+---
+import Page from '../../components/Page.astro';
+import { localeCodes } from '../../content/locales';
+
+export function getStaticPaths() {
+  return localeCodes.filter((code) => code !== 'es').map((locale) => ({ params: { locale } }));
+}
+const locale = Astro.params.locale as 'en' | 'pt' | 'fr' | 'ja';
+---
+<Page locale={locale} />

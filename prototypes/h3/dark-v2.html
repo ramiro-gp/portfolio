@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es" data-theme="dark" data-accent="orange">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>H3 static prototype — dark v2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="dark-v2.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Saltar al contenido</a>
+    <header class="site-header">
+      <nav class="header-inner" aria-label="Navegación de prototipo">
+        <a class="brand" href="#top">ramita.dev</a>
+        <div class="desktop-nav">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <details class="preferences">
+            <summary>Preferencias <span class="current-accent" aria-hidden="true"></span></summary>
+            <div class="preferences-panel">
+              <p class="panel-label">Idioma</p>
+              <p class="option-line"><strong>ES</strong><span>EN</span><span>PT</span></p>
+              <p class="panel-label">Theme</p>
+              <p class="option-line"><strong>Dark</strong><a href="light.html">Light</a></p>
+              <p class="panel-label">Accent</p>
+              <div class="accent-specimen" role="img" aria-label="Muestra visual: naranja seleccionado; celeste, fucsia, verde lima y blanco disponibles">
+                <span class="accent-option is-selected" data-color="orange">✓</span><span class="accent-option" data-color="sky"></span><span class="accent-option" data-color="fuchsia"></span><span class="accent-option" data-color="lime"></span><span class="accent-option" data-color="white"></span>
+              </div>
+              <a class="accent-preview-link" href="swatches.html#dark">Comparar colores <span aria-hidden="true">↗</span></a>
+            </div>
+          </details>
+        </div>
+        <details class="mobile-menu">
+          <summary>Menú</summary>
+          <div class="mobile-panel">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <div class="mobile-preferences">
+              <p class="panel-label">Idioma</p><p class="option-line"><strong>ES</strong><span>EN</span><span>PT</span></p>
+              <p class="panel-label">Theme</p><p class="option-line"><strong>Dark</strong><a href="light.html">Light</a></p>
+              <p class="panel-label">Accent</p>
+              <div class="accent-specimen" role="img" aria-label="Muestra visual: naranja seleccionado; celeste, fucsia, verde lima y blanco disponibles">
+                <span class="accent-option is-selected" data-color="orange">✓</span><span class="accent-option" data-color="sky"></span><span class="accent-option" data-color="fuchsia"></span><span class="accent-option" data-color="lime"></span><span class="accent-option" data-color="white"></span>
+              </div>
+              <a class="accent-preview-link" href="swatches.html#dark">Comparar colores ↗</a>
+            </div>
+          </div>
+        </details>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section-rail" id="top" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <h1 id="hero-title"><span>Ramiro</span> <span>Garcia</span></h1>
+          <div class="hero-support">
+            <p class="hero-role">Full Stack Developer</p>
+            <p class="hero-statement">[PRIMARY STATEMENT]</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section-rail" id="about" aria-labelledby="about-title">
+        <div class="section-divider"></div>
+        <h2 id="about-title">About</h2>
+        <div class="about-copy"><p>[TODO_CONTENT — frontend / full stack]</p><p>[TODO_CONTENT — UX/UI / producto / IA]</p></div>
+      </section>
+
+      <section class="projects section-rail" id="projects" aria-labelledby="projects-title">
+        <div class="section-divider"></div>
+        <h2 id="projects-title">Projects</h2>
+        <article class="project-example">
+          <div class="project-visual"><span>TODO_ASSET</span></div>
+          <div class="project-context">
+            <p class="project-type">TODO_PROJECT_DATA</p>
+            <h3>[PROJECT NAME]</h3>
+            <p>[TODO_PROJECT_DATA — rol y resumen comprobados]</p>
+            <span class="project-link-sample">[LINK IF APPROVED]</span>
+          </div>
+        </article>
+      </section>
+
+      <section class="contact section-rail" id="contact" aria-labelledby="contact-title">
+        <div class="section-divider"></div>
+        <h2 id="contact-title">Contact</h2>
+        <p class="availability">Disponible para trabajo freelance</p>
+        <a class="email" href="mailto:ramirogperucho@gmail.com">ramirogperucho@gmail.com</a>
+        <div class="contact-secondary"><span>Copiar email [H6]</span><a href="https://github.com/ramiro-gp">GitHub ↗</a></div>
+        <footer>ramita.dev</footer>
+      </section>
+    </main>
+  </body>
+</html>

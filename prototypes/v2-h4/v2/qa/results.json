@@ -1,0 +1,272 @@
+{
+  "report": [
+    {
+      "theme": "dark",
+      "width": 1440,
+      "height": 900,
+      "overflow": false,
+      "font": true,
+      "accent": "#ff9b58",
+      "animations": 0,
+      "whatsapp": "https://wa.me/5491151354489",
+      "ctaBottom": 597.296875,
+      "anchorClear": true,
+      "expandedOverflow": false,
+      "text200Overflow": false
+    },
+    {
+      "theme": "dark",
+      "width": 1280,
+      "height": 800,
+      "overflow": false,
+      "font": true,
+      "accent": "#ff9b58",
+      "animations": 0,
+      "whatsapp": "https://wa.me/5491151354489",
+      "ctaBottom": 490.1875,
+      "anchorClear": true,
+      "expandedOverflow": false,
+      "text200Overflow": false
+    },
+    {
+      "theme": "dark",
+      "width": 1024,
+      "height": 768,
+      "overflow": false,
+      "font": true,
+      "accent": "#ff9b58",
+      "animations": 0,
+      "whatsapp": "https://wa.me/5491151354489",
+      "ctaBottom": 439.03125,
+      "anchorClear": true,
+      "expandedOverflow": false,
+      "text200Overflow": false
+    },
+    {
+      "theme": "dark",
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "font": true,
+      "accent": "#ff9b58",
+      "animations": 0,
+      "whatsapp": "https://wa.me/5491151354489",
+      "ctaBottom": 408.90625,
+      "anchorClear": true,
+      "expandedOverflow": false,
+      "text200Overflow": false
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "font": true,
+      "accent": "#ff9b58",
+      "animations": 0,
+      "whatsapp": "https://wa.me/5491151354489",
+      "ctaBottom": 490.375,
+      "anchorClear": true,
+      "expandedOverflow": false,
+      "text200Overflow": false
+    },
+    {
+      "theme": "dark",
+      "width": 320,
+      "height": 740,
+      "overflow": false,
+      "font": true,
+      "accent": "#ff9b58",
+      "animations": 0,
+      "whatsapp": "https://wa.me/5491151354489",
+      "ctaBottom": 540.421875,
+      "anchorClear": true,
+      "expandedOverflow": false,
+      "text200Overflow": false
+    },
+    {
+      "theme": "dark",
+      "width": 1536,
+      "height": 960,
+      "overflow": false,
+      "font": true,
+      "accent": "#ff9b58",
+      "animations": 0,
+      "whatsapp": "https://wa.me/5491151354489",
+      "ctaBottom": 597.296875,
+      "anchorClear": true,
+      "expandedOverflow": false,
+      "text200Overflow": false
+    },
+    {
+      "theme": "light",
+      "width": 1440,
+      "height": 900,
+      "overflow": false,
+      "font": true,
+      "accent": "#176844",
+      "animations": 0,
+      "whatsapp": "https://wa.me/5491151354489",
+      "ctaBottom": 597.296875,
+      "anchorClear": true,
+      "expandedOverflow": false,
+      "text200Overflow": false
+    },
+    {
+      "theme": "light",
+      "width": 1280,
+      "height": 800,
+      "overflow": false,
+      "font": true,
+      "accent": "#176844",
+      "animations": 0,
+      "whatsapp": "https://wa.me/5491151354489",
+      "ctaBottom": 490.1875,
+      "anchorClear": true,
+      "expandedOverflow": false,
+      "text200Overflow": false
+    },
+    {
+      "theme": "light",
+      "width": 1024,
+      "height": 768,
+      "overflow": false,
+      "font": true,
+      "accent": "#176844",
+      "animations": 0,
+      "whatsapp": "https://wa.me/5491151354489",
+      "ctaBottom": 439.03125,
+      "anchorClear": true,
+      "expandedOverflow": false,
+      "text200Overflow": false
+    },
+    {
+      "theme": "light",
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "font": true,
+      "accent": "#176844",
+      "animations": 0,
+      "whatsapp": "https://wa.me/5491151354489",
+      "ctaBottom": 408.90625,
+      "anchorClear": true,
+      "expandedOverflow": false,
+      "text200Overflow": false
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "font": true,
+      "accent": "#176844",
+      "animations": 0,
+      "whatsapp": "https://wa.me/5491151354489",
+      "ctaBottom": 490.375,
+      "anchorClear": true,
+      "expandedOverflow": false,
+      "text200Overflow": false
+    },
+    {
+      "theme": "light",
+      "width": 320,
+      "height": 740,
+      "overflow": false,
+      "font": true,
+      "accent": "#176844",
+      "animations": 0,
+      "whatsapp": "https://wa.me/5491151354489",
+      "ctaBottom": 540.421875,
+      "anchorClear": true,
+      "expandedOverflow": false,
+      "text200Overflow": false
+    },
+    {
+      "theme": "light",
+      "width": 1536,
+      "height": 960,
+      "overflow": false,
+      "font": true,
+      "accent": "#176844",
+      "animations": 0,
+      "whatsapp": "https://wa.me/5491151354489",
+      "ctaBottom": 597.296875,
+      "anchorClear": true,
+      "expandedOverflow": false,
+      "text200Overflow": false
+    },
+    {
+      "specimen": 1440,
+      "rows": 10,
+      "overflow": false
+    },
+    {
+      "specimen": 390,
+      "rows": 10,
+      "overflow": false
+    },
+    {
+      "specimen": 320,
+      "rows": 10,
+      "overflow": false
+    }
+  ],
+  "contrasts": {
+    "dark": [
+      {
+        "color": "#ff9b58",
+        "onBackground": 8.55,
+        "onSurface": 7.42
+      },
+      {
+        "color": "#78cffc",
+        "onBackground": 10.29,
+        "onSurface": 8.92
+      },
+      {
+        "color": "#f58acd",
+        "onBackground": 7.97,
+        "onSurface": 6.92
+      },
+      {
+        "color": "#c4e773",
+        "onBackground": 12.75,
+        "onSurface": 11.05
+      },
+      {
+        "color": "#f1f0ec",
+        "onBackground": 15.62,
+        "onSurface": 13.55
+      }
+    ],
+    "light": [
+      {
+        "color": "#1c57be",
+        "onBackground": 6.05,
+        "onSurface": 5.71
+      },
+      {
+        "color": "#176844",
+        "onBackground": 6.16,
+        "onSurface": 5.81
+      },
+      {
+        "color": "#b23b35",
+        "onBackground": 5.34,
+        "onSurface": 5.04
+      },
+      {
+        "color": "#6d42aa",
+        "onBackground": 6.34,
+        "onSurface": 5.98
+      },
+      {
+        "color": "#202421",
+        "onBackground": 14.29,
+        "onSurface": 13.48
+      }
+    ]
+  },
+  "priorPrototypesPreserved": true
+}

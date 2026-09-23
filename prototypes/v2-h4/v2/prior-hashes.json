@@ -1,0 +1,147 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "DF97171148FB6F06DE1F64F11B42D44F58E32E7FF705281DC9A55175A8145540",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\h3\\dark-v2.css"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "D5BDCC45E93F2EDF75295857B060876D504CC00E41CCAA89D551562D789D4728",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\h3\\dark-v2.html"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "3E2EABCF20DA3801E46A88319E1788C2AD5B2AB6B1E03AD1091F6E20D189BF90",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\h3\\index.html"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "65D0E87FDCAC59DC7652687D58621559DED7538B292D151572FE27B53E19AEB7",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\h3\\light.html"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "3CAA713FFEF3DF0A4EC767C2D5C85DC4769526A2516487C403EF8EA034E21D65",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\h3\\README.md"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "3D7284C7DED3D5A6B613DA2AED1F74F607C5D9C24712153ADCF4519FAF0565A4",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\h3\\styles.css"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "18759DC2CCDA6AAED05C782CBB33F581EF429995DA2A715271F7964C7AEF57D9",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\h3\\swatches.html"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "BF815FF742E567F6EFC201FFB67929490EF2BDC9DB8B71C46D6AE83272AEB59A",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\v2-h4\\index.html"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "935C1A2454CCE4E2C4B835955BBBB3B8D67A176AB07841240CBF29A73DE200CF",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\v2-h4\\qa.cjs"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "20AB693D641EE886A0F16CF689B43485F9E6721BF457F38593AF8813CF3567F9",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\v2-h4\\README.md"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "8376190B50F5838F81798D1436F877C889D2BEECA4C8E0A1E0A3C5CA5D37ABD6",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\v2-h4\\states.html"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "A025733ABD4D372BA94CE0A1752CF01871F28004C1DBE78C1843E79618417EF7",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\v2-h4\\styles.css"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "B24F1812584816958AFCF22E22D08E44318C5E51651E25D2438EFDDE389B33B1",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\v2-h4\\assets\\InstrumentSans.ttf"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "9E27A72ED30EB49A08678F6A5D6ED98EC7BA5368F541637EE0683EC9134EF966",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\v2-h4\\assets\\OFL.txt"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "5CE9AFFAF2EB86965224E563A5F0B46ACB9559531F4015777460AD7D77C6C9C4",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\v2-h4\\qa\\1024-home.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "C3F5DDCB28605D534353396046D978F10784553BC45C6A0FEC118D7C77C758C5",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\v2-h4\\qa\\1280-hero.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "EEF999387D588B0731A82A161BD2359CFC11AF2549327D7340CD350305F0ADD8",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\v2-h4\\qa\\1280-home.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "9BEB10C9B9FD120229119C42DAAF09872455B911F3467222DA8B629AED92E2FB",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\v2-h4\\qa\\1440-hero.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "7B8B891D7FB7E35F5F77D95D30CA600EDD6930E100961AE0A0B37136541B3D86",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\v2-h4\\qa\\1440-home.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "B9952BC20E1F3122D5619674E82D1D73A7CEF30858A73B23A328EE67332E7386",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\v2-h4\\qa\\1536-home.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "95C30422E5502E9E2106B56DE203D0402A1CEA856BD0D31A67DD04C076064C0B",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\v2-h4\\qa\\320-home.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "8C8FF4C42A946B8364F8F771477D5098CF1D084CD6B40D8018C18D38A774CE05",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\v2-h4\\qa\\390-contact.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "635D84BAD924C4FD71F16D05369174872CD16B0DF56A7ACD32C4D887C95A4A51",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\v2-h4\\qa\\390-hero.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "EA7D766DB986085E92B3B4EC8D7B3B888E244D7AFEE3368D90B79D9DB1949EED",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\v2-h4\\qa\\390-home.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "BCEE4F06853FEADB7452F3DC121F273C6C787B2EE1965C100ABDA672E7F44994",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\v2-h4\\qa\\390-menu.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "1F58938EB3B48432F183C0BCA9C67FD459510FCF2496241B815254A0C7ED88C5",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\v2-h4\\qa\\390-states.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "542EDBFB1355A3AAB426F2EBC49F78CD18D8488CE24B3D855C24D0105D54FFD7",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\v2-h4\\qa\\768-hero.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "3EDB8CB9037683713CE050968949ED46C5FB19233D4E6D266520320C482F4E23",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\v2-h4\\qa\\768-home.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "3695D4656B64017EE91610FF93EB88D80C948E60D8EBA40C5392DFB4C0628F62",
+    "Path": "C:\\Codigo\\portfolio\\prototypes\\v2-h4\\qa\\results.json"
+  }
+]

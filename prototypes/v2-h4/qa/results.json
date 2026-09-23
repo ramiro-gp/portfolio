@@ -1,0 +1,86 @@
+[
+  {
+    "width": 1440,
+    "height": 900,
+    "overflow": false,
+    "font": true,
+    "ctaBottom": 597.296875,
+    "animations": 0,
+    "contactTop": 325.03125,
+    "headerBottom": 73,
+    "expandedOverflow": false,
+    "textStressOverflow": false
+  },
+  {
+    "width": 1280,
+    "height": 800,
+    "overflow": false,
+    "font": true,
+    "ctaBottom": 490.1875,
+    "animations": 0,
+    "contactTop": 231.78125,
+    "headerBottom": 73,
+    "expandedOverflow": false,
+    "textStressOverflow": false
+  },
+  {
+    "width": 1024,
+    "height": 768,
+    "overflow": false,
+    "font": true,
+    "ctaBottom": 447.03125,
+    "animations": 0,
+    "contactTop": 233.296875,
+    "headerBottom": 73,
+    "expandedOverflow": false,
+    "textStressOverflow": false
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "overflow": false,
+    "font": true,
+    "ctaBottom": 408.90625,
+    "animations": 0,
+    "contactTop": 505.34375,
+    "headerBottom": 65,
+    "expandedOverflow": false,
+    "textStressOverflow": false
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "font": true,
+    "ctaBottom": 490.375,
+    "animations": 0,
+    "contactTop": 262.296875,
+    "headerBottom": 61,
+    "expandedOverflow": false,
+    "textStressOverflow": false
+  },
+  {
+    "width": 320,
+    "height": 740,
+    "overflow": false,
+    "font": true,
+    "ctaBottom": 540.421875,
+    "animations": 0,
+    "contactTop": 96.1875,
+    "headerBottom": 61,
+    "expandedOverflow": false,
+    "textStressOverflow": false
+  },
+  {
+    "width": 1536,
+    "height": 960,
+    "overflow": false,
+    "font": true,
+    "ctaBottom": 597.296875,
+    "animations": 0,
+    "contactTop": 385.03125,
+    "headerBottom": 73,
+    "expandedOverflow": false,
+    "textStressOverflow": false
+  }
+]

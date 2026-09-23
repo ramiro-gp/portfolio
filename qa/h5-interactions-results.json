@@ -1,0 +1,129 @@
+{
+  "routes": [
+    {
+      "route": "/",
+      "lang": "es",
+      "ok": true
+    },
+    {
+      "route": "/en/",
+      "lang": "en",
+      "ok": true
+    },
+    {
+      "route": "/pt/",
+      "lang": "pt",
+      "ok": true
+    },
+    {
+      "route": "/fr/",
+      "lang": "fr",
+      "ok": true
+    },
+    {
+      "route": "/ja/",
+      "lang": "ja",
+      "ok": true
+    }
+  ],
+  "widths": [
+    {
+      "width": 320,
+      "height": 740,
+      "normal": false,
+      "enlarged": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "normal": false,
+      "enlarged": false
+    },
+    {
+      "width": 600,
+      "height": 900,
+      "normal": false,
+      "enlarged": false
+    },
+    {
+      "width": 900,
+      "height": 900,
+      "normal": false,
+      "enlarged": false
+    },
+    {
+      "width": 1100,
+      "height": 800,
+      "normal": false,
+      "enlarged": false
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "normal": false,
+      "enlarged": false
+    },
+    {
+      "width": 1600,
+      "height": 900,
+      "normal": false,
+      "enlarged": false
+    }
+  ],
+  "interactions": [
+    "es enlarged low-viewport menu remains scrollable",
+    "es enlarged menu closes with Escape",
+    "en enlarged low-viewport menu remains scrollable",
+    "en enlarged menu closes with Escape",
+    "pt enlarged low-viewport menu remains scrollable",
+    "pt enlarged menu closes with Escape",
+    "fr enlarged low-viewport menu remains scrollable",
+    "fr enlarged menu closes with Escape",
+    "ja enlarged low-viewport menu remains scrollable",
+    "ja enlarged menu closes with Escape",
+    "stable accessible Hero",
+    "dialog and inert background",
+    "focus trap forward",
+    "focus trap backward",
+    "theme and accent controls are directly visible",
+    "light light-green stays open",
+    "light light-blue stays open",
+    "light light-red stays open",
+    "light light-violet stays open",
+    "light light-black stays open",
+    "dark dark-orange stays open",
+    "dark dark-blue stays open",
+    "dark dark-fuchsia stays open",
+    "dark dark-lime stays open",
+    "dark dark-white stays open",
+    "per-theme accent memory",
+    "reverse close keeps dialog during animation",
+    "Escape restores trigger after reverse close",
+    "stored theme and accent survive reload",
+    "menu navigation closes and focuses destination",
+    "blank overlay closes without forcing trigger focus",
+    "line recalculates on resize",
+    "desktop service stack enabled",
+    "native scroll reverses through sticky services",
+    "touch menu opens without custom cursor",
+    "touch trigger closes",
+    "reduced motion fallback and static line",
+    "invalid stored preferences use light/green fallback",
+    "blocked storage leaves base theme and usable menu",
+    "no-JS content and navigation",
+    "copy success icon and announcement",
+    "copy failure preserves usable email"
+  ],
+  "browsers": [
+    {
+      "name": "Chrome",
+      "version": "153.0.8010.53",
+      "smoke": "pass"
+    },
+    {
+      "name": "Edge",
+      "version": "153.0.4234.48",
+      "smoke": "pass"
+    }
+  ]
+}

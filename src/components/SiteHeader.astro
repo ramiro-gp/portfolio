@@ -1,0 +1,59 @@
+---
+import { copy, languageNames, localeCodes, routes, type LocaleCode } from '../content/locales';
+const { locale } = Astro.props as { locale: LocaleCode };
+const t = copy[locale];
+const ids = ['inicio', 'servicios', 'proyectos', 'ramiro', 'contacto'];
+const accents = [
+  { id: 'light-green', color: '#176844', group: 'light' },
+  { id: 'light-blue', color: '#1C57BE', group: 'light' },
+  { id: 'light-red', color: '#B23B35', group: 'light' },
+  { id: 'light-violet', color: '#6D42AA', group: 'light' },
+  { id: 'light-black', color: '#202421', group: 'light' },
+  { id: 'dark-orange', color: '#FF9B58', group: 'dark' },
+  { id: 'dark-blue', color: '#78CFFC', group: 'dark' },
+  { id: 'dark-fuchsia', color: '#F58ACD', group: 'dark' },
+  { id: 'dark-lime', color: '#C4E773', group: 'dark' },
+  { id: 'dark-white', color: '#F1F0EC', group: 'dark' }
+];
+---
+<a class="skip-link" href="#main">{t.skip}</a>
+<header class="site-header" data-menu-root>
+  <div class="header-inner rail">
+    <a class="brand" href={`${routes[locale]}#inicio`} aria-label={t.brandLabel}>ramita.dev</a>
+    <details class="menu-shell" data-menu>
+      <summary class="menu-trigger" aria-controls="site-menu" data-close-label={t.closeMenu}><span data-menu-label>{t.menu}</span><span class="menu-glyph" aria-hidden="true"></span></summary>
+      <div class="menu-panel" id="site-menu" aria-label={t.navLabel}>
+        <nav class="menu-navigation" aria-label={t.navLabel}>
+          {ids.map((id, index) => <a href={`#${id}`} data-section-link><span class="menu-index" aria-hidden="true">{String(index + 1).padStart(2, '0')} /</span><span>{t.nav[index]}</span></a>)}
+        </nav>
+        <div class="menu-bottom">
+          <div class="menu-contact">
+            <a href="mailto:ramirogperucho@gmail.com">ramirogperucho@gmail.com</a>
+            <a href="https://wa.me/5491151354489">+54 9 11 5135-4489</a>
+          </div>
+          <div class="menu-utilities">
+            <div class="language-group" aria-label={t.language}>
+              <span class="utility-heading">{t.language}</span>
+              <div class="language-links">{localeCodes.map((code) => <a href={routes[code]} lang={code} hreflang={code} aria-current={code === locale ? 'page' : undefined} data-language-link>{languageNames[code]}</a>)}</div>
+            </div>
+            <div class="appearance" data-appearance aria-label={t.appearance}>
+              <div class="appearance-group">
+                <span class="utility-heading" id="mode-heading">{t.modeLabel}</span>
+                <div class="theme-options" role="group" aria-labelledby="mode-heading">
+                  <button type="button" data-theme-choice="light">{t.light}</button>
+                  <button type="button" data-theme-choice="dark">{t.dark}</button>
+                </div>
+              </div>
+              <div class="appearance-group">
+                <span class="utility-heading" id="color-heading">{t.primaryColorLabel}</span>
+                <div class="accent-options" role="group" aria-labelledby="color-heading">
+                  {accents.map((item, index) => <button type="button" class="accent-choice" data-accent-choice={item.id} data-accent-group={item.group} aria-label={t.accentNames[index]} style={`--swatch:${item.color}`}><span aria-hidden="true"></span></button>)}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </details>
+  </div>
+</header>

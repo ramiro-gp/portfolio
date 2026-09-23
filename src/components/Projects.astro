@@ -1,0 +1,18 @@
+---
+import { copy, type LocaleCode } from '../content/locales';
+const { locale } = Astro.props as { locale: LocaleCode };
+const t = copy[locale];
+---
+<section class="section projects rail" id="proyectos" tabindex="-1" aria-labelledby="projects-title" data-line-anchor="projects">
+  <div class="section-heading" data-reveal><span class="section-index" aria-hidden="true">03 /</span><h2 id="projects-title">{t.nav[2]}</h2></div>
+  <div class="project-heading" data-reveal>
+    <h3>Residencias Grupo Casa</h3>
+    <p class="project-status">{t.caseState} <span aria-hidden="true">·</span> <a href="https://residenciasgrupocasa.com.ar/" target="_blank" rel="noopener noreferrer">{t.viewSite}</a></p>
+  </div>
+  <div class="project-text" data-reveal><p>{t.caseContext}</p><p>{t.caseSolution}</p></div>
+  <div class="project-figures" data-reveal>
+    <figure class="figure-mobile"><img src="/images/residencias-mobile.png" width="390" height="844" loading="lazy" alt={t.mobileAlt} /><figcaption>{t.mobileCaption}</figcaption></figure>
+    <figure class="figure-desktop"><img src="/images/residencias-desktop.png" width="1440" height="900" loading="lazy" alt={t.desktopAlt} /><figcaption>{t.desktopCaption}</figcaption></figure>
+  </div>
+  <p class="project-capabilities" data-reveal>{t.caseCapabilities}</p>
+</section>

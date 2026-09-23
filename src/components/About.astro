@@ -1,0 +1,19 @@
+---
+import { copy, type LocaleCode } from '../content/locales';
+const { locale } = Astro.props as { locale: LocaleCode };
+const t = copy[locale];
+---
+<section class="section about rail" id="ramiro" tabindex="-1" aria-labelledby="about-title" data-line-anchor="about">
+  <div class="profile" data-reveal>
+    <div class="section-heading"><span class="section-index" aria-hidden="true">04 /</span><h2 id="about-title">{t.aboutTitle}</h2></div>
+    <p class="professional-title">{t.professionalTitle}</p>
+    <p>{t.profile}</p>
+    <div class="profile-links"><p>{t.availability}</p><a href="https://github.com/ramiro-gp" target="_blank" rel="noopener noreferrer">GitHub</a></div>
+    {t.disclosure && <p class="language-disclosure">{t.disclosure}</p>}
+  </div>
+  <div class="process" data-reveal>
+    <h3>{t.processTitle}</h3>
+    <div class="process-prose">{t.process.map((paragraph) => <p>{paragraph}</p>)}</div>
+    <p class="process-note">{t.processNote}</p>
+  </div>
+</section>

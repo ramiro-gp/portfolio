@@ -1,0 +1,179 @@
+{
+  "routes": [
+    {
+      "locale": "es",
+      "width": 320,
+      "menuFit": false,
+      "overflow": false
+    },
+    {
+      "locale": "es",
+      "width": 390,
+      "menuFit": true,
+      "overflow": false
+    },
+    {
+      "locale": "es",
+      "width": 1440,
+      "menuFit": true,
+      "overflow": false
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "menuFit": false,
+      "overflow": false
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "menuFit": true,
+      "overflow": false
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "menuFit": true,
+      "overflow": false
+    },
+    {
+      "locale": "pt",
+      "width": 320,
+      "menuFit": false,
+      "overflow": false
+    },
+    {
+      "locale": "pt",
+      "width": 390,
+      "menuFit": true,
+      "overflow": false
+    },
+    {
+      "locale": "pt",
+      "width": 1440,
+      "menuFit": true,
+      "overflow": false
+    },
+    {
+      "locale": "fr",
+      "width": 320,
+      "menuFit": false,
+      "overflow": false
+    },
+    {
+      "locale": "fr",
+      "width": 390,
+      "menuFit": true,
+      "overflow": false
+    },
+    {
+      "locale": "fr",
+      "width": 1440,
+      "menuFit": true,
+      "overflow": false
+    },
+    {
+      "locale": "ja",
+      "width": 320,
+      "menuFit": false,
+      "overflow": false
+    },
+    {
+      "locale": "ja",
+      "width": 390,
+      "menuFit": true,
+      "overflow": false
+    },
+    {
+      "locale": "ja",
+      "width": 1440,
+      "menuFit": true,
+      "overflow": false
+    }
+  ],
+  "checks": [
+    "line has orthogonal rounded turns and solid nodes",
+    "line draws by physical length at scroll 1276",
+    "line matches structural milestones at scroll 1276",
+    "line draws by physical length at scroll 3191",
+    "line matches structural milestones at scroll 3191",
+    "line draws by physical length at scroll 5106",
+    "line matches structural milestones at scroll 5106",
+    "path length advances monotonically between structural milestones",
+    "line retracts on reverse native scroll",
+    "independent menu underlines enter and retract",
+    "keyboard focus reveals menu underline",
+    "reverse close retains a visible contracting overlay",
+    "reverse close releases background after animation",
+    "cursor uses on-accent color over CTA",
+    "cursor switches on inverse scene",
+    "cursor refreshes context when scrolling without pointer movement",
+    "cursor enters inverse context without pointer movement",
+    "reduced-motion menu closes immediately",
+    "reduced-motion pulse is off"
+  ],
+  "progress": [
+    {
+      "scroll": 1276,
+      "drawn": 1188.831953125,
+      "length": 8651.251953125,
+      "expected": 1188.8301771611343
+    },
+    {
+      "scroll": 3191,
+      "drawn": 3645.331953125,
+      "length": 8651.251953125,
+      "expected": 3645.3277132803933
+    },
+    {
+      "scroll": 5106,
+      "drawn": 7200.511953125,
+      "length": 8651.251953125,
+      "expected": 7200.5111835813495
+    }
+  ],
+  "colors": [
+    {
+      "theme": "light",
+      "accent": "light-green",
+      "path": "rgb(23, 104, 68)",
+      "accentColor": "rgb(23, 104, 68)",
+      "github": "rgb(23, 104, 68)",
+      "about": "rgb(23, 24, 22)",
+      "haloCount": 0
+    },
+    {
+      "theme": "light",
+      "accent": "light-black",
+      "path": "rgb(32, 36, 33)",
+      "accentColor": "rgb(32, 36, 33)",
+      "github": "rgb(32, 36, 33)",
+      "about": "rgb(23, 24, 22)",
+      "haloCount": 0
+    },
+    {
+      "theme": "dark",
+      "accent": "dark-orange",
+      "path": "rgb(255, 155, 88)",
+      "accentColor": "rgb(255, 155, 88)",
+      "github": "rgb(255, 155, 88)",
+      "about": "rgb(23, 24, 22)",
+      "haloCount": 0
+    },
+    {
+      "theme": "dark",
+      "accent": "dark-white",
+      "path": "rgb(241, 240, 236)",
+      "accentColor": "rgb(241, 240, 236)",
+      "github": "rgb(241, 240, 236)",
+      "about": "rgb(23, 24, 22)",
+      "haloCount": 0
+    }
+  ],
+  "closing": {
+    "open": true,
+    "closing": true,
+    "clip": "circle(1778.91px at 1307.73px 36px)",
+    "coverRadius": 2160
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "label": "es-desktop",
+    "menuFit": {
+      "scrollHeight": 828,
+      "clientHeight": 828,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "label": "es-mobile",
+    "menuFit": {
+      "scrollHeight": 784,
+      "clientHeight": 784,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "label": "pt-mobile",
+    "menuFit": {
+      "scrollHeight": 784,
+      "clientHeight": 784,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "label": "ja-mobile",
+    "menuFit": {
+      "scrollHeight": 784,
+      "clientHeight": 784,
+      "overflow": false
+    },
+    "errors": []
+  }
+]

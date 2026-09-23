@@ -1,0 +1,609 @@
+[
+  {
+    "locale": "es",
+    "width": 1440,
+    "height": 900,
+    "initial": {
+      "overflow": false,
+      "lang": "es",
+      "h1": "Diseño y desarrollo de sitios web para presentar tu proyecto\nDiseño y desarrollo de sitios web para presentar tu \nservicio",
+      "sections": [
+        "inicio",
+        "servicios",
+        "proyectos",
+        "ramiro",
+        "contacto"
+      ],
+      "theme": "light",
+      "line": true,
+      "sticky": true
+    },
+    "opened": {
+      "dialog": "dialog",
+      "modal": "true",
+      "mainInert": true,
+      "overflow": "hidden",
+      "links": 5
+    },
+    "preferences": {
+      "theme": "dark",
+      "accent": "dark-blue",
+      "controlsVisible": true
+    },
+    "closed": {
+      "open": false,
+      "focus": "menu-trigger",
+      "mainInert": false
+    },
+    "zoomOverflow": false,
+    "errors": []
+  },
+  {
+    "locale": "es",
+    "width": 390,
+    "height": 844,
+    "initial": {
+      "overflow": false,
+      "lang": "es",
+      "h1": "Diseño y desarrollo de sitios web para presentar tu proyecto\nDiseño y desarrollo de sitios web para presentar tu \nservicio",
+      "sections": [
+        "inicio",
+        "servicios",
+        "proyectos",
+        "ramiro",
+        "contacto"
+      ],
+      "theme": "light",
+      "line": true,
+      "sticky": false
+    },
+    "opened": {
+      "dialog": "dialog",
+      "modal": "true",
+      "mainInert": true,
+      "overflow": "hidden",
+      "links": 5
+    },
+    "preferences": {
+      "theme": "dark",
+      "accent": "dark-blue",
+      "controlsVisible": true
+    },
+    "closed": {
+      "open": false,
+      "focus": "menu-trigger",
+      "mainInert": false
+    },
+    "zoomOverflow": false,
+    "errors": []
+  },
+  {
+    "locale": "es",
+    "width": 320,
+    "height": 740,
+    "initial": {
+      "overflow": false,
+      "lang": "es",
+      "h1": "Diseño y desarrollo de sitios web para presentar tu proyecto\nDiseño y desarrollo de sitios web para presentar tu \nservicio",
+      "sections": [
+        "inicio",
+        "servicios",
+        "proyectos",
+        "ramiro",
+        "contacto"
+      ],
+      "theme": "light",
+      "line": true,
+      "sticky": false
+    },
+    "opened": {
+      "dialog": "dialog",
+      "modal": "true",
+      "mainInert": true,
+      "overflow": "hidden",
+      "links": 5
+    },
+    "preferences": {
+      "theme": "dark",
+      "accent": "dark-blue",
+      "controlsVisible": true
+    },
+    "closed": {
+      "open": false,
+      "focus": "menu-trigger",
+      "mainInert": false
+    },
+    "zoomOverflow": false,
+    "errors": []
+  },
+  {
+    "locale": "en/",
+    "width": 1440,
+    "height": 900,
+    "initial": {
+      "overflow": false,
+      "lang": "en",
+      "h1": "Website design and development for your project\nWebsite design and development for your \nservice",
+      "sections": [
+        "inicio",
+        "servicios",
+        "proyectos",
+        "ramiro",
+        "contacto"
+      ],
+      "theme": "light",
+      "line": true,
+      "sticky": true
+    },
+    "opened": {
+      "dialog": "dialog",
+      "modal": "true",
+      "mainInert": true,
+      "overflow": "hidden",
+      "links": 5
+    },
+    "preferences": {
+      "theme": "dark",
+      "accent": "dark-blue",
+      "controlsVisible": true
+    },
+    "closed": {
+      "open": false,
+      "focus": "menu-trigger",
+      "mainInert": false
+    },
+    "zoomOverflow": false,
+    "errors": []
+  },
+  {
+    "locale": "en/",
+    "width": 390,
+    "height": 844,
+    "initial": {
+      "overflow": false,
+      "lang": "en",
+      "h1": "Website design and development for your project\nWebsite design and development for your \nservice",
+      "sections": [
+        "inicio",
+        "servicios",
+        "proyectos",
+        "ramiro",
+        "contacto"
+      ],
+      "theme": "light",
+      "line": true,
+      "sticky": false
+    },
+    "opened": {
+      "dialog": "dialog",
+      "modal": "true",
+      "mainInert": true,
+      "overflow": "hidden",
+      "links": 5
+    },
+    "preferences": {
+      "theme": "dark",
+      "accent": "dark-blue",
+      "controlsVisible": true
+    },
+    "closed": {
+      "open": false,
+      "focus": "menu-trigger",
+      "mainInert": false
+    },
+    "zoomOverflow": false,
+    "errors": []
+  },
+  {
+    "locale": "en/",
+    "width": 320,
+    "height": 740,
+    "initial": {
+      "overflow": false,
+      "lang": "en",
+      "h1": "Website design and development for your project\nWebsite design and development for your \nservice",
+      "sections": [
+        "inicio",
+        "servicios",
+        "proyectos",
+        "ramiro",
+        "contacto"
+      ],
+      "theme": "light",
+      "line": true,
+      "sticky": false
+    },
+    "opened": {
+      "dialog": "dialog",
+      "modal": "true",
+      "mainInert": true,
+      "overflow": "hidden",
+      "links": 5
+    },
+    "preferences": {
+      "theme": "dark",
+      "accent": "dark-blue",
+      "controlsVisible": true
+    },
+    "closed": {
+      "open": false,
+      "focus": "menu-trigger",
+      "mainInert": false
+    },
+    "zoomOverflow": false,
+    "errors": []
+  },
+  {
+    "locale": "pt/",
+    "width": 1440,
+    "height": 900,
+    "initial": {
+      "overflow": false,
+      "lang": "pt",
+      "h1": "Design e desenvolvimento de sites para apresentar seu projeto\nDesign e desenvolvimento de sites para apresentar \nseu serviço",
+      "sections": [
+        "inicio",
+        "servicios",
+        "proyectos",
+        "ramiro",
+        "contacto"
+      ],
+      "theme": "light",
+      "line": true,
+      "sticky": true
+    },
+    "opened": {
+      "dialog": "dialog",
+      "modal": "true",
+      "mainInert": true,
+      "overflow": "hidden",
+      "links": 5
+    },
+    "preferences": {
+      "theme": "dark",
+      "accent": "dark-blue",
+      "controlsVisible": true
+    },
+    "closed": {
+      "open": false,
+      "focus": "menu-trigger",
+      "mainInert": false
+    },
+    "zoomOverflow": false,
+    "errors": []
+  },
+  {
+    "locale": "pt/",
+    "width": 390,
+    "height": 844,
+    "initial": {
+      "overflow": false,
+      "lang": "pt",
+      "h1": "Design e desenvolvimento de sites para apresentar seu projeto\nDesign e desenvolvimento de sites para apresentar \nseu serviço",
+      "sections": [
+        "inicio",
+        "servicios",
+        "proyectos",
+        "ramiro",
+        "contacto"
+      ],
+      "theme": "light",
+      "line": true,
+      "sticky": false
+    },
+    "opened": {
+      "dialog": "dialog",
+      "modal": "true",
+      "mainInert": true,
+      "overflow": "hidden",
+      "links": 5
+    },
+    "preferences": {
+      "theme": "dark",
+      "accent": "dark-blue",
+      "controlsVisible": true
+    },
+    "closed": {
+      "open": false,
+      "focus": "menu-trigger",
+      "mainInert": false
+    },
+    "zoomOverflow": false,
+    "errors": []
+  },
+  {
+    "locale": "pt/",
+    "width": 320,
+    "height": 740,
+    "initial": {
+      "overflow": false,
+      "lang": "pt",
+      "h1": "Design e desenvolvimento de sites para apresentar seu projeto\nDesign e desenvolvimento de sites para apresentar \nseu serviço",
+      "sections": [
+        "inicio",
+        "servicios",
+        "proyectos",
+        "ramiro",
+        "contacto"
+      ],
+      "theme": "light",
+      "line": true,
+      "sticky": false
+    },
+    "opened": {
+      "dialog": "dialog",
+      "modal": "true",
+      "mainInert": true,
+      "overflow": "hidden",
+      "links": 5
+    },
+    "preferences": {
+      "theme": "dark",
+      "accent": "dark-blue",
+      "controlsVisible": true
+    },
+    "closed": {
+      "open": false,
+      "focus": "menu-trigger",
+      "mainInert": false
+    },
+    "zoomOverflow": false,
+    "errors": []
+  },
+  {
+    "locale": "fr/",
+    "width": 1440,
+    "height": 900,
+    "initial": {
+      "overflow": false,
+      "lang": "fr",
+      "h1": "Conception et développement de sites web pour présenter votre projet\nConception et développement de sites web pour présenter votre \nservice",
+      "sections": [
+        "inicio",
+        "servicios",
+        "proyectos",
+        "ramiro",
+        "contacto"
+      ],
+      "theme": "light",
+      "line": true,
+      "sticky": true
+    },
+    "opened": {
+      "dialog": "dialog",
+      "modal": "true",
+      "mainInert": true,
+      "overflow": "hidden",
+      "links": 5
+    },
+    "preferences": {
+      "theme": "dark",
+      "accent": "dark-blue",
+      "controlsVisible": true
+    },
+    "closed": {
+      "open": false,
+      "focus": "menu-trigger",
+      "mainInert": false
+    },
+    "zoomOverflow": false,
+    "errors": []
+  },
+  {
+    "locale": "fr/",
+    "width": 390,
+    "height": 844,
+    "initial": {
+      "overflow": false,
+      "lang": "fr",
+      "h1": "Conception et développement de sites web pour présenter votre projet\nConception et développement de sites web pour présenter votre \nservice",
+      "sections": [
+        "inicio",
+        "servicios",
+        "proyectos",
+        "ramiro",
+        "contacto"
+      ],
+      "theme": "light",
+      "line": true,
+      "sticky": false
+    },
+    "opened": {
+      "dialog": "dialog",
+      "modal": "true",
+      "mainInert": true,
+      "overflow": "hidden",
+      "links": 5
+    },
+    "preferences": {
+      "theme": "dark",
+      "accent": "dark-blue",
+      "controlsVisible": true
+    },
+    "closed": {
+      "open": false,
+      "focus": "menu-trigger",
+      "mainInert": false
+    },
+    "zoomOverflow": false,
+    "errors": []
+  },
+  {
+    "locale": "fr/",
+    "width": 320,
+    "height": 740,
+    "initial": {
+      "overflow": false,
+      "lang": "fr",
+      "h1": "Conception et développement de sites web pour présenter votre projet\nConception et développement de sites web pour présenter votre \nservice",
+      "sections": [
+        "inicio",
+        "servicios",
+        "proyectos",
+        "ramiro",
+        "contacto"
+      ],
+      "theme": "light",
+      "line": true,
+      "sticky": false
+    },
+    "opened": {
+      "dialog": "dialog",
+      "modal": "true",
+      "mainInert": true,
+      "overflow": "hidden",
+      "links": 5
+    },
+    "preferences": {
+      "theme": "dark",
+      "accent": "dark-blue",
+      "controlsVisible": true
+    },
+    "closed": {
+      "open": false,
+      "focus": "menu-trigger",
+      "mainInert": false
+    },
+    "zoomOverflow": false,
+    "errors": []
+  },
+  {
+    "locale": "ja/",
+    "width": 1440,
+    "height": 900,
+    "initial": {
+      "overflow": false,
+      "lang": "ja",
+      "h1": "プロジェクトを紹介するウェブサイトのデザイン・開発\nサービス\nを紹介するウェブサイトのデザイン・開発",
+      "sections": [
+        "inicio",
+        "servicios",
+        "proyectos",
+        "ramiro",
+        "contacto"
+      ],
+      "theme": "light",
+      "line": true,
+      "sticky": true
+    },
+    "opened": {
+      "dialog": "dialog",
+      "modal": "true",
+      "mainInert": true,
+      "overflow": "hidden",
+      "links": 5
+    },
+    "preferences": {
+      "theme": "dark",
+      "accent": "dark-blue",
+      "controlsVisible": true
+    },
+    "closed": {
+      "open": false,
+      "focus": "menu-trigger",
+      "mainInert": false
+    },
+    "zoomOverflow": false,
+    "errors": []
+  },
+  {
+    "locale": "ja/",
+    "width": 390,
+    "height": 844,
+    "initial": {
+      "overflow": false,
+      "lang": "ja",
+      "h1": "プロジェクトを紹介するウェブサイトのデザイン・開発\nサービス\nを紹介するウェブサイトのデザイン・開発",
+      "sections": [
+        "inicio",
+        "servicios",
+        "proyectos",
+        "ramiro",
+        "contacto"
+      ],
+      "theme": "light",
+      "line": true,
+      "sticky": false
+    },
+    "opened": {
+      "dialog": "dialog",
+      "modal": "true",
+      "mainInert": true,
+      "overflow": "hidden",
+      "links": 5
+    },
+    "preferences": {
+      "theme": "dark",
+      "accent": "dark-blue",
+      "controlsVisible": true
+    },
+    "closed": {
+      "open": false,
+      "focus": "menu-trigger",
+      "mainInert": false
+    },
+    "zoomOverflow": false,
+    "errors": []
+  },
+  {
+    "locale": "ja/",
+    "width": 320,
+    "height": 740,
+    "initial": {
+      "overflow": false,
+      "lang": "ja",
+      "h1": "プロジェクトを紹介するウェブサイトのデザイン・開発\nサービス\nを紹介するウェブサイトのデザイン・開発",
+      "sections": [
+        "inicio",
+        "servicios",
+        "proyectos",
+        "ramiro",
+        "contacto"
+      ],
+      "theme": "light",
+      "line": true,
+      "sticky": false
+    },
+    "opened": {
+      "dialog": "dialog",
+      "modal": "true",
+      "mainInert": true,
+      "overflow": "hidden",
+      "links": 5
+    },
+    "preferences": {
+      "theme": "dark",
+      "accent": "dark-blue",
+      "controlsVisible": true
+    },
+    "closed": {
+      "open": false,
+      "focus": "menu-trigger",
+      "mainInert": false
+    },
+    "zoomOverflow": false,
+    "errors": []
+  },
+  {
+    "special": "no-js",
+    "state": {
+      "menuOpen": true,
+      "menuLinks": 5,
+      "fallback": "proyecto",
+      "email": true,
+      "sticky": false,
+      "line": false
+    }
+  },
+  {
+    "special": "reduced",
+    "state": {
+      "menuOpen": false,
+      "menuLinks": 5,
+      "fallback": "proyecto",
+      "email": true,
+      "sticky": false,
+      "line": true
+    }
+  }
+]

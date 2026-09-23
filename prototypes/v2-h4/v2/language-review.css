@@ -1,0 +1,19 @@
+/* H4 locale resistance review; not the production font payload or a full translated Home. */
+@font-face{font-family:"Noto Sans JP Review";src:url("assets/noto-sans-jp-review.ttf") format("truetype");font-style:normal;font-weight:400;font-display:swap}
+html[lang="ja"],html[lang="ja"] :lang(ja){font-family:"Instrument Sans","Noto Sans JP Review","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif}
+html:lang(ja) .hero h1{line-height:1.2;letter-spacing:-.02em;line-break:strict}
+html:lang(ja) p{line-height:1.7;line-break:strict}
+.review-locales{display:flex;flex-wrap:wrap;gap:12px 20px}
+.review-locales a{display:inline-flex;min-height:44px;align-items:center;color:var(--text)}
+.review-locales [aria-current]{font-weight:600}
+.review-services{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;margin-top:36px}
+.review-services h3{overflow-wrap:anywhere}
+.review-caption{margin-top:34px;max-width:64ch;color:var(--muted);font-size:.9375rem}
+.review-about{display:block}
+.review-about .language-disclosure{max-width:58ch}
+.review-contact .contact-data-row{margin-top:12px}
+.review-contact .contact-copy{max-width:62ch}
+.review-contact .phone-row{margin-top:4px}
+.review-flag{font-size:.8125rem;color:var(--muted);margin-top:10px}
+@media(max-width:900px){.review-services{display:block}.review-services h3{padding-block:15px;border-top:1px solid var(--divider)}}
+@media(max-width:479px){.review-locales{gap:4px 12px}.review-contact .contact-data-row .email{font-size:clamp(1.2rem,5.4vw,1.65rem)}}

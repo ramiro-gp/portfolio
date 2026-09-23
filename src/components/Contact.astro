@@ -1,0 +1,22 @@
+---
+import { copy, type LocaleCode } from '../content/locales';
+const { locale } = Astro.props as { locale: LocaleCode };
+const t = copy[locale];
+---
+<section class="section contact rail" id="contacto" tabindex="-1" aria-labelledby="contact-title" data-line-anchor="contact">
+  <div class="section-heading" data-reveal><span class="section-index" aria-hidden="true">05 /</span><h2 id="contact-title">{t.contactTitle}</h2></div>
+  <div class="contact-data" data-reveal>
+    <div class="contact-row email-row">
+      <a class="email" href="mailto:ramirogperucho@gmail.com">ramirogperucho<wbr />@gmail.com</a>
+      <button type="button" class="copy-icon" data-copy="ramirogperucho@gmail.com" data-copy-success={t.emailCopied} data-copy-error={t.emailCopyError} aria-label={t.copyEmail} title={t.copyEmail} hidden><svg class="copy-mark" viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="11" height="11" rx="1"></rect><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"></path></svg><svg class="check-mark" viewBox="0 0 24 24" aria-hidden="true"><path d="m4 12 5 5L20 6"></path></svg></button>
+    </div>
+    <p class="channel-label">WhatsApp</p>
+    <div class="contact-row phone-row">
+      <a class="phone" href="https://wa.me/5491151354489">+54 9 11 5135-4489</a>
+      <button type="button" class="copy-icon" data-copy="+54 9 11 5135-4489" data-copy-success={t.phoneCopied} data-copy-error={t.phoneCopyError} aria-label={t.copyPhone} title={t.copyPhone} hidden><svg class="copy-mark" viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="11" height="11" rx="1"></rect><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"></path></svg><svg class="check-mark" viewBox="0 0 24 24" aria-hidden="true"><path d="m4 12 5 5L20 6"></path></svg></button>
+    </div>
+    <p class="copy-feedback sr-only" role="status" aria-live="polite" data-copy-feedback></p>
+  </div>
+  <p class="contact-guidance" data-reveal>{t.guidance}</p>
+  <button type="button" class="back-to-top" data-back-to-top><svg viewBox="0 0 18 28" fill="none" aria-hidden="true"><path d="M9 27V3m-7 7 7-7 7 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg><span>{t.backToTop}</span></button>
+</section>

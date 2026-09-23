@@ -1,0 +1,647 @@
+{
+  "overflow": [
+    {
+      "locale": "es",
+      "width": 320,
+      "normal": {
+        "client": 320,
+        "scroll": 320,
+        "body": 320
+      },
+      "open": {
+        "client": 320,
+        "scroll": 320,
+        "body": 320
+      },
+      "enlarged": {
+        "client": 320,
+        "scroll": 320,
+        "body": 320
+      }
+    },
+    {
+      "locale": "es",
+      "width": 390,
+      "normal": {
+        "client": 390,
+        "scroll": 390,
+        "body": 390
+      },
+      "open": {
+        "client": 390,
+        "scroll": 390,
+        "body": 390
+      },
+      "enlarged": {
+        "client": 390,
+        "scroll": 390,
+        "body": 390
+      }
+    },
+    {
+      "locale": "es",
+      "width": 768,
+      "normal": {
+        "client": 768,
+        "scroll": 768,
+        "body": 768
+      },
+      "open": {
+        "client": 768,
+        "scroll": 768,
+        "body": 768
+      },
+      "enlarged": {
+        "client": 768,
+        "scroll": 768,
+        "body": 768
+      }
+    },
+    {
+      "locale": "es",
+      "width": 1366,
+      "normal": {
+        "client": 1366,
+        "scroll": 1366,
+        "body": 1366
+      },
+      "open": {
+        "client": 1366,
+        "scroll": 1366,
+        "body": 1366
+      },
+      "enlarged": {
+        "client": 1366,
+        "scroll": 1366,
+        "body": 1366
+      }
+    },
+    {
+      "locale": "es",
+      "width": 1920,
+      "normal": {
+        "client": 1920,
+        "scroll": 1920,
+        "body": 1920
+      },
+      "open": {
+        "client": 1920,
+        "scroll": 1920,
+        "body": 1920
+      },
+      "enlarged": {
+        "client": 1920,
+        "scroll": 1920,
+        "body": 1920
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "normal": {
+        "client": 320,
+        "scroll": 320,
+        "body": 320
+      },
+      "open": {
+        "client": 320,
+        "scroll": 320,
+        "body": 320
+      },
+      "enlarged": {
+        "client": 320,
+        "scroll": 320,
+        "body": 320
+      }
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "normal": {
+        "client": 390,
+        "scroll": 390,
+        "body": 390
+      },
+      "open": {
+        "client": 390,
+        "scroll": 390,
+        "body": 390
+      },
+      "enlarged": {
+        "client": 390,
+        "scroll": 390,
+        "body": 390
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "normal": {
+        "client": 768,
+        "scroll": 768,
+        "body": 768
+      },
+      "open": {
+        "client": 768,
+        "scroll": 768,
+        "body": 768
+      },
+      "enlarged": {
+        "client": 768,
+        "scroll": 768,
+        "body": 768
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1366,
+      "normal": {
+        "client": 1366,
+        "scroll": 1366,
+        "body": 1366
+      },
+      "open": {
+        "client": 1366,
+        "scroll": 1366,
+        "body": 1366
+      },
+      "enlarged": {
+        "client": 1366,
+        "scroll": 1366,
+        "body": 1366
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1920,
+      "normal": {
+        "client": 1920,
+        "scroll": 1920,
+        "body": 1920
+      },
+      "open": {
+        "client": 1920,
+        "scroll": 1920,
+        "body": 1920
+      },
+      "enlarged": {
+        "client": 1920,
+        "scroll": 1920,
+        "body": 1920
+      }
+    },
+    {
+      "locale": "pt",
+      "width": 320,
+      "normal": {
+        "client": 320,
+        "scroll": 320,
+        "body": 320
+      },
+      "open": {
+        "client": 320,
+        "scroll": 320,
+        "body": 320
+      },
+      "enlarged": {
+        "client": 320,
+        "scroll": 320,
+        "body": 320
+      }
+    },
+    {
+      "locale": "pt",
+      "width": 390,
+      "normal": {
+        "client": 390,
+        "scroll": 390,
+        "body": 390
+      },
+      "open": {
+        "client": 390,
+        "scroll": 390,
+        "body": 390
+      },
+      "enlarged": {
+        "client": 390,
+        "scroll": 390,
+        "body": 390
+      }
+    },
+    {
+      "locale": "pt",
+      "width": 768,
+      "normal": {
+        "client": 768,
+        "scroll": 768,
+        "body": 768
+      },
+      "open": {
+        "client": 768,
+        "scroll": 768,
+        "body": 768
+      },
+      "enlarged": {
+        "client": 768,
+        "scroll": 768,
+        "body": 768
+      }
+    },
+    {
+      "locale": "pt",
+      "width": 1366,
+      "normal": {
+        "client": 1366,
+        "scroll": 1366,
+        "body": 1366
+      },
+      "open": {
+        "client": 1366,
+        "scroll": 1366,
+        "body": 1366
+      },
+      "enlarged": {
+        "client": 1366,
+        "scroll": 1366,
+        "body": 1366
+      }
+    },
+    {
+      "locale": "pt",
+      "width": 1920,
+      "normal": {
+        "client": 1920,
+        "scroll": 1920,
+        "body": 1920
+      },
+      "open": {
+        "client": 1920,
+        "scroll": 1920,
+        "body": 1920
+      },
+      "enlarged": {
+        "client": 1920,
+        "scroll": 1920,
+        "body": 1920
+      }
+    },
+    {
+      "locale": "fr",
+      "width": 320,
+      "normal": {
+        "client": 320,
+        "scroll": 320,
+        "body": 320
+      },
+      "open": {
+        "client": 320,
+        "scroll": 320,
+        "body": 320
+      },
+      "enlarged": {
+        "client": 320,
+        "scroll": 320,
+        "body": 320
+      }
+    },
+    {
+      "locale": "fr",
+      "width": 390,
+      "normal": {
+        "client": 390,
+        "scroll": 390,
+        "body": 390
+      },
+      "open": {
+        "client": 390,
+        "scroll": 390,
+        "body": 390
+      },
+      "enlarged": {
+        "client": 390,
+        "scroll": 390,
+        "body": 390
+      }
+    },
+    {
+      "locale": "fr",
+      "width": 768,
+      "normal": {
+        "client": 768,
+        "scroll": 768,
+        "body": 768
+      },
+      "open": {
+        "client": 768,
+        "scroll": 768,
+        "body": 768
+      },
+      "enlarged": {
+        "client": 768,
+        "scroll": 768,
+        "body": 768
+      }
+    },
+    {
+      "locale": "fr",
+      "width": 1366,
+      "normal": {
+        "client": 1366,
+        "scroll": 1366,
+        "body": 1366
+      },
+      "open": {
+        "client": 1366,
+        "scroll": 1366,
+        "body": 1366
+      },
+      "enlarged": {
+        "client": 1366,
+        "scroll": 1366,
+        "body": 1366
+      }
+    },
+    {
+      "locale": "fr",
+      "width": 1920,
+      "normal": {
+        "client": 1920,
+        "scroll": 1920,
+        "body": 1920
+      },
+      "open": {
+        "client": 1920,
+        "scroll": 1920,
+        "body": 1920
+      },
+      "enlarged": {
+        "client": 1920,
+        "scroll": 1920,
+        "body": 1920
+      }
+    },
+    {
+      "locale": "ja",
+      "width": 320,
+      "normal": {
+        "client": 320,
+        "scroll": 320,
+        "body": 320
+      },
+      "open": {
+        "client": 320,
+        "scroll": 320,
+        "body": 320
+      },
+      "enlarged": {
+        "client": 320,
+        "scroll": 320,
+        "body": 320
+      }
+    },
+    {
+      "locale": "ja",
+      "width": 390,
+      "normal": {
+        "client": 390,
+        "scroll": 390,
+        "body": 390
+      },
+      "open": {
+        "client": 390,
+        "scroll": 390,
+        "body": 390
+      },
+      "enlarged": {
+        "client": 390,
+        "scroll": 390,
+        "body": 390
+      }
+    },
+    {
+      "locale": "ja",
+      "width": 768,
+      "normal": {
+        "client": 768,
+        "scroll": 768,
+        "body": 768
+      },
+      "open": {
+        "client": 768,
+        "scroll": 768,
+        "body": 768
+      },
+      "enlarged": {
+        "client": 768,
+        "scroll": 768,
+        "body": 768
+      }
+    },
+    {
+      "locale": "ja",
+      "width": 1366,
+      "normal": {
+        "client": 1366,
+        "scroll": 1366,
+        "body": 1366
+      },
+      "open": {
+        "client": 1366,
+        "scroll": 1366,
+        "body": 1366
+      },
+      "enlarged": {
+        "client": 1366,
+        "scroll": 1366,
+        "body": 1366
+      }
+    },
+    {
+      "locale": "ja",
+      "width": 1920,
+      "normal": {
+        "client": 1920,
+        "scroll": 1920,
+        "body": 1920
+      },
+      "open": {
+        "client": 1920,
+        "scroll": 1920,
+        "body": 1920
+      },
+      "enlarged": {
+        "client": 1920,
+        "scroll": 1920,
+        "body": 1920
+      }
+    }
+  ],
+  "geometry": [
+    {
+      "width": 1366,
+      "height": 768,
+      "d": "M 1233.484375 748.515625 V 891.835625 Q 1233.484375 921.835625 1263.484375 921.835625 H 1302.515625 Q 1332.515625 921.835625 1332.515625 951.835625 V 2126.890625 Q 1332.515625 2162.890625 1296.515625 2162.890625 H 756.28359375 Q 720.28359375 2162.890625 720.28359375 2198.890625 V 3108.240625 Q 720.28359375 3144.240625 684.28359375 3144.240625 H 472.515625 Q 436.515625 3144.240625 436.515625 3180.240625 V 3572.490625 V 3663.890625 Q 436.515625 3699.890625 400.515625 3699.890625 H 73.46875 Q 37.46875 3699.890625 37.46875 3735.890625 V 5163.65625 Q 37.46875 5199.65625 73.46875 5199.65625 H 1276 Q 1312 5199.65625 1312 5235.65625 V 6287.21875",
+      "crossings": 0,
+      "stroke": 17,
+      "nodeRadius": 20,
+      "pulseAnimation": "line-node-pulse",
+      "pulseFill": "rgb(23, 104, 68)",
+      "pathStroke": "rgb(23, 104, 68)"
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "d": "M 1512.96875 873.09375 V 1111.32 Q 1512.96875 1141.32 1542.96875 1141.32 H 1582 Q 1612 1141.32 1612 1171.32 V 2814.375 Q 1612 2850.375 1576 2850.375 H 1033.44 Q 997.44 2850.375 997.44 2886.375 V 4243.375 Q 997.44 4279.375 961.44 4279.375 H 752 Q 716 4279.375 716 4315.375 V 4727.975 V 4819.375 Q 716 4855.375 680 4855.375 H 348 Q 312 4855.375 312 4891.375 V 6327.75 Q 312 6363.75 348 6363.75 H 1570 Q 1606 6363.75 1606 6399.75 V 7767.236875",
+      "crossings": 0,
+      "stroke": 17,
+      "nodeRadius": 20,
+      "pulseAnimation": "line-node-pulse",
+      "pulseFill": "rgb(23, 104, 68)",
+      "pathStroke": "rgb(23, 104, 68)"
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "d": "M 1832.96875 1053.09375 V 1471.32 Q 1832.96875 1501.32 1862.96875 1501.32 H 1902 Q 1932 1501.32 1932 1531.32 V 3714.375 Q 1932 3750.375 1896 3750.375 H 1353.44 Q 1317.44 3750.375 1317.44 3786.375 V 5683.375 Q 1317.44 5719.375 1281.44 5719.375 H 1072 Q 1036 5719.375 1036 5755.375 V 6167.975 V 6259.375 Q 1036 6295.375 1000 6295.375 H 668 Q 632 6295.375 632 6331.375 V 7767.75 Q 632 7803.75 668 7803.75 H 1890 Q 1926 7803.75 1926 7839.75 V 9567.236875",
+      "crossings": 0,
+      "stroke": 17,
+      "nodeRadius": 20,
+      "pulseAnimation": "line-node-pulse",
+      "pulseFill": "rgb(23, 104, 68)",
+      "pathStroke": "rgb(23, 104, 68)"
+    }
+  ],
+  "focus": [
+    {
+      "method": "mouse",
+      "code": "en",
+      "active": "inicio",
+      "sectionOutline": "none",
+      "indexOutline": "none",
+      "indexOutlineWidth": "3px",
+      "pointerClass": true
+    },
+    {
+      "method": "mouse",
+      "code": "pt",
+      "active": "inicio",
+      "sectionOutline": "none",
+      "indexOutline": "none",
+      "indexOutlineWidth": "3px",
+      "pointerClass": true
+    },
+    {
+      "method": "mouse",
+      "code": "fr",
+      "active": "inicio",
+      "sectionOutline": "none",
+      "indexOutline": "none",
+      "indexOutlineWidth": "3px",
+      "pointerClass": true
+    },
+    {
+      "method": "mouse",
+      "code": "ja",
+      "active": "inicio",
+      "sectionOutline": "none",
+      "indexOutline": "none",
+      "indexOutlineWidth": "3px",
+      "pointerClass": true
+    },
+    {
+      "method": "mouse",
+      "code": "es",
+      "active": "inicio",
+      "sectionOutline": "none",
+      "indexOutline": "none",
+      "indexOutlineWidth": "3px",
+      "pointerClass": true
+    },
+    {
+      "method": "keyboard",
+      "code": "en",
+      "active": "inicio",
+      "sectionOutline": "none",
+      "indexOutline": "solid",
+      "indexOutlineWidth": "2px",
+      "pointerClass": false
+    },
+    {
+      "method": "keyboard",
+      "code": "pt",
+      "active": "inicio",
+      "sectionOutline": "none",
+      "indexOutline": "solid",
+      "indexOutlineWidth": "2px",
+      "pointerClass": false
+    },
+    {
+      "method": "keyboard",
+      "code": "fr",
+      "active": "inicio",
+      "sectionOutline": "none",
+      "indexOutline": "solid",
+      "indexOutlineWidth": "2px",
+      "pointerClass": false
+    },
+    {
+      "method": "keyboard",
+      "code": "ja",
+      "active": "inicio",
+      "sectionOutline": "none",
+      "indexOutline": "solid",
+      "indexOutlineWidth": "2px",
+      "pointerClass": false
+    },
+    {
+      "method": "keyboard",
+      "code": "es",
+      "active": "inicio",
+      "sectionOutline": "none",
+      "indexOutline": "solid",
+      "indexOutlineWidth": "2px",
+      "pointerClass": false
+    }
+  ],
+  "themes": [
+    {
+      "theme": "light",
+      "accent": "rgb(23, 104, 68)",
+      "path": "rgb(23, 104, 68)",
+      "node": "rgb(23, 104, 68)",
+      "github": "rgb(23, 104, 68)",
+      "haloCount": 0
+    },
+    {
+      "theme": "light",
+      "accent": "rgb(32, 36, 33)",
+      "path": "rgb(32, 36, 33)",
+      "node": "rgb(32, 36, 33)",
+      "github": "rgb(32, 36, 33)",
+      "haloCount": 0
+    },
+    {
+      "theme": "dark",
+      "accent": "rgb(255, 155, 88)",
+      "path": "rgb(255, 155, 88)",
+      "node": "rgb(255, 155, 88)",
+      "github": "rgb(255, 155, 88)",
+      "haloCount": 0
+    },
+    {
+      "theme": "dark",
+      "accent": "rgb(241, 240, 236)",
+      "path": "rgb(241, 240, 236)",
+      "node": "rgb(241, 240, 236)",
+      "github": "rgb(241, 240, 236)",
+      "haloCount": 0
+    }
+  ],
+  "checks": [
+    "five locales × five widths fit at rest, menu open and 200% text",
+    "Services text is clear of the line at 1366, 1920 and 2560",
+    "all five language transitions distinguish mouse and keyboard focus",
+    "Back to top returns and focuses the Hero by keyboard without a hash",
+    "reduced motion disables pulse and keeps static line/Hero"
+  ]
+}

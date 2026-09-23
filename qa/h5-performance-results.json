@@ -1,0 +1,118 @@
+[
+  {
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "cls": 0,
+    "shifts": [],
+    "lcpMs": 60,
+    "resources": [
+      {
+        "name": "/fonts/InstrumentSans.ttf",
+        "encodedBytes": 194336
+      },
+      {
+        "name": "/_astro/Page.DbWEq44H.css",
+        "encodedBytes": 6059
+      },
+      {
+        "name": "/_astro/BaseLayout.astro_astro_type_script_index_0_lang.Cb7ueLLE.js",
+        "encodedBytes": 4904
+      },
+      {
+        "name": "/images/residencias-mobile.png",
+        "encodedBytes": 182852
+      }
+    ],
+    "fontsLoaded": "loaded"
+  },
+  {
+    "route": "/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "cls": 0,
+    "shifts": [],
+    "lcpMs": 56,
+    "resources": [
+      {
+        "name": "/fonts/InstrumentSans.ttf",
+        "encodedBytes": 194336
+      },
+      {
+        "name": "/_astro/Page.DbWEq44H.css",
+        "encodedBytes": 6059
+      },
+      {
+        "name": "/_astro/BaseLayout.astro_astro_type_script_index_0_lang.Cb7ueLLE.js",
+        "encodedBytes": 4904
+      }
+    ],
+    "fontsLoaded": "loaded"
+  },
+  {
+    "route": "/ja/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "cls": 0,
+    "shifts": [],
+    "lcpMs": 112,
+    "resources": [
+      {
+        "name": "/fonts/InstrumentSans.ttf",
+        "encodedBytes": 194336
+      },
+      {
+        "name": "/_astro/Page.DbWEq44H.css",
+        "encodedBytes": 6059
+      },
+      {
+        "name": "/_astro/BaseLayout.astro_astro_type_script_index_0_lang.Cb7ueLLE.js",
+        "encodedBytes": 4904
+      },
+      {
+        "name": "/fonts/noto-sans-jp-review.ttf",
+        "encodedBytes": 5324144
+      },
+      {
+        "name": "/images/residencias-mobile.png",
+        "encodedBytes": 182852
+      }
+    ],
+    "fontsLoaded": "loaded"
+  },
+  {
+    "route": "/ja/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "cls": 0,
+    "shifts": [],
+    "lcpMs": 108,
+    "resources": [
+      {
+        "name": "/fonts/InstrumentSans.ttf",
+        "encodedBytes": 194336
+      },
+      {
+        "name": "/_astro/Page.DbWEq44H.css",
+        "encodedBytes": 6059
+      },
+      {
+        "name": "/_astro/BaseLayout.astro_astro_type_script_index_0_lang.Cb7ueLLE.js",
+        "encodedBytes": 4904
+      },
+      {
+        "name": "/fonts/noto-sans-jp-review.ttf",
+        "encodedBytes": 5324144
+      }
+    ],
+    "fontsLoaded": "loaded"
+  }
+]

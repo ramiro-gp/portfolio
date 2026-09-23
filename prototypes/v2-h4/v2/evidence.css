@@ -1,0 +1,4 @@
+/* Real screenshot review variant only; placeholder compositions remain untouched. */
+.evidence-image{display:block;width:100%;object-fit:cover;object-position:top;border:1px solid var(--divider);background:var(--surface)}
+.evidence-image.desktop-asset{aspect-ratio:16/10}
+.evidence-image.mobile-asset{aspect-ratio:390/760}

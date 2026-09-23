@@ -1,0 +1,51 @@
+---
+import { copy, localeCodes, routes, type LocaleCode } from '../content/locales';
+import '../styles/global.css';
+
+const { locale } = Astro.props as { locale: LocaleCode };
+const t = copy[locale];
+const canonical = new URL(routes[locale], 'https://ramita.dev').href;
+const person = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Ramiro Garcia',
+  url: 'https://ramita.dev/',
+  sameAs: ['https://github.com/ramiro-gp']
+};
+---
+<!doctype html>
+<html lang={locale} data-theme="light" data-accent="light-green">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="preload" href="/fonts/InstrumentSans.ttf" as="font" type="font/ttf" crossorigin />
+    <title>{t.metaTitle}</title>
+    <meta name="description" content={t.metaDescription} />
+    <link rel="canonical" href={canonical} />
+    {localeCodes.map((code) => <link rel="alternate" hreflang={code} href={new URL(routes[code], 'https://ramita.dev').href} />)}
+    <link rel="alternate" hreflang="x-default" href="https://ramita.dev/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:title" content={t.socialTitle} />
+    <meta property="og:description" content={t.socialDescription} />
+    <script type="application/ld+json" set:html={JSON.stringify(person)} />
+    <script is:inline>
+      (() => {
+        try {
+          const theme = localStorage.getItem('ramita-theme');
+          const next = theme === 'dark' ? 'dark' : 'light';
+          const key = next === 'dark' ? 'ramita-accent-dark' : 'ramita-accent-light';
+          const allowed = next === 'dark' ? ['dark-orange','dark-blue','dark-fuchsia','dark-lime','dark-white'] : ['light-green','light-blue','light-red','light-violet','light-black'];
+          const accent = localStorage.getItem(key);
+          document.documentElement.dataset.theme = next;
+          document.documentElement.dataset.accent = accent && allowed.includes(accent) ? accent : allowed[0];
+        } catch { /* CSS defaults remain usable. */ }
+      })();
+    </script>
+  </head>
+  <body>
+    <slot />
+    <script src="../scripts/site.ts"></script>
+  </body>
+</html>

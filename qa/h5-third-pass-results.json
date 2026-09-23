@@ -1,0 +1,597 @@
+{
+  "routes": [
+    {
+      "locale": "es",
+      "width": 320,
+      "client": 320,
+      "scroll": 320,
+      "heroSize": 44,
+      "sectionSize": 36.8,
+      "words": [
+        "servicio",
+        "proyecto",
+        "marca",
+        "producto",
+        "portfolio",
+        "campaña"
+      ],
+      "firstDuration": 0.31,
+      "lastDelay": 0.084,
+      "fromTransform": "translateY(9.68px)",
+      "fromClip": "inset(100% 0px 0px)",
+      "zoom": {
+        "client": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "locale": "es",
+      "width": 390,
+      "client": 390,
+      "scroll": 390,
+      "heroSize": 45.24,
+      "sectionSize": 36.8,
+      "words": [
+        "servicio",
+        "proyecto",
+        "marca",
+        "producto",
+        "portfolio",
+        "campaña"
+      ],
+      "firstDuration": 0.31,
+      "lastDelay": 0.084,
+      "fromTransform": "translateY(9.9528px)",
+      "fromClip": "inset(100% 0px 0px)",
+      "zoom": {
+        "client": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "locale": "es",
+      "width": 1366,
+      "client": 1366,
+      "scroll": 1366,
+      "heroSize": 90.839,
+      "sectionSize": 57.372,
+      "words": [
+        "servicio",
+        "proyecto",
+        "marca",
+        "producto",
+        "portfolio",
+        "campaña"
+      ],
+      "firstDuration": 0.31,
+      "lastDelay": 0.084,
+      "fromTransform": "translateY(19.9846px)",
+      "fromClip": "inset(100% 0px 0px)",
+      "zoom": {
+        "client": 1366,
+        "scroll": 1366
+      }
+    },
+    {
+      "locale": "es",
+      "width": 1920,
+      "client": 1920,
+      "scroll": 1920,
+      "heroSize": 100,
+      "sectionSize": 58.4,
+      "words": [
+        "servicio",
+        "proyecto",
+        "marca",
+        "producto",
+        "portfolio",
+        "campaña"
+      ],
+      "firstDuration": 0.31,
+      "lastDelay": 0.084,
+      "fromTransform": "translateY(22px)",
+      "fromClip": "inset(100% 0px 0px)",
+      "zoom": {
+        "client": 1920,
+        "scroll": 1920
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "client": 320,
+      "scroll": 320,
+      "heroSize": 44,
+      "sectionSize": 36.8,
+      "words": [
+        "service",
+        "project",
+        "brand",
+        "product",
+        "portfolio",
+        "campaign"
+      ],
+      "firstDuration": 0.31,
+      "lastDelay": 0.072,
+      "fromTransform": "translateY(9.68px)",
+      "fromClip": "inset(100% 0px 0px)",
+      "zoom": {
+        "client": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "client": 390,
+      "scroll": 390,
+      "heroSize": 45.24,
+      "sectionSize": 36.8,
+      "words": [
+        "service",
+        "project",
+        "brand",
+        "product",
+        "portfolio",
+        "campaign"
+      ],
+      "firstDuration": 0.31,
+      "lastDelay": 0.072,
+      "fromTransform": "translateY(9.9528px)",
+      "fromClip": "inset(100% 0px 0px)",
+      "zoom": {
+        "client": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1366,
+      "client": 1366,
+      "scroll": 1366,
+      "heroSize": 90.839,
+      "sectionSize": 57.372,
+      "words": [
+        "service",
+        "project",
+        "brand",
+        "product",
+        "portfolio",
+        "campaign"
+      ],
+      "firstDuration": 0.31,
+      "lastDelay": 0.072,
+      "fromTransform": "translateY(19.9846px)",
+      "fromClip": "inset(100% 0px 0px)",
+      "zoom": {
+        "client": 1366,
+        "scroll": 1366
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1920,
+      "client": 1920,
+      "scroll": 1920,
+      "heroSize": 100,
+      "sectionSize": 58.4,
+      "words": [
+        "service",
+        "project",
+        "brand",
+        "product",
+        "portfolio",
+        "campaign"
+      ],
+      "firstDuration": 0.31,
+      "lastDelay": 0.072,
+      "fromTransform": "translateY(22px)",
+      "fromClip": "inset(100% 0px 0px)",
+      "zoom": {
+        "client": 1920,
+        "scroll": 1920
+      }
+    },
+    {
+      "locale": "pt",
+      "width": 320,
+      "client": 320,
+      "scroll": 320,
+      "heroSize": 44,
+      "sectionSize": 36.8,
+      "words": [
+        "seu serviço",
+        "seu projeto",
+        "sua marca",
+        "seu produto",
+        "seu portfólio",
+        "sua campanha"
+      ],
+      "firstDuration": 0.31,
+      "lastDelay": 0.108,
+      "fromTransform": "translateY(9.68px)",
+      "fromClip": "inset(100% 0px 0px)",
+      "zoom": {
+        "client": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "locale": "pt",
+      "width": 390,
+      "client": 390,
+      "scroll": 390,
+      "heroSize": 45.24,
+      "sectionSize": 36.8,
+      "words": [
+        "seu serviço",
+        "seu projeto",
+        "sua marca",
+        "seu produto",
+        "seu portfólio",
+        "sua campanha"
+      ],
+      "firstDuration": 0.31,
+      "lastDelay": 0.108,
+      "fromTransform": "translateY(9.9528px)",
+      "fromClip": "inset(100% 0px 0px)",
+      "zoom": {
+        "client": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "locale": "pt",
+      "width": 1366,
+      "client": 1366,
+      "scroll": 1366,
+      "heroSize": 90.839,
+      "sectionSize": 57.372,
+      "words": [
+        "seu serviço",
+        "seu projeto",
+        "sua marca",
+        "seu produto",
+        "seu portfólio",
+        "sua campanha"
+      ],
+      "firstDuration": 0.31,
+      "lastDelay": 0.108,
+      "fromTransform": "translateY(19.9846px)",
+      "fromClip": "inset(100% 0px 0px)",
+      "zoom": {
+        "client": 1366,
+        "scroll": 1366
+      }
+    },
+    {
+      "locale": "pt",
+      "width": 1920,
+      "client": 1920,
+      "scroll": 1920,
+      "heroSize": 100,
+      "sectionSize": 58.4,
+      "words": [
+        "seu serviço",
+        "seu projeto",
+        "sua marca",
+        "seu produto",
+        "seu portfólio",
+        "sua campanha"
+      ],
+      "firstDuration": 0.31,
+      "lastDelay": 0.108,
+      "fromTransform": "translateY(22px)",
+      "fromClip": "inset(100% 0px 0px)",
+      "zoom": {
+        "client": 1920,
+        "scroll": 1920
+      }
+    },
+    {
+      "locale": "fr",
+      "width": 320,
+      "client": 320,
+      "scroll": 320,
+      "heroSize": 44,
+      "sectionSize": 36.8,
+      "words": [
+        "service",
+        "projet",
+        "marque",
+        "produit",
+        "portfolio",
+        "campagne"
+      ],
+      "firstDuration": 0.31,
+      "lastDelay": 0.072,
+      "fromTransform": "translateY(9.68px)",
+      "fromClip": "inset(100% 0px 0px)",
+      "zoom": {
+        "client": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "locale": "fr",
+      "width": 390,
+      "client": 390,
+      "scroll": 390,
+      "heroSize": 45.24,
+      "sectionSize": 36.8,
+      "words": [
+        "service",
+        "projet",
+        "marque",
+        "produit",
+        "portfolio",
+        "campagne"
+      ],
+      "firstDuration": 0.31,
+      "lastDelay": 0.072,
+      "fromTransform": "translateY(9.9528px)",
+      "fromClip": "inset(100% 0px 0px)",
+      "zoom": {
+        "client": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "locale": "fr",
+      "width": 1366,
+      "client": 1366,
+      "scroll": 1366,
+      "heroSize": 90.839,
+      "sectionSize": 57.372,
+      "words": [
+        "service",
+        "projet",
+        "marque",
+        "produit",
+        "portfolio",
+        "campagne"
+      ],
+      "firstDuration": 0.31,
+      "lastDelay": 0.072,
+      "fromTransform": "translateY(19.9846px)",
+      "fromClip": "inset(100% 0px 0px)",
+      "zoom": {
+        "client": 1366,
+        "scroll": 1366
+      }
+    },
+    {
+      "locale": "fr",
+      "width": 1920,
+      "client": 1920,
+      "scroll": 1920,
+      "heroSize": 100,
+      "sectionSize": 58.4,
+      "words": [
+        "service",
+        "projet",
+        "marque",
+        "produit",
+        "portfolio",
+        "campagne"
+      ],
+      "firstDuration": 0.31,
+      "lastDelay": 0.072,
+      "fromTransform": "translateY(22px)",
+      "fromClip": "inset(100% 0px 0px)",
+      "zoom": {
+        "client": 1920,
+        "scroll": 1920
+      }
+    },
+    {
+      "locale": "ja",
+      "width": 320,
+      "client": 320,
+      "scroll": 320,
+      "heroSize": 44,
+      "sectionSize": 36.8,
+      "words": [
+        "サービス",
+        "プロジェクト",
+        "ブランド",
+        "製品",
+        "ポートフォリオ",
+        "キャンペーン"
+      ],
+      "firstDuration": 0.31,
+      "lastDelay": 0.036,
+      "fromTransform": "translateY(9.68px)",
+      "fromClip": "inset(100% 0px 0px)",
+      "zoom": {
+        "client": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "locale": "ja",
+      "width": 390,
+      "client": 390,
+      "scroll": 390,
+      "heroSize": 45.24,
+      "sectionSize": 36.8,
+      "words": [
+        "サービス",
+        "プロジェクト",
+        "ブランド",
+        "製品",
+        "ポートフォリオ",
+        "キャンペーン"
+      ],
+      "firstDuration": 0.31,
+      "lastDelay": 0.036,
+      "fromTransform": "translateY(9.9528px)",
+      "fromClip": "inset(100% 0px 0px)",
+      "zoom": {
+        "client": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "locale": "ja",
+      "width": 1366,
+      "client": 1366,
+      "scroll": 1366,
+      "heroSize": 90.839,
+      "sectionSize": 57.372,
+      "words": [
+        "サービス",
+        "プロジェクト",
+        "ブランド",
+        "製品",
+        "ポートフォリオ",
+        "キャンペーン"
+      ],
+      "firstDuration": 0.31,
+      "lastDelay": 0.036,
+      "fromTransform": "translateY(19.9846px)",
+      "fromClip": "inset(100% 0px 0px)",
+      "zoom": {
+        "client": 1366,
+        "scroll": 1366
+      }
+    },
+    {
+      "locale": "ja",
+      "width": 1920,
+      "client": 1920,
+      "scroll": 1920,
+      "heroSize": 100,
+      "sectionSize": 58.4,
+      "words": [
+        "サービス",
+        "プロジェクト",
+        "ブランド",
+        "製品",
+        "ポートフォリオ",
+        "キャンペーン"
+      ],
+      "firstDuration": 0.31,
+      "lastDelay": 0.036,
+      "fromTransform": "translateY(22px)",
+      "fromClip": "inset(100% 0px 0px)",
+      "zoom": {
+        "client": 1920,
+        "scroll": 1920
+      }
+    }
+  ],
+  "line": [
+    {
+      "width": 1366,
+      "height": 768,
+      "length": 8324.01171875,
+      "middleStart": {
+        "name": "stack-middle-entry",
+        "scroll": 1598.7906249999999,
+        "distance": 1454.80029296875
+      },
+      "middleEnd": {
+        "name": "inside-stack",
+        "scroll": 1908.690625,
+        "distance": 2111.9052734375
+      },
+      "horizontal": [
+        1530,
+        1930
+      ],
+      "stroke": 17,
+      "node": 20,
+      "pulseDuration": "3.5s",
+      "halo": 0,
+      "scrollConsumedFor400PathPx": 188.64565584569527,
+      "before": 1529.4617187499998,
+      "after": 1930.2117187499998,
+      "reverse": 1529.4617187499998
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "length": 10010.57421875,
+      "middleStart": {
+        "name": "stack-middle-entry",
+        "scroll": 2052.275,
+        "distance": 2017.70654296875
+      },
+      "middleEnd": {
+        "name": "inside-stack",
+        "scroll": 2502.575,
+        "distance": 2677.139404296875
+      },
+      "horizontal": [
+        2090,
+        2490
+      ],
+      "stroke": 17,
+      "node": 20,
+      "pulseDuration": "3.5s",
+      "halo": 0,
+      "scrollConsumedFor400PathPx": 273.1438036576319,
+      "before": 2090.52421875,
+      "after": 2490.31421875,
+      "reverse": 2090.52421875
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "length": 11990.5732421875,
+      "middleStart": {
+        "name": "stack-middle-entry",
+        "scroll": 2682.275,
+        "distance": 2737.706787109375
+      },
+      "middleEnd": {
+        "name": "inside-stack",
+        "scroll": 3294.575,
+        "distance": 3397.139892578125
+      },
+      "horizontal": [
+        2810,
+        3210
+      ],
+      "stroke": 17,
+      "node": 20,
+      "pulseDuration": "3.5s",
+      "halo": 0,
+      "scrollConsumedFor400PathPx": 371.40992462897566,
+      "before": 2809.5632421875,
+      "after": 3210.203242187499,
+      "reverse": 2809.5632421875
+    }
+  ],
+  "controls": [
+    {
+      "name": "SCROLL",
+      "firstFrame": 0,
+      "y": 768,
+      "target": 93.515625,
+      "header": 73
+    },
+    {
+      "name": "BACK TO TOP",
+      "beforeBack": 5879,
+      "backFirstFrame": 5879,
+      "final": 0
+    }
+  ],
+  "cursor": [
+    {
+      "normal": 18,
+      "hover": 30,
+      "pressed": 12,
+      "released": 18
+    }
+  ],
+  "checks": [
+    "all five locales at mobile/desktop and 200% text remain readable without overflow",
+    "horizontal and curved path progress use structural milestones and reverse exactly",
+    "cursor has distinct pressed, normal and interactive sizes",
+    "reduced motion jumps immediately and disables decorative motion",
+    "both scroll controls work on touch without a custom cursor"
+  ]
+}

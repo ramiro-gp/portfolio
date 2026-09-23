@@ -1,0 +1,66 @@
+/* H3 compositional iteration. The approved color and accent tokens stay in styles.css. */
+
+html[data-theme="dark"] .header-inner {
+  min-height: 54px;
+  background: #1d1f1c;
+  border-color: #2d302b;
+}
+
+html[data-theme="dark"] .hero-content {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 24rem);
+  column-gap: clamp(40px, 4vw, 72px);
+  align-items: end;
+}
+
+html[data-theme="dark"] .hero h1 {
+  grid-column: 1;
+  grid-row: 1;
+  font-size: clamp(3.5rem, 9.7vw, 9.5rem);
+  line-height: .88;
+}
+
+html[data-theme="dark"] .hero-support { display: contents; }
+
+html[data-theme="dark"] .hero-role {
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: clamp(26px, 3vw, 44px);
+}
+
+html[data-theme="dark"] .hero-statement {
+  grid-column: 2;
+  grid-row: 1;
+  align-self: end;
+  max-width: 24ch;
+  margin-bottom: clamp(8px, 1.4vw, 20px);
+  font-size: clamp(1.375rem, 2.1vw, 1.875rem);
+}
+
+@media (max-width: 760px) {
+  html[data-theme="dark"] .header-inner { min-height: 52px; }
+
+  html[data-theme="dark"] .hero {
+    padding-bottom: clamp(112px, 23svh, 200px);
+  }
+
+  html[data-theme="dark"] .hero-content { display: block; }
+
+  html[data-theme="dark"] .hero h1 {
+    font-size: clamp(3.5rem, 13.2vw, 6rem);
+  }
+
+  html[data-theme="dark"] .hero-support {
+    display: block;
+    margin-top: clamp(32px, 8vw, 48px);
+  }
+
+  html[data-theme="dark"] .hero-role { margin-top: 0; }
+
+  html[data-theme="dark"] .hero-statement {
+    max-width: 26ch;
+    margin-top: 22px;
+    margin-bottom: 0;
+    font-size: clamp(1.25rem, 5vw, 1.75rem);
+  }
+}

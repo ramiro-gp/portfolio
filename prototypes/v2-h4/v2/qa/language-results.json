@@ -1,0 +1,326 @@
+[
+  {
+    "lang": "en",
+    "width": 1440,
+    "overflow": false,
+    "documentWidth": 1440,
+    "clipped": [],
+    "hero": "87.74px",
+    "japaneseFontFace": [
+      "unloaded"
+    ],
+    "controls": [
+      {
+        "name": "Copy email",
+        "size": 44,
+        "cursor": "pointer"
+      },
+      {
+        "name": "Copy phone number",
+        "size": 44,
+        "cursor": "pointer"
+      }
+    ],
+    "motion": 0,
+    "disclosure": 1,
+    "mobileMenuOverflow": false,
+    "text200Overflow": false
+  },
+  {
+    "lang": "en",
+    "width": 390,
+    "overflow": false,
+    "documentWidth": 390,
+    "clipped": [],
+    "hero": "43.9725px",
+    "japaneseFontFace": [
+      "unloaded"
+    ],
+    "controls": [
+      {
+        "name": "Copy email",
+        "size": 44,
+        "cursor": "pointer"
+      },
+      {
+        "name": "Copy phone number",
+        "size": 44,
+        "cursor": "pointer"
+      }
+    ],
+    "motion": 0,
+    "disclosure": 1,
+    "mobileMenuOverflow": false,
+    "text200Overflow": false
+  },
+  {
+    "lang": "en",
+    "width": 320,
+    "overflow": false,
+    "documentWidth": 320,
+    "clipped": [],
+    "hero": "39.6px",
+    "japaneseFontFace": [
+      "unloaded"
+    ],
+    "controls": [
+      {
+        "name": "Copy email",
+        "size": 44,
+        "cursor": "pointer"
+      },
+      {
+        "name": "Copy phone number",
+        "size": 44,
+        "cursor": "pointer"
+      }
+    ],
+    "motion": 0,
+    "disclosure": 1,
+    "mobileMenuOverflow": false,
+    "text200Overflow": false
+  },
+  {
+    "lang": "pt",
+    "width": 1440,
+    "overflow": false,
+    "documentWidth": 1440,
+    "clipped": [],
+    "hero": "87.74px",
+    "japaneseFontFace": [
+      "unloaded"
+    ],
+    "controls": [
+      {
+        "name": "Copiar email",
+        "size": 44,
+        "cursor": "pointer"
+      },
+      {
+        "name": "Copiar telefone",
+        "size": 44,
+        "cursor": "pointer"
+      }
+    ],
+    "motion": 0,
+    "disclosure": 1,
+    "mobileMenuOverflow": false,
+    "text200Overflow": false
+  },
+  {
+    "lang": "pt",
+    "width": 390,
+    "overflow": false,
+    "documentWidth": 390,
+    "clipped": [],
+    "hero": "43.9725px",
+    "japaneseFontFace": [
+      "unloaded"
+    ],
+    "controls": [
+      {
+        "name": "Copiar email",
+        "size": 44,
+        "cursor": "pointer"
+      },
+      {
+        "name": "Copiar telefone",
+        "size": 44,
+        "cursor": "pointer"
+      }
+    ],
+    "motion": 0,
+    "disclosure": 1,
+    "mobileMenuOverflow": false,
+    "text200Overflow": false
+  },
+  {
+    "lang": "pt",
+    "width": 320,
+    "overflow": false,
+    "documentWidth": 320,
+    "clipped": [],
+    "hero": "39.6px",
+    "japaneseFontFace": [
+      "unloaded"
+    ],
+    "controls": [
+      {
+        "name": "Copiar email",
+        "size": 44,
+        "cursor": "pointer"
+      },
+      {
+        "name": "Copiar telefone",
+        "size": 44,
+        "cursor": "pointer"
+      }
+    ],
+    "motion": 0,
+    "disclosure": 1,
+    "mobileMenuOverflow": false,
+    "text200Overflow": false
+  },
+  {
+    "lang": "fr",
+    "width": 1440,
+    "overflow": false,
+    "documentWidth": 1440,
+    "clipped": [],
+    "hero": "87.74px",
+    "japaneseFontFace": [
+      "unloaded"
+    ],
+    "controls": [
+      {
+        "name": "Copier l’adresse email",
+        "size": 44,
+        "cursor": "pointer"
+      },
+      {
+        "name": "Copier le numéro de téléphone",
+        "size": 44,
+        "cursor": "pointer"
+      }
+    ],
+    "motion": 0,
+    "disclosure": 1,
+    "mobileMenuOverflow": false,
+    "text200Overflow": false
+  },
+  {
+    "lang": "fr",
+    "width": 390,
+    "overflow": false,
+    "documentWidth": 390,
+    "clipped": [],
+    "hero": "43.9725px",
+    "japaneseFontFace": [
+      "unloaded"
+    ],
+    "controls": [
+      {
+        "name": "Copier l’adresse email",
+        "size": 44,
+        "cursor": "pointer"
+      },
+      {
+        "name": "Copier le numéro de téléphone",
+        "size": 44,
+        "cursor": "pointer"
+      }
+    ],
+    "motion": 0,
+    "disclosure": 1,
+    "mobileMenuOverflow": false,
+    "text200Overflow": false
+  },
+  {
+    "lang": "fr",
+    "width": 320,
+    "overflow": false,
+    "documentWidth": 320,
+    "clipped": [],
+    "hero": "39.6px",
+    "japaneseFontFace": [
+      "unloaded"
+    ],
+    "controls": [
+      {
+        "name": "Copier l’adresse email",
+        "size": 44,
+        "cursor": "pointer"
+      },
+      {
+        "name": "Copier le numéro de téléphone",
+        "size": 44,
+        "cursor": "pointer"
+      }
+    ],
+    "motion": 0,
+    "disclosure": 1,
+    "mobileMenuOverflow": false,
+    "text200Overflow": false
+  },
+  {
+    "lang": "ja",
+    "width": 1440,
+    "overflow": false,
+    "documentWidth": 1440,
+    "clipped": [],
+    "hero": "98.4px",
+    "japaneseFontFace": [
+      "loaded"
+    ],
+    "controls": [
+      {
+        "name": "メールアドレスをコピー",
+        "size": 44,
+        "cursor": "pointer"
+      },
+      {
+        "name": "電話番号をコピー",
+        "size": 44,
+        "cursor": "pointer"
+      }
+    ],
+    "motion": 0,
+    "disclosure": 1,
+    "mobileMenuOverflow": false,
+    "text200Overflow": false
+  },
+  {
+    "lang": "ja",
+    "width": 390,
+    "overflow": false,
+    "documentWidth": 390,
+    "clipped": [],
+    "hero": "47.97px",
+    "japaneseFontFace": [
+      "loaded"
+    ],
+    "controls": [
+      {
+        "name": "メールアドレスをコピー",
+        "size": 44,
+        "cursor": "pointer"
+      },
+      {
+        "name": "電話番号をコピー",
+        "size": 44,
+        "cursor": "pointer"
+      }
+    ],
+    "motion": 0,
+    "disclosure": 1,
+    "mobileMenuOverflow": false,
+    "text200Overflow": false
+  },
+  {
+    "lang": "ja",
+    "width": 320,
+    "overflow": false,
+    "documentWidth": 320,
+    "clipped": [],
+    "hero": "43.2px",
+    "japaneseFontFace": [
+      "loaded"
+    ],
+    "controls": [
+      {
+        "name": "メールアドレスをコピー",
+        "size": 44,
+        "cursor": "pointer"
+      },
+      {
+        "name": "電話番号をコピー",
+        "size": 44,
+        "cursor": "pointer"
+      }
+    ],
+    "motion": 0,
+    "disclosure": 1,
+    "mobileMenuOverflow": false,
+    "text200Overflow": false
+  }
+]

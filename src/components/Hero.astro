@@ -1,0 +1,18 @@
+---
+import { copy, type LocaleCode } from '../content/locales';
+const { locale } = Astro.props as { locale: LocaleCode };
+const t = copy[locale];
+const fallback = `${t.heroPrefix}${t.fallbackWord}${t.heroSuffix}`;
+---
+<section class="hero rail" id="inicio" tabindex="-1" aria-labelledby="hero-title" data-line-anchor="hero">
+  <span class="section-index" aria-hidden="true">01 /</span>
+  <h1 id="hero-title" data-hero>
+    <span class="sr-only">{fallback}</span>
+    <span aria-hidden="true">{t.heroPrefix}<span class="word-slot" data-word-slot data-words={JSON.stringify(t.heroWords)}><span class="word-reserve">{t.heroWords.map((word) => <span>{word}</span>)}</span><span class="word-current" data-word-current>{t.fallbackWord}</span></span>{t.heroSuffix}</span>
+  </h1>
+  <p class="hero-copy">{t.heroCopy}</p>
+  <div class="hero-actions">
+    <a class="cta" href="#contacto">{t.cta}</a>
+    <a class="scroll-cue" href="#servicios" aria-label={t.nav[1]} data-hero-scroll data-line-start><span>SCROLL</span><svg viewBox="0 0 18 28" fill="none" aria-hidden="true"><path d="M9 1v24m-7-7 7 7 7-7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></a>
+  </div>
+</section>
