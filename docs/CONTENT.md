@@ -26,6 +26,8 @@ Actualización pública acotada H5 aprobada posteriormente: el rótulo de la sec
 
 Refinamiento posterior H5: el destino 04 del menú se rotula **Ramiro Garcia** en ES/EN/PT/FR/JA, coincidente con el título de sección ya vigente; el proceso permanece como contenido interno. Los grupos visibles de configuración del menú usan «MODO / COLOR PRINCIPAL» con equivalentes localizados; el indicador visual secundario del Hero dice «SCROLL» y en la tercera pasada H5 pasa a ser operable también en mobile. No cambia el copy descriptivo de H4.
 
+Actualización puntual posterior de H5: el título de pestaña pasa a **ramita | Diseño y desarrollo web / Web design & development / Design e desenvolvimento web / Design et développement web / Webデザイン・開発** para ES/EN/PT/FR/JA. Sólo este campo sustituye los títulos planificados en la evidencia H4; ramita queda en minúscula. Descripciones y títulos sociales no cambian. Contacto permanece deliberadamente sin formulario: email principal, WhatsApp secundario y copia auxiliar son los canales actuales.
+
 Ramiro aprobó el copy fuente español vigente y, tras el patch lingüístico del 2026-09-21, las versiones completas EN/PT/FR/JA en `docs/locales/`. La transcripción canónica ES está en `prototypes/v2-h4/v2/ES-COPY-APPROVED.md` y no se reformuló. La metadata textual prevista queda aprobada por consistencia con el ES fuente y las traducciones. El funcionamiento del feedback de copia sigue en H5; los captions y textos alternativos específicos de las capturas finales siguen en H6.
 
 | Contenido | Estado |

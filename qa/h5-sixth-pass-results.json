@@ -1,0 +1,254 @@
+{
+  "routes": [
+    {
+      "locale": "es",
+      "width": 1366,
+      "contactHeight": 768,
+      "nodeToBack": 56,
+      "exitBeyondRail": 13.484375,
+      "overflow": 0
+    },
+    {
+      "locale": "es",
+      "width": 1920,
+      "contactHeight": 1080,
+      "nodeToBack": 56,
+      "exitBeyondRail": 22,
+      "overflow": 0
+    },
+    {
+      "locale": "es",
+      "width": 2560,
+      "contactHeight": 1440,
+      "nodeToBack": 56,
+      "exitBeyondRail": 22,
+      "overflow": 0
+    },
+    {
+      "locale": "en",
+      "width": 1366,
+      "contactHeight": 768,
+      "nodeToBack": 56,
+      "exitBeyondRail": 13.484375,
+      "overflow": 0
+    },
+    {
+      "locale": "en",
+      "width": 1920,
+      "contactHeight": 1080,
+      "nodeToBack": 56,
+      "exitBeyondRail": 22,
+      "overflow": 0
+    },
+    {
+      "locale": "en",
+      "width": 2560,
+      "contactHeight": 1440,
+      "nodeToBack": 56,
+      "exitBeyondRail": 22,
+      "overflow": 0
+    },
+    {
+      "locale": "pt",
+      "width": 1366,
+      "contactHeight": 768,
+      "nodeToBack": 56,
+      "exitBeyondRail": 13.484375,
+      "overflow": 0
+    },
+    {
+      "locale": "pt",
+      "width": 1920,
+      "contactHeight": 1080,
+      "nodeToBack": 56,
+      "exitBeyondRail": 22,
+      "overflow": 0
+    },
+    {
+      "locale": "pt",
+      "width": 2560,
+      "contactHeight": 1440,
+      "nodeToBack": 56,
+      "exitBeyondRail": 22,
+      "overflow": 0
+    },
+    {
+      "locale": "fr",
+      "width": 1366,
+      "contactHeight": 768,
+      "nodeToBack": 56,
+      "exitBeyondRail": 13.484375,
+      "overflow": 0
+    },
+    {
+      "locale": "fr",
+      "width": 1920,
+      "contactHeight": 1080,
+      "nodeToBack": 56,
+      "exitBeyondRail": 22,
+      "overflow": 0
+    },
+    {
+      "locale": "fr",
+      "width": 2560,
+      "contactHeight": 1440,
+      "nodeToBack": 56,
+      "exitBeyondRail": 22,
+      "overflow": 0
+    },
+    {
+      "locale": "ja",
+      "width": 1366,
+      "contactHeight": 768,
+      "nodeToBack": 56,
+      "exitBeyondRail": 13.484375,
+      "overflow": 0
+    },
+    {
+      "locale": "ja",
+      "width": 1920,
+      "contactHeight": 1080,
+      "nodeToBack": 56,
+      "exitBeyondRail": 22,
+      "overflow": 0
+    },
+    {
+      "locale": "ja",
+      "width": 2560,
+      "contactHeight": 1440,
+      "nodeToBack": 56,
+      "exitBeyondRail": 22,
+      "overflow": 0
+    }
+  ],
+  "scrollbar": [
+    {
+      "theme": "light",
+      "accentId": "light-green",
+      "accent": "rgb(23, 104, 68)",
+      "canvas": "rgb(245, 244, 240)",
+      "thumb": "rgb(23, 104, 68)",
+      "track": "rgb(245, 244, 240)",
+      "button": "none",
+      "width": "10px"
+    },
+    {
+      "theme": "light",
+      "accentId": "light-blue",
+      "accent": "rgb(28, 87, 190)",
+      "canvas": "rgb(245, 244, 240)",
+      "thumb": "rgb(28, 87, 190)",
+      "track": "rgb(245, 244, 240)",
+      "button": "none",
+      "width": "10px"
+    },
+    {
+      "theme": "dark",
+      "accentId": "dark-orange",
+      "accent": "rgb(255, 155, 88)",
+      "canvas": "rgb(23, 24, 22)",
+      "thumb": "rgb(255, 155, 88)",
+      "track": "rgb(23, 24, 22)",
+      "button": "none",
+      "width": "10px"
+    },
+    {
+      "theme": "dark",
+      "accentId": "dark-blue",
+      "accent": "rgb(120, 207, 252)",
+      "canvas": "rgb(23, 24, 22)",
+      "thumb": "rgb(120, 207, 252)",
+      "track": "rgb(23, 24, 22)",
+      "button": "none",
+      "width": "10px"
+    }
+  ],
+  "reverse": [
+    1366,
+    1920,
+    2560
+  ],
+  "backToTop": true,
+  "compact": {
+    "title": "ramita | Diseño y desarrollo web",
+    "route": "mobile",
+    "contact": {
+      "left": 20,
+      "right": 370,
+      "top": 5921.90625,
+      "bottom": 6607.84375,
+      "height": 685.9375
+    },
+    "back": {
+      "left": 260.359375,
+      "right": 370,
+      "top": 6523.84375,
+      "bottom": 6571.84375,
+      "height": 48
+    },
+    "end": {
+      "x": 356,
+      "y": 6487.84375,
+      "radius": 12.5
+    },
+    "headingAlign": "baseline",
+    "peerAligns": [
+      "baseline",
+      "baseline",
+      "baseline"
+    ],
+    "forms": 0,
+    "paddingBottom": 36,
+    "overflow": 0,
+    "path": "M 356 697.28125 V 1145.45296875 Q 356 1170.45296875 331 1170.45296875 H 227 Q 202 1170.45296875 202 1195.45296875 V 1941.453125 Q 202 1966.453125 227 1966.453125 H 331 Q 356 1966.453125 356 1991.453125 V 2642.0625 V 2726.0625 V 4854.015625 V 6487.84375",
+    "pathLength": 6060.8857421875,
+    "milestones": [
+      {
+        "name": "hero",
+        "scroll": 22.081249999999955,
+        "distance": 0
+      },
+      {
+        "name": "stack-entry",
+        "scroll": 516.31375,
+        "distance": 448.1717529296875
+      },
+      {
+        "name": "inside-stack",
+        "scroll": 786.39375,
+        "distance": 633.33349609375
+      },
+      {
+        "name": "stack-exit",
+        "scroll": 1438.5231250000002,
+        "distance": 1379.3336181640625
+      },
+      {
+        "name": "outside-stack",
+        "scroll": 1725.483125,
+        "distance": 1564.495361328125
+      },
+      {
+        "name": "services-text",
+        "scroll": 2153.8625,
+        "distance": 2215.104736328125
+      },
+      {
+        "name": "projects",
+        "scroll": 2278.9425,
+        "distance": 2299.104736328125
+      },
+      {
+        "name": "about",
+        "scroll": 4432.215625,
+        "distance": 4427.0576171875
+      },
+      {
+        "name": "contact",
+        "scroll": 5844,
+        "distance": 6060.8857421875
+      }
+    ],
+    "maxScroll": 5844
+  }
+}

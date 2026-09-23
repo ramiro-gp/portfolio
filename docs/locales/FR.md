@@ -64,7 +64,7 @@ La paire actuelle, ses légendes et ses textes alternatifs sont provisoires. Le 
 
 ## Métadonnées textuelles prévues
 
-- Titre : Ramiro Garcia — Conception et développement de sites web | ramita.dev
+- Titre : ramita | Design et développement web
 - Description : Conception et développement de nouveaux sites web et refontes. Un travail direct avec Ramiro Garcia, de la définition à la mise en ligne.
 - Titre de partage : Ramiro Garcia — Conception et développement de sites web
 - Description de partage : Sites institutionnels, landing pages et refontes, avec un interlocuteur direct.

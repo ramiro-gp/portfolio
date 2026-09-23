@@ -64,7 +64,7 @@ The current image pair and image-specific captions/alternatives are review mater
 
 ## Planned textual metadata
 
-- Title: Ramiro Garcia — Website design and development | ramita.dev
+- Title: ramita | Web design & development
 - Description: Website design and development for new sites and redesigns. Work directly with Ramiro Garcia, from definition through publication.
 - Social preview title: Ramiro Garcia — Website design and development
 - Social preview description: Institutional websites, landing pages and redesigns, with a direct point of contact.

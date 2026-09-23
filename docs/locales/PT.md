@@ -64,7 +64,7 @@ O par atual de imagens, suas legendas e textos alternativos são material de rev
 
 ## Metadados textuais previstos
 
-- Título: Ramiro Garcia — Design e desenvolvimento de sites | ramita.dev
+- Título: ramita | Design e desenvolvimento web
 - Descrição: Design e desenvolvimento de sites novos e redesigns. Trabalho direto com Ramiro Garcia, da definição à publicação.
 - Título de compartilhamento: Ramiro Garcia — Design e desenvolvimento de sites
 - Descrição de compartilhamento: Sites institucionais, landing pages e redesigns, com contato direto.

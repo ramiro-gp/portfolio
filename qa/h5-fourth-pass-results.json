@@ -873,35 +873,35 @@
   "interaction": [
     {
       "width": 1366,
-      "highestHead": 602.747314453125
+      "highestHead": 602.742919921875
     },
     {
       "width": 1920,
-      "highestHead": 816.367919921875
+      "highestHead": 816.364501953125
     },
     {
       "width": 2560,
-      "highestHead": 1014.20166015625
+      "highestHead": 1014.1982421875
     },
     {
       "y": 2052,
-      "distance": 2017.4142187500001,
-      "headViewportY": 762.08251953125
+      "distance": 2017.4207421874999,
+      "headViewportY": 762.08935546875
     },
     {
       "y": 2277,
-      "distance": 2346.8042187499996,
+      "distance": 2346.8007421875,
       "headViewportY": 573.375
     },
     {
       "y": 3541,
-      "distance": 4033.65421875,
-      "headViewportY": 701.8896484375
+      "distance": 4033.6507421875003,
+      "headViewportY": 701.88623046875
     },
     {
       "y": 2503,
-      "distance": 2677.69421875,
-      "headViewportY": 383.929931640625
+      "distance": 2677.6907421875003,
+      "headViewportY": 383.92626953125
     },
     {
       "curveSteps": 17,

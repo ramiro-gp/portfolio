@@ -121,3 +121,13 @@ html.cursor-ready .custom-cursor.is-down{width:12px;height:12px}
   .contact h2{font-size:2rem}
 }
 @media(prefers-reduced-motion:reduce){.continuous-line .line-pulse{animation:none;opacity:0}.continuous-line [data-line-end-group]{transition:none}}
+
+/* Keep native scrolling; tint its browser chrome from the active theme/accent. */
+html::-webkit-scrollbar{width:10px;height:10px}
+html::-webkit-scrollbar-track{background:var(--bg)}
+html::-webkit-scrollbar-thumb{background:var(--accent);border:2px solid var(--bg);border-radius:999px}
+html::-webkit-scrollbar-button{display:none;width:0;height:0}
+@supports (-moz-appearance:none){html{scrollbar-width:thin;scrollbar-color:var(--accent) var(--bg)}}
+
+/* Match the shared 02–04 index/heading baseline in Contact. */
+.contact .section-heading{align-items:baseline}

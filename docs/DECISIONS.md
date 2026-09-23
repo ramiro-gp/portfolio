@@ -1,5 +1,9 @@
 # DECISIONS.md
 
+## 2026-09-23 — V2-H5: curva final, scrollbar y títulos de pestaña
+
+Ramiro limita esta pasada a un cierre desktop de la línea con giro ortogonal suave desde el interior de Contacto hacia un nodo fuera del rail, cercano a IR ARRIBA y anclado al layout; mobile no se rediseña y se evaluará en dispositivo real. La scrollbar permanece nativa y toma accent/theme mediante CSS, ocultando flechas donde el navegador lo permita. El índice 05 recupera el baseline compartido por 02–04. Los cinco títulos de pestaña pasan a empezar por ramita en minúscula, según CONTENT y la tabla de idiomas; no se reabre el resto de SEO. Contacto sigue intencionalmente sin formulario. No se cierra H5 ni se inicia H6.
+
 ## 2026-09-23 — V2-H5: cierre visual de Contacto y control de versiones
 
 Ramiro recupera Contacto como escena flexible de al menos un viewport en desktop, sin restaurar padding inferior excesivo; mobile conserva altura natural. El final de la línea se mide desde «IR ARRIBA» y queda próximo pero separado del botón, con pulso intacto y Back to top sin hash. Pressed del cursor baja a 12 px; normal/hover siguen en 18/30 px. Autoriza inicializar Git en `C:\Codigo\portfolio`, registrar el estado actual en `main` y subirlo al remoto de código fuente `https://github.com/ramiro-gp/portfolio.git`, sin deployment ni cierre de H5. El remoto se comprobó vacío antes del primer commit; QA generado y prototipos se conservan, mientras dependencias, build, caches, logs, temporales y env locales se ignoran. **H5 IN PROGRESS**.

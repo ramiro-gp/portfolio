@@ -374,6 +374,7 @@ if (svg && linePath && startNode && endNode && startPulse && endPulse && endGrou
     const services = box(anchors[1]!);
     const projects = box(anchors[2]!);
     const about = box(anchors[3]!);
+    const contact = box(anchors[4]!);
     const intro = box(serviceIntro!);
     const stack = box(serviceStack!);
     const lowerText = box(capabilities!);
@@ -435,11 +436,13 @@ if (svg && linePath && startNode && endNode && startPulse && endPulse && endGrou
       const innerX = stack.left + (stack.right - stack.left) * .53;
       const lowerTextGutterX = Math.max(services.left + 28, lowerText.left - 48);
       const left = Math.max(24, projects.left - 24);
-      const aboutInset = Number.parseFloat(getComputedStyle(anchors[3]!).paddingRight) || 0;
-      endX = Math.min(width - 54, about.right - aboutInset + 22);
+      // Enter Contact inside its content rail, then turn out past the rail
+      // toward the closing control. Both positions follow the measured layout.
+      const radius = 36;
+      endX = Math.min(width - 48, contact.right + 22);
+      const closingInnerX = Math.min(endX - 3 * radius, back.left - 44);
       const turnA = projects.top + Math.min(42, projects.height * .06);
       const turnB = about.top + Math.min(42, about.height * .06);
-      const radius = 36;
       startY = cue ? cue.bottom + 40 : hero.top + hero.height * .75;
       const firstTurnY = services.top + (intro.top - services.top) * .52;
       const firstRadius = Math.min(30, (serviceGutterX - startX) / 3);
@@ -462,9 +465,9 @@ if (svg && linePath && startNode && endNode && startPulse && endPulse && endGrou
       mark('services-text', lowerText.bottom - innerHeight * .5);
       add(`V ${turnA - radius} Q ${lowerTextGutterX} ${turnA} ${lowerTextGutterX - radius} ${turnA} H ${left + radius} Q ${left} ${turnA} ${left} ${turnA + radius}`);
       mark('projects', projects.top - innerHeight * .3);
-      add(`V ${turnB - radius} Q ${left} ${turnB} ${left + radius} ${turnB} H ${endX - radius} Q ${endX} ${turnB} ${endX} ${turnB + radius}`);
+      add(`V ${turnB - radius} Q ${left} ${turnB} ${left + radius} ${turnB} H ${closingInnerX - radius} Q ${closingInnerX} ${turnB} ${closingInnerX} ${turnB + radius}`);
       mark('about', about.top - innerHeight * .4);
-      add(`V ${endY}`);
+      add(`V ${endY - radius} Q ${closingInnerX} ${endY} ${closingInnerX + radius} ${endY} H ${endX}`);
       mark('contact', endY - innerHeight * .55);
     }
     linePath!.setAttribute('d', d);

@@ -65,7 +65,7 @@ export const copy: Record<LocaleCode, Copy> = {
     contactTitle: 'Contame qué web necesitás.', backToTop: 'IR ARRIBA',
     guidance: 'Podés contarme qué necesitás, para qué, si ya tenés una web y compartir referencias o un plazo deseado. No hace falta tener todo definido para escribirme.',
     copyEmail: 'Copiar email', copyPhone: 'Copiar teléfono', emailCopied: 'Email copiado', emailCopyError: 'No se pudo copiar el email; podés seleccionarlo manualmente', phoneCopied: 'Teléfono copiado', phoneCopyError: 'No se pudo copiar el teléfono; podés seleccionarlo manualmente',
-    metaTitle: 'Ramiro Garcia — Diseño y desarrollo de sitios web | ramita.dev', metaDescription: 'Diseño y desarrollo de sitios web nuevos y rediseños. Trabajo directo con Ramiro Garcia desde la definición hasta la publicación.', socialTitle: 'Ramiro Garcia — Diseño y desarrollo de sitios web', socialDescription: 'Sitios institucionales, landing pages y rediseños, con trato directo.'
+    metaTitle: 'ramita | Diseño y desarrollo web', metaDescription: 'Diseño y desarrollo de sitios web nuevos y rediseños. Trabajo directo con Ramiro Garcia desde la definición hasta la publicación.', socialTitle: 'Ramiro Garcia — Diseño y desarrollo de sitios web', socialDescription: 'Sitios institucionales, landing pages y rediseños, con trato directo.'
   },
   en: {
     brandLabel: 'ramita.dev, home', skip: 'Skip to content', menu: 'Menu', closeMenu: 'Close menu', navLabel: 'Main navigation',
@@ -103,7 +103,7 @@ export const copy: Record<LocaleCode, Copy> = {
     disclosure: 'I speak Spanish. For projects in other languages, I use AI and translation tools alongside each project’s context to communicate and work accurately.',
     contactTitle: 'Tell me what kind of website you need.', backToTop: 'BACK TO TOP', guidance: 'You can tell me what you need, what it’s for, whether you already have a website, and share references or a desired timeframe. You don’t need to have everything defined before writing to me.',
     copyEmail: 'Copy email', copyPhone: 'Copy phone number', emailCopied: 'Email copied', emailCopyError: 'Could not copy email; you can select it manually.', phoneCopied: 'Phone number copied', phoneCopyError: 'Could not copy the phone number; you can select it manually.',
-    metaTitle: 'Ramiro Garcia — Website design and development | ramita.dev', metaDescription: 'Website design and development for new sites and redesigns. Work directly with Ramiro Garcia, from definition through publication.', socialTitle: 'Ramiro Garcia — Website design and development', socialDescription: 'Institutional websites, landing pages and redesigns, with a direct point of contact.'
+    metaTitle: 'ramita | Web design & development', metaDescription: 'Website design and development for new sites and redesigns. Work directly with Ramiro Garcia, from definition through publication.', socialTitle: 'Ramiro Garcia — Website design and development', socialDescription: 'Institutional websites, landing pages and redesigns, with a direct point of contact.'
   },
   pt: {
     brandLabel: 'ramita.dev, início', skip: 'Ir para o conteúdo', menu: 'Menu', closeMenu: 'Fechar menu', navLabel: 'Navegação principal',
@@ -141,7 +141,7 @@ export const copy: Record<LocaleCode, Copy> = {
     disclosure: 'Eu falo espanhol. Em projetos em outros idiomas, uso ferramentas de IA e tradução, junto com o contexto de cada projeto, para me comunicar e trabalhar com precisão.',
     contactTitle: 'Conte-me de que site você precisa.', backToTop: 'VOLTAR AO TOPO', guidance: 'Você pode contar o que precisa, para quê, se já tem um site e compartilhar referências ou um prazo desejado. Não é preciso ter tudo definido para me escrever.',
     copyEmail: 'Copiar email', copyPhone: 'Copiar telefone', emailCopied: 'Email copiado', emailCopyError: 'Não foi possível copiar o email; você pode selecioná-lo manualmente.', phoneCopied: 'Telefone copiado', phoneCopyError: 'Não foi possível copiar o telefone; você pode selecioná-lo manualmente.',
-    metaTitle: 'Ramiro Garcia — Design e desenvolvimento de sites | ramita.dev', metaDescription: 'Design e desenvolvimento de sites novos e redesigns. Trabalho direto com Ramiro Garcia, da definição à publicação.', socialTitle: 'Ramiro Garcia — Design e desenvolvimento de sites', socialDescription: 'Sites institucionais, landing pages e redesigns, com contato direto.'
+    metaTitle: 'ramita | Design e desenvolvimento web', metaDescription: 'Design e desenvolvimento de sites novos e redesigns. Trabalho direto com Ramiro Garcia, da definição à publicação.', socialTitle: 'Ramiro Garcia — Design e desenvolvimento de sites', socialDescription: 'Sites institucionais, landing pages e redesigns, com contato direto.'
   },
   fr: {
     brandLabel: 'ramita.dev, accueil', skip: 'Aller au contenu', menu: 'Menu', closeMenu: 'Fermer le menu', navLabel: 'Navigation principale',
@@ -179,7 +179,7 @@ export const copy: Record<LocaleCode, Copy> = {
     disclosure: 'Je parle espagnol. Pour les projets dans d’autres langues, j’utilise des outils d’IA et de traduction ainsi que le contexte propre à chaque projet pour communiquer et travailler avec précision.',
     contactTitle: 'Parlez-moi du site dont vous avez besoin.', backToTop: 'RETOUR EN HAUT', guidance: 'Vous pouvez m’expliquer ce dont vous avez besoin et dans quel but, me dire si vous avez déjà un site et partager des références ou un délai souhaité. Vous n’avez pas besoin d’avoir tout défini pour m’écrire.',
     copyEmail: 'Copier l’adresse email', copyPhone: 'Copier le numéro de téléphone', emailCopied: 'Adresse email copiée', emailCopyError: 'Impossible de copier l’adresse email ; vous pouvez la sélectionner manuellement.', phoneCopied: 'Numéro de téléphone copié', phoneCopyError: 'Impossible de copier le numéro ; vous pouvez le sélectionner manuellement.',
-    metaTitle: 'Ramiro Garcia — Conception et développement de sites web | ramita.dev', metaDescription: 'Conception et développement de nouveaux sites web et refontes. Un travail direct avec Ramiro Garcia, de la définition à la mise en ligne.', socialTitle: 'Ramiro Garcia — Conception et développement de sites web', socialDescription: 'Sites institutionnels, landing pages et refontes, avec un interlocuteur direct.'
+    metaTitle: 'ramita | Design et développement web', metaDescription: 'Conception et développement de nouveaux sites web et refontes. Un travail direct avec Ramiro Garcia, de la définition à la mise en ligne.', socialTitle: 'Ramiro Garcia — Conception et développement de sites web', socialDescription: 'Sites institutionnels, landing pages et refontes, avec un interlocuteur direct.'
   },
   ja: {
     brandLabel: 'ramita.dev、トップへ', skip: '本文へ移動', menu: 'メニュー', closeMenu: 'メニューを閉じる', navLabel: 'メインナビゲーション',
@@ -217,6 +217,6 @@ export const copy: Record<LocaleCode, Copy> = {
     disclosure: '会話はスペイン語を基本としています。他の言語のプロジェクトでは、AI や翻訳ツールを使い、各プロジェクトの背景も踏まえながら、正確なコミュニケーションと作業を心がけています。',
     contactTitle: '必要なウェブサイトについて教えてください。', backToTop: 'ページ上部へ', guidance: '何が必要か、何のために使うか、現在サイトがあるかを教えてください。参考資料や希望時期があれば共有できます。すべてが決まっていなくても、気軽にご連絡ください。',
     copyEmail: 'メールアドレスをコピー', copyPhone: '電話番号をコピー', emailCopied: 'メールアドレスをコピーしました', emailCopyError: 'メールアドレスをコピーできませんでした。手動で選択できます。', phoneCopied: '電話番号をコピーしました', phoneCopyError: '電話番号をコピーできませんでした。手動で選択できます。',
-    metaTitle: 'Ramiro Garcia — ウェブサイトのデザインと開発 | ramita.dev', metaDescription: '新規サイトとリニューアルのデザイン・開発。Ramiro Garcia が構想の整理から公開まで直接対応します。', socialTitle: 'Ramiro Garcia — ウェブサイトのデザインと開発', socialDescription: '企業・団体サイト、ランディングページ、リニューアルに直接対応します。'
+    metaTitle: 'ramita | Webデザイン・開発', metaDescription: '新規サイトとリニューアルのデザイン・開発。Ramiro Garcia が構想の整理から公開まで直接対応します。', socialTitle: 'Ramiro Garcia — ウェブサイトのデザインと開発', socialDescription: '企業・団体サイト、ランディングページ、リニューアルに直接対応します。'
   }
 };
