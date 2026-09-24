@@ -337,13 +337,16 @@ const anchors = ['hero', 'services', 'projects', 'about', 'contact'].map((name) 
 const serviceIntro = document.querySelector<HTMLElement>('.services .section-intro');
 const serviceStack = document.querySelector<HTMLElement>('[data-service-stack]');
 const firstServicePanel = serviceStack?.querySelector<HTMLElement>('[data-service-panel]');
+const servicePanels = Array.from(serviceStack?.querySelectorAll<HTMLElement>('[data-service-panel]') || []);
+const landingTitle = servicePanels[1]?.querySelector<HTMLElement>('h3');
+const finalServicePanel = servicePanels.at(-1);
 const capabilities = document.querySelector<HTMLElement>('.services .capabilities');
 const projectsHeading = document.querySelector<HTMLElement>('.projects .section-heading');
 const projectTail = document.querySelector<HTMLElement>('.projects .project-capabilities');
 const aboutHeading = document.querySelector<HTMLElement>('.about .profile .section-heading');
 const contactHeading = document.querySelector<HTMLElement>('.contact .section-heading');
 const backToTop = document.querySelector<HTMLElement>('[data-back-to-top]');
-if (svg && linePath && startNode && endNode && startPulse && endPulse && endGroup && serviceIntro && serviceStack && firstServicePanel && capabilities && projectsHeading && projectTail && aboutHeading && contactHeading && backToTop && anchors.every(Boolean)) {
+if (svg && linePath && startNode && endNode && startPulse && endPulse && endGroup && serviceIntro && serviceStack && firstServicePanel && servicePanels.length === 3 && landingTitle && finalServicePanel && capabilities && projectsHeading && projectTail && aboutHeading && contactHeading && backToTop && anchors.every(Boolean)) {
   type Milestone = { name: string; scroll: number; distance: number };
   let length = 1, scrollFrame = 0, geometryFrame = 0;
   let milestones: Milestone[] = [];
@@ -422,7 +425,10 @@ if (svg && linePath && startNode && endNode && startPulse && endPulse && endGrou
       const cue = startCue ? box(startCue) : null;
       startY = cue ? cue.bottom + 28 : hero.top + hero.height * .8;
       const lineHalf = 8.5 / 2;
-      const corridorInset = Math.max(lineHalf + 1, services.left * .24);
+      const responsiveGutter = Number.parseFloat(getComputedStyle(root).getPropertyValue('--gutter')) || services.left;
+      const minInset = lineHalf + 10;
+      const maxInsetForCopy = services.left - lineHalf - 8;
+      const corridorInset = Math.max(minInset, Math.min(maxInsetForCopy, Math.max(minInset, responsiveGutter * .7)));
       const leftX = corridorInset;
       const rightX = Math.min(width - lineHalf - 1, width - corridorInset);
       const radiusForGap = (gap: number) => Math.max(1, Math.min(22, gap * .22, (rightX - leftX) * .12));
@@ -480,8 +486,9 @@ if (svg && linePath && startNode && endNode && startPulse && endPulse && endGrou
       const cue = startCue ? box(startCue) : null;
       startX = Math.min(width - 54, cue ? (cue.left + cue.right) / 2 : services.right - 36);
       const serviceGutterX = Math.min(width - 20, services.right + 28);
-      const innerX = stack.left + (stack.right - stack.left) * .53;
-      const lowerTextGutterX = Math.max(services.left + 28, lowerText.left - 48);
+      const landing = box(landingTitle!);
+      const lastPanel = box(finalServicePanel!);
+      const lowerTextGutterX = Math.max(services.left + 28, lowerText.left - 36);
       const left = Math.max(24, projects.left - 24);
       const radius = 36;
       const aboutInset = Number.parseFloat(getComputedStyle(anchors[3]!).paddingRight) || 0;
@@ -495,24 +502,28 @@ if (svg && linePath && startNode && endNode && startPulse && endPulse && endGrou
       startY = cue ? cue.bottom + 40 : hero.top + hero.height * .75;
       const firstTurnY = services.top + (intro.top - services.top) * .52;
       const firstRadius = Math.min(30, (serviceGutterX - startX) / 3);
-      const middleY = stack.top + stack.height * .5;
-      const exitY = stack.bottom - Math.min(72, stack.height * .025);
-      const clearY = lowerText.bottom + Math.min(40, (projects.top - lowerText.bottom) * .3);
+      const landingTurnY = landing.top + landing.height * .58;
+      const stackExitY = Math.max(stack.bottom, lastPanel.bottom);
+      const lowerTextGap = Math.max(0, lowerText.top - stackExitY);
+      const capabilitiesTurnY = stackExitY + Math.min(24, lowerTextGap * .3);
+      const capabilitiesRadius = Math.max(1, Math.min(20, lowerTextGap * .22, (lowerTextGutterX - left) * .1));
+      const clearY = lowerText.bottom + Math.min(40, Math.max(20, (turnA - lowerText.bottom) * .25));
+      const clearRadius = Math.max(1, Math.min(radius, (turnA - clearY) * .2));
       d = `M ${startX} ${startY}`;
       mark('hero', startY - innerHeight * .8);
       add(`V ${firstTurnY - firstRadius} Q ${startX} ${firstTurnY} ${startX + firstRadius} ${firstTurnY} H ${serviceGutterX - firstRadius} Q ${serviceGutterX} ${firstTurnY} ${serviceGutterX} ${firstTurnY + firstRadius}`);
       mark('services-entry', services.top - innerHeight * .55);
-      add(`V ${middleY - radius}`);
-      mark('stack-middle-entry', stack.top + stack.height * .45 - innerHeight * .6);
-      add(`Q ${serviceGutterX} ${middleY} ${serviceGutterX - radius} ${middleY} H ${innerX + radius} Q ${innerX} ${middleY} ${innerX} ${middleY + radius}`);
-      mark('inside-stack', stack.top + stack.height * .60 - innerHeight * .6);
-      add(`V ${exitY - radius}`);
-      mark('stack-bottom', stack.bottom - innerHeight * .75);
-      add(`Q ${innerX} ${exitY} ${innerX - radius} ${exitY} H ${lowerTextGutterX + radius} Q ${lowerTextGutterX} ${exitY} ${lowerTextGutterX} ${exitY + radius}`);
-      mark('outside-stack', stack.bottom - innerHeight * .37);
-      add(`V ${clearY}`);
-      mark('services-text', lowerText.bottom - innerHeight * .5);
-      add(`V ${turnA - radius} Q ${lowerTextGutterX} ${turnA} ${lowerTextGutterX - radius} ${turnA} H ${left + radius} Q ${left} ${turnA} ${left} ${turnA + radius}`);
+      add(`V ${landingTurnY - radius}`);
+      mark('landing-pages-approach', landing.top - innerHeight * .55);
+      add(`Q ${serviceGutterX} ${landingTurnY} ${serviceGutterX - radius} ${landingTurnY} H ${left + radius} Q ${left} ${landingTurnY} ${left} ${landingTurnY + radius}`);
+      mark('landing-pages-turn', landing.top - innerHeight * .5);
+      add(`V ${stackExitY - capabilitiesRadius}`);
+      mark('redesigns-exit', stackExitY - innerHeight * .55);
+      add(`Q ${left} ${capabilitiesTurnY} ${left + capabilitiesRadius} ${capabilitiesTurnY} H ${lowerTextGutterX - capabilitiesRadius} Q ${lowerTextGutterX} ${capabilitiesTurnY} ${lowerTextGutterX} ${capabilitiesTurnY + capabilitiesRadius}`);
+      mark('capabilities-approach', lowerText.top - innerHeight * .5);
+      add(`V ${clearY - clearRadius} Q ${lowerTextGutterX} ${clearY} ${lowerTextGutterX - clearRadius} ${clearY} H ${left + clearRadius} Q ${left} ${clearY} ${left} ${clearY + clearRadius}`);
+      mark('capabilities-clear', lowerText.bottom - innerHeight * .5);
+      add(`V ${turnA - radius} Q ${left} ${turnA} ${left + radius} ${turnA} H ${aboutRightX - radius} Q ${aboutRightX} ${turnA} ${aboutRightX} ${turnA + radius}`);
       mark('projects', projects.top - innerHeight * .3);
       add(`V ${turnB - radius} Q ${left} ${turnB} ${left + radius} ${turnB} H ${aboutRightX - radius} Q ${aboutRightX} ${turnB} ${aboutRightX} ${turnB + radius}`);
       mark('about', about.top - innerHeight * .4);
@@ -534,6 +545,28 @@ if (svg && linePath && startNode && endNode && startPulse && endPulse && endGrou
     endPulse!.setAttribute('cy', String(endY));
     for (const circle of [startNode, endNode, startPulse, endPulse]) circle!.setAttribute('r', compact ? '12.5' : '20');
     length = linePath!.getTotalLength();
+    const retimeRange = (startName: string, endName: string) => {
+      const startIndex = milestones.findIndex((milestone) => milestone.name === startName);
+      const endIndex = milestones.findIndex((milestone) => milestone.name === endName);
+      if (startIndex < 0 || endIndex <= startIndex) return;
+      const first = milestones[startIndex]!;
+      const last = milestones[endIndex]!;
+      const scrollSpan = last.scroll - first.scroll;
+      const distanceSpan = last.distance - first.distance;
+      if (scrollSpan <= 0 || distanceSpan <= 0) return;
+      const structuralWeight = .15;
+      milestones = milestones.map((milestone, index) => {
+        if (index < startIndex || index > endIndex) return milestone;
+        const structuralProgress = (milestone.scroll - first.scroll) / scrollSpan;
+        const physicalProgress = (milestone.distance - first.distance) / distanceSpan;
+        return {
+          ...milestone,
+          scroll: first.scroll + scrollSpan * (structuralProgress * structuralWeight + physicalProgress * (1 - structuralWeight))
+        };
+      });
+    };
+    if (compact) retimeRange(milestones[0]!.name, milestones.at(-1)!.name);
+    else retimeRange('services-entry', 'projects');
     linePath!.style.strokeDasharray = String(length);
     svg!.dataset.route = compact ? (width < 768 ? 'mobile' : 'tablet') : 'desktop';
     svg!.dataset.milestones = JSON.stringify(milestones);
