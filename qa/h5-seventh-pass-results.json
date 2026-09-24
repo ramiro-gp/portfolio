@@ -1,0 +1,762 @@
+{
+  "cases": [
+    {
+      "locale": "es",
+      "width": 360,
+      "route": "mobile",
+      "corridors": {
+        "leftX": 5.25,
+        "rightX": 354.75
+      },
+      "gaps": {
+        "services": 54,
+        "projects": 130,
+        "about": 130,
+        "contact": 52
+      },
+      "overflow": 0,
+      "pathLength": 7305
+    },
+    {
+      "locale": "es",
+      "width": 390,
+      "route": "mobile",
+      "corridors": {
+        "leftX": 5.25,
+        "rightX": 384.75
+      },
+      "gaps": {
+        "services": 54,
+        "projects": 130,
+        "about": 130,
+        "contact": 52
+      },
+      "overflow": 0,
+      "pathLength": 7251
+    },
+    {
+      "locale": "es",
+      "width": 430,
+      "route": "mobile",
+      "corridors": {
+        "leftX": 5.25,
+        "rightX": 424.75
+      },
+      "gaps": {
+        "services": 54,
+        "projects": 130,
+        "about": 130,
+        "contact": 52
+      },
+      "overflow": 0,
+      "pathLength": 7178
+    },
+    {
+      "locale": "es",
+      "width": 768,
+      "route": "tablet",
+      "corridors": {
+        "leftX": 8.295,
+        "rightX": 759.705
+      },
+      "gaps": {
+        "services": 54,
+        "projects": 144,
+        "about": 262.5625,
+        "contact": 231.65625
+      },
+      "overflow": 0,
+      "pathLength": 7723
+    },
+    {
+      "locale": "es",
+      "width": 900,
+      "route": "tablet",
+      "corridors": {
+        "leftX": 9.719999999999999,
+        "rightX": 890.28
+      },
+      "gaps": {
+        "services": 63,
+        "projects": 162,
+        "about": 301.953125,
+        "contact": 251.984375
+      },
+      "overflow": 0,
+      "pathLength": 8315
+    },
+    {
+      "locale": "es",
+      "width": 1023,
+      "route": "tablet",
+      "corridors": {
+        "leftX": 11.0475,
+        "rightX": 1011.9525
+      },
+      "gaps": {
+        "services": 71.609375,
+        "projects": 184.125,
+        "about": 247.015625,
+        "contact": 185.328125
+      },
+      "overflow": 0,
+      "pathLength": 9525
+    },
+    {
+      "locale": "es",
+      "width": 1024,
+      "route": "desktop",
+      "aboutCorridor": 1000.96095,
+      "contentRight": 977.9219,
+      "contactCenter": 923.0859375,
+      "nodeGap": 56,
+      "overflow": 0,
+      "pathLength": 7545
+    },
+    {
+      "locale": "es",
+      "width": 1366,
+      "route": "desktop",
+      "aboutCorridor": 1335.2656,
+      "contentRight": 1304.5312,
+      "contactCenter": 1249.6953125,
+      "nodeGap": 56,
+      "overflow": 0,
+      "pathLength": 8420
+    },
+    {
+      "locale": "es",
+      "width": 1920,
+      "route": "desktop",
+      "aboutCorridor": 1620,
+      "contentRight": 1584,
+      "contactCenter": 1529.1796875,
+      "nodeGap": 56,
+      "overflow": 0,
+      "pathLength": 10100
+    },
+    {
+      "locale": "es",
+      "width": 2560,
+      "route": "desktop",
+      "aboutCorridor": 1940,
+      "contentRight": 1904,
+      "contactCenter": 1849.1796875,
+      "nodeGap": 56,
+      "overflow": 0,
+      "pathLength": 12080
+    },
+    {
+      "locale": "en",
+      "width": 360,
+      "route": "mobile",
+      "corridors": {
+        "leftX": 5.25,
+        "rightX": 354.75
+      },
+      "gaps": {
+        "services": 54,
+        "projects": 130,
+        "about": 130,
+        "contact": 52
+      },
+      "overflow": 0,
+      "pathLength": 7432
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "route": "mobile",
+      "corridors": {
+        "leftX": 5.25,
+        "rightX": 384.75
+      },
+      "gaps": {
+        "services": 54,
+        "projects": 130,
+        "about": 130,
+        "contact": 52
+      },
+      "overflow": 0,
+      "pathLength": 7352
+    },
+    {
+      "locale": "en",
+      "width": 430,
+      "route": "mobile",
+      "corridors": {
+        "leftX": 5.25,
+        "rightX": 424.75
+      },
+      "gaps": {
+        "services": 54,
+        "projects": 130,
+        "about": 130,
+        "contact": 52
+      },
+      "overflow": 0,
+      "pathLength": 7199
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "route": "tablet",
+      "corridors": {
+        "leftX": 8.295,
+        "rightX": 759.705
+      },
+      "gaps": {
+        "services": 54,
+        "projects": 144,
+        "about": 250.5625,
+        "contact": 231.65625
+      },
+      "overflow": 0,
+      "pathLength": 7659
+    },
+    {
+      "locale": "en",
+      "width": 900,
+      "route": "tablet",
+      "corridors": {
+        "leftX": 9.719999999999999,
+        "rightX": 890.28
+      },
+      "gaps": {
+        "services": 63,
+        "projects": 162,
+        "about": 266.203125,
+        "contact": 235.984375
+      },
+      "overflow": 0,
+      "pathLength": 8241
+    },
+    {
+      "locale": "en",
+      "width": 1023,
+      "route": "tablet",
+      "corridors": {
+        "leftX": 11.0475,
+        "rightX": 1011.9525
+      },
+      "gaps": {
+        "services": 71.609375,
+        "projects": 184.125,
+        "about": 225.890625,
+        "contact": 169.328125
+      },
+      "overflow": 0,
+      "pathLength": 9456
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "route": "desktop",
+      "aboutCorridor": 1000.96095,
+      "contentRight": 977.9219,
+      "contactCenter": 909.734375,
+      "nodeGap": 56,
+      "overflow": 0,
+      "pathLength": 7490
+    },
+    {
+      "locale": "en",
+      "width": 1366,
+      "route": "desktop",
+      "aboutCorridor": 1335.2656,
+      "contentRight": 1304.5312,
+      "contactCenter": 1236.34375,
+      "nodeGap": 56,
+      "overflow": 0,
+      "pathLength": 8437
+    },
+    {
+      "locale": "en",
+      "width": 1920,
+      "route": "desktop",
+      "aboutCorridor": 1620,
+      "contentRight": 1584,
+      "contactCenter": 1515.828125,
+      "nodeGap": 56,
+      "overflow": 0,
+      "pathLength": 10117
+    },
+    {
+      "locale": "en",
+      "width": 2560,
+      "route": "desktop",
+      "aboutCorridor": 1940,
+      "contentRight": 1904,
+      "contactCenter": 1835.828125,
+      "nodeGap": 56,
+      "overflow": 0,
+      "pathLength": 12097
+    },
+    {
+      "locale": "pt",
+      "width": 360,
+      "route": "mobile",
+      "corridors": {
+        "leftX": 5.25,
+        "rightX": 354.75
+      },
+      "gaps": {
+        "services": 54,
+        "projects": 130,
+        "about": 130,
+        "contact": 52
+      },
+      "overflow": 0,
+      "pathLength": 7462
+    },
+    {
+      "locale": "pt",
+      "width": 390,
+      "route": "mobile",
+      "corridors": {
+        "leftX": 5.25,
+        "rightX": 384.75
+      },
+      "gaps": {
+        "services": 54,
+        "projects": 130,
+        "about": 130,
+        "contact": 52
+      },
+      "overflow": 0,
+      "pathLength": 7422
+    },
+    {
+      "locale": "pt",
+      "width": 430,
+      "route": "mobile",
+      "corridors": {
+        "leftX": 5.25,
+        "rightX": 424.75
+      },
+      "gaps": {
+        "services": 54,
+        "projects": 130,
+        "about": 130,
+        "contact": 52
+      },
+      "overflow": 0,
+      "pathLength": 7314
+    },
+    {
+      "locale": "pt",
+      "width": 768,
+      "route": "tablet",
+      "corridors": {
+        "leftX": 8.295,
+        "rightX": 759.705
+      },
+      "gaps": {
+        "services": 54,
+        "projects": 144,
+        "about": 228.1875,
+        "contact": 231.65625
+      },
+      "overflow": 0,
+      "pathLength": 7723
+    },
+    {
+      "locale": "pt",
+      "width": 900,
+      "route": "tablet",
+      "corridors": {
+        "leftX": 9.719999999999999,
+        "rightX": 890.28
+      },
+      "gaps": {
+        "services": 63,
+        "projects": 162,
+        "about": 266.203125,
+        "contact": 251.984375
+      },
+      "overflow": 0,
+      "pathLength": 8270
+    },
+    {
+      "locale": "pt",
+      "width": 1023,
+      "route": "tablet",
+      "corridors": {
+        "leftX": 11.0475,
+        "rightX": 1011.9525
+      },
+      "gaps": {
+        "services": 71.609375,
+        "projects": 184.125,
+        "about": 208.296875,
+        "contact": 185.328125
+      },
+      "overflow": 0,
+      "pathLength": 9520
+    },
+    {
+      "locale": "pt",
+      "width": 1024,
+      "route": "desktop",
+      "aboutCorridor": 1000.96095,
+      "contentRight": 977.9219,
+      "contactCenter": 894.7109375,
+      "nodeGap": 56,
+      "overflow": 0,
+      "pathLength": 7568
+    },
+    {
+      "locale": "pt",
+      "width": 1366,
+      "route": "desktop",
+      "aboutCorridor": 1335.2656,
+      "contentRight": 1304.5312,
+      "contactCenter": 1221.3203125,
+      "nodeGap": 56,
+      "overflow": 0,
+      "pathLength": 8448
+    },
+    {
+      "locale": "pt",
+      "width": 1920,
+      "route": "desktop",
+      "aboutCorridor": 1620,
+      "contentRight": 1584,
+      "contactCenter": 1500.8046875,
+      "nodeGap": 56,
+      "overflow": 0,
+      "pathLength": 10075
+    },
+    {
+      "locale": "pt",
+      "width": 2560,
+      "route": "desktop",
+      "aboutCorridor": 1940,
+      "contentRight": 1904,
+      "contactCenter": 1820.8046875,
+      "nodeGap": 56,
+      "overflow": 0,
+      "pathLength": 12055
+    },
+    {
+      "locale": "fr",
+      "width": 360,
+      "route": "mobile",
+      "corridors": {
+        "leftX": 5.25,
+        "rightX": 354.75
+      },
+      "gaps": {
+        "services": 54,
+        "projects": 130,
+        "about": 130,
+        "contact": 52
+      },
+      "overflow": 0,
+      "pathLength": 7832
+    },
+    {
+      "locale": "fr",
+      "width": 390,
+      "route": "mobile",
+      "corridors": {
+        "leftX": 5.25,
+        "rightX": 384.75
+      },
+      "gaps": {
+        "services": 54,
+        "projects": 130,
+        "about": 130,
+        "contact": 52
+      },
+      "overflow": 0,
+      "pathLength": 7568
+    },
+    {
+      "locale": "fr",
+      "width": 430,
+      "route": "mobile",
+      "corridors": {
+        "leftX": 5.25,
+        "rightX": 424.75
+      },
+      "gaps": {
+        "services": 54,
+        "projects": 130,
+        "about": 130,
+        "contact": 52
+      },
+      "overflow": 0,
+      "pathLength": 7470
+    },
+    {
+      "locale": "fr",
+      "width": 768,
+      "route": "tablet",
+      "corridors": {
+        "leftX": 8.295,
+        "rightX": 759.705
+      },
+      "gaps": {
+        "services": 54,
+        "projects": 144,
+        "about": 228.1875,
+        "contact": 231.65625
+      },
+      "overflow": 0,
+      "pathLength": 7819
+    },
+    {
+      "locale": "fr",
+      "width": 900,
+      "route": "tablet",
+      "corridors": {
+        "leftX": 9.719999999999999,
+        "rightX": 890.28
+      },
+      "gaps": {
+        "services": 63,
+        "projects": 162,
+        "about": 248.609375,
+        "contact": 235.984375
+      },
+      "overflow": 0,
+      "pathLength": 8337
+    },
+    {
+      "locale": "fr",
+      "width": 1023,
+      "route": "tablet",
+      "corridors": {
+        "leftX": 11.0475,
+        "rightX": 1011.9525
+      },
+      "gaps": {
+        "services": 71.609375,
+        "projects": 184.125,
+        "about": 208.296875,
+        "contact": 169.328125
+      },
+      "overflow": 0,
+      "pathLength": 9552
+    },
+    {
+      "locale": "fr",
+      "width": 1024,
+      "route": "desktop",
+      "aboutCorridor": 1000.96095,
+      "contentRight": 977.9219,
+      "contactCenter": 894.8671875,
+      "nodeGap": 56,
+      "overflow": 0,
+      "pathLength": 7601
+    },
+    {
+      "locale": "fr",
+      "width": 1366,
+      "route": "desktop",
+      "aboutCorridor": 1335.2656,
+      "contentRight": 1304.5312,
+      "contactCenter": 1221.4765625,
+      "nodeGap": 56,
+      "overflow": 0,
+      "pathLength": 8513
+    },
+    {
+      "locale": "fr",
+      "width": 1920,
+      "route": "desktop",
+      "aboutCorridor": 1620,
+      "contentRight": 1584,
+      "contactCenter": 1500.9609375,
+      "nodeGap": 56,
+      "overflow": 0,
+      "pathLength": 10139
+    },
+    {
+      "locale": "fr",
+      "width": 2560,
+      "route": "desktop",
+      "aboutCorridor": 1940,
+      "contentRight": 1904,
+      "contactCenter": 1820.9609375,
+      "nodeGap": 56,
+      "overflow": 0,
+      "pathLength": 12119
+    },
+    {
+      "locale": "ja",
+      "width": 360,
+      "route": "mobile",
+      "corridors": {
+        "leftX": 5.25,
+        "rightX": 354.75
+      },
+      "gaps": {
+        "services": 54,
+        "projects": 130,
+        "about": 130,
+        "contact": 52
+      },
+      "overflow": 0,
+      "pathLength": 7439
+    },
+    {
+      "locale": "ja",
+      "width": 390,
+      "route": "mobile",
+      "corridors": {
+        "leftX": 5.25,
+        "rightX": 384.75
+      },
+      "gaps": {
+        "services": 54,
+        "projects": 130,
+        "about": 130,
+        "contact": 52
+      },
+      "overflow": 0,
+      "pathLength": 7383
+    },
+    {
+      "locale": "ja",
+      "width": 430,
+      "route": "mobile",
+      "corridors": {
+        "leftX": 5.25,
+        "rightX": 424.75
+      },
+      "gaps": {
+        "services": 54,
+        "projects": 130,
+        "about": 130,
+        "contact": 52
+      },
+      "overflow": 0,
+      "pathLength": 7222
+    },
+    {
+      "locale": "ja",
+      "width": 768,
+      "route": "tablet",
+      "corridors": {
+        "leftX": 8.295,
+        "rightX": 759.705
+      },
+      "gaps": {
+        "services": 54,
+        "projects": 144,
+        "about": 235.671875,
+        "contact": 206.796875
+      },
+      "overflow": 0,
+      "pathLength": 7692
+    },
+    {
+      "locale": "ja",
+      "width": 900,
+      "route": "tablet",
+      "corridors": {
+        "leftX": 9.719999999999999,
+        "rightX": 890.28
+      },
+      "gaps": {
+        "services": 63,
+        "projects": 162,
+        "about": 256.859375,
+        "contact": 249.28125
+      },
+      "overflow": 0,
+      "pathLength": 8245
+    },
+    {
+      "locale": "ja",
+      "width": 1023,
+      "route": "tablet",
+      "corridors": {
+        "leftX": 11.0475,
+        "rightX": 1011.9525
+      },
+      "gaps": {
+        "services": 71.609375,
+        "projects": 184.125,
+        "about": 217.640625,
+        "contact": 182.625
+      },
+      "overflow": 0,
+      "pathLength": 9546
+    },
+    {
+      "locale": "ja",
+      "width": 1024,
+      "route": "desktop",
+      "aboutCorridor": 1000.96095,
+      "contentRight": 977.9219,
+      "contactCenter": 919.0390625,
+      "nodeGap": 56,
+      "overflow": 0,
+      "pathLength": 7570
+    },
+    {
+      "locale": "ja",
+      "width": 1366,
+      "route": "desktop",
+      "aboutCorridor": 1335.2656,
+      "contentRight": 1304.5312,
+      "contactCenter": 1245.6484375,
+      "nodeGap": 56,
+      "overflow": 0,
+      "pathLength": 8445
+    },
+    {
+      "locale": "ja",
+      "width": 1920,
+      "route": "desktop",
+      "aboutCorridor": 1620,
+      "contentRight": 1584,
+      "contactCenter": 1525.1328125,
+      "nodeGap": 56,
+      "overflow": 0,
+      "pathLength": 10096
+    },
+    {
+      "locale": "ja",
+      "width": 2560,
+      "route": "desktop",
+      "aboutCorridor": 1940,
+      "contentRight": 1904,
+      "contactCenter": 1845.1328125,
+      "nodeGap": 56,
+      "overflow": 0,
+      "pathLength": 12076
+    }
+  ],
+  "reversals": [
+    {
+      "width": 390,
+      "samples": 5,
+      "exactInterpolation": true
+    },
+    {
+      "width": 1366,
+      "samples": 3,
+      "exactInterpolation": true
+    }
+  ],
+  "resize": "mobile → desktop → tablet: route and geometry rebuilt",
+  "reducedMotion": {
+    "offset": 0,
+    "startPulse": "none",
+    "endPulse": "none"
+  },
+  "screenshots": [
+    "services-compact-390.png",
+    "projects-compact-390.png",
+    "about-compact-390.png",
+    "contact-compact-390.png",
+    "ramiro-desktop-1366.png",
+    "contact-desktop-1366.png",
+    "ramiro-desktop-1920.png",
+    "ramiro-desktop-2560.png"
+  ]
+}

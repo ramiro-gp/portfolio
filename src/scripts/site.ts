@@ -336,13 +336,27 @@ const startCue = document.querySelector<HTMLElement>('[data-line-start]');
 const anchors = ['hero', 'services', 'projects', 'about', 'contact'].map((name) => document.querySelector<HTMLElement>(`[data-line-anchor="${name}"]`));
 const serviceIntro = document.querySelector<HTMLElement>('.services .section-intro');
 const serviceStack = document.querySelector<HTMLElement>('[data-service-stack]');
+const firstServicePanel = serviceStack?.querySelector<HTMLElement>('[data-service-panel]');
 const capabilities = document.querySelector<HTMLElement>('.services .capabilities');
+const projectsHeading = document.querySelector<HTMLElement>('.projects .section-heading');
+const projectTail = document.querySelector<HTMLElement>('.projects .project-capabilities');
+const aboutHeading = document.querySelector<HTMLElement>('.about .profile .section-heading');
+const contactHeading = document.querySelector<HTMLElement>('.contact .section-heading');
 const backToTop = document.querySelector<HTMLElement>('[data-back-to-top]');
-if (svg && linePath && startNode && endNode && startPulse && endPulse && endGroup && serviceIntro && serviceStack && capabilities && backToTop && anchors.every(Boolean)) {
+if (svg && linePath && startNode && endNode && startPulse && endPulse && endGroup && serviceIntro && serviceStack && firstServicePanel && capabilities && projectsHeading && projectTail && aboutHeading && contactHeading && backToTop && anchors.every(Boolean)) {
   type Milestone = { name: string; scroll: number; distance: number };
   let length = 1, scrollFrame = 0, geometryFrame = 0;
   let milestones: Milestone[] = [];
-  const box = (element: HTMLElement) => { const r = element.getBoundingClientRect(); return { left: r.left, right: r.right, top: r.top + scrollY, bottom: r.bottom + scrollY, height: r.height }; };
+  const box = (element: HTMLElement) => {
+    const r = element.getBoundingClientRect();
+    let revealOffsetY = 0;
+    for (let current: HTMLElement | null = element; current; current = current.parentElement) {
+      if (!current.hasAttribute('data-reveal')) continue;
+      const transform = getComputedStyle(current).transform;
+      if (transform !== 'none') revealOffsetY += new DOMMatrixReadOnly(transform).m42;
+    }
+    return { left: r.left, right: r.right, top: r.top + scrollY - revealOffsetY, bottom: r.bottom + scrollY - revealOffsetY, height: r.height };
+  };
   function progress(): void {
     scrollFrame = 0;
     const last = milestones.at(-1);
@@ -378,6 +392,10 @@ if (svg && linePath && startNode && endNode && startPulse && endPulse && endGrou
     const intro = box(serviceIntro!);
     const stack = box(serviceStack!);
     const lowerText = box(capabilities!);
+    const projectTitle = box(projectsHeading!);
+    const projectsEnd = box(projectTail!);
+    const aboutTitle = box(aboutHeading!);
+    const contactTitle = box(contactHeading!);
     const back = box(backToTop!);
     const width = document.documentElement.clientWidth;
     const height = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
@@ -398,37 +416,66 @@ if (svg && linePath && startNode && endNode && startPulse && endPulse && endGrou
       milestones.push({ name, scroll: previous ? Math.max(previous.scroll + 1, bounded) : bounded, distance: linePath!.getTotalLength() });
     };
     if (compact) {
-      // The compact route is composed for the narrow rail, not scaled from desktop.
-      // Services text keeps a clear right margin; both detours run behind the panels.
-      startX = endX = width - 34;
+      // Keep the approved Hero start, then alternate through the real side gutters.
+      startX = width - 34;
+      endX = width - 34;
       const cue = startCue ? box(startCue) : null;
       startY = cue ? cue.bottom + 28 : hero.top + hero.height * .8;
-      const innerX = stack.left + (stack.right - stack.left) * .52;
-      const firstPanel = serviceStack!.querySelector<HTMLElement>('[data-service-panel]');
-      const lastPanel = serviceStack!.querySelector<HTMLElement>('[data-service-panel]:last-child');
-      const entryY = stack.top + Math.min(stack.height * .13, (firstPanel?.offsetHeight ?? stack.height / 3) * .42);
-      const exitY = stack.bottom - Math.min(90, (lastPanel?.offsetHeight ?? stack.height / 3) * .25);
-      const radius = Math.min(25, (startX - innerX) / 4);
-      const projectY = projects.top + Math.min(42, projects.height * .06);
-      const aboutY = about.top + Math.min(42, about.height * .06);
-      d = `M ${startX} ${startY}`;
+      const lineHalf = 8.5 / 2;
+      const corridorInset = Math.max(lineHalf + 1, services.left * .24);
+      const leftX = corridorInset;
+      const rightX = Math.min(width - lineHalf - 1, width - corridorInset);
+      const radiusForGap = (gap: number) => Math.max(1, Math.min(22, gap * .22, (rightX - leftX) * .12));
+      const firstPanel = box(firstServicePanel!);
+      const servicesGap = Math.max(0, firstPanel.top - intro.bottom);
+      const projectsGap = Math.max(0, projectTitle.top - lowerText.bottom);
+      const aboutGap = Math.max(0, aboutTitle.top - projectsEnd.bottom);
+      const contactGap = Math.max(0, contactTitle.top - about.bottom);
+      const servicesTurnY = intro.bottom + servicesGap / 2;
+      const projectsTurnY = lowerText.bottom + projectsGap / 2;
+      const aboutTurnY = projectsEnd.bottom + aboutGap / 2;
+      const contactTurnY = about.bottom + contactGap / 2;
+      const servicesRadius = radiusForGap(servicesGap);
+      const projectsRadius = radiusForGap(projectsGap);
+      const aboutRadius = radiusForGap(aboutGap);
+      const contactRadius = radiusForGap(contactGap);
+      const endRadius = Math.max(1, Math.min(14, (rightX - endX) * .45));
+      const stackMiddleY = stack.top + stack.height / 2;
+      const projectsMiddleY = projects.top + projects.height / 2;
+      const aboutMiddleY = about.top + about.height / 2;
+      d = 'M ' + startX + ' ' + startY;
       mark('hero', startY - innerHeight * .8);
-      add(`V ${entryY - radius}`);
-      mark('stack-entry', stack.top - innerHeight * .62);
-      add(`Q ${startX} ${entryY} ${startX - radius} ${entryY} H ${innerX + radius} Q ${innerX} ${entryY} ${innerX} ${entryY + radius}`);
-      mark('inside-stack', stack.top - innerHeight * .30);
-      add(`V ${exitY - radius}`);
-      mark('stack-exit', stack.bottom - innerHeight * .72);
-      add(`Q ${innerX} ${exitY} ${innerX + radius} ${exitY} H ${startX - radius} Q ${startX} ${exitY} ${startX} ${exitY + radius}`);
-      mark('outside-stack', stack.bottom - innerHeight * .38);
-      add(`V ${lowerText.bottom + 24}`);
+      add('V ' + (servicesTurnY - servicesRadius));
+      mark('services-transition', servicesTurnY - innerHeight * .55);
+      add('Q ' + startX + ' ' + servicesTurnY + ' ' + (startX - servicesRadius) + ' ' + servicesTurnY + ' H ' + (leftX + servicesRadius) + ' Q ' + leftX + ' ' + servicesTurnY + ' ' + leftX + ' ' + (servicesTurnY + servicesRadius));
+      mark('services-left', servicesTurnY - innerHeight * .42);
+      add('V ' + stackMiddleY);
+      mark('inside-stack', stackMiddleY - innerHeight * .5);
+      add('V ' + lowerText.bottom);
       mark('services-text', lowerText.bottom - innerHeight * .55);
-      add(`V ${projectY}`);
-      mark('projects', projects.top - innerHeight * .48);
-      add(`V ${aboutY}`);
-      mark('about', about.top - innerHeight * .45);
-      add(`V ${endY}`);
-      mark('contact', endY - innerHeight * .55);
+      add('V ' + (projectsTurnY - projectsRadius));
+      mark('services-exit', projectsTurnY - innerHeight * .55);
+      add('Q ' + leftX + ' ' + projectsTurnY + ' ' + (leftX + projectsRadius) + ' ' + projectsTurnY + ' H ' + (rightX - projectsRadius) + ' Q ' + rightX + ' ' + projectsTurnY + ' ' + rightX + ' ' + (projectsTurnY + projectsRadius));
+      mark('projects-entry', projectTitle.top - innerHeight * .5);
+      add('V ' + projectsMiddleY);
+      mark('projects-content', projectsMiddleY - innerHeight * .5);
+      add('V ' + projectsEnd.bottom);
+      mark('projects-exit', projectsEnd.bottom - innerHeight * .55);
+      add('V ' + (aboutTurnY - aboutRadius));
+      mark('projects-transition', aboutTurnY - innerHeight * .55);
+      add('Q ' + rightX + ' ' + aboutTurnY + ' ' + (rightX - aboutRadius) + ' ' + aboutTurnY + ' H ' + (leftX + aboutRadius) + ' Q ' + leftX + ' ' + aboutTurnY + ' ' + leftX + ' ' + (aboutTurnY + aboutRadius));
+      mark('about-entry', aboutTitle.top - innerHeight * .5);
+      add('V ' + aboutMiddleY);
+      mark('about-content', aboutMiddleY - innerHeight * .5);
+      add('V ' + about.bottom);
+      mark('about-exit', about.bottom - innerHeight * .6);
+      add('V ' + (contactTurnY - contactRadius));
+      mark('contact-transition', contactTurnY - innerHeight * .55);
+      add('Q ' + leftX + ' ' + contactTurnY + ' ' + (leftX + contactRadius) + ' ' + contactTurnY + ' H ' + (rightX - contactRadius) + ' Q ' + rightX + ' ' + contactTurnY + ' ' + rightX + ' ' + (contactTurnY + contactRadius));
+      mark('contact-entry', contactTurnY - innerHeight * .35);
+      add('V ' + (endY - endRadius));
+      add('Q ' + rightX + ' ' + endY + ' ' + endX + ' ' + endY);
+      mark('contact', maxScroll);
     } else {
       const cue = startCue ? box(startCue) : null;
       startX = Math.min(width - 54, cue ? (cue.left + cue.right) / 2 : services.right - 36);
@@ -436,11 +483,13 @@ if (svg && linePath && startNode && endNode && startPulse && endPulse && endGrou
       const innerX = stack.left + (stack.right - stack.left) * .53;
       const lowerTextGutterX = Math.max(services.left + 28, lowerText.left - 48);
       const left = Math.max(24, projects.left - 24);
-      // Enter Contact inside its content rail, then turn out past the rail
-      // toward the closing control. Both positions follow the measured layout.
       const radius = 36;
-      endX = Math.min(width - 48, contact.right + 22);
-      const closingInnerX = Math.min(endX - 3 * radius, back.left - 44);
+      const aboutInset = Number.parseFloat(getComputedStyle(anchors[3]!).paddingRight) || 0;
+      const aboutContentRight = about.right - aboutInset;
+      const aboutRightX = Math.min(width - 10, aboutContentRight + Math.min(36, aboutInset * .5));
+      endX = (back.left + back.right) / 2;
+      const contactRadius = Math.max(1, Math.min(20, (aboutRightX - endX) * .22, (contactTitle.top - contact.top) * .1));
+      const contactTurnY = contact.top + (contactTitle.top - contact.top) * .38;
       const turnA = projects.top + Math.min(42, projects.height * .06);
       const turnB = about.top + Math.min(42, about.height * .06);
       startY = cue ? cue.bottom + 40 : hero.top + hero.height * .75;
@@ -465,10 +514,14 @@ if (svg && linePath && startNode && endNode && startPulse && endPulse && endGrou
       mark('services-text', lowerText.bottom - innerHeight * .5);
       add(`V ${turnA - radius} Q ${lowerTextGutterX} ${turnA} ${lowerTextGutterX - radius} ${turnA} H ${left + radius} Q ${left} ${turnA} ${left} ${turnA + radius}`);
       mark('projects', projects.top - innerHeight * .3);
-      add(`V ${turnB - radius} Q ${left} ${turnB} ${left + radius} ${turnB} H ${closingInnerX - radius} Q ${closingInnerX} ${turnB} ${closingInnerX} ${turnB + radius}`);
+      add(`V ${turnB - radius} Q ${left} ${turnB} ${left + radius} ${turnB} H ${aboutRightX - radius} Q ${aboutRightX} ${turnB} ${aboutRightX} ${turnB + radius}`);
       mark('about', about.top - innerHeight * .4);
-      add(`V ${endY - radius} Q ${closingInnerX} ${endY} ${closingInnerX + radius} ${endY} H ${endX}`);
-      mark('contact', endY - innerHeight * .55);
+      add(`V ${contactTurnY - contactRadius}`);
+      mark('contact-entry', contactTurnY - innerHeight * .55);
+      add(`Q ${aboutRightX} ${contactTurnY} ${aboutRightX - contactRadius} ${contactTurnY} H ${endX + contactRadius} Q ${endX} ${contactTurnY} ${endX} ${contactTurnY + contactRadius}`);
+      mark('contact-turn', contactTurnY - innerHeight * .35);
+      add(`V ${endY}`);
+      mark('contact', maxScroll);
     }
     linePath!.setAttribute('d', d);
     startNode!.setAttribute('cx', String(startX));

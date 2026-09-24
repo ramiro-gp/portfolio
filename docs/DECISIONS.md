@@ -1,5 +1,9 @@
 # DECISIONS.md
 
+## 2026-09-24 — V2-H5: séptima pasada de geometría del path
+
+Ramiro corrige el recorrido desktop/compacto sin reabrir componentes: el path desktop pasa por el gutter derecho fuera del contenido de Ramiro y entra a Contacto con un giro breve a la izquierda; descenso y nodo final quedan centrados sobre IR ARRIBA. Compact (<1024 px) mantiene los extremos vigentes y alterna corredores reales derecha/izquierda/derecha/izquierda/derecha en los espacios intro/card o entre secciones. Los cambios de dirección siguen anclados al layout, usan el mismo accent, no agregan halo ni segunda traza y conservan path ortogonal, scroll nativo, milestones y reversibilidad. La lectura de geometría cancela transforms de [data-reveal] para que un reveal transitorio no desplace los gaps calculados. Verificación: 45 combinaciones idioma/viewport, build de cinco rutas, astro check limpio, resize y reduced motion; H5 permanece IN PROGRESS y H6 NOT STARTED.
+
 ## 2026-09-23 — V2-H5: curva final, scrollbar y títulos de pestaña
 
 Ramiro limita esta pasada a un cierre desktop de la línea con giro ortogonal suave desde el interior de Contacto hacia un nodo fuera del rail, cercano a IR ARRIBA y anclado al layout; mobile no se rediseña y se evaluará en dispositivo real. La scrollbar permanece nativa y toma accent/theme mediante CSS, ocultando flechas donde el navegador lo permita. El índice 05 recupera el baseline compartido por 02–04. Los cinco títulos de pestaña pasan a empezar por ramita en minúscula, según CONTENT y la tabla de idiomas; no se reabre el resto de SEO. Contacto sigue intencionalmente sin formulario. No se cierra H5 ni se inicia H6.
