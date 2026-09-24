@@ -9,6 +9,10 @@ El diseño debe ayudar a entender servicios, generar confianza, demostrar capaci
 
 Alcance exclusivo: más aire de escenas selectivas en mobile (Hero usa mínimo flexible equivalente a viewport menos el header; Ramiro y Contacto pueden alcanzar 100svh y crecer; Servicios y Proyectos permanecen naturales incluso en tablet compact); compartir exactamente el eje X del primer y último tramo vertical compact; corregir sólo la transición desktop Servicios→Proyectos→Ramiro para entrar y bajar por el corredor izquierdo de Proyectos, cruzar a la derecha en el espacio superior libre de Ramiro y descender fuera de su contenido. Se conserva el recorrido compact aprobado, el fondo especial/accent de Ramiro, Contacto y todos los controles/copy existentes. La rotación del Hero y los cambios de menú quedan expresamente diferidos a la segunda pasada; H5 permanece abierto.
 
+### Corrección puntual posterior H5 — Servicios→Proyectos desktop (2026-09-24)
+
+Prevalece sólo en ese subtramo sobre el recorrido de la novena pasada: después de Rediseños, la línea gira a la derecha hasta el gutter calculado desde el primer párrafo de «Según el alcance…», baja por fuera y a la izquierda del bloque con aire, gira a la izquierda después de su borde inferior y continúa hacia abajo por el corredor izquierdo de Proyectos. Se eliminan los cruces al gutter derecho y el horizontal ancho por encima de Proyectos. No cambian los tramos anteriores de Servicios, el path dentro de Proyectos, Ramiro, Contacto ni el builder mobile/tablet; milestones, proporción de progreso, scroll inverso y reduced motion se conservan. H5 sigue IN PROGRESS; H6 no inicia.
+
 ## Principios vigentes
 
 - Minimalismo, espacio negativo útil, ausencia de ruido y rechazo a patrones AI-genéricos.

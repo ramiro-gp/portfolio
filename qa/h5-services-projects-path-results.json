@@ -1,0 +1,1426 @@
+{
+  "cases": [
+    {
+      "locale": "es",
+      "viewport": [
+        1366,
+        768
+      ],
+      "overflow": 0,
+      "anchors": {
+        "redesigns": {
+          "left": 61.46875,
+          "right": 1304.515625,
+          "top": 2549.890625,
+          "bottom": 3195.890625,
+          "width": 1243.046875,
+          "height": 646
+        },
+        "capabilities": {
+          "left": 484.515625,
+          "right": 1304.515625,
+          "top": 3259.890625,
+          "bottom": 3523.890625,
+          "width": 820,
+          "height": 264
+        },
+        "copyStart": {
+          "left": 484.515625,
+          "right": 1304.515625,
+          "top": 3259.890625,
+          "bottom": 3323.890625,
+          "width": 820,
+          "height": 64
+        },
+        "projectSection": {
+          "left": 61.46875,
+          "right": 1304.515625,
+          "top": 3657.890625,
+          "bottom": 5157.65625,
+          "width": 1243.046875,
+          "height": 1499.765625
+        },
+        "projectHeading": {
+          "left": 61.46875,
+          "right": 1304.515625,
+          "top": 3761.890625,
+          "bottom": 3827.859375,
+          "width": 1243.046875,
+          "height": 65.96875
+        },
+        "projectLeftCorridorX": 37.46875
+      },
+      "turns": {
+        "redesignsExit": {
+          "distance": 3777.64013671875,
+          "x": 37.46875,
+          "y": 3181.810546875
+        },
+        "capabilitiesApproach": {
+          "distance": 4223.0859375,
+          "x": 448.515625,
+          "y": 3229.170654296875
+        },
+        "capabilitiesClear": {
+          "distance": 4970.1376953125,
+          "x": 37.46875,
+          "y": 3581.33056640625
+        },
+        "projectsEntry": {
+          "distance": 5046.69775390625,
+          "x": 37.46875,
+          "y": 3657.890625
+        }
+      },
+      "transitionSpan": 411.05,
+      "copyClearance": 27.5,
+      "copyCollisionCount": 0,
+      "projectsSideDeviation": 0,
+      "milestones": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "locale": "es",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "overflow": 0,
+      "anchors": {
+        "redesigns": {
+          "left": 336,
+          "right": 1584,
+          "top": 3393.375,
+          "bottom": 4351.375,
+          "width": 1248,
+          "height": 958
+        },
+        "capabilities": {
+          "left": 764,
+          "right": 1584,
+          "top": 4415.375,
+          "bottom": 4679.375,
+          "width": 820,
+          "height": 264
+        },
+        "copyStart": {
+          "left": 764,
+          "right": 1584,
+          "top": 4415.375,
+          "bottom": 4479.375,
+          "width": 820,
+          "height": 64
+        },
+        "projectSection": {
+          "left": 336,
+          "right": 1584,
+          "top": 4813.375,
+          "bottom": 6321.75,
+          "width": 1248,
+          "height": 1508.375
+        },
+        "projectHeading": {
+          "left": 336,
+          "right": 1584,
+          "top": 4917.375,
+          "bottom": 4984.53125,
+          "width": 1248,
+          "height": 67.15625
+        },
+        "projectLeftCorridorX": 312
+      },
+      "turns": {
+        "redesignsExit": {
+          "distance": 4813.49951171875,
+          "x": 312,
+          "y": 4337.294921875
+        },
+        "capabilitiesApproach": {
+          "distance": 5263.8974609375,
+          "x": 728,
+          "y": 4384.65478515625
+        },
+        "capabilitiesClear": {
+          "distance": 6015.90234375,
+          "x": 312,
+          "y": 4736.81494140625
+        },
+        "projectsEntry": {
+          "distance": 6092.46240234375,
+          "x": 312,
+          "y": 4813.375
+        }
+      },
+      "transitionSpan": 416,
+      "copyClearance": 27.5,
+      "copyCollisionCount": 0,
+      "projectsSideDeviation": 0,
+      "milestones": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "locale": "es",
+      "viewport": [
+        2560,
+        1440
+      ],
+      "overflow": 0,
+      "anchors": {
+        "redesigns": {
+          "left": 656,
+          "right": 1904,
+          "top": 4473.375,
+          "bottom": 5791.375,
+          "width": 1248,
+          "height": 1318
+        },
+        "capabilities": {
+          "left": 1084,
+          "right": 1904,
+          "top": 5855.375,
+          "bottom": 6119.375,
+          "width": 820,
+          "height": 264
+        },
+        "copyStart": {
+          "left": 1084,
+          "right": 1904,
+          "top": 5855.375,
+          "bottom": 5919.375,
+          "width": 820,
+          "height": 64
+        },
+        "projectSection": {
+          "left": 656,
+          "right": 1904,
+          "top": 6253.375,
+          "bottom": 7761.75,
+          "width": 1248,
+          "height": 1508.375
+        },
+        "projectHeading": {
+          "left": 656,
+          "right": 1904,
+          "top": 6357.375,
+          "bottom": 6424.53125,
+          "width": 1248,
+          "height": 67.15625
+        },
+        "projectLeftCorridorX": 632
+      },
+      "turns": {
+        "redesignsExit": {
+          "distance": 6073.49951171875,
+          "x": 632,
+          "y": 5777.294921875
+        },
+        "capabilitiesApproach": {
+          "distance": 6523.89794921875,
+          "x": 1048,
+          "y": 5824.65478515625
+        },
+        "capabilitiesClear": {
+          "distance": 7275.90380859375,
+          "x": 632,
+          "y": 6176.81494140625
+        },
+        "projectsEntry": {
+          "distance": 7352.4638671875,
+          "x": 632,
+          "y": 6253.375
+        }
+      },
+      "transitionSpan": 416,
+      "copyClearance": 27.5,
+      "copyCollisionCount": 0,
+      "projectsSideDeviation": 0,
+      "milestones": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "locale": "en",
+      "viewport": [
+        1366,
+        768
+      ],
+      "overflow": 0,
+      "anchors": {
+        "redesigns": {
+          "left": 61.46875,
+          "right": 1304.515625,
+          "top": 2585.078125,
+          "bottom": 3231.078125,
+          "width": 1243.046875,
+          "height": 646
+        },
+        "capabilities": {
+          "left": 484.515625,
+          "right": 1304.515625,
+          "top": 3295.078125,
+          "bottom": 3527.078125,
+          "width": 820,
+          "height": 232
+        },
+        "copyStart": {
+          "left": 484.515625,
+          "right": 1304.515625,
+          "top": 3295.078125,
+          "bottom": 3359.078125,
+          "width": 820,
+          "height": 64
+        },
+        "projectSection": {
+          "left": 61.46875,
+          "right": 1304.515625,
+          "top": 3661.078125,
+          "bottom": 5160.84375,
+          "width": 1243.046875,
+          "height": 1499.765625
+        },
+        "projectHeading": {
+          "left": 61.46875,
+          "right": 1304.515625,
+          "top": 3765.078125,
+          "bottom": 3831.046875,
+          "width": 1243.046875,
+          "height": 65.96875
+        },
+        "projectLeftCorridorX": 37.46875
+      },
+      "turns": {
+        "redesignsExit": {
+          "distance": 3812.82763671875,
+          "x": 37.46875,
+          "y": 3216.998046875
+        },
+        "capabilitiesApproach": {
+          "distance": 4258.2734375,
+          "x": 448.515625,
+          "y": 3264.358154296875
+        },
+        "capabilitiesClear": {
+          "distance": 4973.3251953125,
+          "x": 37.46875,
+          "y": 3584.51806640625
+        },
+        "projectsEntry": {
+          "distance": 5049.88525390625,
+          "x": 37.46875,
+          "y": 3661.078125
+        }
+      },
+      "transitionSpan": 411.05,
+      "copyClearance": 27.5,
+      "copyCollisionCount": 0,
+      "projectsSideDeviation": 0,
+      "milestones": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "locale": "en",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "overflow": 0,
+      "anchors": {
+        "redesigns": {
+          "left": 336,
+          "right": 1584,
+          "top": 3428.5625,
+          "bottom": 4386.5625,
+          "width": 1248,
+          "height": 958
+        },
+        "capabilities": {
+          "left": 764,
+          "right": 1584,
+          "top": 4450.5625,
+          "bottom": 4682.5625,
+          "width": 820,
+          "height": 232
+        },
+        "copyStart": {
+          "left": 764,
+          "right": 1584,
+          "top": 4450.5625,
+          "bottom": 4514.5625,
+          "width": 820,
+          "height": 64
+        },
+        "projectSection": {
+          "left": 336,
+          "right": 1584,
+          "top": 4816.5625,
+          "bottom": 6324.9375,
+          "width": 1248,
+          "height": 1508.375
+        },
+        "projectHeading": {
+          "left": 336,
+          "right": 1584,
+          "top": 4920.5625,
+          "bottom": 4987.71875,
+          "width": 1248,
+          "height": 67.15625
+        },
+        "projectLeftCorridorX": 312
+      },
+      "turns": {
+        "redesignsExit": {
+          "distance": 4848.68701171875,
+          "x": 312,
+          "y": 4372.482421875
+        },
+        "capabilitiesApproach": {
+          "distance": 5299.0849609375,
+          "x": 728,
+          "y": 4419.84228515625
+        },
+        "capabilitiesClear": {
+          "distance": 6019.08984375,
+          "x": 312,
+          "y": 4740.00244140625
+        },
+        "projectsEntry": {
+          "distance": 6095.64990234375,
+          "x": 312,
+          "y": 4816.5625
+        }
+      },
+      "transitionSpan": 416,
+      "copyClearance": 27.5,
+      "copyCollisionCount": 0,
+      "projectsSideDeviation": 0,
+      "milestones": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "locale": "en",
+      "viewport": [
+        2560,
+        1440
+      ],
+      "overflow": 0,
+      "anchors": {
+        "redesigns": {
+          "left": 656,
+          "right": 1904,
+          "top": 4508.5625,
+          "bottom": 5826.5625,
+          "width": 1248,
+          "height": 1318
+        },
+        "capabilities": {
+          "left": 1084,
+          "right": 1904,
+          "top": 5890.5625,
+          "bottom": 6122.5625,
+          "width": 820,
+          "height": 232
+        },
+        "copyStart": {
+          "left": 1084,
+          "right": 1904,
+          "top": 5890.5625,
+          "bottom": 5954.5625,
+          "width": 820,
+          "height": 64
+        },
+        "projectSection": {
+          "left": 656,
+          "right": 1904,
+          "top": 6256.5625,
+          "bottom": 7764.9375,
+          "width": 1248,
+          "height": 1508.375
+        },
+        "projectHeading": {
+          "left": 656,
+          "right": 1904,
+          "top": 6360.5625,
+          "bottom": 6427.71875,
+          "width": 1248,
+          "height": 67.15625
+        },
+        "projectLeftCorridorX": 632
+      },
+      "turns": {
+        "redesignsExit": {
+          "distance": 6108.68701171875,
+          "x": 632,
+          "y": 5812.482421875
+        },
+        "capabilitiesApproach": {
+          "distance": 6559.08544921875,
+          "x": 1048,
+          "y": 5859.84228515625
+        },
+        "capabilitiesClear": {
+          "distance": 7279.09130859375,
+          "x": 632,
+          "y": 6180.00244140625
+        },
+        "projectsEntry": {
+          "distance": 7355.6513671875,
+          "x": 632,
+          "y": 6256.5625
+        }
+      },
+      "transitionSpan": 416,
+      "copyClearance": 27.5,
+      "copyCollisionCount": 0,
+      "projectsSideDeviation": 0,
+      "milestones": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "locale": "pt",
+      "viewport": [
+        1366,
+        768
+      ],
+      "overflow": 0,
+      "anchors": {
+        "redesigns": {
+          "left": 61.46875,
+          "right": 1304.515625,
+          "top": 2549.890625,
+          "bottom": 3195.890625,
+          "width": 1243.046875,
+          "height": 646
+        },
+        "capabilities": {
+          "left": 484.515625,
+          "right": 1304.515625,
+          "top": 3259.890625,
+          "bottom": 3523.890625,
+          "width": 820,
+          "height": 264
+        },
+        "copyStart": {
+          "left": 484.515625,
+          "right": 1304.515625,
+          "top": 3259.890625,
+          "bottom": 3323.890625,
+          "width": 820,
+          "height": 64
+        },
+        "projectSection": {
+          "left": 61.46875,
+          "right": 1304.515625,
+          "top": 3657.890625,
+          "bottom": 5157.65625,
+          "width": 1243.046875,
+          "height": 1499.765625
+        },
+        "projectHeading": {
+          "left": 61.46875,
+          "right": 1304.515625,
+          "top": 3761.890625,
+          "bottom": 3827.859375,
+          "width": 1243.046875,
+          "height": 65.96875
+        },
+        "projectLeftCorridorX": 37.46875
+      },
+      "turns": {
+        "redesignsExit": {
+          "distance": 3777.64013671875,
+          "x": 37.46875,
+          "y": 3181.810546875
+        },
+        "capabilitiesApproach": {
+          "distance": 4223.0859375,
+          "x": 448.515625,
+          "y": 3229.170654296875
+        },
+        "capabilitiesClear": {
+          "distance": 4970.1376953125,
+          "x": 37.46875,
+          "y": 3581.33056640625
+        },
+        "projectsEntry": {
+          "distance": 5046.69775390625,
+          "x": 37.46875,
+          "y": 3657.890625
+        }
+      },
+      "transitionSpan": 411.05,
+      "copyClearance": 27.5,
+      "copyCollisionCount": 0,
+      "projectsSideDeviation": 0,
+      "milestones": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "locale": "pt",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "overflow": 0,
+      "anchors": {
+        "redesigns": {
+          "left": 336,
+          "right": 1584,
+          "top": 3393.375,
+          "bottom": 4351.375,
+          "width": 1248,
+          "height": 958
+        },
+        "capabilities": {
+          "left": 764,
+          "right": 1584,
+          "top": 4415.375,
+          "bottom": 4679.375,
+          "width": 820,
+          "height": 264
+        },
+        "copyStart": {
+          "left": 764,
+          "right": 1584,
+          "top": 4415.375,
+          "bottom": 4479.375,
+          "width": 820,
+          "height": 64
+        },
+        "projectSection": {
+          "left": 336,
+          "right": 1584,
+          "top": 4813.375,
+          "bottom": 6321.75,
+          "width": 1248,
+          "height": 1508.375
+        },
+        "projectHeading": {
+          "left": 336,
+          "right": 1584,
+          "top": 4917.375,
+          "bottom": 4984.53125,
+          "width": 1248,
+          "height": 67.15625
+        },
+        "projectLeftCorridorX": 312
+      },
+      "turns": {
+        "redesignsExit": {
+          "distance": 4759.49951171875,
+          "x": 312,
+          "y": 4337.294921875
+        },
+        "capabilitiesApproach": {
+          "distance": 5209.8974609375,
+          "x": 728,
+          "y": 4384.65478515625
+        },
+        "capabilitiesClear": {
+          "distance": 5961.90234375,
+          "x": 312,
+          "y": 4736.81494140625
+        },
+        "projectsEntry": {
+          "distance": 6038.46240234375,
+          "x": 312,
+          "y": 4813.375
+        }
+      },
+      "transitionSpan": 416,
+      "copyClearance": 27.5,
+      "copyCollisionCount": 0,
+      "projectsSideDeviation": 0,
+      "milestones": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "locale": "pt",
+      "viewport": [
+        2560,
+        1440
+      ],
+      "overflow": 0,
+      "anchors": {
+        "redesigns": {
+          "left": 656,
+          "right": 1904,
+          "top": 4473.375,
+          "bottom": 5791.375,
+          "width": 1248,
+          "height": 1318
+        },
+        "capabilities": {
+          "left": 1084,
+          "right": 1904,
+          "top": 5855.375,
+          "bottom": 6119.375,
+          "width": 820,
+          "height": 264
+        },
+        "copyStart": {
+          "left": 1084,
+          "right": 1904,
+          "top": 5855.375,
+          "bottom": 5919.375,
+          "width": 820,
+          "height": 64
+        },
+        "projectSection": {
+          "left": 656,
+          "right": 1904,
+          "top": 6253.375,
+          "bottom": 7761.75,
+          "width": 1248,
+          "height": 1508.375
+        },
+        "projectHeading": {
+          "left": 656,
+          "right": 1904,
+          "top": 6357.375,
+          "bottom": 6424.53125,
+          "width": 1248,
+          "height": 67.15625
+        },
+        "projectLeftCorridorX": 632
+      },
+      "turns": {
+        "redesignsExit": {
+          "distance": 6019.49951171875,
+          "x": 632,
+          "y": 5777.294921875
+        },
+        "capabilitiesApproach": {
+          "distance": 6469.89794921875,
+          "x": 1048,
+          "y": 5824.65478515625
+        },
+        "capabilitiesClear": {
+          "distance": 7221.90380859375,
+          "x": 632,
+          "y": 6176.81494140625
+        },
+        "projectsEntry": {
+          "distance": 7298.4638671875,
+          "x": 632,
+          "y": 6253.375
+        }
+      },
+      "transitionSpan": 416,
+      "copyClearance": 27.5,
+      "copyCollisionCount": 0,
+      "projectsSideDeviation": 0,
+      "milestones": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "locale": "fr",
+      "viewport": [
+        1366,
+        768
+      ],
+      "overflow": 0,
+      "anchors": {
+        "redesigns": {
+          "left": 61.46875,
+          "right": 1304.515625,
+          "top": 2648,
+          "bottom": 3294,
+          "width": 1243.046875,
+          "height": 646
+        },
+        "capabilities": {
+          "left": 484.515625,
+          "right": 1304.515625,
+          "top": 3358,
+          "bottom": 3654,
+          "width": 820,
+          "height": 296
+        },
+        "copyStart": {
+          "left": 484.515625,
+          "right": 1304.515625,
+          "top": 3358,
+          "bottom": 3454,
+          "width": 820,
+          "height": 96
+        },
+        "projectSection": {
+          "left": 61.46875,
+          "right": 1304.515625,
+          "top": 3788,
+          "bottom": 5319.765625,
+          "width": 1243.046875,
+          "height": 1531.765625
+        },
+        "projectHeading": {
+          "left": 61.46875,
+          "right": 1304.515625,
+          "top": 3892,
+          "bottom": 3957.96875,
+          "width": 1243.046875,
+          "height": 65.96875
+        },
+        "projectLeftCorridorX": 37.46875
+      },
+      "turns": {
+        "redesignsExit": {
+          "distance": 3777.640380859375,
+          "x": 37.46875,
+          "y": 3279.919921875
+        },
+        "capabilitiesApproach": {
+          "distance": 4223.0859375,
+          "x": 448.515625,
+          "y": 3327.280029296875
+        },
+        "capabilitiesClear": {
+          "distance": 5002.1376953125,
+          "x": 37.46875,
+          "y": 3711.43994140625
+        },
+        "projectsEntry": {
+          "distance": 5078.69775390625,
+          "x": 37.46875,
+          "y": 3788
+        }
+      },
+      "transitionSpan": 411.05,
+      "copyClearance": 27.5,
+      "copyCollisionCount": 0,
+      "projectsSideDeviation": 0,
+      "milestones": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "locale": "fr",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "overflow": 0,
+      "anchors": {
+        "redesigns": {
+          "left": 336,
+          "right": 1584,
+          "top": 3393.375,
+          "bottom": 4351.375,
+          "width": 1248,
+          "height": 958
+        },
+        "capabilities": {
+          "left": 764,
+          "right": 1584,
+          "top": 4415.375,
+          "bottom": 4711.375,
+          "width": 820,
+          "height": 296
+        },
+        "copyStart": {
+          "left": 764,
+          "right": 1584,
+          "top": 4415.375,
+          "bottom": 4511.375,
+          "width": 820,
+          "height": 96
+        },
+        "projectSection": {
+          "left": 336,
+          "right": 1584,
+          "top": 4845.375,
+          "bottom": 6385.75,
+          "width": 1248,
+          "height": 1540.375
+        },
+        "projectHeading": {
+          "left": 336,
+          "right": 1584,
+          "top": 4949.375,
+          "bottom": 5016.53125,
+          "width": 1248,
+          "height": 67.15625
+        },
+        "projectLeftCorridorX": 312
+      },
+      "turns": {
+        "redesignsExit": {
+          "distance": 4759.49951171875,
+          "x": 312,
+          "y": 4337.294921875
+        },
+        "capabilitiesApproach": {
+          "distance": 5209.8974609375,
+          "x": 728,
+          "y": 4384.65478515625
+        },
+        "capabilitiesClear": {
+          "distance": 5993.90234375,
+          "x": 312,
+          "y": 4768.81494140625
+        },
+        "projectsEntry": {
+          "distance": 6070.46240234375,
+          "x": 312,
+          "y": 4845.375
+        }
+      },
+      "transitionSpan": 416,
+      "copyClearance": 27.5,
+      "copyCollisionCount": 0,
+      "projectsSideDeviation": 0,
+      "milestones": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "locale": "fr",
+      "viewport": [
+        2560,
+        1440
+      ],
+      "overflow": 0,
+      "anchors": {
+        "redesigns": {
+          "left": 656,
+          "right": 1904,
+          "top": 4473.375,
+          "bottom": 5791.375,
+          "width": 1248,
+          "height": 1318
+        },
+        "capabilities": {
+          "left": 1084,
+          "right": 1904,
+          "top": 5855.375,
+          "bottom": 6151.375,
+          "width": 820,
+          "height": 296
+        },
+        "copyStart": {
+          "left": 1084,
+          "right": 1904,
+          "top": 5855.375,
+          "bottom": 5951.375,
+          "width": 820,
+          "height": 96
+        },
+        "projectSection": {
+          "left": 656,
+          "right": 1904,
+          "top": 6285.375,
+          "bottom": 7825.75,
+          "width": 1248,
+          "height": 1540.375
+        },
+        "projectHeading": {
+          "left": 656,
+          "right": 1904,
+          "top": 6389.375,
+          "bottom": 6456.53125,
+          "width": 1248,
+          "height": 67.15625
+        },
+        "projectLeftCorridorX": 632
+      },
+      "turns": {
+        "redesignsExit": {
+          "distance": 6019.49951171875,
+          "x": 632,
+          "y": 5777.294921875
+        },
+        "capabilitiesApproach": {
+          "distance": 6469.89794921875,
+          "x": 1048,
+          "y": 5824.65478515625
+        },
+        "capabilitiesClear": {
+          "distance": 7253.90380859375,
+          "x": 632,
+          "y": 6208.81494140625
+        },
+        "projectsEntry": {
+          "distance": 7330.4638671875,
+          "x": 632,
+          "y": 6285.375
+        }
+      },
+      "transitionSpan": 416,
+      "copyClearance": 27.5,
+      "copyCollisionCount": 0,
+      "projectsSideDeviation": 0,
+      "milestones": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "locale": "ja",
+      "viewport": [
+        1366,
+        768
+      ],
+      "overflow": 0,
+      "anchors": {
+        "redesigns": {
+          "left": 61.46875,
+          "right": 1304.515625,
+          "top": 2609.203125,
+          "bottom": 3255.203125,
+          "width": 1243.046875,
+          "height": 646
+        },
+        "capabilities": {
+          "left": 484.515625,
+          "right": 1304.515625,
+          "top": 3319.203125,
+          "bottom": 3597.203125,
+          "width": 820,
+          "height": 278
+        },
+        "copyStart": {
+          "left": 484.515625,
+          "right": 1304.515625,
+          "top": 3319.203125,
+          "bottom": 3387.203125,
+          "width": 820,
+          "height": 68
+        },
+        "projectSection": {
+          "left": 61.46875,
+          "right": 1304.515625,
+          "top": 3731.203125,
+          "bottom": 5233.0625,
+          "width": 1243.046875,
+          "height": 1501.859375
+        },
+        "projectHeading": {
+          "left": 61.46875,
+          "right": 1304.515625,
+          "top": 3835.203125,
+          "bottom": 3901.171875,
+          "width": 1243.046875,
+          "height": 65.96875
+        },
+        "projectLeftCorridorX": 37.46875
+      },
+      "turns": {
+        "redesignsExit": {
+          "distance": 3783.046630859375,
+          "x": 37.46875,
+          "y": 3241.123046875
+        },
+        "capabilitiesApproach": {
+          "distance": 4228.4921875,
+          "x": 448.515625,
+          "y": 3288.483154296875
+        },
+        "capabilitiesClear": {
+          "distance": 4989.5439453125,
+          "x": 37.46875,
+          "y": 3654.64306640625
+        },
+        "projectsEntry": {
+          "distance": 5066.10400390625,
+          "x": 37.46875,
+          "y": 3731.203125
+        }
+      },
+      "transitionSpan": 411.05,
+      "copyClearance": 27.5,
+      "copyCollisionCount": 0,
+      "projectsSideDeviation": 0,
+      "milestones": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "locale": "ja",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "overflow": 0,
+      "anchors": {
+        "redesigns": {
+          "left": 336,
+          "right": 1584,
+          "top": 3397.78125,
+          "bottom": 4355.78125,
+          "width": 1248,
+          "height": 958
+        },
+        "capabilities": {
+          "left": 764,
+          "right": 1584,
+          "top": 4419.78125,
+          "bottom": 4697.78125,
+          "width": 820,
+          "height": 278
+        },
+        "copyStart": {
+          "left": 764,
+          "right": 1584,
+          "top": 4419.78125,
+          "bottom": 4487.78125,
+          "width": 820,
+          "height": 68
+        },
+        "projectSection": {
+          "left": 336,
+          "right": 1584,
+          "top": 4831.78125,
+          "bottom": 6342.25,
+          "width": 1248,
+          "height": 1510.46875
+        },
+        "projectHeading": {
+          "left": 336,
+          "right": 1584,
+          "top": 4935.78125,
+          "bottom": 5002.9375,
+          "width": 1248,
+          "height": 67.15625
+        },
+        "projectLeftCorridorX": 312
+      },
+      "turns": {
+        "redesignsExit": {
+          "distance": 4789.10888671875,
+          "x": 312,
+          "y": 4341.701171875
+        },
+        "capabilitiesApproach": {
+          "distance": 5239.5068359375,
+          "x": 728,
+          "y": 4389.06103515625
+        },
+        "capabilitiesClear": {
+          "distance": 6005.51171875,
+          "x": 312,
+          "y": 4755.22119140625
+        },
+        "projectsEntry": {
+          "distance": 6082.07177734375,
+          "x": 312,
+          "y": 4831.78125
+        }
+      },
+      "transitionSpan": 416,
+      "copyClearance": 27.5,
+      "copyCollisionCount": 0,
+      "projectsSideDeviation": 0,
+      "milestones": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "locale": "ja",
+      "viewport": [
+        2560,
+        1440
+      ],
+      "overflow": 0,
+      "anchors": {
+        "redesigns": {
+          "left": 656,
+          "right": 1904,
+          "top": 4477.78125,
+          "bottom": 5795.78125,
+          "width": 1248,
+          "height": 1318
+        },
+        "capabilities": {
+          "left": 1084,
+          "right": 1904,
+          "top": 5859.78125,
+          "bottom": 6137.78125,
+          "width": 820,
+          "height": 278
+        },
+        "copyStart": {
+          "left": 1084,
+          "right": 1904,
+          "top": 5859.78125,
+          "bottom": 5927.78125,
+          "width": 820,
+          "height": 68
+        },
+        "projectSection": {
+          "left": 656,
+          "right": 1904,
+          "top": 6271.78125,
+          "bottom": 7782.25,
+          "width": 1248,
+          "height": 1510.46875
+        },
+        "projectHeading": {
+          "left": 656,
+          "right": 1904,
+          "top": 6375.78125,
+          "bottom": 6442.9375,
+          "width": 1248,
+          "height": 67.15625
+        },
+        "projectLeftCorridorX": 632
+      },
+      "turns": {
+        "redesignsExit": {
+          "distance": 6049.10888671875,
+          "x": 632,
+          "y": 5781.701171875
+        },
+        "capabilitiesApproach": {
+          "distance": 6499.50732421875,
+          "x": 1048,
+          "y": 5829.06103515625
+        },
+        "capabilitiesClear": {
+          "distance": 7265.51318359375,
+          "x": 632,
+          "y": 6195.22119140625
+        },
+        "projectsEntry": {
+          "distance": 7342.0732421875,
+          "x": 632,
+          "y": 6271.78125
+        }
+      },
+      "transitionSpan": 416,
+      "copyClearance": 27.5,
+      "copyCollisionCount": 0,
+      "projectsSideDeviation": 0,
+      "milestones": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    }
+  ],
+  "reversals": [
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "samples": 4,
+      "symmetric": true
+    },
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "samples": 4,
+      "symmetric": true
+    },
+    {
+      "viewport": [
+        2560,
+        1440
+      ],
+      "samples": 4,
+      "symmetric": true
+    }
+  ],
+  "screenshots": [
+    "services-to-copy-1366x768.png",
+    "copy-turns-left-1366x768.png",
+    "projects-left-corridor-1366x768.png",
+    "services-to-copy-1920x1080.png",
+    "copy-turns-left-1920x1080.png",
+    "projects-left-corridor-1920x1080.png",
+    "services-to-copy-2560x1440.png",
+    "copy-turns-left-2560x1440.png",
+    "projects-left-corridor-2560x1440.png"
+  ],
+  "reducedMotion": {
+    "offset": 0,
+    "totalLength": 9266.89453125,
+    "dashArray": 9266.89
+  }
+}
