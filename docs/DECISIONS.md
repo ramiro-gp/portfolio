@@ -1,5 +1,9 @@
 # DECISIONS.md
 
+## 2026-09-24 — V2-H5: novena pasada final, primera de dos
+
+Ramiro autoriza únicamente ajustar aire/altura selectiva en Hero, Ramiro y Contacto mobile (Servicios/Proyectos naturales), compartir una misma referencia geométrica para el primer y último X vertical compact, y corregir desktop Servicios→Proyectos→Ramiro: entrar a Proyectos y bajar por izquierda, girar a derecha en su salida y bajar por el corredor derecho exterior al contenido de Ramiro. Se conservan ruta compact, milestones/longitud real, reduced motion, Contacto desktop, accent/fondo y el resto de componentes. Menú y palabra rotativa del Hero quedan expresamente para la segunda pasada; no cerrar H5 ni avanzar a H6.
+
 ## 2026-09-24 — V2-H5: octava pasada compact/Servicios
 
 El QA real reporta corredores compact pegados a los bordes y horizontales resueltos en pocos píxeles de scroll. Se derivan los gutters desde el rail CSS y se distribuye 85% del intervalo compact por longitud real del SVG, manteniendo 15% de anclaje estructural y reversibilidad nativa; desktop aplica esa proporción sólo entre services-entry y Proyectos, dejando intacto el ritmo posterior. En desktop el tramo Servicios cruza el stack a la altura de Landing Pages, reaparece y baja por izquierda, y después rodea capabilities desde su lado izquierdo antes de volver a la ruta previa a Proyectos. El trigger obtiene target de 48 px sin mover su glifo. Ramiro dark recibe un token de superficie más oscuro que el canvas sin cambiar accent/textos/GitHub. Escape inicia menu-close en el frame siguiente (~21 ms) con delay cero; los 430 ms existentes mantienen inert/focus trap hasta que termina la animación, así que no se modifican. No se cierra H5 ni se inicia H6.

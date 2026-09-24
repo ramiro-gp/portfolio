@@ -5,6 +5,10 @@
 Fuente de verdad para experiencia visual e interactiva aprobada. V2-H3 aprueba el UX comercial documentado abajo; V2-H4 aprueba el copy de cinco idiomas y el sistema visual estático. La selección exacta de capturas y la implementación funcional siguen en hitos posteriores.
 El diseño debe ayudar a entender servicios, generar confianza, demostrar capacidad y contactar. La identidad sigue siendo personal.
 
+### Novena pasada H5 — primera de dos pasadas finales (2026-09-24)
+
+Alcance exclusivo: más aire de escenas selectivas en mobile (Hero usa mínimo flexible equivalente a viewport menos el header; Ramiro y Contacto pueden alcanzar 100svh y crecer; Servicios y Proyectos permanecen naturales incluso en tablet compact); compartir exactamente el eje X del primer y último tramo vertical compact; corregir sólo la transición desktop Servicios→Proyectos→Ramiro para entrar y bajar por el corredor izquierdo de Proyectos, cruzar a la derecha en el espacio superior libre de Ramiro y descender fuera de su contenido. Se conserva el recorrido compact aprobado, el fondo especial/accent de Ramiro, Contacto y todos los controles/copy existentes. La rotación del Hero y los cambios de menú quedan expresamente diferidos a la segunda pasada; H5 permanece abierto.
+
 ## Principios vigentes
 
 - Minimalismo, espacio negativo útil, ausencia de ruido y rechazo a patrones AI-genéricos.

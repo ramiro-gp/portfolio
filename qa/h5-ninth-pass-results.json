@@ -1,0 +1,879 @@
+{
+  "mobile": [
+    {
+      "locale": "es",
+      "viewport": [
+        320,
+        568
+      ],
+      "route": "mobile",
+      "heights": {
+        "inicio": 671.3,
+        "servicios": 2381.7,
+        "proyectos": 2132.8,
+        "ramiro": 1289,
+        "contacto": 754.5
+      },
+      "axis": 286
+    },
+    {
+      "locale": "es",
+      "viewport": [
+        360,
+        800
+      ],
+      "route": "mobile",
+      "heights": {
+        "inicio": 740,
+        "servicios": 2167.4,
+        "proyectos": 2096.4,
+        "ramiro": 1258.7,
+        "contacto": 800
+      },
+      "axis": 326
+    },
+    {
+      "locale": "es",
+      "viewport": [
+        390,
+        844
+      ],
+      "route": "mobile",
+      "heights": {
+        "inicio": 784,
+        "servicios": 2015.4,
+        "proyectos": 2119.3,
+        "ramiro": 1157.9,
+        "contacto": 844
+      },
+      "axis": 356
+    },
+    {
+      "locale": "es",
+      "viewport": [
+        430,
+        932
+      ],
+      "route": "mobile",
+      "heights": {
+        "inicio": 872,
+        "servicios": 1914.4,
+        "proyectos": 2069.9,
+        "ramiro": 1092.3,
+        "contacto": 932
+      },
+      "axis": 396
+    },
+    {
+      "locale": "es",
+      "viewport": [
+        768,
+        900
+      ],
+      "route": "tablet",
+      "heights": {
+        "inicio": 828,
+        "servicios": 1664.2,
+        "proyectos": 1236.2,
+        "ramiro": 900,
+        "contacto": 900
+      },
+      "axis": 734
+    },
+    {
+      "locale": "es",
+      "viewport": [
+        900,
+        900
+      ],
+      "route": "tablet",
+      "heights": {
+        "inicio": 828,
+        "servicios": 1689.3,
+        "proyectos": 1265.8,
+        "ramiro": 900,
+        "contacto": 900
+      },
+      "axis": 866
+    },
+    {
+      "locale": "es",
+      "viewport": [
+        1023,
+        768
+      ],
+      "route": "tablet",
+      "heights": {
+        "inicio": 696,
+        "servicios": 2729.6,
+        "proyectos": 1296.6,
+        "ramiro": 768,
+        "contacto": 768
+      },
+      "axis": 989
+    },
+    {
+      "locale": "en",
+      "viewport": [
+        320,
+        568
+      ],
+      "route": "mobile",
+      "heights": {
+        "inicio": 671.3,
+        "servicios": 2199.4,
+        "proyectos": 2079.9,
+        "ramiro": 1383.7,
+        "contacto": 821.7
+      },
+      "axis": 286
+    },
+    {
+      "locale": "en",
+      "viewport": [
+        360,
+        800
+      ],
+      "route": "mobile",
+      "heights": {
+        "inicio": 740,
+        "servicios": 2077.8,
+        "proyectos": 2122,
+        "ramiro": 1353.3,
+        "contacto": 800
+      },
+      "axis": 326
+    },
+    {
+      "locale": "en",
+      "viewport": [
+        390,
+        844
+      ],
+      "route": "mobile",
+      "heights": {
+        "inicio": 784,
+        "servicios": 1954.6,
+        "proyectos": 2144.9,
+        "ramiro": 1263.7,
+        "contacto": 844
+      },
+      "axis": 356
+    },
+    {
+      "locale": "en",
+      "viewport": [
+        430,
+        932
+      ],
+      "route": "mobile",
+      "heights": {
+        "inicio": 872,
+        "servicios": 1792.8,
+        "proyectos": 2069.9,
+        "ramiro": 1204.5,
+        "contacto": 932
+      },
+      "axis": 396
+    },
+    {
+      "locale": "en",
+      "viewport": [
+        768,
+        900
+      ],
+      "route": "tablet",
+      "heights": {
+        "inicio": 828,
+        "servicios": 1600.2,
+        "proyectos": 1236.2,
+        "ramiro": 900,
+        "contacto": 900
+      },
+      "axis": 734
+    },
+    {
+      "locale": "en",
+      "viewport": [
+        900,
+        900
+      ],
+      "route": "tablet",
+      "heights": {
+        "inicio": 828,
+        "servicios": 1625.3,
+        "proyectos": 1288.3,
+        "ramiro": 900,
+        "contacto": 900
+      },
+      "axis": 866
+    },
+    {
+      "locale": "en",
+      "viewport": [
+        1023,
+        768
+      ],
+      "route": "tablet",
+      "heights": {
+        "inicio": 696,
+        "servicios": 2697.6,
+        "proyectos": 1296.6,
+        "ramiro": 768,
+        "contacto": 768
+      },
+      "axis": 989
+    },
+    {
+      "locale": "pt",
+      "viewport": [
+        320,
+        568
+      ],
+      "route": "mobile",
+      "heights": {
+        "inicio": 787.9,
+        "servicios": 2290.5,
+        "proyectos": 2155.3,
+        "ramiro": 1478,
+        "contacto": 754.5
+      },
+      "axis": 286
+    },
+    {
+      "locale": "pt",
+      "viewport": [
+        360,
+        800
+      ],
+      "route": "mobile",
+      "heights": {
+        "inicio": 740,
+        "servicios": 2167.4,
+        "proyectos": 2205.3,
+        "ramiro": 1364.5,
+        "contacto": 800
+      },
+      "axis": 326
+    },
+    {
+      "locale": "pt",
+      "viewport": [
+        390,
+        844
+      ],
+      "route": "mobile",
+      "heights": {
+        "inicio": 784,
+        "servicios": 1914.4,
+        "proyectos": 2175.3,
+        "ramiro": 1329.3,
+        "contacto": 844
+      },
+      "axis": 356
+    },
+    {
+      "locale": "pt",
+      "viewport": [
+        430,
+        932
+      ],
+      "route": "mobile",
+      "heights": {
+        "inicio": 872,
+        "servicios": 1882.4,
+        "proyectos": 2069.9,
+        "ramiro": 1263.7,
+        "contacto": 932
+      },
+      "axis": 396
+    },
+    {
+      "locale": "pt",
+      "viewport": [
+        768,
+        900
+      ],
+      "route": "tablet",
+      "heights": {
+        "inicio": 828,
+        "servicios": 1632.2,
+        "proyectos": 1268.2,
+        "ramiro": 900,
+        "contacto": 900
+      },
+      "axis": 734
+    },
+    {
+      "locale": "pt",
+      "viewport": [
+        900,
+        900
+      ],
+      "route": "tablet",
+      "heights": {
+        "inicio": 828,
+        "servicios": 1654.1,
+        "proyectos": 1288.3,
+        "ramiro": 900,
+        "contacto": 900
+      },
+      "axis": 866
+    },
+    {
+      "locale": "pt",
+      "viewport": [
+        1023,
+        768
+      ],
+      "route": "tablet",
+      "heights": {
+        "inicio": 696,
+        "servicios": 2729.6,
+        "proyectos": 1328.6,
+        "ramiro": 768,
+        "contacto": 768
+      },
+      "axis": 989
+    },
+    {
+      "locale": "fr",
+      "viewport": [
+        320,
+        568
+      ],
+      "route": "mobile",
+      "heights": {
+        "inicio": 800.9,
+        "servicios": 2442.5,
+        "proyectos": 2246.4,
+        "ramiro": 1532.4,
+        "contacto": 821.7
+      },
+      "axis": 286
+    },
+    {
+      "locale": "fr",
+      "viewport": [
+        360,
+        800
+      ],
+      "route": "mobile",
+      "heights": {
+        "inicio": 740,
+        "servicios": 2229.8,
+        "proyectos": 2205.3,
+        "ramiro": 1442.9,
+        "contacto": 800
+      },
+      "axis": 326
+    },
+    {
+      "locale": "fr",
+      "viewport": [
+        390,
+        844
+      ],
+      "route": "mobile",
+      "heights": {
+        "inicio": 784,
+        "servicios": 2036,
+        "proyectos": 2205.7,
+        "ramiro": 1353.3,
+        "contacto": 844
+      },
+      "axis": 356
+    },
+    {
+      "locale": "fr",
+      "viewport": [
+        430,
+        932
+      ],
+      "route": "mobile",
+      "heights": {
+        "inicio": 872,
+        "servicios": 1975.2,
+        "proyectos": 2100.3,
+        "ramiro": 1294.1,
+        "contacto": 932
+      },
+      "axis": 396
+    },
+    {
+      "locale": "fr",
+      "viewport": [
+        768,
+        900
+      ],
+      "route": "tablet",
+      "heights": {
+        "inicio": 828,
+        "servicios": 1728.2,
+        "proyectos": 1268.2,
+        "ramiro": 900,
+        "contacto": 900
+      },
+      "axis": 734
+    },
+    {
+      "locale": "fr",
+      "viewport": [
+        900,
+        900
+      ],
+      "route": "tablet",
+      "heights": {
+        "inicio": 828,
+        "servicios": 1721.3,
+        "proyectos": 1288.3,
+        "ramiro": 900,
+        "contacto": 900
+      },
+      "axis": 866
+    },
+    {
+      "locale": "fr",
+      "viewport": [
+        1023,
+        768
+      ],
+      "route": "tablet",
+      "heights": {
+        "inicio": 696,
+        "servicios": 2761.6,
+        "proyectos": 1328.6,
+        "ramiro": 768,
+        "contacto": 768
+      },
+      "axis": 989
+    },
+    {
+      "locale": "ja",
+      "viewport": [
+        320,
+        568
+      ],
+      "route": "mobile",
+      "heights": {
+        "inicio": 800,
+        "servicios": 2221.4,
+        "proyectos": 2044,
+        "ramiro": 1484.5,
+        "contacto": 806.1
+      },
+      "axis": 286
+    },
+    {
+      "locale": "ja",
+      "viewport": [
+        360,
+        800
+      ],
+      "route": "mobile",
+      "heights": {
+        "inicio": 740,
+        "servicios": 2082.5,
+        "proyectos": 2029.4,
+        "ramiro": 1399.5,
+        "contacto": 800
+      },
+      "axis": 326
+    },
+    {
+      "locale": "ja",
+      "viewport": [
+        390,
+        844
+      ],
+      "route": "mobile",
+      "heights": {
+        "inicio": 784,
+        "servicios": 1977.7,
+        "proyectos": 2058.3,
+        "ramiro": 1336.7,
+        "contacto": 844
+      },
+      "axis": 356
+    },
+    {
+      "locale": "ja",
+      "viewport": [
+        430,
+        932
+      ],
+      "route": "mobile",
+      "heights": {
+        "inicio": 872,
+        "servicios": 1814.5,
+        "proyectos": 2037.4,
+        "ramiro": 1267,
+        "contacto": 932
+      },
+      "axis": 396
+    },
+    {
+      "locale": "ja",
+      "viewport": [
+        768,
+        900
+      ],
+      "route": "tablet",
+      "heights": {
+        "inicio": 828,
+        "servicios": 1639,
+        "proyectos": 1246.3,
+        "ramiro": 900,
+        "contacto": 900
+      },
+      "axis": 734
+    },
+    {
+      "locale": "ja",
+      "viewport": [
+        900,
+        900
+      ],
+      "route": "tablet",
+      "heights": {
+        "inicio": 828,
+        "servicios": 1658.7,
+        "proyectos": 1239.9,
+        "ramiro": 900,
+        "contacto": 900
+      },
+      "axis": 866
+    },
+    {
+      "locale": "ja",
+      "viewport": [
+        1023,
+        768
+      ],
+      "route": "tablet",
+      "heights": {
+        "inicio": 696,
+        "servicios": 2750.2,
+        "proyectos": 1312.2,
+        "ramiro": 768,
+        "contacto": 768
+      },
+      "axis": 989
+    }
+  ],
+  "enlargedText": [
+    {
+      "locale": "es",
+      "viewport": [
+        320,
+        568
+      ],
+      "scrollWidth": 320,
+      "heights": {
+        "hero": 1922,
+        "ramiro": 3719.5,
+        "contact": 1857.5
+      },
+      "axis": 286
+    },
+    {
+      "locale": "es",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollWidth": 390,
+      "heights": {
+        "hero": 1761.5,
+        "ramiro": 3185.1,
+        "contact": 1476
+      },
+      "axis": 356
+    },
+    {
+      "locale": "es",
+      "viewport": [
+        430,
+        932
+      ],
+      "scrollWidth": 430,
+      "heights": {
+        "hero": 1403.8,
+        "ramiro": 2842.8,
+        "contact": 1310.4
+      },
+      "axis": 396
+    },
+    {
+      "locale": "pt",
+      "viewport": [
+        320,
+        568
+      ],
+      "scrollWidth": 320,
+      "heights": {
+        "hero": 2098.6,
+        "ramiro": 4372.5,
+        "contact": 1796.7
+      },
+      "axis": 286
+    },
+    {
+      "locale": "pt",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollWidth": 390,
+      "heights": {
+        "hero": 1761.5,
+        "ramiro": 3761.3,
+        "contact": 1549.6
+      },
+      "axis": 356
+    },
+    {
+      "locale": "pt",
+      "viewport": [
+        430,
+        932
+      ],
+      "scrollWidth": 430,
+      "heights": {
+        "hero": 1699.5,
+        "ramiro": 3332.5,
+        "contact": 1384
+      },
+      "axis": 396
+    },
+    {
+      "locale": "ja",
+      "viewport": [
+        320,
+        568
+      ],
+      "scrollWidth": 320,
+      "heights": {
+        "hero": 1994,
+        "ramiro": 4010,
+        "contact": 1987
+      },
+      "axis": 286
+    },
+    {
+      "locale": "ja",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollWidth": 390,
+      "heights": {
+        "hero": 1926,
+        "ramiro": 3534,
+        "contact": 1676.8
+      },
+      "axis": 356
+    },
+    {
+      "locale": "ja",
+      "viewport": [
+        430,
+        932
+      ],
+      "scrollWidth": 430,
+      "heights": {
+        "hero": 1528,
+        "ramiro": 3330,
+        "contact": 1494.6
+      },
+      "axis": 396
+    }
+  ],
+  "desktop": [
+    {
+      "locale": "es",
+      "viewport": [
+        1366,
+        768
+      ],
+      "leftProjectsX": 37.5,
+      "rightRamiroX": 1335.3,
+      "contentClearance": 26.5,
+      "leftTurnAtProjects": true,
+      "rightTurnAtRamiro": true,
+      "transitionLength": 2853.6,
+      "transitionScroll": 1423,
+      "pathLength": 11840.1
+    },
+    {
+      "locale": "es",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "leftProjectsX": 312,
+      "rightRamiroX": 1620,
+      "contentClearance": 31.8,
+      "leftTurnAtProjects": true,
+      "rightTurnAtRamiro": true,
+      "transitionLength": 2877.2,
+      "transitionScroll": 1400.4,
+      "pathLength": 13551.1
+    },
+    {
+      "locale": "es",
+      "viewport": [
+        2560,
+        1440
+      ],
+      "leftProjectsX": 632,
+      "rightRamiroX": 1940,
+      "contentClearance": 31.8,
+      "leftTurnAtProjects": true,
+      "rightTurnAtRamiro": true,
+      "transitionLength": 2877.2,
+      "transitionScroll": 1364.4,
+      "pathLength": 15531.1
+    },
+    {
+      "locale": "pt",
+      "viewport": [
+        1366,
+        768
+      ],
+      "leftProjectsX": 37.5,
+      "rightRamiroX": 1335.3,
+      "contentClearance": 26.5,
+      "leftTurnAtProjects": true,
+      "rightTurnAtRamiro": true,
+      "transitionLength": 2831.3,
+      "transitionScroll": 1423,
+      "pathLength": 11873.9
+    },
+    {
+      "locale": "pt",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "leftProjectsX": 312,
+      "rightRamiroX": 1620,
+      "contentClearance": 31.8,
+      "leftTurnAtProjects": true,
+      "rightTurnAtRamiro": true,
+      "transitionLength": 2877.2,
+      "transitionScroll": 1400.4,
+      "pathLength": 13525.4
+    },
+    {
+      "locale": "pt",
+      "viewport": [
+        2560,
+        1440
+      ],
+      "leftProjectsX": 632,
+      "rightRamiroX": 1940,
+      "contentClearance": 31.8,
+      "leftTurnAtProjects": true,
+      "rightTurnAtRamiro": true,
+      "transitionLength": 2877.2,
+      "transitionScroll": 1364.4,
+      "pathLength": 15505.4
+    },
+    {
+      "locale": "ja",
+      "viewport": [
+        1366,
+        768
+      ],
+      "leftProjectsX": 37.5,
+      "rightRamiroX": 1335.3,
+      "contentClearance": 26.5,
+      "leftTurnAtProjects": true,
+      "rightTurnAtRamiro": true,
+      "transitionLength": 2837.8,
+      "transitionScroll": 1425.1,
+      "pathLength": 11869.2
+    },
+    {
+      "locale": "ja",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "leftProjectsX": 312,
+      "rightRamiroX": 1620,
+      "contentClearance": 31.8,
+      "leftTurnAtProjects": true,
+      "rightTurnAtRamiro": true,
+      "transitionLength": 2879.3,
+      "transitionScroll": 1402.5,
+      "pathLength": 13546.8
+    },
+    {
+      "locale": "ja",
+      "viewport": [
+        2560,
+        1440
+      ],
+      "leftProjectsX": 632,
+      "rightRamiroX": 1940,
+      "contentClearance": 31.8,
+      "leftTurnAtProjects": true,
+      "rightTurnAtRamiro": true,
+      "transitionLength": 2879.3,
+      "transitionScroll": 1366.5,
+      "pathLength": 15526.8
+    }
+  ],
+  "resize": [
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "route": "tablet",
+      "axis": 810
+    },
+    {
+      "viewport": [
+        768,
+        900
+      ],
+      "route": "tablet",
+      "axis": 734
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "route": "mobile",
+      "axis": 356
+    }
+  ],
+  "reducedMotion": {
+    "matches": true,
+    "offset": 0,
+    "endVisible": "1",
+    "pulseDuration": "1e-05s"
+  },
+  "reversal": {
+    "viewport": "390x844",
+    "positions": 7,
+    "symmetric": true,
+    "pathLength": 7456.3
+  },
+  "screenshots": [
+    "mobile-390-hero.png",
+    "mobile-390-projects.png",
+    "mobile-390-ramiro.png",
+    "mobile-390-contact.png",
+    "desktop-1366-projects.png",
+    "desktop-1366-ramiro.png",
+    "desktop-1920-projects.png",
+    "desktop-1920-ramiro.png",
+    "desktop-2560-projects.png",
+    "desktop-2560-ramiro.png"
+  ]
+}

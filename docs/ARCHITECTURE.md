@@ -5,6 +5,10 @@ V2-H0 conserva requisitos útiles y separa decisiones dependientes de UI pendien
 
 Fecha del baseline previo: 2026-09-11.
 
+## V2-H5 — novena pasada: layout mobile y transición desktop (2026-09-24)
+
+Primera de dos pasadas finales. En compact el builder usa un único eje X compartido (width − 34 px) para el primer segmento del Hero, el corredor de Contacto y el nodo final; el último tramo vertical termina directamente sobre ese eje. Hero usa min-height calc(100svh − header), Ramiro y Contacto min-height 100svh, todos flexibles y capaces de crecer. Servicios y Proyectos conservan altura natural también en tablet compacto. Desktop modifica sólo la salida de Servicios hacia Proyectos y la transición Proyectos→Ramiro: después del texto de capacidades cruza el hueco libre a un corredor derecho, gira a la izquierda sobre el borde superior vacío de Proyectos y desciende por su gutter izquierdo; al terminar el contenido de Proyectos gira a la derecha dentro de la banda superior vacía de Ramiro y desciende por fuera del contenido. El progreso 85/15 por longitud/estructura cubre los intervalos Services→Projects y Projects→About; Contacto y su ancla no cambian. Geometry, longitudes y milestones se reconstruyen tras resize, orientación, carga de fuentes y alturas observadas; el frame de scroll continúa interpolando sólo la tabla precalculada. Menú y palabra rotativa siguen diferidos a la segunda pasada. No se cierra H5 ni se inicia H6.
+
 ## Stack V2-H5 ratificado
 
 V2-H5 ratifica Astro 7.3 con salida estática, TypeScript strict, pnpm, CSS propio y scripts cliente pequeños. No se incorpora Tailwind, framework cliente, librería de motion, scroll suave global ni adapter de servidor. Los controles puntuales SCROLL e IR ARRIBA usan `window.scrollTo` nativo con `behavior: smooth` salvo reduced motion. Versiones exactas se fijan en el lockfile de implementación. El hosting concreto continúa pendiente; la salida `dist/` no debe depender de un proveedor.

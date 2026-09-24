@@ -420,8 +420,9 @@ if (svg && linePath && startNode && endNode && startPulse && endPulse && endGrou
     };
     if (compact) {
       // Keep the approved Hero start, then alternate through the real side gutters.
-      startX = width - 34;
-      endX = width - 34;
+      const compactAxisX = width - 34;
+      startX = compactAxisX;
+      endX = compactAxisX;
       const cue = startCue ? box(startCue) : null;
       startY = cue ? cue.bottom + 28 : hero.top + hero.height * .8;
       const lineHalf = 8.5 / 2;
@@ -445,7 +446,6 @@ if (svg && linePath && startNode && endNode && startPulse && endPulse && endGrou
       const projectsRadius = radiusForGap(projectsGap);
       const aboutRadius = radiusForGap(aboutGap);
       const contactRadius = radiusForGap(contactGap);
-      const endRadius = Math.max(1, Math.min(14, (rightX - endX) * .45));
       const stackMiddleY = stack.top + stack.height / 2;
       const projectsMiddleY = projects.top + projects.height / 2;
       const aboutMiddleY = about.top + about.height / 2;
@@ -477,10 +477,9 @@ if (svg && linePath && startNode && endNode && startPulse && endPulse && endGrou
       mark('about-exit', about.bottom - innerHeight * .6);
       add('V ' + (contactTurnY - contactRadius));
       mark('contact-transition', contactTurnY - innerHeight * .55);
-      add('Q ' + leftX + ' ' + contactTurnY + ' ' + (leftX + contactRadius) + ' ' + contactTurnY + ' H ' + (rightX - contactRadius) + ' Q ' + rightX + ' ' + contactTurnY + ' ' + rightX + ' ' + (contactTurnY + contactRadius));
+      add('Q ' + leftX + ' ' + contactTurnY + ' ' + (leftX + contactRadius) + ' ' + contactTurnY + ' H ' + (compactAxisX - contactRadius) + ' Q ' + compactAxisX + ' ' + contactTurnY + ' ' + compactAxisX + ' ' + (contactTurnY + contactRadius));
       mark('contact-entry', contactTurnY - innerHeight * .35);
-      add('V ' + (endY - endRadius));
-      add('Q ' + rightX + ' ' + endY + ' ' + endX + ' ' + endY);
+      add('V ' + endY);
       mark('contact', maxScroll);
     } else {
       const cue = startCue ? box(startCue) : null;
@@ -497,8 +496,6 @@ if (svg && linePath && startNode && endNode && startPulse && endPulse && endGrou
       endX = (back.left + back.right) / 2;
       const contactRadius = Math.max(1, Math.min(20, (aboutRightX - endX) * .22, (contactTitle.top - contact.top) * .1));
       const contactTurnY = contact.top + (contactTitle.top - contact.top) * .38;
-      const turnA = projects.top + Math.min(42, projects.height * .06);
-      const turnB = about.top + Math.min(42, about.height * .06);
       startY = cue ? cue.bottom + 40 : hero.top + hero.height * .75;
       const firstTurnY = services.top + (intro.top - services.top) * .52;
       const firstRadius = Math.min(30, (serviceGutterX - startX) / 3);
@@ -507,8 +504,14 @@ if (svg && linePath && startNode && endNode && startPulse && endPulse && endGrou
       const lowerTextGap = Math.max(0, lowerText.top - stackExitY);
       const capabilitiesTurnY = stackExitY + Math.min(24, lowerTextGap * .3);
       const capabilitiesRadius = Math.max(1, Math.min(20, lowerTextGap * .22, (lowerTextGutterX - left) * .1));
-      const clearY = lowerText.bottom + Math.min(40, Math.max(20, (turnA - lowerText.bottom) * .25));
-      const clearRadius = Math.max(1, Math.min(radius, (turnA - clearY) * .2));
+      const clearanceBaselineY = projects.top + Math.min(42, projects.height * .06);
+      const clearY = lowerText.bottom + Math.min(40, Math.max(20, (clearanceBaselineY - lowerText.bottom) * .25));
+      const clearRadius = Math.max(1, Math.min(radius, (clearanceBaselineY - clearY) * .2));
+      const projectTransitionGap = Math.max(0, projects.top - (clearY + clearRadius));
+      const projectTransitionRadius = Math.max(1, Math.min(12, projectTransitionGap / 4));
+      const projectTransitionY = clearY + clearRadius + projectTransitionRadius;
+      const ramiroTurnY = about.top + Math.min(64, Math.max(36, (aboutTitle.top - about.top) * .35));
+      const ramiroTurnRadius = Math.max(1, Math.min(radius, (aboutTitle.top - ramiroTurnY) * .4));
       d = `M ${startX} ${startY}`;
       mark('hero', startY - innerHeight * .8);
       add(`V ${firstTurnY - firstRadius} Q ${startX} ${firstTurnY} ${startX + firstRadius} ${firstTurnY} H ${serviceGutterX - firstRadius} Q ${serviceGutterX} ${firstTurnY} ${serviceGutterX} ${firstTurnY + firstRadius}`);
@@ -523,9 +526,12 @@ if (svg && linePath && startNode && endNode && startPulse && endPulse && endGrou
       mark('capabilities-approach', lowerText.top - innerHeight * .5);
       add(`V ${clearY - clearRadius} Q ${lowerTextGutterX} ${clearY} ${lowerTextGutterX - clearRadius} ${clearY} H ${left + clearRadius} Q ${left} ${clearY} ${left} ${clearY + clearRadius}`);
       mark('capabilities-clear', lowerText.bottom - innerHeight * .5);
-      add(`V ${turnA - radius} Q ${left} ${turnA} ${left + radius} ${turnA} H ${aboutRightX - radius} Q ${aboutRightX} ${turnA} ${aboutRightX} ${turnA + radius}`);
+      add(`Q ${left} ${projectTransitionY} ${left + projectTransitionRadius} ${projectTransitionY} H ${aboutRightX - projectTransitionRadius} Q ${aboutRightX} ${projectTransitionY} ${aboutRightX} ${projectTransitionY + projectTransitionRadius}`);
+      add(`V ${projects.top - projectTransitionRadius} Q ${aboutRightX} ${projects.top} ${aboutRightX - projectTransitionRadius} ${projects.top} H ${left + projectTransitionRadius} Q ${left} ${projects.top} ${left} ${projects.top + projectTransitionRadius}`);
       mark('projects', projects.top - innerHeight * .3);
-      add(`V ${turnB - radius} Q ${left} ${turnB} ${left + radius} ${turnB} H ${aboutRightX - radius} Q ${aboutRightX} ${turnB} ${aboutRightX} ${turnB + radius}`);
+      add(`V ${projectsEnd.bottom}`);
+      mark('projects-exit', projectsEnd.bottom - innerHeight * .55);
+      add(`V ${ramiroTurnY - ramiroTurnRadius} Q ${left} ${ramiroTurnY} ${left + ramiroTurnRadius} ${ramiroTurnY} H ${aboutRightX - ramiroTurnRadius} Q ${aboutRightX} ${ramiroTurnY} ${aboutRightX} ${ramiroTurnY + ramiroTurnRadius}`);
       mark('about', about.top - innerHeight * .4);
       add(`V ${contactTurnY - contactRadius}`);
       mark('contact-entry', contactTurnY - innerHeight * .55);
@@ -566,7 +572,10 @@ if (svg && linePath && startNode && endNode && startPulse && endPulse && endGrou
       });
     };
     if (compact) retimeRange(milestones[0]!.name, milestones.at(-1)!.name);
-    else retimeRange('services-entry', 'projects');
+    else {
+      retimeRange('services-entry', 'projects');
+      retimeRange('projects', 'about');
+    }
     linePath!.style.strokeDasharray = String(length);
     svg!.dataset.route = compact ? (width < 768 ? 'mobile' : 'tablet') : 'desktop';
     svg!.dataset.milestones = JSON.stringify(milestones);
