@@ -29,6 +29,13 @@ function focusSection(target: HTMLElement | null, fromKeyboard: boolean): void {
   target.scrollIntoView({ block: 'start', behavior: 'auto' });
   target.focus({ preventScroll: true });
 }
+function focusVisibleSection(target: HTMLElement, fromKeyboard: boolean): void {
+  root.classList.toggle('pointer-section-focus', !fromKeyboard);
+  target.focus({ preventScroll: true });
+}
+function scrollSectionIntoView(target: HTMLElement): void {
+  target.scrollIntoView({ block: 'start', behavior: reduceMotion.matches ? 'auto' : 'smooth' });
+}
 function scrollToPosition(top: number, focusTarget: HTMLElement | null, fromKeyboard: boolean): void {
   const destination = Math.max(0, Math.min(top, document.documentElement.scrollHeight - innerHeight));
   const finish = () => {
@@ -84,6 +91,17 @@ let priorOverflow = '';
 function closeMenu(restoreFocus = false): Promise<void> {
   if (!menu || !header || !trigger || !menuOpen) return Promise.resolve();
   if (closingPromise) return closingPromise;
+  const originX = Number.parseFloat(header.style.getPropertyValue('--menu-origin-x')) || 0;
+  const originY = Number.parseFloat(header.style.getPropertyValue('--menu-origin-y')) || 0;
+  const bounds = header.getBoundingClientRect();
+  const visibleRadius = Math.max(
+    Math.hypot(originX - bounds.left, originY - bounds.top),
+    Math.hypot(bounds.right - originX, originY - bounds.top),
+    Math.hypot(originX - bounds.left, bounds.bottom - originY),
+    Math.hypot(bounds.right - originX, bounds.bottom - originY)
+  ) + 1;
+  const currentRadius = Number.parseFloat(getComputedStyle(header).clipPath.match(/circle\(([\d.]+)px/)?.[1] || '');
+  header.style.setProperty('--menu-close-radius', `${Math.min(visibleRadius, Number.isFinite(currentRadius) ? currentRadius : visibleRadius)}px`);
   header.dataset.closing = '';
   closingPromise = new Promise((resolve) => {
     window.setTimeout(() => {
@@ -107,6 +125,17 @@ function closeMenu(restoreFocus = false): Promise<void> {
     }, reduceMotion.matches ? 0 : 430);
   });
   return closingPromise;
+}
+function navigateToSection(target: HTMLElement, fromKeyboard: boolean): void {
+  const closing = closeMenu();
+  const nextHash = `#${target.id}`;
+  if (window.location.hash !== nextHash) window.history.pushState(null, '', `${window.location.pathname}${window.location.search}${nextHash}`);
+  scrollSectionIntoView(target);
+  void closing.then(() => {
+    // Re-align after the sticky header and scrollbar return to their final layout.
+    scrollSectionIntoView(target);
+    focusVisibleSection(target, fromKeyboard);
+  });
 }
 function openMenu(): void {
   if (!menu || !header || !trigger || !panel || menuOpen || closingPromise) return;
@@ -135,15 +164,15 @@ if (header && menu && trigger && panel && main && footer) {
   trigger.setAttribute('aria-expanded', 'false');
   trigger.addEventListener('click', (event) => { event.preventDefault(); if (!closingPromise) menuOpen ? void closeMenu(true) : openMenu(); });
   header.addEventListener('click', (event) => {
-    if (!menuOpen || !(event.target instanceof Element)) return;
+    if (!menuOpen || closingPromise || !(event.target instanceof Element)) return;
     if (event.target.closest('a,button,summary')) return;
     void closeMenu();
   });
   document.addEventListener('keydown', (event) => {
-    if (!menuOpen || closingPromise) return;
+    if (!menuOpen) return;
     if (event.key === 'Escape') {
       event.preventDefault();
-      void closeMenu(true);
+      if (!closingPromise) void closeMenu(true);
       return;
     }
     if (event.key !== 'Tab') return;
@@ -162,20 +191,15 @@ if (header && menu && trigger && panel && main && footer) {
     event.preventDefault();
     const id = link.hash.slice(1);
     const fromKeyboard = event.detail === 0;
-    void closeMenu().then(() => {
-      const target = document.getElementById(id);
-      window.location.hash = id;
-      focusSection(target, fromKeyboard);
-    });
+    const target = document.getElementById(id);
+    if (target) navigateToSection(target, fromKeyboard);
   }));
   header.querySelector<HTMLAnchorElement>('.brand')?.addEventListener('click', (event) => {
     if (!menuOpen) return;
     event.preventDefault();
     const fromKeyboard = event.detail === 0;
-    void closeMenu().then(() => {
-      window.location.hash = 'inicio';
-      focusSection(document.getElementById('inicio'), fromKeyboard);
-    });
+    const target = document.getElementById('inicio');
+    if (target) navigateToSection(target, fromKeyboard);
   });
   panel.querySelectorAll<HTMLAnchorElement>('[data-language-link]').forEach((link) => link.addEventListener('click', (event) => {
     event.preventDefault();

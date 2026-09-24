@@ -1,5 +1,9 @@
 # DECISIONS.md
 
+## 2026-09-24 — V2-H5: segunda pasada final de Menú y Hero
+
+La segunda pasada aprobada corrige exclusivamente el inicio perceptual del cierre circular, el scroll de navegación interna y el clipping horizontal del reveal del Hero. El radio de cierre parte del perímetro realmente visible (sin modificar apertura ni duración); la navegación inicia scrollIntoView nativo en paralelo al cierre, actualiza el fragmento sin salto, realinea tras restaurar el layout y enfoca al terminar el overlay; reduced motion usa auto. Overscan horizontal compensado se aplica a los glifos sin cambiar Instrument Sans, tracking, timing ni ancho reservado, incluyendo el max-width compacto. QA y pruebas registradas en qa/h5-menu-hero-final-pass-results.json. No se modifica la línea ni otros componentes; H5 sigue IN PROGRESS y H6 NOT STARTED.
+
 ## 2026-09-24 — V2-H5: novena pasada final, primera de dos
 
 Ramiro autoriza únicamente ajustar aire/altura selectiva en Hero, Ramiro y Contacto mobile (Servicios/Proyectos naturales), compartir una misma referencia geométrica para el primer y último X vertical compact, y corregir desktop Servicios→Proyectos→Ramiro: entrar a Proyectos y bajar por izquierda, girar a derecha en su salida y bajar por el corredor derecho exterior al contenido de Ramiro. Se conservan ruta compact, milestones/longitud real, reduced motion, Contacto desktop, accent/fondo y el resto de componentes. Menú y palabra rotativa del Hero quedan expresamente para la segunda pasada; no cerrar H5 ni avanzar a H6.

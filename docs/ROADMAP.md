@@ -56,6 +56,8 @@ Auditoría de cierre H4 (2026-09-21): Ramiro resolvió explícitamente los dos b
 
 ## V2-H5 — Interaction & technical readiness
 
+Segunda pasada final (2026-09-24): se corrigieron únicamente cierre perceptual del menú, navegación por scroll nativo coordinada con su cierre y overscan horizontal del reveal del Hero. La navegación realinea el destino tras restaurar el ancho/layout final del viewport. QA específico en qa/h5-menu-hero-final-pass-checks.cjs y qa/h5-menu-hero-final-pass-results.json. H5 permanece IN PROGRESS; no se avanza a H6.
+
 Objetivo y entregables (alcance aprobado posteriormente por Ramiro): ratificar stack y arquitectura, construir la base estática y las interacciones H5.A–G, y verificar H5.H. Incluye menú fullscreen accesible, Hero rotativo, tres paneles sticky, microinteracciones, cursor apropiado y línea continua sólo tras estabilizar el layout. El hosting concreto no se presume: se ratifica salida estática portable y queda su elección para implementación/publicación posterior.
 
 Cierre: especificación e interacciones aprobadas, con evidencia de build/typecheck, QA responsive, browsers, touch, teclado, sin JS y reduced motion. El cierre H5 no satisface por sí solo DONE.md ni equivale a release.

@@ -1,0 +1,327 @@
+{
+  "menuClose": [
+    {
+      "width": 1366,
+      "height": 768,
+      "method": "trigger",
+      "firstVisibleMs": 31,
+      "modalRetained": true,
+      "restored": true
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "method": "escape",
+      "firstVisibleMs": 30,
+      "modalRetained": true,
+      "restored": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "method": "trigger",
+      "firstVisibleMs": 32,
+      "modalRetained": true,
+      "restored": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "method": "escape",
+      "firstVisibleMs": 20,
+      "modalRetained": true,
+      "restored": true
+    },
+    {
+      "method": "escape-and-tab-trap",
+      "focusTrappedUntilEnd": true,
+      "restoredToTrigger": true
+    }
+  ],
+  "navigation": [
+    {
+      "id": "inicio",
+      "method": "mouse",
+      "hash": "#inicio",
+      "movedBeforeClose": false,
+      "focusAfterClose": "inicio"
+    },
+    {
+      "id": "servicios",
+      "method": "mouse",
+      "hash": "#servicios",
+      "movedBeforeClose": true,
+      "focusAfterClose": "servicios"
+    },
+    {
+      "id": "proyectos",
+      "method": "mouse",
+      "hash": "#proyectos",
+      "movedBeforeClose": true,
+      "focusAfterClose": "proyectos"
+    },
+    {
+      "id": "ramiro",
+      "method": "mouse",
+      "hash": "#ramiro",
+      "movedBeforeClose": true,
+      "focusAfterClose": "ramiro"
+    },
+    {
+      "id": "contacto",
+      "method": "mouse",
+      "hash": "#contacto",
+      "movedBeforeClose": true,
+      "focusAfterClose": "contacto"
+    },
+    {
+      "id": "servicios",
+      "method": "keyboard",
+      "focusAfterClose": "servicios",
+      "keyboardFocusVisible": true
+    },
+    {
+      "id": "proyectos",
+      "method": "touch",
+      "focusAfterClose": "proyectos"
+    }
+  ],
+  "hero": [
+    {
+      "route": "/",
+      "lang": "es",
+      "width": 1366,
+      "words": [
+        "servicio",
+        "proyecto",
+        "marca",
+        "producto",
+        "portfolio",
+        "campaña"
+      ],
+      "reservedSlotStable": true,
+      "noOverflow": true
+    },
+    {
+      "route": "/",
+      "lang": "es",
+      "width": 390,
+      "words": [
+        "servicio",
+        "proyecto",
+        "marca",
+        "producto",
+        "portfolio",
+        "campaña"
+      ],
+      "reservedSlotStable": true,
+      "noOverflow": true
+    },
+    {
+      "route": "/",
+      "lang": "es",
+      "width": 320,
+      "words": [
+        "servicio",
+        "proyecto",
+        "marca",
+        "producto",
+        "portfolio",
+        "campaña"
+      ],
+      "reservedSlotStable": true,
+      "noOverflow": true
+    },
+    {
+      "route": "/en/",
+      "lang": "en",
+      "width": 1366,
+      "words": [
+        "service",
+        "project",
+        "brand",
+        "product",
+        "portfolio",
+        "campaign"
+      ],
+      "reservedSlotStable": true,
+      "noOverflow": true
+    },
+    {
+      "route": "/en/",
+      "lang": "en",
+      "width": 390,
+      "words": [
+        "service",
+        "project",
+        "brand",
+        "product",
+        "portfolio",
+        "campaign"
+      ],
+      "reservedSlotStable": true,
+      "noOverflow": true
+    },
+    {
+      "route": "/en/",
+      "lang": "en",
+      "width": 320,
+      "words": [
+        "service",
+        "project",
+        "brand",
+        "product",
+        "portfolio",
+        "campaign"
+      ],
+      "reservedSlotStable": true,
+      "noOverflow": true
+    },
+    {
+      "route": "/pt/",
+      "lang": "pt",
+      "width": 1366,
+      "words": [
+        "seu serviço",
+        "seu projeto",
+        "sua marca",
+        "seu produto",
+        "seu portfólio",
+        "sua campanha"
+      ],
+      "reservedSlotStable": true,
+      "noOverflow": true
+    },
+    {
+      "route": "/pt/",
+      "lang": "pt",
+      "width": 390,
+      "words": [
+        "seu serviço",
+        "seu projeto",
+        "sua marca",
+        "seu produto",
+        "seu portfólio",
+        "sua campanha"
+      ],
+      "reservedSlotStable": true,
+      "noOverflow": true
+    },
+    {
+      "route": "/pt/",
+      "lang": "pt",
+      "width": 320,
+      "words": [
+        "seu serviço",
+        "seu projeto",
+        "sua marca",
+        "seu produto",
+        "seu portfólio",
+        "sua campanha"
+      ],
+      "reservedSlotStable": true,
+      "noOverflow": true
+    },
+    {
+      "route": "/fr/",
+      "lang": "fr",
+      "width": 1366,
+      "words": [
+        "service",
+        "projet",
+        "marque",
+        "produit",
+        "portfolio",
+        "campagne"
+      ],
+      "reservedSlotStable": true,
+      "noOverflow": true
+    },
+    {
+      "route": "/fr/",
+      "lang": "fr",
+      "width": 390,
+      "words": [
+        "service",
+        "projet",
+        "marque",
+        "produit",
+        "portfolio",
+        "campagne"
+      ],
+      "reservedSlotStable": true,
+      "noOverflow": true
+    },
+    {
+      "route": "/fr/",
+      "lang": "fr",
+      "width": 320,
+      "words": [
+        "service",
+        "projet",
+        "marque",
+        "produit",
+        "portfolio",
+        "campagne"
+      ],
+      "reservedSlotStable": true,
+      "noOverflow": true
+    },
+    {
+      "route": "/ja/",
+      "lang": "ja",
+      "width": 1366,
+      "words": [
+        "サービス",
+        "プロジェクト",
+        "ブランド",
+        "製品",
+        "ポートフォリオ",
+        "キャンペーン"
+      ],
+      "reservedSlotStable": true,
+      "noOverflow": true
+    },
+    {
+      "route": "/ja/",
+      "lang": "ja",
+      "width": 390,
+      "words": [
+        "サービス",
+        "プロジェクト",
+        "ブランド",
+        "製品",
+        "ポートフォリオ",
+        "キャンペーン"
+      ],
+      "reservedSlotStable": true,
+      "noOverflow": true
+    },
+    {
+      "route": "/ja/",
+      "lang": "ja",
+      "width": 320,
+      "words": [
+        "サービス",
+        "プロジェクト",
+        "ブランド",
+        "製品",
+        "ポートフォリオ",
+        "キャンペーン"
+      ],
+      "reservedSlotStable": true,
+      "noOverflow": true
+    }
+  ],
+  "reducedMotion": {
+    "menuClosesImmediately": true,
+    "navigation": "auto",
+    "focus": "contacto",
+    "heroFallback": "プロジェクト"
+  },
+  "noJsFallback": {
+    "nativeDetailsMenu": true,
+    "sectionAnchor": "#proyectos",
+    "heroFallback": "proyecto"
+  }
+}
