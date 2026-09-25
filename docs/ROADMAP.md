@@ -110,11 +110,11 @@ Estado: CLOSED — 2026-09-25. H6.A, H6.B, H6.C, H6.D, H6.E y H6.F están COMPLE
 
 Objetivo y entregables: Validar comprensión comercial, contacto, enlaces, idiomas, responsive, browsers, teclado, touch, reduced motion y calidad técnica.
 
-QA adicional transferido de H5: lector de pantalla exhaustivo, Safari desktop/iOS y matriz completa de navegadores/versiones de ARCHITECTURE.md, además de carga/CLS en los entornos pertinentes; no figuran como pruebas ya realizadas.
+Para cerrar H7 son obligatorios una prueba real con lector de pantalla (NVDA en Windows es suficiente), touch en al menos un dispositivo físico, QA automatizado/manual ejecutable, build/check limpios y cero P0/P1. Safari desktop, iPhone/iPad real, Firefox, Chrome Android adicional y versiones anteriores son QA adicional no bloqueante si no están disponibles; toda ausencia se documenta honestamente. Si una prueba externa realizada revela un P0/P1, debe corregirse antes del cierre. Esta regla de H7 fue confirmada por Ramiro el 2026-09-25; la matriz de soporte de ARCHITECTURE.md sigue como objetivo de cobertura y evidencia, no como exigencia de disponer de todos los dispositivos físicos para cerrar H7.
 
-Cierre: Criterios pre-release de DONE.md satisfechos con evidencia y excepciones persistentes explícitamente aceptadas.
+Cierre: Criterios pre-release de DONE.md satisfechos con evidencia, cero P0/P1 y las dos pruebas reales obligatorias realizadas. Las limitaciones del QA adicional se registran sin presentarlas como pruebas aprobadas; el QA dependiente de producción queda para H8.
 
-Estado: NOT STARTED
+**V2-H7 — CLOSED — 2026-09-25.** Build/check limpios; QA ejecutable completado sin fallos, NVDA real en Windows y touch en dispositivo físico informados PASS por Ramiro. La decisión H7 aplica blanco sólo a la línea y GitHub en Light + negro dentro de Ramiro; Dark y los demás accents permanecen intactos. No quedan P0/P1. Se registra un P2 aceptado por conservación visual: GitHub en Light verde/azul/rojo/violeta mantiene el accent con ratios de 2,63:1/2,68:1/3,03:1/2,55:1, detallado en `qa/h7-report.md` y `qa/h7-results.json`. Safari/Firefox/iOS/Android adicional y versiones anteriores no disponibles quedan como QA opcional no bloqueante. Evidencia externa PASS y sus límites de registro en `qa/h7-manual.md`. H8 sigue **NOT STARTED**; H7 no declara el sitio terminado.
 
 ## V2-H8 — Release
 

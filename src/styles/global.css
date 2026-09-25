@@ -38,6 +38,12 @@ main{z-index:auto}.hero,.section{position:relative;z-index:auto}.hero>*,.section
 html.js-ready .site-header[data-open][data-closing]{animation:menu-close .42s ease-in both}@keyframes menu-close{from{clip-path:circle(150vmax at var(--menu-origin-x,90%) var(--menu-origin-y,36px))}to{clip-path:circle(0 at var(--menu-origin-x,90%) var(--menu-origin-y,36px))}}.menu-navigation a{position:relative;padding-bottom:5px}.menu-navigation a::after{content:'';position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform .62s cubic-bezier(.22,1,.36,1)}.menu-navigation a:hover::after,.menu-navigation a:focus-visible::after{transform:scaleX(1)}
 .appearance{display:flex;align-items:flex-start;gap:20px 30px;flex-wrap:wrap}.appearance-group{min-width:0}.appearance .utility-heading{font-size:.75rem;font-weight:600;letter-spacing:.09em;margin-bottom:6px}.theme-options{margin:0}.accent-options{flex-wrap:wrap}.accent-choice{width:34px}.menu-utilities{gap:24px 36px}
 .about{color:var(--inverse-text);align-content:center}.about .professional-title,.about .process-prose p,.about .process-note,.about .language-disclosure,.about .section-index{color:var(--inverse-muted)}.about .process-prose,.about .language-disclosure{border-color:var(--inverse-divider)}.about a{color:var(--accent)}.about a:focus-visible{outline-color:var(--accent)}
+/* H7 decision: only Light + black switches to the scene's inverse white. */
+html[data-theme=light][data-accent=light-black] .continuous-line [data-line-path]{transition:stroke .18s ease}
+html[data-theme=light][data-accent=light-black][data-ramiro-scene] .about .profile-links a[href*="github.com"]{color:var(--inverse-text)}
+html[data-theme=light][data-accent=light-black][data-ramiro-scene] .continuous-line [data-line-path]{stroke:var(--inverse-text)}
+html[data-theme=light][data-accent=light-black][data-ramiro-scene] .about .profile-links a[href*="github.com"]:focus-visible{outline-color:var(--inverse-text)}
+@media(prefers-reduced-motion:reduce){html[data-theme=light][data-accent=light-black] .continuous-line [data-line-path]{transition:none}}
 .continuous-line{z-index:1;color:initial;opacity:1}
 .custom-cursor{background:var(--cursor-color)}.custom-cursor.is-inverse{background:var(--cursor-on-inverse)}.custom-cursor.is-on-accent{background:var(--cursor-on-accent)}html.cursor-ready .custom-cursor.is-hover{opacity:.56}
 @media(min-width:768px){.menu-navigation a{font-size:clamp(2rem,4.7vw,4.5rem)}.menu-bottom{margin-top:clamp(24px,5vh,56px)}html.js-ready .site-header[data-open] .menu-panel{padding-top:clamp(24px,3vh,40px)}}
@@ -155,3 +161,6 @@ html.js-ready .site-header[data-open][data-closing]{animation:menu-close-visible
 .word-current,.word-char{margin-inline:-.055em;padding-inline:.055em}
 @media(max-width:479px){.word-current{max-width:calc(100% + .11em)}}
 .brand-dot{color:var(--accent)}
+
+/* Reduced motion opens the menu content immediately, including delayed items. */
+@media(prefers-reduced-motion:reduce){html.js-ready .site-header[data-open] .menu-navigation a,html.js-ready .site-header[data-open] .menu-bottom{animation:none!important;opacity:1;transform:none}}

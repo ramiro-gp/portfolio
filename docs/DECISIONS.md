@@ -1,5 +1,13 @@
 # DECISIONS.md
 
+## 2026-09-25 — V2-H7: Light + negro en la escena Ramiro
+
+Ramiro aprobó una excepción visual limitada a Light + accent negro mientras la escena Ramiro está visible: línea continua, enlace GitHub y outline de foco de GitHub usan blanco inverso `#F1F0EC`; al salir de la escena la línea vuelve al accent negro. La transición de color se desactiva con reduced motion y la geometría no cambia. Dark y todos los demás accents conservan su comportamiento anterior. Las cuatro combinaciones Light no negras mantienen sus ratios medidos de contraste bajo AA en GitHub y se documentan como excepción P2 de alcance limitado; no se alteran por esta decisión. Regresión desktop/mobile, entrada/salida, hover/foco, cinco accents Light, Dark, reduced motion y geometría en `qa/h7-results.json`; NVDA real en Windows y touch físico real fueron reportados PASS por Ramiro, con modelos/versiones/URL no informados.
+
+## 2026-09-25 — V2-H7: cierre con pruebas reales esenciales
+
+Ramiro confirmó que H7 requiere una prueba real con lector de pantalla (NVDA en Windows basta), touch en al menos un dispositivo físico, QA ejecutable, build/check limpios y cero P0/P1. Safari desktop, iPhone/iPad real, Firefox, Chrome Android adicional y versiones anteriores son QA adicional no bloqueante cuando no estén disponibles; se registran como limitaciones de cobertura sin fingir que se probaron. Todo P0/P1 descubierto por una prueba externa realizada debe corregirse antes del cierre. H8 conserva el QA dependiente del dominio publicado.
+
 ## 2026-09-25 — H6.F: assets, SEO y marca aprobados
 
 Ramiro seleccionó el concepto `r.` derivado de la palabra existente `ramita.dev` para favicon y la composición social con la oferta localizada como foco; el 2026-09-25 aprobó visualmente favicon, ICO, Apple Touch Icon y las cinco imágenes sociales ES/EN/PT/FR/JA. Se generaron el SVG autónomo, ICO 16/32/64, Apple 180 y cinco PNG 1200 × 630 en la paleta aprobada, sin nueva identidad, manifest, framework ni dependencia de producción. BaseLayout reutiliza copy social localizado en Open Graph y Twitter/X; sitemap XML estático y robots salen de las rutas y `Astro.site`, sin decidir hosting. Build, check y QA focalizado de cinco locales pasan según `qa/h6f-results.json`; social no se descarga en la navegación normal y JS cliente conserva el mismo bundle. Como último ajuste autorizado, sólo el punto de `ramita.dev` en Header/Footer toma `var(--accent)` con CSS; QA en 12 combinaciones confirma cambio inmediato, geometría tipográfica conservada y cobertura Light/Dark, seis accents y desktop/mobile (`qa/h6f-brand-results.json`, capturas en `qa/h6f/brand/`). **H6.F COMPLETE; V2-H6 CLOSED — 2026-09-25.** H7 continúa NOT STARTED; hosting y QA de producción quedan para H8.

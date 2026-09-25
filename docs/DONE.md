@@ -160,6 +160,8 @@ El QA/release report final incluye:
 - [ ] Lighthouse/PageSpeed de producción;
 - [ ] lista explícita de excepciones aceptadas, si hubiera.
 
+Para el cierre específico de V2-H7, Ramiro confirmó el 2026-09-25 que una prueba real con lector de pantalla (NVDA es suficiente) y touch en al menos un dispositivo físico son obligatorios. Safari desktop, iPhone/iPad, Firefox, Chrome Android adicional y versiones anteriores se documentan como cobertura adicional no bloqueante si no están disponibles; su ausencia no se presenta como aprobación. Cualquier P0/P1 hallado en una prueba externa efectivamente realizada bloquea el cierre. Las mediciones y comprobaciones del dominio público siguen en H8.
+
 ## Alcance del cierre documental
 
 Cerrar V2-H0 sólo acredita consistencia documental y preservación de evidencia. No marca satisfechos los checks de producto, UI o producción ni cierra V2-H1.

@@ -398,6 +398,8 @@ if (svg && linePath && startNode && endNode && startPulse && endPulse && endGrou
   };
   function progress(): void {
     scrollFrame = 0;
+    const aboutScene = box(anchors[3]!);
+    root.toggleAttribute('data-ramiro-scene', aboutScene.top < scrollY + innerHeight && aboutScene.bottom > scrollY);
     const last = milestones.at(-1);
     if (!last) return;
     if (reduceMotion.matches) {

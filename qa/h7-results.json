@@ -1,0 +1,6734 @@
+{
+  "date": "2026-09-25T21:26:51.667Z",
+  "base": "http://127.0.0.1:4323",
+  "commit": "09c2db753b6cddc05277b9f5b50a9bf72f5e701c",
+  "responsive": [
+    {
+      "case": "es 320x640",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 232.046875,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 109.640625,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 280,
+          "height": 671.328125
+        },
+        {
+          "id": "servicios",
+          "width": 280,
+          "height": 2381.71875
+        },
+        {
+          "id": "proyectos",
+          "width": 280,
+          "height": 4029.90625
+        },
+        {
+          "id": "ramiro",
+          "width": 320,
+          "height": 1289.046875
+        },
+        {
+          "id": "contacto",
+          "width": 280,
+          "height": 754.53125
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 320,
+        "clientWidth": 320,
+        "height": 724,
+        "clientHeight": 576,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "es 390x844",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 232.046875,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 109.640625,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 336,
+          "height": 784
+        },
+        {
+          "id": "servicios",
+          "width": 336,
+          "height": 2015.421875
+        },
+        {
+          "id": "proyectos",
+          "width": 336,
+          "height": 4089.34375
+        },
+        {
+          "id": "ramiro",
+          "width": 390,
+          "height": 1157.890625
+        },
+        {
+          "id": "contacto",
+          "width": 336,
+          "height": 844
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 390,
+        "clientWidth": 390,
+        "height": 784,
+        "clientHeight": 784,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "es 640x800",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 232.046875,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 109.640625,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 582.390625,
+          "height": 736
+        },
+        {
+          "id": "servicios",
+          "width": 582.390625,
+          "height": 1730.546875
+        },
+        {
+          "id": "proyectos",
+          "width": 582.390625,
+          "height": 4128.25
+        },
+        {
+          "id": "ramiro",
+          "width": 640,
+          "height": 981.546875
+        },
+        {
+          "id": "contacto",
+          "width": 582.390625,
+          "height": 800
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 640,
+        "clientWidth": 640,
+        "height": 736,
+        "clientHeight": 736,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "es 768x1024",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 232.046875,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 109.640625,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 698.875,
+          "height": 952
+        },
+        {
+          "id": "servicios",
+          "width": 698.875,
+          "height": 1664.203125
+        },
+        {
+          "id": "proyectos",
+          "width": 698.875,
+          "height": 2378.796875
+        },
+        {
+          "id": "ramiro",
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "id": "contacto",
+          "width": 698.875,
+          "height": 1024
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 768,
+        "clientWidth": 768,
+        "height": 952,
+        "clientHeight": 952,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "es 1024x768",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 232.046875,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 109.640625,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 931.828125,
+          "height": 696
+        },
+        {
+          "id": "servicios",
+          "width": 931.828125,
+          "height": 2729.90625
+        },
+        {
+          "id": "proyectos",
+          "width": 931.828125,
+          "height": 2556.734375
+        },
+        {
+          "id": "ramiro",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "id": "contacto",
+          "width": 931.828125,
+          "height": 768
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 1024,
+        "clientWidth": 1024,
+        "height": 696,
+        "clientHeight": 696,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "es 1366x768",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 232.046875,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 109.640625,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 1243.046875,
+          "height": 788.515625
+        },
+        {
+          "id": "servicios",
+          "width": 1243.046875,
+          "height": 2796.375
+        },
+        {
+          "id": "proyectos",
+          "width": 1243.046875,
+          "height": 2941.515625
+        },
+        {
+          "id": "ramiro",
+          "width": 1366,
+          "height": 768
+        },
+        {
+          "id": "contacto",
+          "width": 1243.046875,
+          "height": 768
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 1366,
+        "clientWidth": 1366,
+        "height": 696,
+        "clientHeight": 696,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "es 1440x900",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 232.046875,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 109.640625,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 1248,
+          "height": 828
+        },
+        {
+          "id": "servicios",
+          "width": 1248,
+          "height": 3192.375
+        },
+        {
+          "id": "proyectos",
+          "width": 1248,
+          "height": 2956.03125
+        },
+        {
+          "id": "ramiro",
+          "width": 1440,
+          "height": 900
+        },
+        {
+          "id": "contacto",
+          "width": 1248,
+          "height": 900
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 1440,
+        "clientWidth": 1440,
+        "height": 828,
+        "clientHeight": 828,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "es 1600x900",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 232.046875,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 109.640625,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 1248,
+          "height": 828
+        },
+        {
+          "id": "servicios",
+          "width": 1248,
+          "height": 3192.375
+        },
+        {
+          "id": "proyectos",
+          "width": 1248,
+          "height": 2957.59375
+        },
+        {
+          "id": "ramiro",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "id": "contacto",
+          "width": 1248,
+          "height": 900
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 1600,
+        "clientWidth": 1600,
+        "height": 828,
+        "clientHeight": 828,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "en 320x640",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 250.828125,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 136.34375,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 280,
+          "height": 671.328125
+        },
+        {
+          "id": "servicios",
+          "width": 280,
+          "height": 2199.375
+        },
+        {
+          "id": "proyectos",
+          "width": 280,
+          "height": 4007.40625
+        },
+        {
+          "id": "ramiro",
+          "width": 320,
+          "height": 1383.671875
+        },
+        {
+          "id": "contacto",
+          "width": 280,
+          "height": 821.71875
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 320,
+        "clientWidth": 320,
+        "height": 724,
+        "clientHeight": 576,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "en 390x844",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 250.828125,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 136.34375,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 336,
+          "height": 784
+        },
+        {
+          "id": "servicios",
+          "width": 336,
+          "height": 1954.640625
+        },
+        {
+          "id": "proyectos",
+          "width": 336,
+          "height": 4084.546875
+        },
+        {
+          "id": "ramiro",
+          "width": 390,
+          "height": 1263.703125
+        },
+        {
+          "id": "contacto",
+          "width": 336,
+          "height": 844
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 390,
+        "clientWidth": 390,
+        "height": 784,
+        "clientHeight": 784,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "en 640x800",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 250.828125,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 136.34375,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 582.390625,
+          "height": 736
+        },
+        {
+          "id": "servicios",
+          "width": 582.390625,
+          "height": 1698.546875
+        },
+        {
+          "id": "proyectos",
+          "width": 582.390625,
+          "height": 4182.75
+        },
+        {
+          "id": "ramiro",
+          "width": 640,
+          "height": 1068.15625
+        },
+        {
+          "id": "contacto",
+          "width": 582.390625,
+          "height": 800
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 640,
+        "clientWidth": 640,
+        "height": 736,
+        "clientHeight": 736,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "en 768x1024",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 250.828125,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 136.34375,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 698.875,
+          "height": 952
+        },
+        {
+          "id": "servicios",
+          "width": 698.875,
+          "height": 1600.203125
+        },
+        {
+          "id": "proyectos",
+          "width": 698.875,
+          "height": 2378.796875
+        },
+        {
+          "id": "ramiro",
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "id": "contacto",
+          "width": 698.875,
+          "height": 1024
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 768,
+        "clientWidth": 768,
+        "height": 952,
+        "clientHeight": 952,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "en 1024x768",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 250.828125,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 136.34375,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 931.828125,
+          "height": 696
+        },
+        {
+          "id": "servicios",
+          "width": 931.828125,
+          "height": 2697.90625
+        },
+        {
+          "id": "proyectos",
+          "width": 931.828125,
+          "height": 2556.734375
+        },
+        {
+          "id": "ramiro",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "id": "contacto",
+          "width": 931.828125,
+          "height": 768
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 1024,
+        "clientWidth": 1024,
+        "height": 696,
+        "clientHeight": 696,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "en 1366x768",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 250.828125,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 136.34375,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 1243.046875,
+          "height": 788.515625
+        },
+        {
+          "id": "servicios",
+          "width": 1243.046875,
+          "height": 2799.5625
+        },
+        {
+          "id": "proyectos",
+          "width": 1243.046875,
+          "height": 2941.515625
+        },
+        {
+          "id": "ramiro",
+          "width": 1366,
+          "height": 768
+        },
+        {
+          "id": "contacto",
+          "width": 1243.046875,
+          "height": 768
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 1366,
+        "clientWidth": 1366,
+        "height": 696,
+        "clientHeight": 696,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "en 1440x900",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 250.828125,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 136.34375,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 1248,
+          "height": 828
+        },
+        {
+          "id": "servicios",
+          "width": 1248,
+          "height": 3195.5625
+        },
+        {
+          "id": "proyectos",
+          "width": 1248,
+          "height": 2956.03125
+        },
+        {
+          "id": "ramiro",
+          "width": 1440,
+          "height": 900
+        },
+        {
+          "id": "contacto",
+          "width": 1248,
+          "height": 900
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 1440,
+        "clientWidth": 1440,
+        "height": 828,
+        "clientHeight": 828,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "en 1600x900",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 250.828125,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 136.34375,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 1248,
+          "height": 828
+        },
+        {
+          "id": "servicios",
+          "width": 1248,
+          "height": 3195.5625
+        },
+        {
+          "id": "proyectos",
+          "width": 1248,
+          "height": 2957.59375
+        },
+        {
+          "id": "ramiro",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "id": "contacto",
+          "width": 1248,
+          "height": 900
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 1600,
+        "clientWidth": 1600,
+        "height": 828,
+        "clientHeight": 828,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "pt 320x640",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 280,
+          "height": 68
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 166.390625,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 280,
+          "height": 787.859375
+        },
+        {
+          "id": "servicios",
+          "width": 280,
+          "height": 2290.546875
+        },
+        {
+          "id": "proyectos",
+          "width": 280,
+          "height": 4029.90625
+        },
+        {
+          "id": "ramiro",
+          "width": 320,
+          "height": 1478.046875
+        },
+        {
+          "id": "contacto",
+          "width": 280,
+          "height": 754.53125
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 320,
+        "clientWidth": 320,
+        "height": 724,
+        "clientHeight": 576,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "pt 390x844",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 306.03125,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 166.390625,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 336,
+          "height": 784
+        },
+        {
+          "id": "servicios",
+          "width": 336,
+          "height": 1914.390625
+        },
+        {
+          "id": "proyectos",
+          "width": 336,
+          "height": 4190.328125
+        },
+        {
+          "id": "ramiro",
+          "width": 390,
+          "height": 1329.28125
+        },
+        {
+          "id": "contacto",
+          "width": 336,
+          "height": 844
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 390,
+        "clientWidth": 390,
+        "height": 784,
+        "clientHeight": 784,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "pt 640x800",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 306.03125,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 166.390625,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 582.390625,
+          "height": 736
+        },
+        {
+          "id": "servicios",
+          "width": 582.390625,
+          "height": 1762.546875
+        },
+        {
+          "id": "proyectos",
+          "width": 582.390625,
+          "height": 4182.75
+        },
+        {
+          "id": "ramiro",
+          "width": 640,
+          "height": 1098.546875
+        },
+        {
+          "id": "contacto",
+          "width": 582.390625,
+          "height": 800
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 640,
+        "clientWidth": 640,
+        "height": 736,
+        "clientHeight": 736,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "pt 768x1024",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 306.03125,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 166.390625,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 698.875,
+          "height": 952
+        },
+        {
+          "id": "servicios",
+          "width": 698.875,
+          "height": 1632.203125
+        },
+        {
+          "id": "proyectos",
+          "width": 698.875,
+          "height": 2410.796875
+        },
+        {
+          "id": "ramiro",
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "id": "contacto",
+          "width": 698.875,
+          "height": 1024
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 768,
+        "clientWidth": 768,
+        "height": 952,
+        "clientHeight": 952,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "pt 1024x768",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 306.03125,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 166.390625,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 931.828125,
+          "height": 696
+        },
+        {
+          "id": "servicios",
+          "width": 931.828125,
+          "height": 2729.90625
+        },
+        {
+          "id": "proyectos",
+          "width": 931.828125,
+          "height": 2566.234375
+        },
+        {
+          "id": "ramiro",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "id": "contacto",
+          "width": 931.828125,
+          "height": 768
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 1024,
+        "clientWidth": 1024,
+        "height": 696,
+        "clientHeight": 696,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "pt 1366x768",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 306.03125,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 166.390625,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 1243.046875,
+          "height": 788.515625
+        },
+        {
+          "id": "servicios",
+          "width": 1243.046875,
+          "height": 2796.375
+        },
+        {
+          "id": "proyectos",
+          "width": 1243.046875,
+          "height": 2941.515625
+        },
+        {
+          "id": "ramiro",
+          "width": 1366,
+          "height": 768
+        },
+        {
+          "id": "contacto",
+          "width": 1243.046875,
+          "height": 768
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 1366,
+        "clientWidth": 1366,
+        "height": 696,
+        "clientHeight": 696,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "pt 1440x900",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 306.03125,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 43.999755859375
+        },
+        {
+          "name": "back-to-top",
+          "width": 166.390625,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 1248,
+          "height": 828
+        },
+        {
+          "id": "servicios",
+          "width": 1248,
+          "height": 3192.375
+        },
+        {
+          "id": "proyectos",
+          "width": 1248,
+          "height": 2956.03125
+        },
+        {
+          "id": "ramiro",
+          "width": 1440,
+          "height": 900
+        },
+        {
+          "id": "contacto",
+          "width": 1248,
+          "height": 900
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 1440,
+        "clientWidth": 1440,
+        "height": 828,
+        "clientHeight": 828,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "pt 1600x900",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 306.03125,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 166.390625,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 1248,
+          "height": 926.1875
+        },
+        {
+          "id": "servicios",
+          "width": 1248,
+          "height": 3192.375
+        },
+        {
+          "id": "proyectos",
+          "width": 1248,
+          "height": 2957.59375
+        },
+        {
+          "id": "ramiro",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "id": "contacto",
+          "width": 1248,
+          "height": 900
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 1600,
+        "clientWidth": 1600,
+        "height": 828,
+        "clientHeight": 828,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "fr 320x640",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 213.453125,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 166.078125,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 280,
+          "height": 800.859375
+        },
+        {
+          "id": "servicios",
+          "width": 280,
+          "height": 2442.5
+        },
+        {
+          "id": "proyectos",
+          "width": 280,
+          "height": 4121.078125
+        },
+        {
+          "id": "ramiro",
+          "width": 320,
+          "height": 1532.4375
+        },
+        {
+          "id": "contacto",
+          "width": 280,
+          "height": 821.71875
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 320,
+        "clientWidth": 320,
+        "height": 724,
+        "clientHeight": 576,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "fr 390x844",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 213.453125,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 166.078125,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 336,
+          "height": 784
+        },
+        {
+          "id": "servicios",
+          "width": 336,
+          "height": 2035.953125
+        },
+        {
+          "id": "proyectos",
+          "width": 336,
+          "height": 4175.71875
+        },
+        {
+          "id": "ramiro",
+          "width": 390,
+          "height": 1353.28125
+        },
+        {
+          "id": "contacto",
+          "width": 336,
+          "height": 844
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 390,
+        "clientWidth": 390,
+        "height": 784,
+        "clientHeight": 784,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "fr 640x800",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 213.453125,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 166.078125,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 582.390625,
+          "height": 736
+        },
+        {
+          "id": "servicios",
+          "width": 582.390625,
+          "height": 1762.546875
+        },
+        {
+          "id": "proyectos",
+          "width": 582.390625,
+          "height": 4182.75
+        },
+        {
+          "id": "ramiro",
+          "width": 640,
+          "height": 1152.9375
+        },
+        {
+          "id": "contacto",
+          "width": 582.390625,
+          "height": 800
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 640,
+        "clientWidth": 640,
+        "height": 736,
+        "clientHeight": 736,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "fr 768x1024",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 213.453125,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 43.999755859375
+        },
+        {
+          "name": "back-to-top",
+          "width": 166.078125,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 698.875,
+          "height": 952
+        },
+        {
+          "id": "servicios",
+          "width": 698.875,
+          "height": 1728.203125
+        },
+        {
+          "id": "proyectos",
+          "width": 698.875,
+          "height": 2410.796875
+        },
+        {
+          "id": "ramiro",
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "id": "contacto",
+          "width": 698.875,
+          "height": 1024
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 768,
+        "clientWidth": 768,
+        "height": 952,
+        "clientHeight": 952,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "fr 1024x768",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 213.453125,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 166.078125,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 931.828125,
+          "height": 696
+        },
+        {
+          "id": "servicios",
+          "width": 931.828125,
+          "height": 2761.90625
+        },
+        {
+          "id": "proyectos",
+          "width": 931.828125,
+          "height": 2588.734375
+        },
+        {
+          "id": "ramiro",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "id": "contacto",
+          "width": 931.828125,
+          "height": 768
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 1024,
+        "clientWidth": 1024,
+        "height": 696,
+        "clientHeight": 696,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "fr 1366x768",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 213.453125,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 166.078125,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 1243.046875,
+          "height": 886.625
+        },
+        {
+          "id": "servicios",
+          "width": 1243.046875,
+          "height": 2828.375
+        },
+        {
+          "id": "proyectos",
+          "width": 1243.046875,
+          "height": 2973.515625
+        },
+        {
+          "id": "ramiro",
+          "width": 1366,
+          "height": 768
+        },
+        {
+          "id": "contacto",
+          "width": 1243.046875,
+          "height": 768
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 1366,
+        "clientWidth": 1366,
+        "height": 696,
+        "clientHeight": 696,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "fr 1440x900",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 213.453125,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 166.078125,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 1248,
+          "height": 907.875
+        },
+        {
+          "id": "servicios",
+          "width": 1248,
+          "height": 3224.375
+        },
+        {
+          "id": "proyectos",
+          "width": 1248,
+          "height": 2988.03125
+        },
+        {
+          "id": "ramiro",
+          "width": 1440,
+          "height": 900
+        },
+        {
+          "id": "contacto",
+          "width": 1248,
+          "height": 900
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 1440,
+        "clientWidth": 1440,
+        "height": 828,
+        "clientHeight": 828,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "fr 1600x900",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 84.53125,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 213.453125,
+          "height": 50
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 166.078125,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 1248,
+          "height": 926.1875
+        },
+        {
+          "id": "servicios",
+          "width": 1248,
+          "height": 3224.375
+        },
+        {
+          "id": "proyectos",
+          "width": 1248,
+          "height": 2989.59375
+        },
+        {
+          "id": "ramiro",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "id": "contacto",
+          "width": 1248,
+          "height": 900
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 1600,
+        "clientWidth": 1600,
+        "height": 828,
+        "clientHeight": 828,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "ja 320x640",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 106.015625,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 269.53125,
+          "height": 52
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 117.734375,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 280,
+          "height": 800
+        },
+        {
+          "id": "servicios",
+          "width": 280,
+          "height": 2221.359375
+        },
+        {
+          "id": "proyectos",
+          "width": 280,
+          "height": 3971.21875
+        },
+        {
+          "id": "ramiro",
+          "width": 320,
+          "height": 1484.53125
+        },
+        {
+          "id": "contacto",
+          "width": 280,
+          "height": 806.078125
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 320,
+        "clientWidth": 320,
+        "height": 730,
+        "clientHeight": 576,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "ja 390x844",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 106.015625,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 269.53125,
+          "height": 52
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 117.734375,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 336,
+          "height": 784
+        },
+        {
+          "id": "servicios",
+          "width": 336,
+          "height": 1977.671875
+        },
+        {
+          "id": "proyectos",
+          "width": 336,
+          "height": 3995.125
+        },
+        {
+          "id": "ramiro",
+          "width": 390,
+          "height": 1336.65625
+        },
+        {
+          "id": "contacto",
+          "width": 336,
+          "height": 844
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 390,
+        "clientWidth": 390,
+        "height": 784,
+        "clientHeight": 784,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "ja 640x800",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 106.015625,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 269.53125,
+          "height": 52
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 117.734375,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 582.390625,
+          "height": 736
+        },
+        {
+          "id": "servicios",
+          "width": 582.390625,
+          "height": 1741.15625
+        },
+        {
+          "id": "proyectos",
+          "width": 582.390625,
+          "height": 4103.4375
+        },
+        {
+          "id": "ramiro",
+          "width": 640,
+          "height": 1153.484375
+        },
+        {
+          "id": "contacto",
+          "width": 582.390625,
+          "height": 800
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 640,
+        "clientWidth": 640,
+        "height": 736,
+        "clientHeight": 736,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "ja 768x1024",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0.010832939917842547,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 106.015625,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 269.53125,
+          "height": 52
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 43.999755859375
+        },
+        {
+          "name": "back-to-top",
+          "width": 117.734375,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 698.875,
+          "height": 952
+        },
+        {
+          "id": "servicios",
+          "width": 698.875,
+          "height": 1639.015625
+        },
+        {
+          "id": "proyectos",
+          "width": 698.875,
+          "height": 2404.484375
+        },
+        {
+          "id": "ramiro",
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "id": "contacto",
+          "width": 698.875,
+          "height": 1024
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 768,
+        "clientWidth": 768,
+        "height": 952,
+        "clientHeight": 952,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "ja 1024x768",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 106.015625,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 269.53125,
+          "height": 52
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 117.734375,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 931.828125,
+          "height": 696
+        },
+        {
+          "id": "servicios",
+          "width": 931.828125,
+          "height": 2750.515625
+        },
+        {
+          "id": "proyectos",
+          "width": 931.828125,
+          "height": 2585.921875
+        },
+        {
+          "id": "ramiro",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "id": "contacto",
+          "width": 931.828125,
+          "height": 768
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 1024,
+        "clientWidth": 1024,
+        "height": 696,
+        "clientHeight": 696,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "ja 1366x768",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 106.015625,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 269.53125,
+          "height": 52
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 117.734375,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 1243.046875,
+          "height": 843.421875
+        },
+        {
+          "id": "servicios",
+          "width": 1243.046875,
+          "height": 2814.78125
+        },
+        {
+          "id": "proyectos",
+          "width": 1243.046875,
+          "height": 2932.703125
+        },
+        {
+          "id": "ramiro",
+          "width": 1366,
+          "height": 768
+        },
+        {
+          "id": "contacto",
+          "width": 1243.046875,
+          "height": 768
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 1366,
+        "clientWidth": 1366,
+        "height": 696,
+        "clientHeight": 696,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "ja 1440x900",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 106.015625,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 269.53125,
+          "height": 52
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 117.734375,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 1248,
+          "height": 861.890625
+        },
+        {
+          "id": "servicios",
+          "width": 1248,
+          "height": 3210.78125
+        },
+        {
+          "id": "proyectos",
+          "width": 1248,
+          "height": 2947.21875
+        },
+        {
+          "id": "ramiro",
+          "width": 1440,
+          "height": 900
+        },
+        {
+          "id": "contacto",
+          "width": 1248,
+          "height": 900
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 1440,
+        "clientWidth": 1440,
+        "height": 828,
+        "clientHeight": 828,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "case": "ja 1600x900",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "cls": 0,
+      "targets": [
+        {
+          "name": "menu-trigger",
+          "width": 106.015625,
+          "height": 48
+        },
+        {
+          "name": "cta",
+          "width": 269.53125,
+          "height": 52
+        },
+        {
+          "name": "scroll-cue",
+          "width": 94.0625,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "copy-icon",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "back-to-top",
+          "width": 117.734375,
+          "height": 48
+        }
+      ],
+      "sections": [
+        {
+          "id": "inicio",
+          "width": 1248,
+          "height": 877.78125
+        },
+        {
+          "id": "servicios",
+          "width": 1248,
+          "height": 3210.78125
+        },
+        {
+          "id": "proyectos",
+          "width": 1248,
+          "height": 2948.78125
+        },
+        {
+          "id": "ramiro",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "id": "contacto",
+          "width": 1248,
+          "height": 900
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "menu": {
+        "links": 5,
+        "width": 1600,
+        "clientWidth": 1600,
+        "height": 828,
+        "clientHeight": 828,
+        "accents": [
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          },
+          {
+            "width": 34,
+            "height": 44
+          }
+        ]
+      }
+    }
+  ],
+  "zoom": [
+    {
+      "case": "es 320 text 200%",
+      "sections": [
+        "inicio",
+        "servicios",
+        "proyectos",
+        "ramiro",
+        "contacto"
+      ],
+      "overflow": 0,
+      "text": "Contame qué web necesitás."
+    },
+    {
+      "case": "es 390 text 200%",
+      "sections": [
+        "inicio",
+        "servicios",
+        "proyectos",
+        "ramiro",
+        "contacto"
+      ],
+      "overflow": 0,
+      "text": "Contame qué web necesitás."
+    },
+    {
+      "case": "en 320 text 200%",
+      "sections": [
+        "inicio",
+        "servicios",
+        "proyectos",
+        "ramiro",
+        "contacto"
+      ],
+      "overflow": 0,
+      "text": "Tell me what kind of website you need."
+    },
+    {
+      "case": "en 390 text 200%",
+      "sections": [
+        "inicio",
+        "servicios",
+        "proyectos",
+        "ramiro",
+        "contacto"
+      ],
+      "overflow": 0,
+      "text": "Tell me what kind of website you need."
+    },
+    {
+      "case": "pt 320 text 200%",
+      "sections": [
+        "inicio",
+        "servicios",
+        "proyectos",
+        "ramiro",
+        "contacto"
+      ],
+      "overflow": 0,
+      "text": "Conte-me de que site você precisa."
+    },
+    {
+      "case": "pt 390 text 200%",
+      "sections": [
+        "inicio",
+        "servicios",
+        "proyectos",
+        "ramiro",
+        "contacto"
+      ],
+      "overflow": 0,
+      "text": "Conte-me de que site você precisa."
+    },
+    {
+      "case": "fr 320 text 200%",
+      "sections": [
+        "inicio",
+        "servicios",
+        "proyectos",
+        "ramiro",
+        "contacto"
+      ],
+      "overflow": 0,
+      "text": "Parlez-moi du site dont vous avez besoin."
+    },
+    {
+      "case": "fr 390 text 200%",
+      "sections": [
+        "inicio",
+        "servicios",
+        "proyectos",
+        "ramiro",
+        "contacto"
+      ],
+      "overflow": 0,
+      "text": "Parlez-moi du site dont vous avez besoin."
+    },
+    {
+      "case": "ja 320 text 200%",
+      "sections": [
+        "inicio",
+        "servicios",
+        "proyectos",
+        "ramiro",
+        "contacto"
+      ],
+      "overflow": 0,
+      "text": "必要なウェブサイトについて教えてください。"
+    },
+    {
+      "case": "ja 390 text 200%",
+      "sections": [
+        "inicio",
+        "servicios",
+        "proyectos",
+        "ramiro",
+        "contacto"
+      ],
+      "overflow": 0,
+      "text": "必要なウェブサイトについて教えてください。"
+    }
+  ],
+  "variants": [
+    {
+      "case": "es 390",
+      "mode": "no-js",
+      "state": {
+        "title": "Diseño y desarrollo de sitios web para presentar tu proyecto\nDiseño y desarrollo de sitios web para presentar tu \nproyecto",
+        "cases": 2,
+        "email": "mailto:ramirogperucho@gmail.com",
+        "cta": "#contacto",
+        "menu": true,
+        "back": "none"
+      }
+    },
+    {
+      "case": "es 390",
+      "mode": "reduced-motion",
+      "state": {
+        "word": "proyecto",
+        "lineDash": "0px",
+        "reveals": true,
+        "cursorOpacity": "0",
+        "cursorReady": false
+      }
+    },
+    {
+      "case": "es 1440",
+      "mode": "no-js",
+      "state": {
+        "title": "Diseño y desarrollo de sitios web para presentar tu proyecto\nDiseño y desarrollo de sitios web para presentar tu \nproyecto",
+        "cases": 2,
+        "email": "mailto:ramirogperucho@gmail.com",
+        "cta": "#contacto",
+        "menu": true,
+        "back": "none"
+      }
+    },
+    {
+      "case": "es 1440",
+      "mode": "reduced-motion",
+      "state": {
+        "word": "proyecto",
+        "lineDash": "0px",
+        "reveals": true,
+        "cursorOpacity": "0",
+        "cursorReady": false
+      }
+    },
+    {
+      "case": "en 390",
+      "mode": "no-js",
+      "state": {
+        "title": "Website design and development for your project\nWebsite design and development for your \nproject",
+        "cases": 2,
+        "email": "mailto:ramirogperucho@gmail.com",
+        "cta": "#contacto",
+        "menu": true,
+        "back": "none"
+      }
+    },
+    {
+      "case": "en 390",
+      "mode": "reduced-motion",
+      "state": {
+        "word": "project",
+        "lineDash": "0px",
+        "reveals": true,
+        "cursorOpacity": "0",
+        "cursorReady": false
+      }
+    },
+    {
+      "case": "en 1440",
+      "mode": "no-js",
+      "state": {
+        "title": "Website design and development for your project\nWebsite design and development for your \nproject",
+        "cases": 2,
+        "email": "mailto:ramirogperucho@gmail.com",
+        "cta": "#contacto",
+        "menu": true,
+        "back": "none"
+      }
+    },
+    {
+      "case": "en 1440",
+      "mode": "reduced-motion",
+      "state": {
+        "word": "project",
+        "lineDash": "0px",
+        "reveals": true,
+        "cursorOpacity": "0",
+        "cursorReady": false
+      }
+    },
+    {
+      "case": "pt 390",
+      "mode": "no-js",
+      "state": {
+        "title": "Design e desenvolvimento de sites para apresentar seu projeto\nDesign e desenvolvimento de sites para apresentar \nseu projeto",
+        "cases": 2,
+        "email": "mailto:ramirogperucho@gmail.com",
+        "cta": "#contacto",
+        "menu": true,
+        "back": "none"
+      }
+    },
+    {
+      "case": "pt 390",
+      "mode": "reduced-motion",
+      "state": {
+        "word": "seu projeto",
+        "lineDash": "0px",
+        "reveals": true,
+        "cursorOpacity": "0",
+        "cursorReady": false
+      }
+    },
+    {
+      "case": "pt 1440",
+      "mode": "no-js",
+      "state": {
+        "title": "Design e desenvolvimento de sites para apresentar seu projeto\nDesign e desenvolvimento de sites para apresentar \nseu projeto",
+        "cases": 2,
+        "email": "mailto:ramirogperucho@gmail.com",
+        "cta": "#contacto",
+        "menu": true,
+        "back": "none"
+      }
+    },
+    {
+      "case": "pt 1440",
+      "mode": "reduced-motion",
+      "state": {
+        "word": "seu projeto",
+        "lineDash": "0px",
+        "reveals": true,
+        "cursorOpacity": "0",
+        "cursorReady": false
+      }
+    },
+    {
+      "case": "fr 390",
+      "mode": "no-js",
+      "state": {
+        "title": "Conception et développement de sites web pour présenter votre projet\nConception et développement de sites web pour présenter votre \nprojet",
+        "cases": 2,
+        "email": "mailto:ramirogperucho@gmail.com",
+        "cta": "#contacto",
+        "menu": true,
+        "back": "none"
+      }
+    },
+    {
+      "case": "fr 390",
+      "mode": "reduced-motion",
+      "state": {
+        "word": "projet",
+        "lineDash": "0px",
+        "reveals": true,
+        "cursorOpacity": "0",
+        "cursorReady": false
+      }
+    },
+    {
+      "case": "fr 1440",
+      "mode": "no-js",
+      "state": {
+        "title": "Conception et développement de sites web pour présenter votre projet\nConception et développement de sites web pour présenter votre \nprojet",
+        "cases": 2,
+        "email": "mailto:ramirogperucho@gmail.com",
+        "cta": "#contacto",
+        "menu": true,
+        "back": "none"
+      }
+    },
+    {
+      "case": "fr 1440",
+      "mode": "reduced-motion",
+      "state": {
+        "word": "projet",
+        "lineDash": "0px",
+        "reveals": true,
+        "cursorOpacity": "0",
+        "cursorReady": false
+      }
+    },
+    {
+      "case": "ja 390",
+      "mode": "no-js",
+      "state": {
+        "title": "プロジェクトを紹介するウェブサイトのデザイン・開発\nプロジェクト\nを紹介するウェブサイトのデザイン・開発",
+        "cases": 2,
+        "email": "mailto:ramirogperucho@gmail.com",
+        "cta": "#contacto",
+        "menu": true,
+        "back": "none"
+      }
+    },
+    {
+      "case": "ja 390",
+      "mode": "reduced-motion",
+      "state": {
+        "word": "プロジェクト",
+        "lineDash": "0px",
+        "reveals": true,
+        "cursorOpacity": "0",
+        "cursorReady": false
+      }
+    },
+    {
+      "case": "ja 1440",
+      "mode": "no-js",
+      "state": {
+        "title": "プロジェクトを紹介するウェブサイトのデザイン・開発\nプロジェクト\nを紹介するウェブサイトのデザイン・開発",
+        "cases": 2,
+        "email": "mailto:ramirogperucho@gmail.com",
+        "cta": "#contacto",
+        "menu": true,
+        "back": "none"
+      }
+    },
+    {
+      "case": "ja 1440",
+      "mode": "reduced-motion",
+      "state": {
+        "word": "プロジェクト",
+        "lineDash": "0px",
+        "reveals": true,
+        "cursorOpacity": "0",
+        "cursorReady": false
+      }
+    }
+  ],
+  "keyboard": [
+    {
+      "case": "es 390",
+      "pass": true
+    },
+    {
+      "case": "es 1440",
+      "pass": true
+    },
+    {
+      "case": "en 390",
+      "pass": true
+    },
+    {
+      "case": "en 1440",
+      "pass": true
+    },
+    {
+      "case": "pt 390",
+      "pass": true
+    },
+    {
+      "case": "pt 1440",
+      "pass": true
+    },
+    {
+      "case": "fr 390",
+      "pass": true
+    },
+    {
+      "case": "fr 1440",
+      "pass": true
+    },
+    {
+      "case": "ja 390",
+      "pass": true
+    },
+    {
+      "case": "ja 1440",
+      "pass": true
+    }
+  ],
+  "touchSimulated": [
+    {
+      "case": "es 390",
+      "pointer": {
+        "fineHover": false,
+        "cursorReady": false,
+        "cursorOpacity": "0"
+      },
+      "pass": true
+    },
+    {
+      "case": "es 768",
+      "pointer": {
+        "fineHover": false,
+        "cursorReady": false,
+        "cursorOpacity": "0"
+      },
+      "pass": true
+    },
+    {
+      "case": "en 390",
+      "pointer": {
+        "fineHover": false,
+        "cursorReady": false,
+        "cursorOpacity": "0"
+      },
+      "pass": true
+    },
+    {
+      "case": "en 768",
+      "pointer": {
+        "fineHover": false,
+        "cursorReady": false,
+        "cursorOpacity": "0"
+      },
+      "pass": true
+    },
+    {
+      "case": "pt 390",
+      "pointer": {
+        "fineHover": false,
+        "cursorReady": false,
+        "cursorOpacity": "0"
+      },
+      "pass": true
+    },
+    {
+      "case": "pt 768",
+      "pointer": {
+        "fineHover": false,
+        "cursorReady": false,
+        "cursorOpacity": "0"
+      },
+      "pass": true
+    },
+    {
+      "case": "fr 390",
+      "pointer": {
+        "fineHover": false,
+        "cursorReady": false,
+        "cursorOpacity": "0"
+      },
+      "pass": true
+    },
+    {
+      "case": "fr 768",
+      "pointer": {
+        "fineHover": false,
+        "cursorReady": false,
+        "cursorOpacity": "0"
+      },
+      "pass": true
+    },
+    {
+      "case": "ja 390",
+      "pointer": {
+        "fineHover": false,
+        "cursorReady": false,
+        "cursorOpacity": "0"
+      },
+      "pass": true
+    },
+    {
+      "case": "ja 768",
+      "pointer": {
+        "fineHover": false,
+        "cursorReady": false,
+        "cursorOpacity": "0"
+      },
+      "pass": true
+    }
+  ],
+  "appearance": [
+    {
+      "case": "es 390 light/light-green",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "light",
+      "accent": "light-green",
+      "ramiroScene": true,
+      "dot": "rgb(23, 104, 68)",
+      "accentVariable": "#176844",
+      "line": "rgb(23, 104, 68)",
+      "focus": "rgb(32, 36, 33)",
+      "aboutBg": "rgb(23, 24, 22)",
+      "github": "rgb(23, 104, 68)",
+      "rootBg": "rgb(245, 244, 240)",
+      "ctaBg": "rgb(23, 104, 68)",
+      "ctaText": "rgb(245, 244, 240)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 2.63,
+        "ctaTextOnButton": 6.16
+      }
+    },
+    {
+      "case": "es 390 light/light-blue",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "light",
+      "accent": "light-blue",
+      "ramiroScene": true,
+      "dot": "rgb(28, 87, 190)",
+      "accentVariable": "#1c57be",
+      "line": "rgb(28, 87, 190)",
+      "focus": "rgb(32, 36, 33)",
+      "aboutBg": "rgb(23, 24, 22)",
+      "github": "rgb(28, 87, 190)",
+      "rootBg": "rgb(245, 244, 240)",
+      "ctaBg": "rgb(28, 87, 190)",
+      "ctaText": "rgb(245, 244, 240)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 2.68,
+        "ctaTextOnButton": 6.05
+      }
+    },
+    {
+      "case": "es 390 light/light-red",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "light",
+      "accent": "light-red",
+      "ramiroScene": true,
+      "dot": "rgb(178, 59, 53)",
+      "accentVariable": "#b23b35",
+      "line": "rgb(178, 59, 53)",
+      "focus": "rgb(32, 36, 33)",
+      "aboutBg": "rgb(23, 24, 22)",
+      "github": "rgb(178, 59, 53)",
+      "rootBg": "rgb(245, 244, 240)",
+      "ctaBg": "rgb(178, 59, 53)",
+      "ctaText": "rgb(245, 244, 240)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 3.03,
+        "ctaTextOnButton": 5.34
+      }
+    },
+    {
+      "case": "es 390 light/light-violet",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "light",
+      "accent": "light-violet",
+      "ramiroScene": true,
+      "dot": "rgb(109, 66, 170)",
+      "accentVariable": "#6d42aa",
+      "line": "rgb(109, 66, 170)",
+      "focus": "rgb(32, 36, 33)",
+      "aboutBg": "rgb(23, 24, 22)",
+      "github": "rgb(109, 66, 170)",
+      "rootBg": "rgb(245, 244, 240)",
+      "ctaBg": "rgb(109, 66, 170)",
+      "ctaText": "rgb(245, 244, 240)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 2.55,
+        "ctaTextOnButton": 6.34
+      }
+    },
+    {
+      "case": "es 390 light/light-black",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "light",
+      "accent": "light-black",
+      "ramiroScene": true,
+      "dot": "rgb(32, 36, 33)",
+      "accentVariable": "#202421",
+      "line": "rgb(241, 240, 236)",
+      "focus": "rgb(32, 36, 33)",
+      "aboutBg": "rgb(23, 24, 22)",
+      "github": "rgb(241, 240, 236)",
+      "rootBg": "rgb(245, 244, 240)",
+      "ctaBg": "rgb(32, 36, 33)",
+      "ctaText": "rgb(245, 244, 240)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 15.62,
+        "ctaTextOnButton": 14.29
+      }
+    },
+    {
+      "case": "es 390 dark/dark-orange",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "dark",
+      "accent": "dark-orange",
+      "ramiroScene": true,
+      "dot": "rgb(255, 155, 88)",
+      "accentVariable": "#ff9b58",
+      "line": "rgb(255, 155, 88)",
+      "focus": "rgb(241, 240, 236)",
+      "aboutBg": "rgb(16, 18, 15)",
+      "github": "rgb(255, 155, 88)",
+      "rootBg": "rgb(23, 24, 22)",
+      "ctaBg": "rgb(255, 155, 88)",
+      "ctaText": "rgb(23, 24, 22)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 9.04,
+        "ctaTextOnButton": 8.55
+      }
+    },
+    {
+      "case": "es 390 dark/dark-blue",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "dark",
+      "accent": "dark-blue",
+      "ramiroScene": true,
+      "dot": "rgb(120, 207, 252)",
+      "accentVariable": "#78cffc",
+      "line": "rgb(120, 207, 252)",
+      "focus": "rgb(241, 240, 236)",
+      "aboutBg": "rgb(16, 18, 15)",
+      "github": "rgb(120, 207, 252)",
+      "rootBg": "rgb(23, 24, 22)",
+      "ctaBg": "rgb(120, 207, 252)",
+      "ctaText": "rgb(23, 24, 22)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 10.87,
+        "ctaTextOnButton": 10.29
+      }
+    },
+    {
+      "case": "es 390 dark/dark-fuchsia",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "dark",
+      "accent": "dark-fuchsia",
+      "ramiroScene": true,
+      "dot": "rgb(245, 138, 205)",
+      "accentVariable": "#f58acd",
+      "line": "rgb(245, 138, 205)",
+      "focus": "rgb(241, 240, 236)",
+      "aboutBg": "rgb(16, 18, 15)",
+      "github": "rgb(245, 138, 205)",
+      "rootBg": "rgb(23, 24, 22)",
+      "ctaBg": "rgb(245, 138, 205)",
+      "ctaText": "rgb(23, 24, 22)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 8.43,
+        "ctaTextOnButton": 7.97
+      }
+    },
+    {
+      "case": "es 390 dark/dark-lime",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "dark",
+      "accent": "dark-lime",
+      "ramiroScene": true,
+      "dot": "rgb(196, 231, 115)",
+      "accentVariable": "#c4e773",
+      "line": "rgb(196, 231, 115)",
+      "focus": "rgb(241, 240, 236)",
+      "aboutBg": "rgb(16, 18, 15)",
+      "github": "rgb(196, 231, 115)",
+      "rootBg": "rgb(23, 24, 22)",
+      "ctaBg": "rgb(196, 231, 115)",
+      "ctaText": "rgb(23, 24, 22)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 13.47,
+        "ctaTextOnButton": 12.75
+      }
+    },
+    {
+      "case": "es 390 dark/dark-white",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "dark",
+      "accent": "dark-white",
+      "ramiroScene": true,
+      "dot": "rgb(241, 240, 236)",
+      "accentVariable": "#f1f0ec",
+      "line": "rgb(241, 240, 236)",
+      "focus": "rgb(241, 240, 236)",
+      "aboutBg": "rgb(16, 18, 15)",
+      "github": "rgb(241, 240, 236)",
+      "rootBg": "rgb(23, 24, 22)",
+      "ctaBg": "rgb(241, 240, 236)",
+      "ctaText": "rgb(23, 24, 22)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 16.51,
+        "ctaTextOnButton": 15.62
+      }
+    },
+    {
+      "case": "es 1440 light/light-green",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "light",
+      "accent": "light-green",
+      "ramiroScene": true,
+      "dot": "rgb(23, 104, 68)",
+      "accentVariable": "#176844",
+      "line": "rgb(23, 104, 68)",
+      "focus": "rgb(32, 36, 33)",
+      "aboutBg": "rgb(23, 24, 22)",
+      "github": "rgb(23, 104, 68)",
+      "rootBg": "rgb(245, 244, 240)",
+      "ctaBg": "rgb(23, 104, 68)",
+      "ctaText": "rgb(245, 244, 240)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 2.63,
+        "ctaTextOnButton": 6.16
+      }
+    },
+    {
+      "case": "es 1440 light/light-blue",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "light",
+      "accent": "light-blue",
+      "ramiroScene": true,
+      "dot": "rgb(28, 87, 190)",
+      "accentVariable": "#1c57be",
+      "line": "rgb(28, 87, 190)",
+      "focus": "rgb(32, 36, 33)",
+      "aboutBg": "rgb(23, 24, 22)",
+      "github": "rgb(28, 87, 190)",
+      "rootBg": "rgb(245, 244, 240)",
+      "ctaBg": "rgb(28, 87, 190)",
+      "ctaText": "rgb(245, 244, 240)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 2.68,
+        "ctaTextOnButton": 6.05
+      }
+    },
+    {
+      "case": "es 1440 light/light-red",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "light",
+      "accent": "light-red",
+      "ramiroScene": true,
+      "dot": "rgb(178, 59, 53)",
+      "accentVariable": "#b23b35",
+      "line": "rgb(178, 59, 53)",
+      "focus": "rgb(32, 36, 33)",
+      "aboutBg": "rgb(23, 24, 22)",
+      "github": "rgb(178, 59, 53)",
+      "rootBg": "rgb(245, 244, 240)",
+      "ctaBg": "rgb(178, 59, 53)",
+      "ctaText": "rgb(245, 244, 240)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 3.03,
+        "ctaTextOnButton": 5.34
+      }
+    },
+    {
+      "case": "es 1440 light/light-violet",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "light",
+      "accent": "light-violet",
+      "ramiroScene": true,
+      "dot": "rgb(109, 66, 170)",
+      "accentVariable": "#6d42aa",
+      "line": "rgb(109, 66, 170)",
+      "focus": "rgb(32, 36, 33)",
+      "aboutBg": "rgb(23, 24, 22)",
+      "github": "rgb(109, 66, 170)",
+      "rootBg": "rgb(245, 244, 240)",
+      "ctaBg": "rgb(109, 66, 170)",
+      "ctaText": "rgb(245, 244, 240)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 2.55,
+        "ctaTextOnButton": 6.34
+      }
+    },
+    {
+      "case": "es 1440 light/light-black",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "light",
+      "accent": "light-black",
+      "ramiroScene": true,
+      "dot": "rgb(32, 36, 33)",
+      "accentVariable": "#202421",
+      "line": "rgb(241, 240, 236)",
+      "focus": "rgb(32, 36, 33)",
+      "aboutBg": "rgb(23, 24, 22)",
+      "github": "rgb(241, 240, 236)",
+      "rootBg": "rgb(245, 244, 240)",
+      "ctaBg": "rgb(32, 36, 33)",
+      "ctaText": "rgb(245, 244, 240)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 15.62,
+        "ctaTextOnButton": 14.29
+      }
+    },
+    {
+      "case": "es 1440 dark/dark-orange",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "dark",
+      "accent": "dark-orange",
+      "ramiroScene": true,
+      "dot": "rgb(255, 155, 88)",
+      "accentVariable": "#ff9b58",
+      "line": "rgb(255, 155, 88)",
+      "focus": "rgb(241, 240, 236)",
+      "aboutBg": "rgb(16, 18, 15)",
+      "github": "rgb(255, 155, 88)",
+      "rootBg": "rgb(23, 24, 22)",
+      "ctaBg": "rgb(255, 155, 88)",
+      "ctaText": "rgb(23, 24, 22)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 9.04,
+        "ctaTextOnButton": 8.55
+      }
+    },
+    {
+      "case": "es 1440 dark/dark-blue",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "dark",
+      "accent": "dark-blue",
+      "ramiroScene": true,
+      "dot": "rgb(120, 207, 252)",
+      "accentVariable": "#78cffc",
+      "line": "rgb(120, 207, 252)",
+      "focus": "rgb(241, 240, 236)",
+      "aboutBg": "rgb(16, 18, 15)",
+      "github": "rgb(120, 207, 252)",
+      "rootBg": "rgb(23, 24, 22)",
+      "ctaBg": "rgb(120, 207, 252)",
+      "ctaText": "rgb(23, 24, 22)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 10.87,
+        "ctaTextOnButton": 10.29
+      }
+    },
+    {
+      "case": "es 1440 dark/dark-fuchsia",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "dark",
+      "accent": "dark-fuchsia",
+      "ramiroScene": true,
+      "dot": "rgb(245, 138, 205)",
+      "accentVariable": "#f58acd",
+      "line": "rgb(245, 138, 205)",
+      "focus": "rgb(241, 240, 236)",
+      "aboutBg": "rgb(16, 18, 15)",
+      "github": "rgb(245, 138, 205)",
+      "rootBg": "rgb(23, 24, 22)",
+      "ctaBg": "rgb(245, 138, 205)",
+      "ctaText": "rgb(23, 24, 22)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 8.43,
+        "ctaTextOnButton": 7.97
+      }
+    },
+    {
+      "case": "es 1440 dark/dark-lime",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "dark",
+      "accent": "dark-lime",
+      "ramiroScene": true,
+      "dot": "rgb(196, 231, 115)",
+      "accentVariable": "#c4e773",
+      "line": "rgb(196, 231, 115)",
+      "focus": "rgb(241, 240, 236)",
+      "aboutBg": "rgb(16, 18, 15)",
+      "github": "rgb(196, 231, 115)",
+      "rootBg": "rgb(23, 24, 22)",
+      "ctaBg": "rgb(196, 231, 115)",
+      "ctaText": "rgb(23, 24, 22)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 13.47,
+        "ctaTextOnButton": 12.75
+      }
+    },
+    {
+      "case": "es 1440 dark/dark-white",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "dark",
+      "accent": "dark-white",
+      "ramiroScene": true,
+      "dot": "rgb(241, 240, 236)",
+      "accentVariable": "#f1f0ec",
+      "line": "rgb(241, 240, 236)",
+      "focus": "rgb(241, 240, 236)",
+      "aboutBg": "rgb(16, 18, 15)",
+      "github": "rgb(241, 240, 236)",
+      "rootBg": "rgb(23, 24, 22)",
+      "ctaBg": "rgb(241, 240, 236)",
+      "ctaText": "rgb(23, 24, 22)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 16.51,
+        "ctaTextOnButton": 15.62
+      }
+    },
+    {
+      "case": "ja 390 light/light-green",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "light",
+      "accent": "light-green",
+      "ramiroScene": true,
+      "dot": "rgb(23, 104, 68)",
+      "accentVariable": "#176844",
+      "line": "rgb(23, 104, 68)",
+      "focus": "rgb(32, 36, 33)",
+      "aboutBg": "rgb(23, 24, 22)",
+      "github": "rgb(23, 104, 68)",
+      "rootBg": "rgb(245, 244, 240)",
+      "ctaBg": "rgb(23, 104, 68)",
+      "ctaText": "rgb(245, 244, 240)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 2.63,
+        "ctaTextOnButton": 6.16
+      }
+    },
+    {
+      "case": "ja 390 light/light-blue",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "light",
+      "accent": "light-blue",
+      "ramiroScene": true,
+      "dot": "rgb(28, 87, 190)",
+      "accentVariable": "#1c57be",
+      "line": "rgb(28, 87, 190)",
+      "focus": "rgb(32, 36, 33)",
+      "aboutBg": "rgb(23, 24, 22)",
+      "github": "rgb(28, 87, 190)",
+      "rootBg": "rgb(245, 244, 240)",
+      "ctaBg": "rgb(28, 87, 190)",
+      "ctaText": "rgb(245, 244, 240)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 2.68,
+        "ctaTextOnButton": 6.05
+      }
+    },
+    {
+      "case": "ja 390 light/light-red",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "light",
+      "accent": "light-red",
+      "ramiroScene": true,
+      "dot": "rgb(178, 59, 53)",
+      "accentVariable": "#b23b35",
+      "line": "rgb(178, 59, 53)",
+      "focus": "rgb(32, 36, 33)",
+      "aboutBg": "rgb(23, 24, 22)",
+      "github": "rgb(178, 59, 53)",
+      "rootBg": "rgb(245, 244, 240)",
+      "ctaBg": "rgb(178, 59, 53)",
+      "ctaText": "rgb(245, 244, 240)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 3.03,
+        "ctaTextOnButton": 5.34
+      }
+    },
+    {
+      "case": "ja 390 light/light-violet",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "light",
+      "accent": "light-violet",
+      "ramiroScene": true,
+      "dot": "rgb(109, 66, 170)",
+      "accentVariable": "#6d42aa",
+      "line": "rgb(109, 66, 170)",
+      "focus": "rgb(32, 36, 33)",
+      "aboutBg": "rgb(23, 24, 22)",
+      "github": "rgb(109, 66, 170)",
+      "rootBg": "rgb(245, 244, 240)",
+      "ctaBg": "rgb(109, 66, 170)",
+      "ctaText": "rgb(245, 244, 240)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 2.55,
+        "ctaTextOnButton": 6.34
+      }
+    },
+    {
+      "case": "ja 390 light/light-black",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "light",
+      "accent": "light-black",
+      "ramiroScene": true,
+      "dot": "rgb(32, 36, 33)",
+      "accentVariable": "#202421",
+      "line": "rgb(241, 240, 236)",
+      "focus": "rgb(32, 36, 33)",
+      "aboutBg": "rgb(23, 24, 22)",
+      "github": "rgb(241, 240, 236)",
+      "rootBg": "rgb(245, 244, 240)",
+      "ctaBg": "rgb(32, 36, 33)",
+      "ctaText": "rgb(245, 244, 240)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 15.62,
+        "ctaTextOnButton": 14.29
+      }
+    },
+    {
+      "case": "ja 390 dark/dark-orange",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "dark",
+      "accent": "dark-orange",
+      "ramiroScene": true,
+      "dot": "rgb(255, 155, 88)",
+      "accentVariable": "#ff9b58",
+      "line": "rgb(255, 155, 88)",
+      "focus": "rgb(241, 240, 236)",
+      "aboutBg": "rgb(16, 18, 15)",
+      "github": "rgb(255, 155, 88)",
+      "rootBg": "rgb(23, 24, 22)",
+      "ctaBg": "rgb(255, 155, 88)",
+      "ctaText": "rgb(23, 24, 22)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 9.04,
+        "ctaTextOnButton": 8.55
+      }
+    },
+    {
+      "case": "ja 390 dark/dark-blue",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "dark",
+      "accent": "dark-blue",
+      "ramiroScene": true,
+      "dot": "rgb(120, 207, 252)",
+      "accentVariable": "#78cffc",
+      "line": "rgb(120, 207, 252)",
+      "focus": "rgb(241, 240, 236)",
+      "aboutBg": "rgb(16, 18, 15)",
+      "github": "rgb(120, 207, 252)",
+      "rootBg": "rgb(23, 24, 22)",
+      "ctaBg": "rgb(120, 207, 252)",
+      "ctaText": "rgb(23, 24, 22)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 10.87,
+        "ctaTextOnButton": 10.29
+      }
+    },
+    {
+      "case": "ja 390 dark/dark-fuchsia",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "dark",
+      "accent": "dark-fuchsia",
+      "ramiroScene": true,
+      "dot": "rgb(245, 138, 205)",
+      "accentVariable": "#f58acd",
+      "line": "rgb(245, 138, 205)",
+      "focus": "rgb(241, 240, 236)",
+      "aboutBg": "rgb(16, 18, 15)",
+      "github": "rgb(245, 138, 205)",
+      "rootBg": "rgb(23, 24, 22)",
+      "ctaBg": "rgb(245, 138, 205)",
+      "ctaText": "rgb(23, 24, 22)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 8.43,
+        "ctaTextOnButton": 7.97
+      }
+    },
+    {
+      "case": "ja 390 dark/dark-lime",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "dark",
+      "accent": "dark-lime",
+      "ramiroScene": true,
+      "dot": "rgb(196, 231, 115)",
+      "accentVariable": "#c4e773",
+      "line": "rgb(196, 231, 115)",
+      "focus": "rgb(241, 240, 236)",
+      "aboutBg": "rgb(16, 18, 15)",
+      "github": "rgb(196, 231, 115)",
+      "rootBg": "rgb(23, 24, 22)",
+      "ctaBg": "rgb(196, 231, 115)",
+      "ctaText": "rgb(23, 24, 22)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 13.47,
+        "ctaTextOnButton": 12.75
+      }
+    },
+    {
+      "case": "ja 390 dark/dark-white",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "dark",
+      "accent": "dark-white",
+      "ramiroScene": true,
+      "dot": "rgb(241, 240, 236)",
+      "accentVariable": "#f1f0ec",
+      "line": "rgb(241, 240, 236)",
+      "focus": "rgb(241, 240, 236)",
+      "aboutBg": "rgb(16, 18, 15)",
+      "github": "rgb(241, 240, 236)",
+      "rootBg": "rgb(23, 24, 22)",
+      "ctaBg": "rgb(241, 240, 236)",
+      "ctaText": "rgb(23, 24, 22)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 16.51,
+        "ctaTextOnButton": 15.62
+      }
+    },
+    {
+      "case": "ja 1440 light/light-green",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "light",
+      "accent": "light-green",
+      "ramiroScene": true,
+      "dot": "rgb(23, 104, 68)",
+      "accentVariable": "#176844",
+      "line": "rgb(23, 104, 68)",
+      "focus": "rgb(32, 36, 33)",
+      "aboutBg": "rgb(23, 24, 22)",
+      "github": "rgb(23, 104, 68)",
+      "rootBg": "rgb(245, 244, 240)",
+      "ctaBg": "rgb(23, 104, 68)",
+      "ctaText": "rgb(245, 244, 240)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 2.63,
+        "ctaTextOnButton": 6.16
+      }
+    },
+    {
+      "case": "ja 1440 light/light-blue",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "light",
+      "accent": "light-blue",
+      "ramiroScene": true,
+      "dot": "rgb(28, 87, 190)",
+      "accentVariable": "#1c57be",
+      "line": "rgb(28, 87, 190)",
+      "focus": "rgb(32, 36, 33)",
+      "aboutBg": "rgb(23, 24, 22)",
+      "github": "rgb(28, 87, 190)",
+      "rootBg": "rgb(245, 244, 240)",
+      "ctaBg": "rgb(28, 87, 190)",
+      "ctaText": "rgb(245, 244, 240)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 2.68,
+        "ctaTextOnButton": 6.05
+      }
+    },
+    {
+      "case": "ja 1440 light/light-red",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "light",
+      "accent": "light-red",
+      "ramiroScene": true,
+      "dot": "rgb(178, 59, 53)",
+      "accentVariable": "#b23b35",
+      "line": "rgb(178, 59, 53)",
+      "focus": "rgb(32, 36, 33)",
+      "aboutBg": "rgb(23, 24, 22)",
+      "github": "rgb(178, 59, 53)",
+      "rootBg": "rgb(245, 244, 240)",
+      "ctaBg": "rgb(178, 59, 53)",
+      "ctaText": "rgb(245, 244, 240)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 3.03,
+        "ctaTextOnButton": 5.34
+      }
+    },
+    {
+      "case": "ja 1440 light/light-violet",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "light",
+      "accent": "light-violet",
+      "ramiroScene": true,
+      "dot": "rgb(109, 66, 170)",
+      "accentVariable": "#6d42aa",
+      "line": "rgb(109, 66, 170)",
+      "focus": "rgb(32, 36, 33)",
+      "aboutBg": "rgb(23, 24, 22)",
+      "github": "rgb(109, 66, 170)",
+      "rootBg": "rgb(245, 244, 240)",
+      "ctaBg": "rgb(109, 66, 170)",
+      "ctaText": "rgb(245, 244, 240)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 2.55,
+        "ctaTextOnButton": 6.34
+      }
+    },
+    {
+      "case": "ja 1440 light/light-black",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "light",
+      "accent": "light-black",
+      "ramiroScene": true,
+      "dot": "rgb(32, 36, 33)",
+      "accentVariable": "#202421",
+      "line": "rgb(241, 240, 236)",
+      "focus": "rgb(32, 36, 33)",
+      "aboutBg": "rgb(23, 24, 22)",
+      "github": "rgb(241, 240, 236)",
+      "rootBg": "rgb(245, 244, 240)",
+      "ctaBg": "rgb(32, 36, 33)",
+      "ctaText": "rgb(245, 244, 240)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 15.62,
+        "ctaTextOnButton": 14.29
+      }
+    },
+    {
+      "case": "ja 1440 dark/dark-orange",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "dark",
+      "accent": "dark-orange",
+      "ramiroScene": true,
+      "dot": "rgb(255, 155, 88)",
+      "accentVariable": "#ff9b58",
+      "line": "rgb(255, 155, 88)",
+      "focus": "rgb(241, 240, 236)",
+      "aboutBg": "rgb(16, 18, 15)",
+      "github": "rgb(255, 155, 88)",
+      "rootBg": "rgb(23, 24, 22)",
+      "ctaBg": "rgb(255, 155, 88)",
+      "ctaText": "rgb(23, 24, 22)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 9.04,
+        "ctaTextOnButton": 8.55
+      }
+    },
+    {
+      "case": "ja 1440 dark/dark-blue",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "dark",
+      "accent": "dark-blue",
+      "ramiroScene": true,
+      "dot": "rgb(120, 207, 252)",
+      "accentVariable": "#78cffc",
+      "line": "rgb(120, 207, 252)",
+      "focus": "rgb(241, 240, 236)",
+      "aboutBg": "rgb(16, 18, 15)",
+      "github": "rgb(120, 207, 252)",
+      "rootBg": "rgb(23, 24, 22)",
+      "ctaBg": "rgb(120, 207, 252)",
+      "ctaText": "rgb(23, 24, 22)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 10.87,
+        "ctaTextOnButton": 10.29
+      }
+    },
+    {
+      "case": "ja 1440 dark/dark-fuchsia",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "dark",
+      "accent": "dark-fuchsia",
+      "ramiroScene": true,
+      "dot": "rgb(245, 138, 205)",
+      "accentVariable": "#f58acd",
+      "line": "rgb(245, 138, 205)",
+      "focus": "rgb(241, 240, 236)",
+      "aboutBg": "rgb(16, 18, 15)",
+      "github": "rgb(245, 138, 205)",
+      "rootBg": "rgb(23, 24, 22)",
+      "ctaBg": "rgb(245, 138, 205)",
+      "ctaText": "rgb(23, 24, 22)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 8.43,
+        "ctaTextOnButton": 7.97
+      }
+    },
+    {
+      "case": "ja 1440 dark/dark-lime",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "dark",
+      "accent": "dark-lime",
+      "ramiroScene": true,
+      "dot": "rgb(196, 231, 115)",
+      "accentVariable": "#c4e773",
+      "line": "rgb(196, 231, 115)",
+      "focus": "rgb(241, 240, 236)",
+      "aboutBg": "rgb(16, 18, 15)",
+      "github": "rgb(196, 231, 115)",
+      "rootBg": "rgb(23, 24, 22)",
+      "ctaBg": "rgb(196, 231, 115)",
+      "ctaText": "rgb(23, 24, 22)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 13.47,
+        "ctaTextOnButton": 12.75
+      }
+    },
+    {
+      "case": "ja 1440 dark/dark-white",
+      "earlyMenu": {
+        "firstLinkOpacity": "1",
+        "bottomOpacity": "1"
+      },
+      "theme": "dark",
+      "accent": "dark-white",
+      "ramiroScene": true,
+      "dot": "rgb(241, 240, 236)",
+      "accentVariable": "#f1f0ec",
+      "line": "rgb(241, 240, 236)",
+      "focus": "rgb(241, 240, 236)",
+      "aboutBg": "rgb(16, 18, 15)",
+      "github": "rgb(241, 240, 236)",
+      "rootBg": "rgb(23, 24, 22)",
+      "ctaBg": "rgb(241, 240, 236)",
+      "ctaText": "rgb(23, 24, 22)",
+      "menuNavVisible": "1",
+      "ratios": {
+        "githubOnAbout": 16.51,
+        "ctaTextOnButton": 15.62
+      }
+    }
+  ],
+  "sceneAccent": [
+    {
+      "case": "390 Light+black",
+      "transition": {
+        "entering": {
+          "stroke": "rgb(50, 53, 50)",
+          "transition": "0.18s"
+        },
+        "inside": "rgb(241, 240, 236)",
+        "exiting": {
+          "stroke": "rgb(223, 223, 219)",
+          "transition": "0.18s"
+        },
+        "outside": "rgb(32, 36, 33)",
+        "events": [
+          "run:stroke",
+          "end:stroke",
+          "run:stroke",
+          "end:stroke",
+          "run:stroke",
+          "end:stroke"
+        ]
+      },
+      "github": {
+        "inside": "rgb(241, 240, 236)",
+        "contrast": 15.62,
+        "hover": "white",
+        "focus": {
+          "visible": true,
+          "text": "rgb(241, 240, 236)",
+          "outline": "rgb(241, 240, 236)"
+        }
+      },
+      "unchangedAccents": [
+        {
+          "accent": "light-green",
+          "line": "rgb(23, 104, 68)",
+          "github": "rgb(23, 104, 68)"
+        },
+        {
+          "accent": "light-blue",
+          "line": "rgb(28, 87, 190)",
+          "github": "rgb(28, 87, 190)"
+        },
+        {
+          "accent": "light-red",
+          "line": "rgb(178, 59, 53)",
+          "github": "rgb(178, 59, 53)"
+        },
+        {
+          "accent": "light-violet",
+          "line": "rgb(109, 66, 170)",
+          "github": "rgb(109, 66, 170)"
+        }
+      ],
+      "dark": {
+        "line": "rgb(120, 207, 252)",
+        "github": "rgb(120, 207, 252)",
+        "scene": true,
+        "geometry": "M 356 750.140625 V 1106.4325 Q 356 1118.3125 344.12 1118.3125 H 26.630000000000003 Q 14.75 1118.3125 14.75 1130.1925 V 1668.7421875 V 2782.421875 V 2825.421875 Q 14.75 2847.421875 36.75 2847.421875 H 353.25 Q 375.25 2847.421875 375.25 2869.421875 V 4905.09375 V 6871.765625 V 6914.765625 Q 375.25 6936.765625 353.25 6936.765625 H 36.75 Q 14.75 6936.765625 14.75 6958.765625 V 7528.7109375 V 8107.65625 V 8190.6875 Q 14.75 8212.6875 36.75 8212.6875 H 334 Q 356 8212.6875 356 8234.6875 V 8831.65625"
+      },
+      "geometryUnchanged": true,
+      "pass": true
+    },
+    {
+      "case": "1440 Light+black",
+      "transition": {
+        "entering": {
+          "stroke": "rgb(50, 53, 50)",
+          "transition": "0.18s"
+        },
+        "inside": "rgb(241, 240, 236)",
+        "exiting": {
+          "stroke": "rgb(224, 223, 219)",
+          "transition": "0.18s"
+        },
+        "outside": "rgb(32, 36, 33)",
+        "events": [
+          "run:stroke",
+          "end:stroke",
+          "run:stroke",
+          "end:stroke",
+          "run:stroke",
+          "end:stroke"
+        ]
+      },
+      "github": {
+        "inside": "rgb(241, 240, 236)",
+        "contrast": 15.62,
+        "hover": "white",
+        "focus": {
+          "visible": true,
+          "text": "rgb(241, 240, 236)",
+          "outline": "rgb(241, 240, 236)"
+        }
+      },
+      "unchangedAccents": [
+        {
+          "accent": "light-green",
+          "line": "rgb(23, 104, 68)",
+          "github": "rgb(23, 104, 68)"
+        },
+        {
+          "accent": "light-blue",
+          "line": "rgb(28, 87, 190)",
+          "github": "rgb(28, 87, 190)"
+        },
+        {
+          "accent": "light-red",
+          "line": "rgb(178, 59, 53)",
+          "github": "rgb(178, 59, 53)"
+        },
+        {
+          "accent": "light-violet",
+          "line": "rgb(109, 66, 170)",
+          "github": "rgb(109, 66, 170)"
+        }
+      ],
+      "dark": {
+        "line": "rgb(120, 207, 252)",
+        "github": "rgb(120, 207, 252)",
+        "scene": true,
+        "geometry": "M 1272.96875 776.21875 V 925.08 Q 1272.96875 955.08 1302.96875 955.08 H 1342 Q 1372 955.08 1372 985.08 V 2871.2371875 Q 1372 2907.2371875 1336 2907.2371875 H 108 Q 72 2907.2371875 72 2943.2371875 V 3617.295 Q 72 3650.575 86.08 3650.575 H 473.92 Q 488 3650.575 488 3664.6549999999997 V 3973.935 Q 488 3995.375 466.56 3995.375 H 93.44 Q 72 3995.375 72 4016.815 V 4093.375 V 6915.40625 V 7077.40625 Q 72 7113.40625 108 7113.40625 H 1344 Q 1380 7113.40625 1380 7149.40625 V 8020.03203125 Q 1380 8040.0125 1360.01953125 8040.0125 H 1309.16015625 Q 1289.1796875 8040.0125 1289.1796875 8059.99296875 V 8689.40625"
+      },
+      "geometryUnchanged": true,
+      "pass": true
+    },
+    {
+      "case": "390 Light+black reduced motion",
+      "stroke": "rgb(241, 240, 236)",
+      "transition": "none",
+      "github": "rgb(241, 240, 236)",
+      "geometry": "M 356 750.140625 V 1106.4325 Q 356 1118.3125 344.12 1118.3125 H 26.630000000000003 Q 14.75 1118.3125 14.75 1130.1925 V 1668.7421875 V 2782.421875 V 2825.421875 Q 14.75 2847.421875 36.75 2847.421875 H 353.25 Q 375.25 2847.421875 375.25 2869.421875 V 4905.09375 V 6871.765625 V 6914.765625 Q 375.25 6936.765625 353.25 6936.765625 H 36.75 Q 14.75 6936.765625 14.75 6958.765625 V 7528.7109375 V 8107.65625 V 8190.6875 Q 14.75 8212.6875 36.75 8212.6875 H 334 Q 356 8212.6875 356 8234.6875 V 8831.65625",
+      "pass": true
+    },
+    {
+      "case": "1440 Light+black reduced motion",
+      "stroke": "rgb(241, 240, 236)",
+      "transition": "none",
+      "github": "rgb(241, 240, 236)",
+      "geometry": "M 1272.96875 776.21875 V 925.08 Q 1272.96875 955.08 1302.96875 955.08 H 1342 Q 1372 955.08 1372 985.08 V 2093.2371875 Q 1372 2129.2371875 1336 2129.2371875 H 108 Q 72 2129.2371875 72 2165.2371875 V 3617.295 Q 72 3650.575 86.08 3650.575 H 473.92 Q 488 3650.575 488 3664.6549999999997 V 3973.935 Q 488 3995.375 466.56 3995.375 H 93.44 Q 72 3995.375 72 4016.815 V 4093.375 V 6915.40625 V 7077.40625 Q 72 7113.40625 108 7113.40625 H 1344 Q 1380 7113.40625 1380 7149.40625 V 8020.03203125 Q 1380 8040.0125 1360.01953125 8040.0125 H 1309.16015625 Q 1289.1796875 8040.0125 1289.1796875 8059.99296875 V 8689.40625",
+      "pass": true
+    }
+  ],
+  "seo": [
+    {
+      "code": "es",
+      "title": "ramita | Diseño y desarrollo web",
+      "description": "Diseño y desarrollo de sitios web nuevos y rediseños. Trabajo directo con Ramiro Garcia desde la definición hasta la publicación.",
+      "lang": "es",
+      "canonical": "https://ramita.dev/",
+      "alternates": [
+        [
+          "es",
+          "https://ramita.dev/"
+        ],
+        [
+          "en",
+          "https://ramita.dev/en/"
+        ],
+        [
+          "pt",
+          "https://ramita.dev/pt/"
+        ],
+        [
+          "fr",
+          "https://ramita.dev/fr/"
+        ],
+        [
+          "ja",
+          "https://ramita.dev/ja/"
+        ],
+        [
+          "x-default",
+          "https://ramita.dev/"
+        ]
+      ],
+      "jsonLd": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        }
+      ],
+      "og": {
+        "url": "https://ramita.dev/",
+        "title": "Ramiro Garcia — Diseño y desarrollo de sitios web",
+        "description": "Sitios institucionales, landing pages y rediseños, con trato directo.",
+        "image": "https://ramita.dev/social/ramita-es.png",
+        "alt": "ramita.dev — Ramiro Garcia — Diseño y desarrollo de sitios web"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Ramiro Garcia — Diseño y desarrollo de sitios web",
+        "description": "Sitios institucionales, landing pages y rediseños, con trato directo.",
+        "image": "https://ramita.dev/social/ramita-es.png",
+        "alt": "ramita.dev — Ramiro Garcia — Diseño y desarrollo de sitios web"
+      }
+    },
+    {
+      "code": "en",
+      "title": "ramita | Web design & development",
+      "description": "Website design and development for new sites and redesigns. Work directly with Ramiro Garcia, from definition through publication.",
+      "lang": "en",
+      "canonical": "https://ramita.dev/en/",
+      "alternates": [
+        [
+          "es",
+          "https://ramita.dev/"
+        ],
+        [
+          "en",
+          "https://ramita.dev/en/"
+        ],
+        [
+          "pt",
+          "https://ramita.dev/pt/"
+        ],
+        [
+          "fr",
+          "https://ramita.dev/fr/"
+        ],
+        [
+          "ja",
+          "https://ramita.dev/ja/"
+        ],
+        [
+          "x-default",
+          "https://ramita.dev/"
+        ]
+      ],
+      "jsonLd": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        }
+      ],
+      "og": {
+        "url": "https://ramita.dev/en/",
+        "title": "Ramiro Garcia — Website design and development",
+        "description": "Institutional websites, landing pages and redesigns, with a direct point of contact.",
+        "image": "https://ramita.dev/social/ramita-en.png",
+        "alt": "ramita.dev — Ramiro Garcia — Website design and development"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Ramiro Garcia — Website design and development",
+        "description": "Institutional websites, landing pages and redesigns, with a direct point of contact.",
+        "image": "https://ramita.dev/social/ramita-en.png",
+        "alt": "ramita.dev — Ramiro Garcia — Website design and development"
+      }
+    },
+    {
+      "code": "pt",
+      "title": "ramita | Design e desenvolvimento web",
+      "description": "Design e desenvolvimento de sites novos e redesigns. Trabalho direto com Ramiro Garcia, da definição à publicação.",
+      "lang": "pt",
+      "canonical": "https://ramita.dev/pt/",
+      "alternates": [
+        [
+          "es",
+          "https://ramita.dev/"
+        ],
+        [
+          "en",
+          "https://ramita.dev/en/"
+        ],
+        [
+          "pt",
+          "https://ramita.dev/pt/"
+        ],
+        [
+          "fr",
+          "https://ramita.dev/fr/"
+        ],
+        [
+          "ja",
+          "https://ramita.dev/ja/"
+        ],
+        [
+          "x-default",
+          "https://ramita.dev/"
+        ]
+      ],
+      "jsonLd": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        }
+      ],
+      "og": {
+        "url": "https://ramita.dev/pt/",
+        "title": "Ramiro Garcia — Design e desenvolvimento de sites",
+        "description": "Sites institucionais, landing pages e redesigns, com contato direto.",
+        "image": "https://ramita.dev/social/ramita-pt.png",
+        "alt": "ramita.dev — Ramiro Garcia — Design e desenvolvimento de sites"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Ramiro Garcia — Design e desenvolvimento de sites",
+        "description": "Sites institucionais, landing pages e redesigns, com contato direto.",
+        "image": "https://ramita.dev/social/ramita-pt.png",
+        "alt": "ramita.dev — Ramiro Garcia — Design e desenvolvimento de sites"
+      }
+    },
+    {
+      "code": "fr",
+      "title": "ramita | Design et développement web",
+      "description": "Conception et développement de nouveaux sites web et refontes. Un travail direct avec Ramiro Garcia, de la définition à la mise en ligne.",
+      "lang": "fr",
+      "canonical": "https://ramita.dev/fr/",
+      "alternates": [
+        [
+          "es",
+          "https://ramita.dev/"
+        ],
+        [
+          "en",
+          "https://ramita.dev/en/"
+        ],
+        [
+          "pt",
+          "https://ramita.dev/pt/"
+        ],
+        [
+          "fr",
+          "https://ramita.dev/fr/"
+        ],
+        [
+          "ja",
+          "https://ramita.dev/ja/"
+        ],
+        [
+          "x-default",
+          "https://ramita.dev/"
+        ]
+      ],
+      "jsonLd": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        }
+      ],
+      "og": {
+        "url": "https://ramita.dev/fr/",
+        "title": "Ramiro Garcia — Conception et développement de sites web",
+        "description": "Sites institutionnels, landing pages et refontes, avec un interlocuteur direct.",
+        "image": "https://ramita.dev/social/ramita-fr.png",
+        "alt": "ramita.dev — Ramiro Garcia — Conception et développement de sites web"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Ramiro Garcia — Conception et développement de sites web",
+        "description": "Sites institutionnels, landing pages et refontes, avec un interlocuteur direct.",
+        "image": "https://ramita.dev/social/ramita-fr.png",
+        "alt": "ramita.dev — Ramiro Garcia — Conception et développement de sites web"
+      }
+    },
+    {
+      "code": "ja",
+      "title": "ramita | Webデザイン・開発",
+      "description": "新規サイトとリニューアルのデザイン・開発。Ramiro Garcia が構想の整理から公開まで直接対応します。",
+      "lang": "ja",
+      "canonical": "https://ramita.dev/ja/",
+      "alternates": [
+        [
+          "es",
+          "https://ramita.dev/"
+        ],
+        [
+          "en",
+          "https://ramita.dev/en/"
+        ],
+        [
+          "pt",
+          "https://ramita.dev/pt/"
+        ],
+        [
+          "fr",
+          "https://ramita.dev/fr/"
+        ],
+        [
+          "ja",
+          "https://ramita.dev/ja/"
+        ],
+        [
+          "x-default",
+          "https://ramita.dev/"
+        ]
+      ],
+      "jsonLd": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        }
+      ],
+      "og": {
+        "url": "https://ramita.dev/ja/",
+        "title": "Ramiro Garcia — ウェブサイトのデザインと開発",
+        "description": "企業・団体サイト、ランディングページ、リニューアルに直接対応します。",
+        "image": "https://ramita.dev/social/ramita-ja.png",
+        "alt": "ramita.dev — Ramiro Garcia — ウェブサイトのデザインと開発"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Ramiro Garcia — ウェブサイトのデザインと開発",
+        "description": "企業・団体サイト、ランディングページ、リニューアルに直接対応します。",
+        "image": "https://ramita.dev/social/ramita-ja.png",
+        "alt": "ramita.dev — Ramiro Garcia — ウェブサイトのデザインと開発"
+      }
+    }
+  ],
+  "links": [
+    {
+      "code": "es",
+      "links": [
+        {
+          "text": "Saltar al contenido",
+          "href": "#main",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": "ramita.dev",
+          "href": "/#inicio",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "#inicio",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "#servicios",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "#proyectos",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "#ramiro",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "#contacto",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "mailto:ramirogperucho@gmail.com",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "https://wa.me/5491151354489",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "/",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "/en/",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "/pt/",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "/fr/",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "/ja/",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": "Hablemos de tu proyecto",
+          "href": "#contacto",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": "SCROLL",
+          "href": "#servicios",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": "Ver sitio",
+          "href": "https://residenciasgrupocasa.com.ar/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "text": "Ver demo",
+          "href": "https://lingo-hive.vercel.app/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "text": "GitHub",
+          "href": "https://github.com/ramiro-gp",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "text": "ramirogperucho@gmail.com",
+          "href": "mailto:ramirogperucho@gmail.com",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": "+54 9 11 5135-4489",
+          "href": "https://wa.me/5491151354489",
+          "target": "",
+          "rel": ""
+        }
+      ]
+    },
+    {
+      "code": "en",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": "ramita.dev",
+          "href": "/en/#inicio",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "#inicio",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "#servicios",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "#proyectos",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "#ramiro",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "#contacto",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "mailto:ramirogperucho@gmail.com",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "https://wa.me/5491151354489",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "/",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "/en/",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "/pt/",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "/fr/",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "/ja/",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": "Let’s talk about your project",
+          "href": "#contacto",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": "SCROLL",
+          "href": "#servicios",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": "View website",
+          "href": "https://residenciasgrupocasa.com.ar/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "text": "View demo",
+          "href": "https://lingo-hive.vercel.app/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "text": "GitHub",
+          "href": "https://github.com/ramiro-gp",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "text": "ramirogperucho@gmail.com",
+          "href": "mailto:ramirogperucho@gmail.com",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": "+54 9 11 5135-4489",
+          "href": "https://wa.me/5491151354489",
+          "target": "",
+          "rel": ""
+        }
+      ]
+    },
+    {
+      "code": "pt",
+      "links": [
+        {
+          "text": "Ir para o conteúdo",
+          "href": "#main",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": "ramita.dev",
+          "href": "/pt/#inicio",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "#inicio",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "#servicios",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "#proyectos",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "#ramiro",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "#contacto",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "mailto:ramirogperucho@gmail.com",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "https://wa.me/5491151354489",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "/",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "/en/",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "/pt/",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "/fr/",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "/ja/",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": "Vamos conversar sobre seu projeto",
+          "href": "#contacto",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": "SCROLL",
+          "href": "#servicios",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": "Ver site",
+          "href": "https://residenciasgrupocasa.com.ar/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "text": "Ver demo",
+          "href": "https://lingo-hive.vercel.app/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "text": "GitHub",
+          "href": "https://github.com/ramiro-gp",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "text": "ramirogperucho@gmail.com",
+          "href": "mailto:ramirogperucho@gmail.com",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": "+54 9 11 5135-4489",
+          "href": "https://wa.me/5491151354489",
+          "target": "",
+          "rel": ""
+        }
+      ]
+    },
+    {
+      "code": "fr",
+      "links": [
+        {
+          "text": "Aller au contenu",
+          "href": "#main",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": "ramita.dev",
+          "href": "/fr/#inicio",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "#inicio",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "#servicios",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "#proyectos",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "#ramiro",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "#contacto",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "mailto:ramirogperucho@gmail.com",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "https://wa.me/5491151354489",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "/",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "/en/",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "/pt/",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "/fr/",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "/ja/",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": "Parlons de votre projet",
+          "href": "#contacto",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": "SCROLL",
+          "href": "#servicios",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": "Voir le site",
+          "href": "https://residenciasgrupocasa.com.ar/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "text": "Voir la démo",
+          "href": "https://lingo-hive.vercel.app/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "text": "GitHub",
+          "href": "https://github.com/ramiro-gp",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "text": "ramirogperucho@gmail.com",
+          "href": "mailto:ramirogperucho@gmail.com",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": "+54 9 11 5135-4489",
+          "href": "https://wa.me/5491151354489",
+          "target": "",
+          "rel": ""
+        }
+      ]
+    },
+    {
+      "code": "ja",
+      "links": [
+        {
+          "text": "本文へ移動",
+          "href": "#main",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": "ramita.dev",
+          "href": "/ja/#inicio",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "#inicio",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "#servicios",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "#proyectos",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "#ramiro",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "#contacto",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "mailto:ramirogperucho@gmail.com",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "https://wa.me/5491151354489",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "/",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "/en/",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "/pt/",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "/fr/",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": null,
+          "href": "/ja/",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": "プロジェクトについて相談する",
+          "href": "#contacto",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": "SCROLL",
+          "href": "#servicios",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": "サイトを見る",
+          "href": "https://residenciasgrupocasa.com.ar/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "text": "デモを見る",
+          "href": "https://lingo-hive.vercel.app/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "text": "GitHub",
+          "href": "https://github.com/ramiro-gp",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "text": "ramirogperucho@gmail.com",
+          "href": "mailto:ramirogperucho@gmail.com",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "text": "+54 9 11 5135-4489",
+          "href": "https://wa.me/5491151354489",
+          "target": "",
+          "rel": ""
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset": "/favicon.ico",
+      "status": 200,
+      "type": "image/x-icon",
+      "bytes": 2355
+    },
+    {
+      "asset": "/favicon.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": 970
+    },
+    {
+      "asset": "/apple-touch-icon.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 2253,
+      "width": 180,
+      "height": 180
+    },
+    {
+      "asset": "/robots.txt",
+      "status": 200,
+      "type": "text/plain",
+      "bytes": 63
+    },
+    {
+      "asset": "/sitemap.xml",
+      "status": 200,
+      "type": "text/xml",
+      "bytes": 326
+    },
+    {
+      "asset": "/social/ramita-es.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 75616,
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "asset": "/social/ramita-en.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 74788,
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "asset": "/social/ramita-pt.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 60098,
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "asset": "/social/ramita-fr.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 66619,
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "asset": "/social/ramita-ja.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 68412,
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "asset": "/images/residencias-desktop.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 110488
+    },
+    {
+      "asset": "/images/residencias-mobile.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 40126
+    },
+    {
+      "asset": "/images/lingohive-desktop.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 54662
+    },
+    {
+      "asset": "/images/lingohive-mobile.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 25176
+    }
+  ],
+  "browsers": [
+    {
+      "browser": "Chrome",
+      "version": "153.0.8010.53",
+      "code": "es",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "153.0.8010.53",
+      "code": "es",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "153.0.8010.53",
+      "code": "en",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "153.0.8010.53",
+      "code": "en",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "153.0.8010.53",
+      "code": "pt",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "153.0.8010.53",
+      "code": "pt",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "153.0.8010.53",
+      "code": "fr",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "153.0.8010.53",
+      "code": "fr",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "153.0.8010.53",
+      "code": "ja",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "153.0.8010.53",
+      "code": "ja",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "browser": "Edge",
+      "version": "153.0.4234.48",
+      "code": "es",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "browser": "Edge",
+      "version": "153.0.4234.48",
+      "code": "es",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "browser": "Edge",
+      "version": "153.0.4234.48",
+      "code": "en",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "browser": "Edge",
+      "version": "153.0.4234.48",
+      "code": "en",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "browser": "Edge",
+      "version": "153.0.4234.48",
+      "code": "pt",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "browser": "Edge",
+      "version": "153.0.4234.48",
+      "code": "pt",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "browser": "Edge",
+      "version": "153.0.4234.48",
+      "code": "fr",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "browser": "Edge",
+      "version": "153.0.4234.48",
+      "code": "fr",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "browser": "Edge",
+      "version": "153.0.4234.48",
+      "code": "ja",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "browser": "Edge",
+      "version": "153.0.4234.48",
+      "code": "ja",
+      "width": 1440,
+      "pass": true
+    }
+  ],
+  "notFound": {
+    "status": 404,
+    "type": null,
+    "bodyStart": "<!doctype html>\n<html lang=\"en\">\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<title>404: Not Found</title>\n\t\t<style>\n\t\t\t:root {\n\t\t\t\t--gray-10: hsl(258, 7%, 10%);\n\t\t\t\t--gray-20: hsl(258, 7%,"
+  },
+  "knownExceptions": [
+    {
+      "id": "H7-P2-01",
+      "case": "es 390 light/light-green",
+      "githubOnAbout": 2.63,
+      "status": "accepted design exception; accent behavior preserved per Ramiro instruction"
+    },
+    {
+      "id": "H7-P2-01",
+      "case": "es 390 light/light-blue",
+      "githubOnAbout": 2.68,
+      "status": "accepted design exception; accent behavior preserved per Ramiro instruction"
+    },
+    {
+      "id": "H7-P2-01",
+      "case": "es 390 light/light-red",
+      "githubOnAbout": 3.03,
+      "status": "accepted design exception; accent behavior preserved per Ramiro instruction"
+    },
+    {
+      "id": "H7-P2-01",
+      "case": "es 390 light/light-violet",
+      "githubOnAbout": 2.55,
+      "status": "accepted design exception; accent behavior preserved per Ramiro instruction"
+    },
+    {
+      "id": "H7-P2-01",
+      "case": "es 1440 light/light-green",
+      "githubOnAbout": 2.63,
+      "status": "accepted design exception; accent behavior preserved per Ramiro instruction"
+    },
+    {
+      "id": "H7-P2-01",
+      "case": "es 1440 light/light-blue",
+      "githubOnAbout": 2.68,
+      "status": "accepted design exception; accent behavior preserved per Ramiro instruction"
+    },
+    {
+      "id": "H7-P2-01",
+      "case": "es 1440 light/light-red",
+      "githubOnAbout": 3.03,
+      "status": "accepted design exception; accent behavior preserved per Ramiro instruction"
+    },
+    {
+      "id": "H7-P2-01",
+      "case": "es 1440 light/light-violet",
+      "githubOnAbout": 2.55,
+      "status": "accepted design exception; accent behavior preserved per Ramiro instruction"
+    },
+    {
+      "id": "H7-P2-01",
+      "case": "ja 390 light/light-green",
+      "githubOnAbout": 2.63,
+      "status": "accepted design exception; accent behavior preserved per Ramiro instruction"
+    },
+    {
+      "id": "H7-P2-01",
+      "case": "ja 390 light/light-blue",
+      "githubOnAbout": 2.68,
+      "status": "accepted design exception; accent behavior preserved per Ramiro instruction"
+    },
+    {
+      "id": "H7-P2-01",
+      "case": "ja 390 light/light-red",
+      "githubOnAbout": 3.03,
+      "status": "accepted design exception; accent behavior preserved per Ramiro instruction"
+    },
+    {
+      "id": "H7-P2-01",
+      "case": "ja 390 light/light-violet",
+      "githubOnAbout": 2.55,
+      "status": "accepted design exception; accent behavior preserved per Ramiro instruction"
+    },
+    {
+      "id": "H7-P2-01",
+      "case": "ja 1440 light/light-green",
+      "githubOnAbout": 2.63,
+      "status": "accepted design exception; accent behavior preserved per Ramiro instruction"
+    },
+    {
+      "id": "H7-P2-01",
+      "case": "ja 1440 light/light-blue",
+      "githubOnAbout": 2.68,
+      "status": "accepted design exception; accent behavior preserved per Ramiro instruction"
+    },
+    {
+      "id": "H7-P2-01",
+      "case": "ja 1440 light/light-red",
+      "githubOnAbout": 3.03,
+      "status": "accepted design exception; accent behavior preserved per Ramiro instruction"
+    },
+    {
+      "id": "H7-P2-01",
+      "case": "ja 1440 light/light-violet",
+      "githubOnAbout": 2.55,
+      "status": "accepted design exception; accent behavior preserved per Ramiro instruction"
+    }
+  ],
+  "failures": []
+}
