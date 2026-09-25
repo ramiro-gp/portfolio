@@ -1,0 +1,45 @@
+{
+  "url": "https://portfolio-rrrramita.vercel.app/ja/",
+  "out": [
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "ramita | Webデザイン・開発",
+      "cls": 0,
+      "lcp": 484,
+      "fonts": [
+        {
+          "url": "/fonts/InstrumentSans.ttf",
+          "encodedBytes": 114564
+        },
+        {
+          "url": "/fonts/noto-sans-jp-review.ttf",
+          "encodedBytes": 3114396
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "title": "ramita | Webデザイン・開発",
+      "cls": 0,
+      "lcp": 284,
+      "fonts": [
+        {
+          "url": "/fonts/InstrumentSans.ttf",
+          "encodedBytes": 114564
+        },
+        {
+          "url": "/fonts/noto-sans-jp-review.ttf",
+          "encodedBytes": 3114396
+        }
+      ],
+      "overflow": false
+    }
+  ]
+}

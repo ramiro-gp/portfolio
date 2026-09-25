@@ -34,12 +34,12 @@ Fonte: copy espanhol da página aprovado em `../../prototypes/v2-h4/v2/ES-COPY-A
 - Contexto: Um site para reunir o grupo e suas duas residências, Casa San Juan e Casa Boedo. Esse foi o pedido inicial. Casa San Juan está em funcionamento; Casa Boedo é apresentada como futura inauguração.
 - Responsabilidade e solução: Fiquei responsável pelo planejamento, design visual, arquitetura e desenvolvimento. A solução combina uma entrada institucional com espaços distintos para cada residência, a partir das identidades preexistentes de cada uma.
 - Capacidades: O projeto reúne design, desenvolvimento responsivo, formulários e SEO técnico, além da preparação para publicação. As capturas mostram a interface; não representam métricas de resultados.
-- Legenda desktop: Vista da página inicial no computador: apresentação de Casa San Juan e Casa Boedo.
-- Legenda mobile: Vista de “Nossas residências” no celular, com Casa San Juan e navegação adaptada.
-- Texto alternativo desktop: Captura real da página inicial de Residencias Grupo Casa no computador: Casa San Juan e Casa Boedo, anunciada como futura inauguração.
-- Texto alternativo mobile: Captura real da página inicial de Residencias Grupo Casa no celular: seção “Nossas residências”, Casa San Juan e navegação compacta.
+- Legenda desktop: Página da Casa San Juan no computador: apresentação da residência e foto da área externa.
+- Legenda mobile: Página inicial no celular, seção “Nuestras residencias”: Casa San Juan e navegação compacta.
+- Texto alternativo desktop: Captura da página da Casa San Juan no site de Residencias Grupo Casa no computador: título, texto de apresentação e foto da área externa.
+- Texto alternativo mobile: Captura da página inicial de Residencias Grupo Casa no celular: seção “Nuestras residencias”, foto da área externa da Casa San Juan e menu compacto.
 
-O par atual de imagens, suas legendas e textos alternativos são material de revisão. A seleção final fica para V2-H6 e pode exigir atualização factual desses textos.
+O par de imagens e seus textos foram aprovados e integrados em V2-H6.B. O título da seção permanece em espanhol por reproduzir o texto visível na captura mobile.
 
 ## Ramiro e processo
 

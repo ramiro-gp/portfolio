@@ -1,5 +1,5 @@
-@font-face{font-family:Instrument Sans;src:url('/fonts/InstrumentSans.ttf') format('truetype');font-style:normal;font-weight:400 700;font-display:swap}
-@font-face{font-family:Noto Sans JP;src:url('/fonts/noto-sans-jp-review.ttf') format('truetype');font-style:normal;font-weight:400 600;font-display:swap}
+@font-face{font-family:Instrument Sans;src:url('/fonts/InstrumentSans.woff2') format('woff2');font-style:normal;font-weight:400 700;font-display:swap}
+@font-face{font-family:Noto Sans JP;src:url('/fonts/NotoSansJP-ja.woff2') format('woff2');font-style:normal;font-weight:400 600;font-display:swap}
 :root{font-family:Instrument Sans,Arial,sans-serif;--bg:#f5f4f0;--surface:#edeee9;--text:#202421;--muted:#555b55;--accent:#176844;--on-accent:#f5f4f0;--divider:#c9cdc5;--border:#838981;--gutter:clamp(20px,4.5vw,64px);--header-height:72px;color-scheme:light;background:var(--bg);color:var(--text);font-synthesis:none}
 [data-theme=dark]{--bg:#171816;--surface:#232522;--text:#f1f0ec;--muted:#aaafa9;--divider:#3b3f3a;--border:#6b716a;--on-accent:#171816;color-scheme:dark}
 [data-accent=light-green]{--accent:#176844}[data-accent=light-blue]{--accent:#1c57be}[data-accent=light-red]{--accent:#b23b35}[data-accent=light-violet]{--accent:#6d42aa}[data-accent=light-black]{--accent:#202421}

@@ -1,0 +1,130 @@
+[
+  {
+    "route": "/",
+    "width": 390,
+    "overflow": 0,
+    "loadedFonts": [
+      {
+        "family": "Instrument Sans",
+        "weight": "400 700"
+      }
+    ],
+    "missingImages": []
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "overflow": 0,
+    "loadedFonts": [
+      {
+        "family": "Instrument Sans",
+        "weight": "400 700"
+      }
+    ],
+    "missingImages": []
+  },
+  {
+    "route": "/en/",
+    "width": 390,
+    "overflow": 0,
+    "loadedFonts": [
+      {
+        "family": "Instrument Sans",
+        "weight": "400 700"
+      }
+    ],
+    "missingImages": []
+  },
+  {
+    "route": "/en/",
+    "width": 1440,
+    "overflow": 0,
+    "loadedFonts": [
+      {
+        "family": "Instrument Sans",
+        "weight": "400 700"
+      }
+    ],
+    "missingImages": []
+  },
+  {
+    "route": "/pt/",
+    "width": 390,
+    "overflow": 0,
+    "loadedFonts": [
+      {
+        "family": "Instrument Sans",
+        "weight": "400 700"
+      }
+    ],
+    "missingImages": []
+  },
+  {
+    "route": "/pt/",
+    "width": 1440,
+    "overflow": 0,
+    "loadedFonts": [
+      {
+        "family": "Instrument Sans",
+        "weight": "400 700"
+      }
+    ],
+    "missingImages": []
+  },
+  {
+    "route": "/fr/",
+    "width": 390,
+    "overflow": 0,
+    "loadedFonts": [
+      {
+        "family": "Instrument Sans",
+        "weight": "400 700"
+      }
+    ],
+    "missingImages": []
+  },
+  {
+    "route": "/fr/",
+    "width": 1440,
+    "overflow": 0,
+    "loadedFonts": [
+      {
+        "family": "Instrument Sans",
+        "weight": "400 700"
+      }
+    ],
+    "missingImages": []
+  },
+  {
+    "route": "/ja/",
+    "width": 390,
+    "overflow": 0,
+    "loadedFonts": [
+      {
+        "family": "Instrument Sans",
+        "weight": "400 700"
+      },
+      {
+        "family": "Noto Sans JP",
+        "weight": "400 600"
+      }
+    ],
+    "missingImages": []
+  },
+  {
+    "route": "/ja/",
+    "width": 1440,
+    "overflow": 0,
+    "loadedFonts": [
+      {
+        "family": "Instrument Sans",
+        "weight": "400 700"
+      },
+      {
+        "family": "Noto Sans JP",
+        "weight": "400 600"
+      }
+    ],
+    "missingImages": []
+  }
+]

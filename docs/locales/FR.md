@@ -34,12 +34,12 @@ Source : texte espagnol de la page approuvé dans `../../prototypes/v2-h4/v2/ES-
 - Contexte : Un site réunissant le groupe et ses deux résidences, Casa San Juan et Casa Boedo. C’était la demande initiale. Casa San Juan est en activité ; Casa Boedo est présentée comme ouvrant prochainement.
 - Responsabilité et solution : Je me suis chargé de la planification, du design visuel, de l’architecture et du développement. La solution associe une entrée institutionnelle à des espaces distincts pour chaque résidence, à partir de leurs identités existantes.
 - Compétences démontrées : Le projet comprend le design, le développement responsive, les formulaires et le référencement technique, ainsi que la préparation à la mise en ligne. Les captures montrent l’interface ; elles ne représentent pas des indicateurs de résultats.
-- Légende ordinateur : Vue de la page d’accueil sur ordinateur : présentation de Casa San Juan et Casa Boedo.
-- Légende mobile : Vue de « Nos résidences » sur mobile, avec Casa San Juan et une navigation adaptée.
-- Texte alternatif ordinateur : Capture réelle de la page d’accueil de Residencias Grupo Casa sur ordinateur : présentation de Casa San Juan et Casa Boedo, dont l’ouverture est annoncée prochainement.
-- Texte alternatif mobile : Capture réelle de la page d’accueil de Residencias Grupo Casa sur mobile : rubrique « Nos résidences », Casa San Juan et navigation compacte.
+- Légende ordinateur : Page Casa San Juan sur ordinateur : présentation de la résidence et photo de son espace extérieur.
+- Légende mobile : Page d’accueil sur mobile, rubrique « Nuestras residencias » : Casa San Juan et navigation compacte.
+- Texte alternatif ordinateur : Capture de la page Casa San Juan du site Residencias Grupo Casa sur ordinateur : titre, texte de présentation et photo de l’espace extérieur.
+- Texte alternatif mobile : Capture de la page d’accueil de Residencias Grupo Casa sur mobile : rubrique « Nuestras residencias », photo extérieure de Casa San Juan et menu compact.
 
-La paire actuelle, ses légendes et ses textes alternatifs sont provisoires. Le choix final est reporté à V2-H6 et peut nécessiter une mise à jour factuelle de ces textes.
+Cette paire de captures et ses textes ont été approuvés et intégrés en V2-H6.B. Le titre de la rubrique reste en espagnol, comme sur la capture mobile.
 
 ## Ramiro et méthode
 

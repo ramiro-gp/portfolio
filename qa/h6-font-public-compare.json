@@ -1,0 +1,214 @@
+[
+  {
+    "version": "before",
+    "route": "/",
+    "width": 390,
+    "heading": "Diseño y desarrollo de sitios web para presentar tu proyecto\nDiseño y desarrollo de sitios web para presentar tu \nservicio",
+    "headingHeight": 253,
+    "headingWidth": 336,
+    "overflow": 0,
+    "fonts": [
+      {
+        "family": "Instrument Sans",
+        "weight": "400 700"
+      }
+    ],
+    "fontResources": [
+      {
+        "url": "/fonts/InstrumentSans.ttf",
+        "transferSize": 114864,
+        "encodedBodySize": 114564
+      }
+    ]
+  },
+  {
+    "version": "before",
+    "route": "/",
+    "width": 1440,
+    "heading": "Diseño y desarrollo de sitios web para presentar tu proyecto\nDiseño y desarrollo de sitios web para presentar tu \nservicio",
+    "headingHeight": 310,
+    "headingWidth": 1100,
+    "overflow": 0,
+    "fonts": [
+      {
+        "family": "Instrument Sans",
+        "weight": "400 700"
+      }
+    ],
+    "fontResources": [
+      {
+        "url": "/fonts/InstrumentSans.ttf",
+        "transferSize": 114864,
+        "encodedBodySize": 114564
+      }
+    ]
+  },
+  {
+    "version": "before",
+    "route": "/ja/",
+    "width": 390,
+    "heading": "プロジェクトを紹介するウェブサイトのデザイン・開発\nサービス\nを紹介するウェブサイトのデザイン・開発",
+    "headingHeight": 226,
+    "headingWidth": 336,
+    "overflow": 0,
+    "fonts": [
+      {
+        "family": "Instrument Sans",
+        "weight": "400 700"
+      },
+      {
+        "family": "Noto Sans JP",
+        "weight": "400 600"
+      }
+    ],
+    "fontResources": [
+      {
+        "url": "/fonts/InstrumentSans.ttf",
+        "transferSize": 114864,
+        "encodedBodySize": 114564
+      },
+      {
+        "url": "/fonts/noto-sans-jp-review.ttf",
+        "transferSize": 3114696,
+        "encodedBodySize": 3114396
+      }
+    ]
+  },
+  {
+    "version": "before",
+    "route": "/ja/",
+    "width": 1440,
+    "heading": "プロジェクトを紹介するウェブサイトのデザイン・開発\nサービス\nを紹介するウェブサイトのデザイン・開発",
+    "headingHeight": 359,
+    "headingWidth": 1100,
+    "overflow": 0,
+    "fonts": [
+      {
+        "family": "Instrument Sans",
+        "weight": "400 700"
+      },
+      {
+        "family": "Noto Sans JP",
+        "weight": "400 600"
+      }
+    ],
+    "fontResources": [
+      {
+        "url": "/fonts/InstrumentSans.ttf",
+        "transferSize": 114864,
+        "encodedBodySize": 114564
+      },
+      {
+        "url": "/fonts/noto-sans-jp-review.ttf",
+        "transferSize": 3114696,
+        "encodedBodySize": 3114396
+      }
+    ]
+  },
+  {
+    "version": "afterLocal",
+    "route": "/",
+    "width": 390,
+    "heading": "Diseño y desarrollo de sitios web para presentar tu proyecto\nDiseño y desarrollo de sitios web para presentar tu \nservicio",
+    "headingHeight": 253,
+    "headingWidth": 336,
+    "overflow": 0,
+    "fonts": [
+      {
+        "family": "Instrument Sans",
+        "weight": "400 700"
+      }
+    ],
+    "fontResources": [
+      {
+        "url": "/fonts/InstrumentSans.woff2",
+        "transferSize": 88976,
+        "encodedBodySize": 88676
+      }
+    ]
+  },
+  {
+    "version": "afterLocal",
+    "route": "/",
+    "width": 1440,
+    "heading": "Diseño y desarrollo de sitios web para presentar tu proyecto\nDiseño y desarrollo de sitios web para presentar tu \nservicio",
+    "headingHeight": 310,
+    "headingWidth": 1100,
+    "overflow": 0,
+    "fonts": [
+      {
+        "family": "Instrument Sans",
+        "weight": "400 700"
+      }
+    ],
+    "fontResources": [
+      {
+        "url": "/fonts/InstrumentSans.woff2",
+        "transferSize": 88976,
+        "encodedBodySize": 88676
+      }
+    ]
+  },
+  {
+    "version": "afterLocal",
+    "route": "/ja/",
+    "width": 390,
+    "heading": "プロジェクトを紹介するウェブサイトのデザイン・開発\nサービス\nを紹介するウェブサイトのデザイン・開発",
+    "headingHeight": 226,
+    "headingWidth": 336,
+    "overflow": 0,
+    "fonts": [
+      {
+        "family": "Instrument Sans",
+        "weight": "400 700"
+      },
+      {
+        "family": "Noto Sans JP",
+        "weight": "400 600"
+      }
+    ],
+    "fontResources": [
+      {
+        "url": "/fonts/InstrumentSans.woff2",
+        "transferSize": 88976,
+        "encodedBodySize": 88676
+      },
+      {
+        "url": "/fonts/NotoSansJP-ja.woff2",
+        "transferSize": 86876,
+        "encodedBodySize": 86576
+      }
+    ]
+  },
+  {
+    "version": "afterLocal",
+    "route": "/ja/",
+    "width": 1440,
+    "heading": "プロジェクトを紹介するウェブサイトのデザイン・開発\nサービス\nを紹介するウェブサイトのデザイン・開発",
+    "headingHeight": 359,
+    "headingWidth": 1100,
+    "overflow": 0,
+    "fonts": [
+      {
+        "family": "Instrument Sans",
+        "weight": "400 700"
+      },
+      {
+        "family": "Noto Sans JP",
+        "weight": "400 600"
+      }
+    ],
+    "fontResources": [
+      {
+        "url": "/fonts/InstrumentSans.woff2",
+        "transferSize": 88976,
+        "encodedBodySize": 88676
+      },
+      {
+        "url": "/fonts/NotoSansJP-ja.woff2",
+        "transferSize": 86876,
+        "encodedBodySize": 86576
+      }
+    ]
+  }
+]

@@ -1,0 +1,861 @@
+{
+  "note": "Instrumented local preview; method timings include wrapper overhead",
+  "result": [
+    {
+      "phase": "initial-load",
+      "name": "getBoundingClientRect",
+      "stack": "    at l (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:461) |     at http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:6136",
+      "count": 1,
+      "totalMs": 26.9,
+      "maxMs": 26.9
+    },
+    {
+      "phase": "initial-load",
+      "name": "getBoundingClientRect",
+      "stack": "    at P (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:8597) |     at http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:8783",
+      "count": 1,
+      "totalMs": 1.1,
+      "maxMs": 1.1
+    },
+    {
+      "phase": "resize",
+      "name": "getBoundingClientRect",
+      "stack": "    at l (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:461)",
+      "count": 1,
+      "totalMs": 1,
+      "maxMs": 1
+    },
+    {
+      "phase": "initial-load",
+      "name": "getBoundingClientRect",
+      "stack": "    at l (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:461)",
+      "count": 1,
+      "totalMs": 0.9,
+      "maxMs": 0.9
+    },
+    {
+      "phase": "initial-load",
+      "name": "getBoundingClientRect",
+      "stack": "    at P (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:8597)",
+      "count": 1,
+      "totalMs": 0.7,
+      "maxMs": 0.7
+    },
+    {
+      "phase": "menu",
+      "name": "getBoundingClientRect",
+      "stack": "    at l (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:461) |     at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:3964) |     at HTMLElement.<anonymous> (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:4728)",
+      "count": 1,
+      "totalMs": 0.7,
+      "maxMs": 0.7
+    },
+    {
+      "phase": "menu",
+      "name": "getBoundingClientRect",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:3976) |     at HTMLElement.<anonymous> (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:4728)",
+      "count": 1,
+      "totalMs": 0.6,
+      "maxMs": 0.6
+    },
+    {
+      "phase": "resize",
+      "name": "getBoundingClientRect",
+      "stack": "    at P (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:8597)",
+      "count": 1,
+      "totalMs": 0.6,
+      "maxMs": 0.6
+    },
+    {
+      "phase": "scroll",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13252)",
+      "count": 1,
+      "totalMs": 0.4,
+      "maxMs": 0.4
+    },
+    {
+      "phase": "pointer",
+      "name": "getBoundingClientRect",
+      "stack": "    at l (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:10232) |     at document.addEventListener.passive (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:10659)",
+      "count": 40,
+      "totalMs": 0.3,
+      "maxMs": 0.1
+    },
+    {
+      "phase": "initial-load",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:16591)",
+      "count": 3,
+      "totalMs": 0.2,
+      "maxMs": 0.1
+    },
+    {
+      "phase": "scroll",
+      "name": "getBoundingClientRect",
+      "stack": "    at l (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:10232) |     at http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:10558",
+      "count": 37,
+      "totalMs": 0.2,
+      "maxMs": 0.1
+    },
+    {
+      "phase": "initial-load",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:16928)",
+      "count": 3,
+      "totalMs": 0.2,
+      "maxMs": 0.1
+    },
+    {
+      "phase": "initial-load",
+      "name": "getTotalLength",
+      "stack": "    at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:17581)",
+      "count": 3,
+      "totalMs": 0.2,
+      "maxMs": 0.1
+    },
+    {
+      "phase": "resize",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:17188)",
+      "count": 2,
+      "totalMs": 0.2,
+      "maxMs": 0.1
+    },
+    {
+      "phase": "menu",
+      "name": "getBoundingClientRect",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:4214) |     at HTMLElement.<anonymous> (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:4728)",
+      "count": 1,
+      "totalMs": 0.2,
+      "maxMs": 0.2
+    },
+    {
+      "phase": "initial-load",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:16532)",
+      "count": 3,
+      "totalMs": 0.1,
+      "maxMs": 0.1
+    },
+    {
+      "phase": "resize",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13252)",
+      "count": 2,
+      "totalMs": 0.1,
+      "maxMs": 0.1
+    },
+    {
+      "phase": "resize",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:16810)",
+      "count": 2,
+      "totalMs": 0.1,
+      "maxMs": 0.1
+    },
+    {
+      "phase": "initial-load",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:16360)",
+      "count": 3,
+      "totalMs": 0.1,
+      "maxMs": 0.1
+    },
+    {
+      "phase": "initial-load",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:16810)",
+      "count": 3,
+      "totalMs": 0.1,
+      "maxMs": 0.1
+    },
+    {
+      "phase": "initial-load",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:16874)",
+      "count": 3,
+      "totalMs": 0.1,
+      "maxMs": 0.1
+    },
+    {
+      "phase": "initial-load",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:17043)",
+      "count": 3,
+      "totalMs": 0.1,
+      "maxMs": 0.1
+    },
+    {
+      "phase": "initial-load",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:17188)",
+      "count": 3,
+      "totalMs": 0.1,
+      "maxMs": 0.1
+    },
+    {
+      "phase": "scroll",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:16532)",
+      "count": 1,
+      "totalMs": 0.1,
+      "maxMs": 0.1
+    },
+    {
+      "phase": "scroll",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:16810)",
+      "count": 1,
+      "totalMs": 0.1,
+      "maxMs": 0.1
+    },
+    {
+      "phase": "scroll",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:17089)",
+      "count": 1,
+      "totalMs": 0.1,
+      "maxMs": 0.1
+    },
+    {
+      "phase": "scroll",
+      "name": "getTotalLength",
+      "stack": "    at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:17581)",
+      "count": 1,
+      "totalMs": 0.1,
+      "maxMs": 0.1
+    },
+    {
+      "phase": "resize",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13262)",
+      "count": 2,
+      "totalMs": 0.1,
+      "maxMs": 0.1
+    },
+    {
+      "phase": "resize",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:15437)",
+      "count": 2,
+      "totalMs": 0.1,
+      "maxMs": 0.1
+    },
+    {
+      "phase": "resize",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:16417)",
+      "count": 2,
+      "totalMs": 0.1,
+      "maxMs": 0.1
+    },
+    {
+      "phase": "resize",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:16591)",
+      "count": 2,
+      "totalMs": 0.1,
+      "maxMs": 0.1
+    },
+    {
+      "phase": "resize",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:16874)",
+      "count": 2,
+      "totalMs": 0.1,
+      "maxMs": 0.1
+    },
+    {
+      "phase": "resize",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:16928)",
+      "count": 2,
+      "totalMs": 0.1,
+      "maxMs": 0.1
+    },
+    {
+      "phase": "resize",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:17043)",
+      "count": 2,
+      "totalMs": 0.1,
+      "maxMs": 0.1
+    },
+    {
+      "phase": "resize",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:17089)",
+      "count": 2,
+      "totalMs": 0.1,
+      "maxMs": 0.1
+    },
+    {
+      "phase": "resize",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:17236)",
+      "count": 2,
+      "totalMs": 0.1,
+      "maxMs": 0.1
+    },
+    {
+      "phase": "resize",
+      "name": "getTotalLength",
+      "stack": "    at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:17581)",
+      "count": 2,
+      "totalMs": 0.1,
+      "maxMs": 0.1
+    },
+    {
+      "phase": "initial-load",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13252)",
+      "count": 3,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "initial-load",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13262)",
+      "count": 3,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "initial-load",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13272)",
+      "count": 3,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "initial-load",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13282)",
+      "count": 3,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "initial-load",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13292)",
+      "count": 3,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "initial-load",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13302)",
+      "count": 3,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "initial-load",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13309)",
+      "count": 3,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "initial-load",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13316)",
+      "count": 3,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "initial-load",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13323)",
+      "count": 3,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "initial-load",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13331)",
+      "count": 3,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "initial-load",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13339)",
+      "count": 3,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "initial-load",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13347)",
+      "count": 3,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "initial-load",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13355)",
+      "count": 3,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "initial-load",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:15437)",
+      "count": 3,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "initial-load",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:15530)",
+      "count": 3,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "initial-load",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:15537)",
+      "count": 3,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "initial-load",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:15966)",
+      "count": 3,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "initial-load",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:16262)",
+      "count": 3,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "initial-load",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:16417)",
+      "count": 3,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "initial-load",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:16691)",
+      "count": 3,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "initial-load",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:17089)",
+      "count": 3,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "initial-load",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:17236)",
+      "count": 3,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "scroll",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13262)",
+      "count": 1,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "scroll",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13272)",
+      "count": 1,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "scroll",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13282)",
+      "count": 1,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "scroll",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13292)",
+      "count": 1,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "scroll",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13302)",
+      "count": 1,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "scroll",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13309)",
+      "count": 1,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "scroll",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13316)",
+      "count": 1,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "scroll",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13323)",
+      "count": 1,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "scroll",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13331)",
+      "count": 1,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "scroll",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13339)",
+      "count": 1,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "scroll",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13347)",
+      "count": 1,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "scroll",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13355)",
+      "count": 1,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "scroll",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:15437)",
+      "count": 1,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "scroll",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:15530)",
+      "count": 1,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "scroll",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:15537)",
+      "count": 1,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "scroll",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:15966)",
+      "count": 1,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "scroll",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:16262)",
+      "count": 1,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "scroll",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:16360)",
+      "count": 1,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "scroll",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:16417)",
+      "count": 1,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "scroll",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:16591)",
+      "count": 1,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "scroll",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:16691)",
+      "count": 1,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "scroll",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:16874)",
+      "count": 1,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "scroll",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:16928)",
+      "count": 1,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "scroll",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:17043)",
+      "count": 1,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "scroll",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:17188)",
+      "count": 1,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "scroll",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:17236)",
+      "count": 1,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "resize",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13272)",
+      "count": 2,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "resize",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13282)",
+      "count": 2,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "resize",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13292)",
+      "count": 2,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "resize",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13302)",
+      "count": 2,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "resize",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13309)",
+      "count": 2,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "resize",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13316)",
+      "count": 2,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "resize",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13323)",
+      "count": 2,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "resize",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13331)",
+      "count": 2,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "resize",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13339)",
+      "count": 2,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "resize",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13347)",
+      "count": 2,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "resize",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13355)",
+      "count": 2,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "resize",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:15530)",
+      "count": 2,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "resize",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:15537)",
+      "count": 2,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "resize",
+      "name": "getBoundingClientRect",
+      "stack": "    at a (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:12526) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:15966)",
+      "count": 2,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "resize",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:16262)",
+      "count": 2,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "resize",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:16360)",
+      "count": 2,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "resize",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:16532)",
+      "count": 2,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "resize",
+      "name": "getTotalLength",
+      "stack": "    at k (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:13777) |     at s (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:16691)",
+      "count": 2,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "menu",
+      "name": "getBoundingClientRect",
+      "stack": "    at l (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:10232) |     at document.addEventListener.passive (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:10659)",
+      "count": 1,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "menu",
+      "name": "getBoundingClientRect",
+      "stack": "    at l (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:10232) |     at http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:10558",
+      "count": 2,
+      "totalMs": 0,
+      "maxMs": 0
+    },
+    {
+      "phase": "menu",
+      "name": "getBoundingClientRect",
+      "stack": "    at D (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:3068) |     at HTMLDocument.<anonymous> (http://127.0.0.1:4323/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D0hktVnJ.js:1:4944)",
+      "count": 1,
+      "totalMs": 0,
+      "maxMs": 0
+    }
+  ]
+}

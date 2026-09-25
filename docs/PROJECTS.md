@@ -25,9 +25,9 @@ Las etiquetas V1 siguientes son resultados históricos, no decisiones de inclusi
 
 ## Candidate status
 
-Estado V2: **SELECTED FOR V1**.
+Estado V2: **SELECTED — H6 CASE 1**.
 
-V2-H2 selecciona Residencias Grupo Casa como único caso público inicial. Se presenta como case study resumido dentro del recorrido comercial principal, sin página dedicada en V1. Puede publicarse mientras siga en desarrollo si ese estado se declara claramente. El deployment público navegable está confirmado y puede enlazarse con una acción secundaria «Ver sitio».
+V2-H2 seleccionó Residencias Grupo Casa como único caso público inicial; la decisión posterior de H6 añade LingoHive como segundo caso. Residencias se presenta como case study resumido dentro del recorrido comercial principal, sin página dedicada. Puede publicarse mientras siga en desarrollo si ese estado se declara claramente. El deployment público navegable está confirmado y puede enlazarse con una acción secundaria «Ver sitio».
 
 Evaluación histórica V1 preservada: **STRONG V1 CANDIDATE**. La designación histórica `PRIMARY V1 PROJECT` no llegó a confirmarse durante V1.
 
@@ -56,6 +56,8 @@ Estado actual:
 - deployment público navegable confirmado: <https://residenciasgrupocasa.com.ar/>;
 - en la auditoría el working tree tenía cambios sin commit por el desarrollo en curso;
 - URL pública autorizada para enlazar desde ramita.dev: <https://residenciasgrupocasa.com.ar/>.
+
+Par visual final aprobado por Ramiro en H6.B: captura de la página Casa San Juan en desktop, 1440 × 900, y de la Home en mobile, sección «Nuestras residencias», 390 × 844. Los derivados públicos `public/images/residencias-desktop.webp` y `public/images/residencias-mobile.webp` pesan 110.488 y 40.126 B respectivamente. Ambas son capturas reales del deployment vigente, complementarias y sin residentes identificables. El desktop muestra la sede y su espacio exterior; el mobile muestra la presentación de Casa San Juan dentro del conjunto. No atribuir a la captura desktop una presentación de Casa Boedo. Originales aprobados y comparación con los PNG anteriores: `qa/h6-residencias-candidates.md`.
 
 ## Ramiro's role
 
@@ -250,7 +252,6 @@ sin evidencia verificable.
 - fecha final de publicación;
 - estado final del repositorio;
 - métricas futuras si alguna vez existen;
-- selección final de screenshots y assets exactos para ramita.dev;
 - verificación actual de cualquier claim técnico que vaya a publicarse;
 - cambios de contenido o estado comercial mientras continúa el desarrollo.
 
@@ -258,9 +259,9 @@ sin evidencia verificable.
 
 ## Candidate status
 
-Estado V2: **DEFERRED — FUTURE CANDIDATE**.
+Estado V2: **SELECTED FOR H6 INTEGRATION — EXTERNAL DEMO PENDING**.
 
-LingoHive no se publica ni aparece como placeholder en V1. Su modelo queda preparado para incorporación futura y su restauración no bloquea el lanzamiento de ramita.dev.
+La decisión posterior de Ramiro incorpora LingoHive a Proyectos en V2-H6 después de preparar en otro repositorio una demo sanitizada y desplegada. No aparece como placeholder mientras se prepara. H6 no se cierra sin su integración, capturas reales, copy/traducciones aprobados y créditos visibles «Diseño: Juan Galache de Toro / Desarrollo: Ramiro Garcia».
 
 Evaluación histórica V1 preservada: **CANDIDATE WITH RESTORATION**
 
@@ -272,7 +273,7 @@ Recomendación:
 
 **RESTORE THEN REASSESS**
 
-La inclusión definitiva en V1 quedó pendiente históricamente. V2-H2 la difiere hasta resolver las precondiciones siguientes y volver a decidir su publicación.
+La inclusión definitiva en V1 quedó pendiente históricamente y V2-H2 la difirió. La instrucción de H6 la selecciona ahora, sujeta a las precondiciones de publicación siguientes.
 
 ## Client
 
@@ -414,7 +415,7 @@ No reutilizarlos automáticamente sólo porque existan en el repo.
 
 ## Restoration
 
-No forma parte de la fase actual de planificación V2.
+La preparación se realiza en el repositorio/chat de LingoHive antes de H6.E; la versión histórica auditada no se publica directamente.
 
 Antes de publicar un deployment restaurado:
 - revisar dependencias;
@@ -428,18 +429,11 @@ Antes de publicar un deployment restaurado:
 - metadata;
 - deployment.
 
-La restauración no implica automáticamente inclusión en `ramita.dev`.
+La demo sanitizada y desplegada, con permisos y contenido verificados, habilita su integración obligatoria en H6.E.
 
-## Potential portfolio treatment
+## Portfolio treatment decidido para H6
 
-Opciones futuras:
-- deployment restaurado;
-- snapshot histórico;
-- case study con screenshots;
-- repo + case study;
-- screenshots sin deployment.
-
-No decidir todavía.
+Resumen dentro de Proyectos, después de Residencias, con enlace a la demo sanitizada en Vercel, capturas reales, créditos visibles y estado explícito de demo de un trabajo anterior. La URL, versión, screenshots, assets autorizados y copy se confirman con la preparación externa; no se inventan ni publican antes.
 
 ## Claims allowed
 
@@ -469,7 +463,7 @@ sin nueva verificación.
 - atribución visible a Juan Galache de Toro como diseñador principal de logo, paleta y dirección visual;
 - solución y capacidades demostradas: implementación de dirección externa, frontend expresivo, interacción y motion;
 - visuales reales con permisos verificados;
-- modalidad pública elegida —screenshots, snapshot, repositorio o deployment restaurado— y sus limitaciones.
+- modalidad pública de demo restaurada y sanitizada, con sus limitaciones.
 
 ### Useful
 
@@ -491,7 +485,7 @@ sin nueva verificación.
 
 ### Preconditions for publication
 
-- elegir modalidad pública;
+- confirmar URL pública y estado de la demo restaurada y sanitizada;
 - identificar y conservar la versión exacta que respalda screenshots y claims;
 - verificar permisos por asset;
 - producir o seleccionar screenshots fieles;
@@ -565,6 +559,5 @@ Profundidad aprobada para V1: resumen dentro del recorrido comercial principal. 
 
 Pendientes:
 - qué screenshots exactos usar;
-- link público final de Residencias;
 - verificación actual de claims técnicos antes de publicación;
-- si LingoHive se restaura y, después de cumplir sus precondiciones, si se incorpora en una versión futura.
+- demo sanitizada y desplegada de LingoHive, versión exacta, permisos por asset, capturas reales y copy/traducciones aprobados antes de integrarlo obligatoriamente en H6.

@@ -2,7 +2,7 @@
 
 ## Responsabilidad y estado activo
 
-Fuente de verdad para experiencia visual e interactiva aprobada. V2-H3 aprueba el UX comercial documentado abajo; V2-H4 aprueba el copy de cinco idiomas y el sistema visual estático; V2-H5 cierra la implementación funcional. La selección exacta de capturas permanece en H6.
+Fuente de verdad para experiencia visual e interactiva aprobada. V2-H3 aprueba el UX comercial documentado abajo; V2-H4 aprueba el copy de cinco idiomas y el sistema visual estático; V2-H5 cierra la implementación funcional. H6.B fija el par exacto de capturas de Residencias. La decisión posterior de H6 añade LingoHive después de Residencias sólo cuando exista material real y aprobado; adaptar entonces Proyectos y su geometría sin rediseño especulativo previo. Las exclusiones de LingoHive en wireframes y auditorías H3 describen aquel estado histórico.
 El diseño debe ayudar a entender servicios, generar confianza, demostrar capacidad y contactar. La identidad sigue siendo personal.
 
 ### Cierre visual/funcional V2-H5 — 2026-09-24
@@ -71,9 +71,9 @@ Octava pasada H5 (2026-09-24), limitada al path, hit target del trigger y escena
 - Influencia japonesa exclusivamente compositiva: espacio negativo deliberado, asimetría controlada, ritmo vertical preciso, reglas finas y pocas piezas relacionadas. Sin escrituras japonesas decorativas, banderas, círculos rojos decorativos, templos, bambú, sakura ni iconografía cultural literal. El contenido real de la versión JA y su etiqueta de idioma son una necesidad lingüística, no decoración.
 - Servicios y proceso conservan la composición editorial aprobada, sin cards, iconos, pills, ilustraciones, números gigantes o timeline; información y arquitectura conservadas.
 - Email protagonista; WhatsApp alternativa secundaria. Cada dato tiene un control de icono para copiar, discreto y con nombre accesible. GitHub sólo en Ramiro. Datos canónicos en CONTENT.md.
-- Residencias usa capturas reales desktop + mobile como evidencia complementaria, con tamaño suficiente, sin mockups y con captions factuales. Tratamiento aprobado; `SCREENSHOT_SELECTION = DEFERRED_TO_IMPLEMENTATION`. El par actual no está congelado y probablemente se reemplazará en H6 por capturas de la misma versión vigente, sin residentes identificables ni cambios de claims.
+- Residencias usa capturas reales desktop + mobile como evidencia complementaria, con tamaño suficiente, sin mockups y con captions factuales. H6.B fija el par aprobado: página Casa San Juan desktop y Home, sección «Nuestras residencias», mobile; derivados WebP, sin residentes identificables ni cambios de claims.
 
-Iteración comparativa: prototypes/v2-h4/v2/. La anterior se conserva intacta. Copy ES/EN/PT/FR/JA y sistema visual aprobados; par exacto de capturas y comportamiento técnico pendientes de H6/H5. Estas decisiones actualizan sólo los puntos indicados de H3, sin reabrir H1/H2/H3. Los wireframes H3 se conservan como evidencia previa: sus tres columnas y ausencia de WhatsApp no gobiernan H4. Los valores del archivo V1 siguen siendo antecedentes.
+Iteración comparativa H4: prototypes/v2-h4/v2/. La anterior se conserva intacta. En aquel cierre, copy ES/EN/PT/FR/JA y sistema visual estaban aprobados; el par exacto de capturas y comportamiento técnico quedaron para H6/H5 y ya se resolvieron en sus fases correspondientes. Estas decisiones actualizan sólo los puntos indicados de H3, sin reabrir H1/H2/H3. Los wireframes H3 se conservan como evidencia previa: sus tres columnas y ausencia de WhatsApp no gobiernan H4. Los valores del archivo V1 siguen siendo antecedentes.
 
 Iteración 3 posterior: el Hero muestra estáticamente la estructura «presentar tu [palabra]», con «proyecto» como estado y fallback; la secuencia aprobada empieza por «servicio». La palabra se distingue mediante accent, peso y una regla inferior fina, sin pill, caja ni badge. El texto completo sigue comprensible sin animación; movimiento y sincronización accesible pertenecen a H5. El menú incorpora cinco idiomas; Instrument Sans no cubre japonés y JA usa Noto Sans JP sólo donde hacen falta glifos japoneses. Servicios conserva sus tres ofertas y el pasaje de capacidades condicionadas al alcance. El contacto sitúa iconos de copia junto a email y teléfono. La nota sobre idioma hablado sólo corresponde a versiones no españolas, al final de About. Composición estática aprobada.
 
@@ -168,7 +168,7 @@ Cuatro unidades dentro de una sección:
 
 No ampliar el requerimiento con motivaciones comerciales supuestas ni presentar auditorías históricas como actuales. Estado junto al nombre, antes de imágenes. Puede acompañarse de una acción secundaria discreta «Ver sitio» hacia el deployment público confirmado; no sustituye las figuras ni se presenta como CTA principal. No confundir ese estado con el estado factual de Casa Boedo.
 
-Desktop: contexto/requerimiento y responsabilidad/solución en dos columnas; debajo figura desktop de mayor superficie y mobile adyacente sin superposición, cada una con caption; capacidades cierran. Espacio suficiente para observar decisiones, sin pretender leer una página completa reducida. Encuadres exactos diferidos a H6; no agregar imágenes para completar una grilla.
+Desktop: contexto/requerimiento y responsabilidad/solución en dos columnas; debajo figura desktop de mayor superficie y mobile adyacente sin superposición, cada una con caption; capacidades cierran. Espacio suficiente para observar decisiones, sin pretender leer una página completa reducida. Encuadres exactos aprobados en H6.B; no agregar imágenes para completar una grilla.
 
 Mobile: nombre/tipo/estado → necesidad → responsabilidad/solución → figura mobile/caption → figura desktop/caption → capacidades. La mobile permite inspeccionar interfaz; desktop explica estructura general sin depender de textos internos legibles. Sin swipe obligatorio, carrusel, lightbox ni contenido revelado al tocar. Zoom nativo disponible.
 

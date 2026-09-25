@@ -1,0 +1,128 @@
+{
+  "url": "https://portfolio-rrrramita.vercel.app/",
+  "note": "CDP LayoutDuration includes normal layout; read counts help distinguish rebuild from scroll",
+  "out": [
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "loadReadCounts": {
+        "getTotalLength": 68,
+        "getBoundingClientRect": 64
+      },
+      "stages": [
+        {
+          "name": "scroll-40-steps",
+          "delta": {
+            "LayoutCount": 91,
+            "RecalcStyleCount": 128,
+            "LayoutDuration": 0.00169,
+            "RecalcStyleDuration": 0.00681,
+            "ScriptDuration": 0.00357
+          },
+          "readCounts": {
+            "getTotalLength": 17,
+            "getBoundingClientRect": 50
+          }
+        },
+        {
+          "name": "resize",
+          "delta": {
+            "LayoutCount": 54,
+            "RecalcStyleCount": 55,
+            "LayoutDuration": 0.00278,
+            "RecalcStyleDuration": 0.00327,
+            "ScriptDuration": 0.00126
+          },
+          "readCounts": {
+            "getTotalLength": 34,
+            "getBoundingClientRect": 32
+          }
+        },
+        {
+          "name": "menu-open-close",
+          "delta": {
+            "LayoutCount": 54,
+            "RecalcStyleCount": 80,
+            "LayoutDuration": 0.00745,
+            "RecalcStyleDuration": 0.01294,
+            "ScriptDuration": 0.00136
+          },
+          "readCounts": {
+            "getTotalLength": 0,
+            "getBoundingClientRect": 7
+          }
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "loadReadCounts": {
+        "getTotalLength": 42,
+        "getBoundingClientRect": 55
+      },
+      "stages": [
+        {
+          "name": "scroll-40-steps",
+          "delta": {
+            "LayoutCount": 87,
+            "RecalcStyleCount": 127,
+            "LayoutDuration": 0.00196,
+            "RecalcStyleDuration": 0.00722,
+            "ScriptDuration": 0.00398
+          },
+          "readCounts": {
+            "getTotalLength": 14,
+            "getBoundingClientRect": 54
+          }
+        },
+        {
+          "name": "pointer-40-steps",
+          "delta": {
+            "LayoutCount": 91,
+            "RecalcStyleCount": 137,
+            "LayoutDuration": 0.00252,
+            "RecalcStyleDuration": 0.00932,
+            "ScriptDuration": 0.00319
+          },
+          "readCounts": {
+            "getTotalLength": 0,
+            "getBoundingClientRect": 40
+          }
+        },
+        {
+          "name": "resize",
+          "delta": {
+            "LayoutCount": 34,
+            "RecalcStyleCount": 39,
+            "LayoutDuration": 0.00556,
+            "RecalcStyleDuration": 0.00347,
+            "ScriptDuration": 0.00145
+          },
+          "readCounts": {
+            "getTotalLength": 28,
+            "getBoundingClientRect": 36
+          }
+        },
+        {
+          "name": "menu-open-close",
+          "delta": {
+            "LayoutCount": 67,
+            "RecalcStyleCount": 74,
+            "LayoutDuration": 0.00779,
+            "RecalcStyleDuration": 0.01281,
+            "ScriptDuration": 0.00138
+          },
+          "readCounts": {
+            "getTotalLength": 0,
+            "getBoundingClientRect": 7
+          }
+        }
+      ]
+    }
+  ]
+}

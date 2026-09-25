@@ -39,7 +39,7 @@ El visitante no necesita conocer tecnologías. La comunicación prioriza lo que 
 - Denominación conceptual principal: diseño y desarrollo de sitios web. La oferta conecta definición, diseño e implementación con un único interlocutor responsable de la entrega acordada; cada encargo define su alcance.
 - El proceso conceptual aprobado es entender, definir, diseñar, desarrollar, revisar, publicar y comprobar. V2-H2 lo integra brevemente con la presentación profesional; no es copy público final ni exige un bloque visual propio. No implica que el servicio termine necesariamente al publicar; una continuidad posterior puede acordarse.
 - Email como contacto principal y WhatsApp como alternativa secundaria. Un icono de copia junto a cada dato permite copiar email o teléfono, con nombre accesible; no hay botón textual independiente. GitHub queda en Ramiro. Datos canónicos en CONTENT.md.
-- Proyectos reales como evidencia: Residencias Grupo Casa es el único caso inicial; LingoHive queda diferido como candidato futuro sin placeholder público.
+- Proyectos reales como evidencia: Residencias Grupo Casa es el caso actualmente implementado; H6 incorporará LingoHive cuando su demo externa esté sanitizada y desplegada. No mostrar placeholder antes de contar con evidencia real.
 - Presentación profesional breve subordinada a confianza y venta; no CV.
 - ES / EN / PT / FR / JA con paridad de contenido y traducciones revisadas; español es la fuente. La versión no española incluye una aclaración discreta sobre la comunicación de Ramiro. No afirmar fluidez oral.
 - Sin LinkedIn, CV descargable, empleo actual ni sonido.
@@ -61,15 +61,15 @@ El Hero deberá comunicar como contenido primario la oferta de diseño y desarro
 
 La oferta se explica como un único servicio aplicado principalmente a sitios institucionales, landing pages y rediseños. El proceso aprobado aparece de forma breve e integrada con la presentación profesional; no constituye por sí mismo un bloque obligatorio.
 
-Residencias Grupo Casa es el único caso seleccionado para la V1. Se presenta como resumen dentro del recorrido comercial principal y puede publicarse mientras continúe en desarrollo si ese estado se declara claramente. Su deployment público está confirmado en <https://residenciasgrupocasa.com.ar/> y admite la acción secundaria «Ver sitio». LingoHive queda como candidato futuro, sin placeholder ni espacio público reservado, y no bloquea el lanzamiento.
+Residencias Grupo Casa es el caso ya implementado. Se presenta como resumen dentro del recorrido comercial principal y puede publicarse mientras continúe en desarrollo si ese estado se declara claramente. Su deployment público está confirmado en <https://residenciasgrupocasa.com.ar/> y admite la acción secundaria «Ver sitio». H6 incorporará LingoHive después de preparar externamente una demo sanitizada y desplegada, confirmar permisos y aprobar contenido y capturas reales. La sección Proyectos final debe incluir ambos casos antes de cerrar H6; no reservar un placeholder público durante la preparación.
 
 El footer seguirá siendo soporte mínimo, sin añadir categorías o navegación no aprobadas.
 
 ## Arquitectura UX aprobada en V2-H3
 
-Single-page comercial por idioma, sin páginas secundarias nuevas. Orden: Hero → Servicios → Caso real → Ramiro y forma de trabajo → Contacto. Header y footer son estructura auxiliar. Capacidades integradas pertenecen a Servicios; el proceso permanece dentro de Ramiro. No se reservan espacios para proyectos futuros.
+Single-page comercial por idioma, sin páginas secundarias nuevas. Orden: Hero → Servicios → Proyectos → Ramiro y forma de trabajo → Contacto. Header y footer son estructura auxiliar. Capacidades integradas pertenecen a Servicios; el proceso permanece dentro de Ramiro. Proyectos incluye Residencias y, al completar H6, LingoHive sin espacios reservados durante su preparación.
 
-El Hero prioriza oferta, utilidad y prestación personal, con un único CTA hacia Contacto. El header persistente permite acceder a Servicios, Caso real, Ramiro y Contacto; la identidad vuelve al inicio del idioma actual. El email visible en Contacto es la acción `mailto:`, con WhatsApp secundario y un control de copia discreto junto a cada dato. GitHub aparece una sola vez como respaldo en Ramiro.
+El Hero prioriza oferta, utilidad y prestación personal, con un único CTA hacia Contacto. El header persistente permite acceder a Servicios, Proyectos, Ramiro y Contacto; la identidad vuelve al inicio del idioma actual. El email visible en Contacto es la acción `mailto:`, con WhatsApp secundario y un control de copia discreto junto a cada dato. GitHub aparece una sola vez como respaldo en Ramiro.
 
 Residencias se explica mediante cuatro unidades: identificación/necesidad, responsabilidad/solución, dos figuras reales desktop/mobile y capacidades demostradas. El estado `en desarrollo` sigue visible junto al nombre; puede acompañarse de una acción secundaria «Ver sitio» hacia el deployment público confirmado. No hay página de caso, carrusel ni lightbox.
 

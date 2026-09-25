@@ -1,0 +1,114 @@
+[
+  {
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "cls": 0,
+    "lcp": 56,
+    "fonts": [
+      {
+        "family": "Instrument Sans",
+        "weight": "400 700"
+      }
+    ],
+    "ja400": false,
+    "ja600": false,
+    "resources": [
+      {
+        "url": "/fonts/InstrumentSans.woff2",
+        "bytes": 88676
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "cls": 0,
+    "lcp": 72,
+    "fonts": [
+      {
+        "family": "Instrument Sans",
+        "weight": "400 700"
+      }
+    ],
+    "ja400": false,
+    "ja600": false,
+    "resources": [
+      {
+        "url": "/fonts/InstrumentSans.woff2",
+        "bytes": 88676
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/ja/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "cls": 0,
+    "lcp": 152,
+    "fonts": [
+      {
+        "family": "Instrument Sans",
+        "weight": "400 700"
+      },
+      {
+        "family": "Noto Sans JP",
+        "weight": "400 600"
+      }
+    ],
+    "ja400": true,
+    "ja600": true,
+    "resources": [
+      {
+        "url": "/fonts/InstrumentSans.woff2",
+        "bytes": 88676
+      },
+      {
+        "url": "/fonts/NotoSansJP-ja.woff2",
+        "bytes": 86532
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/ja/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "cls": 0,
+    "lcp": 124,
+    "fonts": [
+      {
+        "family": "Instrument Sans",
+        "weight": "400 700"
+      },
+      {
+        "family": "Noto Sans JP",
+        "weight": "400 600"
+      }
+    ],
+    "ja400": true,
+    "ja600": true,
+    "resources": [
+      {
+        "url": "/fonts/InstrumentSans.woff2",
+        "bytes": 88676
+      },
+      {
+        "url": "/fonts/NotoSansJP-ja.woff2",
+        "bytes": 86532
+      }
+    ],
+    "overflow": false
+  }
+]

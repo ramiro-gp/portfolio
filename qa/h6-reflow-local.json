@@ -1,0 +1,1730 @@
+{
+  "note": "Local preview diagnostic; not production Lighthouse evidence",
+  "phases": [
+    {
+      "name": "initial-load",
+      "metricDelta": {
+        "LayoutCount": 55,
+        "RecalcStyleCount": 83,
+        "LayoutDuration": 0.03025,
+        "RecalcStyleDuration": 0.01283,
+        "ScriptDuration": 0.00536
+      },
+      "events": [
+        {
+          "name": "Layout",
+          "durationMs": 18.363,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.164,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 10.468,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.169,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.031,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.052,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.016,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.009,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.005,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.003,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.005,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.004,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.003,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.003,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.003,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.053,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.008,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.004,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.003,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.003,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.005,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.001,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.005,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.026,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.025,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.024,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.021,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.028,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.023,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.015,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.016,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.011,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.01,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.012,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.008,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.012,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.014,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.035,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.023,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.029,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.023,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.019,
+          "stack": null
+        }
+      ],
+      "layoutEvents": 55
+    },
+    {
+      "name": "scroll-40-steps",
+      "metricDelta": {
+        "LayoutCount": 95,
+        "RecalcStyleCount": 133,
+        "LayoutDuration": 0.0022,
+        "RecalcStyleDuration": 0.00679,
+        "ScriptDuration": 0.0037
+      },
+      "events": [
+        {
+          "name": "Layout",
+          "durationMs": 0.025,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.021,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.018,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.02,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.015,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.027,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.02,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.026,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.021,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.02,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.023,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.143,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.018,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.01,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.006,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.006,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.004,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.017,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.017,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.018,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.018,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.019,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.022,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.024,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.019,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.013,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.015,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.014,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.024,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.023,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.018,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.013,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.017,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.014,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.017,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.013,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.02,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.015,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.017,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.016,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.018,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.016,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.022,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.015,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.021,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.018,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.022,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.02,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.022,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.018,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.023,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.022,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.008,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.015,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.02,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.018,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.02,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.017,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.02,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.016,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.053,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.018,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.018,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.018,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.019,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.019,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.031,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.027,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.023,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.029,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.022,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.023,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.02,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.025,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.019,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.02,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.022,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.022,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.02,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.02,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.021,
+          "stack": null
+        }
+      ],
+      "layoutEvents": 91
+    },
+    {
+      "name": "pointer-40-steps",
+      "metricDelta": {
+        "LayoutCount": 77,
+        "RecalcStyleCount": 134,
+        "LayoutDuration": 0.00256,
+        "RecalcStyleDuration": 0.00756,
+        "ScriptDuration": 0.00295
+      },
+      "events": [
+        {
+          "name": "Layout",
+          "durationMs": 0.022,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.102,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.012,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.013,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.005,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.012,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.006,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.012,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.012,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.02,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.016,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.013,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.014,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.015,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.012,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.016,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.008,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.012,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.114,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.018,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.014,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.01,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.069,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.065,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.063,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.071,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.061,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.063,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.055,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.056,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.06,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.026,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.04,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.015,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.014,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.015,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.009,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.02,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.014,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.066,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.078,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.036,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.06,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.076,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.059,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.027,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.064,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.043,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.042,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.049,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.049,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.019,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.014,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.014,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.006,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.015,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.006,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.011,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.012,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.018,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.007,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.01,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.008,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.015,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.016,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.016,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.016,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.008,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.015,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.005,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.011,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.011,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.012,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.008,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.011,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.015,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.016,
+          "stack": null
+        }
+      ],
+      "layoutEvents": 77
+    },
+    {
+      "name": "resize",
+      "metricDelta": {
+        "LayoutCount": 40,
+        "RecalcStyleCount": 45,
+        "LayoutDuration": 0.00685,
+        "RecalcStyleDuration": 0.00366,
+        "ScriptDuration": 0.00163
+      },
+      "events": [
+        {
+          "name": "Layout",
+          "durationMs": 6.381,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.016,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.053,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.032,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.03,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.009,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.004,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.003,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.004,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.003,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.003,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.006,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.006,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.042,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.008,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.004,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.003,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.003,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.003,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.003,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.003,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.003,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.002,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.005,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.028,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.027,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.007,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.015,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.016,
+          "stack": null
+        }
+      ],
+      "layoutEvents": 40
+    },
+    {
+      "name": "menu-open-close",
+      "metricDelta": {
+        "LayoutCount": 69,
+        "RecalcStyleCount": 76,
+        "LayoutDuration": 0.00885,
+        "RecalcStyleDuration": 0.01365,
+        "ScriptDuration": 0.00147
+      },
+      "events": [
+        {
+          "name": "Layout",
+          "durationMs": 0.031,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.028,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.009,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.017,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.091,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.044,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.022,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 6.033,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.019,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.012,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.016,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.009,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.014,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.015,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.02,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.007,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.016,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.022,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.022,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.02,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.02,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.021,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.023,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.027,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.02,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.047,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.02,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.02,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.022,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.022,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.023,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.02,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.021,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.041,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.041,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.014,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.015,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.017,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.015,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.107,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.085,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.067,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.078,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.067,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.076,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.093,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.072,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.072,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.091,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.024,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.025,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.024,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.029,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.023,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.023,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.029,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.028,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.047,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.035,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.026,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.03,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.027,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.025,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.023,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.027,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.025,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.027,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.103,
+          "stack": null
+        },
+        {
+          "name": "Layout",
+          "durationMs": 0.029,
+          "stack": null
+        }
+      ],
+      "layoutEvents": 69
+    }
+  ]
+}

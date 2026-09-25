@@ -1,5 +1,13 @@
 # DECISIONS.md
 
+## 2026-09-25 — H6.B: capturas finales de Residencias
+
+Ramiro aprueba el par real Casa San Juan desktop / Home «Nuestras residencias» mobile y sus derivados WebP calidad 84. H6.B sustituye los PNG públicos, conserva dimensiones y lazy loading y ajusta captions/alt ES/EN/PT/FR/JA a las vistas efectivas; el rótulo español dentro de la captura mobile se cita literalmente en las traducciones. No se agregan `picture`, `srcset` ni AVIF sin ventaja demostrada. La reducción del par es de 671.231 a 150.614 B (77,56 %), con QA local de diez combinaciones idioma/ancho y CLS 0 al cargar las imágenes. H6.B queda COMPLETE; H6 global continúa IN PROGRESS hasta integrar LingoHive y completar el resto de fases.
+
+## 2026-09-24 — Alcance V2-H6: dos casos obligatorios
+
+Ramiro confirma que H6 debe terminar con Residencias Grupo Casa y LingoHive integrados en Proyectos. Primero se ejecutan H6.A–D; LingoHive se sanitiza, pule y despliega en Vercel en otro repositorio/chat; después H6.E incorpora demo, capturas reales, copy/traducciones aprobados y créditos visibles «Diseño: Juan Galache de Toro / Desarrollo: Ramiro Garcia»; H6.F completa assets y SEO. No se rediseña Proyectos antes de tener el material real. La URL vigente del preview de ramita.dev se solicita si no puede recuperarse; localhost no sustituye las mediciones iniciales. Esta decisión sustituye el diferimiento y la ausencia de bloqueo registrados en H2 sin reabrir sus cierres históricos. H6 permanece abierto hasta integrar ambos casos y validar el alcance aplicable.
+
 ## 2026-09-24 — Cierre V2-H5 y navegación interna sin hashes JS
 
 Ramiro aprueba formalmente el QA visual/funcional humano en desktop, mobile real y deployment Vercel. Se cierra V2-H5: menú fullscreen numerado, Hero rotativo con fallback estable, Servicios sticky, línea continua desktop/mobile derivada del layout y reversible, escena Ramiro Garcia, cursor sólo para fine pointer, Contacto con email dominante/SCROLL/IR ARRIBA, reduced motion y preferencias theme/accent por theme. La última corrección conserva scroll nativo suave y foco al navegar por JS, pero no añade fragmentos a la URL; un fragmento existente se quita con `history.replaceState`. Sin JS, los anchors siguen usando fragmentos, y el selector de idioma conserva los que estén presentes al cambiar de ruta. Build/typecheck y checks actuales pasan; los scripts QA antiguos con supuestos de geometría superados quedan como historia, no como evidencia de la configuración vigente. No se afirma haber ejecutado lector de pantalla exhaustivo, Safari/iOS ni matriz completa de versiones: QA adicional pre-release. El reporte Lighthouse real de Vercel aportado por Ramiro (CSS render-blocking ~7,4 KiB, PNG mobile Residencias ~125 KiB de ahorro potencial, forced reflow) se transfiere a H6 sin optimización en H5. Vercel usado para QA no fija hosting definitivo. **V2-H5 CLOSED; V2-H6 NOT STARTED**; DONE.md permanece abierto.
@@ -126,7 +134,7 @@ Decisiones confirmadas:
 - La oferta se presenta como un único servicio aplicado a institucionales, landing pages y rediseños. Responsive, formularios, SEO técnico, performance y publicación son capacidades integradas según alcance, no servicios aislados ni inclusiones automáticas.
 - El proceso entender → definir → diseñar → desarrollar → revisar → publicar y comprobar se incorpora brevemente dentro de la presentación profesional, sin bloque autónomo obligatorio ni promesas de reuniones, revisiones, plazos o soporte.
 - Residencias Grupo Casa es el único caso de V1. Se muestra como resumen dentro del recorrido principal, puede publicarse como trabajo en desarrollo si se declara su estado y no tendrá enlace hasta confirmar y comprobar el deployment.
-- LingoHive queda diferido como candidato futuro, con modelo y precondiciones documentados, sin teaser, placeholder ni espacio público reservado. No bloquea el lanzamiento.
+- Decisión histórica H2, sustituida por la instrucción de H6: LingoHive quedó diferido entonces, con modelo y precondiciones documentados, sin teaser, placeholder ni espacio público reservado. H6 exige ahora integrarlo antes de su cierre y del lanzamiento.
 - El idioma fuente del copy será español; ES, EN y PT deben mantener información, atribuciones, límites y estados equivalentes.
 - Email es la acción comercial principal. La información sugerida para el primer mensaje es opcional y no se incorpora formulario, WhatsApp ni calendario.
 - Se aprueba una política explícita contra contenido de relleno, evidencia artificial, claims sin vigencia y CV/tech wall.

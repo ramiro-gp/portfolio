@@ -1,0 +1,452 @@
+[
+  {
+    "route": "/",
+    "width": 390,
+    "images": [
+      {
+        "src": "/images/residencias-mobile.webp",
+        "width": 390,
+        "height": 844,
+        "naturalWidth": 390,
+        "naturalHeight": 844,
+        "loading": "lazy",
+        "alt": "Captura de la Home de Residencias Grupo Casa en mobile: sección «Nuestras residencias», foto exterior de Casa San Juan y menú compacto.",
+        "caption": "Home en mobile, sección «Nuestras residencias»: Casa San Juan y navegación compacta.",
+        "renderedWidth": 336
+      },
+      {
+        "src": "/images/residencias-desktop.webp",
+        "width": 1440,
+        "height": 900,
+        "naturalWidth": 1440,
+        "naturalHeight": 900,
+        "loading": "lazy",
+        "alt": "Captura de la página de Casa San Juan de Residencias Grupo Casa en desktop: título, texto introductorio y fotografía del espacio exterior.",
+        "caption": "Página de Casa San Juan en desktop: presentación de la sede y foto de su espacio exterior.",
+        "renderedWidth": 336
+      }
+    ],
+    "overflow": 0,
+    "cls": 0,
+    "shifts": [],
+    "resources": [
+      {
+        "src": "/images/residencias-mobile.webp",
+        "bytes": 40126,
+        "status": 200,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "/images/residencias-desktop.webp",
+        "bytes": 110488,
+        "status": 200,
+        "contentType": "image/webp"
+      }
+    ]
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "images": [
+      {
+        "src": "/images/residencias-mobile.webp",
+        "width": 390,
+        "height": 844,
+        "naturalWidth": 390,
+        "naturalHeight": 844,
+        "loading": "lazy",
+        "alt": "Captura de la Home de Residencias Grupo Casa en mobile: sección «Nuestras residencias», foto exterior de Casa San Juan y menú compacto.",
+        "caption": "Home en mobile, sección «Nuestras residencias»: Casa San Juan y navegación compacta.",
+        "renderedWidth": 304
+      },
+      {
+        "src": "/images/residencias-desktop.webp",
+        "width": 1440,
+        "height": 900,
+        "naturalWidth": 1440,
+        "naturalHeight": 900,
+        "loading": "lazy",
+        "alt": "Captura de la página de Casa San Juan de Residencias Grupo Casa en desktop: título, texto introductorio y fotografía del espacio exterior.",
+        "caption": "Página de Casa San Juan en desktop: presentación de la sede y foto de su espacio exterior.",
+        "renderedWidth": 912
+      }
+    ],
+    "overflow": 0,
+    "cls": 0,
+    "shifts": [],
+    "resources": [
+      {
+        "src": "/images/residencias-mobile.webp",
+        "bytes": 40126,
+        "status": 200,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "/images/residencias-desktop.webp",
+        "bytes": 110488,
+        "status": 200,
+        "contentType": "image/webp"
+      }
+    ]
+  },
+  {
+    "route": "/en/",
+    "width": 390,
+    "images": [
+      {
+        "src": "/images/residencias-mobile.webp",
+        "width": 390,
+        "height": 844,
+        "naturalWidth": 390,
+        "naturalHeight": 844,
+        "loading": "lazy",
+        "alt": "Screenshot of the Residencias Grupo Casa home page on mobile: “Nuestras residencias” section, exterior photograph of Casa San Juan and compact menu.",
+        "caption": "Mobile view of the home page’s “Nuestras residencias” section: Casa San Juan and compact navigation.",
+        "renderedWidth": 336
+      },
+      {
+        "src": "/images/residencias-desktop.webp",
+        "width": 1440,
+        "height": 900,
+        "naturalWidth": 1440,
+        "naturalHeight": 900,
+        "loading": "lazy",
+        "alt": "Screenshot of the Casa San Juan page on the Residencias Grupo Casa website on desktop: title, introductory text and photograph of its outdoor space.",
+        "caption": "Desktop view of the Casa San Juan page: residence introduction and exterior photograph.",
+        "renderedWidth": 336
+      }
+    ],
+    "overflow": 0,
+    "cls": 0,
+    "shifts": [],
+    "resources": [
+      {
+        "src": "/images/residencias-mobile.webp",
+        "bytes": 40126,
+        "status": 200,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "/images/residencias-desktop.webp",
+        "bytes": 110488,
+        "status": 200,
+        "contentType": "image/webp"
+      }
+    ]
+  },
+  {
+    "route": "/en/",
+    "width": 1440,
+    "images": [
+      {
+        "src": "/images/residencias-mobile.webp",
+        "width": 390,
+        "height": 844,
+        "naturalWidth": 390,
+        "naturalHeight": 844,
+        "loading": "lazy",
+        "alt": "Screenshot of the Residencias Grupo Casa home page on mobile: “Nuestras residencias” section, exterior photograph of Casa San Juan and compact menu.",
+        "caption": "Mobile view of the home page’s “Nuestras residencias” section: Casa San Juan and compact navigation.",
+        "renderedWidth": 304
+      },
+      {
+        "src": "/images/residencias-desktop.webp",
+        "width": 1440,
+        "height": 900,
+        "naturalWidth": 1440,
+        "naturalHeight": 900,
+        "loading": "lazy",
+        "alt": "Screenshot of the Casa San Juan page on the Residencias Grupo Casa website on desktop: title, introductory text and photograph of its outdoor space.",
+        "caption": "Desktop view of the Casa San Juan page: residence introduction and exterior photograph.",
+        "renderedWidth": 912
+      }
+    ],
+    "overflow": 0,
+    "cls": 0,
+    "shifts": [],
+    "resources": [
+      {
+        "src": "/images/residencias-mobile.webp",
+        "bytes": 40126,
+        "status": 200,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "/images/residencias-desktop.webp",
+        "bytes": 110488,
+        "status": 200,
+        "contentType": "image/webp"
+      }
+    ]
+  },
+  {
+    "route": "/pt/",
+    "width": 390,
+    "images": [
+      {
+        "src": "/images/residencias-mobile.webp",
+        "width": 390,
+        "height": 844,
+        "naturalWidth": 390,
+        "naturalHeight": 844,
+        "loading": "lazy",
+        "alt": "Captura da página inicial de Residencias Grupo Casa no celular: seção “Nuestras residencias”, foto da área externa da Casa San Juan e menu compacto.",
+        "caption": "Página inicial no celular, seção “Nuestras residencias”: Casa San Juan e navegação compacta.",
+        "renderedWidth": 336
+      },
+      {
+        "src": "/images/residencias-desktop.webp",
+        "width": 1440,
+        "height": 900,
+        "naturalWidth": 1440,
+        "naturalHeight": 900,
+        "loading": "lazy",
+        "alt": "Captura da página da Casa San Juan no site de Residencias Grupo Casa no computador: título, texto de apresentação e foto da área externa.",
+        "caption": "Página da Casa San Juan no computador: apresentação da residência e foto da área externa.",
+        "renderedWidth": 336
+      }
+    ],
+    "overflow": 0,
+    "cls": 0,
+    "shifts": [],
+    "resources": [
+      {
+        "src": "/images/residencias-mobile.webp",
+        "bytes": 40126,
+        "status": 200,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "/images/residencias-desktop.webp",
+        "bytes": 110488,
+        "status": 200,
+        "contentType": "image/webp"
+      }
+    ]
+  },
+  {
+    "route": "/pt/",
+    "width": 1440,
+    "images": [
+      {
+        "src": "/images/residencias-mobile.webp",
+        "width": 390,
+        "height": 844,
+        "naturalWidth": 390,
+        "naturalHeight": 844,
+        "loading": "lazy",
+        "alt": "Captura da página inicial de Residencias Grupo Casa no celular: seção “Nuestras residencias”, foto da área externa da Casa San Juan e menu compacto.",
+        "caption": "Página inicial no celular, seção “Nuestras residencias”: Casa San Juan e navegação compacta.",
+        "renderedWidth": 304
+      },
+      {
+        "src": "/images/residencias-desktop.webp",
+        "width": 1440,
+        "height": 900,
+        "naturalWidth": 1440,
+        "naturalHeight": 900,
+        "loading": "lazy",
+        "alt": "Captura da página da Casa San Juan no site de Residencias Grupo Casa no computador: título, texto de apresentação e foto da área externa.",
+        "caption": "Página da Casa San Juan no computador: apresentação da residência e foto da área externa.",
+        "renderedWidth": 912
+      }
+    ],
+    "overflow": 0,
+    "cls": 0,
+    "shifts": [],
+    "resources": [
+      {
+        "src": "/images/residencias-mobile.webp",
+        "bytes": 40126,
+        "status": 200,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "/images/residencias-desktop.webp",
+        "bytes": 110488,
+        "status": 200,
+        "contentType": "image/webp"
+      }
+    ]
+  },
+  {
+    "route": "/fr/",
+    "width": 390,
+    "images": [
+      {
+        "src": "/images/residencias-mobile.webp",
+        "width": 390,
+        "height": 844,
+        "naturalWidth": 390,
+        "naturalHeight": 844,
+        "loading": "lazy",
+        "alt": "Capture de la page d’accueil de Residencias Grupo Casa sur mobile : rubrique « Nuestras residencias », photo extérieure de Casa San Juan et menu compact.",
+        "caption": "Page d’accueil sur mobile, rubrique « Nuestras residencias » : Casa San Juan et navigation compacte.",
+        "renderedWidth": 336
+      },
+      {
+        "src": "/images/residencias-desktop.webp",
+        "width": 1440,
+        "height": 900,
+        "naturalWidth": 1440,
+        "naturalHeight": 900,
+        "loading": "lazy",
+        "alt": "Capture de la page Casa San Juan du site Residencias Grupo Casa sur ordinateur : titre, texte de présentation et photo de l’espace extérieur.",
+        "caption": "Page Casa San Juan sur ordinateur : présentation de la résidence et photo de son espace extérieur.",
+        "renderedWidth": 336
+      }
+    ],
+    "overflow": 0,
+    "cls": 0,
+    "shifts": [],
+    "resources": [
+      {
+        "src": "/images/residencias-mobile.webp",
+        "bytes": 40126,
+        "status": 200,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "/images/residencias-desktop.webp",
+        "bytes": 110488,
+        "status": 200,
+        "contentType": "image/webp"
+      }
+    ]
+  },
+  {
+    "route": "/fr/",
+    "width": 1440,
+    "images": [
+      {
+        "src": "/images/residencias-mobile.webp",
+        "width": 390,
+        "height": 844,
+        "naturalWidth": 390,
+        "naturalHeight": 844,
+        "loading": "lazy",
+        "alt": "Capture de la page d’accueil de Residencias Grupo Casa sur mobile : rubrique « Nuestras residencias », photo extérieure de Casa San Juan et menu compact.",
+        "caption": "Page d’accueil sur mobile, rubrique « Nuestras residencias » : Casa San Juan et navigation compacte.",
+        "renderedWidth": 304
+      },
+      {
+        "src": "/images/residencias-desktop.webp",
+        "width": 1440,
+        "height": 900,
+        "naturalWidth": 1440,
+        "naturalHeight": 900,
+        "loading": "lazy",
+        "alt": "Capture de la page Casa San Juan du site Residencias Grupo Casa sur ordinateur : titre, texte de présentation et photo de l’espace extérieur.",
+        "caption": "Page Casa San Juan sur ordinateur : présentation de la résidence et photo de son espace extérieur.",
+        "renderedWidth": 912
+      }
+    ],
+    "overflow": 0,
+    "cls": 0,
+    "shifts": [],
+    "resources": [
+      {
+        "src": "/images/residencias-mobile.webp",
+        "bytes": 40126,
+        "status": 200,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "/images/residencias-desktop.webp",
+        "bytes": 110488,
+        "status": 200,
+        "contentType": "image/webp"
+      }
+    ]
+  },
+  {
+    "route": "/ja/",
+    "width": 390,
+    "images": [
+      {
+        "src": "/images/residencias-mobile.webp",
+        "width": 390,
+        "height": 844,
+        "naturalWidth": 390,
+        "naturalHeight": 844,
+        "loading": "lazy",
+        "alt": "Residencias Grupo Casa のホームページをモバイルで撮影した画面。「Nuestras residencias」セクション、Casa San Juan の外観写真、コンパクトなメニューが見えます。",
+        "caption": "ホームページのモバイル表示。「Nuestras residencias」セクションに Casa San Juan とコンパクトなメニューが見えます。",
+        "renderedWidth": 336
+      },
+      {
+        "src": "/images/residencias-desktop.webp",
+        "width": 1440,
+        "height": 900,
+        "naturalWidth": 1440,
+        "naturalHeight": 900,
+        "loading": "lazy",
+        "alt": "Residencias Grupo Casa の Casa San Juan ページのスクリーンショット。見出し、紹介文、屋外スペースの写真が写っています。",
+        "caption": "Casa San Juan のページのデスクトップ表示。施設の紹介と屋外スペースの写真。",
+        "renderedWidth": 336
+      }
+    ],
+    "overflow": 0,
+    "cls": 0,
+    "shifts": [],
+    "resources": [
+      {
+        "src": "/images/residencias-mobile.webp",
+        "bytes": 40126,
+        "status": 200,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "/images/residencias-desktop.webp",
+        "bytes": 110488,
+        "status": 200,
+        "contentType": "image/webp"
+      }
+    ]
+  },
+  {
+    "route": "/ja/",
+    "width": 1440,
+    "images": [
+      {
+        "src": "/images/residencias-mobile.webp",
+        "width": 390,
+        "height": 844,
+        "naturalWidth": 390,
+        "naturalHeight": 844,
+        "loading": "lazy",
+        "alt": "Residencias Grupo Casa のホームページをモバイルで撮影した画面。「Nuestras residencias」セクション、Casa San Juan の外観写真、コンパクトなメニューが見えます。",
+        "caption": "ホームページのモバイル表示。「Nuestras residencias」セクションに Casa San Juan とコンパクトなメニューが見えます。",
+        "renderedWidth": 304
+      },
+      {
+        "src": "/images/residencias-desktop.webp",
+        "width": 1440,
+        "height": 900,
+        "naturalWidth": 1440,
+        "naturalHeight": 900,
+        "loading": "lazy",
+        "alt": "Residencias Grupo Casa の Casa San Juan ページのスクリーンショット。見出し、紹介文、屋外スペースの写真が写っています。",
+        "caption": "Casa San Juan のページのデスクトップ表示。施設の紹介と屋外スペースの写真。",
+        "renderedWidth": 912
+      }
+    ],
+    "overflow": 0,
+    "cls": 0,
+    "shifts": [],
+    "resources": [
+      {
+        "src": "/images/residencias-mobile.webp",
+        "bytes": 40126,
+        "status": 200,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "/images/residencias-desktop.webp",
+        "bytes": 110488,
+        "status": 200,
+        "contentType": "image/webp"
+      }
+    ]
+  }
+]

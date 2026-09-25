@@ -34,12 +34,12 @@ Source: approved Spanish page copy in `../../prototypes/v2-h4/v2/ES-COPY-APPROVE
 - Context: A website to bring the group and its two residences, Casa San Juan and Casa Boedo, together. That was the initial requirement. Casa San Juan is operating; Casa Boedo is presented as opening soon.
 - Responsibility and solution: I was responsible for planning, visual design, architecture and development. The solution combines an institutional entry point with distinct spaces for each residence, based on their existing identities.
 - Capabilities: The project includes design, responsive development, forms and technical SEO, as well as preparation for publication. The screenshots show the interface; they do not represent performance metrics.
-- Desktop caption: Desktop view of the home page: Casa San Juan and Casa Boedo are presented.
-- Mobile caption: Mobile view of “Our residences”, showing Casa San Juan and adapted navigation.
-- Desktop image alternative: Real screenshot of the Residencias Grupo Casa home page on desktop: Casa San Juan and Casa Boedo, announced as opening soon.
-- Mobile image alternative: Real screenshot of the Residencias Grupo Casa home page on mobile: “Our residences”, Casa San Juan and compact navigation.
+- Desktop caption: Desktop view of the Casa San Juan page: residence introduction and exterior photograph.
+- Mobile caption: Mobile view of the home page’s “Nuestras residencias” section: Casa San Juan and compact navigation.
+- Desktop image alternative: Screenshot of the Casa San Juan page on the Residencias Grupo Casa website on desktop: title, introductory text and photograph of its outdoor space.
+- Mobile image alternative: Screenshot of the Residencias Grupo Casa home page on mobile: “Nuestras residencias” section, exterior photograph of Casa San Juan and compact menu.
 
-The current image pair and image-specific captions/alternatives are review material. Final selection is deferred to V2-H6 and may require corresponding factual text changes.
+This image pair and its image-specific captions/alternatives were approved and integrated in V2-H6.B. The quoted Spanish section title reproduces the text visible in the mobile screenshot.
 
 ## Ramiro and process
 

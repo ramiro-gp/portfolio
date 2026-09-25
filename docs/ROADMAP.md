@@ -8,7 +8,7 @@ V2-H1 consolida posicionamiento, oferta, proceso conceptual y límites comercial
 V2-H2 aprueba jerarquía conceptual, requisitos de contenido, selección y tratamiento de evidencia sin fijar layout, navegación, wireframes ni copy final.
 V2-H3 aprueba single-page, cinco secciones, Hero comercial, navegación, contacto, wireframes y comportamiento responsive/keyboard/touch. Copy y sistema visual siguen pendientes; V2-H4 no se inicia con este cierre.
 Los hitos documentales requieren auditoría de consistencia, no builds o QA visual.
-Restaurar LingoHive requiere decisión de alcance independiente; no es parte de V2-H2 ni bloqueo automático de release.
+V2-H6 incorpora LingoHive después de su preparación en otro repositorio: demo sanitizada y desplegada, evidencia real, contenido aprobado y atribución correcta. Esta decisión posterior no modifica el cierre de V2-H2. H6 no se cierra sin ambos casos integrados.
 
 ## V2-H0 — Product reset
 
@@ -92,13 +92,15 @@ Octava pasada H5 (2026-09-24), alcance aprobado: corregir gutters y progreso com
 
 ## V2-H6 — Implementation
 
-Objetivo y entregables: completar integración productiva del alcance aprobado tras la base H5: selección final de screenshots con captions/alt, WOFF2 japonés optimizado, assets/metadata finales, ajustes SEO y hosting cuando sea confirmado. No reabrir diseño o copy H4 salvo aprobación específica.
+Objetivo y entregables: completar integración productiva tras la base H5. Secuencia: H6.A línea base en el deployment real; H6.B capturas definitivas de Residencias con captions/alt; H6.C fuentes WOFF2 optimizadas; H6.D análisis medido de Lighthouse y performance; preparación externa de la demo de LingoHive; H6.E integración del segundo caso con screenshots reales, copy y traducciones aprobados y créditos visibles; H6.F assets/metadata y SEO de integración. No reabrir diseño o copy H4 salvo aprobación específica. Hosting definitivo sólo cuando sea confirmado.
 
 Entrada explícita de H5: analizar el Lighthouse real sobre Vercel aportado por Ramiro — CSS render-blocking ~7,4 KiB, screenshot PNG mobile de Residencias con ahorro potencial ~125 KiB y advertencia de forced reflow — y optimizar sólo donde corresponda en esta fase. Ese deployment de QA no decide el hosting definitivo.
 
-Cierre: Implementación completa con contenido real, validaciones técnicas y revisiones visuales/accesibles aplicables.
+Cierre: Residencias Grupo Casa y LingoHive integrados con contenido real, permisos y atribuciones verificados, assets/SEO de integración completos y validaciones técnicas, visuales y accesibles aplicables. La preparación de LingoHive ocurre en otro repositorio/chat, pero su integración es requisito de cierre. H7 conserva QA integral pre-release y H8 publicación y mediciones de producción.
 
-Estado: NOT STARTED
+Estado: IN PROGRESS — 2026-09-24. H6.A tiene línea base pública sobre la URL accesible aportada por Ramiro: tres Lighthouse mobile y tres desktop, con reporte/traza en `qa/h6-baseline.md`. Mobile Performance 99–100, mediana LCP 1,62 s, CLS 0; desktop Performance 100, mediana LCP 0,374 s, CLS 0. H6.B incorporó el par real aprobado en WebP y quedó completo (detalle abajo). H6.C integra WOFF2 latino (88,7 KB) y japonés (86,6 KB) para el corpus JA actual; se regeneró tras H6.B y debe volver a regenerarse tras aprobar el copy JA de LingoHive en H6.E y compararse sobre deployment. Build de cinco rutas y `astro check` 0/0/0; QA local ES/JA a 390/1440 px: sólo JA carga Noto, pesos 400/600 disponibles, CLS 0 y sin overflow. Comparación visual/red con el deployment H5: cortes y altura de H1 idénticos en ES/JA a 390/1440 px; transferencia del recurso JA 3,11 MB → 86,6 KB en el build local (sin afirmar aún ganancia Lighthouse desplegada). Texto al 200 %: diez combinaciones de cinco idiomas a 390/1440 px sin overflow ni imágenes rotas (`qa/h6-font-zoom-results.json`). H6.D identifica en Lighthouse real `syncHeaderHeight()` como causa principal del forced reflow puntual de carga (~29–35 ms en cuatro de seis pasadas); scroll público de 40 pasos acumula ~1,7–2,0 ms de layout. El CSS propio transfiere ~7,2 KB y tiene auditoría de CSS no usado aprobada; no se cambia CSS ni línea por un ahorro marginal. H6.E depende de la demo externa y H6.F sigue pendiente.
+
+**H6.B — Residencias screenshots/assets: COMPLETE.** Ramiro aprobó las capturas reales de Casa San Juan desktop (1440 × 900) y Home «Nuestras residencias» mobile (390 × 844). Sus WebP públicos pesan 110.488 y 40.126 B frente a 488.379 y 182.852 B de los PNG anteriores: 520.617 B menos en total (77,56 %). Se conservaron dimensiones HTML y carga diferida; captions y alt ES/EN/PT/FR/JA describen exactamente las vistas aprobadas. `pnpm build`: cinco rutas; `pnpm check`: 38 archivos, 0 errores/warnings/hints. QA focalizado en `qa/h6b-results.json`: cinco idiomas × mobile/desktop, recursos WebP y bytes de respuesta comprobados, CLS 0 al cargar las imágenes, sin overflow; touch simulado y reduced motion JA incluidos. Capturas de revisión en `qa/h6b/`; criterio y fuentes en `qa/h6-residencias-candidates.md`. H6 global sigue IN PROGRESS.
 
 ## V2-H7 — QA & pre-release
 
@@ -153,7 +155,7 @@ Resultado: **PASS — 2026-09-20**. Bloqueos de V2-H2: **None**.
 - PRODUCT registra el recorrido conceptual oferta → encaje → evidencia → Ramiro y forma de trabajo → contacto, sin convertirlo en secciones, layout o navegación.
 - CONTENT registra necesidades del cliente, requisitos del Hero, modelo unificado de servicios, proceso integrado, perfil, contacto, idioma fuente español, exclusiones y paridad ES/EN/PT; el copy final continúa pendiente para V2-H4.
 - Residencias Grupo Casa queda seleccionado como único caso público inicial, resumido dentro del recorrido principal y con estado `en desarrollo`; no se permite link hasta confirmar y comprobar el deployment.
-- LingoHive queda diferido sin placeholder público, con atribución, límites y precondiciones explícitas; su restauración no bloquea el lanzamiento.
+- Decisión histórica H2: LingoHive quedó diferido sin placeholder público, con atribución, límites y precondiciones explícitas. La decisión posterior H6 exige su integración antes del cierre del hito y del lanzamiento.
 - Inventario auditado: el repositorio de ramita.dev no contiene assets visuales seleccionados; screenshots, derivados y assets de marca quedan identificados como pendientes, no como evidencia disponible.
 - Búsqueda de estados y decisiones obsoletas completada; las referencias restantes a selecciones pendientes pertenecen únicamente a auditorías o registros V1 históricos.
 - Sólo se modificaron PRODUCT, CONTENT, PROJECTS, DECISIONS y ROADMAP. No hubo código, Astro, dependencias, UI, wireframes, builds ni QA visual.
