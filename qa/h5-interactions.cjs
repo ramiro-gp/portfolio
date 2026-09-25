@@ -101,7 +101,7 @@ const check = (name, value) => { assert.ok(value, name); report.interactions.pus
   await page.locator('.menu-trigger').click();
   await page.locator('a[href="#proyectos"]').click();
   await page.waitForTimeout(450);
-  check('menu navigation closes and focuses destination', await page.evaluate(() => location.hash === '#proyectos' && !document.querySelector('[data-menu]')?.open && document.activeElement?.id === 'proyectos'));
+  check('menu navigation closes and focuses destination without a hash', await page.evaluate(() => location.hash === '' && !document.querySelector('[data-menu]')?.open && document.activeElement?.id === 'proyectos'));
   await page.locator('.menu-trigger').click();
   await page.locator('.menu-panel').click({ position: { x: 900, y: 520 } });
   await page.waitForTimeout(450);
@@ -123,6 +123,41 @@ const check = (name, value) => { assert.ok(value, name); report.interactions.pus
   const yUp = await stickyPage.evaluate(() => scrollY);
   check('native scroll reverses through sticky services', yDown > yUp && yUp > 0);
   await stickyPage.close();
+
+  for (const [width, height, expectedRoute] of [[1366, 768, 'desktop'], [390, 844, 'mobile']]) {
+    const linePage = await browser.newPage({ viewport: { width, height } });
+    await linePage.goto(base, { waitUntil: 'networkidle' });
+    await linePage.waitForFunction(() => document.querySelector('[data-continuous-line]')?.dataset.ready !== undefined);
+    const read = async (fraction) => {
+      await linePage.evaluate((value) => window.scrollTo({ top: (document.documentElement.scrollHeight - innerHeight) * value, behavior: 'instant' }), fraction);
+      await linePage.waitForTimeout(100);
+      return linePage.evaluate(() => {
+        const svg = document.querySelector('[data-continuous-line]');
+        const line = svg.querySelector('[data-line-path]');
+        return { route: svg.dataset.route, length: line.getTotalLength(), drawn: line.getTotalLength() - Number(line.style.strokeDashoffset), overflow: document.documentElement.scrollWidth > innerWidth };
+      });
+    };
+    const before = await read(.2);
+    const after = await read(.7);
+    const reverse = await read(.2);
+    check(`${expectedRoute} continuous line advances and reverses without overflow`, before.route === expectedRoute && before.length > 0 && after.drawn > before.drawn && Math.abs(reverse.drawn - before.drawn) < 2 && !before.overflow && !after.overflow);
+    await linePage.close();
+  }
+
+  const controlsPage = await browser.newPage({ viewport: { width: 1366, height: 768 }, reducedMotion: 'reduce' });
+  await controlsPage.goto(base, { waitUntil: 'networkidle' });
+  await controlsPage.locator('[data-hero-scroll]').click();
+  check('SCROLL focuses Services without a hash', await controlsPage.evaluate(() => document.activeElement?.id === 'servicios' && location.hash === ''));
+  await controlsPage.locator('[data-back-to-top]').click();
+  check('IR ARRIBA returns to the Hero without a hash', await controlsPage.evaluate(() => scrollY === 0 && document.activeElement?.id === 'inicio' && location.hash === ''));
+  check('Contact has the primary email and secondary channel', await controlsPage.evaluate(() => !!document.querySelector('a.email[href^="mailto:"]') && !!document.querySelector('a.phone')));
+  await controlsPage.close();
+
+  const cursorPage = await browser.newPage({ viewport: { width: 1366, height: 768 } });
+  await cursorPage.goto(base, { waitUntil: 'networkidle' });
+  await cursorPage.mouse.move(600, 400);
+  check('fine-pointer cursor initializes only after pointer movement', await cursorPage.evaluate(() => document.documentElement.classList.contains('cursor-ready')));
+  await cursorPage.close();
 
   const touch = await browser.newPage({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
   await touch.goto(base, { waitUntil: 'networkidle' });

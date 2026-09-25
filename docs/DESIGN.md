@@ -2,8 +2,12 @@
 
 ## Responsabilidad y estado activo
 
-Fuente de verdad para experiencia visual e interactiva aprobada. V2-H3 aprueba el UX comercial documentado abajo; V2-H4 aprueba el copy de cinco idiomas y el sistema visual estático. La selección exacta de capturas y la implementación funcional siguen en hitos posteriores.
+Fuente de verdad para experiencia visual e interactiva aprobada. V2-H3 aprueba el UX comercial documentado abajo; V2-H4 aprueba el copy de cinco idiomas y el sistema visual estático; V2-H5 cierra la implementación funcional. La selección exacta de capturas permanece en H6.
 El diseño debe ayudar a entender servicios, generar confianza, demostrar capacidad y contactar. La identidad sigue siendo personal.
+
+### Cierre visual/funcional V2-H5 — 2026-09-24
+
+Ramiro aprobó explícitamente QA visual real en desktop, mobile real y deployment Vercel. Quedan aceptados el menú fullscreen numerado, Hero rotativo accesible con fallback, Servicios sticky reversibles, escena Ramiro Garcia, línea continua desktop/mobile, cursor condicionado, Contacto con email dominante/IR ARRIBA, theme/accent y reduced motion, sin rediseño adicional. Con JS, navegación interna por scroll nativo sin hashes innecesarios; sin JS, anchors estándar. Guardian: Keep oferta legible, evidencia real y email principal; Remove nada; Change sólo limpieza de fragmentos de navegación JS; Risk QA exhaustivo de lector de pantalla/Safari y performance de assets para fases pre-release; Verdict **APPROVE** para cierre H5 basado en la aprobación humana expresa y los checks actuales. H5 **CLOSED**; H6 **NOT STARTED**. Las menciones posteriores «IN PROGRESS» describen el estado histórico de cada pasada y no el estado vigente.
 
 ### Segunda pasada final H5 — Menú y Hero (2026-09-24)
 

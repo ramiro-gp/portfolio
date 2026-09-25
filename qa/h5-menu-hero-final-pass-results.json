@@ -20,7 +20,7 @@
       "width": 390,
       "height": 844,
       "method": "trigger",
-      "firstVisibleMs": 32,
+      "firstVisibleMs": 31,
       "modalRetained": true,
       "restored": true
     },
@@ -28,7 +28,7 @@
       "width": 390,
       "height": 844,
       "method": "escape",
-      "firstVisibleMs": 20,
+      "firstVisibleMs": 30,
       "modalRetained": true,
       "restored": true
     },
@@ -42,37 +42,42 @@
     {
       "id": "inicio",
       "method": "mouse",
-      "hash": "#inicio",
+      "hash": "",
       "movedBeforeClose": false,
       "focusAfterClose": "inicio"
     },
     {
       "id": "servicios",
       "method": "mouse",
-      "hash": "#servicios",
+      "hash": "",
       "movedBeforeClose": true,
       "focusAfterClose": "servicios"
     },
     {
       "id": "proyectos",
       "method": "mouse",
-      "hash": "#proyectos",
+      "hash": "",
       "movedBeforeClose": true,
       "focusAfterClose": "proyectos"
     },
     {
       "id": "ramiro",
       "method": "mouse",
-      "hash": "#ramiro",
+      "hash": "",
       "movedBeforeClose": true,
       "focusAfterClose": "ramiro"
     },
     {
       "id": "contacto",
       "method": "mouse",
-      "hash": "#contacto",
+      "hash": "",
       "movedBeforeClose": true,
       "focusAfterClose": "contacto"
+    },
+    {
+      "method": "cta-and-brand",
+      "hash": "",
+      "focusAfterClose": "inicio"
     },
     {
       "id": "servicios",

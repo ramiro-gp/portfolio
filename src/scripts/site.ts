@@ -36,6 +36,9 @@ function focusVisibleSection(target: HTMLElement, fromKeyboard: boolean): void {
 function scrollSectionIntoView(target: HTMLElement): void {
   target.scrollIntoView({ block: 'start', behavior: reduceMotion.matches ? 'auto' : 'smooth' });
 }
+function clearFragment(): void {
+  if (window.location.hash) window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`);
+}
 function scrollToPosition(top: number, focusTarget: HTMLElement | null, fromKeyboard: boolean): void {
   const destination = Math.max(0, Math.min(top, document.documentElement.scrollHeight - innerHeight));
   const finish = () => {
@@ -128,8 +131,7 @@ function closeMenu(restoreFocus = false): Promise<void> {
 }
 function navigateToSection(target: HTMLElement, fromKeyboard: boolean): void {
   const closing = closeMenu();
-  const nextHash = `#${target.id}`;
-  if (window.location.hash !== nextHash) window.history.pushState(null, '', `${window.location.pathname}${window.location.search}${nextHash}`);
+  clearFragment();
   scrollSectionIntoView(target);
   void closing.then(() => {
     // Re-align after the sticky header and scrollbar return to their final layout.
@@ -195,11 +197,12 @@ if (header && menu && trigger && panel && main && footer) {
     if (target) navigateToSection(target, fromKeyboard);
   }));
   header.querySelector<HTMLAnchorElement>('.brand')?.addEventListener('click', (event) => {
-    if (!menuOpen) return;
     event.preventDefault();
     const fromKeyboard = event.detail === 0;
     const target = document.getElementById('inicio');
-    if (target) navigateToSection(target, fromKeyboard);
+    if (!target) return;
+    if (menuOpen) navigateToSection(target, fromKeyboard);
+    else { clearFragment(); scrollToPosition(0, target, fromKeyboard); }
   });
   panel.querySelectorAll<HTMLAnchorElement>('[data-language-link]').forEach((link) => link.addEventListener('click', (event) => {
     event.preventDefault();
@@ -226,6 +229,15 @@ document.querySelector<HTMLAnchorElement>('[data-hero-scroll]')?.addEventListene
   event.preventDefault();
   const target = document.getElementById('servicios');
   if (!target) return;
+  clearFragment();
+  const margin = Number.parseFloat(getComputedStyle(target).scrollMarginTop) || 0;
+  scrollToPosition(target.getBoundingClientRect().top + scrollY - margin, target, event.detail === 0);
+});
+document.querySelector<HTMLAnchorElement>('.hero .cta')?.addEventListener('click', (event) => {
+  event.preventDefault();
+  const target = document.getElementById('contacto');
+  if (!target) return;
+  clearFragment();
   const margin = Number.parseFloat(getComputedStyle(target).scrollMarginTop) || 0;
   scrollToPosition(target.getBoundingClientRect().top + scrollY - margin, target, event.detail === 0);
 });

@@ -5,6 +5,12 @@ V2-H0 conserva requisitos útiles y separa decisiones dependientes de UI pendien
 
 Fecha del baseline previo: 2026-09-11.
 
+## Estado final V2-H5 — 2026-09-24
+
+H5 está **CLOSED**; la salida sigue siendo Astro estático portable (`dist/`), sin adapter/backend ni proveedor de hosting elegido. Menú fullscreen con navegación numerada y modal progresivo, Hero rotativo sólo visual, Servicios sticky con fallback, línea desktop/mobile reversible calculada desde anclas, cursor sólo en fine pointer, Contacto con copia y retorno al inicio, reduced motion y memoria theme/accent están implementados. Con JavaScript, la navegación interna del menú, marca, CTA del Hero y SCROLL usa scroll nativo suave (auto con reduced motion), enfoca el destino y deja la URL sin fragmento; si ya existía uno, lo elimina con `history.replaceState` sin salto. Sin JavaScript, los anchors conservan navegación por fragmentos. El cambio de idioma conserva un fragmento equivalente cuando la URL de entrada lo contiene. Esta regla final sustituye las referencias históricas a `history.pushState` y fragmentos en la navegación JS de las pasadas anteriores.
+
+Build y typecheck finales limpios; QA vigente de cinco rutas, interacciones, responsive, Chrome/Edge y path desktop registrado en `qa/`. Ramiro aprobó QA visual/funcional humano en desktop, mobile real y deployment Vercel; esto no constituye elección de proveedor. Lector de pantalla exhaustivo, Safari/iOS y matriz completa de versiones no se declaran probados y permanecen como QA adicional pre-release. Para H6: analizar el Lighthouse real aportado (CSS render-blocking ~7,4 KiB, PNG mobile de Residencias con ~125 KiB de ahorro potencial, forced reflow), optimizar assets/captions/alt y WOFF2 JA, y resolver integración/hosting final sin asumir Vercel.
+
 ## V2-H5 — segunda pasada final: Menú y Hero (2026-09-24)
 
 El cierre usa un radio calculado hasta la esquina de viewport más distante respecto del trigger (limitado al radio actual si la apertura aún estaba en curso) y una animación inversa lineal de 420 ms. Esto elimina sólo el radio invisible; la apertura, el overlay, el focus trap, inert y el scroll lock permanecen sin cambios y activos hasta finalizar. La navegación de sección actualiza el fragmento mediante history.pushState para evitar el salto nativo y llama a scrollIntoView en el mismo evento, con smooth salvo prefers-reduced-motion, que usa auto; al terminar el cierre repite la alineación con el layout restaurado y entrega el foco. Los glifos del Hero amplían el clip horizontal con padding/márgenes iguales y opuestos en current/characters, preservando sus avances y sin alterar font, timing o reserva visual; el límite de ancho compacto compensa esa máscara. QA específico: qa/h5-menu-hero-final-pass-checks.cjs. H5 continúa IN PROGRESS; H6 no inicia.
@@ -37,7 +43,7 @@ No incorporar React/Vue/Svelte por defecto.
 Entregar el máximo de HTML/CSS estático posible con el stack que se ratifique.
 
 JavaScript cliente reservado para:
-- theme/accent incluidos en H4, con implementación pendiente de H5;
+- theme/accent incluidos en H4 e implementados en H5;
 - idioma/navegación cuando corresponda;
 - interacciones/motion necesarias;
 - accesibilidad de controles;

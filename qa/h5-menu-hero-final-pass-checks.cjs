@@ -125,7 +125,7 @@ async function expectedScrollPosition(page, id) {
       open: document.querySelector('.site-header').hasAttribute('data-open'),
       inert: document.querySelector('main').inert
     }));
-    assert.equal(immediate.hash, '#' + id);
+    assert.equal(immediate.hash, '', 'JS navigation keeps the URL free of section fragments');
     assert.equal(immediate.open, true);
     assert.equal(immediate.inert, true);
     await page.waitForTimeout(100);
@@ -155,6 +155,19 @@ async function expectedScrollPosition(page, id) {
   }
 
   {
+    const page = await browser.newPage({ viewport: { width: 1366, height: 768 }, reducedMotion: 'reduce' });
+    await page.goto(base + '/#servicios', { waitUntil: 'networkidle' });
+    await page.locator('.hero .cta').click();
+    await page.waitForFunction(() => document.activeElement?.id === 'contacto');
+    assert.equal(await page.evaluate(() => location.hash), '', 'CTA removes an existing fragment with JS');
+    await page.locator('.brand').click();
+    await page.waitForFunction(() => document.activeElement?.id === 'inicio');
+    assert.equal(await page.evaluate(() => location.hash), '', 'brand navigation does not add a fragment with JS');
+    report.navigation.push({ method: 'cta-and-brand', hash: '', focusAfterClose: 'inicio' });
+    await page.close();
+  }
+
+  {
     const page = await browser.newPage({ viewport: { width: 1366, height: 768 } });
     await page.goto(base, { waitUntil: 'networkidle' });
     await page.locator('.menu-trigger').click();
@@ -163,6 +176,7 @@ async function expectedScrollPosition(page, id) {
     await page.keyboard.press('Enter');
     await page.waitForFunction(() => !document.querySelector('.site-header').hasAttribute('data-open'), null, { timeout: 1200 });
     assert.equal(await page.evaluate(() => document.activeElement.id), 'servicios');
+    assert.equal(await page.evaluate(() => location.hash), '');
     assert.equal(await page.evaluate(() => document.documentElement.classList.contains('pointer-section-focus')), false);
     report.navigation.push({ id: 'servicios', method: 'keyboard', focusAfterClose: 'servicios', keyboardFocusVisible: true });
     await page.close();
@@ -176,6 +190,7 @@ async function expectedScrollPosition(page, id) {
     await page.locator('[data-section-link][href="#proyectos"]').tap();
     await page.waitForFunction(() => !document.querySelector('.site-header').hasAttribute('data-open'), null, { timeout: 1200 });
     assert.equal(await page.evaluate(() => document.activeElement.id), 'proyectos');
+    assert.equal(await page.evaluate(() => location.hash), '');
     await page.waitForFunction(() => {
       const target = document.getElementById('proyectos');
       const margin = Number.parseFloat(getComputedStyle(target).scrollMarginTop) || 0;
@@ -194,7 +209,7 @@ async function expectedScrollPosition(page, id) {
     await page.locator('[data-section-link][href="#contacto"]').click();
     await page.waitForFunction(() => !document.querySelector('.site-header').hasAttribute('data-open'), null, { timeout: 500 });
     const state = await page.evaluate(() => ({ hash: location.hash, y: scrollY, focus: document.activeElement.id, inert: document.querySelector('main').inert }));
-    assert.equal(state.hash, '#contacto');
+    assert.equal(state.hash, '');
     assert.equal(state.focus, 'contacto');
     assert.equal(state.inert, false);
     const destination = await expectedScrollPosition(page, 'contacto');
