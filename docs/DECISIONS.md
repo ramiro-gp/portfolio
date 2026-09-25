@@ -1,5 +1,11 @@
 # DECISIONS.md
 
+## 2026-09-25 — H6.E: integrar LingoHive como segundo caso
+
+Se integra LingoHive después de Residencias, en el mismo sistema editorial y sin rediseñar Proyectos. La demo se presenta como histórica de un proyecto freelance real cuyo sitio estuvo publicado y en uso; se informa que el negocio ya no está activo y que precios/testimonios son históricos. El CTA localizado «Ver demo» usa `https://lingo-hive.vercel.app/`. Los créditos visibles distinguen diseño e identidad visual de Juan Galache de Toro y desarrollo web de Ramiro Garcia. La síntesis tecnológica se limita a Astro 5 y Tailwind CSS 4. Se integran únicamente las capturas reales aprobadas, 1440 × 900 y 390 × 844, como WebP calidad indicada 0,84, dimensiones preservadas, lazy loading, sin CLS: 127.838 B PNG → 79.838 B WebP, ahorro 48.000 B (37,55 %).
+
+La línea continua conserva la ruta y el comportamiento H5; sólo se corrige la referencia de salida para medir el bloque de créditos del último caso, recalculada con el layout en compact y desktop. No se agregan dependencias ni motion específico. Se regenera el subset Noto JP tras el copy/captions JA de H6.E; pasa de 86.576 B/372 codepoints a 90.260 B/388 codepoints y sigue cargándose sólo en JA. Build de cinco rutas y `pnpm check` pasan sin diagnósticos; 13 escenarios H6.E, diez regresiones H6.B, teclas/touch/reduced motion, línea, overflow y consola aprobados en `qa/h6e-results.json` y `qa/h6b-results.json`. **H6.E COMPLETE; H6 global IN PROGRESS hasta H6.F.**
+
 ## 2026-09-25 — H6.B: capturas finales de Residencias
 
 Ramiro aprueba el par real Casa San Juan desktop / Home «Nuestras residencias» mobile y sus derivados WebP calidad 84. H6.B sustituye los PNG públicos, conserva dimensiones y lazy loading y ajusta captions/alt ES/EN/PT/FR/JA a las vistas efectivas; el rótulo español dentro de la captura mobile se cita literalmente en las traducciones. No se agregan `picture`, `srcset` ni AVIF sin ventaja demostrada. La reducción del par es de 671.231 a 150.614 B (77,56 %), con QA local de diez combinaciones idioma/ancho y CLS 0 al cargar las imágenes. H6.B queda COMPLETE; H6 global continúa IN PROGRESS hasta integrar LingoHive y completar el resto de fases.

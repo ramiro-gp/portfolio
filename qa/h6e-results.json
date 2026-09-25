@@ -1,0 +1,3074 @@
+{
+  "scenarios": 13,
+  "optimization": {
+    "format": "WebP",
+    "qualityHint": 0.84,
+    "resized": false,
+    "originalBytes": 127838,
+    "webpBytes": 79838,
+    "savedBytes": 48000,
+    "reductionPercent": 37.55,
+    "sourcePng": [
+      {
+        "file": "lingohive-desktop.png",
+        "width": 1440,
+        "height": 900,
+        "bytes": 84282
+      },
+      {
+        "file": "lingohive-mobile.png",
+        "width": 390,
+        "height": 844,
+        "bytes": 43556
+      }
+    ],
+    "outputWebp": [
+      {
+        "file": "lingohive-desktop.webp",
+        "width": 1440,
+        "height": 900,
+        "bytes": 54662
+      },
+      {
+        "file": "lingohive-mobile.webp",
+        "width": 390,
+        "height": 844,
+        "bytes": 25176
+      }
+    ]
+  },
+  "visualCaptures": [
+    "es-390-projects.png",
+    "es-390-lingohive.png",
+    "es-390-credits.png",
+    "es-1440-projects.png",
+    "es-1440-lingohive.png",
+    "es-1440-credits.png",
+    "ja-390-projects.png",
+    "ja-390-lingohive.png",
+    "ja-390-credits.png",
+    "es-320-projects.png",
+    "es-320-lingohive.png",
+    "es-320-credits.png",
+    "es-768-projects.png",
+    "es-768-lingohive.png",
+    "es-768-credits.png"
+  ],
+  "checks": [
+    {
+      "route": "/",
+      "width": 390,
+      "projectOrder": [
+        "Residencias Grupo Casa",
+        "LingoHive"
+      ],
+      "lang": "es",
+      "projects": [
+        {
+          "id": "residencias",
+          "heading": "Residencias Grupo Casa",
+          "status": "Sitio institucional · En desarrollo · Ver sitio",
+          "figures": [
+            {
+              "src": "/images/residencias-mobile.webp",
+              "width": 390,
+              "height": 844,
+              "naturalWidth": 390,
+              "naturalHeight": 844,
+              "loading": "lazy",
+              "alt": "Captura de la Home de Residencias Grupo Casa en mobile: sección «Nuestras residencias», foto exterior de Casa San Juan y menú compacto.",
+              "caption": "Home en mobile, sección «Nuestras residencias»: Casa San Juan y navegación compacta.",
+              "renderedWidth": 336
+            },
+            {
+              "src": "/images/residencias-desktop.webp",
+              "width": 1440,
+              "height": 900,
+              "naturalWidth": 1440,
+              "naturalHeight": 900,
+              "loading": "lazy",
+              "alt": "Captura de la página de Casa San Juan de Residencias Grupo Casa en desktop: título, texto introductorio y fotografía del espacio exterior.",
+              "caption": "Página de Casa San Juan en desktop: presentación de la sede y foto de su espacio exterior.",
+              "renderedWidth": 336
+            }
+          ]
+        },
+        {
+          "id": "lingohive",
+          "heading": "LingoHive",
+          "status": "Demo histórica de un proyecto freelance anterior · Ver demo",
+          "figures": [
+            {
+              "src": "/images/lingohive-mobile.webp",
+              "width": 390,
+              "height": 844,
+              "naturalWidth": 390,
+              "naturalHeight": 844,
+              "loading": "lazy",
+              "alt": "Captura de la Home de LingoHive en mobile: navegación compacta, presentación principal y aviso de que el proyecto ya no está en actividad.",
+              "caption": "Vista mobile de la Home de LingoHive: presentación principal, aviso de estado y navegación compacta.",
+              "renderedWidth": 336
+            },
+            {
+              "src": "/images/lingohive-desktop.webp",
+              "width": 1440,
+              "height": 900,
+              "naturalWidth": 1440,
+              "naturalHeight": 900,
+              "loading": "lazy",
+              "alt": "Captura de la Home de LingoHive en desktop: navegación, título, texto de presentación y aviso de que el proyecto ya no está en actividad.",
+              "caption": "Vista desktop de la Home de LingoHive: navegación, presentación principal y aviso de que el proyecto ya no está en actividad.",
+              "renderedWidth": 336
+            }
+          ]
+        }
+      ],
+      "description": "LingoHive fue un proyecto freelance real de desarrollo web para una academia de inglés. El sitio original estuvo publicado y en uso.\n\nEsta demo conserva el diseño y contenido representativo del sitio original. La academia ya no está en actividad; los precios y testimonios son históricos.",
+      "technology": "Tecnologías: Astro 5 · Tailwind CSS 4",
+      "credits": [
+        {
+          "label": "Diseño e identidad visual",
+          "name": "Juan Galache de Toro"
+        },
+        {
+          "label": "Desarrollo web",
+          "name": "Ramiro Garcia"
+        }
+      ],
+      "overflow": 0,
+      "cls": 0,
+      "line": {
+        "commands": [
+          "M",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "V",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "V",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "V",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V"
+        ],
+        "milestones": [
+          {
+            "name": "hero",
+            "scroll": 58.140625,
+            "distance": 0
+          },
+          {
+            "name": "services-transition",
+            "scroll": 432.47323323082713,
+            "distance": 384.2918701171875
+          },
+          {
+            "name": "services-left",
+            "scroll": 710.5235398426224,
+            "distance": 740.3499145507812
+          },
+          {
+            "name": "inside-stack",
+            "scroll": 1176.3034506728743,
+            "distance": 1278.899658203125
+          },
+          {
+            "name": "services-text",
+            "scroll": 2151.3992403550087,
+            "distance": 2392.579345703125
+          },
+          {
+            "name": "services-exit",
+            "scroll": 2192.609035631159,
+            "distance": 2435.579345703125
+          },
+          {
+            "name": "projects-entry",
+            "scroll": 2492.9220154420523,
+            "distance": 2823.501708984375
+          },
+          {
+            "name": "projects-content",
+            "scroll": 4281.167636634625,
+            "distance": 4859.173828125
+          },
+          {
+            "name": "projects-exit",
+            "scroll": 6008.281082137234,
+            "distance": 6825.845703125
+          },
+          {
+            "name": "projects-transition",
+            "scroll": 6049.490877413384,
+            "distance": 6868.845703125
+          },
+          {
+            "name": "about-entry",
+            "scroll": 6349.804571700007,
+            "distance": 7256.76904296875
+          },
+          {
+            "name": "about-content",
+            "scroll": 6845.831551129689,
+            "distance": 7826.71435546875
+          },
+          {
+            "name": "about-exit",
+            "scroll": 7342.743496110849,
+            "distance": 8405.66015625
+          },
+          {
+            "name": "contact-transition",
+            "scroll": 7450.681216035386,
+            "distance": 8516.69140625
+          },
+          {
+            "name": "contact-entry",
+            "scroll": 7747.4115220001995,
+            "distance": 8885.365234375
+          },
+          {
+            "name": "contact",
+            "scroll": 8244,
+            "distance": 9510.333984375
+          }
+        ],
+        "projectExit": {
+          "name": "projects-exit",
+          "scroll": 6008.281082137234,
+          "distance": 6825.845703125
+        },
+        "projectExitPointY": 6927.765625,
+        "expectedProjectTailY": 6927.765625,
+        "tailBelowProjects": 845.765625,
+        "aboutHeadingTop": 987.765625,
+        "scrollY": 6082,
+        "endGroupOpacity": "0"
+      },
+      "jsResources": [
+        {
+          "url": "/_astro/BaseLayout.astro_astro_type_script_index_0_lang.C3d_n1Ls.js",
+          "bytes": 6372
+        }
+      ],
+      "resources": [
+        {
+          "src": "/images/residencias-mobile.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 40126
+        },
+        {
+          "src": "/images/lingohive-mobile.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 25176
+        },
+        {
+          "src": "/images/residencias-desktop.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 110488
+        },
+        {
+          "src": "/images/lingohive-desktop.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 54662
+        }
+      ],
+      "browserErrors": []
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "projectOrder": [
+        "Residencias Grupo Casa",
+        "LingoHive"
+      ],
+      "lang": "es",
+      "projects": [
+        {
+          "id": "residencias",
+          "heading": "Residencias Grupo Casa",
+          "status": "Sitio institucional · En desarrollo · Ver sitio",
+          "figures": [
+            {
+              "src": "/images/residencias-mobile.webp",
+              "width": 390,
+              "height": 844,
+              "naturalWidth": 390,
+              "naturalHeight": 844,
+              "loading": "lazy",
+              "alt": "Captura de la Home de Residencias Grupo Casa en mobile: sección «Nuestras residencias», foto exterior de Casa San Juan y menú compacto.",
+              "caption": "Home en mobile, sección «Nuestras residencias»: Casa San Juan y navegación compacta.",
+              "renderedWidth": 304
+            },
+            {
+              "src": "/images/residencias-desktop.webp",
+              "width": 1440,
+              "height": 900,
+              "naturalWidth": 1440,
+              "naturalHeight": 900,
+              "loading": "lazy",
+              "alt": "Captura de la página de Casa San Juan de Residencias Grupo Casa en desktop: título, texto introductorio y fotografía del espacio exterior.",
+              "caption": "Página de Casa San Juan en desktop: presentación de la sede y foto de su espacio exterior.",
+              "renderedWidth": 912
+            }
+          ]
+        },
+        {
+          "id": "lingohive",
+          "heading": "LingoHive",
+          "status": "Demo histórica de un proyecto freelance anterior · Ver demo",
+          "figures": [
+            {
+              "src": "/images/lingohive-mobile.webp",
+              "width": 390,
+              "height": 844,
+              "naturalWidth": 390,
+              "naturalHeight": 844,
+              "loading": "lazy",
+              "alt": "Captura de la Home de LingoHive en mobile: navegación compacta, presentación principal y aviso de que el proyecto ya no está en actividad.",
+              "caption": "Vista mobile de la Home de LingoHive: presentación principal, aviso de estado y navegación compacta.",
+              "renderedWidth": 304
+            },
+            {
+              "src": "/images/lingohive-desktop.webp",
+              "width": 1440,
+              "height": 900,
+              "naturalWidth": 1440,
+              "naturalHeight": 900,
+              "loading": "lazy",
+              "alt": "Captura de la Home de LingoHive en desktop: navegación, título, texto de presentación y aviso de que el proyecto ya no está en actividad.",
+              "caption": "Vista desktop de la Home de LingoHive: navegación, presentación principal y aviso de que el proyecto ya no está en actividad.",
+              "renderedWidth": 912
+            }
+          ]
+        }
+      ],
+      "description": "LingoHive fue un proyecto freelance real de desarrollo web para una academia de inglés. El sitio original estuvo publicado y en uso.\n\nEsta demo conserva el diseño y contenido representativo del sitio original. La academia ya no está en actividad; los precios y testimonios son históricos.",
+      "technology": "Tecnologías: Astro 5 · Tailwind CSS 4",
+      "credits": [
+        {
+          "label": "Diseño e identidad visual",
+          "name": "Juan Galache de Toro"
+        },
+        {
+          "label": "Desarrollo web",
+          "name": "Ramiro Garcia"
+        }
+      ],
+      "overflow": 0,
+      "cls": 0,
+      "line": {
+        "commands": [
+          "M",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "V",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V"
+        ],
+        "milestones": [
+          {
+            "name": "hero",
+            "scroll": 56.21875,
+            "distance": 0
+          },
+          {
+            "name": "services-entry",
+            "scroll": 405.99999999999994,
+            "distance": 285.2866516113281
+          },
+          {
+            "name": "landing-pages-approach",
+            "scroll": 1756.7727260445627,
+            "distance": 2171.44384765625
+          },
+          {
+            "name": "landing-pages-turn",
+            "scroll": 2517.09259856554,
+            "distance": 3516.31689453125
+          },
+          {
+            "name": "redesigns-exit",
+            "scroll": 3003.6858788614527,
+            "distance": 4190.37451171875
+          },
+          {
+            "name": "capabilities-approach",
+            "scroll": 3272.406957212098,
+            "distance": 4640.7734375
+          },
+          {
+            "name": "capabilities-clear",
+            "scroll": 3733.376264146271,
+            "distance": 5392.7783203125
+          },
+          {
+            "name": "projects",
+            "scroll": 3823.375,
+            "distance": 5469.33837890625
+          },
+          {
+            "name": "projects-exit",
+            "scroll": 5798.121428481761,
+            "distance": 8291.369140625
+          },
+          {
+            "name": "about",
+            "scroll": 6689.40625,
+            "distance": 9806.2421875
+          },
+          {
+            "name": "contact-entry",
+            "scroll": 7545.0125,
+            "distance": 10676.8681640625
+          },
+          {
+            "name": "contact-turn",
+            "scroll": 7725.0125,
+            "distance": 10792.5947265625
+          },
+          {
+            "name": "contact",
+            "scroll": 8029,
+            "distance": 11422.0078125
+          }
+        ],
+        "projectExit": {
+          "name": "projects-exit",
+          "scroll": 5798.121428481761,
+          "distance": 8291.369140625
+        },
+        "projectExitPointY": 6915.40625,
+        "expectedProjectTailY": 6915.40625,
+        "tailBelowProjects": 1064.40625,
+        "aboutHeadingTop": 1432.859375,
+        "scrollY": 5863,
+        "endGroupOpacity": "0"
+      },
+      "jsResources": [
+        {
+          "url": "/_astro/BaseLayout.astro_astro_type_script_index_0_lang.C3d_n1Ls.js",
+          "bytes": 6372
+        }
+      ],
+      "resources": [
+        {
+          "src": "/images/residencias-mobile.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 40126
+        },
+        {
+          "src": "/images/lingohive-mobile.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 25176
+        },
+        {
+          "src": "/images/residencias-desktop.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 110488
+        },
+        {
+          "src": "/images/lingohive-desktop.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 54662
+        }
+      ],
+      "browserErrors": []
+    },
+    {
+      "route": "/en/",
+      "width": 390,
+      "projectOrder": [
+        "Residencias Grupo Casa",
+        "LingoHive"
+      ],
+      "lang": "en",
+      "projects": [
+        {
+          "id": "residencias",
+          "heading": "Residencias Grupo Casa",
+          "status": "Institutional website · In development · View website",
+          "figures": [
+            {
+              "src": "/images/residencias-mobile.webp",
+              "width": 390,
+              "height": 844,
+              "naturalWidth": 390,
+              "naturalHeight": 844,
+              "loading": "lazy",
+              "alt": "Screenshot of the Residencias Grupo Casa home page on mobile: “Nuestras residencias” section, exterior photograph of Casa San Juan and compact menu.",
+              "caption": "Mobile view of the home page’s “Nuestras residencias” section: Casa San Juan and compact navigation.",
+              "renderedWidth": 336
+            },
+            {
+              "src": "/images/residencias-desktop.webp",
+              "width": 1440,
+              "height": 900,
+              "naturalWidth": 1440,
+              "naturalHeight": 900,
+              "loading": "lazy",
+              "alt": "Screenshot of the Casa San Juan page on the Residencias Grupo Casa website on desktop: title, introductory text and photograph of its outdoor space.",
+              "caption": "Desktop view of the Casa San Juan page: residence introduction and exterior photograph.",
+              "renderedWidth": 336
+            }
+          ]
+        },
+        {
+          "id": "lingohive",
+          "heading": "LingoHive",
+          "status": "Historical demo of a past freelance project · View demo",
+          "figures": [
+            {
+              "src": "/images/lingohive-mobile.webp",
+              "width": 390,
+              "height": 844,
+              "naturalWidth": 390,
+              "naturalHeight": 844,
+              "loading": "lazy",
+              "alt": "Screenshot of LingoHive’s homepage on mobile: compact navigation, main introduction and notice that the project is no longer active.",
+              "caption": "Mobile view of LingoHive’s homepage: main introduction, status notice and compact navigation.",
+              "renderedWidth": 336
+            },
+            {
+              "src": "/images/lingohive-desktop.webp",
+              "width": 1440,
+              "height": 900,
+              "naturalWidth": 1440,
+              "naturalHeight": 900,
+              "loading": "lazy",
+              "alt": "Screenshot of LingoHive’s homepage on desktop: navigation, main heading, introductory text and notice that the project is no longer active.",
+              "caption": "Desktop view of LingoHive’s homepage: navigation, main introduction and notice that the project is no longer active.",
+              "renderedWidth": 336
+            }
+          ]
+        }
+      ],
+      "description": "LingoHive was a real freelance web development project for an English learning business. The original website was published and in use.\n\nThis demo preserves the original site’s representative design and content. The business is no longer active; prices and testimonials are historical.",
+      "technology": "Technologies: Astro 5 · Tailwind CSS 4",
+      "credits": [
+        {
+          "label": "Design and visual identity",
+          "name": "Juan Galache de Toro"
+        },
+        {
+          "label": "Web development",
+          "name": "Ramiro Garcia"
+        }
+      ],
+      "overflow": 0,
+      "cls": 0,
+      "line": {
+        "commands": [
+          "M",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "V",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "V",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "V",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V"
+        ],
+        "milestones": [
+          {
+            "name": "hero",
+            "scroll": 32.8125,
+            "distance": 0
+          },
+          {
+            "name": "services-transition",
+            "scroll": 429.79843690074034,
+            "distance": 409.6199951171875
+          },
+          {
+            "name": "services-left",
+            "scroll": 708.1299143064209,
+            "distance": 765.6780395507812
+          },
+          {
+            "name": "inside-stack",
+            "scroll": 1174.335105400205,
+            "distance": 1304.227783203125
+          },
+          {
+            "name": "services-text",
+            "scroll": 2096.6761877605018,
+            "distance": 2357.126220703125
+          },
+          {
+            "name": "services-exit",
+            "scroll": 2137.9199391410734,
+            "distance": 2400.126220703125
+          },
+          {
+            "name": "projects-entry",
+            "scroll": 2438.539252260693,
+            "distance": 2788.048583984375
+          },
+          {
+            "name": "projects-content",
+            "scroll": 4226.275984589187,
+            "distance": 4821.322265625
+          },
+          {
+            "name": "projects-exit",
+            "scroll": 5952.826053332479,
+            "distance": 6785.595703125
+          },
+          {
+            "name": "projects-transition",
+            "scroll": 5994.069804713051,
+            "distance": 6828.595703125
+          },
+          {
+            "name": "about-entry",
+            "scroll": 6294.689833079567,
+            "distance": 7216.51904296875
+          },
+          {
+            "name": "about-content",
+            "scroll": 6837.852038533075,
+            "distance": 7839.37060546875
+          },
+          {
+            "name": "about-exit",
+            "scroll": 7381.906317015268,
+            "distance": 8471.22265625
+          },
+          {
+            "name": "contact-transition",
+            "scroll": 7476.523177150711,
+            "distance": 8567.05859375
+          },
+          {
+            "name": "contact-entry",
+            "scroll": 7773.544616301699,
+            "distance": 8935.732421875
+          },
+          {
+            "name": "contact",
+            "scroll": 8284,
+            "distance": 9575.896484375
+          }
+        ],
+        "projectExit": {
+          "name": "projects-exit",
+          "scroll": 5952.826053332479,
+          "distance": 6785.595703125
+        },
+        "projectExitPointY": 6862.1875,
+        "expectedProjectTailY": 6862.1875,
+        "tailBelowProjects": 846.1875,
+        "aboutHeadingTop": 988.1875,
+        "scrollY": 6016,
+        "endGroupOpacity": "0"
+      },
+      "jsResources": [
+        {
+          "url": "/_astro/BaseLayout.astro_astro_type_script_index_0_lang.C3d_n1Ls.js",
+          "bytes": 6372
+        }
+      ],
+      "resources": [
+        {
+          "src": "/images/residencias-mobile.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 40126
+        },
+        {
+          "src": "/images/residencias-desktop.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 110488
+        },
+        {
+          "src": "/images/lingohive-mobile.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 25176
+        },
+        {
+          "src": "/images/lingohive-desktop.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 54662
+        }
+      ],
+      "browserErrors": []
+    },
+    {
+      "route": "/en/",
+      "width": 1440,
+      "projectOrder": [
+        "Residencias Grupo Casa",
+        "LingoHive"
+      ],
+      "lang": "en",
+      "projects": [
+        {
+          "id": "residencias",
+          "heading": "Residencias Grupo Casa",
+          "status": "Institutional website · In development · View website",
+          "figures": [
+            {
+              "src": "/images/residencias-mobile.webp",
+              "width": 390,
+              "height": 844,
+              "naturalWidth": 390,
+              "naturalHeight": 844,
+              "loading": "lazy",
+              "alt": "Screenshot of the Residencias Grupo Casa home page on mobile: “Nuestras residencias” section, exterior photograph of Casa San Juan and compact menu.",
+              "caption": "Mobile view of the home page’s “Nuestras residencias” section: Casa San Juan and compact navigation.",
+              "renderedWidth": 304
+            },
+            {
+              "src": "/images/residencias-desktop.webp",
+              "width": 1440,
+              "height": 900,
+              "naturalWidth": 1440,
+              "naturalHeight": 900,
+              "loading": "lazy",
+              "alt": "Screenshot of the Casa San Juan page on the Residencias Grupo Casa website on desktop: title, introductory text and photograph of its outdoor space.",
+              "caption": "Desktop view of the Casa San Juan page: residence introduction and exterior photograph.",
+              "renderedWidth": 912
+            }
+          ]
+        },
+        {
+          "id": "lingohive",
+          "heading": "LingoHive",
+          "status": "Historical demo of a past freelance project · View demo",
+          "figures": [
+            {
+              "src": "/images/lingohive-mobile.webp",
+              "width": 390,
+              "height": 844,
+              "naturalWidth": 390,
+              "naturalHeight": 844,
+              "loading": "lazy",
+              "alt": "Screenshot of LingoHive’s homepage on mobile: compact navigation, main introduction and notice that the project is no longer active.",
+              "caption": "Mobile view of LingoHive’s homepage: main introduction, status notice and compact navigation.",
+              "renderedWidth": 304
+            },
+            {
+              "src": "/images/lingohive-desktop.webp",
+              "width": 1440,
+              "height": 900,
+              "naturalWidth": 1440,
+              "naturalHeight": 900,
+              "loading": "lazy",
+              "alt": "Screenshot of LingoHive’s homepage on desktop: navigation, main heading, introductory text and notice that the project is no longer active.",
+              "caption": "Desktop view of LingoHive’s homepage: navigation, main introduction and notice that the project is no longer active.",
+              "renderedWidth": 912
+            }
+          ]
+        }
+      ],
+      "description": "LingoHive was a real freelance web development project for an English learning business. The original website was published and in use.\n\nThis demo preserves the original site’s representative design and content. The business is no longer active; prices and testimonials are historical.",
+      "technology": "Technologies: Astro 5 · Tailwind CSS 4",
+      "credits": [
+        {
+          "label": "Design and visual identity",
+          "name": "Juan Galache de Toro"
+        },
+        {
+          "label": "Web development",
+          "name": "Ramiro Garcia"
+        }
+      ],
+      "overflow": 0,
+      "cls": 0,
+      "line": {
+        "commands": [
+          "M",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "V",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V"
+        ],
+        "milestones": [
+          {
+            "name": "hero",
+            "scroll": 56.21875,
+            "distance": 0
+          },
+          {
+            "name": "services-entry",
+            "scroll": 405.99999999999994,
+            "distance": 285.2866516113281
+          },
+          {
+            "name": "landing-pages-approach",
+            "scroll": 1782.1093883945625,
+            "distance": 2206.63134765625
+          },
+          {
+            "name": "landing-pages-turn",
+            "scroll": 2542.668648649227,
+            "distance": 3551.50439453125
+          },
+          {
+            "name": "redesigns-exit",
+            "scroll": 3029.3819113670706,
+            "distance": 4225.56201171875
+          },
+          {
+            "name": "capabilities-approach",
+            "scroll": 3298.1831608374723,
+            "distance": 4675.9609375
+          },
+          {
+            "name": "capabilities-clear",
+            "scroll": 3736.550136436979,
+            "distance": 5395.9658203125
+          },
+          {
+            "name": "projects",
+            "scroll": 3826.5625,
+            "distance": 5472.52587890625
+          },
+          {
+            "name": "projects-exit",
+            "scroll": 5801.308928481761,
+            "distance": 8294.556640625
+          },
+          {
+            "name": "about",
+            "scroll": 6692.59375,
+            "distance": 9809.4296875
+          },
+          {
+            "name": "contact-entry",
+            "scroll": 7542.12,
+            "distance": 10673.9560546875
+          },
+          {
+            "name": "contact-turn",
+            "scroll": 7722.12,
+            "distance": 10803.05859375
+          },
+          {
+            "name": "contact",
+            "scroll": 8033,
+            "distance": 11438.5322265625
+          }
+        ],
+        "projectExit": {
+          "name": "projects-exit",
+          "scroll": 5801.308928481761,
+          "distance": 8294.556640625
+        },
+        "projectExitPointY": 6918.59375,
+        "expectedProjectTailY": 6918.59375,
+        "tailBelowProjects": 1064.59375,
+        "aboutHeadingTop": 1386.546875,
+        "scrollY": 5866,
+        "endGroupOpacity": "0"
+      },
+      "jsResources": [
+        {
+          "url": "/_astro/BaseLayout.astro_astro_type_script_index_0_lang.C3d_n1Ls.js",
+          "bytes": 6372
+        }
+      ],
+      "resources": [
+        {
+          "src": "/images/residencias-mobile.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 40126
+        },
+        {
+          "src": "/images/residencias-desktop.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 110488
+        },
+        {
+          "src": "/images/lingohive-mobile.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 25176
+        },
+        {
+          "src": "/images/lingohive-desktop.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 54662
+        }
+      ],
+      "browserErrors": []
+    },
+    {
+      "route": "/pt/",
+      "width": 390,
+      "projectOrder": [
+        "Residencias Grupo Casa",
+        "LingoHive"
+      ],
+      "lang": "pt",
+      "projects": [
+        {
+          "id": "residencias",
+          "heading": "Residencias Grupo Casa",
+          "status": "Site institucional · Em desenvolvimento · Ver site",
+          "figures": [
+            {
+              "src": "/images/residencias-mobile.webp",
+              "width": 390,
+              "height": 844,
+              "naturalWidth": 390,
+              "naturalHeight": 844,
+              "loading": "lazy",
+              "alt": "Captura da página inicial de Residencias Grupo Casa no celular: seção “Nuestras residencias”, foto da área externa da Casa San Juan e menu compacto.",
+              "caption": "Página inicial no celular, seção “Nuestras residencias”: Casa San Juan e navegação compacta.",
+              "renderedWidth": 336
+            },
+            {
+              "src": "/images/residencias-desktop.webp",
+              "width": 1440,
+              "height": 900,
+              "naturalWidth": 1440,
+              "naturalHeight": 900,
+              "loading": "lazy",
+              "alt": "Captura da página da Casa San Juan no site de Residencias Grupo Casa no computador: título, texto de apresentação e foto da área externa.",
+              "caption": "Página da Casa San Juan no computador: apresentação da residência e foto da área externa.",
+              "renderedWidth": 336
+            }
+          ]
+        },
+        {
+          "id": "lingohive",
+          "heading": "LingoHive",
+          "status": "Demo histórica de um projeto freelance anterior · Ver demo",
+          "figures": [
+            {
+              "src": "/images/lingohive-mobile.webp",
+              "width": 390,
+              "height": 844,
+              "naturalWidth": 390,
+              "naturalHeight": 844,
+              "loading": "lazy",
+              "alt": "Captura da página inicial da LingoHive no celular: navegação compacta, apresentação principal e aviso de que o projeto não está mais em atividade.",
+              "caption": "Vista da página inicial da LingoHive no celular: apresentação principal, aviso de estado e navegação compacta.",
+              "renderedWidth": 336
+            },
+            {
+              "src": "/images/lingohive-desktop.webp",
+              "width": 1440,
+              "height": 900,
+              "naturalWidth": 1440,
+              "naturalHeight": 900,
+              "loading": "lazy",
+              "alt": "Captura da página inicial da LingoHive no computador: navegação, título principal, apresentação e aviso de que o projeto não está mais em atividade.",
+              "caption": "Vista da página inicial da LingoHive no computador: navegação, apresentação principal e aviso de que o projeto não está mais em atividade.",
+              "renderedWidth": 336
+            }
+          ]
+        }
+      ],
+      "description": "LingoHive foi um projeto freelance real de desenvolvimento web para uma escola de inglês. O site original esteve publicado e em uso.\n\nEsta demo preserva o design e o conteúdo representativo do site original. A escola não está mais em atividade; os preços e depoimentos são históricos.",
+      "technology": "Tecnologias: Astro 5 · Tailwind CSS 4",
+      "credits": [
+        {
+          "label": "Design e identidade visual",
+          "name": "Juan Galache de Toro"
+        },
+        {
+          "label": "Desenvolvimento web",
+          "name": "Ramiro Garcia"
+        }
+      ],
+      "overflow": 0,
+      "cls": 0,
+      "line": {
+        "commands": [
+          "M",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "V",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "V",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "V",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V"
+        ],
+        "milestones": [
+          {
+            "name": "hero",
+            "scroll": 58.140625,
+            "distance": 0
+          },
+          {
+            "name": "services-transition",
+            "scroll": 433.2667277530896,
+            "distance": 384.2918701171875
+          },
+          {
+            "name": "services-left",
+            "scroll": 712.0522310469781,
+            "distance": 740.3499145507812
+          },
+          {
+            "name": "inside-stack",
+            "scroll": 1161.159931170149,
+            "distance": 1258.774658203125
+          },
+          {
+            "name": "services-text",
+            "scroll": 2067.059392090724,
+            "distance": 2291.548095703125
+          },
+          {
+            "name": "services-exit",
+            "scroll": 2108.3579747368667,
+            "distance": 2334.548095703125
+          },
+          {
+            "name": "projects-entry",
+            "scroll": 2409.4719453942043,
+            "distance": 2722.470458984375
+          },
+          {
+            "name": "projects-content",
+            "scroll": 4246.54020689676,
+            "distance": 4808.634765625
+          },
+          {
+            "name": "projects-exit",
+            "scroll": 6022.333819448745,
+            "distance": 6825.798828125
+          },
+          {
+            "name": "projects-transition",
+            "scroll": 6063.632402094888,
+            "distance": 6868.798828125
+          },
+          {
+            "name": "about-entry",
+            "scroll": 6364.747089244383,
+            "distance": 7256.72216796875
+          },
+          {
+            "name": "about-content",
+            "scroll": 6937.678821226504,
+            "distance": 7912.36279296875
+          },
+          {
+            "name": "about-exit",
+            "scroll": 7511.514103171338,
+            "distance": 8577.00390625
+          },
+          {
+            "name": "contact-transition",
+            "scroll": 7619.681082925514,
+            "distance": 8688.03515625
+          },
+          {
+            "name": "contact-entry",
+            "scroll": 7917.172634927172,
+            "distance": 9056.708984375
+          },
+          {
+            "name": "contact",
+            "scroll": 8415,
+            "distance": 9681.677734375
+          }
+        ],
+        "projectExit": {
+          "name": "projects-exit",
+          "scroll": 6022.333819448745,
+          "distance": 6825.798828125
+        },
+        "projectExitPointY": 6927.71875,
+        "expectedProjectTailY": 6927.71875,
+        "tailBelowProjects": 868.71875,
+        "aboutHeadingTop": 1010.71875,
+        "scrollY": 6059,
+        "endGroupOpacity": "0"
+      },
+      "jsResources": [
+        {
+          "url": "/_astro/BaseLayout.astro_astro_type_script_index_0_lang.C3d_n1Ls.js",
+          "bytes": 6372
+        }
+      ],
+      "resources": [
+        {
+          "src": "/images/residencias-mobile.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 40126
+        },
+        {
+          "src": "/images/lingohive-mobile.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 25176
+        },
+        {
+          "src": "/images/residencias-desktop.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 110488
+        },
+        {
+          "src": "/images/lingohive-desktop.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 54662
+        }
+      ],
+      "browserErrors": []
+    },
+    {
+      "route": "/pt/",
+      "width": 1440,
+      "projectOrder": [
+        "Residencias Grupo Casa",
+        "LingoHive"
+      ],
+      "lang": "pt",
+      "projects": [
+        {
+          "id": "residencias",
+          "heading": "Residencias Grupo Casa",
+          "status": "Site institucional · Em desenvolvimento · Ver site",
+          "figures": [
+            {
+              "src": "/images/residencias-mobile.webp",
+              "width": 390,
+              "height": 844,
+              "naturalWidth": 390,
+              "naturalHeight": 844,
+              "loading": "lazy",
+              "alt": "Captura da página inicial de Residencias Grupo Casa no celular: seção “Nuestras residencias”, foto da área externa da Casa San Juan e menu compacto.",
+              "caption": "Página inicial no celular, seção “Nuestras residencias”: Casa San Juan e navegação compacta.",
+              "renderedWidth": 304
+            },
+            {
+              "src": "/images/residencias-desktop.webp",
+              "width": 1440,
+              "height": 900,
+              "naturalWidth": 1440,
+              "naturalHeight": 900,
+              "loading": "lazy",
+              "alt": "Captura da página da Casa San Juan no site de Residencias Grupo Casa no computador: título, texto de apresentação e foto da área externa.",
+              "caption": "Página da Casa San Juan no computador: apresentação da residência e foto da área externa.",
+              "renderedWidth": 912
+            }
+          ]
+        },
+        {
+          "id": "lingohive",
+          "heading": "LingoHive",
+          "status": "Demo histórica de um projeto freelance anterior · Ver demo",
+          "figures": [
+            {
+              "src": "/images/lingohive-mobile.webp",
+              "width": 390,
+              "height": 844,
+              "naturalWidth": 390,
+              "naturalHeight": 844,
+              "loading": "lazy",
+              "alt": "Captura da página inicial da LingoHive no celular: navegação compacta, apresentação principal e aviso de que o projeto não está mais em atividade.",
+              "caption": "Vista da página inicial da LingoHive no celular: apresentação principal, aviso de estado e navegação compacta.",
+              "renderedWidth": 304
+            },
+            {
+              "src": "/images/lingohive-desktop.webp",
+              "width": 1440,
+              "height": 900,
+              "naturalWidth": 1440,
+              "naturalHeight": 900,
+              "loading": "lazy",
+              "alt": "Captura da página inicial da LingoHive no computador: navegação, título principal, apresentação e aviso de que o projeto não está mais em atividade.",
+              "caption": "Vista da página inicial da LingoHive no computador: navegação, apresentação principal e aviso de que o projeto não está mais em atividade.",
+              "renderedWidth": 912
+            }
+          ]
+        }
+      ],
+      "description": "LingoHive foi um projeto freelance real de desenvolvimento web para uma escola de inglês. O site original esteve publicado e em uso.\n\nEsta demo preserva o design e o conteúdo representativo do site original. A escola não está mais em atividade; os preços e depoimentos são históricos.",
+      "technology": "Tecnologias: Astro 5 · Tailwind CSS 4",
+      "credits": [
+        {
+          "label": "Design e identidade visual",
+          "name": "Juan Galache de Toro"
+        },
+        {
+          "label": "Desenvolvimento web",
+          "name": "Ramiro Garcia"
+        }
+      ],
+      "overflow": 0,
+      "cls": 0,
+      "line": {
+        "commands": [
+          "M",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "V",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V"
+        ],
+        "milestones": [
+          {
+            "name": "hero",
+            "scroll": 56.21875,
+            "distance": 0
+          },
+          {
+            "name": "services-entry",
+            "scroll": 405.99999999999994,
+            "distance": 285.2866516113281
+          },
+          {
+            "name": "landing-pages-approach",
+            "scroll": 1756.7727260445627,
+            "distance": 2171.44384765625
+          },
+          {
+            "name": "landing-pages-turn",
+            "scroll": 2517.09259856554,
+            "distance": 3516.31689453125
+          },
+          {
+            "name": "redesigns-exit",
+            "scroll": 3003.6858788614527,
+            "distance": 4190.37451171875
+          },
+          {
+            "name": "capabilities-approach",
+            "scroll": 3272.406957212098,
+            "distance": 4640.7734375
+          },
+          {
+            "name": "capabilities-clear",
+            "scroll": 3733.376264146271,
+            "distance": 5392.7783203125
+          },
+          {
+            "name": "projects",
+            "scroll": 3823.375,
+            "distance": 5469.33837890625
+          },
+          {
+            "name": "projects-exit",
+            "scroll": 5799.005004165385,
+            "distance": 8291.369140625
+          },
+          {
+            "name": "about",
+            "scroll": 6689.40625,
+            "distance": 9803.826171875
+          },
+          {
+            "name": "contact-entry",
+            "scroll": 7545.0125,
+            "distance": 10676.849609375
+          },
+          {
+            "name": "contact-turn",
+            "scroll": 7725.0125,
+            "distance": 10820.9755859375
+          },
+          {
+            "name": "contact",
+            "scroll": 8029,
+            "distance": 11450.369140625
+          }
+        ],
+        "projectExit": {
+          "name": "projects-exit",
+          "scroll": 5799.005004165385,
+          "distance": 8291.369140625
+        },
+        "projectExitPointY": 6915.40625,
+        "expectedProjectTailY": 6915.40625,
+        "tailBelowProjects": 1064.40625,
+        "aboutHeadingTop": 1374.359375,
+        "scrollY": 5863,
+        "endGroupOpacity": "0"
+      },
+      "jsResources": [
+        {
+          "url": "/_astro/BaseLayout.astro_astro_type_script_index_0_lang.C3d_n1Ls.js",
+          "bytes": 6372
+        }
+      ],
+      "resources": [
+        {
+          "src": "/images/residencias-mobile.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 40126
+        },
+        {
+          "src": "/images/residencias-desktop.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 110488
+        },
+        {
+          "src": "/images/lingohive-mobile.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 25176
+        },
+        {
+          "src": "/images/lingohive-desktop.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 54662
+        }
+      ],
+      "browserErrors": []
+    },
+    {
+      "route": "/fr/",
+      "width": 390,
+      "projectOrder": [
+        "Residencias Grupo Casa",
+        "LingoHive"
+      ],
+      "lang": "fr",
+      "projects": [
+        {
+          "id": "residencias",
+          "heading": "Residencias Grupo Casa",
+          "status": "Site institutionnel · En développement · Voir le site",
+          "figures": [
+            {
+              "src": "/images/residencias-mobile.webp",
+              "width": 390,
+              "height": 844,
+              "naturalWidth": 390,
+              "naturalHeight": 844,
+              "loading": "lazy",
+              "alt": "Capture de la page d’accueil de Residencias Grupo Casa sur mobile : rubrique « Nuestras residencias », photo extérieure de Casa San Juan et menu compact.",
+              "caption": "Page d’accueil sur mobile, rubrique « Nuestras residencias » : Casa San Juan et navigation compacte.",
+              "renderedWidth": 336
+            },
+            {
+              "src": "/images/residencias-desktop.webp",
+              "width": 1440,
+              "height": 900,
+              "naturalWidth": 1440,
+              "naturalHeight": 900,
+              "loading": "lazy",
+              "alt": "Capture de la page Casa San Juan du site Residencias Grupo Casa sur ordinateur : titre, texte de présentation et photo de l’espace extérieur.",
+              "caption": "Page Casa San Juan sur ordinateur : présentation de la résidence et photo de son espace extérieur.",
+              "renderedWidth": 336
+            }
+          ]
+        },
+        {
+          "id": "lingohive",
+          "heading": "LingoHive",
+          "status": "Démo historique d’un ancien projet freelance · Voir la démo",
+          "figures": [
+            {
+              "src": "/images/lingohive-mobile.webp",
+              "width": 390,
+              "height": 844,
+              "naturalWidth": 390,
+              "naturalHeight": 844,
+              "loading": "lazy",
+              "alt": "Capture de la page d’accueil de LingoHive sur mobile : navigation compacte, présentation principale et avis que le projet n’est plus en activité.",
+              "caption": "Vue de la page d’accueil de LingoHive sur mobile : présentation principale, avis de statut et navigation compacte.",
+              "renderedWidth": 336
+            },
+            {
+              "src": "/images/lingohive-desktop.webp",
+              "width": 1440,
+              "height": 900,
+              "naturalWidth": 1440,
+              "naturalHeight": 900,
+              "loading": "lazy",
+              "alt": "Capture de la page d’accueil de LingoHive sur ordinateur : navigation, titre principal, texte de présentation et avis que le projet n’est plus en activité.",
+              "caption": "Vue de la page d’accueil de LingoHive sur ordinateur : navigation, présentation principale et avis que le projet n’est plus en activité.",
+              "renderedWidth": 336
+            }
+          ]
+        }
+      ],
+      "description": "LingoHive était un véritable projet freelance de développement web pour une école d’anglais. Le site d’origine a été publié et utilisé.\n\nCette démo conserve le design et le contenu représentatifs du site d’origine. L’école n’est plus en activité ; les prix et les témoignages sont historiques.",
+      "technology": "Technologies: Astro 5 · Tailwind CSS 4",
+      "credits": [
+        {
+          "label": "Design et identité visuelle",
+          "name": "Juan Galache de Toro"
+        },
+        {
+          "label": "Développement web",
+          "name": "Ramiro Garcia"
+        }
+      ],
+      "overflow": 0,
+      "cls": 0,
+      "line": {
+        "commands": [
+          "M",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "V",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "V",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "V",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V"
+        ],
+        "milestones": [
+          {
+            "name": "hero",
+            "scroll": 19.140625,
+            "distance": 0
+          },
+          {
+            "name": "services-transition",
+            "scroll": 429.5816183303432,
+            "distance": 423.2918701171875
+          },
+          {
+            "name": "services-left",
+            "scroll": 709.0830028194958,
+            "distance": 779.3499145507812
+          },
+          {
+            "name": "inside-stack",
+            "scroll": 1159.2330344696252,
+            "distance": 1297.774658203125
+          },
+          {
+            "name": "services-text",
+            "scroll": 2174.8766923678745,
+            "distance": 2452.110595703125
+          },
+          {
+            "name": "services-exit",
+            "scroll": 2216.2617297139677,
+            "distance": 2495.110595703125
+          },
+          {
+            "name": "projects-entry",
+            "scroll": 2518.155647150874,
+            "distance": 2883.032958984375
+          },
+          {
+            "name": "projects-content",
+            "scroll": 4352.948546163625,
+            "distance": 4961.892578125
+          },
+          {
+            "name": "projects-exit",
+            "scroll": 6126.328066100136,
+            "distance": 6971.751953125
+          },
+          {
+            "name": "projects-transition",
+            "scroll": 6167.71310344623,
+            "distance": 7014.751953125
+          },
+          {
+            "name": "about-entry",
+            "scroll": 6469.607739338745,
+            "distance": 7402.67529296875
+          },
+          {
+            "name": "about-content",
+            "scroll": 7054.486068103718,
+            "distance": 8070.31591796875
+          },
+          {
+            "name": "about-exit",
+            "scroll": 7640.286042982887,
+            "distance": 8746.95703125
+          },
+          {
+            "name": "contact-transition",
+            "scroll": 7705.463857760561,
+            "distance": 8809.19921875
+          },
+          {
+            "name": "contact-entry",
+            "scroll": 8003.696655929432,
+            "distance": 9177.873046875
+          },
+          {
+            "name": "contact",
+            "scroll": 8546,
+            "distance": 9851.630859375
+          }
+        ],
+        "projectExit": {
+          "name": "projects-exit",
+          "scroll": 6126.328066100136,
+          "distance": 6971.751953125
+        },
+        "projectExitPointY": 7034.671875,
+        "expectedProjectTailY": 7034.671875,
+        "tailBelowProjects": 846.671875,
+        "aboutHeadingTop": 988.671875,
+        "scrollY": 6188,
+        "endGroupOpacity": "0"
+      },
+      "jsResources": [
+        {
+          "url": "/_astro/BaseLayout.astro_astro_type_script_index_0_lang.C3d_n1Ls.js",
+          "bytes": 6372
+        }
+      ],
+      "resources": [
+        {
+          "src": "/images/residencias-mobile.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 40126
+        },
+        {
+          "src": "/images/lingohive-mobile.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 25176
+        },
+        {
+          "src": "/images/residencias-desktop.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 110488
+        },
+        {
+          "src": "/images/lingohive-desktop.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 54662
+        }
+      ],
+      "browserErrors": []
+    },
+    {
+      "route": "/fr/",
+      "width": 1440,
+      "projectOrder": [
+        "Residencias Grupo Casa",
+        "LingoHive"
+      ],
+      "lang": "fr",
+      "projects": [
+        {
+          "id": "residencias",
+          "heading": "Residencias Grupo Casa",
+          "status": "Site institutionnel · En développement · Voir le site",
+          "figures": [
+            {
+              "src": "/images/residencias-mobile.webp",
+              "width": 390,
+              "height": 844,
+              "naturalWidth": 390,
+              "naturalHeight": 844,
+              "loading": "lazy",
+              "alt": "Capture de la page d’accueil de Residencias Grupo Casa sur mobile : rubrique « Nuestras residencias », photo extérieure de Casa San Juan et menu compact.",
+              "caption": "Page d’accueil sur mobile, rubrique « Nuestras residencias » : Casa San Juan et navigation compacte.",
+              "renderedWidth": 304
+            },
+            {
+              "src": "/images/residencias-desktop.webp",
+              "width": 1440,
+              "height": 900,
+              "naturalWidth": 1440,
+              "naturalHeight": 900,
+              "loading": "lazy",
+              "alt": "Capture de la page Casa San Juan du site Residencias Grupo Casa sur ordinateur : titre, texte de présentation et photo de l’espace extérieur.",
+              "caption": "Page Casa San Juan sur ordinateur : présentation de la résidence et photo de son espace extérieur.",
+              "renderedWidth": 912
+            }
+          ]
+        },
+        {
+          "id": "lingohive",
+          "heading": "LingoHive",
+          "status": "Démo historique d’un ancien projet freelance · Voir la démo",
+          "figures": [
+            {
+              "src": "/images/lingohive-mobile.webp",
+              "width": 390,
+              "height": 844,
+              "naturalWidth": 390,
+              "naturalHeight": 844,
+              "loading": "lazy",
+              "alt": "Capture de la page d’accueil de LingoHive sur mobile : navigation compacte, présentation principale et avis que le projet n’est plus en activité.",
+              "caption": "Vue de la page d’accueil de LingoHive sur mobile : présentation principale, avis de statut et navigation compacte.",
+              "renderedWidth": 304
+            },
+            {
+              "src": "/images/lingohive-desktop.webp",
+              "width": 1440,
+              "height": 900,
+              "naturalWidth": 1440,
+              "naturalHeight": 900,
+              "loading": "lazy",
+              "alt": "Capture de la page d’accueil de LingoHive sur ordinateur : navigation, titre principal, texte de présentation et avis que le projet n’est plus en activité.",
+              "caption": "Vue de la page d’accueil de LingoHive sur ordinateur : navigation, présentation principale et avis que le projet n’est plus en activité.",
+              "renderedWidth": 912
+            }
+          ]
+        }
+      ],
+      "description": "LingoHive était un véritable projet freelance de développement web pour une école d’anglais. Le site d’origine a été publié et utilisé.\n\nCette démo conserve le design et le contenu représentatifs du site d’origine. L’école n’est plus en activité ; les prix et les témoignages sont historiques.",
+      "technology": "Technologies: Astro 5 · Tailwind CSS 4",
+      "credits": [
+        {
+          "label": "Design et identité visuelle",
+          "name": "Juan Galache de Toro"
+        },
+        {
+          "label": "Développement web",
+          "name": "Ramiro Garcia"
+        }
+      ],
+      "overflow": 0,
+      "cls": 0,
+      "line": {
+        "commands": [
+          "M",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "V",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V"
+        ],
+        "milestones": [
+          {
+            "name": "hero",
+            "scroll": 147.875,
+            "distance": 0
+          },
+          {
+            "name": "services-entry",
+            "scroll": 485.87499999999994,
+            "distance": 273.5054626464844
+          },
+          {
+            "name": "landing-pages-approach",
+            "scroll": 1839.9997537818679,
+            "distance": 2159.662841796875
+          },
+          {
+            "name": "landing-pages-turn",
+            "scroll": 2602.709625050216,
+            "distance": 3504.535888671875
+          },
+          {
+            "name": "redesigns-exit",
+            "scroll": 3090.5009228281456,
+            "distance": 4178.59375
+          },
+          {
+            "name": "capabilities-approach",
+            "scroll": 3360.022413434011,
+            "distance": 4628.99267578125
+          },
+          {
+            "name": "capabilities-clear",
+            "scroll": 3845.1152078511705,
+            "distance": 5412.9970703125
+          },
+          {
+            "name": "projects",
+            "scroll": 3935.25,
+            "distance": 5489.55712890625
+          },
+          {
+            "name": "projects-exit",
+            "scroll": 5939.688150198511,
+            "distance": 8343.587890625
+          },
+          {
+            "name": "about",
+            "scroll": 6833.28125,
+            "distance": 9856.044921875
+          },
+          {
+            "name": "contact-entry",
+            "scroll": 7682.8075,
+            "distance": 10722.98828125
+          },
+          {
+            "name": "contact-turn",
+            "scroll": 7862.8075,
+            "distance": 10866.9580078125
+          },
+          {
+            "name": "contact",
+            "scroll": 8173,
+            "distance": 11502.431640625
+          }
+        ],
+        "projectExit": {
+          "name": "projects-exit",
+          "scroll": 5939.688150198511,
+          "distance": 8343.587890625
+        },
+        "projectExitPointY": 7059.28125,
+        "expectedProjectTailY": 7059.28125,
+        "tailBelowProjects": 1064.28125,
+        "aboutHeadingTop": 1374.234375,
+        "scrollY": 6007,
+        "endGroupOpacity": "0"
+      },
+      "jsResources": [
+        {
+          "url": "/_astro/BaseLayout.astro_astro_type_script_index_0_lang.C3d_n1Ls.js",
+          "bytes": 6372
+        }
+      ],
+      "resources": [
+        {
+          "src": "/images/residencias-mobile.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 40126
+        },
+        {
+          "src": "/images/residencias-desktop.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 110488
+        },
+        {
+          "src": "/images/lingohive-mobile.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 25176
+        },
+        {
+          "src": "/images/lingohive-desktop.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 54662
+        }
+      ],
+      "browserErrors": []
+    },
+    {
+      "route": "/ja/",
+      "width": 390,
+      "projectOrder": [
+        "Residencias Grupo Casa",
+        "LingoHive"
+      ],
+      "lang": "ja",
+      "projects": [
+        {
+          "id": "residencias",
+          "heading": "Residencias Grupo Casa",
+          "status": "施設紹介サイト · 開発中 · サイトを見る",
+          "figures": [
+            {
+              "src": "/images/residencias-mobile.webp",
+              "width": 390,
+              "height": 844,
+              "naturalWidth": 390,
+              "naturalHeight": 844,
+              "loading": "lazy",
+              "alt": "Residencias Grupo Casa のホームページをモバイルで撮影した画面。「Nuestras residencias」セクション、Casa San Juan の外観写真、コンパクトなメニューが見えます。",
+              "caption": "ホームページのモバイル表示。「Nuestras residencias」セクションに Casa San Juan とコンパクトなメニューが見えます。",
+              "renderedWidth": 336
+            },
+            {
+              "src": "/images/residencias-desktop.webp",
+              "width": 1440,
+              "height": 900,
+              "naturalWidth": 1440,
+              "naturalHeight": 900,
+              "loading": "lazy",
+              "alt": "Residencias Grupo Casa の Casa San Juan ページのスクリーンショット。見出し、紹介文、屋外スペースの写真が写っています。",
+              "caption": "Casa San Juan のページのデスクトップ表示。施設の紹介と屋外スペースの写真。",
+              "renderedWidth": 336
+            }
+          ]
+        },
+        {
+          "id": "lingohive",
+          "heading": "LingoHive",
+          "status": "過去のフリーランス案件のデモ · デモを見る",
+          "figures": [
+            {
+              "src": "/images/lingohive-mobile.webp",
+              "width": 390,
+              "height": 844,
+              "naturalWidth": 390,
+              "naturalHeight": 844,
+              "loading": "lazy",
+              "alt": "LingoHive のホームページをモバイルで撮影した画面。コンパクトなナビゲーション、メインの紹介、事業が現在活動していないことを示す案内が見えます。",
+              "caption": "LingoHive のホームページのモバイル表示。メインの紹介、状態の案内、コンパクトなナビゲーションが見えます。",
+              "renderedWidth": 336
+            },
+            {
+              "src": "/images/lingohive-desktop.webp",
+              "width": 1440,
+              "height": 900,
+              "naturalWidth": 1440,
+              "naturalHeight": 900,
+              "loading": "lazy",
+              "alt": "LingoHive のホームページのスクリーンショット。ナビゲーション、メイン見出し、紹介文、事業が現在活動していないことを示す案内が見えます。",
+              "caption": "LingoHive のホームページのデスクトップ表示。ナビゲーション、メインの紹介、事業が現在活動していないことを示す案内が見えます。",
+              "renderedWidth": 336
+            }
+          ]
+        }
+      ],
+      "description": "LingoHive は英語学習事業のために制作した実際のフリーランスのウェブ開発案件です。元のウェブサイトは公開され、実際に利用されていました。\n\nこのデモには、元のサイトを代表するデザインとコンテンツを残しています。事業は現在活動しておらず、料金と利用者の声は当時のものです。",
+      "technology": "使用技術: Astro 5 · Tailwind CSS 4",
+      "credits": [
+        {
+          "label": "デザイン・ビジュアルアイデンティティ",
+          "name": "Juan Galache de Toro"
+        },
+        {
+          "label": "ウェブサイト開発",
+          "name": "Ramiro Garcia"
+        }
+      ],
+      "overflow": 0,
+      "cls": 0,
+      "line": {
+        "commands": [
+          "M",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "V",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "V",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "V",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V"
+        ],
+        "milestones": [
+          {
+            "name": "hero",
+            "scroll": 50.0625,
+            "distance": 0
+          },
+          {
+            "name": "services-transition",
+            "scroll": 438.955816810808,
+            "distance": 400.3699951171875
+          },
+          {
+            "name": "services-left",
+            "scroll": 717.3492786793395,
+            "distance": 756.4280395507812
+          },
+          {
+            "name": "inside-stack",
+            "scroll": 1149.999597483215,
+            "distance": 1256.852783203125
+          },
+          {
+            "name": "services-text",
+            "scroll": 2119.4389842909627,
+            "distance": 2362.907470703125
+          },
+          {
+            "name": "services-exit",
+            "scroll": 2160.6902213383923,
+            "distance": 2405.907470703125
+          },
+          {
+            "name": "projects-entry",
+            "scroll": 2461.377066029596,
+            "distance": 2793.829833984375
+          },
+          {
+            "name": "projects-content",
+            "scroll": 4210.006473282174,
+            "distance": 4782.392578125
+          },
+          {
+            "name": "projects-exit",
+            "scroll": 5897.437205023024,
+            "distance": 6701.955078125
+          },
+          {
+            "name": "projects-transition",
+            "scroll": 5938.688442070455,
+            "distance": 6744.955078125
+          },
+          {
+            "name": "about-entry",
+            "scroll": 6239.376002178559,
+            "distance": 7132.87841796875
+          },
+          {
+            "name": "about-content",
+            "scroll": 6814.840373432334,
+            "distance": 7792.20654296875
+          },
+          {
+            "name": "about-exit",
+            "scroll": 7391.198384567277,
+            "distance": 8460.53515625
+          },
+          {
+            "name": "contact-transition",
+            "scroll": 7478.178244984822,
+            "distance": 8547.69921875
+          },
+          {
+            "name": "contact-entry",
+            "scroll": 7775.263864820844,
+            "distance": 8916.373046875
+          },
+          {
+            "name": "contact",
+            "scroll": 8294,
+            "distance": 9565.208984375
+          }
+        ],
+        "projectExit": {
+          "name": "projects-exit",
+          "scroll": 5897.437205023024,
+          "distance": 6701.955078125
+        },
+        "projectExitPointY": 6795.796875,
+        "expectedProjectTailY": 6795.796875,
+        "tailBelowProjects": 863.796875,
+        "aboutHeadingTop": 993.796875,
+        "scrollY": 5932,
+        "endGroupOpacity": "1"
+      },
+      "jsResources": [
+        {
+          "url": "/_astro/BaseLayout.astro_astro_type_script_index_0_lang.C3d_n1Ls.js",
+          "bytes": 6372
+        }
+      ],
+      "resources": [
+        {
+          "src": "/images/residencias-mobile.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 40126
+        },
+        {
+          "src": "/images/residencias-desktop.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 110488
+        },
+        {
+          "src": "/images/lingohive-mobile.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 25176
+        },
+        {
+          "src": "/images/lingohive-desktop.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 54662
+        }
+      ],
+      "browserErrors": []
+    },
+    {
+      "route": "/ja/",
+      "width": 1440,
+      "projectOrder": [
+        "Residencias Grupo Casa",
+        "LingoHive"
+      ],
+      "lang": "ja",
+      "projects": [
+        {
+          "id": "residencias",
+          "heading": "Residencias Grupo Casa",
+          "status": "施設紹介サイト · 開発中 · サイトを見る",
+          "figures": [
+            {
+              "src": "/images/residencias-mobile.webp",
+              "width": 390,
+              "height": 844,
+              "naturalWidth": 390,
+              "naturalHeight": 844,
+              "loading": "lazy",
+              "alt": "Residencias Grupo Casa のホームページをモバイルで撮影した画面。「Nuestras residencias」セクション、Casa San Juan の外観写真、コンパクトなメニューが見えます。",
+              "caption": "ホームページのモバイル表示。「Nuestras residencias」セクションに Casa San Juan とコンパクトなメニューが見えます。",
+              "renderedWidth": 304
+            },
+            {
+              "src": "/images/residencias-desktop.webp",
+              "width": 1440,
+              "height": 900,
+              "naturalWidth": 1440,
+              "naturalHeight": 900,
+              "loading": "lazy",
+              "alt": "Residencias Grupo Casa の Casa San Juan ページのスクリーンショット。見出し、紹介文、屋外スペースの写真が写っています。",
+              "caption": "Casa San Juan のページのデスクトップ表示。施設の紹介と屋外スペースの写真。",
+              "renderedWidth": 912
+            }
+          ]
+        },
+        {
+          "id": "lingohive",
+          "heading": "LingoHive",
+          "status": "過去のフリーランス案件のデモ · デモを見る",
+          "figures": [
+            {
+              "src": "/images/lingohive-mobile.webp",
+              "width": 390,
+              "height": 844,
+              "naturalWidth": 390,
+              "naturalHeight": 844,
+              "loading": "lazy",
+              "alt": "LingoHive のホームページをモバイルで撮影した画面。コンパクトなナビゲーション、メインの紹介、事業が現在活動していないことを示す案内が見えます。",
+              "caption": "LingoHive のホームページのモバイル表示。メインの紹介、状態の案内、コンパクトなナビゲーションが見えます。",
+              "renderedWidth": 304
+            },
+            {
+              "src": "/images/lingohive-desktop.webp",
+              "width": 1440,
+              "height": 900,
+              "naturalWidth": 1440,
+              "naturalHeight": 900,
+              "loading": "lazy",
+              "alt": "LingoHive のホームページのスクリーンショット。ナビゲーション、メイン見出し、紹介文、事業が現在活動していないことを示す案内が見えます。",
+              "caption": "LingoHive のホームページのデスクトップ表示。ナビゲーション、メインの紹介、事業が現在活動していないことを示す案内が見えます。",
+              "renderedWidth": 912
+            }
+          ]
+        }
+      ],
+      "description": "LingoHive は英語学習事業のために制作した実際のフリーランスのウェブ開発案件です。元のウェブサイトは公開され、実際に利用されていました。\n\nこのデモには、元のサイトを代表するデザインとコンテンツを残しています。事業は現在活動しておらず、料金と利用者の声は当時のものです。",
+      "technology": "使用技術: Astro 5 · Tailwind CSS 4",
+      "credits": [
+        {
+          "label": "デザイン・ビジュアルアイデンティティ",
+          "name": "Juan Galache de Toro"
+        },
+        {
+          "label": "ウェブサイト開発",
+          "name": "Ramiro Garcia"
+        }
+      ],
+      "overflow": 0,
+      "cls": 0,
+      "line": {
+        "commands": [
+          "M",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "V",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V"
+        ],
+        "milestones": [
+          {
+            "name": "hero",
+            "scroll": 100.890625,
+            "distance": 0
+          },
+          {
+            "name": "services-entry",
+            "scroll": 439.89062499999994,
+            "distance": 274.5054016113281
+          },
+          {
+            "name": "landing-pages-approach",
+            "scroll": 1242.29835611098,
+            "distance": 1387.06884765625
+          },
+          {
+            "name": "landing-pages-turn",
+            "scroll": 2003.9965316680202,
+            "distance": 2731.94189453125
+          },
+          {
+            "name": "redesigns-exit",
+            "scroll": 3044.713059913304,
+            "distance": 4183.99951171875
+          },
+          {
+            "name": "capabilities-approach",
+            "scroll": 3313.895732916534,
+            "distance": 4634.3984375
+          },
+          {
+            "name": "capabilities-clear",
+            "scroll": 3785.594676006983,
+            "distance": 5400.4033203125
+          },
+          {
+            "name": "projects",
+            "scroll": 3875.671875,
+            "distance": 5476.96337890625
+          },
+          {
+            "name": "projects-exit",
+            "scroll": 5842.494990545461,
+            "distance": 8290.181640625
+          },
+          {
+            "name": "about",
+            "scroll": 6732.890625,
+            "distance": 9805.0546875
+          },
+          {
+            "name": "contact-entry",
+            "scroll": 7587.4696875,
+            "distance": 10674.6337890625
+          },
+          {
+            "name": "contact-turn",
+            "scroll": 7767.4696875,
+            "distance": 10794.431640625
+          },
+          {
+            "name": "contact",
+            "scroll": 8077,
+            "distance": 11424.8525390625
+          }
+        ],
+        "projectExit": {
+          "name": "projects-exit",
+          "scroll": 5842.494990545461,
+          "distance": 8290.181640625
+        },
+        "projectExitPointY": 6958.890625,
+        "expectedProjectTailY": 6958.890625,
+        "tailBelowProjects": 1068.890625,
+        "aboutHeadingTop": 1389.28125,
+        "scrollY": 5890,
+        "endGroupOpacity": "1"
+      },
+      "jsResources": [
+        {
+          "url": "/_astro/BaseLayout.astro_astro_type_script_index_0_lang.C3d_n1Ls.js",
+          "bytes": 6372
+        }
+      ],
+      "resources": [
+        {
+          "src": "/images/residencias-mobile.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 40126
+        },
+        {
+          "src": "/images/residencias-desktop.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 110488
+        },
+        {
+          "src": "/images/lingohive-mobile.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 25176
+        },
+        {
+          "src": "/images/lingohive-desktop.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 54662
+        }
+      ],
+      "browserErrors": []
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "projectOrder": [
+        "Residencias Grupo Casa",
+        "LingoHive"
+      ],
+      "lang": "es",
+      "projects": [
+        {
+          "id": "residencias",
+          "heading": "Residencias Grupo Casa",
+          "status": "Sitio institucional · En desarrollo · Ver sitio",
+          "figures": [
+            {
+              "src": "/images/residencias-mobile.webp",
+              "width": 390,
+              "height": 844,
+              "naturalWidth": 390,
+              "naturalHeight": 844,
+              "loading": "lazy",
+              "alt": "Captura de la Home de Residencias Grupo Casa en mobile: sección «Nuestras residencias», foto exterior de Casa San Juan y menú compacto.",
+              "caption": "Home en mobile, sección «Nuestras residencias»: Casa San Juan y navegación compacta.",
+              "renderedWidth": 280
+            },
+            {
+              "src": "/images/residencias-desktop.webp",
+              "width": 1440,
+              "height": 900,
+              "naturalWidth": 1440,
+              "naturalHeight": 900,
+              "loading": "lazy",
+              "alt": "Captura de la página de Casa San Juan de Residencias Grupo Casa en desktop: título, texto introductorio y fotografía del espacio exterior.",
+              "caption": "Página de Casa San Juan en desktop: presentación de la sede y foto de su espacio exterior.",
+              "renderedWidth": 280
+            }
+          ]
+        },
+        {
+          "id": "lingohive",
+          "heading": "LingoHive",
+          "status": "Demo histórica de un proyecto freelance anterior · Ver demo",
+          "figures": [
+            {
+              "src": "/images/lingohive-mobile.webp",
+              "width": 390,
+              "height": 844,
+              "naturalWidth": 390,
+              "naturalHeight": 844,
+              "loading": "lazy",
+              "alt": "Captura de la Home de LingoHive en mobile: navegación compacta, presentación principal y aviso de que el proyecto ya no está en actividad.",
+              "caption": "Vista mobile de la Home de LingoHive: presentación principal, aviso de estado y navegación compacta.",
+              "renderedWidth": 280
+            },
+            {
+              "src": "/images/lingohive-desktop.webp",
+              "width": 1440,
+              "height": 900,
+              "naturalWidth": 1440,
+              "naturalHeight": 900,
+              "loading": "lazy",
+              "alt": "Captura de la Home de LingoHive en desktop: navegación, título, texto de presentación y aviso de que el proyecto ya no está en actividad.",
+              "caption": "Vista desktop de la Home de LingoHive: navegación, presentación principal y aviso de que el proyecto ya no está en actividad.",
+              "renderedWidth": 280
+            }
+          ]
+        }
+      ],
+      "description": "LingoHive fue un proyecto freelance real de desarrollo web para una academia de inglés. El sitio original estuvo publicado y en uso.\n\nEsta demo conserva el diseño y contenido representativo del sitio original. La academia ya no está en actividad; los precios y testimonios son históricos.",
+      "technology": "Tecnologías: Astro 5 · Tailwind CSS 4",
+      "credits": [
+        {
+          "label": "Diseño e identidad visual",
+          "name": "Juan Galache de Toro"
+        },
+        {
+          "label": "Desarrollo web",
+          "name": "Ramiro Garcia"
+        }
+      ],
+      "overflow": 0,
+      "cls": 0,
+      "line": {
+        "commands": [
+          "M",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "V",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "V",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "V",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V"
+        ],
+        "milestones": [
+          {
+            "name": "hero",
+            "scroll": 56.65625,
+            "distance": 0
+          },
+          {
+            "name": "services-transition",
+            "scroll": 471.50895562449426,
+            "distance": 417.7762451171875
+          },
+          {
+            "name": "services-left",
+            "scroll": 706.2561488489513,
+            "distance": 704.3342895507812
+          },
+          {
+            "name": "inside-stack",
+            "scroll": 1268.9950343729565,
+            "distance": 1334.055908203125
+          },
+          {
+            "name": "services-text",
+            "scroll": 2494.1583288184156,
+            "distance": 2690.860595703125
+          },
+          {
+            "name": "services-exit",
+            "scroll": 2536.50025736508,
+            "distance": 2733.860595703125
+          },
+          {
+            "name": "projects-entry",
+            "scroll": 2794.728045178939,
+            "distance": 3052.782958984375
+          },
+          {
+            "name": "projects-content",
+            "scroll": 4609.587034277139,
+            "distance": 5058.736328125
+          },
+          {
+            "name": "projects-exit",
+            "scroll": 6361.497162288508,
+            "distance": 6995.689453125
+          },
+          {
+            "name": "projects-transition",
+            "scroll": 6403.839090835173,
+            "distance": 7038.689453125
+          },
+          {
+            "name": "about-entry",
+            "scroll": 6662.067618836362,
+            "distance": 7357.61279296875
+          },
+          {
+            "name": "about-content",
+            "scroll": 7232.642284803937,
+            "distance": 7993.13623046875
+          },
+          {
+            "name": "about-exit",
+            "scroll": 7804.338887305176,
+            "distance": 8637.66015625
+          },
+          {
+            "name": "contact-transition",
+            "scroll": 7884.060003254549,
+            "distance": 8714.39453125
+          },
+          {
+            "name": "contact-entry",
+            "scroll": 8137.819352772738,
+            "distance": 9013.568359375
+          },
+          {
+            "name": "contact",
+            "scroll": 8682,
+            "distance": 9672.833984375
+          }
+        ],
+        "projectExit": {
+          "name": "projects-exit",
+          "scroll": 6361.497162288508,
+          "distance": 6995.689453125
+        },
+        "projectExitPointY": 7234.625,
+        "expectedProjectTailY": 7234.625,
+        "tailBelowProjects": 881.625,
+        "aboutHeadingTop": 1023.625,
+        "scrollY": 6353,
+        "endGroupOpacity": "0"
+      },
+      "jsResources": [
+        {
+          "url": "/_astro/BaseLayout.astro_astro_type_script_index_0_lang.C3d_n1Ls.js",
+          "bytes": 6372
+        }
+      ],
+      "resources": [
+        {
+          "src": "/images/residencias-mobile.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 40126
+        },
+        {
+          "src": "/images/residencias-desktop.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 110488
+        },
+        {
+          "src": "/images/lingohive-mobile.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 25176
+        },
+        {
+          "src": "/images/lingohive-desktop.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 54662
+        }
+      ],
+      "browserErrors": []
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "projectOrder": [
+        "Residencias Grupo Casa",
+        "LingoHive"
+      ],
+      "lang": "es",
+      "projects": [
+        {
+          "id": "residencias",
+          "heading": "Residencias Grupo Casa",
+          "status": "Sitio institucional · En desarrollo · Ver sitio",
+          "figures": [
+            {
+              "src": "/images/residencias-mobile.webp",
+              "width": 390,
+              "height": 844,
+              "naturalWidth": 390,
+              "naturalHeight": 844,
+              "loading": "lazy",
+              "alt": "Captura de la Home de Residencias Grupo Casa en mobile: sección «Nuestras residencias», foto exterior de Casa San Juan y menú compacto.",
+              "caption": "Home en mobile, sección «Nuestras residencias»: Casa San Juan y navegación compacta.",
+              "renderedWidth": 167
+            },
+            {
+              "src": "/images/residencias-desktop.webp",
+              "width": 1440,
+              "height": 900,
+              "naturalWidth": 1440,
+              "naturalHeight": 900,
+              "loading": "lazy",
+              "alt": "Captura de la página de Casa San Juan de Residencias Grupo Casa en desktop: título, texto introductorio y fotografía del espacio exterior.",
+              "caption": "Página de Casa San Juan en desktop: presentación de la sede y foto de su espacio exterior.",
+              "renderedWidth": 500
+            }
+          ]
+        },
+        {
+          "id": "lingohive",
+          "heading": "LingoHive",
+          "status": "Demo histórica de un proyecto freelance anterior · Ver demo",
+          "figures": [
+            {
+              "src": "/images/lingohive-mobile.webp",
+              "width": 390,
+              "height": 844,
+              "naturalWidth": 390,
+              "naturalHeight": 844,
+              "loading": "lazy",
+              "alt": "Captura de la Home de LingoHive en mobile: navegación compacta, presentación principal y aviso de que el proyecto ya no está en actividad.",
+              "caption": "Vista mobile de la Home de LingoHive: presentación principal, aviso de estado y navegación compacta.",
+              "renderedWidth": 167
+            },
+            {
+              "src": "/images/lingohive-desktop.webp",
+              "width": 1440,
+              "height": 900,
+              "naturalWidth": 1440,
+              "naturalHeight": 900,
+              "loading": "lazy",
+              "alt": "Captura de la Home de LingoHive en desktop: navegación, título, texto de presentación y aviso de que el proyecto ya no está en actividad.",
+              "caption": "Vista desktop de la Home de LingoHive: navegación, presentación principal y aviso de que el proyecto ya no está en actividad.",
+              "renderedWidth": 500
+            }
+          ]
+        }
+      ],
+      "description": "LingoHive fue un proyecto freelance real de desarrollo web para una academia de inglés. El sitio original estuvo publicado y en uso.\n\nEsta demo conserva el diseño y contenido representativo del sitio original. La academia ya no está en actividad; los precios y testimonios son históricos.",
+      "technology": "Tecnologías: Astro 5 · Tailwind CSS 4",
+      "credits": [
+        {
+          "label": "Diseño e identidad visual",
+          "name": "Juan Galache de Toro"
+        },
+        {
+          "label": "Desarrollo web",
+          "name": "Ramiro Garcia"
+        }
+      ],
+      "overflow": 0,
+      "cls": 0,
+      "line": {
+        "commands": [
+          "M",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "V",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "V",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "V",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V"
+        ],
+        "milestones": [
+          {
+            "name": "hero",
+            "scroll": 0,
+            "distance": 0
+          },
+          {
+            "name": "services-transition",
+            "scroll": 337.4733220063347,
+            "distance": 420.0731201171875
+          },
+          {
+            "name": "services-left",
+            "scroll": 773.7419683576181,
+            "distance": 1146.5687255859375
+          },
+          {
+            "name": "inside-stack",
+            "scroll": 1126.3368063385237,
+            "distance": 1644.415283203125
+          },
+          {
+            "name": "services-text",
+            "scroll": 1731.7046137787288,
+            "distance": 2487.141845703125
+          },
+          {
+            "name": "services-exit",
+            "scroll": 1771.3223136518839,
+            "distance": 2537.141845703125
+          },
+          {
+            "name": "projects-entry",
+            "scroll": 2221.5973752637815,
+            "distance": 3287.939208984375
+          },
+          {
+            "name": "projects-content",
+            "scroll": 3069.30557766013,
+            "distance": 4465.337890625
+          },
+          {
+            "name": "projects-exit",
+            "scroll": 3866.9188595226374,
+            "distance": 5572.736328125
+          },
+          {
+            "name": "projects-transition",
+            "scroll": 3949.5957323079006,
+            "distance": 5682.017578125
+          },
+          {
+            "name": "about-entry",
+            "scroll": 4408.762981419798,
+            "distance": 6432.81494140625
+          },
+          {
+            "name": "about-content",
+            "scroll": 4667.454671896524,
+            "distance": 6811.53369140625
+          },
+          {
+            "name": "about-exit",
+            "scroll": 4980.813970754915,
+            "distance": 7261.53369140625
+          },
+          {
+            "name": "contact-transition",
+            "scroll": 5059.016404423132,
+            "distance": 7355.36181640625
+          },
+          {
+            "name": "contact-entry",
+            "scroll": 5512.00561011253,
+            "distance": 8094.47216796875
+          },
+          {
+            "name": "contact",
+            "scroll": 5924,
+            "distance": 8736.64453125
+          }
+        ],
+        "projectExit": {
+          "name": "projects-exit",
+          "scroll": 3866.9188595226374,
+          "distance": 5572.736328125
+        },
+        "projectExitPointY": 4862,
+        "expectedProjectTailY": 4862,
+        "tailBelowProjects": 929,
+        "aboutHeadingTop": 1203.5625,
+        "scrollY": 3933,
+        "endGroupOpacity": "0"
+      },
+      "jsResources": [
+        {
+          "url": "/_astro/BaseLayout.astro_astro_type_script_index_0_lang.C3d_n1Ls.js",
+          "bytes": 6372
+        }
+      ],
+      "resources": [
+        {
+          "src": "/images/residencias-mobile.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 40126
+        },
+        {
+          "src": "/images/residencias-desktop.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 110488
+        },
+        {
+          "src": "/images/lingohive-mobile.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 25176
+        },
+        {
+          "src": "/images/lingohive-desktop.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 54662
+        }
+      ],
+      "browserErrors": []
+    },
+    {
+      "route": "/",
+      "width": 1366,
+      "projectOrder": [
+        "Residencias Grupo Casa",
+        "LingoHive"
+      ],
+      "lang": "es",
+      "projects": [
+        {
+          "id": "residencias",
+          "heading": "Residencias Grupo Casa",
+          "status": "Sitio institucional · En desarrollo · Ver sitio",
+          "figures": [
+            {
+              "src": "/images/residencias-mobile.webp",
+              "width": 390,
+              "height": 844,
+              "naturalWidth": 390,
+              "naturalHeight": 844,
+              "loading": "lazy",
+              "alt": "Captura de la Home de Residencias Grupo Casa en mobile: sección «Nuestras residencias», foto exterior de Casa San Juan y menú compacto.",
+              "caption": "Home en mobile, sección «Nuestras residencias»: Casa San Juan y navegación compacta.",
+              "renderedWidth": 303
+            },
+            {
+              "src": "/images/residencias-desktop.webp",
+              "width": 1440,
+              "height": 900,
+              "naturalWidth": 1440,
+              "naturalHeight": 900,
+              "loading": "lazy",
+              "alt": "Captura de la página de Casa San Juan de Residencias Grupo Casa en desktop: título, texto introductorio y fotografía del espacio exterior.",
+              "caption": "Página de Casa San Juan en desktop: presentación de la sede y foto de su espacio exterior.",
+              "renderedWidth": 908
+            }
+          ]
+        },
+        {
+          "id": "lingohive",
+          "heading": "LingoHive",
+          "status": "Demo histórica de un proyecto freelance anterior · Ver demo",
+          "figures": [
+            {
+              "src": "/images/lingohive-mobile.webp",
+              "width": 390,
+              "height": 844,
+              "naturalWidth": 390,
+              "naturalHeight": 844,
+              "loading": "lazy",
+              "alt": "Captura de la Home de LingoHive en mobile: navegación compacta, presentación principal y aviso de que el proyecto ya no está en actividad.",
+              "caption": "Vista mobile de la Home de LingoHive: presentación principal, aviso de estado y navegación compacta.",
+              "renderedWidth": 303
+            },
+            {
+              "src": "/images/lingohive-desktop.webp",
+              "width": 1440,
+              "height": 900,
+              "naturalWidth": 1440,
+              "naturalHeight": 900,
+              "loading": "lazy",
+              "alt": "Captura de la Home de LingoHive en desktop: navegación, título, texto de presentación y aviso de que el proyecto ya no está en actividad.",
+              "caption": "Vista desktop de la Home de LingoHive: navegación, presentación principal y aviso de que el proyecto ya no está en actividad.",
+              "renderedWidth": 908
+            }
+          ]
+        }
+      ],
+      "description": "LingoHive fue un proyecto freelance real de desarrollo web para una academia de inglés. El sitio original estuvo publicado y en uso.\n\nEsta demo conserva el diseño y contenido representativo del sitio original. La academia ya no está en actividad; los precios y testimonios son históricos.",
+      "technology": "Tecnologías: Astro 5 · Tailwind CSS 4",
+      "credits": [
+        {
+          "label": "Diseño e identidad visual",
+          "name": "Juan Galache de Toro"
+        },
+        {
+          "label": "Desarrollo web",
+          "name": "Ramiro Garcia"
+        }
+      ],
+      "overflow": 0,
+      "cls": 0,
+      "line": {
+        "commands": [
+          "M",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "V",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V",
+          "Q",
+          "H",
+          "Q",
+          "V"
+        ],
+        "milestones": [
+          {
+            "name": "hero",
+            "scroll": 48.25,
+            "distance": 0
+          },
+          {
+            "name": "services-entry",
+            "scroll": 405.99999999999994,
+            "distance": 293.2554016113281
+          },
+          {
+            "name": "landing-pages-approach",
+            "scroll": 1757.248718850229,
+            "distance": 2175.307861328125
+          },
+          {
+            "name": "landing-pages-turn",
+            "scroll": 2516.951453301477,
+            "distance": 3515.227783203125
+          },
+          {
+            "name": "redesigns-exit",
+            "scroll": 3007.192530336895,
+            "distance": 4193.39013671875
+          },
+          {
+            "name": "capabilities-approach",
+            "scroll": 3273.855723142276,
+            "distance": 4638.8359375
+          },
+          {
+            "name": "capabilities-clear",
+            "scroll": 3733.252947318489,
+            "distance": 5385.8876953125
+          },
+          {
+            "name": "projects",
+            "scroll": 3823.375,
+            "distance": 5462.44775390625
+          },
+          {
+            "name": "projects-exit",
+            "scroll": 5788.797394077692,
+            "distance": 8269.962890625
+          },
+          {
+            "name": "about",
+            "scroll": 6674.890625,
+            "distance": 9774.6328125
+          },
+          {
+            "name": "contact-entry",
+            "scroll": 7531.4646875,
+            "distance": 10647.380859375
+          },
+          {
+            "name": "contact-turn",
+            "scroll": 7711.4646875,
+            "distance": 10756.41796875
+          },
+          {
+            "name": "contact",
+            "scroll": 8015,
+            "distance": 11387.3935546875
+          }
+        ],
+        "projectExit": {
+          "name": "projects-exit",
+          "scroll": 5788.797394077692,
+          "distance": 8269.962890625
+        },
+        "projectExitPointY": 6900.890625,
+        "expectedProjectTailY": 6900.890625,
+        "tailBelowProjects": 1062.890625,
+        "aboutHeadingTop": 1431.9375,
+        "scrollY": 5850,
+        "endGroupOpacity": "0"
+      },
+      "jsResources": [
+        {
+          "url": "/_astro/BaseLayout.astro_astro_type_script_index_0_lang.C3d_n1Ls.js",
+          "bytes": 6372
+        }
+      ],
+      "resources": [
+        {
+          "src": "/images/residencias-mobile.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 40126
+        },
+        {
+          "src": "/images/lingohive-mobile.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 25176
+        },
+        {
+          "src": "/images/residencias-desktop.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 110488
+        },
+        {
+          "src": "/images/lingohive-desktop.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 54662
+        }
+      ],
+      "browserErrors": []
+    }
+  ]
+}

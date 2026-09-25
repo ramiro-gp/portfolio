@@ -5,14 +5,32 @@ const t = copy[locale];
 ---
 <section class="section projects rail" id="proyectos" tabindex="-1" aria-labelledby="projects-title" data-line-anchor="projects">
   <div class="section-heading" data-reveal><span class="section-index" aria-hidden="true">03 /</span><h2 id="projects-title">{t.nav[2]}</h2></div>
-  <div class="project-heading" data-reveal>
-    <h3>Residencias Grupo Casa</h3>
-    <p class="project-status">{t.caseState} <span aria-hidden="true">·</span> <a href="https://residenciasgrupocasa.com.ar/" target="_blank" rel="noopener noreferrer">{t.viewSite}</a></p>
+  <div class="project-case" data-project-case="residencias">
+    <div class="project-heading" data-reveal>
+      <h3>Residencias Grupo Casa</h3>
+      <p class="project-status">{t.caseState} <span aria-hidden="true">·</span> <a href="https://residenciasgrupocasa.com.ar/" target="_blank" rel="noopener noreferrer">{t.viewSite}</a></p>
+    </div>
+    <div class="project-text" data-reveal><p>{t.caseContext}</p><p>{t.caseSolution}</p></div>
+    <div class="project-figures" data-reveal>
+      <figure class="figure-mobile"><img src="/images/residencias-mobile.webp" width="390" height="844" loading="lazy" alt={t.mobileAlt} /><figcaption>{t.mobileCaption}</figcaption></figure>
+      <figure class="figure-desktop"><img src="/images/residencias-desktop.webp" width="1440" height="900" loading="lazy" alt={t.desktopAlt} /><figcaption>{t.desktopCaption}</figcaption></figure>
+    </div>
+    <p class="project-capabilities" data-reveal>{t.caseCapabilities}</p>
   </div>
-  <div class="project-text" data-reveal><p>{t.caseContext}</p><p>{t.caseSolution}</p></div>
-  <div class="project-figures" data-reveal>
-    <figure class="figure-mobile"><img src="/images/residencias-mobile.webp" width="390" height="844" loading="lazy" alt={t.mobileAlt} /><figcaption>{t.mobileCaption}</figcaption></figure>
-    <figure class="figure-desktop"><img src="/images/residencias-desktop.webp" width="1440" height="900" loading="lazy" alt={t.desktopAlt} /><figcaption>{t.desktopCaption}</figcaption></figure>
+  <div class="project-case" id="project-lingohive" data-project-case="lingohive">
+    <div class="project-heading" data-reveal>
+      <h3>LingoHive</h3>
+      <p class="project-status">{t.lingohive.state} <span aria-hidden="true">·</span> <a href="https://lingo-hive.vercel.app/" target="_blank" rel="noopener noreferrer">{t.lingohive.viewDemo}</a></p>
+    </div>
+    <div class="project-text" data-reveal><p>{t.lingohive.intro}</p><p>{t.lingohive.historicalNote}</p></div>
+    <div class="project-figures" data-reveal>
+      <figure class="figure-mobile"><img src="/images/lingohive-mobile.webp" width="390" height="844" loading="lazy" alt={t.lingohive.mobileAlt} /><figcaption>{t.lingohive.mobileCaption}</figcaption></figure>
+      <figure class="figure-desktop"><img src="/images/lingohive-desktop.webp" width="1440" height="900" loading="lazy" alt={t.lingohive.desktopAlt} /><figcaption>{t.lingohive.desktopCaption}</figcaption></figure>
+    </div>
+    <p class="project-capabilities" data-reveal><span class="project-detail-label">{t.lingohive.technologiesLabel}:</span> Astro 5 · Tailwind CSS 4</p>
+    <dl class="project-credits" data-reveal data-project-tail>
+      <div><dt>{t.lingohive.designCredit}</dt><dd>Juan Galache de Toro</dd></div>
+      <div><dt>{t.lingohive.developmentCredit}</dt><dd>Ramiro Garcia</dd></div>
+    </dl>
   </div>
-  <p class="project-capabilities" data-reveal>{t.caseCapabilities}</p>
 </section>

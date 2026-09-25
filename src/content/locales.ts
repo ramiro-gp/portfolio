@@ -20,6 +20,11 @@ export type Copy = {
   capabilities: [string, string, string];
   caseState: string; viewSite: string; caseContext: string; caseSolution: string; caseCapabilities: string;
   desktopCaption: string; mobileCaption: string; desktopAlt: string; mobileAlt: string;
+  lingohive: {
+    state: string; viewDemo: string; intro: string; historicalNote: string; technologiesLabel: string;
+    designCredit: string; developmentCredit: string;
+    desktopCaption: string; mobileCaption: string; desktopAlt: string; mobileAlt: string;
+  };
   aboutTitle: string; professionalTitle: string; profile: string; processTitle: string; process: [string, string, string]; processNote: string; availability: string; disclosure?: string;
   contactTitle: string; guidance: string; backToTop: string; copyEmail: string; copyPhone: string; emailCopied: string; emailCopyError: string; phoneCopied: string; phoneCopyError: string;
   metaTitle: string; metaDescription: string; socialTitle: string; socialDescription: string;
@@ -53,6 +58,16 @@ export const copy: Record<LocaleCode, Copy> = {
     mobileCaption: 'Home en mobile, sección «Nuestras residencias»: Casa San Juan y navegación compacta.',
     desktopAlt: 'Captura de la página de Casa San Juan de Residencias Grupo Casa en desktop: título, texto introductorio y fotografía del espacio exterior.',
     mobileAlt: 'Captura de la Home de Residencias Grupo Casa en mobile: sección «Nuestras residencias», foto exterior de Casa San Juan y menú compacto.',
+    lingohive: {
+      state: 'Demo histórica de un proyecto freelance anterior', viewDemo: 'Ver demo',
+      intro: 'LingoHive fue un proyecto freelance real de desarrollo web para una academia de inglés. El sitio original estuvo publicado y en uso.',
+      historicalNote: 'Esta demo conserva el diseño y contenido representativo del sitio original. La academia ya no está en actividad; los precios y testimonios son históricos.',
+      technologiesLabel: 'Tecnologías', designCredit: 'Diseño e identidad visual', developmentCredit: 'Desarrollo web',
+      desktopCaption: 'Vista desktop de la Home de LingoHive: navegación, presentación principal y aviso de que el proyecto ya no está en actividad.',
+      mobileCaption: 'Vista mobile de la Home de LingoHive: presentación principal, aviso de estado y navegación compacta.',
+      desktopAlt: 'Captura de la Home de LingoHive en desktop: navegación, título, texto de presentación y aviso de que el proyecto ya no está en actividad.',
+      mobileAlt: 'Captura de la Home de LingoHive en mobile: navegación compacta, presentación principal y aviso de que el proyecto ya no está en actividad.'
+    },
     aboutTitle: 'Ramiro Garcia', professionalTitle: 'Full Stack Developer',
     profile: 'Trabajo de forma independiente y directamente con cada cliente. Mi especialidad es frontend; también participo en UX/UI y decisiones de producto, y puedo trabajar full stack cuando el proyecto lo requiere.',
     processTitle: 'Cómo trabajo',
@@ -92,6 +107,16 @@ export const copy: Record<LocaleCode, Copy> = {
     caseCapabilities: 'The project includes design, responsive development, forms and technical SEO, as well as preparation for publication. The screenshots show the interface; they do not represent performance metrics.',
     desktopCaption: 'Desktop view of the Casa San Juan page: residence introduction and exterior photograph.', mobileCaption: 'Mobile view of the home page’s “Nuestras residencias” section: Casa San Juan and compact navigation.',
     desktopAlt: 'Screenshot of the Casa San Juan page on the Residencias Grupo Casa website on desktop: title, introductory text and photograph of its outdoor space.', mobileAlt: 'Screenshot of the Residencias Grupo Casa home page on mobile: “Nuestras residencias” section, exterior photograph of Casa San Juan and compact menu.',
+    lingohive: {
+      state: 'Historical demo of a past freelance project', viewDemo: 'View demo',
+      intro: 'LingoHive was a real freelance web development project for an English learning business. The original website was published and in use.',
+      historicalNote: 'This demo preserves the original site’s representative design and content. The business is no longer active; prices and testimonials are historical.',
+      technologiesLabel: 'Technologies', designCredit: 'Design and visual identity', developmentCredit: 'Web development',
+      desktopCaption: 'Desktop view of LingoHive’s homepage: navigation, main introduction and notice that the project is no longer active.',
+      mobileCaption: 'Mobile view of LingoHive’s homepage: main introduction, status notice and compact navigation.',
+      desktopAlt: 'Screenshot of LingoHive’s homepage on desktop: navigation, main heading, introductory text and notice that the project is no longer active.',
+      mobileAlt: 'Screenshot of LingoHive’s homepage on mobile: compact navigation, main introduction and notice that the project is no longer active.'
+    },
     aboutTitle: 'Ramiro Garcia', professionalTitle: 'Full Stack Developer',
     profile: 'I work independently and directly with each client. My specialty is frontend; I also take part in UX/UI and product decisions, and I can work full stack when the project calls for it.',
     processTitle: 'How I work', process: [
@@ -130,6 +155,16 @@ export const copy: Record<LocaleCode, Copy> = {
     caseCapabilities: 'O projeto reúne design, desenvolvimento responsivo, formulários e SEO técnico, além da preparação para publicação. As capturas mostram a interface; não representam métricas de resultados.',
     desktopCaption: 'Página da Casa San Juan no computador: apresentação da residência e foto da área externa.', mobileCaption: 'Página inicial no celular, seção “Nuestras residencias”: Casa San Juan e navegação compacta.',
     desktopAlt: 'Captura da página da Casa San Juan no site de Residencias Grupo Casa no computador: título, texto de apresentação e foto da área externa.', mobileAlt: 'Captura da página inicial de Residencias Grupo Casa no celular: seção “Nuestras residencias”, foto da área externa da Casa San Juan e menu compacto.',
+    lingohive: {
+      state: 'Demo histórica de um projeto freelance anterior', viewDemo: 'Ver demo',
+      intro: 'LingoHive foi um projeto freelance real de desenvolvimento web para uma escola de inglês. O site original esteve publicado e em uso.',
+      historicalNote: 'Esta demo preserva o design e o conteúdo representativo do site original. A escola não está mais em atividade; os preços e depoimentos são históricos.',
+      technologiesLabel: 'Tecnologias', designCredit: 'Design e identidade visual', developmentCredit: 'Desenvolvimento web',
+      desktopCaption: 'Vista da página inicial da LingoHive no computador: navegação, apresentação principal e aviso de que o projeto não está mais em atividade.',
+      mobileCaption: 'Vista da página inicial da LingoHive no celular: apresentação principal, aviso de estado e navegação compacta.',
+      desktopAlt: 'Captura da página inicial da LingoHive no computador: navegação, título principal, apresentação e aviso de que o projeto não está mais em atividade.',
+      mobileAlt: 'Captura da página inicial da LingoHive no celular: navegação compacta, apresentação principal e aviso de que o projeto não está mais em atividade.'
+    },
     aboutTitle: 'Ramiro Garcia', professionalTitle: 'Full Stack Developer',
     profile: 'Trabalho de forma independente e diretamente com cada cliente. Minha especialidade é frontend; também participo de UX/UI e decisões de produto e posso trabalhar full stack quando o projeto exige.',
     processTitle: 'Como trabalho', process: [
@@ -168,6 +203,16 @@ export const copy: Record<LocaleCode, Copy> = {
     caseCapabilities: 'Le projet comprend le design, le développement responsive, les formulaires et le référencement technique, ainsi que la préparation à la mise en ligne. Les captures montrent l’interface ; elles ne représentent pas des indicateurs de résultats.',
     desktopCaption: 'Page Casa San Juan sur ordinateur : présentation de la résidence et photo de son espace extérieur.', mobileCaption: 'Page d’accueil sur mobile, rubrique « Nuestras residencias » : Casa San Juan et navigation compacte.',
     desktopAlt: 'Capture de la page Casa San Juan du site Residencias Grupo Casa sur ordinateur : titre, texte de présentation et photo de l’espace extérieur.', mobileAlt: 'Capture de la page d’accueil de Residencias Grupo Casa sur mobile : rubrique « Nuestras residencias », photo extérieure de Casa San Juan et menu compact.',
+    lingohive: {
+      state: 'Démo historique d’un ancien projet freelance', viewDemo: 'Voir la démo',
+      intro: 'LingoHive était un véritable projet freelance de développement web pour une école d’anglais. Le site d’origine a été publié et utilisé.',
+      historicalNote: 'Cette démo conserve le design et le contenu représentatifs du site d’origine. L’école n’est plus en activité ; les prix et les témoignages sont historiques.',
+      technologiesLabel: 'Technologies', designCredit: 'Design et identité visuelle', developmentCredit: 'Développement web',
+      desktopCaption: 'Vue de la page d’accueil de LingoHive sur ordinateur : navigation, présentation principale et avis que le projet n’est plus en activité.',
+      mobileCaption: 'Vue de la page d’accueil de LingoHive sur mobile : présentation principale, avis de statut et navigation compacte.',
+      desktopAlt: 'Capture de la page d’accueil de LingoHive sur ordinateur : navigation, titre principal, texte de présentation et avis que le projet n’est plus en activité.',
+      mobileAlt: 'Capture de la page d’accueil de LingoHive sur mobile : navigation compacte, présentation principale et avis que le projet n’est plus en activité.'
+    },
     aboutTitle: 'Ramiro Garcia', professionalTitle: 'Full Stack Developer',
     profile: 'Je travaille de façon indépendante et directement avec chaque client. Ma spécialité est le frontend ; je participe aussi aux décisions UX/UI et produit, et je peux travailler full stack lorsque le projet le demande.',
     processTitle: 'Ma façon de travailler', process: [
@@ -206,6 +251,16 @@ export const copy: Record<LocaleCode, Copy> = {
     caseCapabilities: 'デザイン、レスポンシブ開発、フォーム、技術的な SEO、公開準備に取り組んだプロジェクトです。スクリーンショットは画面を示すもので、成果指標ではありません。',
     desktopCaption: 'Casa San Juan のページのデスクトップ表示。施設の紹介と屋外スペースの写真。', mobileCaption: 'ホームページのモバイル表示。「Nuestras residencias」セクションに Casa San Juan とコンパクトなメニューが見えます。',
     desktopAlt: 'Residencias Grupo Casa の Casa San Juan ページのスクリーンショット。見出し、紹介文、屋外スペースの写真が写っています。', mobileAlt: 'Residencias Grupo Casa のホームページをモバイルで撮影した画面。「Nuestras residencias」セクション、Casa San Juan の外観写真、コンパクトなメニューが見えます。',
+    lingohive: {
+      state: '過去のフリーランス案件のデモ', viewDemo: 'デモを見る',
+      intro: 'LingoHive は英語学習事業のために制作した実際のフリーランスのウェブ開発案件です。元のウェブサイトは公開され、実際に利用されていました。',
+      historicalNote: 'このデモには、元のサイトを代表するデザインとコンテンツを残しています。事業は現在活動しておらず、料金と利用者の声は当時のものです。',
+      technologiesLabel: '使用技術', designCredit: 'デザイン・ビジュアルアイデンティティ', developmentCredit: 'ウェブサイト開発',
+      desktopCaption: 'LingoHive のホームページのデスクトップ表示。ナビゲーション、メインの紹介、事業が現在活動していないことを示す案内が見えます。',
+      mobileCaption: 'LingoHive のホームページのモバイル表示。メインの紹介、状態の案内、コンパクトなナビゲーションが見えます。',
+      desktopAlt: 'LingoHive のホームページのスクリーンショット。ナビゲーション、メイン見出し、紹介文、事業が現在活動していないことを示す案内が見えます。',
+      mobileAlt: 'LingoHive のホームページをモバイルで撮影した画面。コンパクトなナビゲーション、メインの紹介、事業が現在活動していないことを示す案内が見えます。'
+    },
     aboutTitle: 'Ramiro Garcia', professionalTitle: 'Full Stack Developer',
     profile: '個人で仕事を受け、各クライアントと直接やり取りします。専門はフロントエンドです。UX/UI やプロダクトに関する判断にも関わり、必要に応じてフルスタックの開発も行います。',
     processTitle: '仕事の進め方', process: [

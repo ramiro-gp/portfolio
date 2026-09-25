@@ -1,7 +1,7 @@
 {
   "noto_source": "notofonts/noto-cjk@f8d157532fbfaeda587e826d4cd5b21a49186f7c/Sans/Variable/OTF/Subset/NotoSansJP-VF.otf",
   "noto_source_sha256": "85e5ef353081175fb9f764f037c550dd4b5ad913cb030c0de98a5d4d4018014b",
-  "ja_corpus_codepoints": 372,
+  "ja_corpus_codepoints": 388,
   "noto_weight_range": [
     400,
     600
@@ -14,9 +14,9 @@
     },
     {
       "path": "public\\fonts\\NotoSansJP-ja.woff2",
-      "bytes": 86576,
-      "sha256": "3e29ac613493009a1609d62e8b8a027b8ecbe750a5f55c1424857b2387b7a171"
+      "bytes": 90260,
+      "sha256": "17e0d0204efe74a3fbcbc5723c55f3e9e98a6cbef08f1a89ca1035d838ae6c42"
     }
   ],
-  "must_regenerate_after_h6e": true
+  "must_regenerate_after_h6e": false
 }

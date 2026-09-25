@@ -37,16 +37,17 @@ fs.mkdirSync(out, { recursive: true });
         });
         await page.goto(base + route, { waitUntil: 'networkidle' });
         await page.locator('#proyectos').scrollIntoViewIfNeeded();
-        await page.locator('#proyectos img').first().scrollIntoViewIfNeeded();
+        await page.locator('[data-project-case="residencias"] img').first().scrollIntoViewIfNeeded();
         await page.evaluate(async () => {
-          for (const img of document.querySelectorAll('#proyectos img')) {
+          for (const img of document.querySelectorAll('[data-project-case="residencias"] img')) {
             img.scrollIntoView();
             await img.decode();
           }
         });
         await page.waitForTimeout(250);
         const data = await page.evaluate(() => {
-          const images = [...document.querySelectorAll('#proyectos img')].map((img) => ({
+          const caseElement = document.querySelector('[data-project-case="residencias"]');
+          const images = [...caseElement.querySelectorAll('img')].map((img) => ({
             src: new URL(img.src).pathname,
             width: Number(img.getAttribute('width')),
             height: Number(img.getAttribute('height')),
@@ -88,9 +89,9 @@ fs.mkdirSync(out, { recursive: true });
         assert.equal(resources.find((resource) => resource.src === desktop.src)?.bytes, 110488);
         if (route === '/' || route === '/ja/') {
           const label = route === '/' ? 'es' : 'ja';
-          await page.locator('#proyectos').screenshot({ path: path.join(out, `${label}-${width}-section.png`) });
-          if (route === '/' && width === 390) await page.locator('.figure-mobile').screenshot({ path: path.join(out, 'es-mobile-figure.png') });
-          if (route === '/' && width === 1440) await page.locator('.figure-desktop').screenshot({ path: path.join(out, 'es-desktop-figure.png') });
+          await page.locator('[data-project-case="residencias"]').screenshot({ path: path.join(out, `${label}-${width}-section.png`) });
+          if (route === '/' && width === 390) await page.locator('[data-project-case="residencias"] .figure-mobile').screenshot({ path: path.join(out, 'es-mobile-figure.png') });
+          if (route === '/' && width === 1440) await page.locator('[data-project-case="residencias"] .figure-desktop').screenshot({ path: path.join(out, 'es-desktop-figure.png') });
         }
         report.push({ route, width, ...data, resources });
         await page.close();

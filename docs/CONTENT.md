@@ -37,7 +37,7 @@ Ramiro aprobó el copy fuente español vigente y, tras el patch lingüístico de
 | Presentación breve de Ramiro y proceso | ES/EN/PT/FR/JA APPROVED |
 | Invitación al contacto / CTA | ES/EN/PT/FR/JA APPROVED |
 | Caso Residencias Grupo Casa | copy y estados ES/EN/PT/FR/JA aprobados; par real desktop/mobile, WebP y captions/alt finales aprobados e integrados en H6.B; hechos y assets en PROJECTS.md |
-| Caso LingoHive | seleccionado para H6.E tras demo externa sanitizada y desplegada; copy ES, traducciones EN/PT/FR/JA, captions/alt y créditos deben aprobarse antes de publicarlo; sin placeholder público |
+| Caso LingoHive | integrado en H6.E; demo histórica, copy/captions/alt ES/EN/PT/FR/JA, CTA y créditos visibles; hechos y permisos en PROJECTS.md, copy en `docs/locales/LINGOHIVE.md` |
 
 Los hechos, permisos, atribución, estado y límites de claims de proyectos pertenecen a PROJECTS.md. Esta tabla no autoriza por sí sola un asset o link concreto.
 
@@ -146,11 +146,13 @@ Puede incorporarse más adelante una nota personal breve y factual o una foto se
 
 ## Evidencia pública V1
 
-Residencias Grupo Casa es el caso actualmente implementado. H6 integrará también LingoHive después de preparar y verificar su demo externa. Ambos se presentan como resúmenes dentro del recorrido comercial principal, sin página dedicada.
+Residencias Grupo Casa y LingoHive son los casos implementados en Proyectos, en ese orden y sin páginas dedicadas. LingoHive aparece como demo histórica de un proyecto freelance anterior.
 
 El resumen debe incluir contexto, necesidad, responsabilidad de Ramiro, solución, capacidades demostradas, visuales reales y estado `en desarrollo`. El deployment ya está confirmado en <https://residenciasgrupocasa.com.ar/> y puede mostrarse la acción secundaria «Ver sitio». Los campos, claims y exclusiones concretos se rigen por PROJECTS.md.
 
-LingoHive se integrará en H6 después de Residencias bajo el mismo modelo editorial, una vez disponible la demo externa sanitizada y desplegada. Hasta entonces no debe aparecer como teaser, placeholder, navegación o espacio reservado. Su publicación depende de las precondiciones registradas en PROJECTS.md y debe acreditar visiblemente diseño de Juan Galache de Toro y desarrollo de Ramiro Garcia, sin sugerir que el emprendimiento sigue activo.
+LingoHive sigue el mismo modelo editorial, con enlace «Ver demo» a <https://lingo-hive.vercel.app/>. El copy declara que el proyecto fue real, que el negocio ya no está en actividad y que precios y testimonios son históricos. Los créditos visibles distinguen diseño e identidad visual de Juan Galache de Toro y desarrollo web de Ramiro Garcia.
+
+El wording localizado ES/EN/PT/FR/JA, los captions y los alt aprobados para H6.E están en `docs/locales/LINGOHIVE.md` y `src/content/locales.ts`. La síntesis tecnológica pública se limita a Astro 5 y Tailwind CSS 4.
 
 Además de los casos, son señales legítimas de confianza: la calidad observable de ramita.dev, el proceso como señal de orden, GitHub y datos técnicos vigentes dentro de contexto. No usar testimonios no verificables, logos sin contexto, métricas, porcentajes, años, badges como sustituto de evidencia, auditorías antiguas presentadas como actuales o resultados comerciales no medidos.
 
@@ -207,28 +209,25 @@ Fuente ES interna aprobada: «Mi idioma hablado es el español. En proyectos en 
 - email público, WhatsApp secundario confirmado y perfil público de GitHub;
 - repositorio público de LingoHive;
 - hechos, atribuciones, estados y permisos documentados en PROJECTS.md;
-- permiso general documentado para usar evidencia visual de Residencias y, sujeto a revisión por asset, de LingoHive.
+- permiso documentado para el par de screenshots de LingoHive aprobado en el handoff.
 
 El par del prototipo H4 en `prototypes/v2-h4/v2/assets/residencias/` queda como evidencia histórica. Ramiro aprobó para H6.B dos capturas reales del sitio vigente, sin residentes identificables: página Casa San Juan desktop y Home, sección «Nuestras residencias», mobile. Los assets públicos finales son `public/images/residencias-desktop.webp` (1440 × 900, 110.488 B) y `public/images/residencias-mobile.webp` (390 × 844, 40.126 B). Los captions/alt localizados vigentes están en `src/content/locales.ts` y `docs/locales/`; la sección visible en la captura mobile conserva su rótulo español en las cinco versiones. La selección y la comparación de bytes se registran en `qa/h6-residencias-candidates.md`.
+
+En H6.E se incorporó el par real del handoff de LingoHive: `public/images/lingohive-desktop.webp` (1440 × 900) y `public/images/lingohive-mobile.webp` (390 × 844). Los PNG fuente pesan 84.282 B y 43.556 B; los WebP finales y su reducción se documentan en `qa/h6e-results.json`. Se mantienen dimensiones explícitas y carga diferida.
 
 ### Needs selection
 
 - logos de Residencias y, sólo si aportan contexto, fotografías no identificables;
-- selección de UI y marca de LingoHive para H6.E, después de recibir la demo externa real y verificar permisos por asset;
 - tratamiento posterior del enlace de GitHub.
 
 ### Needs creation
 
 - favicon, app icons y social preview de ramita.dev en H6.F, sujetos a aprobación de identidad;
-- capturas reales y derivados de LingoHive para H6.E, una vez sanitizada y desplegada su demo;
 
-### Blocked
+### Remaining checks
 
 - claims técnicos actuales de Residencias hasta realizar las comprobaciones correspondientes;
-- deployment de LingoHive hasta completar la preparación externa, sanitización y reauditoría;
-- assets de terceros de LingoHive hasta verificar permisos específicos;
-- afirmar una versión histórica definitiva de LingoHive sin evidencia.
 
 ## Pendientes diferidos
 
-No existen gaps que bloqueen el cierre documental histórico de V2-H2/V2-H3. H3 resuelve estructura, navegación e intención responsive en DESIGN.md. El copy ES/EN/PT/FR/JA y el sistema visual vigentes se aprobaron en H4. Las capturas finales de Residencias quedaron integradas en H6.B; H6 aún debe integrar LingoHive y completar assets/SEO de integración. El QA integral pre-release permanece en H7 y la medición de producción en H8.
+No existen gaps que bloqueen el cierre documental histórico de V2-H2/V2-H3. H3 resuelve estructura, navegación e intención responsive en DESIGN.md. El copy ES/EN/PT/FR/JA y el sistema visual vigentes se aprobaron en H4; las capturas de Residencias y LingoHive están integradas en H6.B/H6.E. H6.F debe completar assets/SEO de integración. El QA integral pre-release permanece en H7 y la medición de producción en H8.

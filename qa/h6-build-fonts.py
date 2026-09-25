@@ -6,7 +6,7 @@ Sans/Variable/OTF/Subset/NotoSansJP-VF.otf, SIL OFL 1.1.
 Download URL: https://raw.githubusercontent.com/notofonts/noto-cjk/f8d157532fbfaeda587e826d4cd5b21a49186f7c/Sans/Variable/OTF/Subset/NotoSansJP-VF.otf
 Place the official source at qa/h6-noto-source.otf before running; its expected
 SHA-256 is 85e5ef353081175fb9f764f037c550dd4b5ad913cb030c0de98a5d4d4018014b.
-Re-run after the JA public copy changes, including H6.E LingoHive text.
+Re-run whenever JA public copy changes.
 """
 
 from __future__ import annotations
@@ -88,7 +88,7 @@ def main() -> None:
             {"path": str(instrument_path.relative_to(ROOT)), "bytes": instrument_path.stat().st_size, "sha256": sha256(instrument_path)},
             {"path": str(noto_path.relative_to(ROOT)), "bytes": noto_path.stat().st_size, "sha256": sha256(noto_path)},
         ],
-        "must_regenerate_after_h6e": True,
+        "must_regenerate_after_h6e": False,
     }
     (ROOT / "qa/h6-fonts-results.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(result, ensure_ascii=False, indent=2))

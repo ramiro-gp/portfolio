@@ -2,7 +2,7 @@
 
 ## Responsabilidad y estado activo
 
-Fuente de verdad para experiencia visual e interactiva aprobada. V2-H3 aprueba el UX comercial documentado abajo; V2-H4 aprueba el copy de cinco idiomas y el sistema visual estático; V2-H5 cierra la implementación funcional. H6.B fija el par exacto de capturas de Residencias. La decisión posterior de H6 añade LingoHive después de Residencias sólo cuando exista material real y aprobado; adaptar entonces Proyectos y su geometría sin rediseño especulativo previo. Las exclusiones de LingoHive en wireframes y auditorías H3 describen aquel estado histórico.
+Fuente de verdad para experiencia visual e interactiva aprobada. V2-H3 aprueba el UX comercial documentado abajo; V2-H4 aprueba el copy de cinco idiomas y el sistema visual estático; V2-H5 cierra la implementación funcional. H6.B fija el par exacto de capturas de Residencias. H6.E integra LingoHive después de Residencias con capturas reales, copy aprobado y créditos visibles, manteniendo el sistema editorial y la ruta aprobada. Las exclusiones de LingoHive en wireframes y auditorías H3 describen aquel estado histórico.
 El diseño debe ayudar a entender servicios, generar confianza, demostrar capacidad y contactar. La identidad sigue siendo personal.
 
 ### Cierre visual/funcional V2-H5 — 2026-09-24
@@ -171,6 +171,14 @@ No ampliar el requerimiento con motivaciones comerciales supuestas ni presentar 
 Desktop: contexto/requerimiento y responsabilidad/solución en dos columnas; debajo figura desktop de mayor superficie y mobile adyacente sin superposición, cada una con caption; capacidades cierran. Espacio suficiente para observar decisiones, sin pretender leer una página completa reducida. Encuadres exactos aprobados en H6.B; no agregar imágenes para completar una grilla.
 
 Mobile: nombre/tipo/estado → necesidad → responsabilidad/solución → figura mobile/caption → figura desktop/caption → capacidades. La mobile permite inspeccionar interfaz; desktop explica estructura general sin depender de textos internos legibles. Sin swipe obligatorio, carrusel, lightbox ni contenido revelado al tocar. Zoom nativo disponible.
+
+### LingoHive — caso resumido (H6.E)
+
+LingoHive continúa el caso editorial existente como segundo proyecto, sin grilla, tarjetas pequeñas, carrusel ni sección independiente. Se conserva el mismo tamaño de título, enlace secundario junto al estado, tratamiento de dos capturas y captions; un separador fino y espacio vertical distinguen el comienzo del nuevo caso.
+
+El texto identifica una demo histórica de un proyecto freelance real para una academia de inglés; informa que el negocio ya no está en actividad y que precios/testimonios son históricos. La acción es «Ver demo» y apunta a la URL Vercel confirmada. Los créditos van después de las capturas y separan «Diseño e identidad visual: Juan Galache de Toro» de «Desarrollo web: Ramiro Garcia». Las tecnologías se expresan como una línea editorial breve (Astro 5 · Tailwind CSS 4), sin badges.
+
+Mobile conserva el orden de figuras del caso anterior (mobile primero, desktop después); desktop conserva la figura desktop ancha y la mobile adyacente. Ambas imágenes declaran sus dimensiones originales y usan lazy loading. La línea existente toma el ancla de salida del bloque final de créditos del último caso; se mantienen ruta, dirección, grosores, nodos, curvas, scroll y reduced motion. La geometría se calcula del layout real en ambos modos.
 
 ### Ramiro y proceso integrado
 

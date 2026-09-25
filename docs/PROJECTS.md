@@ -259,9 +259,9 @@ sin evidencia verificable.
 
 ## Candidate status
 
-Estado V2: **SELECTED FOR H6 INTEGRATION — EXTERNAL DEMO PENDING**.
+Estado V2: **SELECTED — H6 CASE 2; INTEGRATED IN H6.E (2026-09-25)**.
 
-La decisión posterior de Ramiro incorpora LingoHive a Proyectos en V2-H6 después de preparar en otro repositorio una demo sanitizada y desplegada. No aparece como placeholder mientras se prepara. H6 no se cierra sin su integración, capturas reales, copy/traducciones aprobados y créditos visibles «Diseño: Juan Galache de Toro / Desarrollo: Ramiro Garcia».
+LingoHive está integrado como segundo caso de Proyectos, después de Residencias Grupo Casa. La demo histórica sanitizada está publicada en <https://lingo-hive.vercel.app/>. La atribución visible es «Diseño e identidad visual: Juan Galache de Toro / Desarrollo web: Ramiro Garcia».
 
 Evaluación histórica V1 preservada: **CANDIDATE WITH RESTORATION**
 
@@ -273,7 +273,7 @@ Recomendación:
 
 **RESTORE THEN REASSESS**
 
-La inclusión definitiva en V1 quedó pendiente históricamente y V2-H2 la difirió. La instrucción de H6 la selecciona ahora, sujeta a las precondiciones de publicación siguientes.
+La inclusión definitiva en V1 quedó pendiente históricamente y V2-H2 la difirió. La integración actual corresponde a V2-H6 y no reescribe esa historia.
 
 ## Client
 
@@ -282,6 +282,8 @@ Trabajo freelance para un cliente que contactó a Ramiro para crear la web de su
 ## Product
 
 Landing comercial para **LingoHive**, servicio/academia de clases conversacionales de inglés.
+
+La demo pública de H6.E conserva una muestra representativa del diseño y contenido del sitio original. LingoHive ya no está en actividad; precios y testimonios son históricos. No hay oferta vigente ni reserva.
 
 Assets reales identificados en la auditoría: marca, UI, testimonios y logos. Disponibilidad no equivale a autorización automática de reutilización.
 
@@ -310,7 +312,7 @@ Esto no demuestra un fallo del código.
 
 `https://github.com/ramiro-gp/LingoHive`
 
-Hechos verificados:
+Hechos de la auditoría histórica V1:
 - repo público;
 - branch principal `main`;
 - dos commits visibles;
@@ -325,10 +327,7 @@ Ramiro no cree que exista una versión posterior conservada.
 ## Ramiro's role
 
 Ramiro:
-- realizó todo el desarrollo;
-- implementó la web completa;
-- participó en decisiones de diseño;
-- llevó la dirección visual a código.
+- desarrolló el sitio web.
 
 ## Designer
 
@@ -346,17 +345,11 @@ No presentar LingoHive como diseño íntegramente realizado por Ramiro.
 
 ## Verified stack
 
-- Astro 5.x en la versión auditada
-- Tailwind CSS 4.x
-- React 19
-- GSAP
-- ScrollTrigger
-- Swiper
-- Three.js
-- Astro sitemap
-- Google Fonts / Poppins
+- Astro 5.18.2, salida estática, npm y Node 24 en la demo pública descrita en el handoff.
+- React 19 en islas; Tailwind CSS 4; GSAP 3; Three.js 0.178; Swiper 12.1.2.
+- Poppins v24 autoalojada. No hay formularios, backend, uploads, analytics, endpoint de optimización ni funciones de servidor.
 
-También existían dependencias no utilizadas o restos técnicos.
+Síntesis visible aprobada para ramita.dev: **Astro 5 · Tailwind CSS 4**. Se omite el resto del stack para mantener el tratamiento editorial y no convertirlo en badges.
 
 ## Technical evidence
 
@@ -415,7 +408,7 @@ No reutilizarlos automáticamente sólo porque existan en el repo.
 
 ## Restoration
 
-La preparación se realiza en el repositorio/chat de LingoHive antes de H6.E; la versión histórica auditada no se publica directamente.
+La preparación externa de H6.E está completa. La demo histórica sanitizada no es la versión original sin cambios; el handoff distingue el commit que respalda las capturas del commit final del proyecto.
 
 Antes de publicar un deployment restaurado:
 - revisar dependencias;
@@ -429,11 +422,13 @@ Antes de publicar un deployment restaurado:
 - metadata;
 - deployment.
 
-La demo sanitizada y desplegada, con permisos y contenido verificados, habilita su integración obligatoria en H6.E.
+Demo pública: <https://lingo-hive.vercel.app/>. URL, contenido histórico, atribuciones y capturas aprobadas constan en `C:\Codigo\LingoHive\handoff\README.md`.
 
 ## Portfolio treatment decidido para H6
 
-Resumen dentro de Proyectos, después de Residencias, con enlace a la demo sanitizada en Vercel, capturas reales, créditos visibles y estado explícito de demo de un trabajo anterior. La URL, versión, screenshots, assets autorizados y copy se confirman con la preparación externa; no se inventan ni publican antes.
+Resumen dentro de Proyectos, después de Residencias, con enlace «Ver demo», capturas reales desktop/mobile, copy ES/EN/PT/FR/JA y créditos visibles. Estado explícito: demo histórica de un proyecto freelance anterior.
+
+Las capturas públicas `public/images/lingohive-desktop.webp` (1440 × 900) y `public/images/lingohive-mobile.webp` (390 × 844) derivan del PNG aprobado en el handoff. El código y contenido que representan corresponde a `0609a18a39eef7a2a43a4b1e36615a68534462bc`; el commit final del repositorio del proyecto es `55563e241f38a18ede730f1851c45ba1ba510ebf`.
 
 ## Claims allowed
 
@@ -459,7 +454,7 @@ sin nueva verificación.
 
 - contexto como landing comercial para una academia/servicio de clases conversacionales de inglés;
 - naturaleza histórica del proyecto y estado actual de la evidencia;
-- responsabilidad de Ramiro en desarrollo completo, implementación y decisiones de diseño;
+- responsabilidad de Ramiro en desarrollo web;
 - atribución visible a Juan Galache de Toro como diseñador principal de logo, paleta y dirección visual;
 - solución y capacidades demostradas: implementación de dirección externa, frontend expresivo, interacción y motion;
 - visuales reales con permisos verificados;
@@ -483,16 +478,14 @@ sin nueva verificación.
 - deuda técnica histórica como contenido público;
 - claims técnicos basados sólo en la auditoría anterior.
 
-### Preconditions for publication
+### Preconditions for publication — H6.E verified
 
-- confirmar URL pública y estado de la demo restaurada y sanitizada;
-- identificar y conservar la versión exacta que respalda screenshots y claims;
-- verificar permisos por asset;
-- producir o seleccionar screenshots fieles;
-- revisar vigencia del contenido comercial;
-- si existe deployment, restaurar y reauditar dependencias, seguridad, reduced motion, accesibilidad, responsive, performance, metadata y funcionamiento;
-- si sólo se muestran screenshots, comprobar localmente la versión representada y no sugerir que el sitio está operativo;
-- aprobar copy y traducciones.
+- URL pública y estado de demo histórica confirmados en el handoff;
+- commit que representan las capturas y commit final registrados arriba;
+- capturas desktop y mobile aprobadas por Ramiro e integradas como WebP;
+- se informa que el proyecto no está en actividad y que precios/testimonios son históricos;
+- copy y localización ES/EN/PT/FR/JA integrados;
+- autoría de Juan Galache de Toro y Ramiro Garcia visible y localizada.
 
 # Project comparison
 
@@ -558,6 +551,5 @@ Profundidad aprobada para V1: resumen dentro del recorrido comercial principal. 
 # Open project decisions
 
 Pendientes:
-- qué screenshots exactos usar;
-- verificación actual de claims técnicos antes de publicación;
-- demo sanitizada y desplegada de LingoHive, versión exacta, permisos por asset, capturas reales y copy/traducciones aprobados antes de integrarlo obligatoriamente en H6.
+- verificación de claims técnicos actuales de Residencias antes de publicación final;
+- assets de marca y metadata/SEO de ramita.dev en H6.F.
