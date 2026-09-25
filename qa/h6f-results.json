@@ -1,0 +1,541 @@
+{
+  "pages": [
+    {
+      "route": "/",
+      "lang": "es",
+      "title": "ramita | Diseño y desarrollo web",
+      "description": {
+        "count": 1,
+        "value": "Diseño y desarrollo de sitios web nuevos y rediseños. Trabajo directo con Ramiro Garcia desde la definición hasta la publicación."
+      },
+      "canonical": {
+        "count": 1,
+        "value": "https://ramita.dev/"
+      },
+      "alternates": [
+        [
+          "es",
+          "https://ramita.dev/"
+        ],
+        [
+          "en",
+          "https://ramita.dev/en/"
+        ],
+        [
+          "pt",
+          "https://ramita.dev/pt/"
+        ],
+        [
+          "fr",
+          "https://ramita.dev/fr/"
+        ],
+        [
+          "ja",
+          "https://ramita.dev/ja/"
+        ],
+        [
+          "x-default",
+          "https://ramita.dev/"
+        ]
+      ],
+      "icons": [
+        [
+          "icon",
+          "/favicon.ico"
+        ],
+        [
+          "icon",
+          "/favicon.svg"
+        ],
+        [
+          "apple-touch-icon",
+          "/apple-touch-icon.png"
+        ]
+      ],
+      "og": {
+        "og:type": "website",
+        "og:url": "https://ramita.dev/",
+        "og:site_name": "ramita.dev",
+        "og:title": "Ramiro Garcia — Diseño y desarrollo de sitios web",
+        "og:description": "Sitios institucionales, landing pages y rediseños, con trato directo.",
+        "og:image": "https://ramita.dev/social/ramita-es.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "ramita.dev — Ramiro Garcia — Diseño y desarrollo de sitios web"
+      },
+      "twitter": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Ramiro Garcia — Diseño y desarrollo de sitios web",
+        "twitter:description": "Sitios institucionales, landing pages y rediseños, con trato directo.",
+        "twitter:image": "https://ramita.dev/social/ramita-es.png",
+        "twitter:image:alt": "ramita.dev — Ramiro Garcia — Diseño y desarrollo de sitios web"
+      },
+      "robots": {
+        "count": 0,
+        "value": ""
+      },
+      "jsonLd": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        }
+      ],
+      "cls": 0,
+      "overflow": 0,
+      "socialRequests": [],
+      "errors": []
+    },
+    {
+      "route": "/en/",
+      "lang": "en",
+      "title": "ramita | Web design & development",
+      "description": {
+        "count": 1,
+        "value": "Website design and development for new sites and redesigns. Work directly with Ramiro Garcia, from definition through publication."
+      },
+      "canonical": {
+        "count": 1,
+        "value": "https://ramita.dev/en/"
+      },
+      "alternates": [
+        [
+          "es",
+          "https://ramita.dev/"
+        ],
+        [
+          "en",
+          "https://ramita.dev/en/"
+        ],
+        [
+          "pt",
+          "https://ramita.dev/pt/"
+        ],
+        [
+          "fr",
+          "https://ramita.dev/fr/"
+        ],
+        [
+          "ja",
+          "https://ramita.dev/ja/"
+        ],
+        [
+          "x-default",
+          "https://ramita.dev/"
+        ]
+      ],
+      "icons": [
+        [
+          "icon",
+          "/favicon.ico"
+        ],
+        [
+          "icon",
+          "/favicon.svg"
+        ],
+        [
+          "apple-touch-icon",
+          "/apple-touch-icon.png"
+        ]
+      ],
+      "og": {
+        "og:type": "website",
+        "og:url": "https://ramita.dev/en/",
+        "og:site_name": "ramita.dev",
+        "og:title": "Ramiro Garcia — Website design and development",
+        "og:description": "Institutional websites, landing pages and redesigns, with a direct point of contact.",
+        "og:image": "https://ramita.dev/social/ramita-en.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "ramita.dev — Ramiro Garcia — Website design and development"
+      },
+      "twitter": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Ramiro Garcia — Website design and development",
+        "twitter:description": "Institutional websites, landing pages and redesigns, with a direct point of contact.",
+        "twitter:image": "https://ramita.dev/social/ramita-en.png",
+        "twitter:image:alt": "ramita.dev — Ramiro Garcia — Website design and development"
+      },
+      "robots": {
+        "count": 0,
+        "value": ""
+      },
+      "jsonLd": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        }
+      ],
+      "cls": 0,
+      "overflow": 0,
+      "socialRequests": [],
+      "errors": []
+    },
+    {
+      "route": "/pt/",
+      "lang": "pt",
+      "title": "ramita | Design e desenvolvimento web",
+      "description": {
+        "count": 1,
+        "value": "Design e desenvolvimento de sites novos e redesigns. Trabalho direto com Ramiro Garcia, da definição à publicação."
+      },
+      "canonical": {
+        "count": 1,
+        "value": "https://ramita.dev/pt/"
+      },
+      "alternates": [
+        [
+          "es",
+          "https://ramita.dev/"
+        ],
+        [
+          "en",
+          "https://ramita.dev/en/"
+        ],
+        [
+          "pt",
+          "https://ramita.dev/pt/"
+        ],
+        [
+          "fr",
+          "https://ramita.dev/fr/"
+        ],
+        [
+          "ja",
+          "https://ramita.dev/ja/"
+        ],
+        [
+          "x-default",
+          "https://ramita.dev/"
+        ]
+      ],
+      "icons": [
+        [
+          "icon",
+          "/favicon.ico"
+        ],
+        [
+          "icon",
+          "/favicon.svg"
+        ],
+        [
+          "apple-touch-icon",
+          "/apple-touch-icon.png"
+        ]
+      ],
+      "og": {
+        "og:type": "website",
+        "og:url": "https://ramita.dev/pt/",
+        "og:site_name": "ramita.dev",
+        "og:title": "Ramiro Garcia — Design e desenvolvimento de sites",
+        "og:description": "Sites institucionais, landing pages e redesigns, com contato direto.",
+        "og:image": "https://ramita.dev/social/ramita-pt.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "ramita.dev — Ramiro Garcia — Design e desenvolvimento de sites"
+      },
+      "twitter": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Ramiro Garcia — Design e desenvolvimento de sites",
+        "twitter:description": "Sites institucionais, landing pages e redesigns, com contato direto.",
+        "twitter:image": "https://ramita.dev/social/ramita-pt.png",
+        "twitter:image:alt": "ramita.dev — Ramiro Garcia — Design e desenvolvimento de sites"
+      },
+      "robots": {
+        "count": 0,
+        "value": ""
+      },
+      "jsonLd": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        }
+      ],
+      "cls": 0,
+      "overflow": 0,
+      "socialRequests": [],
+      "errors": []
+    },
+    {
+      "route": "/fr/",
+      "lang": "fr",
+      "title": "ramita | Design et développement web",
+      "description": {
+        "count": 1,
+        "value": "Conception et développement de nouveaux sites web et refontes. Un travail direct avec Ramiro Garcia, de la définition à la mise en ligne."
+      },
+      "canonical": {
+        "count": 1,
+        "value": "https://ramita.dev/fr/"
+      },
+      "alternates": [
+        [
+          "es",
+          "https://ramita.dev/"
+        ],
+        [
+          "en",
+          "https://ramita.dev/en/"
+        ],
+        [
+          "pt",
+          "https://ramita.dev/pt/"
+        ],
+        [
+          "fr",
+          "https://ramita.dev/fr/"
+        ],
+        [
+          "ja",
+          "https://ramita.dev/ja/"
+        ],
+        [
+          "x-default",
+          "https://ramita.dev/"
+        ]
+      ],
+      "icons": [
+        [
+          "icon",
+          "/favicon.ico"
+        ],
+        [
+          "icon",
+          "/favicon.svg"
+        ],
+        [
+          "apple-touch-icon",
+          "/apple-touch-icon.png"
+        ]
+      ],
+      "og": {
+        "og:type": "website",
+        "og:url": "https://ramita.dev/fr/",
+        "og:site_name": "ramita.dev",
+        "og:title": "Ramiro Garcia — Conception et développement de sites web",
+        "og:description": "Sites institutionnels, landing pages et refontes, avec un interlocuteur direct.",
+        "og:image": "https://ramita.dev/social/ramita-fr.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "ramita.dev — Ramiro Garcia — Conception et développement de sites web"
+      },
+      "twitter": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Ramiro Garcia — Conception et développement de sites web",
+        "twitter:description": "Sites institutionnels, landing pages et refontes, avec un interlocuteur direct.",
+        "twitter:image": "https://ramita.dev/social/ramita-fr.png",
+        "twitter:image:alt": "ramita.dev — Ramiro Garcia — Conception et développement de sites web"
+      },
+      "robots": {
+        "count": 0,
+        "value": ""
+      },
+      "jsonLd": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        }
+      ],
+      "cls": 0,
+      "overflow": 0,
+      "socialRequests": [],
+      "errors": []
+    },
+    {
+      "route": "/ja/",
+      "lang": "ja",
+      "title": "ramita | Webデザイン・開発",
+      "description": {
+        "count": 1,
+        "value": "新規サイトとリニューアルのデザイン・開発。Ramiro Garcia が構想の整理から公開まで直接対応します。"
+      },
+      "canonical": {
+        "count": 1,
+        "value": "https://ramita.dev/ja/"
+      },
+      "alternates": [
+        [
+          "es",
+          "https://ramita.dev/"
+        ],
+        [
+          "en",
+          "https://ramita.dev/en/"
+        ],
+        [
+          "pt",
+          "https://ramita.dev/pt/"
+        ],
+        [
+          "fr",
+          "https://ramita.dev/fr/"
+        ],
+        [
+          "ja",
+          "https://ramita.dev/ja/"
+        ],
+        [
+          "x-default",
+          "https://ramita.dev/"
+        ]
+      ],
+      "icons": [
+        [
+          "icon",
+          "/favicon.ico"
+        ],
+        [
+          "icon",
+          "/favicon.svg"
+        ],
+        [
+          "apple-touch-icon",
+          "/apple-touch-icon.png"
+        ]
+      ],
+      "og": {
+        "og:type": "website",
+        "og:url": "https://ramita.dev/ja/",
+        "og:site_name": "ramita.dev",
+        "og:title": "Ramiro Garcia — ウェブサイトのデザインと開発",
+        "og:description": "企業・団体サイト、ランディングページ、リニューアルに直接対応します。",
+        "og:image": "https://ramita.dev/social/ramita-ja.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "ramita.dev — Ramiro Garcia — ウェブサイトのデザインと開発"
+      },
+      "twitter": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Ramiro Garcia — ウェブサイトのデザインと開発",
+        "twitter:description": "企業・団体サイト、ランディングページ、リニューアルに直接対応します。",
+        "twitter:image": "https://ramita.dev/social/ramita-ja.png",
+        "twitter:image:alt": "ramita.dev — Ramiro Garcia — ウェブサイトのデザインと開発"
+      },
+      "robots": {
+        "count": 0,
+        "value": ""
+      },
+      "jsonLd": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        }
+      ],
+      "cls": 0,
+      "overflow": 0,
+      "socialRequests": [],
+      "errors": []
+    }
+  ],
+  "assets": {
+    "favicon.ico": {
+      "bytes": 2355,
+      "contentType": "image/x-icon",
+      "sizes": [
+        16,
+        32,
+        64
+      ]
+    },
+    "favicon.svg": {
+      "bytes": 970,
+      "contentType": "image/svg+xml"
+    },
+    "apple-touch-icon.png": {
+      "bytes": 2253,
+      "contentType": "image/png"
+    },
+    "social/ramita-es.png": {
+      "bytes": 75616,
+      "contentType": "image/png",
+      "dimensions": {
+        "width": 1200,
+        "height": 630,
+        "bytes": 75616
+      }
+    },
+    "social/ramita-en.png": {
+      "bytes": 74788,
+      "contentType": "image/png",
+      "dimensions": {
+        "width": 1200,
+        "height": 630,
+        "bytes": 74788
+      }
+    },
+    "social/ramita-pt.png": {
+      "bytes": 60098,
+      "contentType": "image/png",
+      "dimensions": {
+        "width": 1200,
+        "height": 630,
+        "bytes": 60098
+      }
+    },
+    "social/ramita-fr.png": {
+      "bytes": 66619,
+      "contentType": "image/png",
+      "dimensions": {
+        "width": 1200,
+        "height": 630,
+        "bytes": 66619
+      }
+    },
+    "social/ramita-ja.png": {
+      "bytes": 68412,
+      "contentType": "image/png",
+      "dimensions": {
+        "width": 1200,
+        "height": 630,
+        "bytes": 68412
+      }
+    }
+  },
+  "sitemap": {
+    "errors": 0,
+    "locs": [
+      "https://ramita.dev/",
+      "https://ramita.dev/en/",
+      "https://ramita.dev/pt/",
+      "https://ramita.dev/fr/",
+      "https://ramita.dev/ja/"
+    ],
+    "lastmod": 0
+  },
+  "javascriptBytes": 18629,
+  "projectImages": [
+    "lingohive-desktop.webp",
+    "lingohive-mobile.webp",
+    "residencias-desktop.webp",
+    "residencias-mobile.webp"
+  ]
+}

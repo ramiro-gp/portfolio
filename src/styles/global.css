@@ -154,3 +154,4 @@ html.js-ready .site-header[data-open][data-closing]{animation:menu-close-visible
 @keyframes menu-close-visible{from{clip-path:circle(var(--menu-close-radius,150vmax) at var(--menu-origin-x,90%) var(--menu-origin-y,36px))}to{clip-path:circle(0 at var(--menu-origin-x,90%) var(--menu-origin-y,36px))}}
 .word-current,.word-char{margin-inline:-.055em;padding-inline:.055em}
 @media(max-width:479px){.word-current{max-width:calc(100% + .11em)}}
+.brand-dot{color:var(--accent)}

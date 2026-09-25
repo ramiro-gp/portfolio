@@ -1,0 +1,350 @@
+[
+  {
+    "viewport": "desktop",
+    "theme": "light",
+    "accent": "light-green",
+    "accentColor": "rgb(23, 104, 68)",
+    "headerLabel": "ramita.dev, inicio",
+    "header": {
+      "text": "ramita.dev",
+      "x": 96,
+      "y": 14,
+      "width": 96.421875,
+      "height": 44,
+      "font": "600 21px \"Instrument Sans\", Arial, sans-serif",
+      "letterSpacing": "-0.84px",
+      "textColor": "rgb(32, 36, 33)",
+      "dotColor": "rgb(23, 104, 68)"
+    },
+    "footer": {
+      "text": "ramita.dev",
+      "x": 96,
+      "y": 8876.40625,
+      "width": 72.203125,
+      "height": 19,
+      "font": "15px \"Instrument Sans\", Arial, sans-serif",
+      "letterSpacing": "normal",
+      "textColor": "rgb(85, 91, 85)",
+      "dotColor": "rgb(23, 104, 68)"
+    }
+  },
+  {
+    "viewport": "desktop",
+    "theme": "light",
+    "accent": "light-blue",
+    "accentColor": "rgb(28, 87, 190)",
+    "headerLabel": "ramita.dev, inicio",
+    "header": {
+      "text": "ramita.dev",
+      "x": 96,
+      "y": 14,
+      "width": 96.421875,
+      "height": 44,
+      "font": "600 21px \"Instrument Sans\", Arial, sans-serif",
+      "letterSpacing": "-0.84px",
+      "textColor": "rgb(32, 36, 33)",
+      "dotColor": "rgb(28, 87, 190)"
+    },
+    "footer": {
+      "text": "ramita.dev",
+      "x": 96,
+      "y": 8876.40625,
+      "width": 72.203125,
+      "height": 19,
+      "font": "15px \"Instrument Sans\", Arial, sans-serif",
+      "letterSpacing": "normal",
+      "textColor": "rgb(85, 91, 85)",
+      "dotColor": "rgb(28, 87, 190)"
+    }
+  },
+  {
+    "viewport": "desktop",
+    "theme": "light",
+    "accent": "light-violet",
+    "accentColor": "rgb(109, 66, 170)",
+    "headerLabel": "ramita.dev, inicio",
+    "header": {
+      "text": "ramita.dev",
+      "x": 96,
+      "y": 14,
+      "width": 96.421875,
+      "height": 44,
+      "font": "600 21px \"Instrument Sans\", Arial, sans-serif",
+      "letterSpacing": "-0.84px",
+      "textColor": "rgb(32, 36, 33)",
+      "dotColor": "rgb(109, 66, 170)"
+    },
+    "footer": {
+      "text": "ramita.dev",
+      "x": 96,
+      "y": 8876.40625,
+      "width": 72.203125,
+      "height": 19,
+      "font": "15px \"Instrument Sans\", Arial, sans-serif",
+      "letterSpacing": "normal",
+      "textColor": "rgb(85, 91, 85)",
+      "dotColor": "rgb(109, 66, 170)"
+    }
+  },
+  {
+    "viewport": "desktop",
+    "theme": "dark",
+    "accent": "dark-orange",
+    "accentColor": "rgb(255, 155, 88)",
+    "headerLabel": "ramita.dev, inicio",
+    "header": {
+      "text": "ramita.dev",
+      "x": 96,
+      "y": 14,
+      "width": 96.421875,
+      "height": 44,
+      "font": "600 21px \"Instrument Sans\", Arial, sans-serif",
+      "letterSpacing": "-0.84px",
+      "textColor": "rgb(241, 240, 236)",
+      "dotColor": "rgb(255, 155, 88)"
+    },
+    "footer": {
+      "text": "ramita.dev",
+      "x": 96,
+      "y": 8876.40625,
+      "width": 72.203125,
+      "height": 19,
+      "font": "15px \"Instrument Sans\", Arial, sans-serif",
+      "letterSpacing": "normal",
+      "textColor": "rgb(170, 175, 169)",
+      "dotColor": "rgb(255, 155, 88)"
+    }
+  },
+  {
+    "viewport": "desktop",
+    "theme": "dark",
+    "accent": "dark-blue",
+    "accentColor": "rgb(120, 207, 252)",
+    "headerLabel": "ramita.dev, inicio",
+    "header": {
+      "text": "ramita.dev",
+      "x": 96,
+      "y": 14,
+      "width": 96.421875,
+      "height": 44,
+      "font": "600 21px \"Instrument Sans\", Arial, sans-serif",
+      "letterSpacing": "-0.84px",
+      "textColor": "rgb(241, 240, 236)",
+      "dotColor": "rgb(120, 207, 252)"
+    },
+    "footer": {
+      "text": "ramita.dev",
+      "x": 96,
+      "y": 8876.40625,
+      "width": 72.203125,
+      "height": 19,
+      "font": "15px \"Instrument Sans\", Arial, sans-serif",
+      "letterSpacing": "normal",
+      "textColor": "rgb(170, 175, 169)",
+      "dotColor": "rgb(120, 207, 252)"
+    }
+  },
+  {
+    "viewport": "desktop",
+    "theme": "dark",
+    "accent": "dark-fuchsia",
+    "accentColor": "rgb(245, 138, 205)",
+    "headerLabel": "ramita.dev, inicio",
+    "header": {
+      "text": "ramita.dev",
+      "x": 96,
+      "y": 14,
+      "width": 96.421875,
+      "height": 44,
+      "font": "600 21px \"Instrument Sans\", Arial, sans-serif",
+      "letterSpacing": "-0.84px",
+      "textColor": "rgb(241, 240, 236)",
+      "dotColor": "rgb(245, 138, 205)"
+    },
+    "footer": {
+      "text": "ramita.dev",
+      "x": 96,
+      "y": 8876.40625,
+      "width": 72.203125,
+      "height": 19,
+      "font": "15px \"Instrument Sans\", Arial, sans-serif",
+      "letterSpacing": "normal",
+      "textColor": "rgb(170, 175, 169)",
+      "dotColor": "rgb(245, 138, 205)"
+    }
+  },
+  {
+    "viewport": "mobile",
+    "theme": "light",
+    "accent": "light-green",
+    "accentColor": "rgb(23, 104, 68)",
+    "headerLabel": "ramita.dev, inicio",
+    "header": {
+      "text": "ramita.dev",
+      "x": 27,
+      "y": 8,
+      "width": 91.84375,
+      "height": 44,
+      "font": "600 20px \"Instrument Sans\", Arial, sans-serif",
+      "letterSpacing": "-0.8px",
+      "textColor": "rgb(32, 36, 33)",
+      "dotColor": "rgb(23, 104, 68)"
+    },
+    "footer": {
+      "text": "ramita.dev",
+      "x": 27,
+      "y": 8978.65625,
+      "width": 72.203125,
+      "height": 19,
+      "font": "15px \"Instrument Sans\", Arial, sans-serif",
+      "letterSpacing": "normal",
+      "textColor": "rgb(85, 91, 85)",
+      "dotColor": "rgb(23, 104, 68)"
+    }
+  },
+  {
+    "viewport": "mobile",
+    "theme": "light",
+    "accent": "light-blue",
+    "accentColor": "rgb(28, 87, 190)",
+    "headerLabel": "ramita.dev, inicio",
+    "header": {
+      "text": "ramita.dev",
+      "x": 27,
+      "y": 8,
+      "width": 91.84375,
+      "height": 44,
+      "font": "600 20px \"Instrument Sans\", Arial, sans-serif",
+      "letterSpacing": "-0.8px",
+      "textColor": "rgb(32, 36, 33)",
+      "dotColor": "rgb(28, 87, 190)"
+    },
+    "footer": {
+      "text": "ramita.dev",
+      "x": 27,
+      "y": 8978.65625,
+      "width": 72.203125,
+      "height": 19,
+      "font": "15px \"Instrument Sans\", Arial, sans-serif",
+      "letterSpacing": "normal",
+      "textColor": "rgb(85, 91, 85)",
+      "dotColor": "rgb(28, 87, 190)"
+    }
+  },
+  {
+    "viewport": "mobile",
+    "theme": "light",
+    "accent": "light-violet",
+    "accentColor": "rgb(109, 66, 170)",
+    "headerLabel": "ramita.dev, inicio",
+    "header": {
+      "text": "ramita.dev",
+      "x": 27,
+      "y": 8,
+      "width": 91.84375,
+      "height": 44,
+      "font": "600 20px \"Instrument Sans\", Arial, sans-serif",
+      "letterSpacing": "-0.8px",
+      "textColor": "rgb(32, 36, 33)",
+      "dotColor": "rgb(109, 66, 170)"
+    },
+    "footer": {
+      "text": "ramita.dev",
+      "x": 27,
+      "y": 8978.65625,
+      "width": 72.203125,
+      "height": 19,
+      "font": "15px \"Instrument Sans\", Arial, sans-serif",
+      "letterSpacing": "normal",
+      "textColor": "rgb(85, 91, 85)",
+      "dotColor": "rgb(109, 66, 170)"
+    }
+  },
+  {
+    "viewport": "mobile",
+    "theme": "dark",
+    "accent": "dark-orange",
+    "accentColor": "rgb(255, 155, 88)",
+    "headerLabel": "ramita.dev, inicio",
+    "header": {
+      "text": "ramita.dev",
+      "x": 27,
+      "y": 8,
+      "width": 91.84375,
+      "height": 44,
+      "font": "600 20px \"Instrument Sans\", Arial, sans-serif",
+      "letterSpacing": "-0.8px",
+      "textColor": "rgb(241, 240, 236)",
+      "dotColor": "rgb(255, 155, 88)"
+    },
+    "footer": {
+      "text": "ramita.dev",
+      "x": 27,
+      "y": 8978.65625,
+      "width": 72.203125,
+      "height": 19,
+      "font": "15px \"Instrument Sans\", Arial, sans-serif",
+      "letterSpacing": "normal",
+      "textColor": "rgb(170, 175, 169)",
+      "dotColor": "rgb(255, 155, 88)"
+    }
+  },
+  {
+    "viewport": "mobile",
+    "theme": "dark",
+    "accent": "dark-blue",
+    "accentColor": "rgb(120, 207, 252)",
+    "headerLabel": "ramita.dev, inicio",
+    "header": {
+      "text": "ramita.dev",
+      "x": 27,
+      "y": 8,
+      "width": 91.84375,
+      "height": 44,
+      "font": "600 20px \"Instrument Sans\", Arial, sans-serif",
+      "letterSpacing": "-0.8px",
+      "textColor": "rgb(241, 240, 236)",
+      "dotColor": "rgb(120, 207, 252)"
+    },
+    "footer": {
+      "text": "ramita.dev",
+      "x": 27,
+      "y": 8978.65625,
+      "width": 72.203125,
+      "height": 19,
+      "font": "15px \"Instrument Sans\", Arial, sans-serif",
+      "letterSpacing": "normal",
+      "textColor": "rgb(170, 175, 169)",
+      "dotColor": "rgb(120, 207, 252)"
+    }
+  },
+  {
+    "viewport": "mobile",
+    "theme": "dark",
+    "accent": "dark-fuchsia",
+    "accentColor": "rgb(245, 138, 205)",
+    "headerLabel": "ramita.dev, inicio",
+    "header": {
+      "text": "ramita.dev",
+      "x": 27,
+      "y": 8,
+      "width": 91.84375,
+      "height": 44,
+      "font": "600 20px \"Instrument Sans\", Arial, sans-serif",
+      "letterSpacing": "-0.8px",
+      "textColor": "rgb(241, 240, 236)",
+      "dotColor": "rgb(245, 138, 205)"
+    },
+    "footer": {
+      "text": "ramita.dev",
+      "x": 27,
+      "y": 8978.65625,
+      "width": 72.203125,
+      "height": 19,
+      "font": "15px \"Instrument Sans\", Arial, sans-serif",
+      "letterSpacing": "normal",
+      "textColor": "rgb(170, 175, 169)",
+      "dotColor": "rgb(245, 138, 205)"
+    }
+  }
+]

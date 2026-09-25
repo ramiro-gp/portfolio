@@ -180,6 +180,12 @@ El texto identifica una demo histórica de un proyecto freelance real para una a
 
 Mobile conserva el orden de figuras del caso anterior (mobile primero, desktop después); desktop conserva la figura desktop ancha y la mobile adyacente. Ambas imágenes declaran sus dimensiones originales y usan lazy loading. La línea existente toma el ancla de salida del bloque final de créditos del último caso; se mantienen ruta, dirección, grosores, nodos, curvas, scroll y reduced motion. La geometría se calcula del layout real en ambos modos.
 
+### H6.F — identidad en browser y previews sociales (render aprobado)
+
+Ramiro eligió `r.` a partir de la palabra existente `ramita.dev` como concepto de favicon, y una imagen social con la oferta localizada como foco. El render usa Instrument Sans en contornos para el icono, y tipografía local para cinco PNG de 1200 × 630. Fondo papel `#f5f4f0`, texto carbón `#202421` y acento verde `#176844` fijos; la composición se lee en chrome claro y oscuro y en miniaturas. La imagen social contiene sólo `ramita.dev`, la frase de servicio aprobada por idioma, `Ramiro Garcia` y un tramo discreto de la línea con nodo; no usa fotografías, capturas de proyectos ni un logo nuevo. Ramiro aprobó explícitamente los renders de favicon, icono Apple y las cinco imágenes sociales el 2026-09-25; las vistas están en `qa/h6f/`.
+
+El punto de `ramita.dev` en Header y Footer usa el token `var(--accent)` en CSS, con la tipografía, medidas y geometría comprobadas sin cambios. La actualización acompaña inmediatamente el accent activo en Light y Dark, sin JavaScript adicional.
+
 ### Ramiro y proceso integrado
 
 Dos partes próximas: quién realiza el trabajo (independiente, trato directo, frontend, full stack cuando corresponde, UX/UI y producto) y cómo trabaja. Perfil/proceso pueden ser dos columnas desktop; mobile coloca perfil seguido del proceso compacto, en exploración editorial H4.

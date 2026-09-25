@@ -88,7 +88,7 @@ de la ruta activa. La elección persiste mediante URL, historial y marcadores;
 no hace falta `localStorage` de idioma. Metadata localizada, canonical propio y
 `hreflang` enlazan las cinco versiones. El copy de las cinco lenguas está aprobado en H4; la integración y QA de rutas son posteriores. La nota de comunicación aparece únicamente en EN/PT/FR/JA, localizada y discreta en About; no se renderiza en ES. Los cinco idiomas mantienen la misma oferta, límites, caso, contacto, metadata y estados.
 
-La fuente local Instrument Sans carece de glifos japoneses según su `cmap` (muestras 日、本、語、あ、ポ). La solución tipográfica H4 fija Noto Sans JP como fallback sólo para caracteres japoneses, con Instrument Sans primero para latín. H6.C sustituye los TTF públicos por WOFF2 autoalojados: Instrument Sans variable 400–700, precargada según la evidencia de CLS H5; Noto Sans JP variable 400–600, sin preload y con subset del corpus JA público actual. Ambas usan `font-display: swap`; Noto sólo se descarga en JA. La fuente Noto oficial, versión 2.004 y licencia OFL, quedó fijada por hash en `qa/h6-build-fonts.py`; el subset debe regenerarse al aprobar el contenido japonés de LingoHive en H6.E. La verificación local inicial de H6.C está en `qa/h6-font-results.json` y no sustituye las mediciones del deployment real.
+La fuente local Instrument Sans carece de glifos japoneses según su `cmap` (muestras 日、本、語、あ、ポ). La solución tipográfica H4 fija Noto Sans JP como fallback sólo para caracteres japoneses, con Instrument Sans primero para latín. H6.C sustituye los TTF públicos por WOFF2 autoalojados: Instrument Sans variable 400–700, precargada según la evidencia de CLS H5; Noto Sans JP variable 400–600, sin preload y con subset del corpus JA público actual. Ambas usan `font-display: swap`; Noto sólo se descarga en JA. La fuente Noto oficial, versión 2.004 y licencia OFL, quedó fijada por hash en `qa/h6-build-fonts.py`; el subset se regeneró al aprobar el contenido japonés de LingoHive en H6.E. La verificación local inicial de H6.C está en `qa/h6-font-results.json` y no sustituye las mediciones del deployment real.
 
 ## Accesibilidad
 
@@ -198,6 +198,8 @@ Requerido:
 - JSON-LD `Person` con nombre, URL y GitHub confirmados, preparado en H5 sin inventar estructura empresarial.
 
 No inventar perfiles sociales.
+
+Integración H6.F completa: `favicon.svg` autónomo con contornos de Instrument Sans; `favicon.ico` raster 16/32/64; `apple-touch-icon.png` 180; cinco PNG Open Graph localizados de 1200 × 630. Ramiro aprobó visualmente los iconos e imágenes sociales el 2026-09-25. No se introduce manifest ni instalación PWA. El head conserva las cinco metadata textuales y canonical/hreflang actuales, añade las URLs absolutas de imagen y sus propiedades Open Graph/Twitter. `src/pages/sitemap.xml.ts` genera en build estática las cinco rutas canónicas desde el mapa de locales y `Astro.site`; `public/robots.txt` permite rastreo y señala ese sitemap. Header/Footer colorean únicamente el punto de `ramita.dev` con `var(--accent)`; CSS resuelve el cambio inmediatamente al elegir otro accent en Light o Dark, sin JS nuevo. Hosting, DNS, HTTPS y comprobación pública permanecen en H8.
 
 ## Analytics
 

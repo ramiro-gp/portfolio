@@ -5,6 +5,8 @@ import '../styles/global.css';
 const { locale } = Astro.props as { locale: LocaleCode };
 const t = copy[locale];
 const canonical = new URL(routes[locale], 'https://ramita.dev').href;
+const socialImage = new URL(`/social/ramita-${locale}.png`, Astro.site).href;
+const socialImageAlt = `ramita.dev — ${t.socialTitle}`;
 const person = {
   '@context': 'https://schema.org',
   '@type': 'Person',
@@ -20,6 +22,9 @@ const person = {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="light dark" />
     <link rel="preload" href="/fonts/InstrumentSans.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16 32x32 64x64" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" sizes="any" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
     <title>{t.metaTitle}</title>
     <meta name="description" content={t.metaDescription} />
     <link rel="canonical" href={canonical} />
@@ -27,8 +32,19 @@ const person = {
     <link rel="alternate" hreflang="x-default" href="https://ramita.dev/" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content="ramita.dev" />
     <meta property="og:title" content={t.socialTitle} />
     <meta property="og:description" content={t.socialDescription} />
+    <meta property="og:image" content={socialImage} />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={socialImageAlt} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={t.socialTitle} />
+    <meta name="twitter:description" content={t.socialDescription} />
+    <meta name="twitter:image" content={socialImage} />
+    <meta name="twitter:image:alt" content={socialImageAlt} />
     <script type="application/ld+json" set:html={JSON.stringify(person)} />
     <script is:inline>
       (() => {

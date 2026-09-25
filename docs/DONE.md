@@ -67,8 +67,8 @@
 - [ ] No existen keys ni rutas faltantes.
 - [ ] El copy final de los cinco idiomas (ES/EN/PT/FR/JA) fue revisado y aprobado por el usuario.
 - [ ] No hay mezcla accidental de idiomas.
-- [ ] Metadata localizada.
-- [ ] hreflang/canonical correctos.
+- [x] Metadata localizada.
+- [x] hreflang/canonical correctos.
 
 ## Responsive
 
@@ -112,14 +112,16 @@ QA visual y funcional aprobado en:
 
 ## SEO / sharing
 
-- [ ] title/description reales.
-- [ ] canonical.
-- [ ] hreflang.
-- [ ] sitemap.
-- [ ] robots.
-- [ ] favicon/icons.
-- [ ] Open Graph.
-- [ ] social preview revisada.
+- [x] title/description reales.
+- [x] canonical.
+- [x] hreflang.
+- [x] sitemap.
+- [x] robots.
+- [x] favicon/icons.
+- [x] Open Graph.
+- [x] social preview revisada.
+
+H6.F: favicon/icons y preview social están implementados, pasaron QA técnico y Ramiro aprobó visualmente los renders el 2026-09-25. La comprobación pública de indexabilidad, assets y metadata corresponde a H8.
 
 ## Performance en producción
 

@@ -220,9 +220,10 @@ En H6.E se incorporó el par real del handoff de LingoHive: `public/images/lingo
 - logos de Residencias y, sólo si aportan contexto, fotografías no identificables;
 - tratamiento posterior del enlace de GitHub.
 
-### Needs creation
+### H6.F assets aprobados
 
-- favicon, app icons y social preview de ramita.dev en H6.F, sujetos a aprobación de identidad;
+- `favicon.svg`, `favicon.ico` y `apple-touch-icon.png` derivan de `r.` en Instrument Sans y la paleta aprobada; las cinco imágenes `public/social/ramita-{es,en,pt,fr,ja}.png` muestran `ramita.dev`, la formulación localizada aprobada de la oferta y `Ramiro Garcia`.
+- Ramiro aprobó visualmente el favicon, el icono Apple y las cinco imágenes sociales el 2026-09-25. La metadata textual vigente no cambia.
 
 ### Remaining checks
 
@@ -230,4 +231,4 @@ En H6.E se incorporó el par real del handoff de LingoHive: `public/images/lingo
 
 ## Pendientes diferidos
 
-No existen gaps que bloqueen el cierre documental histórico de V2-H2/V2-H3. H3 resuelve estructura, navegación e intención responsive en DESIGN.md. El copy ES/EN/PT/FR/JA y el sistema visual vigentes se aprobaron en H4; las capturas de Residencias y LingoHive están integradas en H6.B/H6.E. H6.F debe completar assets/SEO de integración. El QA integral pre-release permanece en H7 y la medición de producción en H8.
+No existen gaps que bloqueen el cierre documental histórico de V2-H2/V2-H3. H3 resuelve estructura, navegación e intención responsive en DESIGN.md. El copy ES/EN/PT/FR/JA y el sistema visual vigentes se aprobaron en H4; las capturas de Residencias y LingoHive están integradas en H6.B/H6.E. H6.F tiene assets y SEO técnico implementados, validados y aprobados visualmente; el QA integral pre-release permanece en H7 y la medición de producción en H8.

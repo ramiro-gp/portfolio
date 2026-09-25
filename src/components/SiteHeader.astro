@@ -19,7 +19,7 @@ const accents = [
 <a class="skip-link" href="#main">{t.skip}</a>
 <header class="site-header" data-menu-root>
   <div class="header-inner rail">
-    <a class="brand" href={`${routes[locale]}#inicio`} aria-label={t.brandLabel}>ramita.dev</a>
+    <a class="brand" href={`${routes[locale]}#inicio`} aria-label={t.brandLabel}><span>ramita<span class="brand-dot">.</span>dev</span></a>
     <details class="menu-shell" data-menu>
       <summary class="menu-trigger" aria-controls="site-menu" data-close-label={t.closeMenu}><span data-menu-label>{t.menu}</span><span class="menu-glyph" aria-hidden="true"></span></summary>
       <div class="menu-panel" id="site-menu" aria-label={t.navLabel}>
