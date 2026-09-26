@@ -89,6 +89,14 @@ async function state(page) {
         readPairs('[data-line-end-pulse]', '[data-line-inverse-end-pulse]'),
       ],
       pulseAnimation: getComputedStyle(svg.querySelector('[data-line-inverse-start-pulse]')).animationName,
+      pulseDuration: getComputedStyle(svg.querySelector('[data-line-inverse-start-pulse]')).animationDuration,
+      baseEndPulseDuration: getComputedStyle(svg.querySelector('[data-line-end-pulse]')).animationDuration,
+      inverseEndPulseDuration: getComputedStyle(svg.querySelector('[data-line-inverse-end-pulse]')).animationDuration,
+      baseEndPulseDelay: getComputedStyle(svg.querySelector('[data-line-end-pulse]')).animationDelay,
+      inverseEndPulseDelay: getComputedStyle(svg.querySelector('[data-line-inverse-end-pulse]')).animationDelay,
+      baseEndGroupTransition: getComputedStyle(svg.querySelector('[data-line-end-group]')).transitionDuration,
+      inverseEndGroupTransition: getComputedStyle(svg.querySelector('[data-line-inverse-end-group]')).transitionDuration,
+      reducedMotion: matchMedia('(prefers-reduced-motion: reduce)').matches,
       github: getComputedStyle(document.querySelector('#ramiro a[href*="github.com"]')).color,
     };
   });
@@ -108,6 +116,16 @@ function assertState(current, expectedLanguage, expectedAccent = 'light-black') 
   assert.equal(current.inverseDisplay, 'inline', 'spatial white layer enabled only for Light + black');
   assert.deepEqual(current.clip.map(value => Math.round(value * 10) / 10), current.about.map(value => Math.round(value * 10) / 10), 'clip follows the actual Ramiro section bounds');
   for (const group of current.nodes) for (const pair of group) assert.equal(pair[0], pair[1], 'inverse node coordinates/radii match the base nodes');
+  assert.equal(current.pulseAnimation, current.reducedMotion ? 'none' : 'line-node-pulse');
+  assert.equal(current.baseEndPulseDuration, current.inverseEndPulseDuration, 'base and inverse end pulses keep the same duration');
+  assert.equal(current.baseEndPulseDelay, current.inverseEndPulseDelay, 'base and inverse end pulses keep the same delay');
+  assert.equal(current.baseEndGroupTransition, current.inverseEndGroupTransition, 'base and inverse end nodes keep the same fade duration');
+  if (current.reducedMotion) assert.ok(Number.parseFloat(current.inverseEndGroupTransition) <= 0.00001, 'reduced motion limits both node-group transitions to 0.01 ms');
+  else {
+    assert.equal(current.pulseDuration, '3.5s', 'node pulse timing remains 3.5 seconds');
+    assert.equal(current.inverseEndPulseDelay, '0.8s', 'end-node pulse retains its 0.8 second delay');
+    assert.equal(current.inverseEndGroupTransition, '0.18s', 'end-node fade remains 180 ms');
+  }
   assertMilestoneStructure(current);
 }
 

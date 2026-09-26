@@ -65,9 +65,9 @@ html.pointer-section-focus section[tabindex='-1']:focus-visible .section-index{o
 html[data-theme=light][data-accent=light-black] .continuous-line [data-line-inverse-layer]{display:inline}
 .continuous-line [data-line-inverse-path]{stroke:var(--inverse-text)}
 .continuous-line [data-line-inverse-layer] circle{fill:var(--inverse-text)}
-.continuous-line [data-line-end-group]{opacity:0;transition:opacity .18s ease}
+.continuous-line [data-line-end-group],.continuous-line [data-line-inverse-end-group]{opacity:0;transition:opacity .18s ease}
 .continuous-line .line-pulse{opacity:0;transform-box:fill-box;transform-origin:center;animation:line-node-pulse 3.5s ease-out infinite}
-.continuous-line [data-line-end-pulse]{animation-delay:.8s}
+.continuous-line [data-line-end-pulse],.continuous-line [data-line-inverse-end-pulse]{animation-delay:.8s}
 @keyframes line-node-pulse{0%,67%,100%{opacity:0;transform:scale(1)}5%{opacity:.2;transform:scale(1)}34%{opacity:0;transform:scale(2.25)}}
 
 /* Small type lift without changing the editorial hierarchy or the Hero's concept. */
@@ -128,7 +128,7 @@ html.cursor-ready .custom-cursor.is-down{width:12px;height:12px}
   .service-panel p,.capabilities,.project-text,.project-capabilities,.contact-guidance{font-size:1.1875rem}
   .contact h2{font-size:2rem}
 }
-@media(prefers-reduced-motion:reduce){.continuous-line .line-pulse{animation:none;opacity:0}.continuous-line [data-line-end-group]{transition:none}}
+@media(prefers-reduced-motion:reduce){.continuous-line .line-pulse{animation:none;opacity:0}.continuous-line [data-line-end-group],.continuous-line [data-line-inverse-end-group]{transition:none}}
 
 /* Keep native scrolling; tint its browser chrome from the active theme/accent. */
 html::-webkit-scrollbar{width:10px;height:10px}
