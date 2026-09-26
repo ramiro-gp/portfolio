@@ -1,6 +1,6 @@
 # V2-H4 — Copy fuente ES · APPROVED
 
-Ramiro aprobó el copy fuente español vigente el 2026-09-21. Las frases visibles de la iteración 3 prevalecen donde el borrador anterior ofrecía un desarrollo distinto. Los datos de identidad y contacto proceden de `docs/CONTENT.md`; los hechos del caso, de `docs/PROJECTS.md`. Las traducciones EN/PT/FR/JA se registran en `docs/locales/` y esperan revisión antes de publicarse. Los captions y textos alternativos dependientes de capturas se ajustarán a la selección final en V2-H6 sin alterar el tratamiento visual aprobado.
+Ramiro aprobó el copy fuente español el 2026-09-21 y ajustó el pasaje de capacidades de Servicios el 2026-09-26. Las frases visibles de la iteración 3 prevalecen donde el borrador anterior ofrecía un desarrollo distinto. Los datos de identidad y contacto proceden de `docs/CONTENT.md`; los hechos del caso, de `docs/PROJECTS.md`. Las traducciones EN/PT/FR/JA se registran en `docs/locales/` y sus capacidades se actualizaron junto con el ajuste del 2026-09-26. Los captions y textos alternativos dependientes de capturas se ajustarán a la selección final en V2-H6 sin alterar el tratamiento visual aprobado.
 
 ## Header · APPROVED
 
@@ -25,8 +25,8 @@ Ramiro aprobó el copy fuente español vigente el 2026-09-21. Las frases visible
 - **Landing pages:** Para un servicio, campaña o lanzamiento que necesita una página enfocada en explicar una propuesta y orientar al visitante hacia una acción principal.
 - **Rediseños:** Para una web que necesita mejorar su estructura, diseño o adaptación a celulares. Primero evalúo si conviene trabajar sobre la base actual o reconstruirla.
 - Capacidades integradas: Según el alcance, puedo integrar adaptación a celulares, formularios y otras herramientas, SEO técnico, cuidado de la velocidad de carga y publicación.
-- Capacidades complementarias condicionadas: Para negocios locales, puedo trabajar en el Perfil de Empresa de Google. También puedo preparar la estructura y el contenido para buscadores y asistentes de IA, sin prometer visibilidad.
-- Diseño externo: ¿Ya tenés un diseño? También puedo desarrollarlo, revisando primero las pantallas, los materiales y los comportamientos necesarios.
+- Capacidades complementarias condicionadas: Para negocios locales, también se puede trabajar en el Perfil de Empresa de Google. Además, preparo la estructura y el contenido para buscadores y asistentes de IA, sin prometer visibilidad.
+- Diseño externo: ¿Ya tenés un diseño? Lo vemos y me encargo del desarrollo, revisando las pantallas y los comportamientos necesarios.
 
 ## Residencias Grupo Casa · APPROVED
 

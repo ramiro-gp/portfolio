@@ -23,9 +23,9 @@ Source: approved Spanish page copy in `../../prototypes/v2-h4/v2/ES-COPY-APPROVE
 - Institutional websites: To present your activity, explain your services and bring your contact details together in a clear website, on both desktop and mobile.
 - Landing pages: For a service, campaign or launch that needs a focused page to explain a proposal and guide visitors toward one main action.
 - Redesigns: For a website that needs a better structure, design or mobile experience. I first assess whether it makes sense to build on the current site or rebuild it.
-- Integrated capabilities: Depending on the scope, I can include responsive design, forms and other tools, technical SEO, performance and publication.
-- Complementary capabilities: For local businesses, I can work on their Google Business Profile. I can also prepare the structure and content for search engines and AI assistants, without promising visibility.
-- External design: Already have a design? I can develop it too, after reviewing the screens, materials and required behaviors.
+- Integrated capabilities: Depending on the scope, I can also take care of mobile responsiveness, forms and other tools, technical SEO, page speed and publishing.
+- Complementary capabilities: For local businesses, a project may also include work on their Google Business Profile. I also prepare the structure and content for search engines and AI assistants, without promising visibility.
+- External design: Already have a design? Let’s review it together, and I’ll handle the development after checking the screens and interactions it needs.
 
 ## Residencias Grupo Casa
 

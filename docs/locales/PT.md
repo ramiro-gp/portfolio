@@ -23,9 +23,9 @@ Fonte: copy espanhol da página aprovado em `../../prototypes/v2-h4/v2/ES-COPY-A
 - Sites institucionais: Para apresentar sua atividade, explicar seus serviços e reunir as informações de contato em um site claro, tanto no computador quanto no celular.
 - Landing pages: Para um serviço, campanha ou lançamento que precisa de uma página focada em explicar uma proposta e orientar o visitante para uma ação principal.
 - Redesigns: Para um site que precisa melhorar a estrutura, o design ou a responsividade. Primeiro avalio se vale trabalhar sobre a base atual ou reconstruí-la.
-- Capacidades integradas: Conforme o escopo, posso incluir responsividade, formulários e outras ferramentas, SEO técnico, performance e publicação.
-- Capacidades complementares: Para negócios locais, posso trabalhar no Perfil da Empresa no Google. Também posso preparar a estrutura e o conteúdo para buscadores e assistentes de IA, sem prometer visibilidade.
-- Design externo: Já tem um design? Também posso desenvolvê-lo, após revisar as telas, os materiais e os comportamentos necessários.
+- Capacidades integradas: Conforme o escopo, também posso cuidar da adaptação para celulares, de formulários e outras ferramentas, do SEO técnico, da velocidade de carregamento e da publicação.
+- Capacidades complementares: Para negócios locais, também é possível trabalhar no Perfil da Empresa no Google. Além disso, preparo a estrutura e o conteúdo para mecanismos de busca e assistentes de IA, sem prometer visibilidade.
+- Design externo: Já tem um design? Podemos analisar juntos, e eu cuido do desenvolvimento, depois de revisar as telas e os comportamentos necessários.
 
 ## Residencias Grupo Casa
 

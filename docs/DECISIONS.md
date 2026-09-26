@@ -1,5 +1,9 @@
 # DECISIONS.md
 
+## 2026-09-26 — V2-H8: ajuste final de copy de Servicios
+
+Ramiro aprobó reemplazar únicamente el segundo y tercer párrafo de capacidades en Servicios. El texto evita reiterar «puedo», mantiene el alcance acordado para Perfil de Empresa de Google y preparación para buscadores/IA sin prometer visibilidad, y presenta en tono directo la revisión y desarrollo de un diseño existente. EN/PT/FR/JA conservan esa estructura conceptual con redacción localizada. No se modifican otros textos, layout, estilos, motion ni geometría. H8 permanece IN PROGRESS; el paquete H8 anterior deja de ser definitivo.
+
 ## 2026-09-26 — V2-H8: corrección espacial de la línea Light + negro
 
 Se confirma que la excepción visual aprobada en H7 se limita físicamente a la superficie oscura de Ramiro. El color base de la línea permanece negro en Light + `light-black`; el blanco se recorta a la caja real de `.about`, incluyendo únicamente la parte de trazo y nodos sobre ese fondo. La intersección de Ramiro con el viewport ya no conmuta globalmente el path. Se conserva una única fuente de geometría y se sincronizan `d`, progreso, dashoffset, grosores y nodos en la representación inversa. No cambian los demás accents, Dark, geometría, milestones, pulse o timings. H7 documentó una implementación global incorrecta y su prueba verificó el color computado completo, sin comprobar superposición espacial; el QA espacial de H8 la sustituye. Evidencia: `qa/h8-line-clipping-results.json` y `qa/h8-line-clipping/`. H8 permanece IN PROGRESS; el ZIP previo queda invalidado.

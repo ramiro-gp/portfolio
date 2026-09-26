@@ -47,8 +47,8 @@ export const copy: Record<LocaleCode, Copy> = {
     ],
     capabilities: [
       'Según el alcance, puedo integrar adaptación a celulares, formularios y otras herramientas, SEO técnico, cuidado de la velocidad de carga y publicación.',
-      'Para negocios locales, puedo trabajar en el Perfil de Empresa de Google. También puedo preparar la estructura y el contenido para buscadores y asistentes de IA, sin prometer visibilidad.',
-      '¿Ya tenés un diseño? También puedo desarrollarlo, revisando primero las pantallas, los materiales y los comportamientos necesarios.'
+      'Para negocios locales, también se puede trabajar en el Perfil de Empresa de Google. Además, preparo la estructura y el contenido para buscadores y asistentes de IA, sin prometer visibilidad.',
+      '¿Ya tenés un diseño? Lo vemos y me encargo del desarrollo, revisando las pantallas y los comportamientos necesarios.'
     ],
     caseState: 'Sitio institucional · En desarrollo', viewSite: 'Ver sitio',
     caseContext: 'Una web para reunir al grupo y sus dos sedes: Casa San Juan y Casa Boedo. Ese fue el requerimiento inicial. Casa San Juan está operativa; Casa Boedo figura como próxima apertura.',
@@ -97,9 +97,9 @@ export const copy: Record<LocaleCode, Copy> = {
       { title: 'Redesigns', body: 'For a website that needs a better structure, design or mobile experience. I first assess whether it makes sense to build on the current site or rebuild it.' }
     ],
     capabilities: [
-      'Depending on the scope, I can include responsive design, forms and other tools, technical SEO, performance and publication.',
-      'For local businesses, I can work on their Google Business Profile. I can also prepare the structure and content for search engines and AI assistants, without promising visibility.',
-      'Already have a design? I can develop it too, after reviewing the screens, materials and required behaviors.'
+      'Depending on the scope, I can also take care of mobile responsiveness, forms and other tools, technical SEO, page speed and publishing.',
+      'For local businesses, a project may also include work on their Google Business Profile. I also prepare the structure and content for search engines and AI assistants, without promising visibility.',
+      'Already have a design? Let’s review it together, and I’ll handle the development after checking the screens and interactions it needs.'
     ],
     caseState: 'Institutional website · In development', viewSite: 'View website',
     caseContext: 'A website to bring the group and its two residences, Casa San Juan and Casa Boedo, together. That was the initial requirement. Casa San Juan is operating; Casa Boedo is presented as opening soon.',
@@ -145,9 +145,9 @@ export const copy: Record<LocaleCode, Copy> = {
       { title: 'Redesigns', body: 'Para um site que precisa melhorar a estrutura, o design ou a responsividade. Primeiro avalio se vale trabalhar sobre a base atual ou reconstruí-la.' }
     ],
     capabilities: [
-      'Conforme o escopo, posso incluir responsividade, formulários e outras ferramentas, SEO técnico, performance e publicação.',
-      'Para negócios locais, posso trabalhar no Perfil da Empresa no Google. Também posso preparar a estrutura e o conteúdo para buscadores e assistentes de IA, sem prometer visibilidade.',
-      'Já tem um design? Também posso desenvolvê-lo, após revisar as telas, os materiais e os comportamentos necessários.'
+      'Conforme o escopo, também posso cuidar da adaptação para celulares, de formulários e outras ferramentas, do SEO técnico, da velocidade de carregamento e da publicação.',
+      'Para negócios locais, também é possível trabalhar no Perfil da Empresa no Google. Além disso, preparo a estrutura e o conteúdo para mecanismos de busca e assistentes de IA, sem prometer visibilidade.',
+      'Já tem um design? Podemos analisar juntos, e eu cuido do desenvolvimento, depois de revisar as telas e os comportamentos necessários.'
     ],
     caseState: 'Site institucional · Em desenvolvimento', viewSite: 'Ver site',
     caseContext: 'Um site para reunir o grupo e suas duas residências, Casa San Juan e Casa Boedo. Esse foi o pedido inicial. Casa San Juan está em funcionamento; Casa Boedo é apresentada como futura inauguração.',
@@ -193,9 +193,9 @@ export const copy: Record<LocaleCode, Copy> = {
       { title: 'Refontes', body: 'Pour un site dont la structure, le design ou l’affichage sur mobile doit être amélioré. J’évalue d’abord s’il vaut mieux partir de l’existant ou le reconstruire.' }
     ],
     capabilities: [
-      'Selon le périmètre, je peux inclure l’adaptation aux mobiles, des formulaires et d’autres outils, le référencement technique, l’attention portée à la vitesse de chargement et la mise en ligne.',
-      'Pour les entreprises locales, je peux travailler sur leur fiche d’établissement Google. Je peux aussi préparer la structure et le contenu pour les moteurs de recherche et les assistants IA, sans promettre de visibilité.',
-      'Vous avez déjà une maquette ou un design ? Je peux aussi le développer, après avoir examiné les écrans, les éléments fournis et les comportements nécessaires.'
+      'Selon le périmètre, je peux aussi intégrer l’adaptation mobile, des formulaires et d’autres outils, le référencement technique, l’optimisation de la vitesse de chargement et la mise en ligne.',
+      'Pour les entreprises locales, il est aussi possible de travailler sur leur fiche d’établissement Google. Je prépare également la structure et le contenu pour les moteurs de recherche et les assistants IA, sans promettre de visibilité.',
+      'Vous avez déjà un design ? Nous pouvons l’examiner ensemble, puis je prends en charge le développement après avoir vérifié les écrans et les comportements nécessaires.'
     ],
     caseState: 'Site institutionnel · En développement', viewSite: 'Voir le site',
     caseContext: 'Un site réunissant le groupe et ses deux résidences, Casa San Juan et Casa Boedo. C’était la demande initiale. Casa San Juan est en activité ; Casa Boedo est présentée comme ouvrant prochainement.',
@@ -241,9 +241,9 @@ export const copy: Record<LocaleCode, Copy> = {
       { title: 'リニューアル', body: '構成、デザイン、スマートフォンでの表示を改善したいサイト向けです。既存の基盤を生かすか、作り直すかを最初に検討します。' }
     ],
     capabilities: [
-      'スマートフォン対応、フォームやその他のツール、技術的な SEO、読み込み速度への配慮、公開作業を、合意した範囲に応じて組み込めます。',
-      '地域の事業者向けには Google ビジネス プロフィールにも対応できます。また、検索エンジンや AI アシスタントが扱いやすいよう、構造とコンテンツを整えることもできます。表示や露出の成果は保証しません。',
-      'すでにデザインがありますか。画面、素材、必要な動作を先に確認したうえで、その実装にも対応できます。'
+      '対応範囲に応じて、スマートフォンでの表示調整、フォームなどの機能、テクニカルSEO、読み込み速度への配慮、公開まで対応します。',
+      '地域の事業者向けには、Google ビジネス プロフィールの設定や改善も可能です。また、検索エンジンやAIアシスタントに向けた情報構成とコンテンツも整えますが、検索結果での表示や露出を保証するものではありません。',
+      'すでにデザインがありますか？一緒に確認し、必要な画面や動きを整理したうえで、開発を担当します。'
     ],
     caseState: '施設紹介サイト · 開発中', viewSite: 'サイトを見る',
     caseContext: 'グループと二つの施設、Casa San Juan と Casa Boedo を一つのサイトにまとめることが、当初の依頼でした。Casa San Juan は運営中で、Casa Boedo は開設予定として紹介されています。',
