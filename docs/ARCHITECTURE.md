@@ -209,12 +209,12 @@ No agregar trackers por defecto.
 
 ## Deployment
 
-Hosting definitivo: `TODO_DECISION`
+Hosting definitivo: **Hostinger**, confirmado por Ramiro para V2-H8 el 2026-09-25. La publicación es manual: compilar localmente y subir el contenido de `dist/` a la raíz pública del sitio en hPanel. No se añade adapter, backend ni integración de build con Hostinger. El alias de Vercel conserva sólo su función de QA.
 
 Dominio confirmado:
 `ramita.dev`
 
-No asumir Vercel sólo porque otros proyectos lo usen.
+Canonical: `https://ramita.dev`. Hostinger ya fuerza HTTP → HTTPS. H8 prepara una redirección permanente de `www.ramita.dev` al dominio raíz que conserve ruta y query, y un documento 404 estático con respuesta HTTP 404. Las reglas propuestas están en `hosting/hostinger.htaccess` fuera de `dist/`: antes de aplicarlas se deben fusionar con el `.htaccess` real del servidor, sin reemplazar sus reglas existentes. Los registros DNS de correo se preservan.
 
 # Archivo técnico V1 — sin autoridad sobre V2
 

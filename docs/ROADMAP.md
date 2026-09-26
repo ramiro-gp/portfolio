@@ -122,7 +122,7 @@ Objetivo y entregables: Publicar y comprobar dominio/HTTPS, contacto, SEO y asse
 
 Cierre: Todos los criterios de DONE.md, incluidos producción y performance, satisfechos antes de STATUS: DONE.
 
-Estado: NOT STARTED
+Estado: IN PROGRESS — 2026-09-25. Hosting final Hostinger y carga manual por Ramiro confirmados. Preparados 404 estático mínimo y reglas externas al build para `www`/404; preflight local de build, check y QA focalizado en Chrome/Edge aprobado. La publicación, validación HTTP/TLS/SEO/links/smoke y Lighthouse/PageSpeed sobre `ramita.dev` siguen pendientes. No declarar H8 CLOSED ni V2 DONE antes de esas comprobaciones.
 
 ## Auditoría V2-H0
 

@@ -89,7 +89,7 @@ QA visual y funcional aprobado en:
 
 - [ ] Navegación completa por teclado.
 - [ ] Focus visible.
-- [ ] Contraste conforme al objetivo WCAG 2.2 AA definido en `docs/ARCHITECTURE.md`.
+- [x] Contraste auditado frente al objetivo WCAG 2.2 AA definido en `docs/ARCHITECTURE.md`, con la excepción H7-P2-01 aceptada expresamente por Ramiro para este release.
 - [ ] Semántica correcta.
 - [ ] Labels/ARIA correctos donde correspondan.
 - [ ] Ningún contenido o acción crítica está disponible exclusivamente por hover.
@@ -97,6 +97,8 @@ QA visual y funcional aprobado en:
 - [ ] Targets táctiles razonables.
 - [ ] Lighthouse Accessibility alcanza al menos 95 en producción.
 - [ ] No existe ningún problema manual bloqueante de teclado, focus, navegación o comprensión.
+
+Excepción H7-P2-01: el enlace GitHub dentro de la escena Ramiro en Light conserva ratios por debajo de AA con accent verde (2,63:1), azul (2,68:1), rojo (3,03:1) y violeta (2,55:1). Light + negro alcanza 15,62:1 tras la corrección H7. La aceptación no afirma conformidad AA de esas cuatro combinaciones; se preservan sin cambio visual en H8. Evidencia: `qa/h7-report.md` y `qa/h7-results.json`.
 
 ## Calidad técnica
 

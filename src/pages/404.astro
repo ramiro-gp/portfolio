@@ -1,0 +1,49 @@
+---
+import { copy, languageNames, localeCodes, routes } from '../content/locales';
+import '../styles/global.css';
+---
+<!doctype html>
+<html lang="es" data-theme="light" data-accent="light-green">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, follow" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16 32x32 64x64" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" sizes="any" />
+    <title>404 | ramita.dev</title>
+  </head>
+  <body class="not-found-page">
+    <a class="skip-link" href="#main">{copy.es.skip}</a>
+    <header class="not-found-header">
+      <div class="rail">
+        <a class="brand" href="/" aria-label={copy.es.brandLabel}>ramita<span class="brand-dot">.</span>dev</a>
+      </div>
+    </header>
+    <main id="main" class="not-found-main rail" tabindex="-1">
+      <h1>404</h1>
+      <nav aria-label={copy.es.language}>
+        {localeCodes.map((code) => (
+          <a href={routes[code]} lang={code} hreflang={code}>
+            <span>{languageNames[code]}</span>
+            <span>{copy[code].nav[0]}</span>
+          </a>
+        ))}
+      </nav>
+    </main>
+    <footer class="footer rail"><span>ramita<span class="brand-dot">.</span>dev</span><span>Ramiro Garcia</span></footer>
+  </body>
+</html>
+
+<style>
+  .not-found-page{min-height:100svh;display:flex;flex-direction:column}
+  .not-found-header{border-bottom:1px solid var(--divider)}
+  .not-found-header .rail{min-height:var(--header-height);display:flex;align-items:center}
+  .not-found-main{flex:1;display:flex;flex-direction:column;justify-content:center;gap:clamp(32px,6vw,72px);padding-block:48px 72px}
+  .not-found-main h1{font-size:clamp(5rem,15vw,10rem);line-height:1;color:var(--text)}
+  .not-found-main nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 32px;max-width:680px}
+  .not-found-main nav a{min-height:54px;display:flex;align-items:center;justify-content:space-between;gap:12px;border-top:1px solid var(--divider);color:var(--text);text-decoration:none}
+  .not-found-main nav a:hover,.not-found-main nav a:focus-visible{color:var(--accent);text-decoration:underline}
+  .not-found-main nav a span:last-child{color:var(--muted)}
+  .not-found-main nav a[lang="ja"]{font-family:Instrument Sans,Noto Sans JP,'Hiragino Kaku Gothic ProN','Yu Gothic',Meiryo,sans-serif}
+  @media(max-width:600px){.not-found-main nav{grid-template-columns:minmax(0,1fr)}}
+</style>

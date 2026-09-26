@@ -1,5 +1,9 @@
 # DECISIONS.md
 
+## 2026-09-25 — V2-H8: Hostinger y recuperación 404
+
+Ramiro confirmó Hostinger como hosting final y la publicación manual del contenido de `dist/` en el sitio existente; él hará la carga. El canonical es `https://ramita.dev`. Se conserva el DNS actual y el correo; `www` debe redirigir permanentemente al dominio raíz, conservando ruta y parámetros. Ramiro aprobó sustituir el 404 genérico en inglés por una página mínima propia con `404`, la marca y los cinco enlaces de inicio con etiquetas ya aprobadas. La configuración propuesta de Hostinger permanece fuera de `dist/` y se fusionará con las reglas existentes tras inspeccionarlas. Estas decisiones no acreditan publicación ni validaciones de producción; V2-H8 sigue IN PROGRESS.
+
 ## 2026-09-25 — V2-H7: Light + negro en la escena Ramiro
 
 Ramiro aprobó una excepción visual limitada a Light + accent negro mientras la escena Ramiro está visible: línea continua, enlace GitHub y outline de foco de GitHub usan blanco inverso `#F1F0EC`; al salir de la escena la línea vuelve al accent negro. La transición de color se desactiva con reduced motion y la geometría no cambia. Dark y todos los demás accents conservan su comportamiento anterior. Las cuatro combinaciones Light no negras mantienen sus ratios medidos de contraste bajo AA en GitHub y se documentan como excepción P2 de alcance limitado; no se alteran por esta decisión. Regresión desktop/mobile, entrada/salida, hover/foco, cinco accents Light, Dark, reduced motion y geometría en `qa/h7-results.json`; NVDA real en Windows y touch físico real fueron reportados PASS por Ramiro, con modelos/versiones/URL no informados.
