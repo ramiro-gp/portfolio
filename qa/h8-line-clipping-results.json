@@ -1,0 +1,1200 @@
+{
+  "date": "2026-09-26T03:20:05.333Z",
+  "base": "https://portfolio-rrrramita.vercel.app",
+  "commit": "d7850120a72af9f447cdb3fcf28c7bbf26b53cc3",
+  "viewports": [
+    {
+      "case": "es-390",
+      "state": "before",
+      "scrollY": 6104,
+      "about": [
+        0,
+        6949.765625,
+        390,
+        1157.890625
+      ],
+      "lineWidth": "8.5px",
+      "pathLength": 519,
+      "milestoneCount": 16,
+      "milestoneNames": [
+        "hero",
+        "services-transition",
+        "services-left",
+        "inside-stack",
+        "services-text",
+        "services-exit",
+        "projects-entry",
+        "projects-content",
+        "projects-exit",
+        "projects-transition",
+        "about-entry",
+        "about-content",
+        "about-exit",
+        "contact-transition",
+        "contact-entry",
+        "contact"
+      ]
+    },
+    {
+      "case": "es-390",
+      "state": "projects-to-ramiro",
+      "scrollY": 6624,
+      "about": [
+        0,
+        6949.765625,
+        390,
+        1157.890625
+      ],
+      "lineWidth": "8.5px",
+      "pathLength": 519,
+      "milestoneCount": 16,
+      "milestoneNames": [
+        "hero",
+        "services-transition",
+        "services-left",
+        "inside-stack",
+        "services-text",
+        "services-exit",
+        "projects-entry",
+        "projects-content",
+        "projects-exit",
+        "projects-transition",
+        "about-entry",
+        "about-content",
+        "about-exit",
+        "contact-transition",
+        "contact-entry",
+        "contact"
+      ]
+    },
+    {
+      "case": "es-390",
+      "state": "ramiro-to-contact",
+      "scrollY": 7728,
+      "about": [
+        0,
+        6949.765625,
+        390,
+        1157.890625
+      ],
+      "lineWidth": "8.5px",
+      "pathLength": 519,
+      "milestoneCount": 16,
+      "milestoneNames": [
+        "hero",
+        "services-transition",
+        "services-left",
+        "inside-stack",
+        "services-text",
+        "services-exit",
+        "projects-entry",
+        "projects-content",
+        "projects-exit",
+        "projects-transition",
+        "about-entry",
+        "about-content",
+        "about-exit",
+        "contact-transition",
+        "contact-entry",
+        "contact"
+      ]
+    },
+    {
+      "case": "es-1440",
+      "state": "before",
+      "scrollY": 6147,
+      "about": [
+        0,
+        7049.40625,
+        1440,
+        900
+      ],
+      "lineWidth": "17px",
+      "pathLength": 612,
+      "milestoneCount": 13,
+      "milestoneNames": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "case": "es-1440",
+      "state": "projects-to-ramiro",
+      "scrollY": 6701,
+      "about": [
+        0,
+        7049.40625,
+        1440,
+        900
+      ],
+      "lineWidth": "17px",
+      "pathLength": 612,
+      "milestoneCount": 13,
+      "milestoneNames": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "case": "es-1440",
+      "state": "ramiro-to-contact",
+      "scrollY": 7544,
+      "about": [
+        0,
+        7049.40625,
+        1440,
+        900
+      ],
+      "lineWidth": "17px",
+      "pathLength": 612,
+      "milestoneCount": 13,
+      "milestoneNames": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "case": "en-390",
+      "state": "before",
+      "scrollY": 6038,
+      "about": [
+        0,
+        6884.1875,
+        390,
+        1263.703125
+      ],
+      "lineWidth": "8.5px",
+      "pathLength": 549,
+      "milestoneCount": 16,
+      "milestoneNames": [
+        "hero",
+        "services-transition",
+        "services-left",
+        "inside-stack",
+        "services-text",
+        "services-exit",
+        "projects-entry",
+        "projects-content",
+        "projects-exit",
+        "projects-transition",
+        "about-entry",
+        "about-content",
+        "about-exit",
+        "contact-transition",
+        "contact-entry",
+        "contact"
+      ]
+    },
+    {
+      "case": "en-390",
+      "state": "projects-to-ramiro",
+      "scrollY": 6559,
+      "about": [
+        0,
+        6884.1875,
+        390,
+        1263.703125
+      ],
+      "lineWidth": "8.5px",
+      "pathLength": 549,
+      "milestoneCount": 16,
+      "milestoneNames": [
+        "hero",
+        "services-transition",
+        "services-left",
+        "inside-stack",
+        "services-text",
+        "services-exit",
+        "projects-entry",
+        "projects-content",
+        "projects-exit",
+        "projects-transition",
+        "about-entry",
+        "about-content",
+        "about-exit",
+        "contact-transition",
+        "contact-entry",
+        "contact"
+      ]
+    },
+    {
+      "case": "en-390",
+      "state": "ramiro-to-contact",
+      "scrollY": 7768,
+      "about": [
+        0,
+        6884.1875,
+        390,
+        1263.703125
+      ],
+      "lineWidth": "8.5px",
+      "pathLength": 549,
+      "milestoneCount": 16,
+      "milestoneNames": [
+        "hero",
+        "services-transition",
+        "services-left",
+        "inside-stack",
+        "services-text",
+        "services-exit",
+        "projects-entry",
+        "projects-content",
+        "projects-exit",
+        "projects-transition",
+        "about-entry",
+        "about-content",
+        "about-exit",
+        "contact-transition",
+        "contact-entry",
+        "contact"
+      ]
+    },
+    {
+      "case": "en-1440",
+      "state": "before",
+      "scrollY": 6151,
+      "about": [
+        0,
+        7052.59375,
+        1440,
+        900
+      ],
+      "lineWidth": "17px",
+      "pathLength": 589,
+      "milestoneCount": 13,
+      "milestoneNames": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "case": "en-1440",
+      "state": "projects-to-ramiro",
+      "scrollY": 6705,
+      "about": [
+        0,
+        7052.59375,
+        1440,
+        900
+      ],
+      "lineWidth": "17px",
+      "pathLength": 589,
+      "milestoneCount": 13,
+      "milestoneNames": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "case": "en-1440",
+      "state": "ramiro-to-contact",
+      "scrollY": 7548,
+      "about": [
+        0,
+        7052.59375,
+        1440,
+        900
+      ],
+      "lineWidth": "17px",
+      "pathLength": 589,
+      "milestoneCount": 13,
+      "milestoneNames": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "case": "pt-390",
+      "state": "before",
+      "scrollY": 6104,
+      "about": [
+        0,
+        6949.71875,
+        390,
+        1329.28125
+      ],
+      "lineWidth": "8.5px",
+      "pathLength": 526,
+      "milestoneCount": 16,
+      "milestoneNames": [
+        "hero",
+        "services-transition",
+        "services-left",
+        "inside-stack",
+        "services-text",
+        "services-exit",
+        "projects-entry",
+        "projects-content",
+        "projects-exit",
+        "projects-transition",
+        "about-entry",
+        "about-content",
+        "about-exit",
+        "contact-transition",
+        "contact-entry",
+        "contact"
+      ]
+    },
+    {
+      "case": "pt-390",
+      "state": "projects-to-ramiro",
+      "scrollY": 6624,
+      "about": [
+        0,
+        6949.71875,
+        390,
+        1329.28125
+      ],
+      "lineWidth": "8.5px",
+      "pathLength": 526,
+      "milestoneCount": 16,
+      "milestoneNames": [
+        "hero",
+        "services-transition",
+        "services-left",
+        "inside-stack",
+        "services-text",
+        "services-exit",
+        "projects-entry",
+        "projects-content",
+        "projects-exit",
+        "projects-transition",
+        "about-entry",
+        "about-content",
+        "about-exit",
+        "contact-transition",
+        "contact-entry",
+        "contact"
+      ]
+    },
+    {
+      "case": "pt-390",
+      "state": "ramiro-to-contact",
+      "scrollY": 7899,
+      "about": [
+        0,
+        6949.71875,
+        390,
+        1329.28125
+      ],
+      "lineWidth": "8.5px",
+      "pathLength": 526,
+      "milestoneCount": 16,
+      "milestoneNames": [
+        "hero",
+        "services-transition",
+        "services-left",
+        "inside-stack",
+        "services-text",
+        "services-exit",
+        "projects-entry",
+        "projects-content",
+        "projects-exit",
+        "projects-transition",
+        "about-entry",
+        "about-content",
+        "about-exit",
+        "contact-transition",
+        "contact-entry",
+        "contact"
+      ]
+    },
+    {
+      "case": "pt-1440",
+      "state": "before",
+      "scrollY": 6147,
+      "about": [
+        0,
+        7049.40625,
+        1440,
+        900
+      ],
+      "lineWidth": "17px",
+      "pathLength": 843,
+      "milestoneCount": 13,
+      "milestoneNames": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "case": "pt-1440",
+      "state": "projects-to-ramiro",
+      "scrollY": 6701,
+      "about": [
+        0,
+        7049.40625,
+        1440,
+        900
+      ],
+      "lineWidth": "17px",
+      "pathLength": 843,
+      "milestoneCount": 13,
+      "milestoneNames": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "case": "pt-1440",
+      "state": "ramiro-to-contact",
+      "scrollY": 7544,
+      "about": [
+        0,
+        7049.40625,
+        1440,
+        900
+      ],
+      "lineWidth": "17px",
+      "pathLength": 843,
+      "milestoneCount": 13,
+      "milestoneNames": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "case": "fr-390",
+      "state": "before",
+      "scrollY": 6211,
+      "about": [
+        0,
+        7056.671875,
+        390,
+        1353.28125
+      ],
+      "lineWidth": "8.5px",
+      "pathLength": 545,
+      "milestoneCount": 16,
+      "milestoneNames": [
+        "hero",
+        "services-transition",
+        "services-left",
+        "inside-stack",
+        "services-text",
+        "services-exit",
+        "projects-entry",
+        "projects-content",
+        "projects-exit",
+        "projects-transition",
+        "about-entry",
+        "about-content",
+        "about-exit",
+        "contact-transition",
+        "contact-entry",
+        "contact"
+      ]
+    },
+    {
+      "case": "fr-390",
+      "state": "projects-to-ramiro",
+      "scrollY": 6731,
+      "about": [
+        0,
+        7056.671875,
+        390,
+        1353.28125
+      ],
+      "lineWidth": "8.5px",
+      "pathLength": 545,
+      "milestoneCount": 16,
+      "milestoneNames": [
+        "hero",
+        "services-transition",
+        "services-left",
+        "inside-stack",
+        "services-text",
+        "services-exit",
+        "projects-entry",
+        "projects-content",
+        "projects-exit",
+        "projects-transition",
+        "about-entry",
+        "about-content",
+        "about-exit",
+        "contact-transition",
+        "contact-entry",
+        "contact"
+      ]
+    },
+    {
+      "case": "fr-390",
+      "state": "ramiro-to-contact",
+      "scrollY": 8030,
+      "about": [
+        0,
+        7056.671875,
+        390,
+        1353.28125
+      ],
+      "lineWidth": "8.5px",
+      "pathLength": 545,
+      "milestoneCount": 16,
+      "milestoneNames": [
+        "hero",
+        "services-transition",
+        "services-left",
+        "inside-stack",
+        "services-text",
+        "services-exit",
+        "projects-entry",
+        "projects-content",
+        "projects-exit",
+        "projects-transition",
+        "about-entry",
+        "about-content",
+        "about-exit",
+        "contact-transition",
+        "contact-entry",
+        "contact"
+      ]
+    },
+    {
+      "case": "fr-1440",
+      "state": "before",
+      "scrollY": 6291,
+      "about": [
+        0,
+        7193.28125,
+        1440,
+        900
+      ],
+      "lineWidth": "17px",
+      "pathLength": 859,
+      "milestoneCount": 13,
+      "milestoneNames": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "case": "fr-1440",
+      "state": "projects-to-ramiro",
+      "scrollY": 6845,
+      "about": [
+        0,
+        7193.28125,
+        1440,
+        900
+      ],
+      "lineWidth": "17px",
+      "pathLength": 859,
+      "milestoneCount": 13,
+      "milestoneNames": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "case": "fr-1440",
+      "state": "ramiro-to-contact",
+      "scrollY": 7688,
+      "about": [
+        0,
+        7193.28125,
+        1440,
+        900
+      ],
+      "lineWidth": "17px",
+      "pathLength": 859,
+      "milestoneCount": 13,
+      "milestoneNames": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "case": "ja-390",
+      "state": "before",
+      "scrollY": 5972,
+      "about": [
+        0,
+        6817.796875,
+        390,
+        1336.65625
+      ],
+      "lineWidth": "8.5px",
+      "pathLength": 544,
+      "milestoneCount": 16,
+      "milestoneNames": [
+        "hero",
+        "services-transition",
+        "services-left",
+        "inside-stack",
+        "services-text",
+        "services-exit",
+        "projects-entry",
+        "projects-content",
+        "projects-exit",
+        "projects-transition",
+        "about-entry",
+        "about-content",
+        "about-exit",
+        "contact-transition",
+        "contact-entry",
+        "contact"
+      ]
+    },
+    {
+      "case": "ja-390",
+      "state": "projects-to-ramiro",
+      "scrollY": 6492,
+      "about": [
+        0,
+        6817.796875,
+        390,
+        1336.65625
+      ],
+      "lineWidth": "8.5px",
+      "pathLength": 544,
+      "milestoneCount": 16,
+      "milestoneNames": [
+        "hero",
+        "services-transition",
+        "services-left",
+        "inside-stack",
+        "services-text",
+        "services-exit",
+        "projects-entry",
+        "projects-content",
+        "projects-exit",
+        "projects-transition",
+        "about-entry",
+        "about-content",
+        "about-exit",
+        "contact-transition",
+        "contact-entry",
+        "contact"
+      ]
+    },
+    {
+      "case": "ja-390",
+      "state": "ramiro-to-contact",
+      "scrollY": 7775,
+      "about": [
+        0,
+        6817.796875,
+        390,
+        1336.65625
+      ],
+      "lineWidth": "8.5px",
+      "pathLength": 544,
+      "milestoneCount": 16,
+      "milestoneNames": [
+        "hero",
+        "services-transition",
+        "services-left",
+        "inside-stack",
+        "services-text",
+        "services-exit",
+        "projects-entry",
+        "projects-content",
+        "projects-exit",
+        "projects-transition",
+        "about-entry",
+        "about-content",
+        "about-exit",
+        "contact-transition",
+        "contact-entry",
+        "contact"
+      ]
+    },
+    {
+      "case": "ja-1440",
+      "state": "before",
+      "scrollY": 6191,
+      "about": [
+        0,
+        7092.890625,
+        1440,
+        900
+      ],
+      "lineWidth": "17px",
+      "pathLength": 667,
+      "milestoneCount": 13,
+      "milestoneNames": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "case": "ja-1440",
+      "state": "projects-to-ramiro",
+      "scrollY": 6745,
+      "about": [
+        0,
+        7092.890625,
+        1440,
+        900
+      ],
+      "lineWidth": "17px",
+      "pathLength": 667,
+      "milestoneCount": 13,
+      "milestoneNames": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "case": "ja-1440",
+      "state": "ramiro-to-contact",
+      "scrollY": 7588,
+      "about": [
+        0,
+        7092.890625,
+        1440,
+        900
+      ],
+      "lineWidth": "17px",
+      "pathLength": 667,
+      "milestoneCount": 13,
+      "milestoneNames": [
+        "hero",
+        "services-entry",
+        "landing-pages-approach",
+        "landing-pages-turn",
+        "redesigns-exit",
+        "capabilities-approach",
+        "capabilities-clear",
+        "projects",
+        "projects-exit",
+        "about",
+        "contact-entry",
+        "contact-turn",
+        "contact"
+      ]
+    },
+    {
+      "case": "resize 390→1440→390",
+      "routeAfter": 390,
+      "mobileStroke": "8.5px",
+      "desktopStroke": "17px",
+      "clipRebuilt": true,
+      "status": "PASS"
+    }
+  ],
+  "locales": [
+    {
+      "case": "es-390",
+      "status": "PASS",
+      "route": "/",
+      "states": [
+        "before",
+        "projects-to-ramiro",
+        "ramiro-to-contact"
+      ],
+      "geometryStableOnReverseScroll": true
+    },
+    {
+      "case": "es-1440",
+      "status": "PASS",
+      "route": "/",
+      "states": [
+        "before",
+        "projects-to-ramiro",
+        "ramiro-to-contact"
+      ],
+      "geometryStableOnReverseScroll": true
+    },
+    {
+      "case": "en-390",
+      "status": "PASS",
+      "route": "/en/",
+      "states": [
+        "before",
+        "projects-to-ramiro",
+        "ramiro-to-contact"
+      ],
+      "geometryStableOnReverseScroll": true
+    },
+    {
+      "case": "en-1440",
+      "status": "PASS",
+      "route": "/en/",
+      "states": [
+        "before",
+        "projects-to-ramiro",
+        "ramiro-to-contact"
+      ],
+      "geometryStableOnReverseScroll": true
+    },
+    {
+      "case": "pt-390",
+      "status": "PASS",
+      "route": "/pt/",
+      "states": [
+        "before",
+        "projects-to-ramiro",
+        "ramiro-to-contact"
+      ],
+      "geometryStableOnReverseScroll": true
+    },
+    {
+      "case": "pt-1440",
+      "status": "PASS",
+      "route": "/pt/",
+      "states": [
+        "before",
+        "projects-to-ramiro",
+        "ramiro-to-contact"
+      ],
+      "geometryStableOnReverseScroll": true
+    },
+    {
+      "case": "fr-390",
+      "status": "PASS",
+      "route": "/fr/",
+      "states": [
+        "before",
+        "projects-to-ramiro",
+        "ramiro-to-contact"
+      ],
+      "geometryStableOnReverseScroll": true
+    },
+    {
+      "case": "fr-1440",
+      "status": "PASS",
+      "route": "/fr/",
+      "states": [
+        "before",
+        "projects-to-ramiro",
+        "ramiro-to-contact"
+      ],
+      "geometryStableOnReverseScroll": true
+    },
+    {
+      "case": "ja-390",
+      "status": "PASS",
+      "route": "/ja/",
+      "states": [
+        "before",
+        "projects-to-ramiro",
+        "ramiro-to-contact"
+      ],
+      "geometryStableOnReverseScroll": true
+    },
+    {
+      "case": "ja-1440",
+      "status": "PASS",
+      "route": "/ja/",
+      "states": [
+        "before",
+        "projects-to-ramiro",
+        "ramiro-to-contact"
+      ],
+      "geometryStableOnReverseScroll": true
+    }
+  ],
+  "appearance": [
+    {
+      "theme": "light",
+      "accent": "light-black",
+      "baseStroke": "rgb(32, 36, 33)",
+      "inverseDisplay": "inline",
+      "github": "rgb(241, 240, 236)",
+      "status": "PASS"
+    },
+    {
+      "theme": "light",
+      "accent": "light-green",
+      "baseStroke": "rgb(23, 104, 68)",
+      "inverseDisplay": "none",
+      "github": "rgb(23, 104, 68)",
+      "status": "PASS"
+    },
+    {
+      "theme": "light",
+      "accent": "light-blue",
+      "baseStroke": "rgb(28, 87, 190)",
+      "inverseDisplay": "none",
+      "github": "rgb(28, 87, 190)",
+      "status": "PASS"
+    },
+    {
+      "theme": "light",
+      "accent": "light-red",
+      "baseStroke": "rgb(178, 59, 53)",
+      "inverseDisplay": "none",
+      "github": "rgb(178, 59, 53)",
+      "status": "PASS"
+    },
+    {
+      "theme": "light",
+      "accent": "light-violet",
+      "baseStroke": "rgb(109, 66, 170)",
+      "inverseDisplay": "none",
+      "github": "rgb(109, 66, 170)",
+      "status": "PASS"
+    },
+    {
+      "theme": "dark",
+      "accent": "dark-orange",
+      "baseStroke": "rgb(255, 155, 88)",
+      "inverseDisplay": "none",
+      "github": "rgb(255, 155, 88)",
+      "status": "PASS"
+    },
+    {
+      "theme": "dark",
+      "accent": "dark-blue",
+      "baseStroke": "rgb(120, 207, 252)",
+      "inverseDisplay": "none",
+      "github": "rgb(120, 207, 252)",
+      "status": "PASS"
+    },
+    {
+      "theme": "dark",
+      "accent": "dark-fuchsia",
+      "baseStroke": "rgb(245, 138, 205)",
+      "inverseDisplay": "none",
+      "github": "rgb(245, 138, 205)",
+      "status": "PASS"
+    },
+    {
+      "theme": "dark",
+      "accent": "dark-lime",
+      "baseStroke": "rgb(196, 231, 115)",
+      "inverseDisplay": "none",
+      "github": "rgb(196, 231, 115)",
+      "status": "PASS"
+    },
+    {
+      "theme": "dark",
+      "accent": "dark-white",
+      "baseStroke": "rgb(241, 240, 236)",
+      "inverseDisplay": "none",
+      "github": "rgb(241, 240, 236)",
+      "status": "PASS"
+    }
+  ],
+  "baselineComparisons": [
+    {
+      "case": "es-390",
+      "source": "qa/h7-scene-results.json",
+      "maxCoordinateDeltaPx": 0.000021875000129512046,
+      "tolerancePx": 0.01,
+      "commandStructureUnchanged": true
+    },
+    {
+      "case": "es-1440",
+      "source": "qa/h7-scene-results.json",
+      "maxCoordinateDeltaPx": 0.0000011718748282874003,
+      "tolerancePx": 0.01,
+      "commandStructureUnchanged": true
+    }
+  ],
+  "reducedMotion": {
+    "pulseAnimation": "none",
+    "dashOffset": "0",
+    "inverseDashOffset": "0",
+    "spatialClipActive": true,
+    "status": "PASS"
+  },
+  "failures": [],
+  "consoleErrors": [],
+  "requestFailures": [],
+  "screenshots": [
+    {
+      "file": "qa\\h8-line-clipping\\es-390-before.png",
+      "state": "before",
+      "width": 390,
+      "height": 844,
+      "scrollY": 6104
+    },
+    {
+      "file": "qa\\h8-line-clipping\\es-390-projects-to-ramiro.png",
+      "state": "projects-to-ramiro",
+      "width": 390,
+      "height": 844,
+      "scrollY": 6624
+    },
+    {
+      "file": "qa\\h8-line-clipping\\es-390-ramiro-to-contact.png",
+      "state": "ramiro-to-contact",
+      "width": 390,
+      "height": 844,
+      "scrollY": 7728
+    },
+    {
+      "file": "qa\\h8-line-clipping\\es-1440-before.png",
+      "state": "before",
+      "width": 1440,
+      "height": 900,
+      "scrollY": 6147
+    },
+    {
+      "file": "qa\\h8-line-clipping\\es-1440-projects-to-ramiro.png",
+      "state": "projects-to-ramiro",
+      "width": 1440,
+      "height": 900,
+      "scrollY": 6701
+    },
+    {
+      "file": "qa\\h8-line-clipping\\es-1440-ramiro-to-contact.png",
+      "state": "ramiro-to-contact",
+      "width": 1440,
+      "height": 900,
+      "scrollY": 7544
+    }
+  ],
+  "appearanceControl": {
+    "lightBlack": "rgb(32, 36, 33)",
+    "darkBlue": "rgb(120, 207, 252)",
+    "inverseOnlyForLightBlack": true,
+    "status": "PASS"
+  }
+}

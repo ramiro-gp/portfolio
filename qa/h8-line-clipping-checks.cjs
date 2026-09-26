@@ -26,7 +26,7 @@ const inverseWhite = 'rgb(241, 240, 236)';
 const results = {
   date: new Date().toISOString(), base,
   commit: execFileSync('git', ['rev-parse', 'HEAD'], { cwd: root, encoding: 'utf8' }).trim(),
-  viewports: [], locales: [], appearance: [], reducedMotion: null,
+  viewports: [], locales: [], appearance: [], baselineComparisons: [], reducedMotion: null,
   failures: [], consoleErrors: [], requestFailures: [], screenshots: [],
 };
 fs.mkdirSync(captures, { recursive: true });
@@ -108,11 +108,30 @@ function assertState(current, expectedLanguage, expectedAccent = 'light-black') 
   assert.equal(current.inverseDisplay, 'inline', 'spatial white layer enabled only for Light + black');
   assert.deepEqual(current.clip.map(value => Math.round(value * 10) / 10), current.about.map(value => Math.round(value * 10) / 10), 'clip follows the actual Ramiro section bounds');
   for (const group of current.nodes) for (const pair of group) assert.equal(pair[0], pair[1], 'inverse node coordinates/radii match the base nodes');
-  assert.ok(current.milestones.length > 5, 'structural milestones present');
+  assertMilestoneStructure(current);
+}
+
+function assertMilestoneStructure(current) {
+  const compact = current.innerWidth < 1024;
+  const expected = compact
+    ? ['hero', 'services-transition', 'services-left', 'inside-stack', 'services-text', 'services-exit', 'projects-entry', 'projects-content', 'projects-exit', 'projects-transition', 'about-entry', 'about-content', 'about-exit', 'contact-transition', 'contact-entry', 'contact']
+    : ['hero', 'services-entry', 'landing-pages-approach', 'landing-pages-turn', 'redesigns-exit', 'capabilities-approach', 'capabilities-clear', 'projects', 'projects-exit', 'about', 'contact-entry', 'contact-turn', 'contact'];
+  assert.deepEqual(current.milestones.map(item => item.name), expected, 'milestone names/order remain unchanged for this route');
   for (let i = 1; i < current.milestones.length; i++) {
     assert.ok(current.milestones[i].scroll > current.milestones[i - 1].scroll, 'milestone scroll order remains strictly increasing');
     assert.ok(current.milestones[i].distance >= current.milestones[i - 1].distance, 'milestone path distances remain ordered');
   }
+}
+
+function comparePathGeometry(actual, expected) {
+  const numeric = /-?(?:\d+(?:\.\d*)?|\.\d+)(?:e[+-]?\d+)?/gi;
+  const actualValues = actual.match(numeric)?.map(Number) || [];
+  const expectedValues = expected.match(numeric)?.map(Number) || [];
+  assert.equal(actual.replace(numeric, '#'), expected.replace(numeric, '#'), 'SVG path command structure remains unchanged');
+  assert.equal(actualValues.length, expectedValues.length, 'SVG path coordinate count remains unchanged');
+  const maxDeltaPx = Math.max(0, ...actualValues.map((value, index) => Math.abs(value - expectedValues[index])));
+  assert.ok(maxDeltaPx <= 0.01, `SVG path coordinates remain within 0.01 CSS px of the H7 baseline (max ${maxDeltaPx})`);
+  return maxDeltaPx;
 }
 
 async function runViewport(browser, locale, width, height, screenshot) {
@@ -144,7 +163,8 @@ async function runViewport(browser, locale, width, height, screenshot) {
         if (locale.code === 'es') {
           const previous = h7SceneBaseline.sceneAccent.find(item => item.case === `${width} Light+black`)?.dark?.geometry;
           assert.ok(previous, `H7 geometry baseline exists for ${width}px`);
-          assert.equal(current.path, previous, 'base geometry matches the approved H7 path');
+          const maxDeltaPx = comparePathGeometry(current.path, previous);
+          results.baselineComparisons.push({ case: caseId, source: 'qa/h7-scene-results.json', maxCoordinateDeltaPx: maxDeltaPx, tolerancePx: 0.01, commandStructureUnchanged: true });
         }
       }
       assert.equal(current.path, stableGeometry.path, 'path geometry stays fixed while scrolling');
@@ -154,7 +174,7 @@ async function runViewport(browser, locale, width, height, screenshot) {
         await page.screenshot({ path: file });
         results.screenshots.push({ file: path.relative(root, file), state: position.name, width, height, scrollY: current.scrollY });
       }
-      results.viewports.push({ case: caseId, state: position.name, scrollY: current.scrollY, about: current.clip, lineWidth: current.baseStrokeWidth, pathLength: current.path.length, milestoneCount: current.milestones.length });
+      results.viewports.push({ case: caseId, state: position.name, scrollY: current.scrollY, about: current.clip, lineWidth: current.baseStrokeWidth, pathLength: current.path.length, milestoneCount: current.milestones.length, milestoneNames: current.milestones.map(item => item.name) });
     }
     for (const position of [...positions].reverse()) {
       await scrollTo(page, position.y);
@@ -215,9 +235,11 @@ async function resizeAndReducedMotion(browser) {
     await page.goto(base + '/', { waitUntil: 'load' });
     await settle(page);
     const narrow = await state(page);
+    assertMilestoneStructure(narrow);
     await page.setViewportSize({ width: 1440, height: 900 });
     await settle(page);
     const wide = await state(page);
+    assertMilestoneStructure(wide);
     assert.equal(wide.innerWidth, 1440);
     assert.equal(wide.inverseStrokeWidth, wide.baseStrokeWidth);
     assert.equal(wide.samePath, true);
@@ -225,6 +247,7 @@ async function resizeAndReducedMotion(browser) {
     await page.setViewportSize({ width: 390, height: 844 });
     await settle(page);
     const resizedBack = await state(page);
+    assertMilestoneStructure(resizedBack);
     assert.equal(resizedBack.innerWidth, 390);
     assert.equal(resizedBack.samePath, true);
     assert.deepEqual(resizedBack.clip.map(value => Math.round(value * 10) / 10), resizedBack.about.map(value => Math.round(value * 10) / 10));

@@ -22,12 +22,16 @@ Ramiro detuvo la preparación/publicación antes de cargar el paquete actual a H
 - QA 404: **6 casos PASS, 0 fallos** en Chrome 153.0.8010.53 y Edge 153.0.4234.48 a 390/1440 px, más Chrome sin JS a 320 px y reduced motion a 390 px. En Astro preview, ruta inexistente da HTTP 404 con la página propia, cinco enlaces de inicio, `noindex`, sin overflow ni errores; foco inicial de teclado y navegación EN comprobados. Datos: `qa/h8-preflight-results.json`. Capturas desktop/mobile revisadas: `qa/h8-preflight/404-1440.png` y `qa/h8-preflight/404-390.png`.
 - Guardian 404: **Keep** foco único en 404 y recuperación por idioma; **Remove** ningún recurso adicional; **Change** sólo página mínima y reglas de hosting; **Risk** comportamiento efectivo de Hostinger pendiente; **Verdict APPROVE** para el preflight, sin cierre de H8.
 
-## Paquete preparado
+## Corrección, deployment y paquete vigente — 2026-09-26
 
-- Commit de código destinado a producción: `0af5489a63559b18651a7d10360a54a7a9165506` (`Prepare V2 H8 Hostinger release`), enviado a `origin/main` el 2026-09-25. La build del paquete se repitió desde ese commit y pasó.
-- `release/ramita-h8-0af5489a63559b18651a7d10360a54a7a9165506.zip`: 25 archivos y 787.840 bytes. SHA-256 del ZIP: `9457fd6e65879db2fff210c1f8a8115d18641fef4e58601f40d1426d5fad5e9c`. Contiene los archivos de `dist/` directamente en su raíz; excluye `hosting/`, docs, QA y `cambios.md`.
-- `release/ramita-h8-0af5489a63559b18651a7d10360a54a7a9165506.sha256`: manifiesto con hash de cada archivo y del ZIP. `release/` queda fuera de Git; el SHA del commit identifica el código que se debe cargar.
-- `hosting/README.md` indica copia previa, extracción en la raíz pública, fusión del `.htaccess`, purga de caché si hace falta, comparación y rollback. `qa/h8-production-checks.cjs` está preparado para comprobar respuestas, 25 hashes publicados, metadata, links y smoke en el dominio final.
+- Commit de código: `d7850120a72af9f447cdb3fcf28c7bbf26b53cc3` (`Fix black accent path clipping in Ramiro scene`), push normal exitoso `5e231b5..d785012` a `origin/main`.
+- `pnpm build`: PASS, seis páginas estáticas incluyendo `404.html` y `sitemap.xml`. `pnpm check`: PASS, 48 archivos, 0 errores, 0 warnings, 0 hints. El preflight local 404 posterior conserva **6 casos PASS** en `qa/h8-preflight-results.json`.
+- QA focalizado directamente en el deployment Vercel: **31 estados PASS**, cinco idiomas × 390/1440 px, entrada/salida antes de Ramiro, scroll inverso, resize 390→1440→390, los diez pares theme/accent, cambios reales desde el menú, reduced motion, sin overflow y 0 errores de consola/requests. Path y comandos coinciden con H7; diferencia máxima de coordenadas entre entornos <0,01 CSS px. Resultado: `qa/h8-line-clipping-results.json`. Las seis capturas remotas (tres estados × 390/1440) están en `qa/h8-line-clipping/` y se revisaron visualmente.
+- Deployment verificado: [portfolio-rrrramita.vercel.app](https://portfolio-rrrramita.vercel.app/), HTTP 200, HTML y CSS contienen el clipping nuevo. `x-vercel-id` observado: `gru1::5m4m7-1790392387271-9036d1e373f8`.
+- El ZIP anterior quedó invalidado tras verificar Vercel y está retenido sólo como `.zip.invalidated`; su SHA previo era `9457fd6e65879db2fff210c1f8a8115d18641fef4e58601f40d1426d5fad5e9c`. El manifiesto anterior también termina en `.sha256.invalidated`.
+- Paquete vigente: `release/ramita-h8-d7850120a72af9f447cdb3fcf28c7bbf26b53cc3.zip`, 25 archivos y 788.622 bytes, con los archivos de `dist/` directamente en la raíz y el 404 propio incluido. SHA-256 del ZIP: `1f849cb445a23493fa1bcf81c6329bb867ccad32c15e07528fd00b5626589134`.
+- Manifiesto vigente: `release/ramita-h8-d7850120a72af9f447cdb3fcf28c7bbf26b53cc3.sha256`, hashes SHA-256 de los 25 archivos y del ZIP. Se comprobó que los 25 miembros coinciden; el hash del ZIP coincide y `404.html` está presente. `release/` queda fuera de Git.
+- `hosting/README.md` indica copia previa, extracción en la raíz pública, fusión del `.htaccess`, purga de caché si hace falta, comparación y rollback. `qa/h8-production-checks.cjs` sigue preparado para comprobar respuestas, 25 hashes publicados, metadata, links y smoke en el dominio final.
 
 ## Línea base automatizada antes de la carga
 
@@ -36,7 +40,7 @@ Ramiro detuvo la preparación/publicación antes de cargar el paquete actual a H
 
 ## Pendiente después de la carga de Ramiro
 
-- Recibir listado de raíz pública y `.htaccess` vigente; fusionar reglas sin sobrescribir configuración de HTTPS u otros archivos. El paquete y manifiesto ya están preparados.
+- H8 permanece abierto. El paquete está preparado y verificado; la carga manual a Hostinger por Ramiro todavía no se realizó ni se inicia automáticamente.
 - Registrar fecha/hora de publicación, copia previa, configuración efectiva, hashes y respuesta de la CDN. Verificar 301 `www` → raíz, 404 propio con estado 404, HTTPS/cadena, rutas, metadata, assets, enlaces y smoke Chrome/Edge sobre el dominio.
 - Ejecutar Lighthouse/PageSpeed sobre producción y separar laboratorio de field data. Aplicar umbrales de `docs/DONE.md`; registrar corridas y excepciones persistentes.
 - Auditar todas las casillas de `docs/DONE.md` con evidencia H7/H8. No cerrar V2-H8 ni declarar `ramita.dev V2 — DONE` mientras falte cualquiera de estas validaciones.
