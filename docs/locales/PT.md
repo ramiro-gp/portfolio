@@ -25,7 +25,7 @@ Fonte: copy espanhol da página aprovado em `../../prototypes/v2-h4/v2/ES-COPY-A
 - Redesigns: Para um site que precisa melhorar a estrutura, o design ou a responsividade. Primeiro avalio se vale trabalhar sobre a base atual ou reconstruí-la.
 - Capacidades integradas: Conforme o escopo, também posso cuidar da adaptação para celulares, de formulários e outras ferramentas, do SEO técnico, da velocidade de carregamento e da publicação.
 - Capacidades complementares: Para negócios locais, também é possível trabalhar no Perfil da Empresa no Google. Além disso, preparo a estrutura e o conteúdo para mecanismos de busca e assistentes de IA, sem prometer visibilidade.
-- Design externo: Já tem um design? Podemos analisar juntos, e eu cuido do desenvolvimento, depois de revisar as telas e os comportamentos necessários.
+- Design externo: Já tem um design? Podemos analisar juntos, e eu cuido do desenvolvimento depois de revisar as telas e as interações necessárias.
 
 ## Residencias Grupo Casa
 

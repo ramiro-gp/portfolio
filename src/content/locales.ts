@@ -99,7 +99,7 @@ export const copy: Record<LocaleCode, Copy> = {
     capabilities: [
       'Depending on the scope, I can also take care of mobile responsiveness, forms and other tools, technical SEO, page speed and publishing.',
       'For local businesses, a project may also include work on their Google Business Profile. I also prepare the structure and content for search engines and AI assistants, without promising visibility.',
-      'Already have a design? Let’s review it together, and I’ll handle the development after checking the screens and interactions it needs.'
+      'Already have a design? Let’s review it together, and I’ll handle the development after checking the screens and interactions involved.'
     ],
     caseState: 'Institutional website · In development', viewSite: 'View website',
     caseContext: 'A website to bring the group and its two residences, Casa San Juan and Casa Boedo, together. That was the initial requirement. Casa San Juan is operating; Casa Boedo is presented as opening soon.',
@@ -147,7 +147,7 @@ export const copy: Record<LocaleCode, Copy> = {
     capabilities: [
       'Conforme o escopo, também posso cuidar da adaptação para celulares, de formulários e outras ferramentas, do SEO técnico, da velocidade de carregamento e da publicação.',
       'Para negócios locais, também é possível trabalhar no Perfil da Empresa no Google. Além disso, preparo a estrutura e o conteúdo para mecanismos de busca e assistentes de IA, sem prometer visibilidade.',
-      'Já tem um design? Podemos analisar juntos, e eu cuido do desenvolvimento, depois de revisar as telas e os comportamentos necessários.'
+      'Já tem um design? Podemos analisar juntos, e eu cuido do desenvolvimento depois de revisar as telas e as interações necessárias.'
     ],
     caseState: 'Site institucional · Em desenvolvimento', viewSite: 'Ver site',
     caseContext: 'Um site para reunir o grupo e suas duas residências, Casa San Juan e Casa Boedo. Esse foi o pedido inicial. Casa San Juan está em funcionamento; Casa Boedo é apresentada como futura inauguração.',
@@ -195,7 +195,7 @@ export const copy: Record<LocaleCode, Copy> = {
     capabilities: [
       'Selon le périmètre, je peux aussi intégrer l’adaptation mobile, des formulaires et d’autres outils, le référencement technique, l’optimisation de la vitesse de chargement et la mise en ligne.',
       'Pour les entreprises locales, il est aussi possible de travailler sur leur fiche d’établissement Google. Je prépare également la structure et le contenu pour les moteurs de recherche et les assistants IA, sans promettre de visibilité.',
-      'Vous avez déjà un design ? Nous pouvons l’examiner ensemble, puis je prends en charge le développement après avoir vérifié les écrans et les comportements nécessaires.'
+      'Vous avez déjà un design ? Nous pouvons l’examiner ensemble, puis je prends en charge le développement après avoir vérifié les écrans et les interactions à prévoir.'
     ],
     caseState: 'Site institutionnel · En développement', viewSite: 'Voir le site',
     caseContext: 'Un site réunissant le groupe et ses deux résidences, Casa San Juan et Casa Boedo. C’était la demande initiale. Casa San Juan est en activité ; Casa Boedo est présentée comme ouvrant prochainement.',

@@ -25,7 +25,7 @@ Source: approved Spanish page copy in `../../prototypes/v2-h4/v2/ES-COPY-APPROVE
 - Redesigns: For a website that needs a better structure, design or mobile experience. I first assess whether it makes sense to build on the current site or rebuild it.
 - Integrated capabilities: Depending on the scope, I can also take care of mobile responsiveness, forms and other tools, technical SEO, page speed and publishing.
 - Complementary capabilities: For local businesses, a project may also include work on their Google Business Profile. I also prepare the structure and content for search engines and AI assistants, without promising visibility.
-- External design: Already have a design? Let’s review it together, and I’ll handle the development after checking the screens and interactions it needs.
+- External design: Already have a design? Let’s review it together, and I’ll handle the development after checking the screens and interactions involved.
 
 ## Residencias Grupo Casa
 

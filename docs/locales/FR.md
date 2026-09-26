@@ -25,7 +25,7 @@ Source : texte espagnol de la page approuvé dans `../../prototypes/v2-h4/v2/ES-
 - Refontes : Pour un site dont la structure, le design ou l’affichage sur mobile doit être amélioré. J’évalue d’abord s’il vaut mieux partir de l’existant ou le reconstruire.
 - Prestations intégrées : Selon le périmètre, je peux aussi intégrer l’adaptation mobile, des formulaires et d’autres outils, le référencement technique, l’optimisation de la vitesse de chargement et la mise en ligne.
 - Prestations complémentaires : Pour les entreprises locales, il est aussi possible de travailler sur leur fiche d’établissement Google. Je prépare également la structure et le contenu pour les moteurs de recherche et les assistants IA, sans promettre de visibilité.
-- Design fourni : Vous avez déjà un design ? Nous pouvons l’examiner ensemble, puis je prends en charge le développement après avoir vérifié les écrans et les comportements nécessaires.
+- Design fourni : Vous avez déjà un design ? Nous pouvons l’examiner ensemble, puis je prends en charge le développement après avoir vérifié les écrans et les interactions à prévoir.
 
 ## Residencias Grupo Casa
 

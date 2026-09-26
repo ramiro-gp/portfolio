@@ -17,17 +17,17 @@ const routes = [
   { locale: 'en', route: '/en/', copy: [
     'Depending on the scope, I can also take care of mobile responsiveness, forms and other tools, technical SEO, page speed and publishing.',
     'For local businesses, a project may also include work on their Google Business Profile. I also prepare the structure and content for search engines and AI assistants, without promising visibility.',
-    'Already have a design? Let’s review it together, and I’ll handle the development after checking the screens and interactions it needs.'
+    'Already have a design? Let’s review it together, and I’ll handle the development after checking the screens and interactions involved.'
   ] },
   { locale: 'pt', route: '/pt/', copy: [
     'Conforme o escopo, também posso cuidar da adaptação para celulares, de formulários e outras ferramentas, do SEO técnico, da velocidade de carregamento e da publicação.',
     'Para negócios locais, também é possível trabalhar no Perfil da Empresa no Google. Além disso, preparo a estrutura e o conteúdo para mecanismos de busca e assistentes de IA, sem prometer visibilidade.',
-    'Já tem um design? Podemos analisar juntos, e eu cuido do desenvolvimento, depois de revisar as telas e os comportamentos necessários.'
+    'Já tem um design? Podemos analisar juntos, e eu cuido do desenvolvimento depois de revisar as telas e as interações necessárias.'
   ] },
   { locale: 'fr', route: '/fr/', copy: [
     'Selon le périmètre, je peux aussi intégrer l’adaptation mobile, des formulaires et d’autres outils, le référencement technique, l’optimisation de la vitesse de chargement et la mise en ligne.',
     'Pour les entreprises locales, il est aussi possible de travailler sur leur fiche d’établissement Google. Je prépare également la structure et le contenu pour les moteurs de recherche et les assistants IA, sans promettre de visibilité.',
-    'Vous avez déjà un design ? Nous pouvons l’examiner ensemble, puis je prends en charge le développement après avoir vérifié les écrans et les comportements nécessaires.'
+    'Vous avez déjà un design ? Nous pouvons l’examiner ensemble, puis je prends en charge le développement après avoir vérifié les écrans et les interactions à prévoir.'
   ] },
   { locale: 'ja', route: '/ja/', copy: [
     '対応範囲に応じて、スマートフォンでの表示調整、フォームなどの機能、テクニカルSEO、読み込み速度への配慮、公開まで対応します。',
