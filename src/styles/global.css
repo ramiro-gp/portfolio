@@ -38,13 +38,10 @@ main{z-index:auto}.hero,.section{position:relative;z-index:auto}.hero>*,.section
 html.js-ready .site-header[data-open][data-closing]{animation:menu-close .42s ease-in both}@keyframes menu-close{from{clip-path:circle(150vmax at var(--menu-origin-x,90%) var(--menu-origin-y,36px))}to{clip-path:circle(0 at var(--menu-origin-x,90%) var(--menu-origin-y,36px))}}.menu-navigation a{position:relative;padding-bottom:5px}.menu-navigation a::after{content:'';position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform .62s cubic-bezier(.22,1,.36,1)}.menu-navigation a:hover::after,.menu-navigation a:focus-visible::after{transform:scaleX(1)}
 .appearance{display:flex;align-items:flex-start;gap:20px 30px;flex-wrap:wrap}.appearance-group{min-width:0}.appearance .utility-heading{font-size:.75rem;font-weight:600;letter-spacing:.09em;margin-bottom:6px}.theme-options{margin:0}.accent-options{flex-wrap:wrap}.accent-choice{width:34px}.menu-utilities{gap:24px 36px}
 .about{color:var(--inverse-text);align-content:center}.about .professional-title,.about .process-prose p,.about .process-note,.about .language-disclosure,.about .section-index{color:var(--inverse-muted)}.about .process-prose,.about .language-disclosure{border-color:var(--inverse-divider)}.about a{color:var(--accent)}.about a:focus-visible{outline-color:var(--accent)}
-/* H7 decision: only Light + black switches to the scene's inverse white. */
-html[data-theme=light][data-accent=light-black] .continuous-line [data-line-path]{transition:stroke .18s ease}
+/* H7 decision: only the line paint physically inside Ramiro's Light + black surface is inverse. */
 html[data-theme=light][data-accent=light-black][data-ramiro-scene] .about .profile-links a[href*="github.com"]{color:var(--inverse-text)}
-html[data-theme=light][data-accent=light-black][data-ramiro-scene] .continuous-line [data-line-path]{stroke:var(--inverse-text)}
 html[data-theme=light][data-accent=light-black][data-ramiro-scene] .about .profile-links a[href*="github.com"]:focus-visible{outline-color:var(--inverse-text)}
-@media(prefers-reduced-motion:reduce){html[data-theme=light][data-accent=light-black] .continuous-line [data-line-path]{transition:none}}
-.continuous-line{z-index:1;color:initial;opacity:1}
+.continuous-line{z-index:1;color:initial;opacity:1;--line-stroke-width:17}
 .custom-cursor{background:var(--cursor-color)}.custom-cursor.is-inverse{background:var(--cursor-on-inverse)}.custom-cursor.is-on-accent{background:var(--cursor-on-accent)}html.cursor-ready .custom-cursor.is-hover{opacity:.56}
 @media(min-width:768px){.menu-navigation a{font-size:clamp(2rem,4.7vw,4.5rem)}.menu-bottom{margin-top:clamp(24px,5vh,56px)}html.js-ready .site-header[data-open] .menu-panel{padding-top:clamp(24px,3vh,40px)}}
 @media(min-width:768px){.hero{min-height:calc(100svh - var(--header-height))}.projects,.about,.contact{min-height:100svh}}
@@ -60,9 +57,14 @@ section[tabindex='-1']:focus-visible .section-index{outline:2px solid var(--acce
 .about:focus-visible .section-index{outline-color:var(--accent)}
 html.pointer-section-focus section[tabindex='-1']:focus-visible .section-index{outline:none}
 
-/* One accent throughout the entire path, including the dark Ramiro scene. */
-.continuous-line [data-line-path]{stroke:var(--accent);stroke-width:17;opacity:.9}
+/* The base path keeps its accent; Light + black adds a surface-clipped inverse paint. */
+.continuous-line [data-line-path]{stroke:var(--accent)}
+.continuous-line [data-line-path],.continuous-line [data-line-inverse-path]{stroke-width:var(--line-stroke-width);opacity:.9}
 .continuous-line circle{fill:var(--accent)}
+.continuous-line [data-line-inverse-layer]{display:none}
+html[data-theme=light][data-accent=light-black] .continuous-line [data-line-inverse-layer]{display:inline}
+.continuous-line [data-line-inverse-path]{stroke:var(--inverse-text)}
+.continuous-line [data-line-inverse-layer] circle{fill:var(--inverse-text)}
 .continuous-line [data-line-end-group]{opacity:0;transition:opacity .18s ease}
 .continuous-line .line-pulse{opacity:0;transform-box:fill-box;transform-origin:center;animation:line-node-pulse 3.5s ease-out infinite}
 .continuous-line [data-line-end-pulse]{animation-delay:.8s}
@@ -96,7 +98,7 @@ html.cursor-ready .custom-cursor.is-down{width:12px;height:12px}
 /* The compact line has its own route; reserve space beside Services copy. */
 @media(max-width:1023px){
   .services .section-intro,.services .capabilities{padding-right:32px}
-  .continuous-line [data-line-path]{stroke-width:8.5}
+  .continuous-line{--line-stroke-width:8.5}
 }
 /* Contact remains a full desktop scene, while its content may grow naturally. */
 .contact{padding-bottom:max(clamp(36px,4vw,56px),env(safe-area-inset-bottom))}
@@ -113,7 +115,7 @@ html.cursor-ready .custom-cursor.is-down{width:12px;height:12px}
 @media(max-width:1023px){.contact-guidance{padding-right:32px}}
 
 @media(max-width:767px){
-  .continuous-line [data-line-path]{stroke-width:8.5}
+  .continuous-line{--line-stroke-width:8.5}
   .hero h1{font-size:clamp(2.65rem,7vw,4.2rem)}
   .scroll-cue{display:inline-flex;margin-left:auto;margin-right:0}
   .hero-actions{flex-wrap:wrap}

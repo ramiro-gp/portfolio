@@ -24,11 +24,11 @@
 
 La regresión completa (`qa/h7-checks.cjs`) terminó con **0 fallos**: responsive 40, zoom 10, variantes 20, teclado 10, touch simulado 10, appearance 40, escena Ramiro 4, SEO 5, enlaces 5, assets 14 y smoke Chrome/Edge 20. `qa/h7-results.json` contiene los datos; la repetición focalizada está en `qa/h7-scene-results.json`; `qa/h7/` conserva 41 capturas. CLS máximo local observado: **0,01083**. No hubo errores JS, requests locales fallidas ni warnings de consola en el barrido Chrome/Edge. HEAD a Residencias, LingoHive, GitHub y WhatsApp devolvió 200 el 2026-09-25; no comprueba el flujo posterior de esos servicios ni el deployment de producción.
 
-## Cambio visual aplicado
+## Implementación H7 y corrección posterior H8
 
-El script existente de progreso de la línea marca en `<html>` si la sección Ramiro intersecta el viewport. Sólo cuando se combinan `data-theme="light"`, `data-accent="light-black"` y ese estado de escena, CSS pinta `data-line-path` y el enlace GitHub de `.profile-links` en `#F1F0EC`; el outline de foco del mismo enlace también es blanco. Al salir de Ramiro, la línea vuelve a `#202421`. La transición de `stroke` dura 180 ms y se elimina con reduced motion. No cambia el path SVG, stroke-width, nodos ni geometría. Los demás accents y Dark conservan el color seleccionado.
+La implementación entregada al cierre H7 marcaba en `<html>` si Ramiro intersectaba el viewport y, con Light + `light-black`, cambiaba a blanco el `stroke` del path completo. El enlace GitHub y su outline de foco también se corregían a blanco. Esto no implementaba la intención espacial: el path entero podía volverse blanco antes de tocar el fondo oscuro y seguir blanco después. La suite H7 verificó el color computado global mientras Ramiro estaba visible; no comprobó, en una misma captura, el color de cada tramo respecto de la superficie que cubría. Por eso la afirmación de H7 de que la línea era blanca sólo dentro de Ramiro queda supersedida; la decisión visual original se conserva.
 
-La suite mide **15,62:1** para GitHub blanco sobre Ramiro en negro Light. Hover conserva texto blanco y underline; el foco de teclado conserva texto y outline blancos. La regresión observa el color intermedio de la transición tanto al entrar como al salir. En reduced motion el cambio es inmediato.
+H8 reemplaza el switch global por una representación blanca del mismo path, recortada a los límites reales de `.about`; color base, geometría y progreso permanecen sincronizados. GitHub y su outline conservan la corrección blanca aprobada para Light + negro. La regresión espacial nueva cubre 390/1440 px, las cinco rutas, scroll descendente/inverso, resize, reduced motion, los diez accents y consola; evidencia actual en `qa/h8-line-clipping-results.json` y capturas en `qa/h8-line-clipping/`. El ratio histórico de GitHub blanco sobre Ramiro permanece **15,62:1**.
 
 ## Inventario P0/P1/P2/P3
 

@@ -2,6 +2,10 @@
 
 **Estado:** IN PROGRESS. Este informe distingue el preflight local de las comprobaciones pendientes sobre `https://ramita.dev` después de la carga H8.
 
+## Detención del paquete previo — 2026-09-26
+
+Ramiro detuvo la preparación/publicación antes de cargar el paquete actual a Hostinger. El ZIP creado desde `0af5489a63559b18651a7d10360a54a7a9165506` no es definitivo y queda invalidado: contenía la lógica H7 que cambiaba globalmente el stroke completo cuando `.about` intersectaba el viewport. No se carga a Hostinger. H7 aprobó la intención espacial, pero su regresión anterior no llegó a comprobarla. La corrección y el nuevo paquete quedan condicionados al commit, push, deployment verificado en Vercel y regeneración de ZIP/manifiesto documentados abajo.
+
 ## Estado inicial
 
 - `main` y `origin/main`: `d11b26272eb5148b241f564df622648e1b9c482f` al iniciar H8. `cambios.md` permanece sin seguimiento y fuera del release.

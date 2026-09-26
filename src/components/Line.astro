@@ -1,6 +1,17 @@
 <svg class="continuous-line" data-continuous-line aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="ramiro-surface-clip" clipPathUnits="userSpaceOnUse">
+      <rect data-line-inverse-clip></rect>
+    </clipPath>
+  </defs>
   <path data-line-path fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
   <circle data-line-start-pulse class="line-pulse"></circle>
   <circle data-line-start-node></circle>
   <g data-line-end-group><circle data-line-end-pulse class="line-pulse"></circle><circle data-line-end-node></circle></g>
+  <g data-line-inverse-layer clip-path="url(#ramiro-surface-clip)">
+    <path data-line-inverse-path fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+    <circle data-line-inverse-start-pulse class="line-pulse"></circle>
+    <circle data-line-inverse-start-node></circle>
+    <g data-line-inverse-end-group><circle data-line-inverse-end-pulse class="line-pulse"></circle><circle data-line-inverse-end-node></circle></g>
+  </g>
 </svg>

@@ -363,11 +363,19 @@ if (cursor && finePointer.matches && !reduceMotion.matches) {
 // The line is attached only after all content and geometry are in place.
 const svg = document.querySelector<SVGSVGElement>('[data-continuous-line]');
 const linePath = svg?.querySelector<SVGPathElement>('[data-line-path]');
+const inverseLayer = svg?.querySelector<SVGGElement>('[data-line-inverse-layer]');
+const inversePath = svg?.querySelector<SVGPathElement>('[data-line-inverse-path]');
+const inverseClip = svg?.querySelector<SVGRectElement>('[data-line-inverse-clip]');
 const startNode = svg?.querySelector<SVGCircleElement>('[data-line-start-node]');
 const endNode = svg?.querySelector<SVGCircleElement>('[data-line-end-node]');
 const startPulse = svg?.querySelector<SVGCircleElement>('[data-line-start-pulse]');
 const endPulse = svg?.querySelector<SVGCircleElement>('[data-line-end-pulse]');
 const endGroup = svg?.querySelector<SVGGElement>('[data-line-end-group]');
+const inverseStartNode = svg?.querySelector<SVGCircleElement>('[data-line-inverse-start-node]');
+const inverseEndNode = svg?.querySelector<SVGCircleElement>('[data-line-inverse-end-node]');
+const inverseStartPulse = svg?.querySelector<SVGCircleElement>('[data-line-inverse-start-pulse]');
+const inverseEndPulse = svg?.querySelector<SVGCircleElement>('[data-line-inverse-end-pulse]');
+const inverseEndGroup = svg?.querySelector<SVGGElement>('[data-line-inverse-end-group]');
 const startCue = document.querySelector<HTMLElement>('[data-line-start]');
 const anchors = ['hero', 'services', 'projects', 'about', 'contact'].map((name) => document.querySelector<HTMLElement>(`[data-line-anchor="${name}"]`));
 const serviceIntro = document.querySelector<HTMLElement>('.services .section-intro');
@@ -382,7 +390,7 @@ const projectTail = Array.from(document.querySelectorAll<HTMLElement>('.projects
 const aboutHeading = document.querySelector<HTMLElement>('.about .profile .section-heading');
 const contactHeading = document.querySelector<HTMLElement>('.contact .section-heading');
 const backToTop = document.querySelector<HTMLElement>('[data-back-to-top]');
-if (svg && linePath && startNode && endNode && startPulse && endPulse && endGroup && serviceIntro && serviceStack && firstServicePanel && servicePanels.length === 3 && landingTitle && finalServicePanel && capabilities && projectsHeading && projectTail && aboutHeading && contactHeading && backToTop && anchors.every(Boolean)) {
+if (svg && linePath && inverseLayer && inversePath && inverseClip && startNode && endNode && startPulse && endPulse && endGroup && inverseStartNode && inverseEndNode && inverseStartPulse && inverseEndPulse && inverseEndGroup && serviceIntro && serviceStack && firstServicePanel && servicePanels.length === 3 && landingTitle && finalServicePanel && capabilities && projectsHeading && projectTail && aboutHeading && contactHeading && backToTop && anchors.every(Boolean)) {
   type Milestone = { name: string; scroll: number; distance: number };
   let length = 1, scrollFrame = 0, geometryFrame = 0;
   let milestones: Milestone[] = [];
@@ -404,7 +412,9 @@ if (svg && linePath && startNode && endNode && startPulse && endPulse && endGrou
     if (!last) return;
     if (reduceMotion.matches) {
       linePath!.style.strokeDashoffset = '0';
+      inversePath!.style.strokeDashoffset = '0';
       endGroup!.style.opacity = '1';
+      inverseEndGroup!.style.opacity = '1';
       return;
     }
     let distance = 0;
@@ -421,7 +431,9 @@ if (svg && linePath && startNode && endNode && startPulse && endPulse && endGrou
     }
     const offset = String(Math.max(0, length - distance));
     linePath!.style.strokeDashoffset = offset;
+    inversePath!.style.strokeDashoffset = offset;
     endGroup!.style.opacity = distance >= length - 2 ? '1' : '0';
+    inverseEndGroup!.style.opacity = distance >= length - 2 ? '1' : '0';
   }
   function draw(): void {
     geometryFrame = 0;
@@ -442,6 +454,10 @@ if (svg && linePath && startNode && endNode && startPulse && endPulse && endGrou
     const height = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
     const maxScroll = Math.max(0, height - innerHeight);
     const compact = width < 1024;
+    inverseClip!.setAttribute('x', String(about.left));
+    inverseClip!.setAttribute('y', String(about.top));
+    inverseClip!.setAttribute('width', String(Math.max(0, about.right - about.left)));
+    inverseClip!.setAttribute('height', String(Math.max(0, about.height)));
     svg!.style.height = `${height}px`;
     svg!.setAttribute('viewBox', `0 0 ${width} ${height}`);
     let startX: number, endX: number, startY: number;
@@ -576,15 +592,15 @@ if (svg && linePath && startNode && endNode && startPulse && endPulse && endGrou
       mark('contact', maxScroll);
     }
     linePath!.setAttribute('d', d);
-    startNode!.setAttribute('cx', String(startX));
-    startNode!.setAttribute('cy', String(startY));
-    startPulse!.setAttribute('cx', String(startX));
-    startPulse!.setAttribute('cy', String(startY));
-    endNode!.setAttribute('cx', String(endX));
-    endNode!.setAttribute('cy', String(endY));
-    endPulse!.setAttribute('cx', String(endX));
-    endPulse!.setAttribute('cy', String(endY));
-    for (const circle of [startNode, endNode, startPulse, endPulse]) circle!.setAttribute('r', compact ? '12.5' : '20');
+    inversePath!.setAttribute('d', d);
+    for (const [circle, x, y] of [
+      [startNode, startX, startY], [startPulse, startX, startY], [endNode, endX, endY], [endPulse, endX, endY],
+      [inverseStartNode, startX, startY], [inverseStartPulse, startX, startY], [inverseEndNode, endX, endY], [inverseEndPulse, endX, endY]
+    ] as const) {
+      circle!.setAttribute('cx', String(x));
+      circle!.setAttribute('cy', String(y));
+      circle!.setAttribute('r', compact ? '12.5' : '20');
+    }
     length = linePath!.getTotalLength();
     const retimeRange = (startName: string, endName: string) => {
       const startIndex = milestones.findIndex((milestone) => milestone.name === startName);
@@ -612,6 +628,7 @@ if (svg && linePath && startNode && endNode && startPulse && endPulse && endGrou
       retimeRange('projects', 'about');
     }
     linePath!.style.strokeDasharray = String(length);
+    inversePath!.style.strokeDasharray = String(length);
     svg!.dataset.route = compact ? (width < 768 ? 'mobile' : 'tablet') : 'desktop';
     svg!.dataset.milestones = JSON.stringify(milestones);
     svg!.dataset.ready = '';

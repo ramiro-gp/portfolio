@@ -1,5 +1,9 @@
 # DECISIONS.md
 
+## 2026-09-26 — V2-H8: corrección espacial de la línea Light + negro
+
+Se confirma que la excepción visual aprobada en H7 se limita físicamente a la superficie oscura de Ramiro. El color base de la línea permanece negro en Light + `light-black`; el blanco se recorta a la caja real de `.about`, incluyendo únicamente la parte de trazo y nodos sobre ese fondo. La intersección de Ramiro con el viewport ya no conmuta globalmente el path. Se conserva una única fuente de geometría y se sincronizan `d`, progreso, dashoffset, grosores y nodos en la representación inversa. No cambian los demás accents, Dark, geometría, milestones, pulse o timings. H7 documentó una implementación global incorrecta y su prueba verificó el color computado completo, sin comprobar superposición espacial; el QA espacial de H8 la sustituye. Evidencia: `qa/h8-line-clipping-results.json` y `qa/h8-line-clipping/`. H8 permanece IN PROGRESS; el ZIP previo queda invalidado.
+
 ## 2026-09-25 — V2-H8: Hostinger y recuperación 404
 
 Ramiro confirmó Hostinger como hosting final y la publicación manual del contenido de `dist/` en el sitio existente; él hará la carga. El canonical es `https://ramita.dev`. Se conserva el DNS actual y el correo; `www` debe redirigir permanentemente al dominio raíz, conservando ruta y parámetros. Ramiro aprobó sustituir el 404 genérico en inglés por una página mínima propia con `404`, la marca y los cinco enlaces de inicio con etiquetas ya aprobadas. La configuración propuesta de Hostinger permanece fuera de `dist/` y se fusionará con las reglas existentes tras inspeccionarlas. Estas decisiones no acreditan publicación ni validaciones de producción; V2-H8 sigue IN PROGRESS.
