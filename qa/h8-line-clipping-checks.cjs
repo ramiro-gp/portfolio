@@ -26,7 +26,7 @@ const inverseWhite = 'rgb(241, 240, 236)';
 const results = {
   date: new Date().toISOString(), base,
   commit: execFileSync('git', ['rev-parse', 'HEAD'], { cwd: root, encoding: 'utf8' }).trim(),
-  viewports: [], locales: [], appearance: [], baselineComparisons: [], reducedMotion: null,
+  viewports: [], locales: [], appearance: [], baselineComparisons: [], motion: null, reducedMotion: null,
   failures: [], consoleErrors: [], requestFailures: [], screenshots: [],
 };
 fs.mkdirSync(captures, { recursive: true });
@@ -176,6 +176,16 @@ async function runViewport(browser, locale, width, height, screenshot) {
       await scrollTo(page, position.y);
       const current = await state(page);
       assertState(current, locale.code);
+      if (!results.motion && !current.reducedMotion) results.motion = {
+        pulseDuration: current.pulseDuration,
+        baseEndPulseDuration: current.baseEndPulseDuration,
+        inverseEndPulseDuration: current.inverseEndPulseDuration,
+        baseEndPulseDelay: current.baseEndPulseDelay,
+        inverseEndPulseDelay: current.inverseEndPulseDelay,
+        baseEndGroupTransition: current.baseEndGroupTransition,
+        inverseEndGroupTransition: current.inverseEndGroupTransition,
+        status: 'PASS',
+      };
       if (!stableGeometry) {
         stableGeometry = { path: current.path, milestones: current.milestones };
         if (locale.code === 'es') {
@@ -289,7 +299,16 @@ async function resizeAndReducedMotion(browser) {
     assert.equal(current.pulseAnimation, 'none', 'reduced motion disables node pulse');
     assert.equal(current.dashOffset, '0', 'reduced motion preserves the static full path');
     assert.equal(current.inverseDashOffset, '0', 'reduced motion keeps both paints synchronized');
-    results.reducedMotion = { pulseAnimation: current.pulseAnimation, dashOffset: current.dashOffset, inverseDashOffset: current.inverseDashOffset, spatialClipActive: current.inverseDisplay === 'inline', status: 'PASS' };
+    results.reducedMotion = {
+      pulseAnimation: current.pulseAnimation,
+      baseEndGroupTransition: current.baseEndGroupTransition,
+      inverseEndGroupTransition: current.inverseEndGroupTransition,
+      transitionLimitMs: Number.parseFloat(current.inverseEndGroupTransition) * 1000,
+      dashOffset: current.dashOffset,
+      inverseDashOffset: current.inverseDashOffset,
+      spatialClipActive: current.inverseDisplay === 'inline',
+      status: 'PASS',
+    };
   } finally { await reducedContext.close(); }
 }
 

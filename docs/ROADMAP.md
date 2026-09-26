@@ -122,7 +122,7 @@ Objetivo y entregables: Publicar y comprobar dominio/HTTPS, contacto, SEO y asse
 
 Cierre: Todos los criterios de DONE.md, incluidos producción y performance, satisfechos antes de STATUS: DONE.
 
-Estado: IN PROGRESS — 2026-09-26. Hosting final Hostinger y carga manual por Ramiro confirmados. El bug espacial Light + negro está corregido en `d785012` y su deployment Vercel fue verificado con QA focalizado desktop/mobile; build, check y 404 local pasan. El ZIP anterior quedó invalidado y se generó uno nuevo con manifiesto desde el commit corregido. La carga manual a Hostinger no se realizó ni se inicia automáticamente. Validación HTTP/TLS/SEO/links/smoke y Lighthouse/PageSpeed sobre `ramita.dev` siguen pendientes. No declarar H8 CLOSED ni V2 DONE antes de esas comprobaciones.
+Estado: IN PROGRESS — 2026-09-26. Hosting final Hostinger y carga manual por Ramiro confirmados. El bug espacial Light + negro se corrigió en `d785012` y la sincronización final de nodo/pulso quedó en `78e770d`; el alias Vercel se verificó visualmente y con QA focalizado en cinco idiomas, 390/1440 px, scroll reversible, resize, diez pares theme/accent y reduced motion. `pnpm build`, `pnpm check` y el 404 local pasan. Los ZIP previos se invalidaron; el paquete válido actual es `release/ramita-h8-78e770dc5d63296dd8b50db9fb4b1bf8a01d0666.zip`, con manifiesto SHA-256 verificado y 404 aprobado. La carga manual a Hostinger no se realizó por instrucción expresa. Validación HTTP/TLS/SEO/links/smoke y Lighthouse/PageSpeed sobre `ramita.dev` siguen pendientes. No declarar H8 CLOSED ni V2 DONE antes de esas comprobaciones.
 
 ## Auditoría V2-H0
 
