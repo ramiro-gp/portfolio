@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-26T03:31:38.223Z",
+  "date": "2026-09-26T07:32:23.697Z",
   "base": "https://portfolio-rrrramita.vercel.app",
-  "commit": "78e770dc5d63296dd8b50db9fb4b1bf8a01d0666",
+  "commit": "e3eb2a2b4caff95ba2a3a295ab8570d43aeb030f",
   "viewports": [
     {
       "case": "es-390",
@@ -14,7 +14,7 @@
         1157.890625
       ],
       "lineWidth": "8.5px",
-      "pathLength": 536,
+      "pathLength": 654,
       "milestoneCount": 16,
       "milestoneNames": [
         "hero",
@@ -46,7 +46,7 @@
         1157.890625
       ],
       "lineWidth": "8.5px",
-      "pathLength": 536,
+      "pathLength": 654,
       "milestoneCount": 16,
       "milestoneNames": [
         "hero",
@@ -78,7 +78,7 @@
         1157.890625
       ],
       "lineWidth": "8.5px",
-      "pathLength": 536,
+      "pathLength": 654,
       "milestoneCount": 16,
       "milestoneNames": [
         "hero",
@@ -110,7 +110,7 @@
         900
       ],
       "lineWidth": "17px",
-      "pathLength": 812,
+      "pathLength": 611,
       "milestoneCount": 13,
       "milestoneNames": [
         "hero",
@@ -139,7 +139,7 @@
         900
       ],
       "lineWidth": "17px",
-      "pathLength": 812,
+      "pathLength": 611,
       "milestoneCount": 13,
       "milestoneNames": [
         "hero",
@@ -168,7 +168,7 @@
         900
       ],
       "lineWidth": "17px",
-      "pathLength": 812,
+      "pathLength": 611,
       "milestoneCount": 13,
       "milestoneNames": [
         "hero",
@@ -189,15 +189,15 @@
     {
       "case": "en-390",
       "state": "before",
-      "scrollY": 6038,
+      "scrollY": 6069,
       "about": [
         0,
-        6884.1875,
+        6914.578125,
         390,
         1263.703125
       ],
       "lineWidth": "8.5px",
-      "pathLength": 548,
+      "pathLength": 541,
       "milestoneCount": 16,
       "milestoneNames": [
         "hero",
@@ -221,15 +221,15 @@
     {
       "case": "en-390",
       "state": "projects-to-ramiro",
-      "scrollY": 6559,
+      "scrollY": 6589,
       "about": [
         0,
-        6884.1875,
+        6914.578125,
         390,
         1263.703125
       ],
       "lineWidth": "8.5px",
-      "pathLength": 548,
+      "pathLength": 541,
       "milestoneCount": 16,
       "milestoneNames": [
         "hero",
@@ -253,15 +253,15 @@
     {
       "case": "en-390",
       "state": "ramiro-to-contact",
-      "scrollY": 7768,
+      "scrollY": 7798,
       "about": [
         0,
-        6884.1875,
+        6914.578125,
         390,
         1263.703125
       ],
       "lineWidth": "8.5px",
-      "pathLength": 548,
+      "pathLength": 541,
       "milestoneCount": 16,
       "milestoneNames": [
         "hero",
@@ -285,10 +285,10 @@
     {
       "case": "en-1440",
       "state": "before",
-      "scrollY": 6151,
+      "scrollY": 6183,
       "about": [
         0,
-        7052.59375,
+        7084.59375,
         1440,
         900
       ],
@@ -314,10 +314,10 @@
     {
       "case": "en-1440",
       "state": "projects-to-ramiro",
-      "scrollY": 6705,
+      "scrollY": 6737,
       "about": [
         0,
-        7052.59375,
+        7084.59375,
         1440,
         900
       ],
@@ -343,10 +343,10 @@
     {
       "case": "en-1440",
       "state": "ramiro-to-contact",
-      "scrollY": 7548,
+      "scrollY": 7580,
       "about": [
         0,
-        7052.59375,
+        7084.59375,
         1440,
         900
       ],
@@ -372,15 +372,15 @@
     {
       "case": "pt-390",
       "state": "before",
-      "scrollY": 6104,
+      "scrollY": 6225,
       "about": [
         0,
-        6949.71875,
+        7071.28125,
         390,
         1329.28125
       ],
       "lineWidth": "8.5px",
-      "pathLength": 527,
+      "pathLength": 530,
       "milestoneCount": 16,
       "milestoneNames": [
         "hero",
@@ -404,15 +404,15 @@
     {
       "case": "pt-390",
       "state": "projects-to-ramiro",
-      "scrollY": 6624,
+      "scrollY": 6746,
       "about": [
         0,
-        6949.71875,
+        7071.28125,
         390,
         1329.28125
       ],
       "lineWidth": "8.5px",
-      "pathLength": 527,
+      "pathLength": 530,
       "milestoneCount": 16,
       "milestoneNames": [
         "hero",
@@ -436,15 +436,15 @@
     {
       "case": "pt-390",
       "state": "ramiro-to-contact",
-      "scrollY": 7899,
+      "scrollY": 8021,
       "about": [
         0,
-        6949.71875,
+        7071.28125,
         390,
         1329.28125
       ],
       "lineWidth": "8.5px",
-      "pathLength": 527,
+      "pathLength": 530,
       "milestoneCount": 16,
       "milestoneNames": [
         "hero",
@@ -555,15 +555,15 @@
     {
       "case": "fr-390",
       "state": "before",
-      "scrollY": 6211,
+      "scrollY": 6241,
       "about": [
         0,
-        7056.671875,
+        7087.0625,
         390,
         1353.28125
       ],
       "lineWidth": "8.5px",
-      "pathLength": 548,
+      "pathLength": 510,
       "milestoneCount": 16,
       "milestoneNames": [
         "hero",
@@ -587,15 +587,15 @@
     {
       "case": "fr-390",
       "state": "projects-to-ramiro",
-      "scrollY": 6731,
+      "scrollY": 6761,
       "about": [
         0,
-        7056.671875,
+        7087.0625,
         390,
         1353.28125
       ],
       "lineWidth": "8.5px",
-      "pathLength": 548,
+      "pathLength": 510,
       "milestoneCount": 16,
       "milestoneNames": [
         "hero",
@@ -619,15 +619,15 @@
     {
       "case": "fr-390",
       "state": "ramiro-to-contact",
-      "scrollY": 8030,
+      "scrollY": 8061,
       "about": [
         0,
-        7056.671875,
+        7087.0625,
         390,
         1353.28125
       ],
       "lineWidth": "8.5px",
-      "pathLength": 548,
+      "pathLength": 510,
       "milestoneCount": 16,
       "milestoneNames": [
         "hero",
@@ -659,7 +659,7 @@
         900
       ],
       "lineWidth": "17px",
-      "pathLength": 625,
+      "pathLength": 626,
       "milestoneCount": 13,
       "milestoneNames": [
         "hero",
@@ -688,7 +688,7 @@
         900
       ],
       "lineWidth": "17px",
-      "pathLength": 625,
+      "pathLength": 626,
       "milestoneCount": 13,
       "milestoneNames": [
         "hero",
@@ -717,7 +717,7 @@
         900
       ],
       "lineWidth": "17px",
-      "pathLength": 625,
+      "pathLength": 626,
       "milestoneCount": 13,
       "milestoneNames": [
         "hero",
@@ -738,15 +738,15 @@
     {
       "case": "ja-390",
       "state": "before",
-      "scrollY": 5972,
+      "scrollY": 5907,
       "about": [
         0,
-        6817.796875,
+        6753.203125,
         390,
         1336.65625
       ],
       "lineWidth": "8.5px",
-      "pathLength": 531,
+      "pathLength": 635,
       "milestoneCount": 16,
       "milestoneNames": [
         "hero",
@@ -770,15 +770,15 @@
     {
       "case": "ja-390",
       "state": "projects-to-ramiro",
-      "scrollY": 6492,
+      "scrollY": 6428,
       "about": [
         0,
-        6817.796875,
+        6753.203125,
         390,
         1336.65625
       ],
       "lineWidth": "8.5px",
-      "pathLength": 531,
+      "pathLength": 635,
       "milestoneCount": 16,
       "milestoneNames": [
         "hero",
@@ -802,15 +802,15 @@
     {
       "case": "ja-390",
       "state": "ramiro-to-contact",
-      "scrollY": 7775,
+      "scrollY": 7710,
       "about": [
         0,
-        6817.796875,
+        6753.203125,
         390,
         1336.65625
       ],
       "lineWidth": "8.5px",
-      "pathLength": 531,
+      "pathLength": 635,
       "milestoneCount": 16,
       "milestoneNames": [
         "hero",
@@ -1125,14 +1125,14 @@
     {
       "case": "es-390",
       "source": "qa/h7-scene-results.json",
-      "maxCoordinateDeltaPx": 0.000010156250027648639,
+      "maxCoordinateDeltaPx": 0.00006113281233410817,
       "tolerancePx": 0.01,
       "commandStructureUnchanged": true
     },
     {
       "case": "es-1440",
       "source": "qa/h7-scene-results.json",
-      "maxCoordinateDeltaPx": 0.0001113124999392312,
+      "maxCoordinateDeltaPx": 0.000038281250454019755,
       "tolerancePx": 0.01,
       "commandStructureUnchanged": true
     }
