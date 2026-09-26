@@ -1,0 +1,956 @@
+{
+  "date": "2026-09-26T00:34:22.174Z",
+  "base": "https://ramita.dev",
+  "releaseSha": "0af5489a63559b18651a7d10360a54a7a9165506",
+  "manifestPath": "C:\\Codigo\\portfolio\\release\\ramita-h8-0af5489a63559b18651a7d10360a54a7a9165506.sha256",
+  "http": [
+    {
+      "route": "/",
+      "status": 200,
+      "type": "text/html"
+    },
+    {
+      "route": "/en/",
+      "status": 200,
+      "type": "text/html"
+    },
+    {
+      "route": "/pt/",
+      "status": 200,
+      "type": "text/html"
+    },
+    {
+      "route": "/fr/",
+      "status": 200,
+      "type": "text/html"
+    },
+    {
+      "route": "/ja/",
+      "status": 200,
+      "type": "text/html"
+    },
+    {
+      "route": "http://ramita.dev/en/?h8=1",
+      "status": 301,
+      "location": "https://ramita.dev/en/?h8=1"
+    },
+    {
+      "route": "/en",
+      "status": 200,
+      "finalUrl": "https://ramita.dev/en/"
+    }
+  ],
+  "files": [
+    {
+      "path": "favicon.ico",
+      "status": 200,
+      "bytes": 2355,
+      "hash": "1eb7c4c4f4c620fcb39ce3b47ccba7b13b80e1ea7ab195de6426b8d16e16bb96",
+      "type": "image/x-icon"
+    },
+    {
+      "path": "favicon.svg",
+      "status": 200,
+      "bytes": 970,
+      "hash": "b25c37aea5e01140a87d527a366a68611bf5b96b04a55b554641f72594df9359",
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "fonts/InstrumentSans.woff2",
+      "status": 200,
+      "bytes": 88676,
+      "hash": "22458a6296d82f136f3d0eb5d5a6c5a11ef4fd2ca3a5fd55d0836ab4dfea6eb1",
+      "type": "font/woff2"
+    },
+    {
+      "path": "fonts/NotoSansJP-ja.woff2",
+      "status": 200,
+      "bytes": 90260,
+      "hash": "17e0d0204efe74a3fbcbc5723c55f3e9e98a6cbef08f1a89ca1035d838ae6c42",
+      "type": "font/woff2"
+    },
+    {
+      "path": "fonts/OFL-Noto-Sans-JP.txt",
+      "status": 200,
+      "bytes": 4388,
+      "hash": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "type": "text/plain"
+    },
+    {
+      "path": "images/lingohive-desktop.webp",
+      "status": 200,
+      "bytes": 54662,
+      "hash": "7874b7cdb56acca5d5c6e534386a430c138920ffdf75f7f9d006d8221ded50eb",
+      "type": "image/webp"
+    },
+    {
+      "path": "images/lingohive-mobile.webp",
+      "status": 200,
+      "bytes": 25176,
+      "hash": "1c1aa8ff4fc6dfce1d310c4789434c9977382b1983d39a1fee62e668bbf788d8",
+      "type": "image/webp"
+    },
+    {
+      "path": "images/residencias-desktop.webp",
+      "status": 200,
+      "bytes": 110488,
+      "hash": "fbd7cc05c466b696cc1fae9c6160e077753ddbe9408c4f63ee1e313a873b7e6a",
+      "type": "image/webp"
+    },
+    {
+      "path": "images/residencias-mobile.webp",
+      "status": 200,
+      "bytes": 40126,
+      "hash": "31a98817b31fed31dd7f3c4547642b35f5a4417962aa192ab5f8c379018084a4",
+      "type": "image/webp"
+    },
+    {
+      "path": "robots.txt",
+      "status": 200,
+      "bytes": 63,
+      "hash": "63f7267e6a7d579a3b60acb7e01eb4991a81ec39ac16907efe53d91a8ebc46da",
+      "type": "text/plain"
+    },
+    {
+      "path": "sitemap.xml",
+      "status": 200,
+      "bytes": 326,
+      "hash": "6cd9706873206db3e3b41e47908ab9b8dc70a1db7f5129869ad22d50faab0e6f",
+      "type": "application/xml"
+    }
+  ],
+  "browser": [
+    {
+      "browser": "Chrome",
+      "version": "153.0.8010.53",
+      "locale": "es",
+      "width": 390,
+      "reducedMotion": false,
+      "javaScriptEnabled": true,
+      "pass": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "153.0.8010.53",
+      "locale": "es",
+      "width": 1440,
+      "reducedMotion": false,
+      "javaScriptEnabled": true,
+      "pass": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "153.0.8010.53",
+      "locale": "en",
+      "width": 390,
+      "reducedMotion": false,
+      "javaScriptEnabled": true,
+      "pass": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "153.0.8010.53",
+      "locale": "en",
+      "width": 1440,
+      "reducedMotion": false,
+      "javaScriptEnabled": true,
+      "pass": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "153.0.8010.53",
+      "locale": "pt",
+      "width": 390,
+      "reducedMotion": false,
+      "javaScriptEnabled": true,
+      "pass": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "153.0.8010.53",
+      "locale": "pt",
+      "width": 1440,
+      "reducedMotion": false,
+      "javaScriptEnabled": true,
+      "pass": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "153.0.8010.53",
+      "locale": "fr",
+      "width": 390,
+      "reducedMotion": false,
+      "javaScriptEnabled": true,
+      "pass": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "153.0.8010.53",
+      "locale": "fr",
+      "width": 1440,
+      "reducedMotion": false,
+      "javaScriptEnabled": true,
+      "pass": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "153.0.8010.53",
+      "locale": "ja",
+      "width": 390,
+      "reducedMotion": false,
+      "javaScriptEnabled": true,
+      "pass": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "153.0.8010.53",
+      "locale": "ja",
+      "width": 1440,
+      "reducedMotion": false,
+      "javaScriptEnabled": true,
+      "pass": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "153.0.8010.53",
+      "locale": "es",
+      "width": 390,
+      "reducedMotion": true,
+      "javaScriptEnabled": true,
+      "pass": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "153.0.8010.53",
+      "locale": "es",
+      "width": 390,
+      "reducedMotion": false,
+      "javaScriptEnabled": false,
+      "pass": true
+    },
+    {
+      "browser": "Edge",
+      "version": "153.0.4234.48",
+      "locale": "es",
+      "width": 390,
+      "reducedMotion": false,
+      "javaScriptEnabled": true,
+      "pass": true
+    },
+    {
+      "browser": "Edge",
+      "version": "153.0.4234.48",
+      "locale": "es",
+      "width": 1440,
+      "reducedMotion": false,
+      "javaScriptEnabled": true,
+      "pass": true
+    },
+    {
+      "browser": "Edge",
+      "version": "153.0.4234.48",
+      "locale": "en",
+      "width": 390,
+      "reducedMotion": false,
+      "javaScriptEnabled": true,
+      "pass": true
+    },
+    {
+      "browser": "Edge",
+      "version": "153.0.4234.48",
+      "locale": "en",
+      "width": 1440,
+      "reducedMotion": false,
+      "javaScriptEnabled": true,
+      "pass": true
+    },
+    {
+      "browser": "Edge",
+      "version": "153.0.4234.48",
+      "locale": "pt",
+      "width": 390,
+      "reducedMotion": false,
+      "javaScriptEnabled": true,
+      "pass": true
+    },
+    {
+      "browser": "Edge",
+      "version": "153.0.4234.48",
+      "locale": "pt",
+      "width": 1440,
+      "reducedMotion": false,
+      "javaScriptEnabled": true,
+      "pass": true
+    },
+    {
+      "browser": "Edge",
+      "version": "153.0.4234.48",
+      "locale": "fr",
+      "width": 390,
+      "reducedMotion": false,
+      "javaScriptEnabled": true,
+      "pass": true
+    },
+    {
+      "browser": "Edge",
+      "version": "153.0.4234.48",
+      "locale": "fr",
+      "width": 1440,
+      "reducedMotion": false,
+      "javaScriptEnabled": true,
+      "pass": true
+    },
+    {
+      "browser": "Edge",
+      "version": "153.0.4234.48",
+      "locale": "ja",
+      "width": 390,
+      "reducedMotion": false,
+      "javaScriptEnabled": true,
+      "pass": true
+    },
+    {
+      "browser": "Edge",
+      "version": "153.0.4234.48",
+      "locale": "ja",
+      "width": 1440,
+      "reducedMotion": false,
+      "javaScriptEnabled": true,
+      "pass": true
+    }
+  ],
+  "links": [
+    {
+      "locale": "es",
+      "label": "email",
+      "href": "mailto:ramirogperucho@gmail.com"
+    },
+    {
+      "locale": "es",
+      "label": "WhatsApp",
+      "href": "https://wa.me/5491151354489"
+    },
+    {
+      "locale": "es",
+      "label": "GitHub",
+      "href": "https://github.com/ramiro-gp"
+    },
+    {
+      "locale": "es",
+      "label": "Residencias",
+      "href": "https://residenciasgrupocasa.com.ar/"
+    },
+    {
+      "locale": "es",
+      "label": "LingoHive",
+      "href": "https://lingo-hive.vercel.app/"
+    },
+    {
+      "locale": "es",
+      "label": "email",
+      "href": "mailto:ramirogperucho@gmail.com"
+    },
+    {
+      "locale": "es",
+      "label": "WhatsApp",
+      "href": "https://wa.me/5491151354489"
+    },
+    {
+      "locale": "es",
+      "label": "GitHub",
+      "href": "https://github.com/ramiro-gp"
+    },
+    {
+      "locale": "es",
+      "label": "Residencias",
+      "href": "https://residenciasgrupocasa.com.ar/"
+    },
+    {
+      "locale": "es",
+      "label": "LingoHive",
+      "href": "https://lingo-hive.vercel.app/"
+    },
+    {
+      "locale": "en",
+      "label": "email",
+      "href": "mailto:ramirogperucho@gmail.com"
+    },
+    {
+      "locale": "en",
+      "label": "WhatsApp",
+      "href": "https://wa.me/5491151354489"
+    },
+    {
+      "locale": "en",
+      "label": "GitHub",
+      "href": "https://github.com/ramiro-gp"
+    },
+    {
+      "locale": "en",
+      "label": "Residencias",
+      "href": "https://residenciasgrupocasa.com.ar/"
+    },
+    {
+      "locale": "en",
+      "label": "LingoHive",
+      "href": "https://lingo-hive.vercel.app/"
+    },
+    {
+      "locale": "en",
+      "label": "email",
+      "href": "mailto:ramirogperucho@gmail.com"
+    },
+    {
+      "locale": "en",
+      "label": "WhatsApp",
+      "href": "https://wa.me/5491151354489"
+    },
+    {
+      "locale": "en",
+      "label": "GitHub",
+      "href": "https://github.com/ramiro-gp"
+    },
+    {
+      "locale": "en",
+      "label": "Residencias",
+      "href": "https://residenciasgrupocasa.com.ar/"
+    },
+    {
+      "locale": "en",
+      "label": "LingoHive",
+      "href": "https://lingo-hive.vercel.app/"
+    },
+    {
+      "locale": "pt",
+      "label": "email",
+      "href": "mailto:ramirogperucho@gmail.com"
+    },
+    {
+      "locale": "pt",
+      "label": "WhatsApp",
+      "href": "https://wa.me/5491151354489"
+    },
+    {
+      "locale": "pt",
+      "label": "GitHub",
+      "href": "https://github.com/ramiro-gp"
+    },
+    {
+      "locale": "pt",
+      "label": "Residencias",
+      "href": "https://residenciasgrupocasa.com.ar/"
+    },
+    {
+      "locale": "pt",
+      "label": "LingoHive",
+      "href": "https://lingo-hive.vercel.app/"
+    },
+    {
+      "locale": "pt",
+      "label": "email",
+      "href": "mailto:ramirogperucho@gmail.com"
+    },
+    {
+      "locale": "pt",
+      "label": "WhatsApp",
+      "href": "https://wa.me/5491151354489"
+    },
+    {
+      "locale": "pt",
+      "label": "GitHub",
+      "href": "https://github.com/ramiro-gp"
+    },
+    {
+      "locale": "pt",
+      "label": "Residencias",
+      "href": "https://residenciasgrupocasa.com.ar/"
+    },
+    {
+      "locale": "pt",
+      "label": "LingoHive",
+      "href": "https://lingo-hive.vercel.app/"
+    },
+    {
+      "locale": "fr",
+      "label": "email",
+      "href": "mailto:ramirogperucho@gmail.com"
+    },
+    {
+      "locale": "fr",
+      "label": "WhatsApp",
+      "href": "https://wa.me/5491151354489"
+    },
+    {
+      "locale": "fr",
+      "label": "GitHub",
+      "href": "https://github.com/ramiro-gp"
+    },
+    {
+      "locale": "fr",
+      "label": "Residencias",
+      "href": "https://residenciasgrupocasa.com.ar/"
+    },
+    {
+      "locale": "fr",
+      "label": "LingoHive",
+      "href": "https://lingo-hive.vercel.app/"
+    },
+    {
+      "locale": "fr",
+      "label": "email",
+      "href": "mailto:ramirogperucho@gmail.com"
+    },
+    {
+      "locale": "fr",
+      "label": "WhatsApp",
+      "href": "https://wa.me/5491151354489"
+    },
+    {
+      "locale": "fr",
+      "label": "GitHub",
+      "href": "https://github.com/ramiro-gp"
+    },
+    {
+      "locale": "fr",
+      "label": "Residencias",
+      "href": "https://residenciasgrupocasa.com.ar/"
+    },
+    {
+      "locale": "fr",
+      "label": "LingoHive",
+      "href": "https://lingo-hive.vercel.app/"
+    },
+    {
+      "locale": "ja",
+      "label": "email",
+      "href": "mailto:ramirogperucho@gmail.com"
+    },
+    {
+      "locale": "ja",
+      "label": "WhatsApp",
+      "href": "https://wa.me/5491151354489"
+    },
+    {
+      "locale": "ja",
+      "label": "GitHub",
+      "href": "https://github.com/ramiro-gp"
+    },
+    {
+      "locale": "ja",
+      "label": "Residencias",
+      "href": "https://residenciasgrupocasa.com.ar/"
+    },
+    {
+      "locale": "ja",
+      "label": "LingoHive",
+      "href": "https://lingo-hive.vercel.app/"
+    },
+    {
+      "locale": "ja",
+      "label": "email",
+      "href": "mailto:ramirogperucho@gmail.com"
+    },
+    {
+      "locale": "ja",
+      "label": "WhatsApp",
+      "href": "https://wa.me/5491151354489"
+    },
+    {
+      "locale": "ja",
+      "label": "GitHub",
+      "href": "https://github.com/ramiro-gp"
+    },
+    {
+      "locale": "ja",
+      "label": "Residencias",
+      "href": "https://residenciasgrupocasa.com.ar/"
+    },
+    {
+      "locale": "ja",
+      "label": "LingoHive",
+      "href": "https://lingo-hive.vercel.app/"
+    },
+    {
+      "locale": "es",
+      "label": "email",
+      "href": "mailto:ramirogperucho@gmail.com"
+    },
+    {
+      "locale": "es",
+      "label": "WhatsApp",
+      "href": "https://wa.me/5491151354489"
+    },
+    {
+      "locale": "es",
+      "label": "GitHub",
+      "href": "https://github.com/ramiro-gp"
+    },
+    {
+      "locale": "es",
+      "label": "Residencias",
+      "href": "https://residenciasgrupocasa.com.ar/"
+    },
+    {
+      "locale": "es",
+      "label": "LingoHive",
+      "href": "https://lingo-hive.vercel.app/"
+    },
+    {
+      "locale": "es",
+      "label": "email",
+      "href": "mailto:ramirogperucho@gmail.com"
+    },
+    {
+      "locale": "es",
+      "label": "WhatsApp",
+      "href": "https://wa.me/5491151354489"
+    },
+    {
+      "locale": "es",
+      "label": "GitHub",
+      "href": "https://github.com/ramiro-gp"
+    },
+    {
+      "locale": "es",
+      "label": "Residencias",
+      "href": "https://residenciasgrupocasa.com.ar/"
+    },
+    {
+      "locale": "es",
+      "label": "LingoHive",
+      "href": "https://lingo-hive.vercel.app/"
+    },
+    {
+      "locale": "es",
+      "label": "email",
+      "href": "mailto:ramirogperucho@gmail.com"
+    },
+    {
+      "locale": "es",
+      "label": "WhatsApp",
+      "href": "https://wa.me/5491151354489"
+    },
+    {
+      "locale": "es",
+      "label": "GitHub",
+      "href": "https://github.com/ramiro-gp"
+    },
+    {
+      "locale": "es",
+      "label": "Residencias",
+      "href": "https://residenciasgrupocasa.com.ar/"
+    },
+    {
+      "locale": "es",
+      "label": "LingoHive",
+      "href": "https://lingo-hive.vercel.app/"
+    },
+    {
+      "locale": "es",
+      "label": "email",
+      "href": "mailto:ramirogperucho@gmail.com"
+    },
+    {
+      "locale": "es",
+      "label": "WhatsApp",
+      "href": "https://wa.me/5491151354489"
+    },
+    {
+      "locale": "es",
+      "label": "GitHub",
+      "href": "https://github.com/ramiro-gp"
+    },
+    {
+      "locale": "es",
+      "label": "Residencias",
+      "href": "https://residenciasgrupocasa.com.ar/"
+    },
+    {
+      "locale": "es",
+      "label": "LingoHive",
+      "href": "https://lingo-hive.vercel.app/"
+    },
+    {
+      "locale": "en",
+      "label": "email",
+      "href": "mailto:ramirogperucho@gmail.com"
+    },
+    {
+      "locale": "en",
+      "label": "WhatsApp",
+      "href": "https://wa.me/5491151354489"
+    },
+    {
+      "locale": "en",
+      "label": "GitHub",
+      "href": "https://github.com/ramiro-gp"
+    },
+    {
+      "locale": "en",
+      "label": "Residencias",
+      "href": "https://residenciasgrupocasa.com.ar/"
+    },
+    {
+      "locale": "en",
+      "label": "LingoHive",
+      "href": "https://lingo-hive.vercel.app/"
+    },
+    {
+      "locale": "en",
+      "label": "email",
+      "href": "mailto:ramirogperucho@gmail.com"
+    },
+    {
+      "locale": "en",
+      "label": "WhatsApp",
+      "href": "https://wa.me/5491151354489"
+    },
+    {
+      "locale": "en",
+      "label": "GitHub",
+      "href": "https://github.com/ramiro-gp"
+    },
+    {
+      "locale": "en",
+      "label": "Residencias",
+      "href": "https://residenciasgrupocasa.com.ar/"
+    },
+    {
+      "locale": "en",
+      "label": "LingoHive",
+      "href": "https://lingo-hive.vercel.app/"
+    },
+    {
+      "locale": "pt",
+      "label": "email",
+      "href": "mailto:ramirogperucho@gmail.com"
+    },
+    {
+      "locale": "pt",
+      "label": "WhatsApp",
+      "href": "https://wa.me/5491151354489"
+    },
+    {
+      "locale": "pt",
+      "label": "GitHub",
+      "href": "https://github.com/ramiro-gp"
+    },
+    {
+      "locale": "pt",
+      "label": "Residencias",
+      "href": "https://residenciasgrupocasa.com.ar/"
+    },
+    {
+      "locale": "pt",
+      "label": "LingoHive",
+      "href": "https://lingo-hive.vercel.app/"
+    },
+    {
+      "locale": "pt",
+      "label": "email",
+      "href": "mailto:ramirogperucho@gmail.com"
+    },
+    {
+      "locale": "pt",
+      "label": "WhatsApp",
+      "href": "https://wa.me/5491151354489"
+    },
+    {
+      "locale": "pt",
+      "label": "GitHub",
+      "href": "https://github.com/ramiro-gp"
+    },
+    {
+      "locale": "pt",
+      "label": "Residencias",
+      "href": "https://residenciasgrupocasa.com.ar/"
+    },
+    {
+      "locale": "pt",
+      "label": "LingoHive",
+      "href": "https://lingo-hive.vercel.app/"
+    },
+    {
+      "locale": "fr",
+      "label": "email",
+      "href": "mailto:ramirogperucho@gmail.com"
+    },
+    {
+      "locale": "fr",
+      "label": "WhatsApp",
+      "href": "https://wa.me/5491151354489"
+    },
+    {
+      "locale": "fr",
+      "label": "GitHub",
+      "href": "https://github.com/ramiro-gp"
+    },
+    {
+      "locale": "fr",
+      "label": "Residencias",
+      "href": "https://residenciasgrupocasa.com.ar/"
+    },
+    {
+      "locale": "fr",
+      "label": "LingoHive",
+      "href": "https://lingo-hive.vercel.app/"
+    },
+    {
+      "locale": "fr",
+      "label": "email",
+      "href": "mailto:ramirogperucho@gmail.com"
+    },
+    {
+      "locale": "fr",
+      "label": "WhatsApp",
+      "href": "https://wa.me/5491151354489"
+    },
+    {
+      "locale": "fr",
+      "label": "GitHub",
+      "href": "https://github.com/ramiro-gp"
+    },
+    {
+      "locale": "fr",
+      "label": "Residencias",
+      "href": "https://residenciasgrupocasa.com.ar/"
+    },
+    {
+      "locale": "fr",
+      "label": "LingoHive",
+      "href": "https://lingo-hive.vercel.app/"
+    },
+    {
+      "locale": "ja",
+      "label": "email",
+      "href": "mailto:ramirogperucho@gmail.com"
+    },
+    {
+      "locale": "ja",
+      "label": "WhatsApp",
+      "href": "https://wa.me/5491151354489"
+    },
+    {
+      "locale": "ja",
+      "label": "GitHub",
+      "href": "https://github.com/ramiro-gp"
+    },
+    {
+      "locale": "ja",
+      "label": "Residencias",
+      "href": "https://residenciasgrupocasa.com.ar/"
+    },
+    {
+      "locale": "ja",
+      "label": "LingoHive",
+      "href": "https://lingo-hive.vercel.app/"
+    },
+    {
+      "locale": "ja",
+      "label": "email",
+      "href": "mailto:ramirogperucho@gmail.com"
+    },
+    {
+      "locale": "ja",
+      "label": "WhatsApp",
+      "href": "https://wa.me/5491151354489"
+    },
+    {
+      "locale": "ja",
+      "label": "GitHub",
+      "href": "https://github.com/ramiro-gp"
+    },
+    {
+      "locale": "ja",
+      "label": "Residencias",
+      "href": "https://residenciasgrupocasa.com.ar/"
+    },
+    {
+      "locale": "ja",
+      "label": "LingoHive",
+      "href": "https://lingo-hive.vercel.app/"
+    }
+  ],
+  "failures": [
+    {
+      "area": "http",
+      "name": "www to apex",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n200 !== 301\n\n    at C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:51:12\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async run (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:27:9)\n    at async httpChecks (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:49:3)\n    at async C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:146:3"
+    },
+    {
+      "area": "http",
+      "name": "missing route",
+      "error": "AssertionError [ERR_ASSERTION]: The input did not match the regular expression /<title>404 \\| ramita\\.dev<\\/title>/. Input:\n\n'<!DOCTYPE html>\\n' +\n  '<html lang=\"en-us\"\\n' +\n  '    prefix=\"content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#\">\\n' +\n  '\\n' +\n  '<head>\\n' +\n  '    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\\n' +\n  '    <style type=\"text/css\">\\n' +\n  '        @charset \"UTF-8\";\\n' +\n  '\\n' +\n  '        [ng\\\\:cloak],\\n' +\n  '        [ng-cloak],\\n' +\n  '        [data-ng-cloak],\\n' +\n  '        [x-ng-cloak],\\n' +\n  '        .ng-cloak,\\n' +\n  '        .x-ng-cloak,\\n' +\n  '        .ng-hide:not(.ng-hide-animate) {\\n' +\n  '            display: none !important;\\n' +\n  '        }\\n' +\n  '\\n' +\n  '        ng\\\\:form {\\n' +\n  '            display: block;\\n' +\n  '        }\\n' +\n  '\\n' +\n  '        .ng-animate-shim {\\n' +\n  '            visibility: hidden;\\n' +\n  '        }\\n' +\n  '\\n' +\n  '        .ng-anchor {\\n' +\n  '            position: absolute;\\n' +\n  '        }\\n' +\n  '    </style>\\n' +\n  '    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\\n' +\n  '    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\\n' +\n  '    <title>This Page Does Not Exist</title>\\n' +\n  '    <meta name=\"description\" content=\"Oops, looks like the page is lost.\">\\n' +\n  '    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">\\n' +\n  '    <link href=\"https://fonts.googleapis.com/css?family=DM+Sans:300,300i,400,400i,600,600i,700,700i,800,800i\"\\n' +\n  '        rel=\"stylesheet\">\\n' +\n  '    <link href=\"https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,600,600i,700,700i,800,800i\"\\n' +\n  '        rel=\"stylesheet\">\\n' +\n  '\\n' +\n  '    <script type=\"text/javascript\" async=\"\"\\n' +\n  '        src=\"https://www.googletagmanager.com/gtag/js?id=G-9Q6H0QETRF&amp;cx=c&amp;_slc=1\"></script>\\n' +\n  '    <script async=\"\" src=\"https://www.google-analytics.com/analytics.js\"></script>\\n' +\n  '    <script>\\n' +\n  '        (function (i, s, o, g, r, a, m) {\\n' +\n  \"            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {\\n\" +\n  '                (i[r].q = i[r].q || []).push(arguments)\\n' +\n  '            }, i[r].l = 1 * new Date(); a = s.createElement(o),\\n' +\n  '                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)\\n' +\n  \"        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');\\n\" +\n  '\\n' +\n  \"        ga('create', 'UA-26575989-46', 'auto');\\n\" +\n  \"        ga('send', 'pageview');\\n\" +\n  '\\n' +\n  '    </script>\\n' +\n  '</head>\\n' +\n  '\\n' +\n  '<body>\\n' +\n  '    <iframe allow=\"join-ad-interest-group\" data-tagging-id=\"G-9Q6H0QETRF\" data-load-time=\"1744709464093\" height=\"0\"\\n' +\n  '        width=\"0\"\\n' +\n  '        src=\"https://td.doubleclick.net/td/ga/rul?tid=G-9Q6H0QETRF&amp;gacid=1669583486.1744709463&amp;gtm=45je54b0v9125959112za200&amp;dma=1&amp;dma_cps=syphamo&amp;gcd=13l3lPl2l2l1&amp;npa=0&amp;pscdl=noapi&amp;aip=1&amp;fledge=1&amp;frm=0&amp;tag_exp=102509683~102803279~102813109~102887800~102926062~103021830~103027016~103051953~103055465~103077950&amp;z=2108504389\"\\n' +\n  '        style=\"display: none; visibility: hidden;\">\\n' +\n  '    </iframe>\\n' +\n  '    <div class=\"page-not-found\">\\n' +\n  '        <img class=\"image\" alt=\"Page Not Found\" src=\"/htdocs_error/page_not_found.svg\" />\\n' +\n  '        <h1 class=\"title\">This Page Does Not Exist</h1>\\n' +\n  '        <p class=\"text\">\\n' +\n  \"            Sorry, the page you are looking for could not be found. It's just an\\n\" +\n  '            accident that was not intentional.\\n' +\n  '        </p>\\n' +\n  '    </div>\\n' +\n  '\\n' +\n  '</body>\\n' +\n  '<style>\\n' +\n  '    body {\\n' +\n  '        color: #1d1e20;\\n' +\n  '        background: #f4f5ff;\\n' +\n  '\\n' +\n  '        font-size: 14px;\\n' +\n  '        font-family: \"DM Sans\", \"Roboto\", sans-serif !important;\\n' +\n  '        font-weight: 400;\\n' +\n  '        -ms-text-size-adjust: 100%;\\n' +\n  '        -webkit-font-smoothing: antialiased;\\n' +\n  '        -moz-osx-font-smoothing: grayscale;\\n' +\n  '    }\\n' +\n  '\\n' +\n  '    .page-not-found {\\n' +\n  '        display: flex;\\n' +\n  '        flex-direction: column;\\n' +\n  '        align-items: center;\\n' +\n  '        justify-content: center;\\n' +\n  '        height: 100vh;\\n' +\n  '        padding: 0 16px;\\n' +\n  '\\n' +\n  '        img {\\n' +\n  '            vertical-align: middle;\\n' +\n  '            border-style: none;\\n' +\n  '        }\\n' +\n  '\\n' +\n  '        .image {\\n' +\n  '            max-width: 100%;\\n' +\n  '            margin-bottom: 32px;\\n' +\n  '            height: auto;\\n' +\n  '            object-fit: contain;\\n' +\n  '        }\\n' +\n  '\\n' +\n  '        .title {\\n' +\n  '            text-align: center;\\n' +\n  '            margin-top: 0;\\n' +\n  '            margin-bottom: 8px;\\n' +\n  '            font-size: 24px;\\n' +\n  '            line-height: 32px;\\n' +\n  '            font-weight: 700;\\n' +\n  '        }\\n' +\n  '\\n' +\n  '        .text {\\n' +\n  '            text-align: center;\\n' +\n  '            max-width: 650px;\\n' +\n  '            margin-bottom: 24px;\\n' +\n  '            font-size: 16px;\\n' +\n  '            line-height: 24px;\\n' +\n  '            font-weight: 400;\\n' +\n  '            color: #6D7081;\\n' +\n  '        }\\n' +\n  '\\n' +\n  '\\n' +\n  '    }\\n' +\n  '</style>\\n' +\n  '\\n' +\n  '</html>\\n'\n\n    at C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:58:12\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async run (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:27:9)\n    at async httpChecks (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:55:3)\n    at async C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:146:3"
+    },
+    {
+      "area": "manifest",
+      "name": "_astro/BaseLayout.astro_astro_type_script_index_0_lang.DfnLxyF4.js",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n404 !== 200\n\n    at C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:71:12\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async run (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:27:9)\n    at async httpChecks (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:67:32)\n    at async C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:146:3"
+    },
+    {
+      "area": "manifest",
+      "name": "_astro/global.DSvO6dlm.css",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n404 !== 200\n\n    at C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:71:12\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async run (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:27:9)\n    at async httpChecks (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:67:32)\n    at async C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:146:3"
+    },
+    {
+      "area": "manifest",
+      "name": "404.html",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n404 !== 200\n\n    at C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:71:12\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async run (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:27:9)\n    at async httpChecks (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:67:32)\n    at async C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:146:3"
+    },
+    {
+      "area": "manifest",
+      "name": "apple-touch-icon.png",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ 'a8c72265e185c2504b665a7ca87ed1a56ccc074e16851089b1dcd62a602382ef'\n- 'b53d2ede009558b58d71caf13747bffde0165abc832d50c7172cb2653ca1602a'\n\n    at C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:74:12\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async run (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:27:9)\n    at async httpChecks (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:67:32)\n    at async C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:146:3"
+    },
+    {
+      "area": "manifest",
+      "name": "en/index.html",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ '53e73e9a056e116da2f166b398d7888659297d6adad405dd4b33a2217d58a22c'\n- '7caf5f28fb182208b6bd6145ec3e43c7574350fa82a9eb2cb80dfa715c0d0075'\n\n    at C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:74:12\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async run (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:27:9)\n    at async httpChecks (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:67:32)\n    at async C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:146:3"
+    },
+    {
+      "area": "manifest",
+      "name": "fr/index.html",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ '52ec9954faa6c07e46db4858f4ee10334eb5f06799132cb863b1e14603a9fb26'\n- 'bfaf65e51c8b3e894ae6ee4f1da875a713824105e79aec1607aa881e7bade6b5'\n\n    at C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:74:12\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async run (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:27:9)\n    at async httpChecks (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:67:32)\n    at async C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:146:3"
+    },
+    {
+      "area": "manifest",
+      "name": "index.html",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ '40929c48c25ca2b4274a8c7ddb9de88f7ad736b39fd1f41478b9089c381522eb'\n- 'e7f20ee04b8ad45f71928962b31385532f5588af4a97517faabcafd8210c7b5d'\n\n    at C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:74:12\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async run (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:27:9)\n    at async httpChecks (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:67:32)\n    at async C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:146:3"
+    },
+    {
+      "area": "manifest",
+      "name": "ja/index.html",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ '27263c7cd88b90e116463b47b79f77ccf0c62c66f96d9108b5483e79a5cf956a'\n- 'afec8c408e0ae2241a7af30338052d17b722dcbd86f85d01be9865fb4378c696'\n\n    at C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:74:12\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async run (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:27:9)\n    at async httpChecks (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:67:32)\n    at async C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:146:3"
+    },
+    {
+      "area": "manifest",
+      "name": "pt/index.html",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ '1ce3dfce15ace1a8887a054661605ec5d5a69fa57903102026722257aeb8dded'\n- '84df97882538a2d876729a9a6018c5f4f5872c80821e341d8e1f77d182f3e199'\n\n    at C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:74:12\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async run (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:27:9)\n    at async httpChecks (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:67:32)\n    at async C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:146:3"
+    },
+    {
+      "area": "manifest",
+      "name": "social/ramita-en.png",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ '451716bb32523042ace351e7ea391eb9419fad7670f3c6247c2b62bbb1123b7d'\n- '148f5f5fca9451f48c55dbc9775711da00b2a5e9f311b2166aa6922cfb134ba9'\n\n    at C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:74:12\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async run (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:27:9)\n    at async httpChecks (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:67:32)\n    at async C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:146:3"
+    },
+    {
+      "area": "manifest",
+      "name": "social/ramita-es.png",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ 'e813b4cbcf43847e87414f07bb4e554c1ffba6f01c822efb5b37e94e17ddd41e'\n- 'b9fd62627dc4115b648d877849786c4b0bbf20dc2c576edc26da8b123fe028f4'\n\n    at C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:74:12\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async run (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:27:9)\n    at async httpChecks (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:67:32)\n    at async C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:146:3"
+    },
+    {
+      "area": "manifest",
+      "name": "social/ramita-fr.png",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ '53c06fb9fd9092abd11ba2d051d24873bb0549ed04e791ac43c867d2490298c4'\n- 'b362538e76b8d852aaa9fd77094e5ac282390d303d2d73bb792367ead701e1ef'\n\n    at C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:74:12\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async run (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:27:9)\n    at async httpChecks (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:67:32)\n    at async C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:146:3"
+    },
+    {
+      "area": "manifest",
+      "name": "social/ramita-ja.png",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ 'c9adffd69f2f94023504093cf768e6c85b10f8ebeaddd0d4c7b9a76653afe460'\n- '17fb1b94066a9a2b11563343bbb060a59a0beab71a15d857f390982227bc8e99'\n\n    at C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:74:12\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async run (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:27:9)\n    at async httpChecks (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:67:32)\n    at async C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:146:3"
+    },
+    {
+      "area": "manifest",
+      "name": "social/ramita-pt.png",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ '28863280ebfb9ff9a2572777cb1d3f8d94d8e96fc3bdffa00623fc7833d4a3a4'\n- 'd56b094a2ef4dec8acdcdbd85bc887f52869652efb0c93d181975c18b3e0b852'\n\n    at C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:74:12\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async run (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:27:9)\n    at async httpChecks (C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:67:32)\n    at async C:\\Codigo\\portfolio\\qa\\h8-production-checks.cjs:146:3"
+    }
+  ]
+}

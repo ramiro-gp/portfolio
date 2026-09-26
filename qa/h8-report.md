@@ -18,9 +18,21 @@
 - QA 404: **6 casos PASS, 0 fallos** en Chrome 153.0.8010.53 y Edge 153.0.4234.48 a 390/1440 px, más Chrome sin JS a 320 px y reduced motion a 390 px. En Astro preview, ruta inexistente da HTTP 404 con la página propia, cinco enlaces de inicio, `noindex`, sin overflow ni errores; foco inicial de teclado y navegación EN comprobados. Datos: `qa/h8-preflight-results.json`. Capturas desktop/mobile revisadas: `qa/h8-preflight/404-1440.png` y `qa/h8-preflight/404-390.png`.
 - Guardian 404: **Keep** foco único en 404 y recuperación por idioma; **Remove** ningún recurso adicional; **Change** sólo página mínima y reglas de hosting; **Risk** comportamiento efectivo de Hostinger pendiente; **Verdict APPROVE** para el preflight, sin cierre de H8.
 
+## Paquete preparado
+
+- Commit de código destinado a producción: `0af5489a63559b18651a7d10360a54a7a9165506` (`Prepare V2 H8 Hostinger release`), enviado a `origin/main` el 2026-09-25. La build del paquete se repitió desde ese commit y pasó.
+- `release/ramita-h8-0af5489a63559b18651a7d10360a54a7a9165506.zip`: 25 archivos y 787.840 bytes. SHA-256 del ZIP: `9457fd6e65879db2fff210c1f8a8115d18641fef4e58601f40d1426d5fad5e9c`. Contiene los archivos de `dist/` directamente en su raíz; excluye `hosting/`, docs, QA y `cambios.md`.
+- `release/ramita-h8-0af5489a63559b18651a7d10360a54a7a9165506.sha256`: manifiesto con hash de cada archivo y del ZIP. `release/` queda fuera de Git; el SHA del commit identifica el código que se debe cargar.
+- `hosting/README.md` indica copia previa, extracción en la raíz pública, fusión del `.htaccess`, purga de caché si hace falta, comparación y rollback. `qa/h8-production-checks.cjs` está preparado para comprobar respuestas, 25 hashes publicados, metadata, links y smoke en el dominio final.
+
+## Línea base automatizada antes de la carga
+
+- El verificador de producción se ejecutó sobre el sitio antiguo para probar el propio procedimiento. Los 22 smoke de Chrome/Edge, cinco idiomas y tamaños 390/1440 px, más Chrome sin JS y reduced motion, pasaron. No sustituye la repetición posterior a la carga. Resultado: `qa/h8-baseline-results.json`; capturas: `qa/h8-baseline/es-390.png` y `qa/h8-baseline/es-1440.png`.
+- Detectó los dos problemas de servidor ya identificados (`www` sin 301 y 404 genérico) y 14 discrepancias del manifiesto: JS/CSS, `404.html`, Apple Touch Icon, cinco HTML localizados y cinco imágenes sociales. Son consecuencia esperada de que aún está publicada la build anterior; 11 de 25 hashes ya coinciden. No se observaron fallos de navegador en esta línea base.
+
 ## Pendiente después de la carga de Ramiro
 
-- Recibir listado de raíz pública y `.htaccess` vigente; fusionar reglas sin sobrescribir configuración de HTTPS u otros archivos. Preparar paquete y manifiesto asociados al SHA de producción.
+- Recibir listado de raíz pública y `.htaccess` vigente; fusionar reglas sin sobrescribir configuración de HTTPS u otros archivos. El paquete y manifiesto ya están preparados.
 - Registrar fecha/hora de publicación, copia previa, configuración efectiva, hashes y respuesta de la CDN. Verificar 301 `www` → raíz, 404 propio con estado 404, HTTPS/cadena, rutas, metadata, assets, enlaces y smoke Chrome/Edge sobre el dominio.
 - Ejecutar Lighthouse/PageSpeed sobre producción y separar laboratorio de field data. Aplicar umbrales de `docs/DONE.md`; registrar corridas y excepciones persistentes.
 - Auditar todas las casillas de `docs/DONE.md` con evidencia H7/H8. No cerrar V2-H8 ni declarar `ramita.dev V2 — DONE` mientras falte cualquiera de estas validaciones.
