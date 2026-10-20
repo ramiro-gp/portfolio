@@ -1,0 +1,177 @@
+{
+  "startedAt": "2026-10-20T02:58:13.751Z",
+  "base": "http://127.0.0.1:4322",
+  "expectsSeoPatch": true,
+  "scope": "full",
+  "environment": "local",
+  "browsers": [
+    {
+      "name": "Chrome",
+      "version": "155.0.8059.84"
+    }
+  ],
+  "cases": [],
+  "animation": null,
+  "failures": [
+    {
+      "id": "Chrome/es/320/js/motion",
+      "error": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4322/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4322/\", waiting until \"networkidle\"\u001b[22m\n\n    at runCase (C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:27:33)\n    at async C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:165:77",
+      "errors": [
+        "http://127.0.0.1:4322/: net::ERR_NETWORK_ACCESS_DENIED"
+      ]
+    },
+    {
+      "id": "Chrome/es/390/js/motion",
+      "error": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4322/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4322/\", waiting until \"networkidle\"\u001b[22m\n\n    at runCase (C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:27:33)\n    at async C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:165:77",
+      "errors": [
+        "http://127.0.0.1:4322/: net::ERR_NETWORK_ACCESS_DENIED"
+      ]
+    },
+    {
+      "id": "Chrome/es/1440/js/motion",
+      "error": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4322/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4322/\", waiting until \"networkidle\"\u001b[22m\n\n    at runCase (C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:27:33)\n    at async C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:165:77",
+      "errors": [
+        "http://127.0.0.1:4322/: net::ERR_NETWORK_ACCESS_DENIED"
+      ]
+    },
+    {
+      "id": "Chrome/en/320/js/motion",
+      "error": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4322/en/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4322/en/\", waiting until \"networkidle\"\u001b[22m\n\n    at runCase (C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:27:33)\n    at async C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:165:77",
+      "errors": [
+        "http://127.0.0.1:4322/en/: net::ERR_NETWORK_ACCESS_DENIED"
+      ]
+    },
+    {
+      "id": "Chrome/en/390/js/motion",
+      "error": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4322/en/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4322/en/\", waiting until \"networkidle\"\u001b[22m\n\n    at runCase (C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:27:33)\n    at async C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:165:77",
+      "errors": [
+        "http://127.0.0.1:4322/en/: net::ERR_NETWORK_ACCESS_DENIED"
+      ]
+    },
+    {
+      "id": "Chrome/en/1440/js/motion",
+      "error": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4322/en/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4322/en/\", waiting until \"networkidle\"\u001b[22m\n\n    at runCase (C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:27:33)\n    at async C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:165:77",
+      "errors": [
+        "http://127.0.0.1:4322/en/: net::ERR_NETWORK_ACCESS_DENIED"
+      ]
+    },
+    {
+      "id": "Chrome/pt/320/js/motion",
+      "error": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4322/pt/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4322/pt/\", waiting until \"networkidle\"\u001b[22m\n\n    at runCase (C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:27:33)\n    at async C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:165:77",
+      "errors": [
+        "http://127.0.0.1:4322/pt/: net::ERR_NETWORK_ACCESS_DENIED"
+      ]
+    },
+    {
+      "id": "Chrome/pt/390/js/motion",
+      "error": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4322/pt/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4322/pt/\", waiting until \"networkidle\"\u001b[22m\n\n    at runCase (C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:27:33)\n    at async C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:165:77",
+      "errors": [
+        "http://127.0.0.1:4322/pt/: net::ERR_NETWORK_ACCESS_DENIED"
+      ]
+    },
+    {
+      "id": "Chrome/pt/1440/js/motion",
+      "error": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4322/pt/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4322/pt/\", waiting until \"networkidle\"\u001b[22m\n\n    at runCase (C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:27:33)\n    at async C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:165:77",
+      "errors": [
+        "http://127.0.0.1:4322/pt/: net::ERR_NETWORK_ACCESS_DENIED"
+      ]
+    },
+    {
+      "id": "Chrome/fr/320/js/motion",
+      "error": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4322/fr/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4322/fr/\", waiting until \"networkidle\"\u001b[22m\n\n    at runCase (C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:27:33)\n    at async C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:165:77",
+      "errors": [
+        "http://127.0.0.1:4322/fr/: net::ERR_NETWORK_ACCESS_DENIED"
+      ]
+    },
+    {
+      "id": "Chrome/fr/390/js/motion",
+      "error": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4322/fr/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4322/fr/\", waiting until \"networkidle\"\u001b[22m\n\n    at runCase (C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:27:33)\n    at async C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:165:77",
+      "errors": [
+        "http://127.0.0.1:4322/fr/: net::ERR_NETWORK_ACCESS_DENIED"
+      ]
+    },
+    {
+      "id": "Chrome/fr/1440/js/motion",
+      "error": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4322/fr/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4322/fr/\", waiting until \"networkidle\"\u001b[22m\n\n    at runCase (C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:27:33)\n    at async C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:165:77",
+      "errors": [
+        "http://127.0.0.1:4322/fr/: net::ERR_NETWORK_ACCESS_DENIED"
+      ]
+    },
+    {
+      "id": "Chrome/ja/320/js/motion",
+      "error": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4322/ja/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4322/ja/\", waiting until \"networkidle\"\u001b[22m\n\n    at runCase (C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:27:33)\n    at async C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:165:77",
+      "errors": [
+        "http://127.0.0.1:4322/ja/: net::ERR_NETWORK_ACCESS_DENIED"
+      ]
+    },
+    {
+      "id": "Chrome/ja/390/js/motion",
+      "error": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4322/ja/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4322/ja/\", waiting until \"networkidle\"\u001b[22m\n\n    at runCase (C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:27:33)\n    at async C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:165:77",
+      "errors": [
+        "http://127.0.0.1:4322/ja/: net::ERR_NETWORK_ACCESS_DENIED"
+      ]
+    },
+    {
+      "id": "Chrome/ja/1440/js/motion",
+      "error": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4322/ja/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4322/ja/\", waiting until \"networkidle\"\u001b[22m\n\n    at runCase (C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:27:33)\n    at async C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:165:77",
+      "errors": [
+        "http://127.0.0.1:4322/ja/: net::ERR_NETWORK_ACCESS_DENIED"
+      ]
+    },
+    {
+      "id": "Chrome/es/390/no-js/motion",
+      "error": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4322/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4322/\", waiting until \"networkidle\"\u001b[22m\n\n    at runCase (C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:27:33)\n    at async C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:166:39",
+      "errors": [
+        "http://127.0.0.1:4322/: net::ERR_NETWORK_ACCESS_DENIED"
+      ]
+    },
+    {
+      "id": "Chrome/en/390/no-js/motion",
+      "error": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4322/en/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4322/en/\", waiting until \"networkidle\"\u001b[22m\n\n    at runCase (C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:27:33)\n    at async C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:166:39",
+      "errors": [
+        "http://127.0.0.1:4322/en/: net::ERR_NETWORK_ACCESS_DENIED"
+      ]
+    },
+    {
+      "id": "Chrome/pt/390/no-js/motion",
+      "error": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4322/pt/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4322/pt/\", waiting until \"networkidle\"\u001b[22m\n\n    at runCase (C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:27:33)\n    at async C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:166:39",
+      "errors": [
+        "http://127.0.0.1:4322/pt/: net::ERR_NETWORK_ACCESS_DENIED"
+      ]
+    },
+    {
+      "id": "Chrome/fr/390/no-js/motion",
+      "error": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4322/fr/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4322/fr/\", waiting until \"networkidle\"\u001b[22m\n\n    at runCase (C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:27:33)\n    at async C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:166:39",
+      "errors": [
+        "http://127.0.0.1:4322/fr/: net::ERR_NETWORK_ACCESS_DENIED"
+      ]
+    },
+    {
+      "id": "Chrome/ja/390/no-js/motion",
+      "error": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4322/ja/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4322/ja/\", waiting until \"networkidle\"\u001b[22m\n\n    at runCase (C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:27:33)\n    at async C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:166:39",
+      "errors": [
+        "http://127.0.0.1:4322/ja/: net::ERR_NETWORK_ACCESS_DENIED"
+      ]
+    },
+    {
+      "id": "Chrome/es/390/js/reduce",
+      "error": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4322/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4322/\", waiting until \"networkidle\"\u001b[22m\n\n    at runCase (C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:27:33)\n    at async C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:167:42",
+      "errors": [
+        "http://127.0.0.1:4322/: net::ERR_NETWORK_ACCESS_DENIED"
+      ]
+    },
+    {
+      "id": "Chrome/es/1440/js/reduce",
+      "error": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4322/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4322/\", waiting until \"networkidle\"\u001b[22m\n\n    at runCase (C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:27:33)\n    at async C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:167:42",
+      "errors": [
+        "http://127.0.0.1:4322/: net::ERR_NETWORK_ACCESS_DENIED"
+      ]
+    },
+    {
+      "id": "runner",
+      "error": "browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=C:\\Users\\ramiro\\AppData\\Local\\Packages\\sandbox.{eb4d7498-b3dc-44ed-bacb-52012d6c91f8}\\AC\\Temp\\playwright_chromiumdev_profile-MlI6is --remote-debugging-pipe --no-startup-window\n<launched> pid=24216\n[pid=24216][err] [1019/235819.330:ERROR:third_party\\crashpad\\crashpad\\util\\win\\registration_protocol_win.cc:136] TransactNamedPipe: Ha terminado la canalización. (0x6D)\n[pid=24216][err] [24216:38752:1019/235819.503:ERROR:chrome\\browser\\edge_dual_engine\\dual_engine_sitelist_win.cc:1054] The temporary parsed site list JSON data failed to replace the permanent file. path = C:\\Users\\ramiro\\AppData\\Local\\Packages\\sandbox.{eb4d7498-b3dc-44ed-bacb-52012d6c91f8}\\AC\\Temp\\playwright_chromiumdev_profile-MlI6is\\Default\\DualEngine\\SiteList-Enterprise.json temp_path = C:\\Users\\ramiro\\AppData\\Local\\Packages\\sandbox.{eb4d7498-b3dc-44ed-bacb-52012d6c91f8}\\AC\\Temp\\playwright_chromiumdev_profile-MlI6is\\Default\\DualEngine\\0c6ba7f6-674b-406f-b7ed-a3eaf56420d4.tmp error = -5\n[pid=24216][err] [24216:38752:1019/235819.506:ERROR:chrome\\browser\\edge_dual_engine\\dual_engine_sitelist_win.cc:1054] The temporary parsed site list JSON data failed to replace the permanent file. path = C:\\Users\\ramiro\\AppData\\Local\\Packages\\sandbox.{eb4d7498-b3dc-44ed-bacb-52012d6c91f8}\\AC\\Temp\\playwright_chromiumdev_profile-MlI6is\\Default\\DualEngine\\SiteList-Consumer.json temp_path = C:\\Users\\ramiro\\AppData\\Local\\Packages\\sandbox.{eb4d7498-b3dc-44ed-bacb-52012d6c91f8}\\AC\\Temp\\playwright_chromiumdev_profile-MlI6is\\Default\\DualEngine\\631ff63b-187a-4413-b525-1edae277393c.tmp error = -5\nCall log:\n\u001b[2m  - <launching> C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=C:\\Users\\ramiro\\AppData\\Local\\Packages\\sandbox.{eb4d7498-b3dc-44ed-bacb-52012d6c91f8}\\AC\\Temp\\playwright_chromiumdev_profile-MlI6is --remote-debugging-pipe --no-startup-window\u001b[22m\n\u001b[2m  - <launched> pid=24216\u001b[22m\n\u001b[2m  - [pid=24216][err] [1019/235819.330:ERROR:third_party\\crashpad\\crashpad\\util\\win\\registration_protocol_win.cc:136] TransactNamedPipe: Ha terminado la canalización. (0x6D)\u001b[22m\n\u001b[2m  - [pid=24216][err] [24216:38752:1019/235819.503:ERROR:chrome\\browser\\edge_dual_engine\\dual_engine_sitelist_win.cc:1054] The temporary parsed site list JSON data failed to replace the permanent file. path = C:\\Users\\ramiro\\AppData\\Local\\Packages\\sandbox.{eb4d7498-b3dc-44ed-bacb-52012d6c91f8}\\AC\\Temp\\playwright_chromiumdev_profile-MlI6is\\Default\\DualEngine\\SiteList-Enterprise.json temp_path = C:\\Users\\ramiro\\AppData\\Local\\Packages\\sandbox.{eb4d7498-b3dc-44ed-bacb-52012d6c91f8}\\AC\\Temp\\playwright_chromiumdev_profile-MlI6is\\Default\\DualEngine\\0c6ba7f6-674b-406f-b7ed-a3eaf56420d4.tmp error = -5\u001b[22m\n\u001b[2m  - [pid=24216][err] [24216:38752:1019/235819.506:ERROR:chrome\\browser\\edge_dual_engine\\dual_engine_sitelist_win.cc:1054] The temporary parsed site list JSON data failed to replace the permanent file. path = C:\\Users\\ramiro\\AppData\\Local\\Packages\\sandbox.{eb4d7498-b3dc-44ed-bacb-52012d6c91f8}\\AC\\Temp\\playwright_chromiumdev_profile-MlI6is\\Default\\DualEngine\\SiteList-Consumer.json temp_path = C:\\Users\\ramiro\\AppData\\Local\\Packages\\sandbox.{eb4d7498-b3dc-44ed-bacb-52012d6c91f8}\\AC\\Temp\\playwright_chromiumdev_profile-MlI6is\\Default\\DualEngine\\631ff63b-187a-4413-b525-1edae277393c.tmp error = -5\u001b[22m\n\u001b[2m  - [pid=24216] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=24216] <kill>\u001b[22m\n\u001b[2m  - [pid=24216] <will force kill>\u001b[22m\n\u001b[2m  - [pid=24216] taskkill stderr: Error: El nombre de usuario o la contraseña no son correctos.\u001b[22m\n\u001b[2m  - [pid=24216] <process did exit: exitCode=0, signal=null>\u001b[22m\n\u001b[2m  - [pid=24216] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=24216] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=24216] <gracefully close end>\u001b[22m\n\n    at C:\\Codigo\\portfolio\\qa\\seo\\production-smoke.cjs:156:36"
+    }
+  ],
+  "screenshots": [],
+  "completedAt": "2026-10-20T02:58:24.558Z"
+}

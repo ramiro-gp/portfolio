@@ -1,0 +1,3295 @@
+{
+  "date": "2026-10-20T02:08:28.657Z",
+  "base": "http://127.0.0.1:4321",
+  "site": "https://ramita.dev",
+  "staticRoot": "C:\\Codigo\\portfolio\\dist",
+  "scope": "generated files only; no HTTP validation",
+  "limitations": [
+    "No JavaScript execution or visual QA.",
+    "Structural HTML/XML and JSON-LD checks are not a full HTML or Schema.org validator.",
+    "Indexability checks do not prove indexing or search performance."
+  ],
+  "checks": [
+    {
+      "name": "es: generated page exists",
+      "pass": true,
+      "evidence": "C:\\Codigo\\portfolio\\dist\\index.html"
+    },
+    {
+      "name": "es: html language",
+      "pass": true,
+      "evidence": [
+        "es"
+      ]
+    },
+    {
+      "name": "es: unique nonempty title",
+      "pass": true,
+      "evidence": [
+        "ramita | Diseño y desarrollo web"
+      ]
+    },
+    {
+      "name": "es: unique nonempty description",
+      "pass": true,
+      "evidence": [
+        "Diseño y desarrollo de sitios web nuevos y rediseños. Trabajo directo con Ramiro Garcia desde la definición hasta la publicación."
+      ]
+    },
+    {
+      "name": "es: self canonical",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/"
+      ]
+    },
+    {
+      "name": "es: indexing directives allow indexing",
+      "pass": true,
+      "evidence": {
+        "meta": []
+      }
+    },
+    {
+      "name": "es: hreflang count",
+      "pass": true,
+      "evidence": 6
+    },
+    {
+      "name": "es: hreflang es",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/"
+      ]
+    },
+    {
+      "name": "es: hreflang en",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/en/"
+      ]
+    },
+    {
+      "name": "es: hreflang pt",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/pt/"
+      ]
+    },
+    {
+      "name": "es: hreflang fr",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/fr/"
+      ]
+    },
+    {
+      "name": "es: hreflang ja",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/ja/"
+      ]
+    },
+    {
+      "name": "es: hreflang x-default",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/"
+      ]
+    },
+    {
+      "name": "es: og:type",
+      "pass": true,
+      "evidence": [
+        "website"
+      ]
+    },
+    {
+      "name": "es: og:url",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/"
+      ]
+    },
+    {
+      "name": "es: og:site_name",
+      "pass": true,
+      "evidence": [
+        "ramita.dev"
+      ]
+    },
+    {
+      "name": "es: og:title",
+      "pass": true,
+      "evidence": [
+        "Ramiro Garcia — Diseño y desarrollo de sitios web"
+      ]
+    },
+    {
+      "name": "es: og:description",
+      "pass": true,
+      "evidence": [
+        "Sitios institucionales, landing pages y rediseños, con trato directo."
+      ]
+    },
+    {
+      "name": "es: og:image",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/social/ramita-es.png"
+      ]
+    },
+    {
+      "name": "es: og:image:alt",
+      "pass": true,
+      "evidence": [
+        "ramita.dev — Ramiro Garcia — Diseño y desarrollo de sitios web"
+      ]
+    },
+    {
+      "name": "es: twitter:card",
+      "pass": true,
+      "evidence": [
+        "summary_large_image"
+      ]
+    },
+    {
+      "name": "es: twitter:title",
+      "pass": true,
+      "evidence": [
+        "Ramiro Garcia — Diseño y desarrollo de sitios web"
+      ]
+    },
+    {
+      "name": "es: twitter:description",
+      "pass": true,
+      "evidence": [
+        "Sitios institucionales, landing pages y rediseños, con trato directo."
+      ]
+    },
+    {
+      "name": "es: twitter:image",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/social/ramita-es.png"
+      ]
+    },
+    {
+      "name": "es: twitter:image:alt",
+      "pass": true,
+      "evidence": [
+        "ramita.dev — Ramiro Garcia — Diseño y desarrollo de sitios web"
+      ]
+    },
+    {
+      "name": "es: OG URL agrees with canonical",
+      "pass": true,
+      "evidence": "https://ramita.dev/"
+    },
+    {
+      "name": "es: social card type",
+      "pass": true,
+      "evidence": "summary_large_image"
+    },
+    {
+      "name": "es: absolute social image",
+      "pass": true,
+      "evidence": "https://ramita.dev/social/ramita-es.png"
+    },
+    {
+      "name": "es: OG/Twitter share image",
+      "pass": true,
+      "evidence": "https://ramita.dev/social/ramita-es.png"
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/social/ramita-es.png",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\social\\ramita-es.png",
+        "bytes": 75616
+      }
+    },
+    {
+      "name": "es: single populated H1 in initial HTML",
+      "pass": true,
+      "evidence": [
+        "Diseño y desarrollo de sitios web para presentar tu proyectoDiseño y desarrollo de sitios web para presentar tu servicioproyectomarcaproductoportfoliocampañaproyecto"
+      ]
+    },
+    {
+      "name": "es: single main landmark",
+      "pass": true,
+      "evidence": 1
+    },
+    {
+      "name": "es: three explained services in initial HTML",
+      "pass": true,
+      "evidence": [
+        "Sitios institucionales",
+        "Landing pages",
+        "Rediseños"
+      ]
+    },
+    {
+      "name": "es: both real project cases in initial HTML",
+      "pass": true,
+      "evidence": [
+        [
+          "Residencias Grupo Casa"
+        ],
+        [
+          "LingoHive"
+        ]
+      ]
+    },
+    {
+      "name": "es: actionable email in initial HTML",
+      "pass": true,
+      "evidence": "mailto anchor + address text"
+    },
+    {
+      "name": "es: actionable WhatsApp in initial HTML",
+      "pass": true,
+      "evidence": "WhatsApp anchor + number text"
+    },
+    {
+      "name": "es: meaningful image alt",
+      "pass": true,
+      "evidence": "/images/residencias-mobile.webp"
+    },
+    {
+      "name": "es: image dimensions reserve layout",
+      "pass": true,
+      "evidence": "/images/residencias-mobile.webp"
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/images/residencias-mobile.webp",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\images\\residencias-mobile.webp",
+        "bytes": 40126
+      }
+    },
+    {
+      "name": "es: meaningful image alt",
+      "pass": true,
+      "evidence": "/images/residencias-desktop.webp"
+    },
+    {
+      "name": "es: image dimensions reserve layout",
+      "pass": true,
+      "evidence": "/images/residencias-desktop.webp"
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/images/residencias-desktop.webp",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\images\\residencias-desktop.webp",
+        "bytes": 110488
+      }
+    },
+    {
+      "name": "es: meaningful image alt",
+      "pass": true,
+      "evidence": "/images/lingohive-mobile.webp"
+    },
+    {
+      "name": "es: image dimensions reserve layout",
+      "pass": true,
+      "evidence": "/images/lingohive-mobile.webp"
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/images/lingohive-mobile.webp",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\images\\lingohive-mobile.webp",
+        "bytes": 25176
+      }
+    },
+    {
+      "name": "es: meaningful image alt",
+      "pass": true,
+      "evidence": "/images/lingohive-desktop.webp"
+    },
+    {
+      "name": "es: image dimensions reserve layout",
+      "pass": true,
+      "evidence": "/images/lingohive-desktop.webp"
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/images/lingohive-desktop.webp",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\images\\lingohive-desktop.webp",
+        "bytes": 54662
+      }
+    },
+    {
+      "name": "es: project visual evidence in HTML",
+      "pass": true,
+      "evidence": 4
+    },
+    {
+      "name": "es: unique element IDs",
+      "pass": true,
+      "evidence": []
+    },
+    {
+      "name": "es: no public content placeholders",
+      "pass": true,
+      "evidence": "TODO_CONTENT/TODO_ASSET scan"
+    },
+    {
+      "name": "es: JSON-LD context",
+      "pass": true,
+      "evidence": "https://schema.org"
+    },
+    {
+      "name": "es: JSON-LD context",
+      "pass": true,
+      "evidence": "https://schema.org"
+    },
+    {
+      "name": "es: factual Person JSON-LD",
+      "pass": true,
+      "evidence": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "es: JSON-LD node has a type",
+      "pass": true,
+      "evidence": "Ramiro Garcia"
+    },
+    {
+      "name": "es: JSON-LD node has a type",
+      "pass": true,
+      "evidence": "ramita.dev"
+    },
+    {
+      "name": "es: at most one WebSite entity",
+      "pass": true,
+      "evidence": 1
+    },
+    {
+      "name": "es: WebSite identifies the canonical site",
+      "pass": true,
+      "evidence": {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "ramita.dev",
+        "url": "https://ramita.dev/"
+      }
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/favicon.ico",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\favicon.ico",
+        "bytes": 2355
+      }
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/favicon.svg",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\favicon.svg",
+        "bytes": 970
+      }
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/apple-touch-icon.png",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\apple-touch-icon.png",
+        "bytes": 2253
+      }
+    },
+    {
+      "name": "en: generated page exists",
+      "pass": true,
+      "evidence": "C:\\Codigo\\portfolio\\dist\\en\\index.html"
+    },
+    {
+      "name": "en: html language",
+      "pass": true,
+      "evidence": [
+        "en"
+      ]
+    },
+    {
+      "name": "en: unique nonempty title",
+      "pass": true,
+      "evidence": [
+        "ramita | Web design & development"
+      ]
+    },
+    {
+      "name": "en: unique nonempty description",
+      "pass": true,
+      "evidence": [
+        "Website design and development for new sites and redesigns. Work directly with Ramiro Garcia, from definition through publication."
+      ]
+    },
+    {
+      "name": "en: self canonical",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/en/"
+      ]
+    },
+    {
+      "name": "en: indexing directives allow indexing",
+      "pass": true,
+      "evidence": {
+        "meta": []
+      }
+    },
+    {
+      "name": "en: hreflang count",
+      "pass": true,
+      "evidence": 6
+    },
+    {
+      "name": "en: hreflang es",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/"
+      ]
+    },
+    {
+      "name": "en: hreflang en",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/en/"
+      ]
+    },
+    {
+      "name": "en: hreflang pt",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/pt/"
+      ]
+    },
+    {
+      "name": "en: hreflang fr",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/fr/"
+      ]
+    },
+    {
+      "name": "en: hreflang ja",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/ja/"
+      ]
+    },
+    {
+      "name": "en: hreflang x-default",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/"
+      ]
+    },
+    {
+      "name": "en: og:type",
+      "pass": true,
+      "evidence": [
+        "website"
+      ]
+    },
+    {
+      "name": "en: og:url",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/en/"
+      ]
+    },
+    {
+      "name": "en: og:site_name",
+      "pass": true,
+      "evidence": [
+        "ramita.dev"
+      ]
+    },
+    {
+      "name": "en: og:title",
+      "pass": true,
+      "evidence": [
+        "Ramiro Garcia — Website design and development"
+      ]
+    },
+    {
+      "name": "en: og:description",
+      "pass": true,
+      "evidence": [
+        "Institutional websites, landing pages and redesigns, with a direct point of contact."
+      ]
+    },
+    {
+      "name": "en: og:image",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/social/ramita-en.png"
+      ]
+    },
+    {
+      "name": "en: og:image:alt",
+      "pass": true,
+      "evidence": [
+        "ramita.dev — Ramiro Garcia — Website design and development"
+      ]
+    },
+    {
+      "name": "en: twitter:card",
+      "pass": true,
+      "evidence": [
+        "summary_large_image"
+      ]
+    },
+    {
+      "name": "en: twitter:title",
+      "pass": true,
+      "evidence": [
+        "Ramiro Garcia — Website design and development"
+      ]
+    },
+    {
+      "name": "en: twitter:description",
+      "pass": true,
+      "evidence": [
+        "Institutional websites, landing pages and redesigns, with a direct point of contact."
+      ]
+    },
+    {
+      "name": "en: twitter:image",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/social/ramita-en.png"
+      ]
+    },
+    {
+      "name": "en: twitter:image:alt",
+      "pass": true,
+      "evidence": [
+        "ramita.dev — Ramiro Garcia — Website design and development"
+      ]
+    },
+    {
+      "name": "en: OG URL agrees with canonical",
+      "pass": true,
+      "evidence": "https://ramita.dev/en/"
+    },
+    {
+      "name": "en: social card type",
+      "pass": true,
+      "evidence": "summary_large_image"
+    },
+    {
+      "name": "en: absolute social image",
+      "pass": true,
+      "evidence": "https://ramita.dev/social/ramita-en.png"
+    },
+    {
+      "name": "en: OG/Twitter share image",
+      "pass": true,
+      "evidence": "https://ramita.dev/social/ramita-en.png"
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/social/ramita-en.png",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\social\\ramita-en.png",
+        "bytes": 74788
+      }
+    },
+    {
+      "name": "en: single populated H1 in initial HTML",
+      "pass": true,
+      "evidence": [
+        "Website design and development for your projectWebsite design and development for your serviceprojectbrandproductportfoliocampaignproject"
+      ]
+    },
+    {
+      "name": "en: single main landmark",
+      "pass": true,
+      "evidence": 1
+    },
+    {
+      "name": "en: three explained services in initial HTML",
+      "pass": true,
+      "evidence": [
+        "Institutional websites",
+        "Landing pages",
+        "Redesigns"
+      ]
+    },
+    {
+      "name": "en: both real project cases in initial HTML",
+      "pass": true,
+      "evidence": [
+        [
+          "Residencias Grupo Casa"
+        ],
+        [
+          "LingoHive"
+        ]
+      ]
+    },
+    {
+      "name": "en: actionable email in initial HTML",
+      "pass": true,
+      "evidence": "mailto anchor + address text"
+    },
+    {
+      "name": "en: actionable WhatsApp in initial HTML",
+      "pass": true,
+      "evidence": "WhatsApp anchor + number text"
+    },
+    {
+      "name": "en: meaningful image alt",
+      "pass": true,
+      "evidence": "/images/residencias-mobile.webp"
+    },
+    {
+      "name": "en: image dimensions reserve layout",
+      "pass": true,
+      "evidence": "/images/residencias-mobile.webp"
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/images/residencias-mobile.webp",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\images\\residencias-mobile.webp",
+        "bytes": 40126
+      }
+    },
+    {
+      "name": "en: meaningful image alt",
+      "pass": true,
+      "evidence": "/images/residencias-desktop.webp"
+    },
+    {
+      "name": "en: image dimensions reserve layout",
+      "pass": true,
+      "evidence": "/images/residencias-desktop.webp"
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/images/residencias-desktop.webp",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\images\\residencias-desktop.webp",
+        "bytes": 110488
+      }
+    },
+    {
+      "name": "en: meaningful image alt",
+      "pass": true,
+      "evidence": "/images/lingohive-mobile.webp"
+    },
+    {
+      "name": "en: image dimensions reserve layout",
+      "pass": true,
+      "evidence": "/images/lingohive-mobile.webp"
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/images/lingohive-mobile.webp",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\images\\lingohive-mobile.webp",
+        "bytes": 25176
+      }
+    },
+    {
+      "name": "en: meaningful image alt",
+      "pass": true,
+      "evidence": "/images/lingohive-desktop.webp"
+    },
+    {
+      "name": "en: image dimensions reserve layout",
+      "pass": true,
+      "evidence": "/images/lingohive-desktop.webp"
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/images/lingohive-desktop.webp",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\images\\lingohive-desktop.webp",
+        "bytes": 54662
+      }
+    },
+    {
+      "name": "en: project visual evidence in HTML",
+      "pass": true,
+      "evidence": 4
+    },
+    {
+      "name": "en: unique element IDs",
+      "pass": true,
+      "evidence": []
+    },
+    {
+      "name": "en: no public content placeholders",
+      "pass": true,
+      "evidence": "TODO_CONTENT/TODO_ASSET scan"
+    },
+    {
+      "name": "en: JSON-LD context",
+      "pass": true,
+      "evidence": "https://schema.org"
+    },
+    {
+      "name": "en: factual Person JSON-LD",
+      "pass": true,
+      "evidence": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "en: JSON-LD node has a type",
+      "pass": true,
+      "evidence": "Ramiro Garcia"
+    },
+    {
+      "name": "en: at most one WebSite entity",
+      "pass": true,
+      "evidence": 0
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/favicon.ico",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\favicon.ico",
+        "bytes": 2355
+      }
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/favicon.svg",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\favicon.svg",
+        "bytes": 970
+      }
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/apple-touch-icon.png",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\apple-touch-icon.png",
+        "bytes": 2253
+      }
+    },
+    {
+      "name": "pt: generated page exists",
+      "pass": true,
+      "evidence": "C:\\Codigo\\portfolio\\dist\\pt\\index.html"
+    },
+    {
+      "name": "pt: html language",
+      "pass": true,
+      "evidence": [
+        "pt"
+      ]
+    },
+    {
+      "name": "pt: unique nonempty title",
+      "pass": true,
+      "evidence": [
+        "ramita | Design e desenvolvimento web"
+      ]
+    },
+    {
+      "name": "pt: unique nonempty description",
+      "pass": true,
+      "evidence": [
+        "Design e desenvolvimento de sites novos e redesigns. Trabalho direto com Ramiro Garcia, da definição à publicação."
+      ]
+    },
+    {
+      "name": "pt: self canonical",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/pt/"
+      ]
+    },
+    {
+      "name": "pt: indexing directives allow indexing",
+      "pass": true,
+      "evidence": {
+        "meta": []
+      }
+    },
+    {
+      "name": "pt: hreflang count",
+      "pass": true,
+      "evidence": 6
+    },
+    {
+      "name": "pt: hreflang es",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/"
+      ]
+    },
+    {
+      "name": "pt: hreflang en",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/en/"
+      ]
+    },
+    {
+      "name": "pt: hreflang pt",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/pt/"
+      ]
+    },
+    {
+      "name": "pt: hreflang fr",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/fr/"
+      ]
+    },
+    {
+      "name": "pt: hreflang ja",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/ja/"
+      ]
+    },
+    {
+      "name": "pt: hreflang x-default",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/"
+      ]
+    },
+    {
+      "name": "pt: og:type",
+      "pass": true,
+      "evidence": [
+        "website"
+      ]
+    },
+    {
+      "name": "pt: og:url",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/pt/"
+      ]
+    },
+    {
+      "name": "pt: og:site_name",
+      "pass": true,
+      "evidence": [
+        "ramita.dev"
+      ]
+    },
+    {
+      "name": "pt: og:title",
+      "pass": true,
+      "evidence": [
+        "Ramiro Garcia — Design e desenvolvimento de sites"
+      ]
+    },
+    {
+      "name": "pt: og:description",
+      "pass": true,
+      "evidence": [
+        "Sites institucionais, landing pages e redesigns, com contato direto."
+      ]
+    },
+    {
+      "name": "pt: og:image",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/social/ramita-pt.png"
+      ]
+    },
+    {
+      "name": "pt: og:image:alt",
+      "pass": true,
+      "evidence": [
+        "ramita.dev — Ramiro Garcia — Design e desenvolvimento de sites"
+      ]
+    },
+    {
+      "name": "pt: twitter:card",
+      "pass": true,
+      "evidence": [
+        "summary_large_image"
+      ]
+    },
+    {
+      "name": "pt: twitter:title",
+      "pass": true,
+      "evidence": [
+        "Ramiro Garcia — Design e desenvolvimento de sites"
+      ]
+    },
+    {
+      "name": "pt: twitter:description",
+      "pass": true,
+      "evidence": [
+        "Sites institucionais, landing pages e redesigns, com contato direto."
+      ]
+    },
+    {
+      "name": "pt: twitter:image",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/social/ramita-pt.png"
+      ]
+    },
+    {
+      "name": "pt: twitter:image:alt",
+      "pass": true,
+      "evidence": [
+        "ramita.dev — Ramiro Garcia — Design e desenvolvimento de sites"
+      ]
+    },
+    {
+      "name": "pt: OG URL agrees with canonical",
+      "pass": true,
+      "evidence": "https://ramita.dev/pt/"
+    },
+    {
+      "name": "pt: social card type",
+      "pass": true,
+      "evidence": "summary_large_image"
+    },
+    {
+      "name": "pt: absolute social image",
+      "pass": true,
+      "evidence": "https://ramita.dev/social/ramita-pt.png"
+    },
+    {
+      "name": "pt: OG/Twitter share image",
+      "pass": true,
+      "evidence": "https://ramita.dev/social/ramita-pt.png"
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/social/ramita-pt.png",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\social\\ramita-pt.png",
+        "bytes": 60098
+      }
+    },
+    {
+      "name": "pt: single populated H1 in initial HTML",
+      "pass": true,
+      "evidence": [
+        "Design e desenvolvimento de sites para apresentar seu projetoDesign e desenvolvimento de sites para apresentar seu serviçoseu projetosua marcaseu produtoseu portfóliosua campanhaseu projeto"
+      ]
+    },
+    {
+      "name": "pt: single main landmark",
+      "pass": true,
+      "evidence": 1
+    },
+    {
+      "name": "pt: three explained services in initial HTML",
+      "pass": true,
+      "evidence": [
+        "Sites institucionais",
+        "Landing pages",
+        "Redesigns"
+      ]
+    },
+    {
+      "name": "pt: both real project cases in initial HTML",
+      "pass": true,
+      "evidence": [
+        [
+          "Residencias Grupo Casa"
+        ],
+        [
+          "LingoHive"
+        ]
+      ]
+    },
+    {
+      "name": "pt: actionable email in initial HTML",
+      "pass": true,
+      "evidence": "mailto anchor + address text"
+    },
+    {
+      "name": "pt: actionable WhatsApp in initial HTML",
+      "pass": true,
+      "evidence": "WhatsApp anchor + number text"
+    },
+    {
+      "name": "pt: meaningful image alt",
+      "pass": true,
+      "evidence": "/images/residencias-mobile.webp"
+    },
+    {
+      "name": "pt: image dimensions reserve layout",
+      "pass": true,
+      "evidence": "/images/residencias-mobile.webp"
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/images/residencias-mobile.webp",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\images\\residencias-mobile.webp",
+        "bytes": 40126
+      }
+    },
+    {
+      "name": "pt: meaningful image alt",
+      "pass": true,
+      "evidence": "/images/residencias-desktop.webp"
+    },
+    {
+      "name": "pt: image dimensions reserve layout",
+      "pass": true,
+      "evidence": "/images/residencias-desktop.webp"
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/images/residencias-desktop.webp",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\images\\residencias-desktop.webp",
+        "bytes": 110488
+      }
+    },
+    {
+      "name": "pt: meaningful image alt",
+      "pass": true,
+      "evidence": "/images/lingohive-mobile.webp"
+    },
+    {
+      "name": "pt: image dimensions reserve layout",
+      "pass": true,
+      "evidence": "/images/lingohive-mobile.webp"
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/images/lingohive-mobile.webp",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\images\\lingohive-mobile.webp",
+        "bytes": 25176
+      }
+    },
+    {
+      "name": "pt: meaningful image alt",
+      "pass": true,
+      "evidence": "/images/lingohive-desktop.webp"
+    },
+    {
+      "name": "pt: image dimensions reserve layout",
+      "pass": true,
+      "evidence": "/images/lingohive-desktop.webp"
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/images/lingohive-desktop.webp",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\images\\lingohive-desktop.webp",
+        "bytes": 54662
+      }
+    },
+    {
+      "name": "pt: project visual evidence in HTML",
+      "pass": true,
+      "evidence": 4
+    },
+    {
+      "name": "pt: unique element IDs",
+      "pass": true,
+      "evidence": []
+    },
+    {
+      "name": "pt: no public content placeholders",
+      "pass": true,
+      "evidence": "TODO_CONTENT/TODO_ASSET scan"
+    },
+    {
+      "name": "pt: JSON-LD context",
+      "pass": true,
+      "evidence": "https://schema.org"
+    },
+    {
+      "name": "pt: factual Person JSON-LD",
+      "pass": true,
+      "evidence": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pt: JSON-LD node has a type",
+      "pass": true,
+      "evidence": "Ramiro Garcia"
+    },
+    {
+      "name": "pt: at most one WebSite entity",
+      "pass": true,
+      "evidence": 0
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/favicon.ico",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\favicon.ico",
+        "bytes": 2355
+      }
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/favicon.svg",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\favicon.svg",
+        "bytes": 970
+      }
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/apple-touch-icon.png",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\apple-touch-icon.png",
+        "bytes": 2253
+      }
+    },
+    {
+      "name": "fr: generated page exists",
+      "pass": true,
+      "evidence": "C:\\Codigo\\portfolio\\dist\\fr\\index.html"
+    },
+    {
+      "name": "fr: html language",
+      "pass": true,
+      "evidence": [
+        "fr"
+      ]
+    },
+    {
+      "name": "fr: unique nonempty title",
+      "pass": true,
+      "evidence": [
+        "ramita | Design et développement web"
+      ]
+    },
+    {
+      "name": "fr: unique nonempty description",
+      "pass": true,
+      "evidence": [
+        "Conception et développement de nouveaux sites web et refontes. Un travail direct avec Ramiro Garcia, de la définition à la mise en ligne."
+      ]
+    },
+    {
+      "name": "fr: self canonical",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/fr/"
+      ]
+    },
+    {
+      "name": "fr: indexing directives allow indexing",
+      "pass": true,
+      "evidence": {
+        "meta": []
+      }
+    },
+    {
+      "name": "fr: hreflang count",
+      "pass": true,
+      "evidence": 6
+    },
+    {
+      "name": "fr: hreflang es",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/"
+      ]
+    },
+    {
+      "name": "fr: hreflang en",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/en/"
+      ]
+    },
+    {
+      "name": "fr: hreflang pt",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/pt/"
+      ]
+    },
+    {
+      "name": "fr: hreflang fr",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/fr/"
+      ]
+    },
+    {
+      "name": "fr: hreflang ja",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/ja/"
+      ]
+    },
+    {
+      "name": "fr: hreflang x-default",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/"
+      ]
+    },
+    {
+      "name": "fr: og:type",
+      "pass": true,
+      "evidence": [
+        "website"
+      ]
+    },
+    {
+      "name": "fr: og:url",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/fr/"
+      ]
+    },
+    {
+      "name": "fr: og:site_name",
+      "pass": true,
+      "evidence": [
+        "ramita.dev"
+      ]
+    },
+    {
+      "name": "fr: og:title",
+      "pass": true,
+      "evidence": [
+        "Ramiro Garcia — Conception et développement de sites web"
+      ]
+    },
+    {
+      "name": "fr: og:description",
+      "pass": true,
+      "evidence": [
+        "Sites institutionnels, landing pages et refontes, avec un interlocuteur direct."
+      ]
+    },
+    {
+      "name": "fr: og:image",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/social/ramita-fr.png"
+      ]
+    },
+    {
+      "name": "fr: og:image:alt",
+      "pass": true,
+      "evidence": [
+        "ramita.dev — Ramiro Garcia — Conception et développement de sites web"
+      ]
+    },
+    {
+      "name": "fr: twitter:card",
+      "pass": true,
+      "evidence": [
+        "summary_large_image"
+      ]
+    },
+    {
+      "name": "fr: twitter:title",
+      "pass": true,
+      "evidence": [
+        "Ramiro Garcia — Conception et développement de sites web"
+      ]
+    },
+    {
+      "name": "fr: twitter:description",
+      "pass": true,
+      "evidence": [
+        "Sites institutionnels, landing pages et refontes, avec un interlocuteur direct."
+      ]
+    },
+    {
+      "name": "fr: twitter:image",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/social/ramita-fr.png"
+      ]
+    },
+    {
+      "name": "fr: twitter:image:alt",
+      "pass": true,
+      "evidence": [
+        "ramita.dev — Ramiro Garcia — Conception et développement de sites web"
+      ]
+    },
+    {
+      "name": "fr: OG URL agrees with canonical",
+      "pass": true,
+      "evidence": "https://ramita.dev/fr/"
+    },
+    {
+      "name": "fr: social card type",
+      "pass": true,
+      "evidence": "summary_large_image"
+    },
+    {
+      "name": "fr: absolute social image",
+      "pass": true,
+      "evidence": "https://ramita.dev/social/ramita-fr.png"
+    },
+    {
+      "name": "fr: OG/Twitter share image",
+      "pass": true,
+      "evidence": "https://ramita.dev/social/ramita-fr.png"
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/social/ramita-fr.png",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\social\\ramita-fr.png",
+        "bytes": 66619
+      }
+    },
+    {
+      "name": "fr: single populated H1 in initial HTML",
+      "pass": true,
+      "evidence": [
+        "Conception et développement de sites web pour présenter votre projetConception et développement de sites web pour présenter votre serviceprojetmarqueproduitportfoliocampagneprojet"
+      ]
+    },
+    {
+      "name": "fr: single main landmark",
+      "pass": true,
+      "evidence": 1
+    },
+    {
+      "name": "fr: three explained services in initial HTML",
+      "pass": true,
+      "evidence": [
+        "Sites institutionnels",
+        "Landing pages",
+        "Refontes"
+      ]
+    },
+    {
+      "name": "fr: both real project cases in initial HTML",
+      "pass": true,
+      "evidence": [
+        [
+          "Residencias Grupo Casa"
+        ],
+        [
+          "LingoHive"
+        ]
+      ]
+    },
+    {
+      "name": "fr: actionable email in initial HTML",
+      "pass": true,
+      "evidence": "mailto anchor + address text"
+    },
+    {
+      "name": "fr: actionable WhatsApp in initial HTML",
+      "pass": true,
+      "evidence": "WhatsApp anchor + number text"
+    },
+    {
+      "name": "fr: meaningful image alt",
+      "pass": true,
+      "evidence": "/images/residencias-mobile.webp"
+    },
+    {
+      "name": "fr: image dimensions reserve layout",
+      "pass": true,
+      "evidence": "/images/residencias-mobile.webp"
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/images/residencias-mobile.webp",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\images\\residencias-mobile.webp",
+        "bytes": 40126
+      }
+    },
+    {
+      "name": "fr: meaningful image alt",
+      "pass": true,
+      "evidence": "/images/residencias-desktop.webp"
+    },
+    {
+      "name": "fr: image dimensions reserve layout",
+      "pass": true,
+      "evidence": "/images/residencias-desktop.webp"
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/images/residencias-desktop.webp",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\images\\residencias-desktop.webp",
+        "bytes": 110488
+      }
+    },
+    {
+      "name": "fr: meaningful image alt",
+      "pass": true,
+      "evidence": "/images/lingohive-mobile.webp"
+    },
+    {
+      "name": "fr: image dimensions reserve layout",
+      "pass": true,
+      "evidence": "/images/lingohive-mobile.webp"
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/images/lingohive-mobile.webp",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\images\\lingohive-mobile.webp",
+        "bytes": 25176
+      }
+    },
+    {
+      "name": "fr: meaningful image alt",
+      "pass": true,
+      "evidence": "/images/lingohive-desktop.webp"
+    },
+    {
+      "name": "fr: image dimensions reserve layout",
+      "pass": true,
+      "evidence": "/images/lingohive-desktop.webp"
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/images/lingohive-desktop.webp",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\images\\lingohive-desktop.webp",
+        "bytes": 54662
+      }
+    },
+    {
+      "name": "fr: project visual evidence in HTML",
+      "pass": true,
+      "evidence": 4
+    },
+    {
+      "name": "fr: unique element IDs",
+      "pass": true,
+      "evidence": []
+    },
+    {
+      "name": "fr: no public content placeholders",
+      "pass": true,
+      "evidence": "TODO_CONTENT/TODO_ASSET scan"
+    },
+    {
+      "name": "fr: JSON-LD context",
+      "pass": true,
+      "evidence": "https://schema.org"
+    },
+    {
+      "name": "fr: factual Person JSON-LD",
+      "pass": true,
+      "evidence": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fr: JSON-LD node has a type",
+      "pass": true,
+      "evidence": "Ramiro Garcia"
+    },
+    {
+      "name": "fr: at most one WebSite entity",
+      "pass": true,
+      "evidence": 0
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/favicon.ico",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\favicon.ico",
+        "bytes": 2355
+      }
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/favicon.svg",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\favicon.svg",
+        "bytes": 970
+      }
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/apple-touch-icon.png",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\apple-touch-icon.png",
+        "bytes": 2253
+      }
+    },
+    {
+      "name": "ja: generated page exists",
+      "pass": true,
+      "evidence": "C:\\Codigo\\portfolio\\dist\\ja\\index.html"
+    },
+    {
+      "name": "ja: html language",
+      "pass": true,
+      "evidence": [
+        "ja"
+      ]
+    },
+    {
+      "name": "ja: unique nonempty title",
+      "pass": true,
+      "evidence": [
+        "ramita | Webデザイン・開発"
+      ]
+    },
+    {
+      "name": "ja: unique nonempty description",
+      "pass": true,
+      "evidence": [
+        "新規サイトとリニューアルのデザイン・開発。Ramiro Garcia が構想の整理から公開まで直接対応します。"
+      ]
+    },
+    {
+      "name": "ja: self canonical",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/ja/"
+      ]
+    },
+    {
+      "name": "ja: indexing directives allow indexing",
+      "pass": true,
+      "evidence": {
+        "meta": []
+      }
+    },
+    {
+      "name": "ja: hreflang count",
+      "pass": true,
+      "evidence": 6
+    },
+    {
+      "name": "ja: hreflang es",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/"
+      ]
+    },
+    {
+      "name": "ja: hreflang en",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/en/"
+      ]
+    },
+    {
+      "name": "ja: hreflang pt",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/pt/"
+      ]
+    },
+    {
+      "name": "ja: hreflang fr",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/fr/"
+      ]
+    },
+    {
+      "name": "ja: hreflang ja",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/ja/"
+      ]
+    },
+    {
+      "name": "ja: hreflang x-default",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/"
+      ]
+    },
+    {
+      "name": "ja: og:type",
+      "pass": true,
+      "evidence": [
+        "website"
+      ]
+    },
+    {
+      "name": "ja: og:url",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/ja/"
+      ]
+    },
+    {
+      "name": "ja: og:site_name",
+      "pass": true,
+      "evidence": [
+        "ramita.dev"
+      ]
+    },
+    {
+      "name": "ja: og:title",
+      "pass": true,
+      "evidence": [
+        "Ramiro Garcia — ウェブサイトのデザインと開発"
+      ]
+    },
+    {
+      "name": "ja: og:description",
+      "pass": true,
+      "evidence": [
+        "企業・団体サイト、ランディングページ、リニューアルに直接対応します。"
+      ]
+    },
+    {
+      "name": "ja: og:image",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/social/ramita-ja.png"
+      ]
+    },
+    {
+      "name": "ja: og:image:alt",
+      "pass": true,
+      "evidence": [
+        "ramita.dev — Ramiro Garcia — ウェブサイトのデザインと開発"
+      ]
+    },
+    {
+      "name": "ja: twitter:card",
+      "pass": true,
+      "evidence": [
+        "summary_large_image"
+      ]
+    },
+    {
+      "name": "ja: twitter:title",
+      "pass": true,
+      "evidence": [
+        "Ramiro Garcia — ウェブサイトのデザインと開発"
+      ]
+    },
+    {
+      "name": "ja: twitter:description",
+      "pass": true,
+      "evidence": [
+        "企業・団体サイト、ランディングページ、リニューアルに直接対応します。"
+      ]
+    },
+    {
+      "name": "ja: twitter:image",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/social/ramita-ja.png"
+      ]
+    },
+    {
+      "name": "ja: twitter:image:alt",
+      "pass": true,
+      "evidence": [
+        "ramita.dev — Ramiro Garcia — ウェブサイトのデザインと開発"
+      ]
+    },
+    {
+      "name": "ja: OG URL agrees with canonical",
+      "pass": true,
+      "evidence": "https://ramita.dev/ja/"
+    },
+    {
+      "name": "ja: social card type",
+      "pass": true,
+      "evidence": "summary_large_image"
+    },
+    {
+      "name": "ja: absolute social image",
+      "pass": true,
+      "evidence": "https://ramita.dev/social/ramita-ja.png"
+    },
+    {
+      "name": "ja: OG/Twitter share image",
+      "pass": true,
+      "evidence": "https://ramita.dev/social/ramita-ja.png"
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/social/ramita-ja.png",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\social\\ramita-ja.png",
+        "bytes": 68412
+      }
+    },
+    {
+      "name": "ja: single populated H1 in initial HTML",
+      "pass": true,
+      "evidence": [
+        "プロジェクトを紹介するウェブサイトのデザイン・開発サービスプロジェクトブランド製品ポートフォリオキャンペーンプロジェクトを紹介するウェブサイトのデザイン・開発"
+      ]
+    },
+    {
+      "name": "ja: single main landmark",
+      "pass": true,
+      "evidence": 1
+    },
+    {
+      "name": "ja: three explained services in initial HTML",
+      "pass": true,
+      "evidence": [
+        "企業・団体サイト",
+        "ランディングページ",
+        "リニューアル"
+      ]
+    },
+    {
+      "name": "ja: both real project cases in initial HTML",
+      "pass": true,
+      "evidence": [
+        [
+          "Residencias Grupo Casa"
+        ],
+        [
+          "LingoHive"
+        ]
+      ]
+    },
+    {
+      "name": "ja: actionable email in initial HTML",
+      "pass": true,
+      "evidence": "mailto anchor + address text"
+    },
+    {
+      "name": "ja: actionable WhatsApp in initial HTML",
+      "pass": true,
+      "evidence": "WhatsApp anchor + number text"
+    },
+    {
+      "name": "ja: meaningful image alt",
+      "pass": true,
+      "evidence": "/images/residencias-mobile.webp"
+    },
+    {
+      "name": "ja: image dimensions reserve layout",
+      "pass": true,
+      "evidence": "/images/residencias-mobile.webp"
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/images/residencias-mobile.webp",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\images\\residencias-mobile.webp",
+        "bytes": 40126
+      }
+    },
+    {
+      "name": "ja: meaningful image alt",
+      "pass": true,
+      "evidence": "/images/residencias-desktop.webp"
+    },
+    {
+      "name": "ja: image dimensions reserve layout",
+      "pass": true,
+      "evidence": "/images/residencias-desktop.webp"
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/images/residencias-desktop.webp",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\images\\residencias-desktop.webp",
+        "bytes": 110488
+      }
+    },
+    {
+      "name": "ja: meaningful image alt",
+      "pass": true,
+      "evidence": "/images/lingohive-mobile.webp"
+    },
+    {
+      "name": "ja: image dimensions reserve layout",
+      "pass": true,
+      "evidence": "/images/lingohive-mobile.webp"
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/images/lingohive-mobile.webp",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\images\\lingohive-mobile.webp",
+        "bytes": 25176
+      }
+    },
+    {
+      "name": "ja: meaningful image alt",
+      "pass": true,
+      "evidence": "/images/lingohive-desktop.webp"
+    },
+    {
+      "name": "ja: image dimensions reserve layout",
+      "pass": true,
+      "evidence": "/images/lingohive-desktop.webp"
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/images/lingohive-desktop.webp",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\images\\lingohive-desktop.webp",
+        "bytes": 54662
+      }
+    },
+    {
+      "name": "ja: project visual evidence in HTML",
+      "pass": true,
+      "evidence": 4
+    },
+    {
+      "name": "ja: unique element IDs",
+      "pass": true,
+      "evidence": []
+    },
+    {
+      "name": "ja: no public content placeholders",
+      "pass": true,
+      "evidence": "TODO_CONTENT/TODO_ASSET scan"
+    },
+    {
+      "name": "ja: JSON-LD context",
+      "pass": true,
+      "evidence": "https://schema.org"
+    },
+    {
+      "name": "ja: factual Person JSON-LD",
+      "pass": true,
+      "evidence": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ja: JSON-LD node has a type",
+      "pass": true,
+      "evidence": "Ramiro Garcia"
+    },
+    {
+      "name": "ja: at most one WebSite entity",
+      "pass": true,
+      "evidence": 0
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/favicon.ico",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\favicon.ico",
+        "bytes": 2355
+      }
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/favicon.svg",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\favicon.svg",
+        "bytes": 970
+      }
+    },
+    {
+      "name": "Generated asset exists and is nonempty: https://ramita.dev/apple-touch-icon.png",
+      "pass": true,
+      "evidence": {
+        "file": "C:\\Codigo\\portfolio\\dist\\apple-touch-icon.png",
+        "bytes": 2253
+      }
+    },
+    {
+      "name": "/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#main"
+    },
+    {
+      "name": "/: internal fragment exists",
+      "pass": true,
+      "evidence": "#main"
+    },
+    {
+      "name": "/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/#inicio"
+    },
+    {
+      "name": "/: internal fragment exists",
+      "pass": true,
+      "evidence": "/#inicio"
+    },
+    {
+      "name": "/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#inicio"
+    },
+    {
+      "name": "/: internal fragment exists",
+      "pass": true,
+      "evidence": "#inicio"
+    },
+    {
+      "name": "/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#servicios"
+    },
+    {
+      "name": "/: internal fragment exists",
+      "pass": true,
+      "evidence": "#servicios"
+    },
+    {
+      "name": "/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#proyectos"
+    },
+    {
+      "name": "/: internal fragment exists",
+      "pass": true,
+      "evidence": "#proyectos"
+    },
+    {
+      "name": "/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#ramiro"
+    },
+    {
+      "name": "/: internal fragment exists",
+      "pass": true,
+      "evidence": "#ramiro"
+    },
+    {
+      "name": "/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#contacto"
+    },
+    {
+      "name": "/: internal fragment exists",
+      "pass": true,
+      "evidence": "#contacto"
+    },
+    {
+      "name": "/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/"
+    },
+    {
+      "name": "/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/en/"
+    },
+    {
+      "name": "/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/pt/"
+    },
+    {
+      "name": "/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/fr/"
+    },
+    {
+      "name": "/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/ja/"
+    },
+    {
+      "name": "/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#contacto"
+    },
+    {
+      "name": "/: internal fragment exists",
+      "pass": true,
+      "evidence": "#contacto"
+    },
+    {
+      "name": "/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#servicios"
+    },
+    {
+      "name": "/: internal fragment exists",
+      "pass": true,
+      "evidence": "#servicios"
+    },
+    {
+      "name": "/en/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#main"
+    },
+    {
+      "name": "/en/: internal fragment exists",
+      "pass": true,
+      "evidence": "#main"
+    },
+    {
+      "name": "/en/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/en/#inicio"
+    },
+    {
+      "name": "/en/: internal fragment exists",
+      "pass": true,
+      "evidence": "/en/#inicio"
+    },
+    {
+      "name": "/en/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#inicio"
+    },
+    {
+      "name": "/en/: internal fragment exists",
+      "pass": true,
+      "evidence": "#inicio"
+    },
+    {
+      "name": "/en/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#servicios"
+    },
+    {
+      "name": "/en/: internal fragment exists",
+      "pass": true,
+      "evidence": "#servicios"
+    },
+    {
+      "name": "/en/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#proyectos"
+    },
+    {
+      "name": "/en/: internal fragment exists",
+      "pass": true,
+      "evidence": "#proyectos"
+    },
+    {
+      "name": "/en/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#ramiro"
+    },
+    {
+      "name": "/en/: internal fragment exists",
+      "pass": true,
+      "evidence": "#ramiro"
+    },
+    {
+      "name": "/en/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#contacto"
+    },
+    {
+      "name": "/en/: internal fragment exists",
+      "pass": true,
+      "evidence": "#contacto"
+    },
+    {
+      "name": "/en/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/"
+    },
+    {
+      "name": "/en/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/en/"
+    },
+    {
+      "name": "/en/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/pt/"
+    },
+    {
+      "name": "/en/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/fr/"
+    },
+    {
+      "name": "/en/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/ja/"
+    },
+    {
+      "name": "/en/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#contacto"
+    },
+    {
+      "name": "/en/: internal fragment exists",
+      "pass": true,
+      "evidence": "#contacto"
+    },
+    {
+      "name": "/en/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#servicios"
+    },
+    {
+      "name": "/en/: internal fragment exists",
+      "pass": true,
+      "evidence": "#servicios"
+    },
+    {
+      "name": "/pt/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#main"
+    },
+    {
+      "name": "/pt/: internal fragment exists",
+      "pass": true,
+      "evidence": "#main"
+    },
+    {
+      "name": "/pt/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/pt/#inicio"
+    },
+    {
+      "name": "/pt/: internal fragment exists",
+      "pass": true,
+      "evidence": "/pt/#inicio"
+    },
+    {
+      "name": "/pt/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#inicio"
+    },
+    {
+      "name": "/pt/: internal fragment exists",
+      "pass": true,
+      "evidence": "#inicio"
+    },
+    {
+      "name": "/pt/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#servicios"
+    },
+    {
+      "name": "/pt/: internal fragment exists",
+      "pass": true,
+      "evidence": "#servicios"
+    },
+    {
+      "name": "/pt/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#proyectos"
+    },
+    {
+      "name": "/pt/: internal fragment exists",
+      "pass": true,
+      "evidence": "#proyectos"
+    },
+    {
+      "name": "/pt/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#ramiro"
+    },
+    {
+      "name": "/pt/: internal fragment exists",
+      "pass": true,
+      "evidence": "#ramiro"
+    },
+    {
+      "name": "/pt/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#contacto"
+    },
+    {
+      "name": "/pt/: internal fragment exists",
+      "pass": true,
+      "evidence": "#contacto"
+    },
+    {
+      "name": "/pt/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/"
+    },
+    {
+      "name": "/pt/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/en/"
+    },
+    {
+      "name": "/pt/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/pt/"
+    },
+    {
+      "name": "/pt/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/fr/"
+    },
+    {
+      "name": "/pt/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/ja/"
+    },
+    {
+      "name": "/pt/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#contacto"
+    },
+    {
+      "name": "/pt/: internal fragment exists",
+      "pass": true,
+      "evidence": "#contacto"
+    },
+    {
+      "name": "/pt/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#servicios"
+    },
+    {
+      "name": "/pt/: internal fragment exists",
+      "pass": true,
+      "evidence": "#servicios"
+    },
+    {
+      "name": "/fr/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#main"
+    },
+    {
+      "name": "/fr/: internal fragment exists",
+      "pass": true,
+      "evidence": "#main"
+    },
+    {
+      "name": "/fr/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/fr/#inicio"
+    },
+    {
+      "name": "/fr/: internal fragment exists",
+      "pass": true,
+      "evidence": "/fr/#inicio"
+    },
+    {
+      "name": "/fr/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#inicio"
+    },
+    {
+      "name": "/fr/: internal fragment exists",
+      "pass": true,
+      "evidence": "#inicio"
+    },
+    {
+      "name": "/fr/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#servicios"
+    },
+    {
+      "name": "/fr/: internal fragment exists",
+      "pass": true,
+      "evidence": "#servicios"
+    },
+    {
+      "name": "/fr/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#proyectos"
+    },
+    {
+      "name": "/fr/: internal fragment exists",
+      "pass": true,
+      "evidence": "#proyectos"
+    },
+    {
+      "name": "/fr/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#ramiro"
+    },
+    {
+      "name": "/fr/: internal fragment exists",
+      "pass": true,
+      "evidence": "#ramiro"
+    },
+    {
+      "name": "/fr/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#contacto"
+    },
+    {
+      "name": "/fr/: internal fragment exists",
+      "pass": true,
+      "evidence": "#contacto"
+    },
+    {
+      "name": "/fr/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/"
+    },
+    {
+      "name": "/fr/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/en/"
+    },
+    {
+      "name": "/fr/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/pt/"
+    },
+    {
+      "name": "/fr/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/fr/"
+    },
+    {
+      "name": "/fr/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/ja/"
+    },
+    {
+      "name": "/fr/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#contacto"
+    },
+    {
+      "name": "/fr/: internal fragment exists",
+      "pass": true,
+      "evidence": "#contacto"
+    },
+    {
+      "name": "/fr/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#servicios"
+    },
+    {
+      "name": "/fr/: internal fragment exists",
+      "pass": true,
+      "evidence": "#servicios"
+    },
+    {
+      "name": "/ja/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#main"
+    },
+    {
+      "name": "/ja/: internal fragment exists",
+      "pass": true,
+      "evidence": "#main"
+    },
+    {
+      "name": "/ja/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/ja/#inicio"
+    },
+    {
+      "name": "/ja/: internal fragment exists",
+      "pass": true,
+      "evidence": "/ja/#inicio"
+    },
+    {
+      "name": "/ja/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#inicio"
+    },
+    {
+      "name": "/ja/: internal fragment exists",
+      "pass": true,
+      "evidence": "#inicio"
+    },
+    {
+      "name": "/ja/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#servicios"
+    },
+    {
+      "name": "/ja/: internal fragment exists",
+      "pass": true,
+      "evidence": "#servicios"
+    },
+    {
+      "name": "/ja/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#proyectos"
+    },
+    {
+      "name": "/ja/: internal fragment exists",
+      "pass": true,
+      "evidence": "#proyectos"
+    },
+    {
+      "name": "/ja/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#ramiro"
+    },
+    {
+      "name": "/ja/: internal fragment exists",
+      "pass": true,
+      "evidence": "#ramiro"
+    },
+    {
+      "name": "/ja/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#contacto"
+    },
+    {
+      "name": "/ja/: internal fragment exists",
+      "pass": true,
+      "evidence": "#contacto"
+    },
+    {
+      "name": "/ja/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/"
+    },
+    {
+      "name": "/ja/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/en/"
+    },
+    {
+      "name": "/ja/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/pt/"
+    },
+    {
+      "name": "/ja/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/fr/"
+    },
+    {
+      "name": "/ja/: internal link targets a real page",
+      "pass": true,
+      "evidence": "/ja/"
+    },
+    {
+      "name": "/ja/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#contacto"
+    },
+    {
+      "name": "/ja/: internal fragment exists",
+      "pass": true,
+      "evidence": "#contacto"
+    },
+    {
+      "name": "/ja/: internal link targets a real page",
+      "pass": true,
+      "evidence": "#servicios"
+    },
+    {
+      "name": "/ja/: internal fragment exists",
+      "pass": true,
+      "evidence": "#servicios"
+    },
+    {
+      "name": "Localized titles are distinct",
+      "pass": true,
+      "evidence": [
+        "ramita | Diseño y desarrollo web",
+        "ramita | Web design & development",
+        "ramita | Design e desenvolvimento web",
+        "ramita | Design et développement web",
+        "ramita | Webデザイン・開発"
+      ]
+    },
+    {
+      "name": "Localized descriptions are distinct",
+      "pass": true,
+      "evidence": [
+        "Diseño y desarrollo de sitios web nuevos y rediseños. Trabajo directo con Ramiro Garcia desde la definición hasta la publicación.",
+        "Website design and development for new sites and redesigns. Work directly with Ramiro Garcia, from definition through publication.",
+        "Design e desenvolvimento de sites novos e redesigns. Trabalho direto com Ramiro Garcia, da definição à publicação.",
+        "Conception et développement de nouveaux sites web et refontes. Un travail direct avec Ramiro Garcia, de la définition à la mise en ligne.",
+        "新規サイトとリニューアルのデザイン・開発。Ramiro Garcia が構想の整理から公開まで直接対応します。"
+      ]
+    },
+    {
+      "name": "Generated robots file exists",
+      "pass": true,
+      "evidence": "C:\\Codigo\\portfolio\\dist\\robots.txt"
+    },
+    {
+      "name": "robots is not an HTML fallback",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "robots allows canonical pages and critical resources for Googlebot",
+      "pass": true,
+      "evidence": {
+        "blocked": [],
+        "inspectedPaths": 21
+      }
+    },
+    {
+      "name": "robots allows canonical pages and critical resources for Bingbot",
+      "pass": true,
+      "evidence": {
+        "blocked": [],
+        "inspectedPaths": 21
+      }
+    },
+    {
+      "name": "robots allows canonical pages and critical resources for OAI-SearchBot",
+      "pass": true,
+      "evidence": {
+        "blocked": [],
+        "inspectedPaths": 21
+      }
+    },
+    {
+      "name": "robots advertises canonical sitemap",
+      "pass": true,
+      "evidence": "User-agent: *\nAllow: /\nSitemap: https://ramita.dev/sitemap.xml\n"
+    },
+    {
+      "name": "Generated sitemap exists",
+      "pass": true,
+      "evidence": "C:\\Codigo\\portfolio\\dist\\sitemap.xml"
+    },
+    {
+      "name": "sitemap XML structure/namespace",
+      "pass": true,
+      "evidence": []
+    },
+    {
+      "name": "sitemap contains exactly the five real canonical pages",
+      "pass": true,
+      "evidence": [
+        "https://ramita.dev/",
+        "https://ramita.dev/en/",
+        "https://ramita.dev/pt/",
+        "https://ramita.dev/fr/",
+        "https://ramita.dev/ja/"
+      ]
+    },
+    {
+      "name": "Generated 404 document is noindex",
+      "pass": true,
+      "evidence": [
+        "noindex, follow"
+      ]
+    }
+  ],
+  "findings": [],
+  "unavailable": [],
+  "pages": [
+    {
+      "locale": "es",
+      "route": "/",
+      "status": null,
+      "headers": {
+        "content-type": "text/html"
+      },
+      "bytes": 20102,
+      "title": [
+        "ramita | Diseño y desarrollo web"
+      ],
+      "description": [
+        "Diseño y desarrollo de sitios web nuevos y rediseños. Trabajo directo con Ramiro Garcia desde la definición hasta la publicación."
+      ],
+      "canonical": [
+        "https://ramita.dev/"
+      ],
+      "hreflang": [
+        {
+          "lang": "es",
+          "url": "https://ramita.dev/"
+        },
+        {
+          "lang": "en",
+          "url": "https://ramita.dev/en/"
+        },
+        {
+          "lang": "pt",
+          "url": "https://ramita.dev/pt/"
+        },
+        {
+          "lang": "fr",
+          "url": "https://ramita.dev/fr/"
+        },
+        {
+          "lang": "ja",
+          "url": "https://ramita.dev/ja/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://ramita.dev/"
+        }
+      ],
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Diseño y desarrollo de sitios web para presentar tu proyectoDiseño y desarrollo de sitios web para presentar tu servicioproyectomarcaproductoportfoliocampañaproyecto"
+        },
+        {
+          "level": "h2",
+          "text": "Servicios"
+        },
+        {
+          "level": "h3",
+          "text": "Sitios institucionales"
+        },
+        {
+          "level": "h3",
+          "text": "Landing pages"
+        },
+        {
+          "level": "h3",
+          "text": "Rediseños"
+        },
+        {
+          "level": "h2",
+          "text": "Proyectos"
+        },
+        {
+          "level": "h3",
+          "text": "Residencias Grupo Casa"
+        },
+        {
+          "level": "h3",
+          "text": "LingoHive"
+        },
+        {
+          "level": "h2",
+          "text": "Ramiro Garcia"
+        },
+        {
+          "level": "h3",
+          "text": "Cómo trabajo"
+        },
+        {
+          "level": "h2",
+          "text": "Contame qué web necesitás."
+        }
+      ],
+      "images": 4,
+      "schemaTypes": [
+        "Person",
+        "WebSite"
+      ],
+      "parseProblems": []
+    },
+    {
+      "locale": "en",
+      "route": "/en/",
+      "status": null,
+      "headers": {
+        "content-type": "text/html"
+      },
+      "bytes": 20104,
+      "title": [
+        "ramita | Web design & development"
+      ],
+      "description": [
+        "Website design and development for new sites and redesigns. Work directly with Ramiro Garcia, from definition through publication."
+      ],
+      "canonical": [
+        "https://ramita.dev/en/"
+      ],
+      "hreflang": [
+        {
+          "lang": "es",
+          "url": "https://ramita.dev/"
+        },
+        {
+          "lang": "en",
+          "url": "https://ramita.dev/en/"
+        },
+        {
+          "lang": "pt",
+          "url": "https://ramita.dev/pt/"
+        },
+        {
+          "lang": "fr",
+          "url": "https://ramita.dev/fr/"
+        },
+        {
+          "lang": "ja",
+          "url": "https://ramita.dev/ja/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://ramita.dev/"
+        }
+      ],
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Website design and development for your projectWebsite design and development for your serviceprojectbrandproductportfoliocampaignproject"
+        },
+        {
+          "level": "h2",
+          "text": "Services"
+        },
+        {
+          "level": "h3",
+          "text": "Institutional websites"
+        },
+        {
+          "level": "h3",
+          "text": "Landing pages"
+        },
+        {
+          "level": "h3",
+          "text": "Redesigns"
+        },
+        {
+          "level": "h2",
+          "text": "Projects"
+        },
+        {
+          "level": "h3",
+          "text": "Residencias Grupo Casa"
+        },
+        {
+          "level": "h3",
+          "text": "LingoHive"
+        },
+        {
+          "level": "h2",
+          "text": "Ramiro Garcia"
+        },
+        {
+          "level": "h3",
+          "text": "How I work"
+        },
+        {
+          "level": "h2",
+          "text": "Tell me what kind of website you need."
+        }
+      ],
+      "images": 4,
+      "schemaTypes": [
+        "Person"
+      ],
+      "parseProblems": []
+    },
+    {
+      "locale": "pt",
+      "route": "/pt/",
+      "status": null,
+      "headers": {
+        "content-type": "text/html"
+      },
+      "bytes": 20406,
+      "title": [
+        "ramita | Design e desenvolvimento web"
+      ],
+      "description": [
+        "Design e desenvolvimento de sites novos e redesigns. Trabalho direto com Ramiro Garcia, da definição à publicação."
+      ],
+      "canonical": [
+        "https://ramita.dev/pt/"
+      ],
+      "hreflang": [
+        {
+          "lang": "es",
+          "url": "https://ramita.dev/"
+        },
+        {
+          "lang": "en",
+          "url": "https://ramita.dev/en/"
+        },
+        {
+          "lang": "pt",
+          "url": "https://ramita.dev/pt/"
+        },
+        {
+          "lang": "fr",
+          "url": "https://ramita.dev/fr/"
+        },
+        {
+          "lang": "ja",
+          "url": "https://ramita.dev/ja/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://ramita.dev/"
+        }
+      ],
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Design e desenvolvimento de sites para apresentar seu projetoDesign e desenvolvimento de sites para apresentar seu serviçoseu projetosua marcaseu produtoseu portfóliosua campanhaseu projeto"
+        },
+        {
+          "level": "h2",
+          "text": "Serviços"
+        },
+        {
+          "level": "h3",
+          "text": "Sites institucionais"
+        },
+        {
+          "level": "h3",
+          "text": "Landing pages"
+        },
+        {
+          "level": "h3",
+          "text": "Redesigns"
+        },
+        {
+          "level": "h2",
+          "text": "Projetos"
+        },
+        {
+          "level": "h3",
+          "text": "Residencias Grupo Casa"
+        },
+        {
+          "level": "h3",
+          "text": "LingoHive"
+        },
+        {
+          "level": "h2",
+          "text": "Ramiro Garcia"
+        },
+        {
+          "level": "h3",
+          "text": "Como trabalho"
+        },
+        {
+          "level": "h2",
+          "text": "Conte-me de que site você precisa."
+        }
+      ],
+      "images": 4,
+      "schemaTypes": [
+        "Person"
+      ],
+      "parseProblems": []
+    },
+    {
+      "locale": "fr",
+      "route": "/fr/",
+      "status": null,
+      "headers": {
+        "content-type": "text/html"
+      },
+      "bytes": 21012,
+      "title": [
+        "ramita | Design et développement web"
+      ],
+      "description": [
+        "Conception et développement de nouveaux sites web et refontes. Un travail direct avec Ramiro Garcia, de la définition à la mise en ligne."
+      ],
+      "canonical": [
+        "https://ramita.dev/fr/"
+      ],
+      "hreflang": [
+        {
+          "lang": "es",
+          "url": "https://ramita.dev/"
+        },
+        {
+          "lang": "en",
+          "url": "https://ramita.dev/en/"
+        },
+        {
+          "lang": "pt",
+          "url": "https://ramita.dev/pt/"
+        },
+        {
+          "lang": "fr",
+          "url": "https://ramita.dev/fr/"
+        },
+        {
+          "lang": "ja",
+          "url": "https://ramita.dev/ja/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://ramita.dev/"
+        }
+      ],
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Conception et développement de sites web pour présenter votre projetConception et développement de sites web pour présenter votre serviceprojetmarqueproduitportfoliocampagneprojet"
+        },
+        {
+          "level": "h2",
+          "text": "Services"
+        },
+        {
+          "level": "h3",
+          "text": "Sites institutionnels"
+        },
+        {
+          "level": "h3",
+          "text": "Landing pages"
+        },
+        {
+          "level": "h3",
+          "text": "Refontes"
+        },
+        {
+          "level": "h2",
+          "text": "Projets"
+        },
+        {
+          "level": "h3",
+          "text": "Residencias Grupo Casa"
+        },
+        {
+          "level": "h3",
+          "text": "LingoHive"
+        },
+        {
+          "level": "h2",
+          "text": "Ramiro Garcia"
+        },
+        {
+          "level": "h3",
+          "text": "Ma façon de travailler"
+        },
+        {
+          "level": "h2",
+          "text": "Parlez-moi du site dont vous avez besoin."
+        }
+      ],
+      "images": 4,
+      "schemaTypes": [
+        "Person"
+      ],
+      "parseProblems": []
+    },
+    {
+      "locale": "ja",
+      "route": "/ja/",
+      "status": null,
+      "headers": {
+        "content-type": "text/html"
+      },
+      "bytes": 22015,
+      "title": [
+        "ramita | Webデザイン・開発"
+      ],
+      "description": [
+        "新規サイトとリニューアルのデザイン・開発。Ramiro Garcia が構想の整理から公開まで直接対応します。"
+      ],
+      "canonical": [
+        "https://ramita.dev/ja/"
+      ],
+      "hreflang": [
+        {
+          "lang": "es",
+          "url": "https://ramita.dev/"
+        },
+        {
+          "lang": "en",
+          "url": "https://ramita.dev/en/"
+        },
+        {
+          "lang": "pt",
+          "url": "https://ramita.dev/pt/"
+        },
+        {
+          "lang": "fr",
+          "url": "https://ramita.dev/fr/"
+        },
+        {
+          "lang": "ja",
+          "url": "https://ramita.dev/ja/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://ramita.dev/"
+        }
+      ],
+      "headings": [
+        {
+          "level": "h1",
+          "text": "プロジェクトを紹介するウェブサイトのデザイン・開発サービスプロジェクトブランド製品ポートフォリオキャンペーンプロジェクトを紹介するウェブサイトのデザイン・開発"
+        },
+        {
+          "level": "h2",
+          "text": "サービス"
+        },
+        {
+          "level": "h3",
+          "text": "企業・団体サイト"
+        },
+        {
+          "level": "h3",
+          "text": "ランディングページ"
+        },
+        {
+          "level": "h3",
+          "text": "リニューアル"
+        },
+        {
+          "level": "h2",
+          "text": "制作実績"
+        },
+        {
+          "level": "h3",
+          "text": "Residencias Grupo Casa"
+        },
+        {
+          "level": "h3",
+          "text": "LingoHive"
+        },
+        {
+          "level": "h2",
+          "text": "Ramiro Garcia"
+        },
+        {
+          "level": "h3",
+          "text": "仕事の進め方"
+        },
+        {
+          "level": "h2",
+          "text": "必要なウェブサイトについて教えてください。"
+        }
+      ],
+      "images": 4,
+      "schemaTypes": [
+        "Person"
+      ],
+      "parseProblems": []
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://ramita.dev/social/ramita-es.png",
+      "requestedUrl": "http://127.0.0.1:4321/social/ramita-es.png",
+      "status": null,
+      "bytes": 75616,
+      "headers": {
+        "content-type": "image/png"
+      }
+    },
+    {
+      "url": "https://ramita.dev/images/residencias-mobile.webp",
+      "requestedUrl": "http://127.0.0.1:4321/images/residencias-mobile.webp",
+      "status": null,
+      "bytes": 40126,
+      "headers": {
+        "content-type": "image/webp"
+      }
+    },
+    {
+      "url": "https://ramita.dev/images/residencias-desktop.webp",
+      "requestedUrl": "http://127.0.0.1:4321/images/residencias-desktop.webp",
+      "status": null,
+      "bytes": 110488,
+      "headers": {
+        "content-type": "image/webp"
+      }
+    },
+    {
+      "url": "https://ramita.dev/images/lingohive-mobile.webp",
+      "requestedUrl": "http://127.0.0.1:4321/images/lingohive-mobile.webp",
+      "status": null,
+      "bytes": 25176,
+      "headers": {
+        "content-type": "image/webp"
+      }
+    },
+    {
+      "url": "https://ramita.dev/images/lingohive-desktop.webp",
+      "requestedUrl": "http://127.0.0.1:4321/images/lingohive-desktop.webp",
+      "status": null,
+      "bytes": 54662,
+      "headers": {
+        "content-type": "image/webp"
+      }
+    },
+    {
+      "url": "https://ramita.dev/favicon.ico",
+      "requestedUrl": "http://127.0.0.1:4321/favicon.ico",
+      "status": null,
+      "bytes": 2355,
+      "headers": {
+        "content-type": "image/x-icon"
+      }
+    },
+    {
+      "url": "https://ramita.dev/favicon.svg",
+      "requestedUrl": "http://127.0.0.1:4321/favicon.svg",
+      "status": null,
+      "bytes": 970,
+      "headers": {
+        "content-type": "image/svg+xml"
+      }
+    },
+    {
+      "url": "https://ramita.dev/apple-touch-icon.png",
+      "requestedUrl": "http://127.0.0.1:4321/apple-touch-icon.png",
+      "status": null,
+      "bytes": 2253,
+      "headers": {
+        "content-type": "image/png"
+      }
+    },
+    {
+      "url": "https://ramita.dev/social/ramita-en.png",
+      "requestedUrl": "http://127.0.0.1:4321/social/ramita-en.png",
+      "status": null,
+      "bytes": 74788,
+      "headers": {
+        "content-type": "image/png"
+      }
+    },
+    {
+      "url": "https://ramita.dev/social/ramita-pt.png",
+      "requestedUrl": "http://127.0.0.1:4321/social/ramita-pt.png",
+      "status": null,
+      "bytes": 60098,
+      "headers": {
+        "content-type": "image/png"
+      }
+    },
+    {
+      "url": "https://ramita.dev/social/ramita-fr.png",
+      "requestedUrl": "http://127.0.0.1:4321/social/ramita-fr.png",
+      "status": null,
+      "bytes": 66619,
+      "headers": {
+        "content-type": "image/png"
+      }
+    },
+    {
+      "url": "https://ramita.dev/social/ramita-ja.png",
+      "requestedUrl": "http://127.0.0.1:4321/social/ramita-ja.png",
+      "status": null,
+      "bytes": 68412,
+      "headers": {
+        "content-type": "image/png"
+      }
+    }
+  ],
+  "redirects": [],
+  "duplicates": [
+    {
+      "url": "http://127.0.0.1:4321/index.html",
+      "status": null,
+      "location": null,
+      "canonical": [
+        "https://ramita.dev/"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4321/en/index.html",
+      "status": null,
+      "location": null,
+      "canonical": [
+        "https://ramita.dev/en/"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4321/pt/index.html",
+      "status": null,
+      "location": null,
+      "canonical": [
+        "https://ramita.dev/pt/"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4321/fr/index.html",
+      "status": null,
+      "location": null,
+      "canonical": [
+        "https://ramita.dev/fr/"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4321/ja/index.html",
+      "status": null,
+      "location": null,
+      "canonical": [
+        "https://ramita.dev/ja/"
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "name": "HTTP status, headers, MIME, redirects and effective hosting 404 behavior",
+      "reason": "--dist reads generated files only; content types are inferred from extensions."
+    },
+    {
+      "name": "Public HTTP/www/trailing-slash redirects",
+      "reason": "Local/preview server does not establish production host redirect behavior."
+    }
+  ],
+  "robots": {
+    "status": null,
+    "headers": {
+      "content-type": "text/plain"
+    },
+    "body": "User-agent: *\nAllow: /\nSitemap: https://ramita.dev/sitemap.xml\n"
+  },
+  "sitemap": {
+    "status": null,
+    "headers": {
+      "content-type": "application/xml"
+    },
+    "urls": [
+      "https://ramita.dev/",
+      "https://ramita.dev/en/",
+      "https://ramita.dev/pt/",
+      "https://ramita.dev/fr/",
+      "https://ramita.dev/ja/"
+    ],
+    "parseProblems": []
+  },
+  "notFound": {
+    "route": "/__seo-audit-missing-route__/",
+    "status": null,
+    "headers": {
+      "content-type": "text/html"
+    },
+    "title": [
+      "404 | ramita.dev"
+    ]
+  },
+  "summary": {
+    "checks": 420,
+    "failures": 0,
+    "advisories": 0,
+    "unavailable": 0,
+    "pages": 5,
+    "assets": 12
+  }
+}

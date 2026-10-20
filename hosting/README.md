@@ -1,5 +1,15 @@
 # Publicación manual V2-H8 en Hostinger
 
+## Estado SEO publicado — 2026-10-20
+
+La misión SEO final autorizó al agente a publicar en la sesión de hPanel. Raíz confirmada: `public_html`, hosting Premium Web Hosting. El ZIP SEO del 19 se revalidó contra el build nuevo; se aplicaron selectivamente sus cinco HTML mediante el editor (el selector de upload falló antes de transferir el ZIP). Cada contenido se comparó antes de guardar y por hash HTTP después. CSS/JS y otros assets permanecieron intactos.
+
+No había `.htaccess`, comprobado con dotfiles visibles; se creó mínimo con las dos directivas de la plantilla, sin reemplazar configuración. Www 301 con rutas/query y 404 personalizado con HTTP404 están verificados. Backup completo recuperable fuera de la raíz pública: `ramita-seo-backup-20261020T0300Z/public_html`; copia local de los cinco HTML en `release/seo-backup-20261020/`, hashes verificados contra el release previo.
+
+Para rollback, restaurar sólo esos cinco HTML y mover el `.htaccess` nuevo a la carpeta privada (antes no existía), purgar caché y repetir QA. No sustituir toda la raíz. Detalles, manifiestos y recibo del delta de seis archivos en `docs/SEO.md`. No se cambió DNS ni correo. El cierre SEO no cierra V2-H8.
+
+El procedimiento siguiente conserva las instrucciones generales del release H8 y sus paquetes históricos.
+
 El paquete `release/ramita-h8-<SHA>.zip` contiene **el contenido** de `dist/`, no la carpeta `dist/`. El manifiesto de igual nombre, terminado en `.sha256`, permite comparar archivos. El SHA indicado en ambos nombres identifica el commit de código destinado a producción.
 
 1. En hPanel, entrar al sitio `ramita.dev` y confirmar cuál es su raíz pública (`public_html` en hosting web estándar). Antes de cargar, guardar una copia recuperable de los archivos actuales y del `.htaccess` efectivo **fuera** de la raíz pública. Compartir el listado de la raíz y el `.htaccess` existente, o confirmar su ausencia. No compartir credenciales.

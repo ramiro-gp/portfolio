@@ -6,7 +6,10 @@ const { chromium } = require('C:/Users/ramiro/.cache/codex-runtimes/codex-primar
 
 const base = process.env.H8_BASE || 'https://ramita.dev';
 if (base !== 'https://ramita.dev') throw new Error('H8 production checks must target https://ramita.dev');
-const releaseSha = '0af5489a63559b18651a7d10360a54a7a9165506';
+// Exact-payload release checks remain separate from qa/seo-checks.cjs.
+// Override only with the SHA of a release whose local manifest was verified.
+const releaseSha = process.env.H8_RELEASE_SHA || '1deb12b0c7857fad5fcac360153d184c155abd38';
+if (!/^[a-f0-9]{40}$/.test(releaseSha)) throw new Error('H8_RELEASE_SHA must be a full Git SHA.');
 const manifestPath = path.join(__dirname, '..', 'release', `ramita-h8-${releaseSha}.sha256`);
 const manifest = fs.readFileSync(manifestPath, 'utf8').trim().split(/\r?\n/)
   .map(line => /^([a-f0-9]{64})  (.+)$/.exec(line))
@@ -102,7 +105,13 @@ async function smoke(browser, browserName, locale, width, reducedMotion = false,
     assert.equal(await page.locator('.project-case').count(), 2);
     assert.equal(await page.locator('meta[property="og:image"]').getAttribute('content'), `${base}/social/ramita-${locale.code}.png`);
     assert.equal(await page.locator('meta[name="twitter:image"]').getAttribute('content'), `${base}/social/ramita-${locale.code}.png`);
-    const person = JSON.parse(await page.locator('script[type="application/ld+json"]').textContent());
+    const structuredData = (await page.locator('script[type="application/ld+json"]').allTextContents())
+      .flatMap(value => {
+        const parsed = JSON.parse(value);
+        return Array.isArray(parsed) ? parsed : parsed['@graph'] || [parsed];
+      });
+    const person = structuredData.find(value => value['@type'] === 'Person');
+    assert(person, 'Person JSON-LD missing');
     assert.equal(person['@type'], 'Person');
     assert.equal(person.url, `${base}/`);
     for (const [label, href] of [

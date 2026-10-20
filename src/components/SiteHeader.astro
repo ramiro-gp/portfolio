@@ -22,7 +22,7 @@ const accents = [
     <a class="brand" href={`${routes[locale]}#inicio`} aria-label={t.brandLabel}><span>ramita<span class="brand-dot">.</span>dev</span></a>
     <details class="menu-shell" data-menu>
       <summary class="menu-trigger" aria-controls="site-menu" data-close-label={t.closeMenu}><span data-menu-label>{t.menu}</span><span class="menu-glyph" aria-hidden="true"></span></summary>
-      <div class="menu-panel" id="site-menu" aria-label={t.navLabel}>
+      <div class="menu-panel" id="site-menu" role="group" aria-label={t.navLabel}>
         <nav class="menu-navigation" aria-label={t.navLabel}>
           {ids.map((id, index) => <a href={`#${id}`} data-section-link><span class="menu-index" aria-hidden="true">{String(index + 1).padStart(2, '0')} /</span><span>{t.nav[index]}</span></a>)}
         </nav>
@@ -32,11 +32,11 @@ const accents = [
             <a href="https://wa.me/5491151354489">+54 9 11 5135-4489</a>
           </div>
           <div class="menu-utilities">
-            <div class="language-group" aria-label={t.language}>
+            <div class="language-group" role="group" aria-label={t.language}>
               <span class="utility-heading">{t.language}</span>
               <div class="language-links">{localeCodes.map((code) => <a href={routes[code]} lang={code} hreflang={code} aria-current={code === locale ? 'page' : undefined} data-language-link>{languageNames[code]}</a>)}</div>
             </div>
-            <div class="appearance" data-appearance aria-label={t.appearance}>
+            <div class="appearance" data-appearance role="group" aria-label={t.appearance}>
               <div class="appearance-group">
                 <span class="utility-heading" id="mode-heading">{t.modeLabel}</span>
                 <div class="theme-options" role="group" aria-labelledby="mode-heading">

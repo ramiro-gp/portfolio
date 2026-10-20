@@ -1,0 +1,27 @@
+[
+  {
+    "path": "index.html",
+    "sha256": "126e608a3e0b7b65cb93484ea9d09f7af0d58a8bfcab6ec7580530675e26125e",
+    "matchesPriorRelease": true
+  },
+  {
+    "path": "en/index.html",
+    "sha256": "6c408d818e919ce7d4b22e158f8f22f1993a1af272e1489843c4e37505d07cff",
+    "matchesPriorRelease": true
+  },
+  {
+    "path": "pt/index.html",
+    "sha256": "2581cdb3fca80f4a9f174d5db8690fb4e99ba2977a351b12282f23e25f23509e",
+    "matchesPriorRelease": true
+  },
+  {
+    "path": "fr/index.html",
+    "sha256": "f5184d0bd24342924507ed0bc7de9c4d5290acc11ba9d5dda34a49c14d2c541a",
+    "matchesPriorRelease": true
+  },
+  {
+    "path": "ja/index.html",
+    "sha256": "a140cdfad589861d827a0311074f60c2f29ba1c56ddcc87261a13e6a685d6baa",
+    "matchesPriorRelease": true
+  }
+]

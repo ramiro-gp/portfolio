@@ -1,0 +1,43 @@
+{
+  "method": "hPanel File Browser UI editor, selective five generated HTML files and newly created .htaccess; ZIP upload failed before transfer",
+  "account": "u571172642",
+  "domain": "ramita.dev",
+  "publicRoot": "public_html",
+  "backupPrivateSibling": "ramita-seo-backup-20261020T0300Z/public_html",
+  "localBackup": "release/seo-backup-20261020",
+  "sourceArchive": "release/ramita-seo-2026-10-19-worktree.zip",
+  "archiveSha256": "56ca51db106fb7096fc7b43e561dbd01de37802356658bcbd63e06cd1436e600",
+  "files": [
+    {
+      "path": "index.html",
+      "at": "2026-10-20T03:24:50.969Z",
+      "editorEqualsBuild": true
+    },
+    {
+      "path": "en/index.html",
+      "at": "2026-10-20T03:24:52.067Z",
+      "editorEqualsBuild": true
+    },
+    {
+      "path": "pt/index.html",
+      "at": "2026-10-20T03:25:08.471Z",
+      "editorEqualsBuild": true
+    },
+    {
+      "path": "fr/index.html",
+      "at": "2026-10-20T03:25:11.151Z",
+      "editorEqualsBuild": true
+    },
+    {
+      "path": "ja/index.html",
+      "at": "2026-10-20T03:25:14.619Z",
+      "editorEqualsBuild": true
+    },
+    {
+      "path": ".htaccess",
+      "at": "2026-10-20T03:25:58.143Z",
+      "previouslyAbsent": true,
+      "editorEqualsExpected": true
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "observedAt": "2026-10-20T02:31:59.835Z",
+  "scope": "Read-only public HTTP and root TXT presence. Simulated user agents do not prove requests by actual search engine crawlers. XML inspection checks namespace, balanced root and loc entries rather than full schema validation.",
+  "limitations": [
+    "No authenticated Google/Bing state is inferred from public HTTP.",
+    "Bing generated CNAME label not queried; no verification identifiers collected or persisted.",
+    "Google Search Console initially showed Could not fetch, then root observed processed successfully with five discovered URLs; UI transition is documented separately."
+  ],
+  "initialRestrictedAttempt": {
+    "observedAt": "2026-10-20T02:31:59.835Z",
+    "errors": [
+      {
+        "area": "http",
+        "url": "https://ramita.dev/sitemap.xml",
+        "agent": "normal",
+        "error": "fetch failed"
+      },
+      {
+        "area": "http",
+        "url": "https://ramita.dev/robots.txt",
+        "agent": "normal",
+        "error": "fetch failed"
+      },
+      {
+        "area": "http",
+        "url": "https://ramita.dev/sitemap.xml",
+        "agent": "Googlebot",
+        "error": "fetch failed"
+      },
+      {
+        "area": "http",
+        "url": "https://ramita.dev/robots.txt",
+        "agent": "Googlebot",
+        "error": "fetch failed"
+      },
+      {
+        "area": "http",
+        "url": "https://ramita.dev/sitemap.xml",
+        "agent": "Bingbot",
+        "error": "fetch failed"
+      },
+      {
+        "area": "http",
+        "url": "https://ramita.dev/robots.txt",
+        "agent": "Bingbot",
+        "error": "fetch failed"
+      },
+      {
+        "area": "dns",
+        "code": "ETIMEOUT"
+      }
+    ],
+    "interpretation": "Network unavailable in restricted environment; not a website defect."
+  },
+  "authorizedNetworkAttempt": {
+    "observedAt": "2026-10-20T02:33:00.243Z",
+    "dns": {
+      "rootGoogleTXT": true
+    },
+    "http": [
+      {
+        "agent": "bingbot",
+        "url": "https://ramita.dev/robots.txt",
+        "status": 200,
+        "contentType": "text/plain",
+        "xRobotsTag": null,
+        "location": null,
+        "bytes": 63,
+        "sha256": "63f7267e6a7d579a3b60acb7e01eb4991a81ec39ac16907efe53d91a8ebc46da",
+        "body": "User-agent: *\nAllow: /\nSitemap: https://ramita.dev/sitemap.xml\n",
+        "generalRootAllowed": true,
+        "anyNonemptyDisallow": false,
+        "sitemapDirectivePresent": true
+      },
+      {
+        "agent": "bingbot",
+        "url": "https://ramita.dev/sitemap.xml",
+        "status": 200,
+        "contentType": "application/xml",
+        "xRobotsTag": null,
+        "location": null,
+        "bytes": 326,
+        "sha256": "6cd9706873206db3e3b41e47908ab9b8dc70a1db7f5129869ad22d50faab0e6f",
+        "urls": [
+          "https://ramita.dev/",
+          "https://ramita.dev/en/",
+          "https://ramita.dev/pt/",
+          "https://ramita.dev/fr/",
+          "https://ramita.dev/ja/"
+        ],
+        "urlCount": 5,
+        "exactFiveCanonical": true,
+        "sitemapNamespace": true,
+        "rootClosed": true
+      },
+      {
+        "agent": "Googlebot",
+        "url": "https://ramita.dev/robots.txt",
+        "status": 200,
+        "contentType": "text/plain",
+        "xRobotsTag": null,
+        "location": null,
+        "bytes": 63,
+        "sha256": "63f7267e6a7d579a3b60acb7e01eb4991a81ec39ac16907efe53d91a8ebc46da",
+        "body": "User-agent: *\nAllow: /\nSitemap: https://ramita.dev/sitemap.xml\n",
+        "generalRootAllowed": true,
+        "anyNonemptyDisallow": false,
+        "sitemapDirectivePresent": true
+      },
+      {
+        "agent": "Googlebot",
+        "url": "https://ramita.dev/sitemap.xml",
+        "status": 200,
+        "contentType": "application/xml",
+        "xRobotsTag": null,
+        "location": null,
+        "bytes": 326,
+        "sha256": "6cd9706873206db3e3b41e47908ab9b8dc70a1db7f5129869ad22d50faab0e6f",
+        "urls": [
+          "https://ramita.dev/",
+          "https://ramita.dev/en/",
+          "https://ramita.dev/pt/",
+          "https://ramita.dev/fr/",
+          "https://ramita.dev/ja/"
+        ],
+        "urlCount": 5,
+        "exactFiveCanonical": true,
+        "sitemapNamespace": true,
+        "rootClosed": true
+      },
+      {
+        "agent": "Mozilla/5.0",
+        "url": "https://ramita.dev/robots.txt",
+        "status": 200,
+        "contentType": "text/plain",
+        "xRobotsTag": null,
+        "location": null,
+        "bytes": 63,
+        "sha256": "63f7267e6a7d579a3b60acb7e01eb4991a81ec39ac16907efe53d91a8ebc46da",
+        "body": "User-agent: *\nAllow: /\nSitemap: https://ramita.dev/sitemap.xml\n",
+        "generalRootAllowed": true,
+        "anyNonemptyDisallow": false,
+        "sitemapDirectivePresent": true
+      },
+      {
+        "agent": "Mozilla/5.0",
+        "url": "https://ramita.dev/sitemap.xml",
+        "status": 200,
+        "contentType": "application/xml",
+        "xRobotsTag": null,
+        "location": null,
+        "bytes": 326,
+        "sha256": "6cd9706873206db3e3b41e47908ab9b8dc70a1db7f5129869ad22d50faab0e6f",
+        "urls": [
+          "https://ramita.dev/",
+          "https://ramita.dev/en/",
+          "https://ramita.dev/pt/",
+          "https://ramita.dev/fr/",
+          "https://ramita.dev/ja/"
+        ],
+        "urlCount": 5,
+        "exactFiveCanonical": true,
+        "sitemapNamespace": true,
+        "rootClosed": true
+      }
+    ],
+    "errors": [],
+    "summary": {
+      "allSixResponses200": true,
+      "noXRobotsTag": true,
+      "noRootRobotsBlocks": true,
+      "allSitemapsHaveFiveCanonical": true,
+      "sameSitemapHashAcrossAgents": true
+    }
+  }
+}

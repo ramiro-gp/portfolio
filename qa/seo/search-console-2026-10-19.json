@@ -1,0 +1,119 @@
+{
+  "observedAt": "2026-10-20T02:37:00.327Z",
+  "observationTimeZone": "America/Buenos_Aires",
+  "property": "sc-domain:ramita.dev",
+  "verification": {
+    "state": "Verified",
+    "method": "DNS provider",
+    "permission": "Propietario verificado",
+    "performedByAgent": false
+  },
+  "sitemap": {
+    "url": "https://ramita.dev/sitemap.xml",
+    "submittedByAgent": true,
+    "state": "El sitemap se ha procesado correctamente",
+    "lastReadDisplayed": "19/10/26",
+    "discoveredPages": 5,
+    "discoveredVideos": 0,
+    "initialTransientState": "No se ha podido obtener",
+    "note": "Processed success confirmed after the initial transient state; no code fix or duplicate submission"
+  },
+  "urlInspections": [
+    {
+      "url": "https://ramita.dev/",
+      "indexStatus": "La URL está en Google; La página está indexada",
+      "lastCrawlDisplayed": "12 oct 2026, 12:19:32",
+      "crawler": "Robot de Google para smartphones",
+      "crawlAllowed": true,
+      "fetch": "Correcto",
+      "indexingAllowed": true,
+      "declaredCanonical": "https://ramita.dev/",
+      "googleCanonical": "URL inspeccionada",
+      "sitemap": "https://ramita.dev/sitemap.xml"
+    },
+    {
+      "url": "https://ramita.dev/en/",
+      "indexStatus": "La URL está en Google; La página está indexada",
+      "lastCrawlDisplayed": "27 sept 2026, 7:43:21",
+      "crawler": "Robot de Google para smartphones",
+      "crawlAllowed": true,
+      "fetch": "Correcto",
+      "indexingAllowed": true,
+      "declaredCanonical": "https://ramita.dev/en/",
+      "googleCanonical": "URL inspeccionada",
+      "sitemap": "https://ramita.dev/sitemap.xml"
+    },
+    {
+      "url": "https://ramita.dev/pt/",
+      "indexStatus": "La URL está en Google; La página está indexada",
+      "lastCrawlDisplayed": "27 sept 2026, 7:44:39",
+      "crawler": "Robot de Google para smartphones",
+      "crawlAllowed": true,
+      "fetch": "Correcto",
+      "indexingAllowed": true,
+      "declaredCanonical": "https://ramita.dev/pt/",
+      "googleCanonical": "URL inspeccionada",
+      "sitemap": "https://ramita.dev/sitemap.xml"
+    },
+    {
+      "url": "https://ramita.dev/fr/",
+      "indexStatus": "La URL está en Google; La página está indexada",
+      "lastCrawlDisplayed": "15 oct 2026, 1:47:34",
+      "crawler": "Robot de Google para smartphones",
+      "crawlAllowed": true,
+      "fetch": "Correcto",
+      "indexingAllowed": true,
+      "declaredCanonical": "https://ramita.dev/fr/",
+      "googleCanonical": "URL inspeccionada",
+      "sitemap": "https://ramita.dev/sitemap.xml"
+    },
+    {
+      "url": "https://ramita.dev/ja/",
+      "indexStatus": "La URL está en Google; La página está indexada",
+      "lastCrawlDisplayed": "27 sept 2026, 7:44:13",
+      "crawler": "Robot de Google para smartphones",
+      "crawlAllowed": true,
+      "fetch": "Correcto",
+      "indexingAllowed": true,
+      "declaredCanonical": "https://ramita.dev/ja/",
+      "googleCanonical": "URL inspeccionada",
+      "sitemap": "https://ramita.dev/sitemap.xml"
+    }
+  ],
+  "reports": {
+    "performance": {
+      "state": "Processing",
+      "message": "Se están procesando los datos; vuelve a comprobar esta sección mañana",
+      "selectedRange": "3 meses",
+      "metricsAvailable": false
+    },
+    "pageIndexing": {
+      "state": "Processing",
+      "exclusionDataAvailable": false
+    },
+    "coreWebVitals": {
+      "mobile": "No se han recogido suficientes datos de uso en los últimos 90 días",
+      "desktop": "No se han recogido suficientes datos de uso en los últimos 90 días",
+      "fieldMetricsAvailable": false
+    },
+    "manualActions": {
+      "state": "No se ha detectado ningún problema"
+    },
+    "searchGenerativeAI": {
+      "state": "Incluir",
+      "source": "Settings",
+      "modified": false
+    },
+    "crawlStats": {
+      "state": "Aún no hay datos disponibles"
+    },
+    "robotsReport": {
+      "state": "No hay ningún archivo robots.txt",
+      "limitation": "New property report; public HTTP200 robots independently confirmed, not treated as file absence"
+    },
+    "securityIssues": {
+      "state": "No se ha detectado ningún problema"
+    }
+  },
+  "indexingRequestsSubmitted": 0
+}

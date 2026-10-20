@@ -1,0 +1,397 @@
+{
+  "observedAt": "2026-10-20T03:28:27.396Z",
+  "domain": "ramita.dev",
+  "dns": {
+    "A": [
+      "77.37.85.211",
+      "185.249.224.188"
+    ],
+    "verificationPresence": {
+      "google": true,
+      "microsoft": false
+    },
+    "NS": [
+      "helios.dns-parking.com",
+      "aster.dns-parking.com"
+    ],
+    "wwwCNAME": [
+      "www.ramita.dev.cdn.hstgr.net"
+    ],
+    "AAAA": [
+      "2a02:4780:72:db9c:f06c:bcba:4bab:4a3a",
+      "2a02:4780:71:adf9:2f86:389:3653:317a"
+    ]
+  },
+  "tls": {
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "subject": {
+      "CN": "ramita.dev"
+    },
+    "issuer": {
+      "C": "US",
+      "O": "Let's Encrypt",
+      "CN": "YE1"
+    },
+    "subjectAltName": "DNS:ramita.dev, DNS:www.ramita.dev",
+    "validFrom": "Sep 25 20:38:50 2026 GMT",
+    "validTo": "Dec 24 20:38:49 2026 GMT"
+  },
+  "http": [
+    {
+      "requested": "https://ramita.dev/",
+      "chain": [
+        {
+          "url": "https://ramita.dev/",
+          "status": 200,
+          "headers": {
+            "content-type": "text/html",
+            "content-encoding": "br",
+            "vary": "Accept-Encoding",
+            "last-modified": "Tue, 20 Oct 2026 03:24:27 GMT",
+            "content-security-policy": "upgrade-insecure-requests",
+            "server": "hcdn",
+            "platform": "hostinger"
+          },
+          "bytes": 20102,
+          "sha256": "e8c33583d49482a12079d463c774df442f68618be4c9497df9a878538afbb3f9",
+          "title": "ramita | Diseño y desarrollo web",
+          "canonical": "https://ramita.dev/"
+        }
+      ]
+    },
+    {
+      "requested": "http://ramita.dev/en/?seo-audit=1",
+      "chain": [
+        {
+          "url": "http://ramita.dev/en/?seo-audit=1",
+          "status": 301,
+          "headers": {
+            "content-type": "text/html",
+            "content-length": "795",
+            "content-security-policy": "upgrade-insecure-requests",
+            "server": "hcdn",
+            "platform": "hostinger"
+          },
+          "bytes": 795,
+          "sha256": "e8b101a7c7f64aad528cc734513cbeb02243c0af37930dc0f3239749cff184b6",
+          "location": "https://ramita.dev/en/?seo-audit=1",
+          "title": " 301 Moved Permanently\r\n"
+        },
+        {
+          "url": "https://ramita.dev/en/?seo-audit=1",
+          "status": 200,
+          "headers": {
+            "content-type": "text/html",
+            "content-encoding": "br",
+            "vary": "Accept-Encoding",
+            "last-modified": "Tue, 20 Oct 2026 03:24:51 GMT",
+            "content-security-policy": "upgrade-insecure-requests",
+            "server": "hcdn",
+            "platform": "hostinger"
+          },
+          "bytes": 20104,
+          "sha256": "e6250a72d258166f46ba5601bb9aad18e93ce08a070417908de64f30709c5777",
+          "title": "ramita | Web design &amp; development",
+          "canonical": "https://ramita.dev/en/"
+        }
+      ]
+    },
+    {
+      "requested": "https://www.ramita.dev/en/?seo-audit=1",
+      "chain": [
+        {
+          "url": "https://www.ramita.dev/en/?seo-audit=1",
+          "status": 301,
+          "headers": {
+            "content-type": "text/html",
+            "content-length": "795",
+            "content-security-policy": "upgrade-insecure-requests",
+            "server": "hcdn",
+            "platform": "hostinger"
+          },
+          "bytes": 795,
+          "sha256": "e8b101a7c7f64aad528cc734513cbeb02243c0af37930dc0f3239749cff184b6",
+          "location": "https://ramita.dev/en/?seo-audit=1",
+          "title": " 301 Moved Permanently\r\n"
+        },
+        {
+          "url": "https://ramita.dev/en/?seo-audit=1",
+          "status": 200,
+          "headers": {
+            "content-type": "text/html",
+            "content-encoding": "br",
+            "vary": "Accept-Encoding",
+            "last-modified": "Tue, 20 Oct 2026 03:24:51 GMT",
+            "content-security-policy": "upgrade-insecure-requests",
+            "server": "hcdn",
+            "platform": "hostinger"
+          },
+          "bytes": 20104,
+          "sha256": "e6250a72d258166f46ba5601bb9aad18e93ce08a070417908de64f30709c5777",
+          "title": "ramita | Web design &amp; development",
+          "canonical": "https://ramita.dev/en/"
+        }
+      ]
+    },
+    {
+      "requested": "http://www.ramita.dev/en/?seo-audit=1",
+      "chain": [
+        {
+          "url": "http://www.ramita.dev/en/?seo-audit=1",
+          "status": 301,
+          "headers": {
+            "content-type": "text/html",
+            "content-length": "795",
+            "content-security-policy": "upgrade-insecure-requests",
+            "server": "hcdn",
+            "platform": "hostinger"
+          },
+          "bytes": 795,
+          "sha256": "e8b101a7c7f64aad528cc734513cbeb02243c0af37930dc0f3239749cff184b6",
+          "location": "https://www.ramita.dev/en/?seo-audit=1",
+          "title": " 301 Moved Permanently\r\n"
+        },
+        {
+          "url": "https://www.ramita.dev/en/?seo-audit=1",
+          "status": 301,
+          "headers": {
+            "content-type": "text/html",
+            "content-length": "795",
+            "content-security-policy": "upgrade-insecure-requests",
+            "server": "hcdn",
+            "platform": "hostinger"
+          },
+          "bytes": 795,
+          "sha256": "e8b101a7c7f64aad528cc734513cbeb02243c0af37930dc0f3239749cff184b6",
+          "location": "https://ramita.dev/en/?seo-audit=1",
+          "title": " 301 Moved Permanently\r\n"
+        },
+        {
+          "url": "https://ramita.dev/en/?seo-audit=1",
+          "status": 200,
+          "headers": {
+            "content-type": "text/html",
+            "content-encoding": "br",
+            "vary": "Accept-Encoding",
+            "last-modified": "Tue, 20 Oct 2026 03:24:51 GMT",
+            "content-security-policy": "upgrade-insecure-requests",
+            "server": "hcdn",
+            "platform": "hostinger"
+          },
+          "bytes": 20104,
+          "sha256": "e6250a72d258166f46ba5601bb9aad18e93ce08a070417908de64f30709c5777",
+          "title": "ramita | Web design &amp; development",
+          "canonical": "https://ramita.dev/en/"
+        }
+      ]
+    },
+    {
+      "requested": "https://ramita.dev/en",
+      "chain": [
+        {
+          "url": "https://ramita.dev/en",
+          "status": 301,
+          "headers": {
+            "content-type": "text/html",
+            "content-length": "795",
+            "content-security-policy": "upgrade-insecure-requests",
+            "server": "hcdn",
+            "platform": "hostinger"
+          },
+          "bytes": 795,
+          "sha256": "e8b101a7c7f64aad528cc734513cbeb02243c0af37930dc0f3239749cff184b6",
+          "location": "https://ramita.dev/en/",
+          "title": " 301 Moved Permanently\r\n"
+        },
+        {
+          "url": "https://ramita.dev/en/",
+          "status": 200,
+          "headers": {
+            "content-type": "text/html",
+            "content-encoding": "br",
+            "vary": "Accept-Encoding",
+            "last-modified": "Tue, 20 Oct 2026 03:24:51 GMT",
+            "content-security-policy": "upgrade-insecure-requests",
+            "server": "hcdn",
+            "platform": "hostinger"
+          },
+          "bytes": 20104,
+          "sha256": "e6250a72d258166f46ba5601bb9aad18e93ce08a070417908de64f30709c5777",
+          "title": "ramita | Web design &amp; development",
+          "canonical": "https://ramita.dev/en/"
+        }
+      ]
+    },
+    {
+      "requested": "https://ramita.dev/index.html",
+      "chain": [
+        {
+          "url": "https://ramita.dev/index.html",
+          "status": 200,
+          "headers": {
+            "content-type": "text/html",
+            "content-encoding": "br",
+            "vary": "Accept-Encoding",
+            "last-modified": "Tue, 20 Oct 2026 03:24:27 GMT",
+            "content-security-policy": "upgrade-insecure-requests",
+            "server": "hcdn",
+            "platform": "hostinger"
+          },
+          "bytes": 20102,
+          "sha256": "e8c33583d49482a12079d463c774df442f68618be4c9497df9a878538afbb3f9",
+          "title": "ramita | Diseño y desarrollo web",
+          "canonical": "https://ramita.dev/"
+        }
+      ]
+    },
+    {
+      "requested": "https://ramita.dev/en/index.html",
+      "chain": [
+        {
+          "url": "https://ramita.dev/en/index.html",
+          "status": 200,
+          "headers": {
+            "content-type": "text/html",
+            "content-encoding": "br",
+            "vary": "Accept-Encoding",
+            "last-modified": "Tue, 20 Oct 2026 03:24:51 GMT",
+            "content-security-policy": "upgrade-insecure-requests",
+            "server": "hcdn",
+            "platform": "hostinger"
+          },
+          "bytes": 20104,
+          "sha256": "e6250a72d258166f46ba5601bb9aad18e93ce08a070417908de64f30709c5777",
+          "title": "ramita | Web design &amp; development",
+          "canonical": "https://ramita.dev/en/"
+        }
+      ]
+    },
+    {
+      "requested": "https://ramita.dev/__seo-audit-missing-20261019__/",
+      "chain": [
+        {
+          "url": "https://ramita.dev/__seo-audit-missing-20261019__/",
+          "status": 404,
+          "headers": {
+            "content-type": "text/html",
+            "content-encoding": "br",
+            "content-length": "1006",
+            "vary": "Accept-Encoding",
+            "last-modified": "Sat, 26 Sep 2026 07:47:50 GMT",
+            "content-security-policy": "upgrade-insecure-requests",
+            "server": "hcdn",
+            "platform": "hostinger"
+          },
+          "bytes": 3857,
+          "sha256": "89b032ceb27927bd4e1e96e78bef81787e9cf153e2fc78a5e919c5f62c3c9ce0",
+          "title": "404 | ramita.dev"
+        }
+      ]
+    },
+    {
+      "requested": "https://ramita.dev/404.html",
+      "chain": [
+        {
+          "url": "https://ramita.dev/404.html",
+          "status": 200,
+          "headers": {
+            "content-type": "text/html",
+            "content-encoding": "br",
+            "vary": "Accept-Encoding",
+            "last-modified": "Sat, 26 Sep 2026 07:47:50 GMT",
+            "content-security-policy": "upgrade-insecure-requests",
+            "server": "hcdn",
+            "platform": "hostinger"
+          },
+          "bytes": 3857,
+          "sha256": "89b032ceb27927bd4e1e96e78bef81787e9cf153e2fc78a5e919c5f62c3c9ce0",
+          "title": "404 | ramita.dev"
+        }
+      ]
+    },
+    {
+      "requested": "https://ramita.dev/robots.txt",
+      "chain": [
+        {
+          "url": "https://ramita.dev/robots.txt",
+          "status": 200,
+          "headers": {
+            "content-type": "text/plain",
+            "content-encoding": "br",
+            "vary": "Accept-Encoding",
+            "last-modified": "Sat, 26 Sep 2026 07:47:50 GMT",
+            "content-security-policy": "upgrade-insecure-requests",
+            "server": "hcdn",
+            "platform": "hostinger"
+          },
+          "bytes": 63,
+          "sha256": "63f7267e6a7d579a3b60acb7e01eb4991a81ec39ac16907efe53d91a8ebc46da",
+          "body": "User-agent: *\nAllow: /\nSitemap: https://ramita.dev/sitemap.xml\n"
+        }
+      ]
+    },
+    {
+      "requested": "https://ramita.dev/sitemap.xml",
+      "chain": [
+        {
+          "url": "https://ramita.dev/sitemap.xml",
+          "status": 200,
+          "headers": {
+            "content-type": "application/xml",
+            "content-encoding": "br",
+            "content-length": "121",
+            "vary": "Accept-Encoding",
+            "last-modified": "Sat, 26 Sep 2026 07:47:50 GMT",
+            "content-security-policy": "upgrade-insecure-requests",
+            "server": "hcdn",
+            "platform": "hostinger"
+          },
+          "bytes": 326,
+          "sha256": "6cd9706873206db3e3b41e47908ab9b8dc70a1db7f5129869ad22d50faab0e6f"
+        }
+      ]
+    },
+    {
+      "requested": "https://ramita.dev/fonts/InstrumentSans.woff2",
+      "chain": [
+        {
+          "url": "https://ramita.dev/fonts/InstrumentSans.woff2",
+          "status": 200,
+          "headers": {
+            "content-type": "font/woff2",
+            "content-length": "88676",
+            "cache-control": "public, max-age=604800",
+            "last-modified": "Sat, 26 Sep 2026 07:47:50 GMT",
+            "content-security-policy": "upgrade-insecure-requests",
+            "server": "hcdn",
+            "platform": "hostinger"
+          },
+          "bytes": 88676,
+          "sha256": "22458a6296d82f136f3d0eb5d5a6c5a11ef4fd2ca3a5fd55d0836ab4dfea6eb1"
+        }
+      ]
+    },
+    {
+      "requested": "https://ramita.dev/images/residencias-mobile.webp",
+      "chain": [
+        {
+          "url": "https://ramita.dev/images/residencias-mobile.webp",
+          "status": 200,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "40126",
+            "cache-control": "public, max-age=604800",
+            "last-modified": "Sat, 26 Sep 2026 07:47:50 GMT",
+            "content-security-policy": "upgrade-insecure-requests",
+            "server": "hcdn",
+            "platform": "hostinger"
+          },
+          "bytes": 40126,
+          "sha256": "31a98817b31fed31dd7f3c4547642b35f5a4417962aa192ab5f8c379018084a4"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

@@ -14,6 +14,12 @@ const person = {
   url: 'https://ramita.dev/',
   sameAs: ['https://github.com/ramiro-gp']
 };
+const website = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'ramita.dev',
+  url: 'https://ramita.dev/'
+};
 ---
 <!doctype html>
 <html lang={locale} data-theme="light" data-accent="light-green">
@@ -46,6 +52,7 @@ const person = {
     <meta name="twitter:image" content={socialImage} />
     <meta name="twitter:image:alt" content={socialImageAlt} />
     <script type="application/ld+json" set:html={JSON.stringify(person)} />
+    {locale === 'es' && <script type="application/ld+json" set:html={JSON.stringify(website)} />}
     <script is:inline>
       (() => {
         try {

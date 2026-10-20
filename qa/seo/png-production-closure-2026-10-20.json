@@ -1,0 +1,102 @@
+{
+  "at": "2026-10-20T03:28:23.983422+00:00",
+  "method": "Pillow EXIF transpose and exact RGBA bytes comparison of freshly fetched public PNG against dist",
+  "rows": [
+    {
+      "file": "apple-touch-icon.png",
+      "localSize": [
+        180,
+        180
+      ],
+      "publicSize": [
+        180,
+        180
+      ],
+      "sameRGBA": true,
+      "localFormat": "PNG",
+      "publicFormat": "PNG",
+      "sameICC": true,
+      "publicSha256": "a8c72265e185c2504b665a7ca87ed1a56ccc074e16851089b1dcd62a602382ef"
+    },
+    {
+      "file": "social/ramita-en.png",
+      "localSize": [
+        1200,
+        630
+      ],
+      "publicSize": [
+        1200,
+        630
+      ],
+      "sameRGBA": true,
+      "localFormat": "PNG",
+      "publicFormat": "PNG",
+      "sameICC": true,
+      "publicSha256": "451716bb32523042ace351e7ea391eb9419fad7670f3c6247c2b62bbb1123b7d"
+    },
+    {
+      "file": "social/ramita-es.png",
+      "localSize": [
+        1200,
+        630
+      ],
+      "publicSize": [
+        1200,
+        630
+      ],
+      "sameRGBA": true,
+      "localFormat": "PNG",
+      "publicFormat": "PNG",
+      "sameICC": true,
+      "publicSha256": "e813b4cbcf43847e87414f07bb4e554c1ffba6f01c822efb5b37e94e17ddd41e"
+    },
+    {
+      "file": "social/ramita-fr.png",
+      "localSize": [
+        1200,
+        630
+      ],
+      "publicSize": [
+        1200,
+        630
+      ],
+      "sameRGBA": true,
+      "localFormat": "PNG",
+      "publicFormat": "PNG",
+      "sameICC": true,
+      "publicSha256": "53c06fb9fd9092abd11ba2d051d24873bb0549ed04e791ac43c867d2490298c4"
+    },
+    {
+      "file": "social/ramita-ja.png",
+      "localSize": [
+        1200,
+        630
+      ],
+      "publicSize": [
+        1200,
+        630
+      ],
+      "sameRGBA": true,
+      "localFormat": "PNG",
+      "publicFormat": "PNG",
+      "sameICC": true,
+      "publicSha256": "c9adffd69f2f94023504093cf768e6c85b10f8ebeaddd0d4c7b9a76653afe460"
+    },
+    {
+      "file": "social/ramita-pt.png",
+      "localSize": [
+        1200,
+        630
+      ],
+      "publicSize": [
+        1200,
+        630
+      ],
+      "sameRGBA": true,
+      "localFormat": "PNG",
+      "publicFormat": "PNG",
+      "sameICC": true,
+      "publicSha256": "28863280ebfb9ff9a2572777cb1d3f8d94d8e96fc3bdffa00623fc7833d4a3a4"
+    }
+  ]
+}

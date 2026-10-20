@@ -1,0 +1,130 @@
+{
+  "at": "2026-10-20T03:33:07.479Z",
+  "property": "sc-domain:ramita.dev",
+  "inspections": [
+    {
+      "url": "https://ramita.dev/",
+      "at": "2026-10-20T03:28:45.641Z",
+      "evidence": [
+        "+\t\t\t\t\t\t85 button (expanded) Indexación de páginas La página está indexada, Secondary Actions: Collapse",
+        "+\t\t\t\t\t\t\t87 text La página está indexada",
+        "+\t\t\t\t\t\t94 text Rastreo",
+        "+\t\t\t\t\t\t95 text Último rastreo",
+        "+\t\t\t\t\t\t96 text 12 oct 2026, 12:19:32",
+        "+\t\t\t\t\t\t99 text ¿Se permite el rastreo?",
+        "+\t\t\t\t\t\t100 text Sí",
+        "+\t\t\t\t\t\t102 text Correcto",
+        "+\t\t\t\t\t\t104 text Sí",
+        "+\t\t\t\t\t\t106 text Declarada por el usuario como canónica",
+        "+\t\t\t\t\t\t108 text Seleccionada por Google como canónica",
+        "+\t\t\t\t\t\t110 text URL inspeccionada",
+        "The focused UI element is 85 button (expanded) Indexación de páginas La página está indexada, Secondary Actions: Collapse"
+      ]
+    },
+    {
+      "url": "https://ramita.dev/en/",
+      "at": "2026-10-20T03:29:08.257Z",
+      "evidence": [
+        "54 text https://ramita.dev/en/",
+        "86 button (expanded) Indexación de páginas La página está indexada, Secondary Actions: Collapse",
+        "88 text La página está indexada",
+        "93 text https://ramita.dev/ja/",
+        "95 text Rastreo",
+        "96 text Último rastreo",
+        "97 text 27 sept 2026, 7:43:21",
+        "100 text ¿Se permite el rastreo?",
+        "101 text Sí",
+        "103 text Correcto",
+        "105 text Sí",
+        "107 text Declarada por el usuario como canónica",
+        "108 text https://ramita.dev/en/",
+        "109 text Seleccionada por Google como canónica",
+        "111 text URL inspeccionada",
+        "The focused UI element is 86 button (expanded) Indexación de páginas La página está indexada, Secondary Actions: Collapse"
+      ]
+    },
+    {
+      "url": "https://ramita.dev/pt/",
+      "at": "2026-10-20T03:29:54.793Z",
+      "evidence": [
+        "55 text https://ramita.dev/pt/",
+        "73 button (expanded) Indexación de páginas La página está indexada, Secondary Actions: Collapse",
+        "75 text La página está indexada",
+        "78 text https://ramita.dev/sitemap.xml",
+        "82 text Rastreo",
+        "83 text Último rastreo",
+        "84 text 27 sept 2026, 7:44:39",
+        "87 text ¿Se permite el rastreo?",
+        "88 text Sí",
+        "90 text Correcto",
+        "92 text Sí",
+        "94 text Declarada por el usuario como canónica",
+        "95 text https://ramita.dev/pt/",
+        "96 text Seleccionada por Google como canónica",
+        "98 text URL inspeccionada",
+        "The focused UI element is 73 button (expanded) Indexación de páginas La página está indexada, Secondary Actions: Collapse"
+      ]
+    },
+    {
+      "url": "https://ramita.dev/fr/",
+      "at": "2026-10-20T03:30:10.826Z",
+      "evidence": [
+        "54 text https://ramita.dev/fr/",
+        "72 button (expanded) Indexación de páginas La página está indexada, Secondary Actions: Collapse",
+        "74 text La página está indexada",
+        "77 text https://ramita.dev/sitemap.xml",
+        "79 text https://ramita.dev/en/",
+        "81 text Rastreo",
+        "82 text Último rastreo",
+        "83 text 15 oct 2026, 1:47:34",
+        "86 text ¿Se permite el rastreo?",
+        "87 text Sí",
+        "89 text Correcto",
+        "91 text Sí",
+        "93 text Declarada por el usuario como canónica",
+        "94 text https://ramita.dev/fr/",
+        "95 text Seleccionada por Google como canónica",
+        "97 text URL inspeccionada",
+        "The focused UI element is 72 button (expanded) Indexación de páginas La página está indexada, Secondary Actions: Collapse"
+      ]
+    },
+    {
+      "url": "https://ramita.dev/ja/",
+      "at": "2026-10-20T03:30:30.700Z",
+      "evidence": [
+        "54 text https://ramita.dev/ja/",
+        "72 button (expanded) Indexación de páginas La página está indexada, Secondary Actions: Collapse",
+        "74 text La página está indexada",
+        "79 text https://ramita.dev/en/",
+        "81 text Rastreo",
+        "82 text Último rastreo",
+        "83 text 27 sept 2026, 7:44:13",
+        "86 text ¿Se permite el rastreo?",
+        "87 text Sí",
+        "89 text Correcto",
+        "91 text Sí",
+        "93 text Declarada por el usuario como canónica",
+        "94 text https://ramita.dev/ja/",
+        "95 text Seleccionada por Google como canónica",
+        "97 text URL inspeccionada",
+        "The focused UI element is 72 button (expanded) Indexación de páginas La página está indexada, Secondary Actions: Collapse"
+      ]
+    }
+  ],
+  "reports": {
+    "at": "2026-10-20T03:32:17.097Z",
+    "verifiedOwner": true,
+    "sitemap": {
+      "status": "Correcto",
+      "discovered": 5,
+      "resubmitted": false
+    },
+    "generativeSearch": "Incluir; unchanged",
+    "manualActions": "No se ha detectado ningún problema",
+    "securityIssues": "No se ha detectado ningún problema",
+    "performance": [
+      "109 text Se están procesando los datos; vuelve a comprobar esta sección mañana"
+    ]
+  },
+  "indexingRequests": 0
+}

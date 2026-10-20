@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-20T02:58:42.468Z",
+  "base": "http://127.0.0.1:4322",
+  "site": "https://ramita.dev",
+  "staticRoot": null,
+  "scope": "local/preview initial HTTP responses",
+  "limitations": [
+    "No JavaScript execution or visual QA.",
+    "Structural HTML/XML and JSON-LD checks are not a full HTML or Schema.org validator.",
+    "Indexability checks do not prove indexing or search performance."
+  ],
+  "checks": [],
+  "findings": [],
+  "unavailable": [
+    {
+      "name": "es: initial page request",
+      "reason": "TypeError: fetch failed",
+      "code": "ECONNREFUSED"
+    },
+    {
+      "name": "en: initial page request",
+      "reason": "TypeError: fetch failed",
+      "code": "ECONNREFUSED"
+    },
+    {
+      "name": "pt: initial page request",
+      "reason": "TypeError: fetch failed",
+      "code": "ECONNREFUSED"
+    },
+    {
+      "name": "fr: initial page request",
+      "reason": "TypeError: fetch failed",
+      "code": "ECONNREFUSED"
+    },
+    {
+      "name": "ja: initial page request",
+      "reason": "TypeError: fetch failed",
+      "code": "ECONNREFUSED"
+    },
+    {
+      "name": "robots request",
+      "reason": "TypeError: fetch failed",
+      "code": "ECONNREFUSED"
+    },
+    {
+      "name": "sitemap request",
+      "reason": "TypeError: fetch failed",
+      "code": "ECONNREFUSED"
+    },
+    {
+      "name": "404 request",
+      "reason": "TypeError: fetch failed",
+      "code": "ECONNREFUSED"
+    },
+    {
+      "name": "es: index.html duplicate probe",
+      "reason": "TypeError: fetch failed",
+      "code": "ECONNREFUSED"
+    },
+    {
+      "name": "en: index.html duplicate probe",
+      "reason": "TypeError: fetch failed",
+      "code": "ECONNREFUSED"
+    },
+    {
+      "name": "pt: index.html duplicate probe",
+      "reason": "TypeError: fetch failed",
+      "code": "ECONNREFUSED"
+    },
+    {
+      "name": "fr: index.html duplicate probe",
+      "reason": "TypeError: fetch failed",
+      "code": "ECONNREFUSED"
+    },
+    {
+      "name": "ja: index.html duplicate probe",
+      "reason": "TypeError: fetch failed",
+      "code": "ECONNREFUSED"
+    }
+  ],
+  "pages": [],
+  "assets": [],
+  "redirects": [],
+  "duplicates": [],
+  "skipped": [
+    {
+      "name": "Public HTTP/www/trailing-slash redirects",
+      "reason": "Local/preview server does not establish production host redirect behavior."
+    }
+  ],
+  "summary": {
+    "checks": 0,
+    "failures": 0,
+    "advisories": 0,
+    "unavailable": 13,
+    "pages": 0,
+    "assets": 0
+  }
+}

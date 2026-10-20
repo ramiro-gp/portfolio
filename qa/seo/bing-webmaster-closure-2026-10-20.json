@@ -1,0 +1,161 @@
+{
+  "observedAt": "2026-10-20T03:45:50.984Z",
+  "inspections": [
+    {
+      "url": "https://ramita.dev/",
+      "at": "2026-10-20T03:31:35.452Z",
+      "state": "Indexed but blocked by robots.txt",
+      "lastCrawl": "25 Sept 2026 at 09:05",
+      "canonicalUnavailable": true,
+      "newIndexingRequest": false
+    },
+    {
+      "url": "https://ramita.dev/en/",
+      "at": "2026-10-20T03:34:06.994Z",
+      "state": "Discovered but not crawled",
+      "discovered": "28 Sept 2026"
+    },
+    {
+      "url": "https://ramita.dev/pt/",
+      "at": "2026-10-20T03:34:40.221Z",
+      "state": "Discovered but not crawled",
+      "discovered": "28 Sept 2026"
+    },
+    {
+      "url": "https://ramita.dev/fr/",
+      "at": "2026-10-20T03:41:32.223Z",
+      "state": "Discovered but not crawled",
+      "discovered": "28 Sept 2026"
+    },
+    {
+      "url": "https://ramita.dev/ja/",
+      "at": "2026-10-20T03:42:23.392Z",
+      "state": "Discovered but not crawled",
+      "discovered": "28 Sept 2026"
+    }
+  ],
+  "reports": {
+    "at": "2026-10-20T03:43:50.685Z",
+    "property": "https://ramita.dev/",
+    "sitemap": {
+      "status": "Success",
+      "discovered": 5,
+      "errors": 0,
+      "warnings": 0,
+      "resubmitted": false
+    },
+    "homeLiveTest": {
+      "result": "Error encountered while inspecting Live URL",
+      "attemptsThisMission": 1
+    },
+    "indexing": {
+      "urls": [
+        "https://ramita.dev/en/",
+        "https://ramita.dev/pt/",
+        "https://ramita.dev/fr/",
+        "https://ramita.dev/ja/"
+      ],
+      "submittedOnceEach": true,
+      "quotaBefore": 99,
+      "quotaAfter": 95,
+      "submittedCountBefore": 1,
+      "submittedCountAfter": 5,
+      "historyList": "This might be a momentary issue, please try again or check back later; persisted after one refresh",
+      "noHomeResubmission": true
+    },
+    "administrator": {
+      "verified": true,
+      "method": "DNS",
+      "role": "Administrator"
+    },
+    "robots": {
+      "bot": "Bingbot",
+      "allowed": true,
+      "errors": 0,
+      "warnings": 0
+    },
+    "searchPerformance": [
+      "105 text Please check back in 48 hours while we prepare the data for your site"
+    ],
+    "aiPerformance": {
+      "observedAt": "2026-10-20T03:45:39.023Z",
+      "evidence": [
+        "666 text 0",
+        "668 text 0",
+        "670 text 0",
+        "672 text 0",
+        "674 text 0",
+        "676 text 0",
+        "678 text 0",
+        "680 text 0",
+        "682 text 0",
+        "684 text 0",
+        "686 text 0",
+        "688 text 0",
+        "690 text 0",
+        "692 text 0",
+        "694 text 0",
+        "696 text 0",
+        "698 text 0",
+        "700 text 0",
+        "702 text 0",
+        "704 text 0",
+        "706 text 0",
+        "708 text 0",
+        "710 text 0",
+        "712 text 0",
+        "714 text 0",
+        "716 text 0",
+        "718 text 0",
+        "720 text 0",
+        "722 text 0",
+        "724 text 0",
+        "726 text 0",
+        "728 text 0",
+        "730 text No data available",
+        "731 text No data available",
+        "157 text The data shown below represents a sample of overall activity. Results may be refined as additional data is processed"
+      ],
+      "limitation": "Displayed sample counts and empty rows are not proof of globally absent AI citations",
+      "summary": [
+        "119 checkbox Description: Total Citations, Value: 1",
+        "120 image",
+        "121 text Total Citations",
+        "122 button Total Citations info",
+        "161 text 0",
+        "123 checkbox Description: Avg. Cited Pages, Value: 1",
+        "124 image",
+        "125 text Avg. Cited Pages",
+        "126 button Avg. Cited Pages info",
+        "162 text 0",
+        "163 text Citations",
+        "164 text Cited Pages",
+        "165 container Line chart showing Citations,Cited Pages from July 19, 2026 to October 18, 2026. Citations:0,Cited Pages:0. Toggle checkboxes to show the selected options in chart",
+        "166 container Line chart showing Citations,Cited Pages from July 19, 2026 to October 18, 2026. Citations:0,Cited Pages:0. Toggle checkboxes to show the selected options in chart",
+        "167 table",
+        "168 row",
+        "169 cell",
+        "170 text Date",
+        "171 cell",
+        "172 text July 19, 2026"
+      ],
+      "range": [
+        "106 text Citation sources:  Microsoft Copilots and Partners",
+        "165 container Line chart showing Citations,Cited Pages from July 19, 2026 to October 18, 2026. Citations:0,Cited Pages:0. Toggle checkboxes to show the selected options in chart",
+        "166 container Line chart showing Citations,Cited Pages from July 19, 2026 to October 18, 2026. Citations:0,Cited Pages:0. Toggle checkboxes to show the selected options in chart",
+        "172 text July 19, 2026",
+        "174 text July 20, 2026",
+        "176 text July 21, 2026",
+        "178 text July 22, 2026",
+        "180 text July 23, 2026",
+        "182 text July 24, 2026",
+        "184 text July 25, 2026",
+        "186 text July 26, 2026",
+        "188 text July 27, 2026",
+        "190 text July 28, 2026",
+        "192 text July 29, 2026",
+        "194 text July 30, 2026"
+      ]
+    }
+  }
+}

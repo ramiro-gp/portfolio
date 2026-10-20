@@ -1,0 +1,13 @@
+{
+  "environment": "https://ramita.dev/ after deployment",
+  "tool": "Lighthouse 13.5.0; same installed CLI and Chrome headless as baseline",
+  "runsPerProfile": 1,
+  "mobile": { "performance": 100, "accessibility": 100, "bestPractices": 100, "seo": 100, "lcpMs": 1484.057, "cls": 0, "tbtMs": 34, "report": "lighthouse-mobile-production-closure-2026-10-20.json" },
+  "desktop": { "performance": 100, "accessibility": 100, "bestPractices": 100, "seo": 100, "lcpMs": 374.7865, "cls": 0, "tbtMs": 0, "report": "lighthouse-desktop-production-closure-2026-10-20.json" },
+  "runtimeErrors": [],
+  "runWarnings": [],
+  "cliExitCodeEach": 1,
+  "cliLimitation": "EPERM in chrome-launcher temporary profile cleanup after complete JSON reports were saved",
+  "fieldData": "No new CrUX/INP measurement; lab results do not demonstrate field Core Web Vitals",
+  "comparison": "Baseline production 99/100 Performance, LCP 1577/371 ms, CLS 0/0, TBT 17/0 ms; single-run variation is not causal improvement evidence"
+}

@@ -1,0 +1,7 @@
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.ramita\.dev$ [NC]
+RewriteRule ^ https://ramita.dev%{REQUEST_URI} [R=301,L,NE]
+</IfModule>

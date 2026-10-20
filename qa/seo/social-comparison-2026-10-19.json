@@ -1,0 +1,539 @@
+{
+  "observedAt": "2026-10-20T02:11:36.973264+00:00",
+  "reference": "release/ramita-h8-1deb12b0c7857fad5fcac360153d184c155abd38.sha256",
+  "method": "HTTPS GET with certificate validation; Pillow decodes images in memory and NumPy compares every RGBA channel. No image files downloaded to disk.",
+  "rows": [
+    {
+      "file": "apple-touch-icon.png",
+      "url": "https://ramita.dev/apple-touch-icon.png",
+      "local": {
+        "sha256": "b53d2ede009558b58d71caf13747bffde0165abc832d50c7172cb2653ca1602a",
+        "bytes": 2253,
+        "format": "PNG",
+        "mode": "RGB",
+        "dimensions": [
+          180,
+          180
+        ],
+        "metadataKeys": [],
+        "pngChunks": {
+          "IHDR": {
+            "count": 1,
+            "dataBytes": 13
+          },
+          "IDAT": {
+            "count": 1,
+            "dataBytes": 2196
+          },
+          "IEND": {
+            "count": 1,
+            "dataBytes": 0
+          }
+        },
+        "matchesReleaseManifest": true,
+        "exifOrientation": null
+      },
+      "remote": {
+        "sha256": "a8c72265e185c2504b665a7ca87ed1a56ccc074e16851089b1dcd62a602382ef",
+        "bytes": 2668,
+        "format": "PNG",
+        "mode": "RGB",
+        "dimensions": [
+          180,
+          180
+        ],
+        "metadataKeys": [
+          "dpi",
+          "exif"
+        ],
+        "pngChunks": {
+          "IHDR": {
+            "count": 1,
+            "dataBytes": 13
+          },
+          "eXIf": {
+            "count": 1,
+            "dataBytes": 180
+          },
+          "pHYs": {
+            "count": 1,
+            "dataBytes": 9
+          },
+          "IDAT": {
+            "count": 1,
+            "dataBytes": 2398
+          },
+          "IEND": {
+            "count": 1,
+            "dataBytes": 0
+          }
+        },
+        "status": 200,
+        "headers": {
+          "content-type": "image/png",
+          "cache-control": "public, max-age=604800",
+          "server": "hcdn"
+        },
+        "exifOrientation": 1
+      },
+      "comparison": {
+        "sameDimensions": true,
+        "sameBytes": false,
+        "sameDecodedRGBA": true,
+        "changedPixels": 0,
+        "totalPixels": 32400,
+        "changedPixelsPercent": 0.0,
+        "meanAbsoluteChannelDifference": 0.0,
+        "maxChannelDifference": 0,
+        "sameICCProfile": true,
+        "differenceBounds": null,
+        "samePixelsAfterExifOrientation": true
+      }
+    },
+    {
+      "file": "social/ramita-es.png",
+      "url": "https://ramita.dev/social/ramita-es.png",
+      "local": {
+        "sha256": "b9fd62627dc4115b648d877849786c4b0bbf20dc2c576edc26da8b123fe028f4",
+        "bytes": 75616,
+        "format": "PNG",
+        "mode": "RGB",
+        "dimensions": [
+          1200,
+          630
+        ],
+        "metadataKeys": [],
+        "pngChunks": {
+          "IHDR": {
+            "count": 1,
+            "dataBytes": 13
+          },
+          "IDAT": {
+            "count": 2,
+            "dataBytes": 75547
+          },
+          "IEND": {
+            "count": 1,
+            "dataBytes": 0
+          }
+        },
+        "matchesReleaseManifest": true,
+        "exifOrientation": null
+      },
+      "remote": {
+        "sha256": "e813b4cbcf43847e87414f07bb4e554c1ffba6f01c822efb5b37e94e17ddd41e",
+        "bytes": 75928,
+        "format": "PNG",
+        "mode": "RGB",
+        "dimensions": [
+          1200,
+          630
+        ],
+        "metadataKeys": [
+          "dpi",
+          "exif"
+        ],
+        "pngChunks": {
+          "IHDR": {
+            "count": 1,
+            "dataBytes": 13
+          },
+          "eXIf": {
+            "count": 1,
+            "dataBytes": 180
+          },
+          "pHYs": {
+            "count": 1,
+            "dataBytes": 9
+          },
+          "IDAT": {
+            "count": 10,
+            "dataBytes": 75550
+          },
+          "IEND": {
+            "count": 1,
+            "dataBytes": 0
+          }
+        },
+        "status": 200,
+        "headers": {
+          "content-type": "image/png",
+          "cache-control": "public, max-age=604800",
+          "server": "hcdn"
+        },
+        "exifOrientation": 1
+      },
+      "comparison": {
+        "sameDimensions": true,
+        "sameBytes": false,
+        "sameDecodedRGBA": true,
+        "changedPixels": 0,
+        "totalPixels": 756000,
+        "changedPixelsPercent": 0.0,
+        "meanAbsoluteChannelDifference": 0.0,
+        "maxChannelDifference": 0,
+        "sameICCProfile": true,
+        "differenceBounds": null,
+        "samePixelsAfterExifOrientation": true
+      }
+    },
+    {
+      "file": "social/ramita-en.png",
+      "url": "https://ramita.dev/social/ramita-en.png",
+      "local": {
+        "sha256": "148f5f5fca9451f48c55dbc9775711da00b2a5e9f311b2166aa6922cfb134ba9",
+        "bytes": 74788,
+        "format": "PNG",
+        "mode": "RGB",
+        "dimensions": [
+          1200,
+          630
+        ],
+        "metadataKeys": [],
+        "pngChunks": {
+          "IHDR": {
+            "count": 1,
+            "dataBytes": 13
+          },
+          "IDAT": {
+            "count": 2,
+            "dataBytes": 74719
+          },
+          "IEND": {
+            "count": 1,
+            "dataBytes": 0
+          }
+        },
+        "matchesReleaseManifest": true,
+        "exifOrientation": null
+      },
+      "remote": {
+        "sha256": "451716bb32523042ace351e7ea391eb9419fad7670f3c6247c2b62bbb1123b7d",
+        "bytes": 75190,
+        "format": "PNG",
+        "mode": "RGB",
+        "dimensions": [
+          1200,
+          630
+        ],
+        "metadataKeys": [
+          "dpi",
+          "exif"
+        ],
+        "pngChunks": {
+          "IHDR": {
+            "count": 1,
+            "dataBytes": 13
+          },
+          "eXIf": {
+            "count": 1,
+            "dataBytes": 180
+          },
+          "pHYs": {
+            "count": 1,
+            "dataBytes": 9
+          },
+          "IDAT": {
+            "count": 10,
+            "dataBytes": 74812
+          },
+          "IEND": {
+            "count": 1,
+            "dataBytes": 0
+          }
+        },
+        "status": 200,
+        "headers": {
+          "content-type": "image/png",
+          "cache-control": "public, max-age=604800",
+          "server": "hcdn"
+        },
+        "exifOrientation": 1
+      },
+      "comparison": {
+        "sameDimensions": true,
+        "sameBytes": false,
+        "sameDecodedRGBA": true,
+        "changedPixels": 0,
+        "totalPixels": 756000,
+        "changedPixelsPercent": 0.0,
+        "meanAbsoluteChannelDifference": 0.0,
+        "maxChannelDifference": 0,
+        "sameICCProfile": true,
+        "differenceBounds": null,
+        "samePixelsAfterExifOrientation": true
+      }
+    },
+    {
+      "file": "social/ramita-pt.png",
+      "url": "https://ramita.dev/social/ramita-pt.png",
+      "local": {
+        "sha256": "d56b094a2ef4dec8acdcdbd85bc887f52869652efb0c93d181975c18b3e0b852",
+        "bytes": 60098,
+        "format": "PNG",
+        "mode": "RGB",
+        "dimensions": [
+          1200,
+          630
+        ],
+        "metadataKeys": [],
+        "pngChunks": {
+          "IHDR": {
+            "count": 1,
+            "dataBytes": 13
+          },
+          "IDAT": {
+            "count": 1,
+            "dataBytes": 60041
+          },
+          "IEND": {
+            "count": 1,
+            "dataBytes": 0
+          }
+        },
+        "matchesReleaseManifest": true,
+        "exifOrientation": null
+      },
+      "remote": {
+        "sha256": "28863280ebfb9ff9a2572777cb1d3f8d94d8e96fc3bdffa00623fc7833d4a3a4",
+        "bytes": 60539,
+        "format": "PNG",
+        "mode": "RGB",
+        "dimensions": [
+          1200,
+          630
+        ],
+        "metadataKeys": [
+          "dpi",
+          "exif"
+        ],
+        "pngChunks": {
+          "IHDR": {
+            "count": 1,
+            "dataBytes": 13
+          },
+          "eXIf": {
+            "count": 1,
+            "dataBytes": 180
+          },
+          "pHYs": {
+            "count": 1,
+            "dataBytes": 9
+          },
+          "IDAT": {
+            "count": 8,
+            "dataBytes": 60185
+          },
+          "IEND": {
+            "count": 1,
+            "dataBytes": 0
+          }
+        },
+        "status": 200,
+        "headers": {
+          "content-type": "image/png",
+          "cache-control": "public, max-age=604800",
+          "server": "hcdn"
+        },
+        "exifOrientation": 1
+      },
+      "comparison": {
+        "sameDimensions": true,
+        "sameBytes": false,
+        "sameDecodedRGBA": true,
+        "changedPixels": 0,
+        "totalPixels": 756000,
+        "changedPixelsPercent": 0.0,
+        "meanAbsoluteChannelDifference": 0.0,
+        "maxChannelDifference": 0,
+        "sameICCProfile": true,
+        "differenceBounds": null,
+        "samePixelsAfterExifOrientation": true
+      }
+    },
+    {
+      "file": "social/ramita-fr.png",
+      "url": "https://ramita.dev/social/ramita-fr.png",
+      "local": {
+        "sha256": "b362538e76b8d852aaa9fd77094e5ac282390d303d2d73bb792367ead701e1ef",
+        "bytes": 66619,
+        "format": "PNG",
+        "mode": "RGB",
+        "dimensions": [
+          1200,
+          630
+        ],
+        "metadataKeys": [],
+        "pngChunks": {
+          "IHDR": {
+            "count": 1,
+            "dataBytes": 13
+          },
+          "IDAT": {
+            "count": 2,
+            "dataBytes": 66550
+          },
+          "IEND": {
+            "count": 1,
+            "dataBytes": 0
+          }
+        },
+        "matchesReleaseManifest": true,
+        "exifOrientation": null
+      },
+      "remote": {
+        "sha256": "53c06fb9fd9092abd11ba2d051d24873bb0549ed04e791ac43c867d2490298c4",
+        "bytes": 67401,
+        "format": "PNG",
+        "mode": "RGB",
+        "dimensions": [
+          1200,
+          630
+        ],
+        "metadataKeys": [
+          "dpi",
+          "exif"
+        ],
+        "pngChunks": {
+          "IHDR": {
+            "count": 1,
+            "dataBytes": 13
+          },
+          "eXIf": {
+            "count": 1,
+            "dataBytes": 180
+          },
+          "pHYs": {
+            "count": 1,
+            "dataBytes": 9
+          },
+          "IDAT": {
+            "count": 9,
+            "dataBytes": 67035
+          },
+          "IEND": {
+            "count": 1,
+            "dataBytes": 0
+          }
+        },
+        "status": 200,
+        "headers": {
+          "content-type": "image/png",
+          "cache-control": "public, max-age=604800",
+          "server": "hcdn"
+        },
+        "exifOrientation": 1
+      },
+      "comparison": {
+        "sameDimensions": true,
+        "sameBytes": false,
+        "sameDecodedRGBA": true,
+        "changedPixels": 0,
+        "totalPixels": 756000,
+        "changedPixelsPercent": 0.0,
+        "meanAbsoluteChannelDifference": 0.0,
+        "maxChannelDifference": 0,
+        "sameICCProfile": true,
+        "differenceBounds": null,
+        "samePixelsAfterExifOrientation": true
+      }
+    },
+    {
+      "file": "social/ramita-ja.png",
+      "url": "https://ramita.dev/social/ramita-ja.png",
+      "local": {
+        "sha256": "17fb1b94066a9a2b11563343bbb060a59a0beab71a15d857f390982227bc8e99",
+        "bytes": 68412,
+        "format": "PNG",
+        "mode": "RGB",
+        "dimensions": [
+          1200,
+          630
+        ],
+        "metadataKeys": [],
+        "pngChunks": {
+          "IHDR": {
+            "count": 1,
+            "dataBytes": 13
+          },
+          "IDAT": {
+            "count": 2,
+            "dataBytes": 68343
+          },
+          "IEND": {
+            "count": 1,
+            "dataBytes": 0
+          }
+        },
+        "matchesReleaseManifest": true,
+        "exifOrientation": null
+      },
+      "remote": {
+        "sha256": "c9adffd69f2f94023504093cf768e6c85b10f8ebeaddd0d4c7b9a76653afe460",
+        "bytes": 69333,
+        "format": "PNG",
+        "mode": "RGB",
+        "dimensions": [
+          1200,
+          630
+        ],
+        "metadataKeys": [
+          "dpi",
+          "exif"
+        ],
+        "pngChunks": {
+          "IHDR": {
+            "count": 1,
+            "dataBytes": 13
+          },
+          "eXIf": {
+            "count": 1,
+            "dataBytes": 180
+          },
+          "pHYs": {
+            "count": 1,
+            "dataBytes": 9
+          },
+          "IDAT": {
+            "count": 9,
+            "dataBytes": 68967
+          },
+          "IEND": {
+            "count": 1,
+            "dataBytes": 0
+          }
+        },
+        "status": 200,
+        "headers": {
+          "content-type": "image/png",
+          "cache-control": "public, max-age=604800",
+          "server": "hcdn"
+        },
+        "exifOrientation": 1
+      },
+      "comparison": {
+        "sameDimensions": true,
+        "sameBytes": false,
+        "sameDecodedRGBA": true,
+        "changedPixels": 0,
+        "totalPixels": 756000,
+        "changedPixelsPercent": 0.0,
+        "meanAbsoluteChannelDifference": 0.0,
+        "maxChannelDifference": 0,
+        "sameICCProfile": true,
+        "differenceBounds": null,
+        "samePixelsAfterExifOrientation": true
+      }
+    }
+  ],
+  "summary": {
+    "files": 6,
+    "localFilesMatchRelease": true,
+    "allDimensionsMatch": true,
+    "allDecodedPixelsMatch": true,
+    "byteMismatchCount": 6,
+    "allPixelsMatchAfterExifOrientation": true,
+    "reencodingOriginConfirmed": false
+  },
+  "interpretation": "All six PNGs have identical decoded pixels, including EXIF orientation, and matching ICC profiles. Remote files add eXIf/pHYs chunks and have different IDAT encoding/chunking. This confirms encoding/metadata differences without visual differences; where reencoding occurred is unverified."
+}

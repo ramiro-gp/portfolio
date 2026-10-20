@@ -1,0 +1,128 @@
+{
+  "observedAt": "2026-10-20T02:43:58.596Z",
+  "observationTimeZone": "America/Buenos_Aires",
+  "property": "https://ramita.dev/",
+  "verification": {
+    "state": "You are a verified administrator",
+    "method": "DNS",
+    "role": "Administrator",
+    "performedByAgent": false
+  },
+  "sitemap": {
+    "url": "https://ramita.dev/sitemap.xml",
+    "submittedByAgent": true,
+    "state": "Success",
+    "discoveredUrls": 5,
+    "errors": 0,
+    "warnings": 0,
+    "lastSubmitDisplayed": "10/20/2026",
+    "lastCrawlDisplayed": "10/20/2026",
+    "initialState": "Processing",
+    "dateNote": "Date strings copied from Bing UI; observation date is documented in Argentina timezone"
+  },
+  "urlInspections": [
+    {
+      "url": "https://ramita.dev/",
+      "indexStatus": "Indexed but blocked by robots.txt",
+      "discoveredDisplayed": "11 Sept 2026",
+      "lastCrawlDisplayed": "25 Sept 2026 at 09:05",
+      "crawlAllowed": false,
+      "fetch": "Failed",
+      "indexingAllowed": true,
+      "canonical": null,
+      "note": "Historical index snapshot dated 25 Sept; current Bing robots test Allowed, Live URL service failed twice, home recrawl requested",
+      "liveAttempts": [
+        {
+          "status": "Unavailable",
+          "message": "Error encountered while inspecting Live URL"
+        },
+        {
+          "status": "Unavailable",
+          "message": "Error encountered while inspecting Live URL (one retry)"
+        }
+      ],
+      "indexingRequest": {
+        "state": "Indexing requested.",
+        "submittedByAgent": true,
+        "explicitUserAuthorization": true,
+        "quotaBeforeDisplayed": 100
+      },
+      "currentRobotsTest": {
+        "state": "Allowed",
+        "bot": "Bingbot",
+        "errors": 0,
+        "warnings": 0,
+        "source": "Bing robots.txt Tester"
+      }
+    },
+    {
+      "url": "https://ramita.dev/en/",
+      "indexStatus": "Discovered but not crawled",
+      "canAppear": false,
+      "discoveredDisplayed": "28 Sept 2026",
+      "lastCrawlDisplayed": null,
+      "canonical": null,
+      "indexingRequest": null
+    },
+    {
+      "url": "https://ramita.dev/pt/",
+      "indexStatus": "Discovered but not crawled",
+      "canAppear": false,
+      "discoveredDisplayed": "28 Sept 2026",
+      "lastCrawlDisplayed": null,
+      "canonical": null,
+      "indexingRequest": null
+    },
+    {
+      "url": "https://ramita.dev/fr/",
+      "indexStatus": "Discovered but not crawled",
+      "canAppear": false,
+      "discoveredDisplayed": "28 Sept 2026",
+      "lastCrawlDisplayed": null,
+      "canonical": null,
+      "indexingRequest": null
+    },
+    {
+      "url": "https://ramita.dev/ja/",
+      "indexStatus": "Discovered but not crawled",
+      "canAppear": false,
+      "discoveredDisplayed": "28 Sept 2026",
+      "lastCrawlDisplayed": null,
+      "canonical": null,
+      "indexingRequest": null
+    }
+  ],
+  "reports": {
+    "aiPerformance": {
+      "available": true,
+      "beta": true,
+      "rangeStart": "2026-07-19",
+      "rangeEnd": "2026-10-18",
+      "totalCitationsDisplayed": 0,
+      "avgCitedPagesDisplayed": 0,
+      "groundingQueriesRows": 0,
+      "state": "No data available",
+      "limitations": "New property reports are still processing; zeros in this report are not proof of no citations across AI services",
+      "citationSources": "Microsoft Copilots and Partners"
+    },
+    "searchPerformance": {
+      "state": "Please check back in 48 hours while we prepare the data for your site",
+      "metricsAvailable": false
+    }
+  },
+  "indexingRequestsSubmitted": [
+    {
+      "url": "https://ramita.dev/",
+      "state": "Indexing requested.",
+      "explicitUserAuthorization": true,
+      "quotaBeforeDisplayed": 100
+    }
+  ],
+  "dnsRecordsChangedByAgent": false,
+  "limitations": [
+    "Sitemap success and discovered URLs do not establish indexation.",
+    "Historical blocked index status not treated as a current robots block; current official tester Allowed.",
+    "Live URL inspection failed twice with a generic service error; no positive live fetch claimed.",
+    "New account report processing limits interpretation of displayed AI zeros."
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "observedAt": "2026-10-20T02:06:36.850Z",
+  "releaseSha": "1deb12b0c7857fad5fcac360153d184c155abd38",
+  "manifest": "release/ramita-h8-1deb12b0c7857fad5fcac360153d184c155abd38.sha256",
+  "rows": [
+    {
+      "file": "_astro/BaseLayout.astro_astro_type_script_index_0_lang.DRdnKF8_.js",
+      "url": "https://ramita.dev/_astro/BaseLayout.astro_astro_type_script_index_0_lang.DRdnKF8_.js",
+      "status": 200,
+      "expected": "a6655344d2ada0034475213628147e0cb2e980a55d30ee42799e8c3e1aafb813",
+      "actual": "a6655344d2ada0034475213628147e0cb2e980a55d30ee42799e8c3e1aafb813",
+      "match": true
+    },
+    {
+      "file": "_astro/global.Cn_olnwE.css",
+      "url": "https://ramita.dev/_astro/global.Cn_olnwE.css",
+      "status": 200,
+      "expected": "45048d889ebdff14ab44be69ac5f7262b58702d04cac9c5272c3bf73e7b31f0d",
+      "actual": "45048d889ebdff14ab44be69ac5f7262b58702d04cac9c5272c3bf73e7b31f0d",
+      "match": true
+    },
+    {
+      "file": "404.html",
+      "url": "https://ramita.dev/404.html",
+      "status": 200,
+      "expected": "89b032ceb27927bd4e1e96e78bef81787e9cf153e2fc78a5e919c5f62c3c9ce0",
+      "actual": "89b032ceb27927bd4e1e96e78bef81787e9cf153e2fc78a5e919c5f62c3c9ce0",
+      "match": true
+    },
+    {
+      "file": "apple-touch-icon.png",
+      "url": "https://ramita.dev/apple-touch-icon.png",
+      "status": 200,
+      "expected": "b53d2ede009558b58d71caf13747bffde0165abc832d50c7172cb2653ca1602a",
+      "actual": "a8c72265e185c2504b665a7ca87ed1a56ccc074e16851089b1dcd62a602382ef",
+      "match": false
+    },
+    {
+      "file": "en/index.html",
+      "url": "https://ramita.dev/en/",
+      "status": 200,
+      "expected": "6c408d818e919ce7d4b22e158f8f22f1993a1af272e1489843c4e37505d07cff",
+      "actual": "6c408d818e919ce7d4b22e158f8f22f1993a1af272e1489843c4e37505d07cff",
+      "match": true
+    },
+    {
+      "file": "favicon.ico",
+      "url": "https://ramita.dev/favicon.ico",
+      "status": 200,
+      "expected": "1eb7c4c4f4c620fcb39ce3b47ccba7b13b80e1ea7ab195de6426b8d16e16bb96",
+      "actual": "1eb7c4c4f4c620fcb39ce3b47ccba7b13b80e1ea7ab195de6426b8d16e16bb96",
+      "match": true
+    },
+    {
+      "file": "favicon.svg",
+      "url": "https://ramita.dev/favicon.svg",
+      "status": 200,
+      "expected": "b25c37aea5e01140a87d527a366a68611bf5b96b04a55b554641f72594df9359",
+      "actual": "b25c37aea5e01140a87d527a366a68611bf5b96b04a55b554641f72594df9359",
+      "match": true
+    },
+    {
+      "file": "fonts/InstrumentSans.woff2",
+      "url": "https://ramita.dev/fonts/InstrumentSans.woff2",
+      "status": 200,
+      "expected": "22458a6296d82f136f3d0eb5d5a6c5a11ef4fd2ca3a5fd55d0836ab4dfea6eb1",
+      "actual": "22458a6296d82f136f3d0eb5d5a6c5a11ef4fd2ca3a5fd55d0836ab4dfea6eb1",
+      "match": true
+    },
+    {
+      "file": "fonts/NotoSansJP-ja.woff2",
+      "url": "https://ramita.dev/fonts/NotoSansJP-ja.woff2",
+      "status": 200,
+      "expected": "17e0d0204efe74a3fbcbc5723c55f3e9e98a6cbef08f1a89ca1035d838ae6c42",
+      "actual": "17e0d0204efe74a3fbcbc5723c55f3e9e98a6cbef08f1a89ca1035d838ae6c42",
+      "match": true
+    },
+    {
+      "file": "fonts/OFL-Noto-Sans-JP.txt",
+      "url": "https://ramita.dev/fonts/OFL-Noto-Sans-JP.txt",
+      "status": 200,
+      "expected": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "actual": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "match": true
+    },
+    {
+      "file": "fr/index.html",
+      "url": "https://ramita.dev/fr/",
+      "status": 200,
+      "expected": "f5184d0bd24342924507ed0bc7de9c4d5290acc11ba9d5dda34a49c14d2c541a",
+      "actual": "f5184d0bd24342924507ed0bc7de9c4d5290acc11ba9d5dda34a49c14d2c541a",
+      "match": true
+    },
+    {
+      "file": "images/lingohive-desktop.webp",
+      "url": "https://ramita.dev/images/lingohive-desktop.webp",
+      "status": 200,
+      "expected": "7874b7cdb56acca5d5c6e534386a430c138920ffdf75f7f9d006d8221ded50eb",
+      "actual": "7874b7cdb56acca5d5c6e534386a430c138920ffdf75f7f9d006d8221ded50eb",
+      "match": true
+    },
+    {
+      "file": "images/lingohive-mobile.webp",
+      "url": "https://ramita.dev/images/lingohive-mobile.webp",
+      "status": 200,
+      "expected": "1c1aa8ff4fc6dfce1d310c4789434c9977382b1983d39a1fee62e668bbf788d8",
+      "actual": "1c1aa8ff4fc6dfce1d310c4789434c9977382b1983d39a1fee62e668bbf788d8",
+      "match": true
+    },
+    {
+      "file": "images/residencias-desktop.webp",
+      "url": "https://ramita.dev/images/residencias-desktop.webp",
+      "status": 200,
+      "expected": "fbd7cc05c466b696cc1fae9c6160e077753ddbe9408c4f63ee1e313a873b7e6a",
+      "actual": "fbd7cc05c466b696cc1fae9c6160e077753ddbe9408c4f63ee1e313a873b7e6a",
+      "match": true
+    },
+    {
+      "file": "images/residencias-mobile.webp",
+      "url": "https://ramita.dev/images/residencias-mobile.webp",
+      "status": 200,
+      "expected": "31a98817b31fed31dd7f3c4547642b35f5a4417962aa192ab5f8c379018084a4",
+      "actual": "31a98817b31fed31dd7f3c4547642b35f5a4417962aa192ab5f8c379018084a4",
+      "match": true
+    },
+    {
+      "file": "index.html",
+      "url": "https://ramita.dev/",
+      "status": 200,
+      "expected": "126e608a3e0b7b65cb93484ea9d09f7af0d58a8bfcab6ec7580530675e26125e",
+      "actual": "126e608a3e0b7b65cb93484ea9d09f7af0d58a8bfcab6ec7580530675e26125e",
+      "match": true
+    },
+    {
+      "file": "ja/index.html",
+      "url": "https://ramita.dev/ja/",
+      "status": 200,
+      "expected": "a140cdfad589861d827a0311074f60c2f29ba1c56ddcc87261a13e6a685d6baa",
+      "actual": "a140cdfad589861d827a0311074f60c2f29ba1c56ddcc87261a13e6a685d6baa",
+      "match": true
+    },
+    {
+      "file": "pt/index.html",
+      "url": "https://ramita.dev/pt/",
+      "status": 200,
+      "expected": "2581cdb3fca80f4a9f174d5db8690fb4e99ba2977a351b12282f23e25f23509e",
+      "actual": "2581cdb3fca80f4a9f174d5db8690fb4e99ba2977a351b12282f23e25f23509e",
+      "match": true
+    },
+    {
+      "file": "robots.txt",
+      "url": "https://ramita.dev/robots.txt",
+      "status": 200,
+      "expected": "63f7267e6a7d579a3b60acb7e01eb4991a81ec39ac16907efe53d91a8ebc46da",
+      "actual": "63f7267e6a7d579a3b60acb7e01eb4991a81ec39ac16907efe53d91a8ebc46da",
+      "match": true
+    },
+    {
+      "file": "sitemap.xml",
+      "url": "https://ramita.dev/sitemap.xml",
+      "status": 200,
+      "expected": "6cd9706873206db3e3b41e47908ab9b8dc70a1db7f5129869ad22d50faab0e6f",
+      "actual": "6cd9706873206db3e3b41e47908ab9b8dc70a1db7f5129869ad22d50faab0e6f",
+      "match": true
+    },
+    {
+      "file": "social/ramita-en.png",
+      "url": "https://ramita.dev/social/ramita-en.png",
+      "status": 200,
+      "expected": "148f5f5fca9451f48c55dbc9775711da00b2a5e9f311b2166aa6922cfb134ba9",
+      "actual": "451716bb32523042ace351e7ea391eb9419fad7670f3c6247c2b62bbb1123b7d",
+      "match": false
+    },
+    {
+      "file": "social/ramita-es.png",
+      "url": "https://ramita.dev/social/ramita-es.png",
+      "status": 200,
+      "expected": "b9fd62627dc4115b648d877849786c4b0bbf20dc2c576edc26da8b123fe028f4",
+      "actual": "e813b4cbcf43847e87414f07bb4e554c1ffba6f01c822efb5b37e94e17ddd41e",
+      "match": false
+    },
+    {
+      "file": "social/ramita-fr.png",
+      "url": "https://ramita.dev/social/ramita-fr.png",
+      "status": 200,
+      "expected": "b362538e76b8d852aaa9fd77094e5ac282390d303d2d73bb792367ead701e1ef",
+      "actual": "53c06fb9fd9092abd11ba2d051d24873bb0549ed04e791ac43c867d2490298c4",
+      "match": false
+    },
+    {
+      "file": "social/ramita-ja.png",
+      "url": "https://ramita.dev/social/ramita-ja.png",
+      "status": 200,
+      "expected": "17fb1b94066a9a2b11563343bbb060a59a0beab71a15d857f390982227bc8e99",
+      "actual": "c9adffd69f2f94023504093cf768e6c85b10f8ebeaddd0d4c7b9a76653afe460",
+      "match": false
+    },
+    {
+      "file": "social/ramita-pt.png",
+      "url": "https://ramita.dev/social/ramita-pt.png",
+      "status": 200,
+      "expected": "d56b094a2ef4dec8acdcdbd85bc887f52869652efb0c93d181975c18b3e0b852",
+      "actual": "28863280ebfb9ff9a2572777cb1d3f8d94d8e96fc3bdffa00623fc7833d4a3a4",
+      "match": false
+    }
+  ],
+  "matched": 19,
+  "total": 25
+}
