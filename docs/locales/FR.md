@@ -64,7 +64,7 @@ Cette paire de captures et ses textes ont été approuvés et intégrés en V2-H
 
 ## Métadonnées textuelles prévues
 
-- Titre : ramita | Design et développement web
-- Description : Conception et développement de nouveaux sites web et refontes. Un travail direct avec Ramiro Garcia, de la définition à la mise en ligne.
+- Titre (SEO 2026-10-25) : Création de sites web freelance en Argentine | ramita.dev
+- Description : Sites institutionnels et landing pages pour entreprises et professionnels. Travaillez directement avec Ramiro Garcia, de la définition à la mise en ligne.
 - Titre de partage : Ramiro Garcia — Conception et développement de sites web
 - Description de partage : Sites institutionnels, landing pages et refontes, avec un interlocuteur direct.

@@ -64,7 +64,7 @@ This image pair and its image-specific captions/alternatives were approved and i
 
 ## Planned textual metadata
 
-- Title: ramita | Web design & development
-- Description: Website design and development for new sites and redesigns. Work directly with Ramiro Garcia, from definition through publication.
+- Title (SEO update 2026-10-25): Freelance web design in Argentina | ramita.dev
+- Description: Design and development of business websites and landing pages. Work directly with Ramiro Garcia, from planning through launch.
 - Social preview title: Ramiro Garcia — Website design and development
 - Social preview description: Institutional websites, landing pages and redesigns, with a direct point of contact.

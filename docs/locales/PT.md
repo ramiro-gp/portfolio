@@ -64,7 +64,7 @@ O par de imagens e seus textos foram aprovados e integrados em V2-H6.B. O títul
 
 ## Metadados textuais previstos
 
-- Título: ramita | Design e desenvolvimento web
-- Descrição: Design e desenvolvimento de sites novos e redesigns. Trabalho direto com Ramiro Garcia, da definição à publicação.
+- Título (SEO 2026-10-25): Design de sites freelance na Argentina | ramita.dev
+- Descrição: Design e desenvolvimento de sites institucionais e landing pages para negócios e profissionais. Trabalho direto com Ramiro Garcia, da definição à publicação.
 - Título de compartilhamento: Ramiro Garcia — Design e desenvolvimento de sites
 - Descrição de compartilhamento: Sites institucionais, landing pages e redesigns, com contato direto.

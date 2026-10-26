@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-10-26T00:17:30.266Z",
+  "baseline": "public-payloads-2026-10-20",
+  "pages": [
+    {
+      "file": "index.html",
+      "previousSha256": "e8c33583d49482a12079d463c774df442f68618be4c9497df9a878538afbb3f9",
+      "sha256": "99574a12c3e842b9f2c4bdd8dcc90eea5df6b022f84b104581b02d191ce37d58",
+      "bytes": 20155,
+      "onlyTitleAndDescriptionChanged": true
+    },
+    {
+      "file": "en/index.html",
+      "previousSha256": "e6250a72d258166f46ba5601bb9aad18e93ce08a070417908de64f30709c5777",
+      "sha256": "55a9a4cdfe36b535aaac2e30755df83212dff697c1d543b784255df037377d5c",
+      "bytes": 20109,
+      "onlyTitleAndDescriptionChanged": true
+    },
+    {
+      "file": "pt/index.html",
+      "previousSha256": "4cdf4db8ee83231e6f514e186a4cd3cca4c2430d1ec2990b0070a6c57c6216c8",
+      "sha256": "0552ab1cee0d209fa5536fd5a045fd3166339a1fdacc2f6ca3b63c73d085b017",
+      "bytes": 20464,
+      "onlyTitleAndDescriptionChanged": true
+    },
+    {
+      "file": "fr/index.html",
+      "previousSha256": "19955aa6935e9eff1f0b0946f98739f05451ee6e3ba8b13dc251d660107c0932",
+      "sha256": "ba498b331eb948d536bb89fef687ed14c45834c9d016b17bfd82686e0446097b",
+      "bytes": 21049,
+      "onlyTitleAndDescriptionChanged": true
+    },
+    {
+      "file": "ja/index.html",
+      "previousSha256": "685511d3c2e26c2861c2a8ecaa8544902bc811ff96ce9054d03a2e027149dad8",
+      "sha256": "0492743a5a5d6329de67ed5049fffaa543663dd0be6698c99e50f78031191186",
+      "bytes": 22097,
+      "onlyTitleAndDescriptionChanged": true
+    }
+  ]
+}

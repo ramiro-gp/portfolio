@@ -56,6 +56,8 @@ Target inicial confirmado:
 No priorizar un sector por el solo hecho de tener un proyecto de ese rubro.
 
 Mercado natural: Argentina / Latinoamérica. Se aceptan proyectos remotos internacionales.
+
+Prioridad de captación SEO confirmada por Ramiro el 2026-10-25: **sitios institucionales y landing pages por igual**, con Argentina/Latinoamérica como mercado inicial. Esta prioridad comercial orienta la investigación de búsquedas y oportunidades; OFFER.md conserva la oferta y CONTENT.md el copy público aprobado.
 El sitio contempla ES / EN / PT / FR / JA, con español como fuente; no hacer claims sobre fluidez oral. Fuera de ES se aclara discretamente que Ramiro habla español y usa herramientas de IA/traducción junto con el contexto del proyecto para comunicarse y trabajar con precisión.
 
 ## Core customer problem

@@ -81,7 +81,7 @@ Fuente ES interna, sólo para el final de Ramiro/About cuando el idioma activo s
 
 Ramiro aprobó estos textos de metadata previstos por su consistencia con el copy ES y las versiones localizadas el 2026-09-21. La integración técnica y QA de metadata corresponden a H6/H7.
 
-- Title: Ramiro Garcia — Diseño y desarrollo de sitios web | ramita.dev
-- Description: Diseño y desarrollo de sitios web nuevos y rediseños. Trabajo directo con Ramiro Garcia desde la definición hasta la publicación.
+- Title (actualización SEO autorizada el 2026-10-25, posterior a H5): Diseño web freelance en Argentina | ramita.dev
+- Description: Diseño y desarrollo de sitios institucionales y landing pages para negocios y profesionales. Trabajo directo con Ramiro Garcia, desde la definición hasta la publicación.
 - Social title: Ramiro Garcia — Diseño y desarrollo de sitios web
 - Social description: Sitios institucionales, landing pages y rediseños, con trato directo.

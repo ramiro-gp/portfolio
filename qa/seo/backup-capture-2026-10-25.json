@@ -1,0 +1,37 @@
+{
+  "savedAt": "2026-10-26T00:20:14.703Z",
+  "method": "HTTPS canonical responses before selective publication",
+  "privateLocalDirectory": "release/seo-backup-20261025",
+  "pages": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "bytes": 20102,
+      "sha256": "e8c33583d49482a12079d463c774df442f68618be4c9497df9a878538afbb3f9"
+    },
+    {
+      "file": "en/index.html",
+      "status": 200,
+      "bytes": 20104,
+      "sha256": "e6250a72d258166f46ba5601bb9aad18e93ce08a070417908de64f30709c5777"
+    },
+    {
+      "file": "pt/index.html",
+      "status": 200,
+      "bytes": 20406,
+      "sha256": "4cdf4db8ee83231e6f514e186a4cd3cca4c2430d1ec2990b0070a6c57c6216c8"
+    },
+    {
+      "file": "fr/index.html",
+      "status": 200,
+      "bytes": 21012,
+      "sha256": "19955aa6935e9eff1f0b0946f98739f05451ee6e3ba8b13dc251d660107c0932"
+    },
+    {
+      "file": "ja/index.html",
+      "status": 200,
+      "bytes": 22015,
+      "sha256": "685511d3c2e26c2861c2a8ecaa8544902bc811ff96ce9054d03a2e027149dad8"
+    }
+  ]
+}
