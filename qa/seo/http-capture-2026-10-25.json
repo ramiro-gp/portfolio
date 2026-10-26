@@ -1,0 +1,257 @@
+{
+  "checkedAt": "2026-10-26T01:01:27.776Z",
+  "sourceCommit": "8fe9c1cbbf5c783c72a1ad33487ce026e5429e4c",
+  "files": [
+    {
+      "file": "404.html",
+      "url": "https://ramita.dev/404.html",
+      "status": 200,
+      "bytes": 3857,
+      "sha256": "89b032ceb27927bd4e1e96e78bef81787e9cf153e2fc78a5e919c5f62c3c9ce0",
+      "expectedSha256": "89b032ceb27927bd4e1e96e78bef81787e9cf153e2fc78a5e919c5f62c3c9ce0",
+      "changedInThisPublication": false,
+      "match": true
+    },
+    {
+      "file": "apple-touch-icon.png",
+      "url": "https://ramita.dev/apple-touch-icon.png",
+      "status": 200,
+      "bytes": 2668,
+      "sha256": "a8c72265e185c2504b665a7ca87ed1a56ccc074e16851089b1dcd62a602382ef",
+      "expectedSha256": "a8c72265e185c2504b665a7ca87ed1a56ccc074e16851089b1dcd62a602382ef",
+      "changedInThisPublication": false,
+      "match": true
+    },
+    {
+      "file": "favicon.ico",
+      "url": "https://ramita.dev/favicon.ico",
+      "status": 200,
+      "bytes": 2355,
+      "sha256": "1eb7c4c4f4c620fcb39ce3b47ccba7b13b80e1ea7ab195de6426b8d16e16bb96",
+      "expectedSha256": "1eb7c4c4f4c620fcb39ce3b47ccba7b13b80e1ea7ab195de6426b8d16e16bb96",
+      "changedInThisPublication": false,
+      "match": true
+    },
+    {
+      "file": "favicon.svg",
+      "url": "https://ramita.dev/favicon.svg",
+      "status": 200,
+      "bytes": 970,
+      "sha256": "b25c37aea5e01140a87d527a366a68611bf5b96b04a55b554641f72594df9359",
+      "expectedSha256": "b25c37aea5e01140a87d527a366a68611bf5b96b04a55b554641f72594df9359",
+      "changedInThisPublication": false,
+      "match": true
+    },
+    {
+      "file": "index.html",
+      "url": "https://ramita.dev/",
+      "status": 200,
+      "bytes": 20155,
+      "sha256": "99574a12c3e842b9f2c4bdd8dcc90eea5df6b022f84b104581b02d191ce37d58",
+      "expectedSha256": "99574a12c3e842b9f2c4bdd8dcc90eea5df6b022f84b104581b02d191ce37d58",
+      "changedInThisPublication": true,
+      "match": true
+    },
+    {
+      "file": "robots.txt",
+      "url": "https://ramita.dev/robots.txt",
+      "status": 200,
+      "bytes": 63,
+      "sha256": "63f7267e6a7d579a3b60acb7e01eb4991a81ec39ac16907efe53d91a8ebc46da",
+      "expectedSha256": "63f7267e6a7d579a3b60acb7e01eb4991a81ec39ac16907efe53d91a8ebc46da",
+      "changedInThisPublication": false,
+      "match": true
+    },
+    {
+      "file": "sitemap.xml",
+      "url": "https://ramita.dev/sitemap.xml",
+      "status": 200,
+      "bytes": 326,
+      "sha256": "6cd9706873206db3e3b41e47908ab9b8dc70a1db7f5129869ad22d50faab0e6f",
+      "expectedSha256": "6cd9706873206db3e3b41e47908ab9b8dc70a1db7f5129869ad22d50faab0e6f",
+      "changedInThisPublication": false,
+      "match": true
+    },
+    {
+      "file": "en/index.html",
+      "url": "https://ramita.dev/en/",
+      "status": 200,
+      "bytes": 20109,
+      "sha256": "55a9a4cdfe36b535aaac2e30755df83212dff697c1d543b784255df037377d5c",
+      "expectedSha256": "55a9a4cdfe36b535aaac2e30755df83212dff697c1d543b784255df037377d5c",
+      "changedInThisPublication": true,
+      "match": true
+    },
+    {
+      "file": "fonts/InstrumentSans.woff2",
+      "url": "https://ramita.dev/fonts/InstrumentSans.woff2",
+      "status": 200,
+      "bytes": 88676,
+      "sha256": "22458a6296d82f136f3d0eb5d5a6c5a11ef4fd2ca3a5fd55d0836ab4dfea6eb1",
+      "expectedSha256": "22458a6296d82f136f3d0eb5d5a6c5a11ef4fd2ca3a5fd55d0836ab4dfea6eb1",
+      "changedInThisPublication": false,
+      "match": true
+    },
+    {
+      "file": "fonts/NotoSansJP-ja.woff2",
+      "url": "https://ramita.dev/fonts/NotoSansJP-ja.woff2",
+      "status": 200,
+      "bytes": 90260,
+      "sha256": "17e0d0204efe74a3fbcbc5723c55f3e9e98a6cbef08f1a89ca1035d838ae6c42",
+      "expectedSha256": "17e0d0204efe74a3fbcbc5723c55f3e9e98a6cbef08f1a89ca1035d838ae6c42",
+      "changedInThisPublication": false,
+      "match": true
+    },
+    {
+      "file": "fonts/OFL-Noto-Sans-JP.txt",
+      "url": "https://ramita.dev/fonts/OFL-Noto-Sans-JP.txt",
+      "status": 200,
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "expectedSha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "changedInThisPublication": false,
+      "match": true
+    },
+    {
+      "file": "fr/index.html",
+      "url": "https://ramita.dev/fr/",
+      "status": 200,
+      "bytes": 21049,
+      "sha256": "ba498b331eb948d536bb89fef687ed14c45834c9d016b17bfd82686e0446097b",
+      "expectedSha256": "ba498b331eb948d536bb89fef687ed14c45834c9d016b17bfd82686e0446097b",
+      "changedInThisPublication": true,
+      "match": true
+    },
+    {
+      "file": "images/lingohive-desktop.webp",
+      "url": "https://ramita.dev/images/lingohive-desktop.webp",
+      "status": 200,
+      "bytes": 54662,
+      "sha256": "7874b7cdb56acca5d5c6e534386a430c138920ffdf75f7f9d006d8221ded50eb",
+      "expectedSha256": "7874b7cdb56acca5d5c6e534386a430c138920ffdf75f7f9d006d8221ded50eb",
+      "changedInThisPublication": false,
+      "match": true
+    },
+    {
+      "file": "images/lingohive-mobile.webp",
+      "url": "https://ramita.dev/images/lingohive-mobile.webp",
+      "status": 200,
+      "bytes": 25176,
+      "sha256": "1c1aa8ff4fc6dfce1d310c4789434c9977382b1983d39a1fee62e668bbf788d8",
+      "expectedSha256": "1c1aa8ff4fc6dfce1d310c4789434c9977382b1983d39a1fee62e668bbf788d8",
+      "changedInThisPublication": false,
+      "match": true
+    },
+    {
+      "file": "images/residencias-desktop.webp",
+      "url": "https://ramita.dev/images/residencias-desktop.webp",
+      "status": 200,
+      "bytes": 110488,
+      "sha256": "fbd7cc05c466b696cc1fae9c6160e077753ddbe9408c4f63ee1e313a873b7e6a",
+      "expectedSha256": "fbd7cc05c466b696cc1fae9c6160e077753ddbe9408c4f63ee1e313a873b7e6a",
+      "changedInThisPublication": false,
+      "match": true
+    },
+    {
+      "file": "images/residencias-mobile.webp",
+      "url": "https://ramita.dev/images/residencias-mobile.webp",
+      "status": 200,
+      "bytes": 40126,
+      "sha256": "31a98817b31fed31dd7f3c4547642b35f5a4417962aa192ab5f8c379018084a4",
+      "expectedSha256": "31a98817b31fed31dd7f3c4547642b35f5a4417962aa192ab5f8c379018084a4",
+      "changedInThisPublication": false,
+      "match": true
+    },
+    {
+      "file": "ja/index.html",
+      "url": "https://ramita.dev/ja/",
+      "status": 200,
+      "bytes": 22097,
+      "sha256": "0492743a5a5d6329de67ed5049fffaa543663dd0be6698c99e50f78031191186",
+      "expectedSha256": "0492743a5a5d6329de67ed5049fffaa543663dd0be6698c99e50f78031191186",
+      "changedInThisPublication": true,
+      "match": true
+    },
+    {
+      "file": "pt/index.html",
+      "url": "https://ramita.dev/pt/",
+      "status": 200,
+      "bytes": 20464,
+      "sha256": "0552ab1cee0d209fa5536fd5a045fd3166339a1fdacc2f6ca3b63c73d085b017",
+      "expectedSha256": "0552ab1cee0d209fa5536fd5a045fd3166339a1fdacc2f6ca3b63c73d085b017",
+      "changedInThisPublication": true,
+      "match": true
+    },
+    {
+      "file": "social/ramita-en.png",
+      "url": "https://ramita.dev/social/ramita-en.png",
+      "status": 200,
+      "bytes": 75190,
+      "sha256": "451716bb32523042ace351e7ea391eb9419fad7670f3c6247c2b62bbb1123b7d",
+      "expectedSha256": "451716bb32523042ace351e7ea391eb9419fad7670f3c6247c2b62bbb1123b7d",
+      "changedInThisPublication": false,
+      "match": true
+    },
+    {
+      "file": "social/ramita-es.png",
+      "url": "https://ramita.dev/social/ramita-es.png",
+      "status": 200,
+      "bytes": 75928,
+      "sha256": "e813b4cbcf43847e87414f07bb4e554c1ffba6f01c822efb5b37e94e17ddd41e",
+      "expectedSha256": "e813b4cbcf43847e87414f07bb4e554c1ffba6f01c822efb5b37e94e17ddd41e",
+      "changedInThisPublication": false,
+      "match": true
+    },
+    {
+      "file": "social/ramita-fr.png",
+      "url": "https://ramita.dev/social/ramita-fr.png",
+      "status": 200,
+      "bytes": 67401,
+      "sha256": "53c06fb9fd9092abd11ba2d051d24873bb0549ed04e791ac43c867d2490298c4",
+      "expectedSha256": "53c06fb9fd9092abd11ba2d051d24873bb0549ed04e791ac43c867d2490298c4",
+      "changedInThisPublication": false,
+      "match": true
+    },
+    {
+      "file": "social/ramita-ja.png",
+      "url": "https://ramita.dev/social/ramita-ja.png",
+      "status": 200,
+      "bytes": 69333,
+      "sha256": "c9adffd69f2f94023504093cf768e6c85b10f8ebeaddd0d4c7b9a76653afe460",
+      "expectedSha256": "c9adffd69f2f94023504093cf768e6c85b10f8ebeaddd0d4c7b9a76653afe460",
+      "changedInThisPublication": false,
+      "match": true
+    },
+    {
+      "file": "social/ramita-pt.png",
+      "url": "https://ramita.dev/social/ramita-pt.png",
+      "status": 200,
+      "bytes": 60539,
+      "sha256": "28863280ebfb9ff9a2572777cb1d3f8d94d8e96fc3bdffa00623fc7833d4a3a4",
+      "expectedSha256": "28863280ebfb9ff9a2572777cb1d3f8d94d8e96fc3bdffa00623fc7833d4a3a4",
+      "changedInThisPublication": false,
+      "match": true
+    },
+    {
+      "file": "_astro/BaseLayout.astro_astro_type_script_index_0_lang.DRdnKF8_.js",
+      "url": "https://ramita.dev/_astro/BaseLayout.astro_astro_type_script_index_0_lang.DRdnKF8_.js",
+      "status": 200,
+      "bytes": 19397,
+      "sha256": "a6655344d2ada0034475213628147e0cb2e980a55d30ee42799e8c3e1aafb813",
+      "expectedSha256": "a6655344d2ada0034475213628147e0cb2e980a55d30ee42799e8c3e1aafb813",
+      "changedInThisPublication": false,
+      "match": true
+    },
+    {
+      "file": "_astro/global.Cn_olnwE.css",
+      "url": "https://ramita.dev/_astro/global.Cn_olnwE.css",
+      "status": 200,
+      "bytes": 27927,
+      "sha256": "45048d889ebdff14ab44be69ac5f7262b58702d04cac9c5272c3bf73e7b31f0d",
+      "expectedSha256": "45048d889ebdff14ab44be69ac5f7262b58702d04cac9c5272c3bf73e7b31f0d",
+      "changedInThisPublication": false,
+      "match": true
+    }
+  ],
+  "failures": []
+}

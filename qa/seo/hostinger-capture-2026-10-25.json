@@ -1,0 +1,41 @@
+{
+  "sourceCommit": "8fe9c1cbbf5c783c72a1ad33487ce026e5429e4c",
+  "domain": "ramita.dev",
+  "account": "u571172642",
+  "root": "public_html",
+  "backup": "ramita-seo-backup-20261025/public_html",
+  "backupOutsidePublicRoot": true,
+  "method": "Selective HTML editing in hPanel; exact clipboard comparison with generated HTML before saving",
+  "files": [
+    {
+      "file": "index.html",
+      "editorMatchesBuild": true,
+      "saveRequestedAt": "2026-10-26T00:58:15.016Z"
+    },
+    {
+      "file": "en/index.html",
+      "editorMatchesBuild": true,
+      "saveRequestedAt": "2026-10-26T00:58:50.704Z"
+    },
+    {
+      "file": "fr/index.html",
+      "editorMatchesBuild": true,
+      "saveRequestedAt": "2026-10-26T00:59:49.697Z"
+    },
+    {
+      "file": "ja/index.html",
+      "editorMatchesBuild": true,
+      "saveRequestedAt": "2026-10-26T00:59:52.731Z"
+    },
+    {
+      "file": "pt/index.html",
+      "editorMatchesBuild": true,
+      "saveRequestedAt": "2026-10-26T00:59:55.503Z"
+    }
+  ],
+  "cachePurgeRequested": true,
+  "cachePurgeRequestAccepted": true,
+  "verification": "All five public HTML match the generated build; twenty other public files match previous release; htaccess unchanged at 192 bytes",
+  "httpEvidence": "http-capture-2026-10-25.json",
+  "scope": "Only metaTitle and metaDescription in five locales; no visible copy, layout, animation, assets, routes, DNS or privacy changes"
+}

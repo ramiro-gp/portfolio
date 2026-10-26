@@ -1,5 +1,9 @@
 # DECISIONS.md
 
+## 2026-10-25 — Metadata comercial publicada selectivamente
+
+Ramiro autoriza pasar a producción lo preparado y completa el acceso a la cuenta de Hostinger del sitio. Se publica el build probado de `8fe9c1c`, sólo cinco HTML, tras copia completa de `public_html` a un hermano privado y comparación de los archivos anteriores con el respaldo. Editor y respuestas públicas coinciden con el build nuevo; los otros veinte archivos públicos son idénticos al release anterior. `.htaccess`, DNS y todos los elementos visibles se conservan. Caché purgada mediante el conector y contenido nuevo confirmado; 472 comprobaciones HTTP sin fallos y seis pruebas de navegador aprobadas. Registro y rollback específico en SEO.md. No se declara un nuevo resultado de Lighthouse ni se solicita indexación adicional. **V2-H8 sigue IN PROGRESS / NOT DONE.**
+
 ## 2026-10-25 — Ejecución acotada de mejoras de captación SEO
 
 Después de revisar la propuesta, Ramiro pide «Haz todo lo que puedas entonces para mejorar el SEO y posicionamiento». Esta instrucción autoriza implementar y validar la mejora acotada de títulos/descripciones de las cinco versiones, con institucionales y landing pages al mismo nivel y el mercado inicial confirmado. CONTENT.md y las transcripciones registran los textos nuevos; no se atribuye una revisión humana adicional de las traducciones. Se conservan contenido visible, encabezados, arquitectura, diseño, animaciones, dependencias, privacidad y DNS. Ramiro aporta su LinkedIn existente y autoriza iniciar sesión en sus perfiles GitHub/LinkedIn y en hPanel para completar la presencia profesional y publicar selectivamente con respaldo. No se crean perfiles duplicados, cuentas nuevas, gastos ni esquemas de enlaces. La ejecución y validación efectivas se registran en SEO.md; la autorización no equivale a una publicación ya verificada. V2-H8 permanece IN PROGRESS / NOT DONE.

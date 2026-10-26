@@ -1,0 +1,782 @@
+{
+  "startedAt": "2026-10-26T01:00:42.764Z",
+  "base": "https://ramita.dev",
+  "expectsSeoPatch": true,
+  "scope": "semantics",
+  "environment": "production",
+  "browsers": [
+    {
+      "name": "Chrome",
+      "version": "155.0.8059.86"
+    },
+    {
+      "name": "Edge",
+      "version": "156.0.4314.42"
+    }
+  ],
+  "cases": [
+    {
+      "id": "Chrome/es/390/js/motion",
+      "status": "PASS",
+      "state": {
+        "title": "Diseño web freelance en Argentina | ramita.dev",
+        "lang": "es",
+        "canonical": "https://ramita.dev/",
+        "description": "Diseño y desarrollo de sitios institucionales y landing pages para negocios y profesionales. Trabajo directo con Ramiro Garcia, desde la definición hasta la publicación.",
+        "h1Count": 1,
+        "stableH1": "Diseño y desarrollo de sitios web para presentar tu proyecto",
+        "heroCopy": "Soy Ramiro Garcia. Trabajo con vos desde la definición hasta la publicación de tu web.",
+        "sections": [
+          "inicio",
+          "servicios",
+          "proyectos",
+          "ramiro",
+          "contacto"
+        ],
+        "servicePanels": 3,
+        "projects": 2,
+        "alternatives": [
+          {
+            "lang": "es",
+            "url": "https://ramita.dev/"
+          },
+          {
+            "lang": "en",
+            "url": "https://ramita.dev/en/"
+          },
+          {
+            "lang": "pt",
+            "url": "https://ramita.dev/pt/"
+          },
+          {
+            "lang": "fr",
+            "url": "https://ramita.dev/fr/"
+          },
+          {
+            "lang": "ja",
+            "url": "https://ramita.dev/ja/"
+          },
+          {
+            "lang": "x-default",
+            "url": "https://ramita.dev/"
+          }
+        ],
+        "languageLinks": [
+          "/",
+          "/en/",
+          "/pt/",
+          "/fr/",
+          "/ja/"
+        ],
+        "contact": [
+          "mailto:ramirogperucho@gmail.com",
+          "https://wa.me/5491151354489"
+        ],
+        "headings": [
+          {
+            "tag": "H2",
+            "text": "Servicios"
+          },
+          {
+            "tag": "H3",
+            "text": "Sitios institucionales"
+          },
+          {
+            "tag": "H3",
+            "text": "Landing pages"
+          },
+          {
+            "tag": "H3",
+            "text": "Rediseños"
+          },
+          {
+            "tag": "H2",
+            "text": "Proyectos"
+          },
+          {
+            "tag": "H3",
+            "text": "Residencias Grupo Casa"
+          },
+          {
+            "tag": "H3",
+            "text": "LingoHive"
+          },
+          {
+            "tag": "H2",
+            "text": "Ramiro Garcia"
+          },
+          {
+            "tag": "H3",
+            "text": "Cómo trabajo"
+          },
+          {
+            "tag": "H2",
+            "text": "Contame qué web necesitás."
+          }
+        ],
+        "imagesMissingAlt": [],
+        "internalFragmentsMissing": [],
+        "overflow": 0,
+        "fonts": "loaded",
+        "linePulse": "line-node-pulse",
+        "lineDashOffset": "9426.33",
+        "currentWord": "servicio",
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Ramiro Garcia",
+            "url": "https://ramita.dev/",
+            "sameAs": [
+              "https://github.com/ramiro-gp"
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "ramita.dev",
+            "url": "https://ramita.dev/"
+          }
+        ],
+        "staticHtmlContent": true,
+        "scrollCueAccessibility": "- 'link \"SCROLL: Servicios\"':\n  - /url: \"#servicios\"\n  - text: SCROLL"
+      },
+      "errors": []
+    },
+    {
+      "id": "Chrome/en/390/js/motion",
+      "status": "PASS",
+      "state": {
+        "title": "Freelance web design in Argentina | ramita.dev",
+        "lang": "en",
+        "canonical": "https://ramita.dev/en/",
+        "description": "Design and development of business websites and landing pages. Work directly with Ramiro Garcia, from planning through launch.",
+        "h1Count": 1,
+        "stableH1": "Website design and development for your project",
+        "heroCopy": "I’m Ramiro Garcia. I work with you from defining your website through to its launch.",
+        "sections": [
+          "inicio",
+          "servicios",
+          "proyectos",
+          "ramiro",
+          "contacto"
+        ],
+        "servicePanels": 3,
+        "projects": 2,
+        "alternatives": [
+          {
+            "lang": "es",
+            "url": "https://ramita.dev/"
+          },
+          {
+            "lang": "en",
+            "url": "https://ramita.dev/en/"
+          },
+          {
+            "lang": "pt",
+            "url": "https://ramita.dev/pt/"
+          },
+          {
+            "lang": "fr",
+            "url": "https://ramita.dev/fr/"
+          },
+          {
+            "lang": "ja",
+            "url": "https://ramita.dev/ja/"
+          },
+          {
+            "lang": "x-default",
+            "url": "https://ramita.dev/"
+          }
+        ],
+        "languageLinks": [
+          "/",
+          "/en/",
+          "/pt/",
+          "/fr/",
+          "/ja/"
+        ],
+        "contact": [
+          "mailto:ramirogperucho@gmail.com",
+          "https://wa.me/5491151354489"
+        ],
+        "headings": [
+          {
+            "tag": "H2",
+            "text": "Services"
+          },
+          {
+            "tag": "H3",
+            "text": "Institutional websites"
+          },
+          {
+            "tag": "H3",
+            "text": "Landing pages"
+          },
+          {
+            "tag": "H3",
+            "text": "Redesigns"
+          },
+          {
+            "tag": "H2",
+            "text": "Projects"
+          },
+          {
+            "tag": "H3",
+            "text": "Residencias Grupo Casa"
+          },
+          {
+            "tag": "H3",
+            "text": "LingoHive"
+          },
+          {
+            "tag": "H2",
+            "text": "Ramiro Garcia"
+          },
+          {
+            "tag": "H3",
+            "text": "How I work"
+          },
+          {
+            "tag": "H2",
+            "text": "Tell me what kind of website you need."
+          }
+        ],
+        "imagesMissingAlt": [],
+        "internalFragmentsMissing": [],
+        "overflow": 0,
+        "fonts": "loaded",
+        "linePulse": "line-node-pulse",
+        "lineDashOffset": "9522.29",
+        "currentWord": "service",
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Ramiro Garcia",
+            "url": "https://ramita.dev/",
+            "sameAs": [
+              "https://github.com/ramiro-gp"
+            ]
+          }
+        ],
+        "staticHtmlContent": true,
+        "scrollCueAccessibility": "- 'link \"SCROLL: Services\"':\n  - /url: \"#servicios\"\n  - text: SCROLL"
+      },
+      "errors": []
+    },
+    {
+      "id": "Chrome/pt/390/js/motion",
+      "status": "PASS",
+      "state": {
+        "title": "Design de sites freelance na Argentina | ramita.dev",
+        "lang": "pt",
+        "canonical": "https://ramita.dev/pt/",
+        "description": "Design e desenvolvimento de sites institucionais e landing pages para negócios e profissionais. Trabalho direto com Ramiro Garcia, da definição à publicação.",
+        "h1Count": 1,
+        "stableH1": "Design e desenvolvimento de sites para apresentar seu projeto",
+        "heroCopy": "Sou Ramiro Garcia. Trabalho com você desde a definição até a publicação do seu site.",
+        "sections": [
+          "inicio",
+          "servicios",
+          "proyectos",
+          "ramiro",
+          "contacto"
+        ],
+        "servicePanels": 3,
+        "projects": 2,
+        "alternatives": [
+          {
+            "lang": "es",
+            "url": "https://ramita.dev/"
+          },
+          {
+            "lang": "en",
+            "url": "https://ramita.dev/en/"
+          },
+          {
+            "lang": "pt",
+            "url": "https://ramita.dev/pt/"
+          },
+          {
+            "lang": "fr",
+            "url": "https://ramita.dev/fr/"
+          },
+          {
+            "lang": "ja",
+            "url": "https://ramita.dev/ja/"
+          },
+          {
+            "lang": "x-default",
+            "url": "https://ramita.dev/"
+          }
+        ],
+        "languageLinks": [
+          "/",
+          "/en/",
+          "/pt/",
+          "/fr/",
+          "/ja/"
+        ],
+        "contact": [
+          "mailto:ramirogperucho@gmail.com",
+          "https://wa.me/5491151354489"
+        ],
+        "headings": [
+          {
+            "tag": "H2",
+            "text": "Serviços"
+          },
+          {
+            "tag": "H3",
+            "text": "Sites institucionais"
+          },
+          {
+            "tag": "H3",
+            "text": "Landing pages"
+          },
+          {
+            "tag": "H3",
+            "text": "Redesigns"
+          },
+          {
+            "tag": "H2",
+            "text": "Projetos"
+          },
+          {
+            "tag": "H3",
+            "text": "Residencias Grupo Casa"
+          },
+          {
+            "tag": "H3",
+            "text": "LingoHive"
+          },
+          {
+            "tag": "H2",
+            "text": "Ramiro Garcia"
+          },
+          {
+            "tag": "H3",
+            "text": "Como trabalho"
+          },
+          {
+            "tag": "H2",
+            "text": "Conte-me de que site você precisa."
+          }
+        ],
+        "imagesMissingAlt": [],
+        "internalFragmentsMissing": [],
+        "overflow": 0,
+        "fonts": "loaded",
+        "linePulse": "line-node-pulse",
+        "lineDashOffset": "9719.24",
+        "currentWord": "seu serviço",
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Ramiro Garcia",
+            "url": "https://ramita.dev/",
+            "sameAs": [
+              "https://github.com/ramiro-gp"
+            ]
+          }
+        ],
+        "staticHtmlContent": true,
+        "scrollCueAccessibility": "- 'link \"SCROLL: Serviços\"':\n  - /url: \"#servicios\"\n  - text: SCROLL"
+      },
+      "errors": []
+    },
+    {
+      "id": "Chrome/fr/390/js/motion",
+      "status": "PASS",
+      "state": {
+        "title": "Création de sites web freelance en Argentine | ramita.dev",
+        "lang": "fr",
+        "canonical": "https://ramita.dev/fr/",
+        "description": "Sites institutionnels et landing pages pour entreprises et professionnels. Travaillez directement avec Ramiro Garcia, de la définition à la mise en ligne.",
+        "h1Count": 1,
+        "stableH1": "Conception et développement de sites web pour présenter votre projet",
+        "heroCopy": "Je suis Ramiro Garcia. Je travaille avec vous de la définition de votre site jusqu’à sa mise en ligne.",
+        "sections": [
+          "inicio",
+          "servicios",
+          "proyectos",
+          "ramiro",
+          "contacto"
+        ],
+        "servicePanels": 3,
+        "projects": 2,
+        "alternatives": [
+          {
+            "lang": "es",
+            "url": "https://ramita.dev/"
+          },
+          {
+            "lang": "en",
+            "url": "https://ramita.dev/en/"
+          },
+          {
+            "lang": "pt",
+            "url": "https://ramita.dev/pt/"
+          },
+          {
+            "lang": "fr",
+            "url": "https://ramita.dev/fr/"
+          },
+          {
+            "lang": "ja",
+            "url": "https://ramita.dev/ja/"
+          },
+          {
+            "lang": "x-default",
+            "url": "https://ramita.dev/"
+          }
+        ],
+        "languageLinks": [
+          "/",
+          "/en/",
+          "/pt/",
+          "/fr/",
+          "/ja/"
+        ],
+        "contact": [
+          "mailto:ramirogperucho@gmail.com",
+          "https://wa.me/5491151354489"
+        ],
+        "headings": [
+          {
+            "tag": "H2",
+            "text": "Services"
+          },
+          {
+            "tag": "H3",
+            "text": "Sites institutionnels"
+          },
+          {
+            "tag": "H3",
+            "text": "Landing pages"
+          },
+          {
+            "tag": "H3",
+            "text": "Refontes"
+          },
+          {
+            "tag": "H2",
+            "text": "Projets"
+          },
+          {
+            "tag": "H3",
+            "text": "Residencias Grupo Casa"
+          },
+          {
+            "tag": "H3",
+            "text": "LingoHive"
+          },
+          {
+            "tag": "H2",
+            "text": "Ramiro Garcia"
+          },
+          {
+            "tag": "H3",
+            "text": "Ma façon de travailler"
+          },
+          {
+            "tag": "H2",
+            "text": "Parlez-moi du site dont vous avez besoin."
+          }
+        ],
+        "imagesMissingAlt": [],
+        "internalFragmentsMissing": [],
+        "overflow": 0,
+        "fonts": "loaded",
+        "linePulse": "line-node-pulse",
+        "lineDashOffset": "9798.02",
+        "currentWord": "service",
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Ramiro Garcia",
+            "url": "https://ramita.dev/",
+            "sameAs": [
+              "https://github.com/ramiro-gp"
+            ]
+          }
+        ],
+        "staticHtmlContent": true,
+        "scrollCueAccessibility": "- 'link \"SCROLL: Services\"':\n  - /url: \"#servicios\"\n  - text: SCROLL"
+      },
+      "errors": []
+    },
+    {
+      "id": "Chrome/ja/390/js/motion",
+      "status": "PASS",
+      "state": {
+        "title": "アルゼンチンのフリーランスWeb制作 | ramita.dev",
+        "lang": "ja",
+        "canonical": "https://ramita.dev/ja/",
+        "description": "企業・団体サイトとランディングページのデザイン・開発。事業者や専門家のために、Ramiro Garcia が構想の整理から公開まで直接対応します。",
+        "h1Count": 1,
+        "stableH1": "プロジェクトを紹介するウェブサイトのデザイン・開発",
+        "heroCopy": "Ramiro Garcia です。ウェブサイトの構想を定めるところから公開まで、一緒に取り組みます。",
+        "sections": [
+          "inicio",
+          "servicios",
+          "proyectos",
+          "ramiro",
+          "contacto"
+        ],
+        "servicePanels": 3,
+        "projects": 2,
+        "alternatives": [
+          {
+            "lang": "es",
+            "url": "https://ramita.dev/"
+          },
+          {
+            "lang": "en",
+            "url": "https://ramita.dev/en/"
+          },
+          {
+            "lang": "pt",
+            "url": "https://ramita.dev/pt/"
+          },
+          {
+            "lang": "fr",
+            "url": "https://ramita.dev/fr/"
+          },
+          {
+            "lang": "ja",
+            "url": "https://ramita.dev/ja/"
+          },
+          {
+            "lang": "x-default",
+            "url": "https://ramita.dev/"
+          }
+        ],
+        "languageLinks": [
+          "/",
+          "/en/",
+          "/pt/",
+          "/fr/",
+          "/ja/"
+        ],
+        "contact": [
+          "mailto:ramirogperucho@gmail.com",
+          "https://wa.me/5491151354489"
+        ],
+        "headings": [
+          {
+            "tag": "H2",
+            "text": "サービス"
+          },
+          {
+            "tag": "H3",
+            "text": "企業・団体サイト"
+          },
+          {
+            "tag": "H3",
+            "text": "ランディングページ"
+          },
+          {
+            "tag": "H3",
+            "text": "リニューアル"
+          },
+          {
+            "tag": "H2",
+            "text": "制作実績"
+          },
+          {
+            "tag": "H3",
+            "text": "Residencias Grupo Casa"
+          },
+          {
+            "tag": "H3",
+            "text": "LingoHive"
+          },
+          {
+            "tag": "H2",
+            "text": "Ramiro Garcia"
+          },
+          {
+            "tag": "H3",
+            "text": "仕事の進め方"
+          },
+          {
+            "tag": "H2",
+            "text": "必要なウェブサイトについて教えてください。"
+          }
+        ],
+        "imagesMissingAlt": [],
+        "internalFragmentsMissing": [],
+        "overflow": 0,
+        "fonts": "loaded",
+        "linePulse": "line-node-pulse",
+        "lineDashOffset": "9416.62",
+        "currentWord": "サービス",
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Ramiro Garcia",
+            "url": "https://ramita.dev/",
+            "sameAs": [
+              "https://github.com/ramiro-gp"
+            ]
+          }
+        ],
+        "staticHtmlContent": true,
+        "scrollCueAccessibility": "- 'link \"SCROLL: サービス\"':\n  - /url: \"#servicios\"\n  - text: SCROLL"
+      },
+      "errors": []
+    },
+    {
+      "id": "Chrome/es/1440/js/motion",
+      "status": "PASS",
+      "state": {
+        "title": "Diseño web freelance en Argentina | ramita.dev",
+        "lang": "es",
+        "canonical": "https://ramita.dev/",
+        "description": "Diseño y desarrollo de sitios institucionales y landing pages para negocios y profesionales. Trabajo directo con Ramiro Garcia, desde la definición hasta la publicación.",
+        "h1Count": 1,
+        "stableH1": "Diseño y desarrollo de sitios web para presentar tu proyecto",
+        "heroCopy": "Soy Ramiro Garcia. Trabajo con vos desde la definición hasta la publicación de tu web.",
+        "sections": [
+          "inicio",
+          "servicios",
+          "proyectos",
+          "ramiro",
+          "contacto"
+        ],
+        "servicePanels": 3,
+        "projects": 2,
+        "alternatives": [
+          {
+            "lang": "es",
+            "url": "https://ramita.dev/"
+          },
+          {
+            "lang": "en",
+            "url": "https://ramita.dev/en/"
+          },
+          {
+            "lang": "pt",
+            "url": "https://ramita.dev/pt/"
+          },
+          {
+            "lang": "fr",
+            "url": "https://ramita.dev/fr/"
+          },
+          {
+            "lang": "ja",
+            "url": "https://ramita.dev/ja/"
+          },
+          {
+            "lang": "x-default",
+            "url": "https://ramita.dev/"
+          }
+        ],
+        "languageLinks": [
+          "/",
+          "/en/",
+          "/pt/",
+          "/fr/",
+          "/ja/"
+        ],
+        "contact": [
+          "mailto:ramirogperucho@gmail.com",
+          "https://wa.me/5491151354489"
+        ],
+        "headings": [
+          {
+            "tag": "H2",
+            "text": "Servicios"
+          },
+          {
+            "tag": "H3",
+            "text": "Sitios institucionales"
+          },
+          {
+            "tag": "H3",
+            "text": "Landing pages"
+          },
+          {
+            "tag": "H3",
+            "text": "Rediseños"
+          },
+          {
+            "tag": "H2",
+            "text": "Proyectos"
+          },
+          {
+            "tag": "H3",
+            "text": "Residencias Grupo Casa"
+          },
+          {
+            "tag": "H3",
+            "text": "LingoHive"
+          },
+          {
+            "tag": "H2",
+            "text": "Ramiro Garcia"
+          },
+          {
+            "tag": "H3",
+            "text": "Cómo trabajo"
+          },
+          {
+            "tag": "H2",
+            "text": "Contame qué web necesitás."
+          }
+        ],
+        "imagesMissingAlt": [],
+        "internalFragmentsMissing": [],
+        "overflow": 0,
+        "fonts": "loaded",
+        "linePulse": "line-node-pulse",
+        "lineDashOffset": "11422",
+        "currentWord": "servicio",
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Ramiro Garcia",
+            "url": "https://ramita.dev/",
+            "sameAs": [
+              "https://github.com/ramiro-gp"
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "ramita.dev",
+            "url": "https://ramita.dev/"
+          }
+        ],
+        "staticHtmlContent": true,
+        "scrollCueAccessibility": "- 'link \"SCROLL: Servicios\"':\n  - /url: \"#servicios\"\n  - text: SCROLL"
+      },
+      "errors": []
+    }
+  ],
+  "animation": {
+    "first": "servicio",
+    "next": "proyecto",
+    "stableH1": "Diseño y desarrollo de sitios web para presentar tu proyecto",
+    "persistence": true,
+    "languageNavigation": "es -> /en/"
+  },
+  "failures": [],
+  "screenshots": [
+    "qa/seo/screenshots-capture-production-2026-10-25/es-390-inicio.png",
+    "qa/seo/screenshots-capture-production-2026-10-25/es-390-servicios.png",
+    "qa/seo/screenshots-capture-production-2026-10-25/es-390-proyectos.png",
+    "qa/seo/screenshots-capture-production-2026-10-25/es-390-contacto.png",
+    "qa/seo/screenshots-capture-production-2026-10-25/es-1440-inicio.png",
+    "qa/seo/screenshots-capture-production-2026-10-25/es-1440-servicios.png",
+    "qa/seo/screenshots-capture-production-2026-10-25/es-1440-proyectos.png",
+    "qa/seo/screenshots-capture-production-2026-10-25/es-1440-contacto.png"
+  ],
+  "completedAt": "2026-10-26T01:01:27.481Z"
+}
