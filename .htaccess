@@ -1,6 +1,5 @@
-# Merge these H8 directives into the existing public_html/.htaccess.
-# Keep all existing Hostinger HTTPS and other site rules. Put the rewrite
-# before any catch-all rules; do not upload this file as a public asset.
+# Production rules copied to dist/.htaccess by the static release workflow.
+# Hostinger manages HTTPS; preserve these www and custom 404 directives.
 ErrorDocument 404 /404.html
 
 <IfModule mod_rewrite.c>
