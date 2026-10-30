@@ -1,0 +1,222 @@
+{
+  "cases": [
+    {
+      "lang": "es",
+      "width": 320,
+      "height": 756.328125,
+      "desktop": false,
+      "overflow": false
+    },
+    {
+      "lang": "es",
+      "width": 390,
+      "height": 784,
+      "desktop": false,
+      "overflow": false
+    },
+    {
+      "lang": "es",
+      "width": 768,
+      "height": 952,
+      "desktop": false,
+      "overflow": false
+    },
+    {
+      "lang": "es",
+      "width": 1024,
+      "height": 696,
+      "desktop": true,
+      "overflow": false
+    },
+    {
+      "lang": "es",
+      "width": 1440,
+      "height": 828,
+      "desktop": true,
+      "overflow": false
+    },
+    {
+      "lang": "es",
+      "width": 1920,
+      "height": 1008,
+      "desktop": true,
+      "overflow": false
+    },
+    {
+      "lang": "en",
+      "width": 320,
+      "height": 790.09375,
+      "desktop": false,
+      "overflow": false
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "height": 784,
+      "desktop": false,
+      "overflow": false
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "height": 952,
+      "desktop": false,
+      "overflow": false
+    },
+    {
+      "lang": "en",
+      "width": 1024,
+      "height": 696,
+      "desktop": true,
+      "overflow": false
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "height": 828,
+      "desktop": true,
+      "overflow": false
+    },
+    {
+      "lang": "en",
+      "width": 1920,
+      "height": 1008,
+      "desktop": true,
+      "overflow": false
+    },
+    {
+      "lang": "pt",
+      "width": 320,
+      "height": 790.09375,
+      "desktop": false,
+      "overflow": false
+    },
+    {
+      "lang": "pt",
+      "width": 390,
+      "height": 784,
+      "desktop": false,
+      "overflow": false
+    },
+    {
+      "lang": "pt",
+      "width": 768,
+      "height": 952,
+      "desktop": false,
+      "overflow": false
+    },
+    {
+      "lang": "pt",
+      "width": 1024,
+      "height": 696,
+      "desktop": true,
+      "overflow": false
+    },
+    {
+      "lang": "pt",
+      "width": 1440,
+      "height": 828,
+      "desktop": true,
+      "overflow": false
+    },
+    {
+      "lang": "pt",
+      "width": 1920,
+      "height": 1008,
+      "desktop": true,
+      "overflow": false
+    },
+    {
+      "lang": "fr",
+      "width": 320,
+      "height": 790.09375,
+      "desktop": false,
+      "overflow": false
+    },
+    {
+      "lang": "fr",
+      "width": 390,
+      "height": 784,
+      "desktop": false,
+      "overflow": false
+    },
+    {
+      "lang": "fr",
+      "width": 768,
+      "height": 952,
+      "desktop": false,
+      "overflow": false
+    },
+    {
+      "lang": "fr",
+      "width": 1024,
+      "height": 696,
+      "desktop": true,
+      "overflow": false
+    },
+    {
+      "lang": "fr",
+      "width": 1440,
+      "height": 828,
+      "desktop": true,
+      "overflow": false
+    },
+    {
+      "lang": "fr",
+      "width": 1920,
+      "height": 1008,
+      "desktop": true,
+      "overflow": false
+    },
+    {
+      "lang": "ja",
+      "width": 320,
+      "height": 756.171875,
+      "desktop": false,
+      "overflow": false
+    },
+    {
+      "lang": "ja",
+      "width": 390,
+      "height": 784,
+      "desktop": false,
+      "overflow": false
+    },
+    {
+      "lang": "ja",
+      "width": 768,
+      "height": 952,
+      "desktop": false,
+      "overflow": false
+    },
+    {
+      "lang": "ja",
+      "width": 1024,
+      "height": 696,
+      "desktop": true,
+      "overflow": false
+    },
+    {
+      "lang": "ja",
+      "width": 1440,
+      "height": 828,
+      "desktop": true,
+      "overflow": false
+    },
+    {
+      "lang": "ja",
+      "width": 1920,
+      "height": 1008,
+      "desktop": true,
+      "overflow": false
+    }
+  ],
+  "interactions": [
+    "hover, keyboard focus/Enter, card click selects, panel link opens expected target, credit visible, dark theme, resize",
+    "mobile touch selector with reduced motion",
+    "no-JS horizontal cards, links and keyboard focus on desktop/mobile"
+  ],
+  "errors": [],
+  "browser": "151.0.7922.34",
+  "status": "PASS"
+}

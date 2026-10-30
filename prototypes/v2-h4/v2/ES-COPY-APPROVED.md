@@ -13,7 +13,7 @@ Ramiro aprobó el copy fuente español el 2026-09-21 y ajustó el pasaje de capa
 
 ## Hero · APPROVED
 
-- Estructura de headline: **Diseño y desarrollo de sitios web para presentar tu [palabra variable]**. Secuencia fija: servicio → proyecto → marca → producto → portfolio → campaña. Estado estático y fallback: **Diseño y desarrollo de sitios web para presentar tu proyecto**.
+- Estructura de headline (actualización explícita del 2026-10-30, sustituye el texto H4): **Diseño y desarrollo de webs para tu [palabra variable]**. Secuencia fija: servicio → proyecto → marca → producto → portfolio → campaña. Estado estático y fallback: **Diseño y desarrollo de webs para tu proyecto**.
 - Clarifier: Soy Ramiro Garcia. Trabajo con vos desde la definición hasta la publicación de tu web.
 - CTA: **Hablemos de tu proyecto**.
 

@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "lang": "es",
+      "width": 1440,
+      "height": 828,
+      "desktop": true,
+      "overflow": false
+    },
+    {
+      "lang": "es",
+      "width": 390,
+      "height": 784,
+      "desktop": false,
+      "overflow": false
+    }
+  ],
+  "interactions": [],
+  "errors": [],
+  "browser": "151.0.7922.34",
+  "status": "PASS"
+}

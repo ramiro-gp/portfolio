@@ -1,0 +1,250 @@
+{
+  "date": "2026-10-30",
+  "status": "PASS",
+  "layouts": [
+    {
+      "height": 789.4375,
+      "locale": "es",
+      "overflow": false,
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "locale": "es",
+      "active": "project-residencias",
+      "caption": "grid",
+      "cards": [
+        {
+          "fit": "contain",
+          "loaded": true,
+          "portrait": true,
+          "src": "/images/residencias-mobile.webp"
+        },
+        {
+          "fit": "contain",
+          "loaded": true,
+          "portrait": true,
+          "src": "/images/jlaberturas-mobile.webp"
+        },
+        {
+          "fit": "contain",
+          "loaded": true,
+          "portrait": true,
+          "src": "/images/veganrecords-mobile.webp"
+        },
+        {
+          "fit": "contain",
+          "loaded": true,
+          "portrait": true,
+          "src": "/images/lingohive-mobile.webp"
+        }
+      ],
+      "height": 821.0625,
+      "infoImages": 0,
+      "overflow": false,
+      "scene": "326px",
+      "width": 390
+    },
+    {
+      "locale": "es",
+      "active": "project-residencias",
+      "caption": "grid",
+      "cards": [
+        {
+          "fit": "contain",
+          "loaded": true,
+          "portrait": true,
+          "src": "/images/residencias-mobile.webp"
+        },
+        {
+          "fit": "contain",
+          "loaded": true,
+          "portrait": true,
+          "src": "/images/jlaberturas-mobile.webp"
+        },
+        {
+          "fit": "contain",
+          "loaded": true,
+          "portrait": true,
+          "src": "/images/veganrecords-mobile.webp"
+        },
+        {
+          "fit": "contain",
+          "loaded": true,
+          "portrait": true,
+          "src": "/images/lingohive-mobile.webp"
+        }
+      ],
+      "height": 993.859375,
+      "infoImages": 0,
+      "overflow": false,
+      "scene": "688.875px",
+      "width": 768
+    },
+    {
+      "locale": "es",
+      "active": "project-residencias",
+      "caption": "grid",
+      "cards": [
+        {
+          "fit": "contain",
+          "loaded": true,
+          "portrait": true,
+          "src": "/images/residencias-mobile.webp"
+        },
+        {
+          "fit": "contain",
+          "loaded": true,
+          "portrait": true,
+          "src": "/images/jlaberturas-mobile.webp"
+        },
+        {
+          "fit": "contain",
+          "loaded": true,
+          "portrait": true,
+          "src": "/images/veganrecords-mobile.webp"
+        },
+        {
+          "fit": "contain",
+          "loaded": true,
+          "portrait": true,
+          "src": "/images/lingohive-mobile.webp"
+        }
+      ],
+      "height": 704.96875,
+      "infoImages": 0,
+      "overflow": false,
+      "scene": "339.547px 531.094px",
+      "width": 1024
+    },
+    {
+      "locale": "es",
+      "active": "project-residencias",
+      "caption": "grid",
+      "cards": [
+        {
+          "fit": "contain",
+          "loaded": true,
+          "portrait": true,
+          "src": "/images/residencias-mobile.webp"
+        },
+        {
+          "fit": "contain",
+          "loaded": true,
+          "portrait": true,
+          "src": "/images/jlaberturas-mobile.webp"
+        },
+        {
+          "fit": "contain",
+          "loaded": true,
+          "portrait": true,
+          "src": "/images/veganrecords-mobile.webp"
+        },
+        {
+          "fit": "contain",
+          "loaded": true,
+          "portrait": true,
+          "src": "/images/lingohive-mobile.webp"
+        }
+      ],
+      "height": 828,
+      "infoImages": 0,
+      "overflow": false,
+      "scene": "458.625px 717.375px",
+      "width": 1440
+    },
+    {
+      "height": 821.0625,
+      "images": true,
+      "lang": "en",
+      "overflow": false,
+      "visiblePanels": 1,
+      "width": 390
+    },
+    {
+      "height": 840,
+      "images": true,
+      "lang": "en",
+      "overflow": false,
+      "visiblePanels": 1,
+      "width": 1440
+    },
+    {
+      "height": 821.0625,
+      "images": true,
+      "lang": "pt",
+      "overflow": false,
+      "visiblePanels": 1,
+      "width": 390
+    },
+    {
+      "height": 840,
+      "images": true,
+      "lang": "pt",
+      "overflow": false,
+      "visiblePanels": 1,
+      "width": 1440
+    },
+    {
+      "height": 821.0625,
+      "images": true,
+      "lang": "fr",
+      "overflow": false,
+      "visiblePanels": 1,
+      "width": 390
+    },
+    {
+      "height": 840,
+      "images": true,
+      "lang": "fr",
+      "overflow": false,
+      "visiblePanels": 1,
+      "width": 1440
+    },
+    {
+      "height": 826.65625,
+      "images": true,
+      "lang": "ja",
+      "overflow": false,
+      "visiblePanels": 1,
+      "width": 390
+    },
+    {
+      "height": 840,
+      "images": true,
+      "lang": "ja",
+      "overflow": false,
+      "visiblePanels": 1,
+      "width": 1440
+    }
+  ],
+  "keyboard": [
+    {
+      "key": "ArrowRight",
+      "active": "residencias"
+    },
+    {
+      "key": "ArrowLeft",
+      "active": "lingohive"
+    },
+    {
+      "key": "Home",
+      "active": "residencias"
+    },
+    {
+      "key": "End",
+      "active": "lingohive"
+    }
+  ],
+  "frontBefore": {
+    "x": 5.7008056640625,
+    "y": 23.045501708984375
+  },
+  "frontAfter": {
+    "x": 5.7008056640625,
+    "y": 23.045490264892575
+  },
+  "drag": "Vegan Records to LingoHive through real mouse drag",
+  "media": "All portrait cards use mobile screenshots with contain; no panel image",
+  "limits": "Source review only for reduced motion/no-JS; no physical touch, screen-reader or 200% zoom run in this pass"
+}

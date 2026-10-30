@@ -12,7 +12,7 @@ Fonte: copy espanhol da página aprovado em `../../prototypes/v2-h4/v2/ES-COPY-A
 
 ## Hero
 
-- Fallback fixo: **Design e desenvolvimento de sites para apresentar seu projeto**. Sequência variável: serviço → projeto → marca → produto → portfólio → campanha. A contração muda conforme o substantivo: “seu serviço”, “seu projeto”, “sua marca”, “seu produto”, “seu portfólio”, “sua campanha”. Sem ponto final ou animação em H4.
+- Fallback fixo (atualização localizada de 2026-10-30, sem nova aprovação humana da tradução): **Design e desenvolvimento web para seu projeto**. Sequência variável: serviço → projeto → marca → produto → portfólio → campanha. O possessivo muda conforme o substantivo: “seu serviço”, “seu projeto”, “sua marca”, “seu produto”, “seu portfólio”, “sua campanha”. Sem ponto final; animação H5 preservada.
 - Esclarecimento: Sou Ramiro Garcia. Trabalho com você desde a definição até a publicação do seu site.
 - CTA: Vamos conversar sobre seu projeto
 

@@ -1,0 +1,340 @@
+{
+  "date": "2026-10-30",
+  "responsive": [
+    {
+      "card": {
+        "bottom": -1452.177734375,
+        "height": 304.5372314453125,
+        "left": 32.640625,
+        "right": 172.43026733398438,
+        "top": -1756.7149658203125,
+        "width": 139.78964233398438,
+        "x": 32.640625,
+        "y": -1756.7149658203125
+      },
+      "credits": 0,
+      "lang": "es",
+      "leftGap": 12.640625,
+      "overflow": false,
+      "rightGap": 12.6253662109375,
+      "sources": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "symmetry": 0.0152587890625,
+      "titlesOnCards": 0,
+      "width": 320
+    },
+    {
+      "card": {
+        "bottom": -1541.061767578125,
+        "height": 361.7440185546875,
+        "left": 38.25,
+        "right": 204.10435485839844,
+        "top": -1902.8057861328125,
+        "width": 165.85435485839844,
+        "x": 38.25,
+        "y": -1902.8057861328125
+      },
+      "credits": 0,
+      "lang": "es",
+      "leftGap": 11.25,
+      "overflow": false,
+      "rightGap": 11.2562255859375,
+      "sources": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "symmetry": 0.0062255859375,
+      "titlesOnCards": 0,
+      "width": 390
+    },
+    {
+      "card": {
+        "bottom": -1522.0206298828125,
+        "height": 416.0687255859375,
+        "left": 40.40625,
+        "right": 231.0154266357422,
+        "top": -1938.08935546875,
+        "width": 190.6091766357422,
+        "x": 40.40625,
+        "y": -1938.08935546875
+      },
+      "credits": 0,
+      "lang": "es",
+      "leftGap": 13.40625,
+      "overflow": false,
+      "rightGap": 13.40631103515625,
+      "sources": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "symmetry": 0.00006103515625,
+      "titlesOnCards": 0,
+      "width": 430
+    },
+    {
+      "card": {
+        "bottom": -1408.68798828125,
+        "height": 506.0435791015625,
+        "left": 177.171875,
+        "right": 408.7828979492187,
+        "top": -1914.7315673828125,
+        "width": 231.61102294921875,
+        "x": 177.171875,
+        "y": -1914.7315673828125
+      },
+      "credits": 0,
+      "lang": "es",
+      "leftGap": 142.609375,
+      "overflow": false,
+      "rightGap": 142.60107421875,
+      "sources": [
+        "residencias-mobile.webp",
+        "jlaberturas-mobile.webp",
+        "veganrecords-mobile.webp",
+        "lingohive-mobile.webp"
+      ],
+      "symmetry": 0.00830078125,
+      "titlesOnCards": 0,
+      "width": 768
+    },
+    {
+      "card": {
+        "bottom": -523.5864868164062,
+        "height": 258.92486572265625,
+        "left": 466.5574035644531,
+        "right": 873.7679443359375,
+        "top": -782.5113525390625,
+        "width": 407.2105407714844,
+        "x": 466.5574035644531,
+        "y": -782.5113525390625
+      },
+      "credits": 0,
+      "lang": "es",
+      "leftGap": 6.823028564453125,
+      "overflow": false,
+      "rightGap": 123.817626953125,
+      "sources": [
+        "residencias-desktop.webp",
+        "jlaberturas-desktop.webp",
+        "veganrecords-desktop.webp",
+        "lingohive-desktop.webp"
+      ],
+      "symmetry": 116.99459838867188,
+      "titlesOnCards": 0,
+      "width": 1280
+    },
+    {
+      "card": {
+        "bottom": -42.5487060546875,
+        "height": 289.95050048828125,
+        "left": 534.6861572265625,
+        "right": 990.8714599609376,
+        "top": -332.49920654296875,
+        "width": 456.185302734375,
+        "x": 534.6861572265625,
+        "y": -332.49920654296875
+      },
+      "credits": 0,
+      "lang": "es",
+      "leftGap": 7.1392822265625,
+      "overflow": false,
+      "rightGap": 135.940673828125,
+      "sources": [
+        "residencias-desktop.webp",
+        "jlaberturas-desktop.webp",
+        "veganrecords-desktop.webp",
+        "lingohive-desktop.webp"
+      ],
+      "symmetry": 128.8013916015625,
+      "titlesOnCards": 0,
+      "width": 1440
+    },
+    {
+      "card": {
+        "bottom": 821.3568725585938,
+        "height": 391.1081237792969,
+        "left": 775.6856689453125,
+        "right": 1391.527099609375,
+        "top": 430.2487487792969,
+        "width": 615.8414306640625,
+        "x": 775.6856689453125,
+        "y": 430.2487487792969
+      },
+      "credits": 0,
+      "lang": "es",
+      "leftGap": 8.1387939453125,
+      "overflow": false,
+      "rightGap": 15.6866455078125,
+      "sources": [
+        "residencias-desktop.webp",
+        "jlaberturas-desktop.webp",
+        "veganrecords-desktop.webp",
+        "lingohive-desktop.webp"
+      ],
+      "symmetry": 7.5478515625,
+      "titlesOnCards": 0,
+      "width": 1920
+    },
+    {
+      "card": {
+        "bottom": 2090.572265625,
+        "height": 408.2275390625,
+        "left": 1095.85009765625,
+        "right": 1738.703125,
+        "top": 1682.3447265625,
+        "width": 642.85302734375,
+        "x": 1095.85009765625,
+        "y": 1682.3447265625
+      },
+      "credits": 0,
+      "lang": "es",
+      "leftGap": 8.30322265625,
+      "overflow": false,
+      "rightGap": -4.578857421875,
+      "sources": [
+        "residencias-desktop.webp",
+        "jlaberturas-desktop.webp",
+        "veganrecords-desktop.webp",
+        "lingohive-desktop.webp"
+      ],
+      "symmetry": 12.882080078125,
+      "titlesOnCards": 0,
+      "width": 2560
+    }
+  ],
+  "mobileSelections": [
+    {
+      "card": {
+        "bottom": 193.93817138671875,
+        "height": 361.7439575195313,
+        "left": 38.25,
+        "right": 204.10435485839844,
+        "top": -167.8057861328125,
+        "width": 165.85435485839844,
+        "x": 38.25,
+        "y": -167.8057861328125
+      },
+      "credits": 0,
+      "lang": "es",
+      "leftGap": 11.25,
+      "overflow": false,
+      "rightGap": 11.2562255859375,
+      "sources": [
+        "residencias-mobile.webp",
+        "jlaberturas-mobile.webp",
+        "veganrecords-mobile.webp",
+        "lingohive-mobile.webp"
+      ],
+      "symmetry": 0.0062255859375,
+      "titlesOnCards": 0,
+      "width": 390
+    },
+    {
+      "card": {
+        "bottom": 100.34429931640624,
+        "height": 258.2397155761719,
+        "left": 219.36822509765625,
+        "right": 341.7437744140625,
+        "top": -157.89541625976562,
+        "width": 122.37554931640624,
+        "x": 219.36822509765625,
+        "y": -157.89541625976562
+      },
+      "credits": 0,
+      "lang": "es",
+      "leftGap": 11.25,
+      "overflow": false,
+      "rightGap": 11.2562255859375,
+      "sources": [
+        "residencias-mobile.webp",
+        "jlaberturas-mobile.webp",
+        "veganrecords-mobile.webp",
+        "lingohive-mobile.webp"
+      ],
+      "symmetry": 0.0062255859375,
+      "titlesOnCards": 0,
+      "width": 390
+    },
+    {
+      "card": {
+        "bottom": 124.9638214111328,
+        "height": 285.46612548828125,
+        "left": 171.42413330078125,
+        "right": 305.53826904296875,
+        "top": -160.50230407714844,
+        "width": 134.1141357421875,
+        "x": 171.42413330078125,
+        "y": -160.50230407714844
+      },
+      "credits": 0,
+      "lang": "es",
+      "leftGap": 11.25,
+      "overflow": false,
+      "rightGap": 11.2562255859375,
+      "sources": [
+        "residencias-mobile.webp",
+        "jlaberturas-mobile.webp",
+        "veganrecords-mobile.webp",
+        "lingohive-mobile.webp"
+      ],
+      "symmetry": 0.0062255859375,
+      "titlesOnCards": 0,
+      "width": 390
+    },
+    {
+      "card": {
+        "bottom": 155.38644409179688,
+        "height": 319.110107421875,
+        "left": 112.4774932861328,
+        "right": 260.79864501953125,
+        "top": -163.72366333007812,
+        "width": 148.32115173339844,
+        "x": 112.4774932861328,
+        "y": -163.72366333007812
+      },
+      "credits": 0,
+      "lang": "es",
+      "leftGap": 11.25,
+      "overflow": false,
+      "rightGap": 11.2562255859375,
+      "sources": [
+        "residencias-mobile.webp",
+        "jlaberturas-mobile.webp",
+        "veganrecords-mobile.webp",
+        "lingohive-mobile.webp"
+      ],
+      "symmetry": 0.0062255859375,
+      "titlesOnCards": 0,
+      "width": 390
+    }
+  ],
+  "hover": {
+    "topLeft": {
+      "x": "0.995257260245898deg",
+      "y": "-1.2505570116945357deg"
+    },
+    "bottomRight": {
+      "x": "-0.9870316079711814deg",
+      "y": "1.2293090138310987deg"
+    },
+    "limits": {
+      "x": 2,
+      "y": 2.5
+    }
+  },
+  "checks": {
+    "creditsRemoved": true,
+    "cardTitleSpansRemoved": true,
+    "tiltClearsOnNavigation": true,
+    "keyboardEnd": "lingohive"
+  },
+  "limits": "Reduced-motion and touch exclusions reviewed in code; no physical device or OS-preference emulation in this pass"
+}

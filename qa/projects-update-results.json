@@ -1,0 +1,674 @@
+{
+  "responsive": [
+    {
+      "lang": "es",
+      "width": 320,
+      "overflow": false,
+      "height": 756.328125,
+      "usableHeight": 675,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "es",
+      "width": 390,
+      "overflow": false,
+      "height": 784,
+      "usableHeight": 783,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "es",
+      "width": 768,
+      "overflow": false,
+      "height": 952,
+      "usableHeight": 951,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "es",
+      "width": 1024,
+      "overflow": false,
+      "height": 696.015625,
+      "usableHeight": 695,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "es",
+      "width": 1440,
+      "overflow": false,
+      "height": 828,
+      "usableHeight": 827,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "es",
+      "width": 1920,
+      "overflow": false,
+      "height": 1008,
+      "usableHeight": 1007,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "en",
+      "width": 320,
+      "overflow": false,
+      "height": 790.09375,
+      "usableHeight": 675,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "overflow": false,
+      "height": 784,
+      "usableHeight": 783,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "overflow": false,
+      "height": 952,
+      "usableHeight": 951,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "en",
+      "width": 1024,
+      "overflow": false,
+      "height": 715.515625,
+      "usableHeight": 695,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "overflow": false,
+      "height": 828,
+      "usableHeight": 827,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "en",
+      "width": 1920,
+      "overflow": false,
+      "height": 1008,
+      "usableHeight": 1007,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "pt",
+      "width": 320,
+      "overflow": false,
+      "height": 790.09375,
+      "usableHeight": 675,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "pt",
+      "width": 390,
+      "overflow": false,
+      "height": 784,
+      "usableHeight": 783,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "pt",
+      "width": 768,
+      "overflow": false,
+      "height": 952,
+      "usableHeight": 951,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "pt",
+      "width": 1024,
+      "overflow": false,
+      "height": 696.015625,
+      "usableHeight": 695,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "pt",
+      "width": 1440,
+      "overflow": false,
+      "height": 828,
+      "usableHeight": 827,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "pt",
+      "width": 1920,
+      "overflow": false,
+      "height": 1008,
+      "usableHeight": 1007,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "fr",
+      "width": 320,
+      "overflow": false,
+      "height": 790.09375,
+      "usableHeight": 675,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "fr",
+      "width": 390,
+      "overflow": false,
+      "height": 784,
+      "usableHeight": 783,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "fr",
+      "width": 768,
+      "overflow": false,
+      "height": 952,
+      "usableHeight": 951,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "fr",
+      "width": 1024,
+      "overflow": false,
+      "height": 715.515625,
+      "usableHeight": 695,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "fr",
+      "width": 1440,
+      "overflow": false,
+      "height": 828,
+      "usableHeight": 827,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "fr",
+      "width": 1920,
+      "overflow": false,
+      "height": 1008,
+      "usableHeight": 1007,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "ja",
+      "width": 320,
+      "overflow": false,
+      "height": 756.171875,
+      "usableHeight": 675,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "ja",
+      "width": 390,
+      "overflow": false,
+      "height": 784,
+      "usableHeight": 783,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "ja",
+      "width": 768,
+      "overflow": false,
+      "height": 952,
+      "usableHeight": 951,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "ja",
+      "width": 1024,
+      "overflow": false,
+      "height": 708.28125,
+      "usableHeight": 695,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "ja",
+      "width": 1440,
+      "overflow": false,
+      "height": 828,
+      "usableHeight": 827,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    },
+    {
+      "lang": "ja",
+      "width": 1920,
+      "overflow": false,
+      "height": 1008,
+      "usableHeight": 1007,
+      "links": [
+        "https://residenciasgrupocasa.com.ar/",
+        "https://lingo-hive.vercel.app/",
+        "https://jlaberturas.com.ar/",
+        "https://veganrecords.com.ar/"
+      ],
+      "brokenImages": 0,
+      "clippedCards": 0,
+      "active": "project-jlaberturas",
+      "horizontalScroll": true,
+      "lineReady": true,
+      "path": "finite"
+    }
+  ],
+  "enlargedText": [
+    {
+      "lang": "es",
+      "width": 320,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "lang": "es",
+      "width": 390,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "lang": "es",
+      "width": 1440,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "lang": "en",
+      "width": 320,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "lang": "pt",
+      "width": 320,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "lang": "pt",
+      "width": 390,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "lang": "pt",
+      "width": 1440,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "lang": "fr",
+      "width": 320,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "lang": "fr",
+      "width": 390,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "lang": "fr",
+      "width": 1440,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "lang": "ja",
+      "width": 320,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "lang": "ja",
+      "width": 390,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "lang": "ja",
+      "width": 1440,
+      "overflow": false,
+      "clipped": false
+    }
+  ],
+  "interactions": [
+    "hover selection, full opacity, keyboard focus/Enter, visible attribution, dark theme, resize preserving selection, actual external link popup",
+    "native emulated touch swipe; touch selectors in a separate context (CDP fling limitation); stable reduced-motion Hero",
+    "no-JS links, focus and static Hero on desktop/mobile"
+  ],
+  "errors": [],
+  "browser": "151.0.7922.34",
+  "status": "PASS"
+}

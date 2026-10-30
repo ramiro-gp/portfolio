@@ -289,6 +289,138 @@ if (hero && wordSlot && wordCurrent) {
   }
 }
 
+const projectShowcase = document.querySelector<HTMLElement>('[data-project-showcase]');
+const projectDeck = projectShowcase?.querySelector<HTMLElement>('[data-project-deck]');
+const projectStage = projectShowcase?.querySelector<HTMLElement>('[data-project-stage]');
+const projectCards = Array.from(projectShowcase?.querySelectorAll<HTMLElement>('[data-project-card]') || []);
+const projectSelectors = Array.from(projectShowcase?.querySelectorAll<HTMLButtonElement>('[data-project-select]') || []);
+const projectDetails = Array.from(projectShowcase?.querySelectorAll<HTMLElement>('[data-project-detail]') || []);
+const projectCardButtons = Array.from(projectShowcase?.querySelectorAll<HTMLButtonElement>('[data-project-card-select]') || []);
+const projectControls = projectShowcase?.querySelector<HTMLElement>('.project-controls');
+const projectNumber = projectShowcase?.querySelector<HTMLElement>('[data-project-number]');
+if (projectShowcase && projectDeck && projectStage && projectControls && projectCards.length && projectCards.length === projectSelectors.length) {
+  let selected = 0;
+  let gesture: { id: number; x: number; y: number } | null = null;
+  const compactDeck = window.matchMedia('(max-width:1023px)');
+  const fineProjectPointer = window.matchMedia('(hover:hover) and (pointer:fine)');
+  const tiltResets: Array<() => void> = [];
+  const resetProjectTilts = () => tiltResets.forEach((reset) => reset());
+  let centerFrame = 0;
+  const centerProjectStack = () => {
+    centerFrame = 0;
+    if (!compactDeck.matches) {
+      projectDeck.style.removeProperty('--stack-width');
+      projectDeck.style.removeProperty('--stack-correction');
+      return;
+    }
+    const deckLeft = projectDeck.getBoundingClientRect().left;
+    const boxes = projectCards.map((card) => card.getBoundingClientRect());
+    const left = Math.min(...boxes.map((box) => box.left)) - deckLeft;
+    const right = Math.max(...boxes.map((box) => box.right)) - deckLeft;
+    projectDeck.style.setProperty('--stack-width', `${right - left}px`);
+    projectDeck.style.setProperty('--stack-correction', `${-left}px`);
+  };
+  const scheduleProjectCenter = () => {
+    if (!centerFrame) centerFrame = requestAnimationFrame(centerProjectStack);
+  };
+  const selectProject = (index: number) => {
+    resetProjectTilts();
+    selected = (index + projectCards.length) % projectCards.length;
+    projectCards.forEach((card, position) => {
+      const depth = (position - selected + projectCards.length) % projectCards.length;
+      card.style.setProperty('--depth-index', String(depth));
+      card.style.setProperty('--card-opacity', String(Math.max(.4, 1 - depth * .14)));
+      card.toggleAttribute('data-active', position === selected);
+    });
+    projectSelectors.forEach((button, position) => button.setAttribute('aria-pressed', String(position === selected)));
+    projectCardButtons.forEach((button, position) => button.setAttribute('aria-pressed', String(position === selected)));
+    projectDetails.forEach((detail, position) => { detail.hidden = position !== selected; });
+    if (projectNumber) projectNumber.textContent = String(selected + 1).padStart(2, '0');
+  };
+  projectCardButtons.forEach((button, index) => {
+    button.addEventListener('click', () => selectProject(index));
+    button.addEventListener('focus', () => { if (!gesture && selected !== index) selectProject(index); });
+    let bounds: DOMRect | null = null;
+    let tiltFrame = 0;
+    let tiltX = 0;
+    let tiltY = 0;
+    const resetTilt = () => {
+      cancelAnimationFrame(tiltFrame);
+      tiltFrame = 0;
+      bounds = null;
+      button.style.removeProperty('--tilt-x');
+      button.style.removeProperty('--tilt-y');
+    };
+    tiltResets.push(resetTilt);
+    button.addEventListener('pointerenter', (event) => {
+      if (event.pointerType === 'mouse' && fineProjectPointer.matches && !reduceMotion.matches) bounds = button.getBoundingClientRect();
+    });
+    button.addEventListener('pointermove', (event) => {
+      if (!bounds || gesture || event.pointerType !== 'mouse' || reduceMotion.matches || !fineProjectPointer.matches) return;
+      const x = Math.max(0, Math.min(1, (event.clientX - bounds.left) / bounds.width));
+      const y = Math.max(0, Math.min(1, (event.clientY - bounds.top) / bounds.height));
+      tiltX = (.5 - y) * 4;
+      tiltY = (x - .5) * 5;
+      if (!tiltFrame) tiltFrame = requestAnimationFrame(() => {
+        tiltFrame = 0;
+        button.style.setProperty('--tilt-x', `${tiltX}deg`);
+        button.style.setProperty('--tilt-y', `${tiltY}deg`);
+      });
+    });
+    button.addEventListener('pointerleave', resetTilt);
+    button.addEventListener('blur', resetTilt);
+  });
+  projectSelectors.forEach((button, index) => button.addEventListener('click', () => selectProject(index)));
+  projectShowcase.querySelector('[data-project-previous]')?.addEventListener('click', () => selectProject(selected - 1));
+  projectShowcase.querySelector('[data-project-next]')?.addEventListener('click', () => selectProject(selected + 1));
+  projectShowcase.addEventListener('keydown', (event) => {
+    if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
+    if (!(event.target instanceof Element) || !event.target.closest('.project-deck,.project-controls')) return;
+    event.preventDefault();
+    const target = event.key === 'Home' ? 0 : event.key === 'End' ? projectCards.length - 1 : selected + (event.key === 'ArrowLeft' ? -1 : 1);
+    selectProject(target);
+    if (event.target.closest('.project-deck')) projectCardButtons[selected]?.focus({ preventScroll: true });
+  });
+  let suppressClickUntil = 0;
+  projectStage.addEventListener('pointerdown', (event) => {
+    if (!event.isPrimary || event.button !== 0) return;
+    resetProjectTilts();
+    gesture = { id: event.pointerId, x: event.clientX, y: event.clientY };
+  });
+  window.addEventListener('pointerup', (event) => {
+    if (!gesture || gesture.id !== event.pointerId) return;
+    const dx = event.clientX - gesture.x;
+    const dy = event.clientY - gesture.y;
+    gesture = null;
+    if (Math.abs(dx) < 40 || Math.abs(dx) < Math.abs(dy) * 1.25) return;
+    suppressClickUntil = performance.now() + 400;
+    selectProject(selected + (dx < 0 ? 1 : -1));
+  });
+  window.addEventListener('pointercancel', () => { gesture = null; });
+  projectDeck.addEventListener('click', (event) => {
+    if (performance.now() >= suppressClickUntil) return;
+    event.preventDefault();
+    event.stopImmediatePropagation();
+  }, true);
+  reduceMotion.addEventListener('change', resetProjectTilts);
+  fineProjectPointer.addEventListener('change', resetProjectTilts);
+  window.addEventListener('resize', scheduleProjectCenter, { passive: true });
+  compactDeck.addEventListener('change', scheduleProjectCenter);
+  projectDeck.addEventListener('transitionend', (event) => {
+    if (event.propertyName === 'transform' && event.target instanceof HTMLElement && event.target.matches('[data-project-card]')) scheduleProjectCenter();
+  });
+  if ('ResizeObserver' in window) {
+    const stackObserver = new ResizeObserver(scheduleProjectCenter);
+    stackObserver.observe(projectStage);
+    if (projectCards[0]) stackObserver.observe(projectCards[0]);
+  }
+  document.fonts?.ready.then(scheduleProjectCenter);
+  projectControls.hidden = false;
+  projectShowcase.setAttribute('data-enhanced', '');
+  selectProject(0);
+  scheduleProjectCenter();
+}
+
 function evaluateSticky(): void {
   const panels = Array.from(document.querySelectorAll<HTMLElement>('[data-service-panel]'));
   const usable = window.innerHeight - (header?.getBoundingClientRect().height || 72) - 48;

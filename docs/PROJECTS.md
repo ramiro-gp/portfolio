@@ -21,6 +21,25 @@ Las auditorías técnicas describen la versión observada entonces; V2-H0 no rep
 Los permisos confirmados se conservan. Antes de publicar se verifica el estado y la vigencia de assets/claims.
 Las etiquetas V1 siguientes son resultados históricos, no decisiones de inclusión en V2.
 
+## Actualización de portfolio — 2026-10-30
+
+Cuarta revisión, instrucción pública posterior: Ramiro pide retirar las líneas redundantes «Diseño y desarrollo: Ramiro Garcia» y los créditos explícitos del resumen de LingoHive en su portfolio; señala que el propio deployment de LingoHive muestra el crédito de diseño. Se retiran del panel y fallback, sin cambiar los hechos documentados: Juan Galache de Toro definió diseño/identidad visual de LingoHive y Ramiro realizó el desarrollo web. No se publica un claim de autoría integral de Ramiro sobre ese diseño. Esta instrucción sustituye el requisito previo de crédito visible en ramita.dev. Las capturas desktop reales vuelven a usarse en tarjetas apaisadas desde 1280 px útiles; las tarjetas verticales siguen usando las capturas mobile correspondientes.
+
+Ramiro solicita incorporar **JL Aberturas** y **Vegan Records** a los dos proyectos existentes y confirma: «Hice todo el trabajo yo». Se registra diseño y desarrollo de ambos a su cargo. El pedido autoriza sus nombres, enlaces, descripciones factuales y capturas reales para el portfolio; no se atribuyen métricas, stack adicional ni resultados comerciales.
+
+- **JL Aberturas**: <https://jlaberturas.com.ar/>. Landing page para mostrar servicios y la venta de productos. Respuesta pública HTTP 200 y captura real desktop 1440 × 900 comprobadas el 2026-10-30. Original: `qa/jlaberturas-desktop-2026-10-30.png`; derivado: `public/images/jlaberturas-desktop.webp` (36.920 B).
+- **Vegan Records**: <https://veganrecords.com.ar/>. Presentación del negocio y catálogo obtenido desde Google Sheets para facilitar pedidos, según la explicación explícita de Ramiro. Respuesta pública HTTP 200 y captura real desktop 1440 × 900 comprobadas el 2026-10-30. El sitio público se presenta visualmente como Vegan Store Music; se conserva **Vegan Records**, nombre indicado por Ramiro para el portfolio. Original: `qa/veganrecords-desktop-2026-10-30.png`; derivado: `public/images/veganrecords-desktop.webp` (42.476 B). No inferir checkout o pago online del catálogo/carrito.
+
+La presentación compacta aprobada sustituye el tratamiento editorial largo: cuatro tarjetas con captura desktop, contexto breve, rol/créditos y enlace. Residencias conserva su estado documentado `en desarrollo`; LingoHive sigue siendo demo histórica, con academia inactiva, precios/testimonios históricos y atribución visible a Juan Galache de Toro. No se publica una nueva fecha de finalización para Residencias ni se atribuye su diseño a un tercero.
+
+Corrección explícita posterior en el mismo chat: Ramiro rechaza el abanico 2D y pide pila 3D a la derecha y panel de detalles a la izquierda en PC. Las tarjetas derechas muestran screenshot/nombre y seleccionan; contexto, estado, créditos, captura completa y enlace permanecen en el panel seleccionado. Orden vigente: Residencias → JL Aberturas → Vegan Records → LingoHive. Mobile conserva el tratamiento completo horizontal anterior. Hechos, autoría y assets no cambian.
+
+Tercera revisión confirmada con referencia Depth Carousel Pro: la pila se sustituye por carrusel de profundidad con una posición frontal común. **Todas las tarjetas verticales muestran capturas mobile reales**, y el panel de texto ya no duplica una captura. Se reutilizan `residencias-mobile.webp` y `lingohive-mobile.webp` (390 × 844). Nuevas capturas del 2026-10-30 de las Home mobile de JL Aberturas y Vegan Records: viewport CSS 390 × 844, JPEG exportado por el navegador de 375 × 812; originales en `qa/jlaberturas-mobile-2026-10-30.jpg` y `qa/veganrecords-mobile-2026-10-30.jpg`. Se excluye únicamente la franja derecha de scrollbar, sin recortar contenido del sitio, para producir WebP de **360 × 812**: JL 20.142 B, Vegan 23.526 B. Ambas se inspeccionaron con navegación compacta y layout mobile; no son capturas desktop recortadas ni mockups. Se preserva la imagen completa en el frame de la tarjeta con contain, sin deformación. Las capturas desktop anteriores siguen como evidencia histórica, pero no se usan en las tarjetas verticales.
+
+**Posible demo WooCommerce futura:** Ramiro está trabajando en ella en otro chat. Es una posibilidad de quinto proyecto, sin compromiso de inclusión, nombre, URL, assets o contenido aprobado. No crear ni publicar esta demo aquí, no inventar un cliente y no reservar tarjeta/placeholder público. Si se incorpora, identificarla inequívocamente como demo. La colección calcula posiciones desde su cantidad, sin fijarla a cuatro.
+
+Los modelos extensos de evidencia y tratamiento H3/H6 siguientes se conservan como antecedentes de esos casos; DESIGN.md y CONTENT.md gobiernan la presentación compacta vigente.
+
 # Project A — Residencias Grupo Casa
 
 ## Candidate status

@@ -1,36 +1,66 @@
 ---
 import { copy, type LocaleCode } from '../content/locales';
+import { projectCopy } from '../content/projects';
 const { locale } = Astro.props as { locale: LocaleCode };
 const t = copy[locale];
+const p = projectCopy[locale];
+const projects = [
+  { id: 'residencias', name: 'Residencias Grupo Casa', url: 'https://residenciasgrupocasa.com.ar/', image: 'residencias', width: 390, height: 844, state: t.caseState, description: p.residencias, action: t.viewSite },
+  { id: 'jlaberturas', name: 'JL Aberturas', url: 'https://jlaberturas.com.ar/', image: 'jlaberturas', width: 360, height: 812, state: 'Landing page', description: p.jl, action: t.viewSite },
+  { id: 'veganrecords', name: 'Vegan Records', url: 'https://veganrecords.com.ar/', image: 'veganrecords', width: 360, height: 812, state: 'Google Sheets', description: p.vegan, action: t.viewSite },
+  { id: 'lingohive', name: 'LingoHive', url: 'https://lingo-hive.vercel.app/', image: 'lingohive', width: 390, height: 844, state: t.lingohive.state, description: p.lingohive, action: t.lingohive.viewDemo }
+];
 ---
-<section class="section projects rail" id="proyectos" tabindex="-1" aria-labelledby="projects-title" data-line-anchor="projects">
+<section class="section projects project-showcase rail" id="proyectos" tabindex="-1" aria-labelledby="projects-title" data-line-anchor="projects" data-project-showcase style={`--project-count:${projects.length}`}>
   <div class="section-heading" data-reveal><span class="section-index" aria-hidden="true">03 /</span><h2 id="projects-title">{t.nav[2]}</h2></div>
-  <div class="project-case" data-project-case="residencias">
-    <div class="project-heading" data-reveal>
-      <h3>Residencias Grupo Casa</h3>
-      <p class="project-status">{t.caseState} <span aria-hidden="true">·</span> <a href="https://residenciasgrupocasa.com.ar/" target="_blank" rel="noopener noreferrer">{t.viewSite}</a></p>
+  <div class="project-scene" data-project-tail>
+    <div class="project-stage" data-project-stage>
+    <ul class="project-deck" data-project-deck aria-label={p.selectLabel}>
+      {projects.map((project, index) => (
+        <li class="project-card" id={`project-${project.id}`} data-project-card data-project-case={project.id} data-active={index === 0 ? '' : undefined} style={`--depth-index:${index};--card-opacity:${1 - index * .14}`}>
+          <button class="project-card-select" type="button" aria-label={`${p.selectLabel}: ${project.name}`} aria-pressed={index === 0 ? 'true' : 'false'} aria-controls={`project-detail-${project.id}`} data-project-card-select>
+            <picture>
+              <source media="(min-width:1280px)" srcset={`/images/${project.image}-desktop.webp`} width="1440" height="900" />
+              <img src={`/images/${project.image}-mobile.webp`} width={project.width} height={project.height} loading="lazy" alt={project.name} draggable="false" />
+            </picture>
+          </button>
+          <a class="project-card-link" href={project.url} target="_blank" rel="noopener noreferrer" aria-labelledby={`project-${project.id}-title project-${project.id}-action`}>
+            <picture>
+              <source media="(min-width:1280px)" srcset={`/images/${project.image}-desktop.webp`} width="1440" height="900" />
+              <img class="project-card-image" src={`/images/${project.image}-mobile.webp`} width={project.width} height={project.height} loading="lazy" alt={project.name} />
+            </picture>
+            <div class="project-card-body">
+              <p class="project-card-state">{project.state}</p>
+              <h3 id={`project-${project.id}-title`}>{project.name}</h3>
+              <p class="project-card-description">{project.description}</p>
+              <span class="project-card-action" id={`project-${project.id}-action`}>{project.action} ↗</span>
+            </div>
+          </a>
+        </li>
+      ))}
+    </ul>
     </div>
-    <div class="project-text" data-reveal><p>{t.caseContext}</p><p>{t.caseSolution}</p></div>
-    <div class="project-figures" data-reveal>
-      <figure class="figure-mobile"><img src="/images/residencias-mobile.webp" width="390" height="844" loading="lazy" alt={t.mobileAlt} /><figcaption>{t.mobileCaption}</figcaption></figure>
-      <figure class="figure-desktop"><img src="/images/residencias-desktop.webp" width="1440" height="900" loading="lazy" alt={t.desktopAlt} /><figcaption>{t.desktopCaption}</figcaption></figure>
+    <div class="project-info">
+      <p class="project-counter" aria-hidden="true"><span data-project-number>01</span><span class="project-total"> / {String(projects.length).padStart(2, '0')}</span></p>
+      <div class="project-details">
+        {projects.map((project, index) => (
+          <article class="project-detail" id={`project-detail-${project.id}`} data-project-detail hidden={index !== 0} aria-labelledby={`project-detail-${project.id}-title`}>
+            <p class="project-card-state">{project.state}</p>
+            <h3 id={`project-detail-${project.id}-title`}>{project.name}</h3>
+            <p class="project-card-description">{project.description}</p>
+            <a class="project-detail-link" href={project.url} target="_blank" rel="noopener noreferrer">{project.action} <span aria-hidden="true">↗</span></a>
+          </article>
+        ))}
+      </div>
+      <div class="project-controls" hidden>
+        <div class="project-picker" role="group" aria-label={p.selectLabel}>
+          {projects.map((project, index) => (
+            <button type="button" data-project-select={index} aria-label={`${p.selectLabel}: ${project.name}`} aria-pressed={index === 0 ? 'true' : 'false'} aria-controls={`project-detail-${project.id}`}><span aria-hidden="true"></span></button>
+          ))}
+        </div>
+        <button type="button" class="project-arrow" data-project-previous aria-label={p.previous}>←</button>
+        <button type="button" class="project-arrow" data-project-next aria-label={p.next}>→</button>
+      </div>
     </div>
-    <p class="project-capabilities" data-reveal>{t.caseCapabilities}</p>
-  </div>
-  <div class="project-case" id="project-lingohive" data-project-case="lingohive">
-    <div class="project-heading" data-reveal>
-      <h3>LingoHive</h3>
-      <p class="project-status">{t.lingohive.state} <span aria-hidden="true">·</span> <a href="https://lingo-hive.vercel.app/" target="_blank" rel="noopener noreferrer">{t.lingohive.viewDemo}</a></p>
-    </div>
-    <div class="project-text" data-reveal><p>{t.lingohive.intro}</p><p>{t.lingohive.historicalNote}</p></div>
-    <div class="project-figures" data-reveal>
-      <figure class="figure-mobile"><img src="/images/lingohive-mobile.webp" width="390" height="844" loading="lazy" alt={t.lingohive.mobileAlt} /><figcaption>{t.lingohive.mobileCaption}</figcaption></figure>
-      <figure class="figure-desktop"><img src="/images/lingohive-desktop.webp" width="1440" height="900" loading="lazy" alt={t.lingohive.desktopAlt} /><figcaption>{t.lingohive.desktopCaption}</figcaption></figure>
-    </div>
-    <p class="project-capabilities" data-reveal><span class="project-detail-label">{t.lingohive.technologiesLabel}:</span> Astro 5 · Tailwind CSS 4</p>
-    <dl class="project-credits" data-reveal data-project-tail>
-      <div><dt>{t.lingohive.designCredit}</dt><dd>Juan Galache de Toro</dd></div>
-      <div><dt>{t.lingohive.developmentCredit}</dt><dd>Ramiro Garcia</dd></div>
-    </dl>
   </div>
 </section>

@@ -12,7 +12,7 @@ Source: approved Spanish page copy in `../../prototypes/v2-h4/v2/ES-COPY-APPROVE
 
 ## Hero
 
-- Fixed fallback: **Website design and development for your project**. Variable sequence: service → project → brand → product → portfolio → campaign. Full headline uses “Website design and development for your [word]”. No final period or motion in H4.
+- Fixed fallback (localized update, 2026-10-30; no new human translation approval): **Web design and development for your project**. Variable sequence: service → project → brand → product → portfolio → campaign. Full headline uses “Web design and development for your [word]”. No final period; H5 motion remains unchanged.
 - Clarifier: I’m Ramiro Garcia. I work with you from defining your website through to its launch.
 - CTA: Let’s talk about your project
 

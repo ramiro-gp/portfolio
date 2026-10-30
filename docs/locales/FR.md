@@ -12,7 +12,7 @@ Source : texte espagnol de la page approuvé dans `../../prototypes/v2-h4/v2/ES-
 
 ## Hero
 
-- Texte de repli fixe : **Conception et développement de sites web pour présenter votre projet**. Séquence variable : service → projet → marque → produit → portfolio → campagne. Structure : « Conception et développement de sites web pour présenter votre [mot] ». Sans point final ni animation en H4.
+- Texte de repli fixe (mise à jour localisée du 2026-10-30, sans nouvelle approbation humaine de la traduction) : **Conception et développement web pour votre projet**. Séquence variable : service → projet → marque → produit → portfolio → campagne. Structure : « Conception et développement web pour votre [mot] ». Sans point final ; animation H5 conservée.
 - Précision : Je suis Ramiro Garcia. Je travaille avec vous de la définition de votre site jusqu’à sa mise en ligne.
 - CTA : Parlons de votre projet
 
