@@ -1,0 +1,10 @@
+# Merge these H8 directives into the existing public_html/.htaccess.
+# Keep all existing Hostinger HTTPS and other site rules. Put the rewrite
+# before any catch-all rules; do not upload this file as a public asset.
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.ramita\.dev$ [NC]
+RewriteRule ^ https://ramita.dev%{REQUEST_URI} [R=301,L,NE]
+</IfModule>
