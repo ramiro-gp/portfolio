@@ -1,0 +1,147 @@
+[
+  {
+    "path": "404.html",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "path": "apple-touch-icon.png",
+    "status": 200,
+    "matches": false
+  },
+  {
+    "path": "favicon.ico",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "path": "favicon.svg",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "path": "index.html",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "path": "robots.txt",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "path": "sitemap.xml",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "path": "en/index.html",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "path": "fonts/InstrumentSans.woff2",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "path": "fonts/NotoSansJP-ja.woff2",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "path": "fonts/OFL-Noto-Sans-JP.txt",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "path": "fr/index.html",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "path": "images/jlaberturas-desktop.webp",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "path": "images/jlaberturas-mobile.webp",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "path": "images/lingohive-desktop.webp",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "path": "images/lingohive-mobile.webp",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "path": "images/residencias-desktop.webp",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "path": "images/residencias-mobile.webp",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "path": "images/veganrecords-desktop.webp",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "path": "images/veganrecords-mobile.webp",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "path": "ja/index.html",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "path": "pt/index.html",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "path": "social/ramita-en.png",
+    "status": 200,
+    "matches": false
+  },
+  {
+    "path": "social/ramita-es.png",
+    "status": 200,
+    "matches": false
+  },
+  {
+    "path": "social/ramita-fr.png",
+    "status": 200,
+    "matches": false
+  },
+  {
+    "path": "social/ramita-ja.png",
+    "status": 200,
+    "matches": false
+  },
+  {
+    "path": "social/ramita-pt.png",
+    "status": 200,
+    "matches": false
+  },
+  {
+    "path": "_astro/BaseLayout.astro_astro_type_script_index_0_lang.C_fs7q8f.js",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "path": "_astro/global.B4XCfYlI.css",
+    "status": 200,
+    "matches": true
+  }
+]

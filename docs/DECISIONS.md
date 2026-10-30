@@ -1,5 +1,7 @@
 # DECISIONS.md
 
+2026-10-30 — Ramiro autoriza deploy de la actualización y publicación automática desde Git si es posible. Se publica el build estático en Hostinger Premium. Para automatizar sin cambiar de plan se prepara GitHub Actions: `main` → check/build → `codex/hostinger-static` (sólo archivos públicos); Hostinger debe seguir esa rama. Activación pendiente del permiso a `portfolio` y conexión verificada. Detalles en `docs/DEPLOYMENT.md`.
+
 ## 2026-10-30 — Formatos responsive, centrado visible y tilt leve
 
 Ramiro pide tarjetas apaisadas con capturas desktop para aprovechar el espacio del PC, márgenes visibles simétricos y menos superposición móvil, eliminar el nombre dentro de las tarjetas y las líneas públicas redundantes de créditos, y un tilt 3D leve según la posición del cursor. Se usa breakpoint de 1280 px útiles para escritorio (incluyendo Full HD con ventanas/escalado), picture/source con assets reales, centrado por unión proyectada en móvil y tilt limitado ±2°/±2,5° condicionado a mouse/fine pointer/sin reduced motion. Los créditos dejan de renderizarse por su instrucción explícita; la autoría de Juan Galache de Toro y Ramiro se conserva como hecho en PROJECTS.md. No se afirma una autoría diferente ni se publica la actualización.

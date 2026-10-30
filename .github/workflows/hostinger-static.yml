@@ -1,0 +1,54 @@
+name: Build Hostinger static release
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hostinger-static-release
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24.12.0'
+      - name: Install pinned package manager and dependencies
+        run: |
+          npm install --global pnpm@11.7.0
+          pnpm install --frozen-lockfile
+      - name: Validate and build
+        run: |
+          pnpm check
+          pnpm build
+          cp hosting/hostinger.htaccess dist/.htaccess
+      - name: Publish built files to deployment branch
+        env:
+          RELEASE_BRANCH: codex/hostinger-static
+        run: |
+          set -euo pipefail
+          target="$RUNNER_TEMP/hostinger-static"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if git show-ref --verify --quiet "refs/remotes/origin/$RELEASE_BRANCH"; then
+            git worktree add -B "$RELEASE_BRANCH" "$target" "origin/$RELEASE_BRANCH"
+          else
+            git worktree add --detach "$target"
+            git -C "$target" switch --orphan "$RELEASE_BRANCH"
+          fi
+          git -C "$target" rm -rf --ignore-unmatch .
+          cp -a dist/. "$target/"
+          git -C "$target" add --all
+          if ! git -C "$target" diff --cached --quiet; then
+            git -C "$target" commit -m "Publish static build from $GITHUB_SHA"
+            git -C "$target" push origin "HEAD:refs/heads/$RELEASE_BRANCH"
+          fi
