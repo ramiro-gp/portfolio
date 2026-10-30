@@ -1,0 +1,12 @@
+[
+  {
+    "url": "https://www.ramita.dev/en/?keep=a%2Bb",
+    "status": 200,
+    "final": "https://ramita.dev/en/?keep=a%2Bb"
+  },
+  {
+    "url": "https://ramita.dev/nonexistent-release-check-20261030",
+    "status": 404,
+    "custom404": true
+  }
+]

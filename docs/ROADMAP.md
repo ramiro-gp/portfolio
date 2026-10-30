@@ -2,7 +2,7 @@
 
 ## Reglas activas
 
-Publicación autorizada — 2026-10-30: Hero/carrusel publicados en `ramita.dev` desde el build estático de `b268ba5`, con respaldo local, reglas www/404 preservadas y caché purgada. Automatización mediante GitHub Actions y rama de archivos compilados preparada; conexión Git de Hostinger pendiente del acceso a `portfolio`. Estado y verificación en `docs/DEPLOYMENT.md`. H8 sigue IN PROGRESS; no implica DONE.
+Publicación autorizada — 2026-10-30: Hero/carrusel publicados en `ramita.dev` desde el build estático de `b268ba5`, con respaldo local, reglas www/404 preservadas y caché purgada. GitHub Actions validó y generó la rama compilada; Hostinger confirmó deploy desde `portfolio`, rama `codex/hostinger-static`, tras agregar el permiso autorizado. Estado y verificación en `docs/DEPLOYMENT.md`. H8 sigue IN PROGRESS; no implica DONE.
 
 Cuarta revisión de Proyectos — 2026-10-30: formato desktop apaisado desde 1280 px útiles, simetría/separación móvil, eliminación de captions y líneas públicas de créditos, y tilt leve con mouse implementados en CSS/TS/Astro, sin dependencias nuevas. Build/check limpios; ocho tamaños comprobados, diferencia entre márgenes móvil/tablet menor de 0,02 px, cuatro selecciones móviles simétricas, fuentes desktop correctas y tilt direccional/reset de navegación medidos. Reduced motion/touch revisados en código, sin nueva prueba física. Evidencia y límites en `qa/projects-refinement-report.md`, `qa/projects-refinement-results.json` y `qa/projects-refinement/`. No se declara aprobación visual final ni publicación; H8 permanece IN PROGRESS.
 

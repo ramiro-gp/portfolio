@@ -1,6 +1,6 @@
 # DECISIONS.md
 
-2026-10-30 — Ramiro autoriza deploy de la actualización y publicación automática desde Git si es posible. Se publica el build estático en Hostinger Premium. Para automatizar sin cambiar de plan se prepara GitHub Actions: `main` → check/build → `codex/hostinger-static` (sólo archivos públicos); Hostinger debe seguir esa rama. Activación pendiente del permiso a `portfolio` y conexión verificada. Detalles en `docs/DEPLOYMENT.md`.
+2026-10-30 — Ramiro autoriza deploy de la actualización y publicación automática desde Git si es posible. Se publica el build estático en Hostinger Premium. Para automatizar sin cambiar de plan se configura GitHub Actions: `main` → check/build → `codex/hostinger-static` (sólo archivos públicos). Ramiro autoriza agregar el acceso a `portfolio`; conexión a esa rama, primera compilación y deploy confirmados. Detalles en `docs/DEPLOYMENT.md`.
 
 ## 2026-10-30 — Formatos responsive, centrado visible y tilt leve
 

@@ -237,7 +237,7 @@ No agregar trackers por defecto.
 
 ## Deployment
 
-Actualización autorizada — 2026-10-30: build del Hero/carrusel publicado en Hostinger; preparación de CI para generar una rama con sólo archivos estáticos a partir de `main`. Sustituye la restricción anterior de publicación exclusivamente manual. Activación de la integración Git pendiente del permiso de acceso a `portfolio` y conexión a la rama generada; no publicar `main` directamente. Procedimiento, evidencia y rollback en `docs/DEPLOYMENT.md`.
+Actualización autorizada — 2026-10-30: build del Hero/carrusel publicado en Hostinger; CI genera una rama con sólo archivos estáticos a partir de `main`. Sustituye la restricción anterior de publicación exclusivamente manual. Integración Git conectada a `portfolio`, rama `codex/hostinger-static`, tras permiso autorizado; primera compilación y deploy confirmados. No publicar `main` directamente. Procedimiento, evidencia y rollback en `docs/DEPLOYMENT.md`.
 
 Hosting definitivo: **Hostinger**, confirmado por Ramiro para V2-H8 el 2026-09-25. La publicación es manual: compilar localmente y subir el contenido de `dist/` a la raíz pública del sitio en hPanel. No se añade adapter, backend ni integración de build con Hostinger. El alias de Vercel conserva sólo su función de QA.
 
