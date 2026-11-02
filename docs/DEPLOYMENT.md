@@ -1,5 +1,13 @@
 # Hostinger — ramita.dev
 
+## Activación GA4 del 2026-11-02
+
+Se publica GA4 estándar gratuito con el ID real `G-SM3PHE0FHT`, tras comprobar la cuenta autorizada y crear una propiedad separada de Residencias. Variable pública de repositorio configurada y comprobada; sin secrets de Analytics, nuevas dependencias o suscripciones. Aviso compacto, aceptación/rechazo, preferencias en footer, política actualizada y atribución desde orígenes públicos de buscadores sin búsquedas/query/hash. Los clics de contacto miden intención; no se convierten todos los eventos en leads.
+
+Último código publicado: `1677d6b597bb95304b4839b952fc889d1fc47a99`, [CI 41507466764](https://github.com/ramiro-gp/portfolio/actions/runs/41507466764) correcto; salida compilada `1763fd8717feb77b308ab69d09b942a376582677`. Verificación real: 638 checks públicos sin fallos, 31 archivos públicos contrastados con el build, doce alias 301 y tres 404 correctos, cinco destinos externos accesibles. 25 escenarios finales en producción/fixture, sin errores. Siete documentos W3C válidos; 15 casos de referrer y 566 checks de HTML generado correctos. Transporte real de once eventos HTTP204 y **recepción de visita/CTA comprobada dentro de Tiempo real de GA4**; los eventos de QA no son leads.
+
+Search Console existente reutilizado, propietario verificado, cinco URLs comerciales indexadas con canonical propia y prueba en directo de home correcta. Sitemap actualizado enviado una vez y vínculo GA4↔Search Console confirmado. Sin tocar DNS, correo o protección CDN. La nueva lectura del sitemap e informes históricos requieren procesamiento de Google; no se declara indexada la utilidad Privacidad. Configuración, baseline, informes y limitaciones en [ANALYTICS.md](ANALYTICS.md). Backup previo en `release/seo-backup-before-ga4-2026-11-02/`; comparativa posterior en `release/seo-public-ga4-final-2026-11-02/`. Se conserva el estado de H8.
+
 ## Publicación SEO del 2026-11-02
 
 Cambios autorizados publicados desde `984da790cb502572dacc16236c87eb6abca25074`, [CI 41499497113](https://github.com/ramiro-gp/portfolio/actions/runs/41499497113) correcto, salida compilada `1d19433a382ffecaeff5c54ad8c3f9d590fec209`. Sigue el mismo sitio/cuenta/raíz y la integración automática existente. CI añade el checker del HTML inicial antes de actualizar la rama pública. Se publican consolidación 301 de alias index.html, schema/OG/sitemap, resúmenes factuales y privacidad; GA permanece desactivado sin ID real y no hay nuevo aviso visible de cookies. No se cambian DNS, correo, dependencias ni protecciones CDN.

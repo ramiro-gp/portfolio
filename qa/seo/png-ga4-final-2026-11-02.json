@@ -1,0 +1,29 @@
+{
+  "basis": "SHA256 matches prior delivered bytes whose RGBA and ICC were verified against unchanged source images",
+  "files": [
+    {
+      "path": "apple-touch-icon.png",
+      "identicalPreviouslyPixelVerifiedDelivery": true
+    },
+    {
+      "path": "social/ramita-en.png",
+      "identicalPreviouslyPixelVerifiedDelivery": true
+    },
+    {
+      "path": "social/ramita-es.png",
+      "identicalPreviouslyPixelVerifiedDelivery": true
+    },
+    {
+      "path": "social/ramita-fr.png",
+      "identicalPreviouslyPixelVerifiedDelivery": true
+    },
+    {
+      "path": "social/ramita-ja.png",
+      "identicalPreviouslyPixelVerifiedDelivery": true
+    },
+    {
+      "path": "social/ramita-pt.png",
+      "identicalPreviouslyPixelVerifiedDelivery": true
+    }
+  ]
+}

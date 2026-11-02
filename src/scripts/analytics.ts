@@ -27,9 +27,10 @@ function sectionOf(element: Element): string {
   if (element.closest('footer')) return 'footer';
   return sections[element.closest('main > section')?.id || ''] || 'page';
 }
-function event(name: string, section: string, destination: string): void {
+function event(name: string, section: string, destination: string, complete?: () => void): void {
   if (!accepted) return;
-  win.gtag?.('event', name, { page_id: pageId, section_id: section, destination_id: destination, site_language: document.documentElement.lang });
+  win.gtag?.('event', name, { page_id: pageId, section_id: section, destination_id: destination, site_language: document.documentElement.lang,
+    ...(complete ? { event_callback: complete, event_timeout: 250 } : {}) });
 }
 function readChoice(): boolean | null {
   try {
@@ -106,7 +107,20 @@ if (notice && /^G-[A-Z0-9]+$/.test(id) && pageId && location.hostname === 'ramit
     const link = click.target.closest('a');
     if (!link) return;
     const known = destinations[link.href];
-    if (known) { event(known[0], sectionOf(link), known[1]); return; }
+    if (known) {
+      // Let the tag process an outbound event before this document disappears.
+      // Modified/new-tab clicks keep their native behavior; blocked tags cannot
+      // prevent navigation. A callback and independent timer share one guard.
+      const leavesDocument = /^https?:/.test(link.protocol) && !link.target;
+      if (accepted && leavesDocument && !click.defaultPrevented && click.button === 0 && !click.ctrlKey && !click.metaKey && !click.shiftKey && !click.altKey) {
+        click.preventDefault();
+        let navigated = false;
+        const continueNavigation = () => { if (!navigated) { navigated = true; location.assign(link.href); } };
+        window.setTimeout(continueNavigation, 250);
+        event(known[0], sectionOf(link), known[1], continueNavigation);
+      } else event(known[0], sectionOf(link), known[1]);
+      return;
+    }
     const url = new URL(link.href);
     if (url.origin !== location.origin || url.pathname !== location.pathname) return;
     const destination = sections[url.hash.slice(1)];

@@ -2,7 +2,7 @@
 
 ## Reglas activas
 
-Misión SEO avanzada autorizada — 2026-11-02: alcance transversal limitado a auditoría/investigación, correcciones SEO, resúmenes factuales, medición comercial con consentimiento y publicación en ramita.dev. No rediseña ni cierra hitos previos. Implementación, línea de base, validación, publicación y pendientes de acceso a Google se documentan en `docs/SEO-2026-11.md`; H8 permanece IN PROGRESS / NOT DONE.
+Misión SEO avanzada autorizada — 2026-11-02: alcance transversal limitado a auditoría/investigación, correcciones SEO, resúmenes factuales, medición comercial con consentimiento y publicación en ramita.dev. No rediseña ni cierra hitos previos. Implementación, línea de base y validación en `docs/SEO-2026-11.md`; continuación gratuita, GA4 publicado con recepción comprobada y propiedad existente de Search Console verificada en `docs/ANALYTICS.md`. No quedan bloqueos de acceso a Google; el sitemap actualizado e informes históricos requieren procesamiento externo. H8 permanece IN PROGRESS / NOT DONE.
 
 Publicación autorizada — 2026-10-30: Hero/carrusel publicados en `ramita.dev` desde el build estático de `b268ba5`, con respaldo local, reglas www/404 preservadas y caché purgada. GitHub Actions validó y generó la rama compilada; Hostinger confirmó deploy desde `portfolio`, rama `codex/hostinger-static`, tras agregar el permiso autorizado. Estado y verificación en `docs/DEPLOYMENT.md`. H8 sigue IN PROGRESS; no implica DONE.
 

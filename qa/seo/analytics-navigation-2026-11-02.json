@@ -1,0 +1,26 @@
+{
+  "at": "2026-11-02T19:18:13.227Z",
+  "simulated": true,
+  "cases": [
+    {
+      "mode": "rejected",
+      "simulatedNavigations": 1,
+      "elapsedMs": 51
+    },
+    {
+      "mode": "callback",
+      "simulatedNavigations": 1,
+      "elapsedMs": 83
+    },
+    {
+      "mode": "blocked-tag",
+      "simulatedNavigations": 1,
+      "elapsedMs": 319
+    },
+    {
+      "mode": "modified-click",
+      "nativeBehaviorPreserved": true
+    }
+  ],
+  "errors": []
+}
