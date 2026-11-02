@@ -6,6 +6,7 @@ const assert = require('node:assert/strict');
 const { chromium } = require('C:/Users/ramiro/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 const root = path.resolve(__dirname, '..');
 const label = process.env.QA_LABEL || 'local-2026-11-02';
+const analyticsEnabled = process.env.QA_ANALYTICS_ACTIVE === '1';
 const out = path.join(root, 'qa/seo', `advanced-${label}`);
 if (fs.existsSync(out)) throw Error('Use a new QA_LABEL to preserve evidence.');
 fs.mkdirSync(out);
@@ -47,7 +48,8 @@ async function state(page) {
       await page.evaluate(()=>document.fonts.ready);
       const actual = await state(page);
       assert.equal(actual.lang,lang); assert.equal(actual.h1,1); assert.equal(actual.services,3); assert.equal(actual.projects,4); assert.equal(actual.missingAlt,0); assert.ok(actual.overflow<=1);
-      assert.equal(actual.google,false); assert.equal(actual.banner,false);
+      assert.equal(actual.google,false); assert.equal(actual.banner,analyticsEnabled);
+      if (analyticsEnabled) await page.locator('[data-consent-reject]').click();
       const serviceSchema = actual.schema.filter(x=>x['@type']==='Service');
       assert.equal(serviceSchema.length,3);
       for (const service of serviceSchema) {
@@ -94,6 +96,7 @@ async function state(page) {
   }
   const privacyContext=await contextFor('dist');const privacy=await privacyContext.newPage();
   await privacy.goto('https://ramita.dev/privacidad/'); assert.equal(await privacy.locator('h1').textContent(),'Privacidad y cookies');
+  if (analyticsEnabled) await privacy.locator('[data-consent-reject]').click();
   assert.equal(await privacy.locator('link[rel=canonical]').getAttribute('href'),'https://ramita.dev/privacidad/');
   await privacy.screenshot({path:path.join(out,'privacy-390.png')});await privacyContext.close();
   // A separate build with a synthetic stream ID tests acceptance/rejection without a real account.
@@ -150,6 +153,7 @@ async function state(page) {
   for (const lang of ['es','ja']) {
     const context=await contextFor('dist',{viewport:{width:320,height:740}});const page=await context.newPage();
     await page.goto('https://ramita.dev'+(lang==='es'?'/':'/ja/'));
+    if (analyticsEnabled) await page.locator('[data-consent-reject]').click();
     await page.addStyleTag({content:'html{font-size:200% !important}'});
     assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth<=1));
     await page.locator('footer').scrollIntoViewIfNeeded();await page.screenshot({path:path.join(out,`${lang}-320-text200.png`)});
