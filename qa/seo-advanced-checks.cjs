@@ -101,7 +101,7 @@ async function state(page) {
   await privacy.screenshot({path:path.join(out,'privacy-390.png')});await privacyContext.close();
   // A separate build with a synthetic stream ID tests acceptance/rejection without a real account.
   const context=await contextFor('.cache/seo-analytics-dist');const page=await context.newPage();
-  await page.goto('https://ramita.dev/?email=private%40example.com#sensitive');
+  await page.goto('https://ramita.dev/?email=private%40example.com#sensitive',{referer:'https://www.google.com/search?q=DO_NOT_TRANSMIT&email=private%40example.com'});
   assert.equal(await page.locator('[data-consent-notice]').isVisible(),true);
   assert.equal(await page.locator('script[src*="googletagmanager"]').count(),0);
   await page.locator('[data-consent-reject]').click();
@@ -132,8 +132,9 @@ async function state(page) {
   assert.ok(events.some(x=>x[1]==='contact_click'&&x[2].section_id==='header'));
   for(const name of ['social_click','cta_click','project_visit','contact_copy']) assert.equal(events.filter(x=>x[1]===name).length,1);
   assert.equal(commands.find(x=>x[0]==='config')[2].page_location,'https://ramita.dev/');
-  assert.equal(commands.find(x=>x[0]==='config')[2].page_referrer,'');
-  assert.ok(!JSON.stringify(commands).includes('private%40') && !JSON.stringify(commands).includes('sensitive'));
+  assert.equal(commands.find(x=>x[0]==='config')[2].page_referrer,'https://www.google.com/');
+  assert.equal(commands.find(x=>x[0]==='config')[2].ignore_referrer,false);
+  assert.ok(!JSON.stringify(commands).includes('private%40') && !JSON.stringify(commands).includes('sensitive') && !JSON.stringify(commands).includes('DO_NOT_TRANSMIT'));
   const before=events.length;
   await context.addCookies([{name:'_ga',value:'test',domain:'ramita.dev',path:'/',secure:true},{name:'_ga_TEST1234',value:'test',domain:'.ramita.dev',path:'/',secure:true}]);
   await page.locator('[data-consent-preferences]').click();await page.locator('[data-consent-reject]').click();

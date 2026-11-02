@@ -1,0 +1,162 @@
+{
+  "startedAt": "2026-11-02T18:53:15.636Z",
+  "measurementId": "G-SM3PHE0FHT",
+  "testTraffic": true,
+  "debugMode": true,
+  "events": [
+    {
+      "event": "page_view",
+      "status": 204,
+      "endpoint": "www.google-analytics.com/g/collect",
+      "stream": "G-SM3PHE0FHT",
+      "page": "https://ramita.dev/",
+      "referrer": "",
+      "page_id": "home_es",
+      "section_id": "page",
+      "destination_id": "home_es",
+      "site_language": "es",
+      "debug": "true"
+    },
+    {
+      "event": "contact_click",
+      "status": 204,
+      "endpoint": "www.google-analytics.com/g/collect",
+      "stream": "G-SM3PHE0FHT",
+      "page": "https://ramita.dev/",
+      "referrer": "",
+      "page_id": "home_es",
+      "section_id": "contact",
+      "destination_id": "email",
+      "site_language": "es",
+      "debug": "true"
+    },
+    {
+      "event": "contact_click",
+      "status": 204,
+      "endpoint": "www.google-analytics.com/g/collect",
+      "stream": "G-SM3PHE0FHT",
+      "page": "https://ramita.dev/",
+      "referrer": "",
+      "page_id": "home_es",
+      "section_id": "contact",
+      "destination_id": "whatsapp",
+      "site_language": "es",
+      "debug": "true"
+    },
+    {
+      "event": "contact_copy",
+      "status": 204,
+      "endpoint": "www.google-analytics.com/g/collect",
+      "stream": "G-SM3PHE0FHT",
+      "page": "https://ramita.dev/",
+      "referrer": "",
+      "page_id": "home_es",
+      "section_id": "contact",
+      "destination_id": "email",
+      "site_language": "es",
+      "debug": "true"
+    },
+    {
+      "event": "social_click",
+      "status": 204,
+      "endpoint": "www.google-analytics.com/g/collect",
+      "stream": "G-SM3PHE0FHT",
+      "page": "https://ramita.dev/",
+      "referrer": "",
+      "page_id": "home_es",
+      "section_id": "about",
+      "destination_id": "github",
+      "site_language": "es",
+      "debug": "true"
+    },
+    {
+      "event": "cta_click",
+      "status": 204,
+      "endpoint": "www.google-analytics.com/g/collect",
+      "stream": "G-SM3PHE0FHT",
+      "page": "https://ramita.dev/",
+      "referrer": "",
+      "page_id": "home_es",
+      "section_id": "hero",
+      "destination_id": "contact",
+      "site_language": "es",
+      "debug": "true"
+    },
+    {
+      "event": "contact_click",
+      "status": 204,
+      "endpoint": "www.google-analytics.com/g/collect",
+      "stream": "G-SM3PHE0FHT",
+      "page": "https://ramita.dev/",
+      "referrer": "",
+      "page_id": "home_es",
+      "section_id": "header",
+      "destination_id": "email",
+      "site_language": "es",
+      "debug": "true"
+    },
+    {
+      "event": "project_visit",
+      "status": 204,
+      "endpoint": "www.google-analytics.com/g/collect",
+      "stream": "G-SM3PHE0FHT",
+      "page": "https://ramita.dev/",
+      "referrer": "",
+      "page_id": "home_es",
+      "section_id": "projects",
+      "destination_id": "residencias",
+      "site_language": "es",
+      "debug": "true"
+    },
+    {
+      "event": "project_visit",
+      "status": 204,
+      "endpoint": "www.google-analytics.com/g/collect",
+      "stream": "G-SM3PHE0FHT",
+      "page": "https://ramita.dev/",
+      "referrer": "",
+      "page_id": "home_es",
+      "section_id": "projects",
+      "destination_id": "jlaberturas",
+      "site_language": "es",
+      "debug": "true"
+    },
+    {
+      "event": "project_visit",
+      "status": 204,
+      "endpoint": "www.google-analytics.com/g/collect",
+      "stream": "G-SM3PHE0FHT",
+      "page": "https://ramita.dev/",
+      "referrer": "",
+      "page_id": "home_es",
+      "section_id": "projects",
+      "destination_id": "veganrecords",
+      "site_language": "es",
+      "debug": "true"
+    },
+    {
+      "event": "project_visit",
+      "status": 204,
+      "endpoint": "www.google-analytics.com/g/collect",
+      "stream": "G-SM3PHE0FHT",
+      "page": "https://ramita.dev/",
+      "referrer": "",
+      "page_id": "home_es",
+      "section_id": "projects",
+      "destination_id": "lingohive",
+      "site_language": "es",
+      "debug": "true"
+    }
+  ],
+  "errors": [],
+  "limits": [
+    "Transport acceptance is not proof of processed reports; confirm separately in GA DebugView/Realtime.",
+    "No client/session IDs, IPs, cookie values or full request URLs saved."
+  ],
+  "consent": {
+    "noRequestsBeforeAcceptance": true,
+    "rejectionPersisted": true,
+    "revocationStopsCollection": true,
+    "analyticsCookiesRemoved": true
+  }
+}

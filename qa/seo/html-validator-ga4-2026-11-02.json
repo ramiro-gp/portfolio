@@ -1,0 +1,37 @@
+[
+  {
+    "file": "index.html",
+    "status": 200,
+    "messages": []
+  },
+  {
+    "file": "en/index.html",
+    "status": 200,
+    "messages": []
+  },
+  {
+    "file": "pt/index.html",
+    "status": 200,
+    "messages": []
+  },
+  {
+    "file": "fr/index.html",
+    "status": 200,
+    "messages": []
+  },
+  {
+    "file": "ja/index.html",
+    "status": 200,
+    "messages": []
+  },
+  {
+    "file": "privacidad/index.html",
+    "status": 200,
+    "messages": []
+  },
+  {
+    "file": "404.html",
+    "status": 200,
+    "messages": []
+  }
+]

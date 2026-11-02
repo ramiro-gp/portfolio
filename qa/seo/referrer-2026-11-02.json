@@ -1,0 +1,6 @@
+{
+  "date": "2026-11-02T19:04:16.029Z",
+  "cases": 15,
+  "failures": 0,
+  "scope": "Pure allowlist: public search origins only, no query/path/private host."
+}

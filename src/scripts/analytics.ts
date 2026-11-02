@@ -1,6 +1,6 @@
 // Basic consent: no Google script, pings or event backlog before acceptance.
 // Event parameters are enums. Never forward href, text, clipboard or input values.
-export {};
+import { searchReferrer } from './search-referrer';
 type Gtag = (...args: unknown[]) => void;
 type AnalyticsWindow = Window & { dataLayer?: unknown[]; gtag?: Gtag; [key: `ga-disable-${string}`]: boolean };
 const win = window as unknown as AnalyticsWindow;
@@ -46,12 +46,13 @@ function start(): void {
   win.gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' });
   win.gtag('consent', 'update', { analytics_storage: 'granted' });
   win.gtag('js', new Date());
+  const referrer = searchReferrer(document.referrer);
   win.gtag('config', id, {
     send_page_view: false,
     page_location: `https://ramita.dev${location.pathname}`,
-    page_referrer: '',
+    page_referrer: referrer,
     page_title: document.title,
-    ignore_referrer: true,
+    ignore_referrer: !referrer,
     allow_google_signals: false,
     allow_ad_personalization_signals: false,
     cookie_expires: lifetime / 1000,

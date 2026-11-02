@@ -1,0 +1,28 @@
+{
+  "startedAt": "2026-11-02T18:51:58.629Z",
+  "measurementId": "G-SM3PHE0FHT",
+  "testTraffic": true,
+  "debugMode": true,
+  "events": [
+    {
+      "event": "page_view",
+      "status": 204,
+      "endpoint": "www.google-analytics.com/g/collect",
+      "stream": "G-SM3PHE0FHT",
+      "page": "https://ramita.dev/",
+      "referrer": "",
+      "page_id": "home_es",
+      "section_id": "page",
+      "destination_id": "home_es",
+      "site_language": "es",
+      "debug": "true"
+    }
+  ],
+  "errors": [
+    "AssertionError [ERR_ASSERTION]: Missing transport for contact_click\n    at C:\\Codigo\\portfolio\\qa\\ga4-reception-checks.cjs:77:115"
+  ],
+  "limits": [
+    "Transport acceptance is not proof of processed reports; confirm separately in GA DebugView/Realtime.",
+    "No client/session IDs, IPs, cookie values or full request URLs saved."
+  ]
+}
