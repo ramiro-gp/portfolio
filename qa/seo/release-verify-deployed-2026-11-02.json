@@ -1,0 +1,538 @@
+{
+  "at": "2026-11-02T18:20:33.025Z",
+  "mode": "verify",
+  "files": [
+    {
+      "path": "404.html",
+      "status": 200,
+      "bytes": 3857,
+      "sha256": "6154dc52c4f76957c239f3d428fc2c7197b3f44c00eb6b25ead8662eb593cfb4",
+      "matchesBuild": true
+    },
+    {
+      "path": "apple-touch-icon.png",
+      "status": 200,
+      "bytes": 2668,
+      "sha256": "a8c72265e185c2504b665a7ca87ed1a56ccc074e16851089b1dcd62a602382ef",
+      "matchesBuild": false
+    },
+    {
+      "path": "en/index.html",
+      "status": 200,
+      "bytes": 33148,
+      "sha256": "4b690b6b3778c2c578aec06b03cd046e9ebdd83105a7331c3ede5d5f6678c1b6",
+      "matchesBuild": true
+    },
+    {
+      "path": "favicon.ico",
+      "status": 200,
+      "bytes": 2355,
+      "sha256": "1eb7c4c4f4c620fcb39ce3b47ccba7b13b80e1ea7ab195de6426b8d16e16bb96",
+      "matchesBuild": true
+    },
+    {
+      "path": "favicon.svg",
+      "status": 200,
+      "bytes": 965,
+      "sha256": "e370450955f9390ca4970ecf374ff6633e5a5bd72b7068b23e9915a6835e8f4c",
+      "matchesBuild": false
+    },
+    {
+      "path": "fonts/InstrumentSans.woff2",
+      "status": 200,
+      "bytes": 88676,
+      "sha256": "22458a6296d82f136f3d0eb5d5a6c5a11ef4fd2ca3a5fd55d0836ab4dfea6eb1",
+      "matchesBuild": true
+    },
+    {
+      "path": "fonts/NotoSansJP-ja.woff2",
+      "status": 200,
+      "bytes": 95620,
+      "sha256": "0c5370732e6dfbbecff32a7a6c8b356034e969142e6613477964c0c5efe9fc59",
+      "matchesBuild": true
+    },
+    {
+      "path": "fonts/OFL-Noto-Sans-JP.txt",
+      "status": 200,
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "matchesBuild": true
+    },
+    {
+      "path": "fr/index.html",
+      "status": 200,
+      "bytes": 34045,
+      "sha256": "6e1e8eb8f08678bde1fbad4a0d8b4866b74ad1ea00078c7dacf38c2e03d06385",
+      "matchesBuild": true
+    },
+    {
+      "path": "images/jlaberturas-desktop.webp",
+      "status": 200,
+      "bytes": 36920,
+      "sha256": "cf6efeb7c62102b11ec8ff7c8b2b41379d37eee0c90fd9af266e8caf9dc6aa4f",
+      "matchesBuild": true
+    },
+    {
+      "path": "images/jlaberturas-mobile.webp",
+      "status": 200,
+      "bytes": 20142,
+      "sha256": "ef7af240b67d7e2ccf855b7481b7ea651c5bcc7937a387ecf7ce7e631a84acbd",
+      "matchesBuild": true
+    },
+    {
+      "path": "images/lingohive-desktop.webp",
+      "status": 200,
+      "bytes": 54662,
+      "sha256": "7874b7cdb56acca5d5c6e534386a430c138920ffdf75f7f9d006d8221ded50eb",
+      "matchesBuild": true
+    },
+    {
+      "path": "images/lingohive-mobile.webp",
+      "status": 200,
+      "bytes": 25176,
+      "sha256": "1c1aa8ff4fc6dfce1d310c4789434c9977382b1983d39a1fee62e668bbf788d8",
+      "matchesBuild": true
+    },
+    {
+      "path": "images/residencias-desktop.webp",
+      "status": 200,
+      "bytes": 110488,
+      "sha256": "fbd7cc05c466b696cc1fae9c6160e077753ddbe9408c4f63ee1e313a873b7e6a",
+      "matchesBuild": true
+    },
+    {
+      "path": "images/residencias-mobile.webp",
+      "status": 200,
+      "bytes": 40126,
+      "sha256": "31a98817b31fed31dd7f3c4547642b35f5a4417962aa192ab5f8c379018084a4",
+      "matchesBuild": true
+    },
+    {
+      "path": "images/veganrecords-desktop.webp",
+      "status": 200,
+      "bytes": 42476,
+      "sha256": "9f0146cf484a751919a89afdb339dbcf1ca83c18410b5efae1994fc917b297b2",
+      "matchesBuild": true
+    },
+    {
+      "path": "images/veganrecords-mobile.webp",
+      "status": 200,
+      "bytes": 23526,
+      "sha256": "32f60f93c8d8d289c756268373bfa3f5044b24460e6d2ae5be9ff902d0ac8e30",
+      "matchesBuild": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 33263,
+      "sha256": "0ea5eaaf1740494fac9c0020e53def2210eef2e0b9f47b998fecb822ee6a8127",
+      "matchesBuild": true
+    },
+    {
+      "path": "ja/index.html",
+      "status": 200,
+      "bytes": 34882,
+      "sha256": "e8db57b98f58f70ff03ae2ecd2b1dd6b1109e48fae83c3905ce338ba56f4eb60",
+      "matchesBuild": true
+    },
+    {
+      "path": "privacidad/index.html",
+      "status": 200,
+      "bytes": 7559,
+      "sha256": "608a115668fd27e3e0ddab8011643b1c305ed0e8ebe3da214491079d6e35168f",
+      "matchesBuild": true
+    },
+    {
+      "path": "pt/index.html",
+      "status": 200,
+      "bytes": 33438,
+      "sha256": "a319a6edfcbe27c884c2429d7ee7091b15c492d01748a3e0898e9f2e3865cf14",
+      "matchesBuild": true
+    },
+    {
+      "path": "robots.txt",
+      "status": 200,
+      "bytes": 63,
+      "sha256": "63f7267e6a7d579a3b60acb7e01eb4991a81ec39ac16907efe53d91a8ebc46da",
+      "matchesBuild": true
+    },
+    {
+      "path": "sitemap.xml",
+      "status": 200,
+      "bytes": 2616,
+      "sha256": "3da291ca6e99a78ce9e681ed2d8c94c4b67b2f90bcd5b254ff43ee7e82790ae7",
+      "matchesBuild": true
+    },
+    {
+      "path": "social/ramita-en.png",
+      "status": 200,
+      "bytes": 75190,
+      "sha256": "451716bb32523042ace351e7ea391eb9419fad7670f3c6247c2b62bbb1123b7d",
+      "matchesBuild": false
+    },
+    {
+      "path": "social/ramita-es.png",
+      "status": 200,
+      "bytes": 75928,
+      "sha256": "e813b4cbcf43847e87414f07bb4e554c1ffba6f01c822efb5b37e94e17ddd41e",
+      "matchesBuild": false
+    },
+    {
+      "path": "social/ramita-fr.png",
+      "status": 200,
+      "bytes": 67401,
+      "sha256": "53c06fb9fd9092abd11ba2d051d24873bb0549ed04e791ac43c867d2490298c4",
+      "matchesBuild": false
+    },
+    {
+      "path": "social/ramita-ja.png",
+      "status": 200,
+      "bytes": 69333,
+      "sha256": "c9adffd69f2f94023504093cf768e6c85b10f8ebeaddd0d4c7b9a76653afe460",
+      "matchesBuild": false
+    },
+    {
+      "path": "social/ramita-pt.png",
+      "status": 200,
+      "bytes": 60539,
+      "sha256": "28863280ebfb9ff9a2572777cb1d3f8d94d8e96fc3bdffa00623fc7833d4a3a4",
+      "matchesBuild": false
+    },
+    {
+      "path": "_astro/BaseLayout.astro_astro_type_script_index_0_lang.MohQNp3x.js",
+      "status": 200,
+      "bytes": 23384,
+      "sha256": "1b8247948880ca4037c0455c4724e5a9a781a840fbfb0687a0c80dcc6636f134",
+      "matchesBuild": true
+    },
+    {
+      "path": "_astro/global.o3I8LWFY.css",
+      "status": 200,
+      "bytes": 34671,
+      "sha256": "9a1bfb9f277b7d11cf9bc6c57a09f89a03a02e8f6a6e19050aef8664b4093498",
+      "matchesBuild": true
+    }
+  ],
+  "redirects": [
+    {
+      "url": "https://ramita.dev/index.html?keep=a%2Bb&seo-audit=20261102",
+      "status": 301,
+      "location": "https://ramita.dev/?keep=a%2Bb&seo-audit=20261102",
+      "expected": "https://ramita.dev/?keep=a%2Bb&seo-audit=20261102"
+    },
+    {
+      "url": "https://www.ramita.dev/index.html?keep=a%2Bb&seo-audit=20261102",
+      "status": 301,
+      "location": "https://ramita.dev/?keep=a%2Bb&seo-audit=20261102",
+      "expected": "https://ramita.dev/?keep=a%2Bb&seo-audit=20261102"
+    },
+    {
+      "url": "https://ramita.dev/en/index.html?keep=a%2Bb&seo-audit=20261102",
+      "status": 301,
+      "location": "https://ramita.dev/en/?keep=a%2Bb&seo-audit=20261102",
+      "expected": "https://ramita.dev/en/?keep=a%2Bb&seo-audit=20261102"
+    },
+    {
+      "url": "https://www.ramita.dev/en/index.html?keep=a%2Bb&seo-audit=20261102",
+      "status": 301,
+      "location": "https://ramita.dev/en/?keep=a%2Bb&seo-audit=20261102",
+      "expected": "https://ramita.dev/en/?keep=a%2Bb&seo-audit=20261102"
+    },
+    {
+      "url": "https://ramita.dev/pt/index.html?keep=a%2Bb&seo-audit=20261102",
+      "status": 301,
+      "location": "https://ramita.dev/pt/?keep=a%2Bb&seo-audit=20261102",
+      "expected": "https://ramita.dev/pt/?keep=a%2Bb&seo-audit=20261102"
+    },
+    {
+      "url": "https://www.ramita.dev/pt/index.html?keep=a%2Bb&seo-audit=20261102",
+      "status": 301,
+      "location": "https://ramita.dev/pt/?keep=a%2Bb&seo-audit=20261102",
+      "expected": "https://ramita.dev/pt/?keep=a%2Bb&seo-audit=20261102"
+    },
+    {
+      "url": "https://ramita.dev/fr/index.html?keep=a%2Bb&seo-audit=20261102",
+      "status": 301,
+      "location": "https://ramita.dev/fr/?keep=a%2Bb&seo-audit=20261102",
+      "expected": "https://ramita.dev/fr/?keep=a%2Bb&seo-audit=20261102"
+    },
+    {
+      "url": "https://www.ramita.dev/fr/index.html?keep=a%2Bb&seo-audit=20261102",
+      "status": 301,
+      "location": "https://ramita.dev/fr/?keep=a%2Bb&seo-audit=20261102",
+      "expected": "https://ramita.dev/fr/?keep=a%2Bb&seo-audit=20261102"
+    },
+    {
+      "url": "https://ramita.dev/ja/index.html?keep=a%2Bb&seo-audit=20261102",
+      "status": 301,
+      "location": "https://ramita.dev/ja/?keep=a%2Bb&seo-audit=20261102",
+      "expected": "https://ramita.dev/ja/?keep=a%2Bb&seo-audit=20261102"
+    },
+    {
+      "url": "https://www.ramita.dev/ja/index.html?keep=a%2Bb&seo-audit=20261102",
+      "status": 301,
+      "location": "https://ramita.dev/ja/?keep=a%2Bb&seo-audit=20261102",
+      "expected": "https://ramita.dev/ja/?keep=a%2Bb&seo-audit=20261102"
+    },
+    {
+      "url": "https://ramita.dev/privacidad/index.html?keep=a%2Bb&seo-audit=20261102",
+      "status": 301,
+      "location": "https://ramita.dev/privacidad/?keep=a%2Bb&seo-audit=20261102",
+      "expected": "https://ramita.dev/privacidad/?keep=a%2Bb&seo-audit=20261102"
+    },
+    {
+      "url": "https://www.ramita.dev/privacidad/index.html?keep=a%2Bb&seo-audit=20261102",
+      "status": 301,
+      "location": "https://ramita.dev/privacidad/?keep=a%2Bb&seo-audit=20261102",
+      "expected": "https://ramita.dev/privacidad/?keep=a%2Bb&seo-audit=20261102"
+    },
+    {
+      "pathname": "/__seo-missing-20261102__/",
+      "status": 404,
+      "custom404": true
+    },
+    {
+      "pathname": "/en/__seo-missing-20261102__/",
+      "status": 404,
+      "custom404": true
+    },
+    {
+      "pathname": "/missing/index.html",
+      "status": 404,
+      "custom404": true
+    }
+  ],
+  "bots": [
+    {
+      "agent": "Googlebot",
+      "route": "/",
+      "status": 403,
+      "matchesBuild": false,
+      "robots": null
+    },
+    {
+      "agent": "Googlebot",
+      "route": "/en/",
+      "status": 403,
+      "matchesBuild": false,
+      "robots": null
+    },
+    {
+      "agent": "Googlebot",
+      "route": "/pt/",
+      "status": 403,
+      "matchesBuild": false,
+      "robots": null
+    },
+    {
+      "agent": "Googlebot",
+      "route": "/fr/",
+      "status": 403,
+      "matchesBuild": false,
+      "robots": null
+    },
+    {
+      "agent": "Googlebot",
+      "route": "/ja/",
+      "status": 403,
+      "matchesBuild": false,
+      "robots": null
+    },
+    {
+      "agent": "Googlebot",
+      "route": "/sitemap.xml",
+      "status": 200,
+      "matchesBuild": true,
+      "robots": null
+    },
+    {
+      "agent": "Googlebot",
+      "route": "/robots.txt",
+      "status": 200,
+      "matchesBuild": true,
+      "robots": null
+    },
+    {
+      "agent": "Bingbot",
+      "route": "/",
+      "status": 403,
+      "matchesBuild": false,
+      "robots": null
+    },
+    {
+      "agent": "Bingbot",
+      "route": "/en/",
+      "status": 403,
+      "matchesBuild": false,
+      "robots": null
+    },
+    {
+      "agent": "Bingbot",
+      "route": "/pt/",
+      "status": 403,
+      "matchesBuild": false,
+      "robots": null
+    },
+    {
+      "agent": "Bingbot",
+      "route": "/fr/",
+      "status": 403,
+      "matchesBuild": false,
+      "robots": null
+    },
+    {
+      "agent": "Bingbot",
+      "route": "/ja/",
+      "status": 403,
+      "matchesBuild": false,
+      "robots": null
+    },
+    {
+      "agent": "Bingbot",
+      "route": "/sitemap.xml",
+      "status": 200,
+      "matchesBuild": true,
+      "robots": null
+    },
+    {
+      "agent": "Bingbot",
+      "route": "/robots.txt",
+      "status": 200,
+      "matchesBuild": true,
+      "robots": null
+    },
+    {
+      "agent": "OAI-SearchBot",
+      "route": "/",
+      "status": 200,
+      "matchesBuild": true,
+      "robots": null
+    },
+    {
+      "agent": "OAI-SearchBot",
+      "route": "/en/",
+      "status": 200,
+      "matchesBuild": true,
+      "robots": null
+    },
+    {
+      "agent": "OAI-SearchBot",
+      "route": "/pt/",
+      "status": 200,
+      "matchesBuild": true,
+      "robots": null
+    },
+    {
+      "agent": "OAI-SearchBot",
+      "route": "/fr/",
+      "status": 200,
+      "matchesBuild": true,
+      "robots": null
+    },
+    {
+      "agent": "OAI-SearchBot",
+      "route": "/ja/",
+      "status": 200,
+      "matchesBuild": true,
+      "robots": null
+    },
+    {
+      "agent": "OAI-SearchBot",
+      "route": "/sitemap.xml",
+      "status": 200,
+      "matchesBuild": true,
+      "robots": null
+    },
+    {
+      "agent": "OAI-SearchBot",
+      "route": "/robots.txt",
+      "status": 200,
+      "matchesBuild": true,
+      "robots": null
+    }
+  ],
+  "external": [
+    {
+      "url": "https://github.com/ramiro-gp",
+      "status": 200,
+      "final": "https://github.com/ramiro-gp"
+    },
+    {
+      "url": "https://residenciasgrupocasa.com.ar/",
+      "status": 200,
+      "final": "https://residenciasgrupocasa.com.ar/"
+    },
+    {
+      "url": "https://jlaberturas.com.ar/",
+      "status": 200,
+      "final": "https://jlaberturas.com.ar/"
+    },
+    {
+      "url": "https://veganrecords.com.ar/",
+      "status": 200,
+      "final": "https://veganrecords.com.ar/"
+    },
+    {
+      "url": "https://lingo-hive.vercel.app/",
+      "status": 200,
+      "final": "https://lingo-hive.vercel.app/"
+    }
+  ],
+  "failures": [
+    {
+      "file": "favicon.svg",
+      "status": 200,
+      "matchesBuild": false
+    },
+    {
+      "agent": "Googlebot",
+      "route": "/",
+      "status": 403
+    },
+    {
+      "agent": "Googlebot",
+      "route": "/en/",
+      "status": 403
+    },
+    {
+      "agent": "Googlebot",
+      "route": "/pt/",
+      "status": 403
+    },
+    {
+      "agent": "Googlebot",
+      "route": "/fr/",
+      "status": 403
+    },
+    {
+      "agent": "Googlebot",
+      "route": "/ja/",
+      "status": 403
+    },
+    {
+      "agent": "Bingbot",
+      "route": "/",
+      "status": 403
+    },
+    {
+      "agent": "Bingbot",
+      "route": "/en/",
+      "status": 403
+    },
+    {
+      "agent": "Bingbot",
+      "route": "/pt/",
+      "status": 403
+    },
+    {
+      "agent": "Bingbot",
+      "route": "/fr/",
+      "status": 403
+    },
+    {
+      "agent": "Bingbot",
+      "route": "/ja/",
+      "status": 403
+    }
+  ]
+}

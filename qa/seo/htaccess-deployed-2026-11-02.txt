@@ -1,0 +1,13 @@
+# Production rules copied to dist/.htaccess by the static release workflow.
+# Hostinger manages HTTPS; preserve these www and custom 404 directives.
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+# THE_REQUEST prevents redirecting Apache's internal DirectoryIndex lookup.
+# Restrict this normalization to real pages; unknown paths must remain 404.
+RewriteCond %{THE_REQUEST} \s/+(?:(?:en|pt|fr|ja|privacidad)/)?index\.html(?:[?\s]) [NC]
+RewriteRule ^((?:(?:en|pt|fr|ja|privacidad)/)?)index\.html$ https://ramita.dev/$1 [R=301,L,NE]
+RewriteCond %{HTTP_HOST} ^www\.ramita\.dev$ [NC]
+RewriteRule ^ https://ramita.dev%{REQUEST_URI} [R=301,L,NE]
+</IfModule>

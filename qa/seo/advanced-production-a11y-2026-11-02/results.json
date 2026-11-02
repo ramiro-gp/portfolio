@@ -1,0 +1,1825 @@
+{
+  "label": "production-a11y-2026-11-02",
+  "at": "2026-11-02T18:24:35.004Z",
+  "scenarios": [
+    {
+      "lang": "es",
+      "width": 320,
+      "mode": "reduced-motion",
+      "overflow": 0,
+      "h1": 1,
+      "services": 3,
+      "projects": 4,
+      "missingAlt": 0,
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "@id": "https://ramita.dev/#ramiro",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://ramita.dev/#website",
+          "name": "ramita.dev",
+          "url": "https://ramita.dev/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": "https://ramita.dev/#webpage",
+          "url": "https://ramita.dev/",
+          "name": "Diseño web freelance en Argentina | ramita.dev",
+          "description": "Diseño y desarrollo de sitios institucionales y landing pages para negocios y profesionales. Trabajo directo con Ramiro Garcia, desde la definición hasta la publicación.",
+          "inLanguage": "es",
+          "isPartOf": {
+            "@id": "https://ramita.dev/#website"
+          },
+          "about": {
+            "@id": "https://ramita.dev/#ramiro"
+          },
+          "mainEntity": [
+            {
+              "@id": "https://ramita.dev/#servicio-institucionales"
+            },
+            {
+              "@id": "https://ramita.dev/#servicio-landing-pages"
+            },
+            {
+              "@id": "https://ramita.dev/#servicio-redisenos"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/#servicio-institucionales",
+          "name": "Sitios institucionales",
+          "description": "Para presentar tu actividad, explicar tus servicios y reunir la información de contacto en una web clara, tanto en computadora como en celular.",
+          "url": "https://ramita.dev/#servicio-institucionales",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/#servicio-landing-pages",
+          "name": "Landing pages",
+          "description": "Para un servicio, campaña o lanzamiento que necesita una página enfocada en explicar una propuesta y orientar al visitante hacia una acción principal.",
+          "url": "https://ramita.dev/#servicio-landing-pages",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/#servicio-redisenos",
+          "name": "Rediseños",
+          "description": "Para una web que necesita mejorar su estructura, diseño o adaptación a celulares. Primero evalúo si conviene trabajar sobre la base actual o reconstruirla.",
+          "url": "https://ramita.dev/#servicio-redisenos",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        }
+      ],
+      "banner": false,
+      "google": false
+    },
+    {
+      "lang": "es",
+      "width": 390,
+      "mode": "reduced-motion",
+      "overflow": 0,
+      "h1": 1,
+      "services": 3,
+      "projects": 4,
+      "missingAlt": 0,
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "@id": "https://ramita.dev/#ramiro",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://ramita.dev/#website",
+          "name": "ramita.dev",
+          "url": "https://ramita.dev/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": "https://ramita.dev/#webpage",
+          "url": "https://ramita.dev/",
+          "name": "Diseño web freelance en Argentina | ramita.dev",
+          "description": "Diseño y desarrollo de sitios institucionales y landing pages para negocios y profesionales. Trabajo directo con Ramiro Garcia, desde la definición hasta la publicación.",
+          "inLanguage": "es",
+          "isPartOf": {
+            "@id": "https://ramita.dev/#website"
+          },
+          "about": {
+            "@id": "https://ramita.dev/#ramiro"
+          },
+          "mainEntity": [
+            {
+              "@id": "https://ramita.dev/#servicio-institucionales"
+            },
+            {
+              "@id": "https://ramita.dev/#servicio-landing-pages"
+            },
+            {
+              "@id": "https://ramita.dev/#servicio-redisenos"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/#servicio-institucionales",
+          "name": "Sitios institucionales",
+          "description": "Para presentar tu actividad, explicar tus servicios y reunir la información de contacto en una web clara, tanto en computadora como en celular.",
+          "url": "https://ramita.dev/#servicio-institucionales",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/#servicio-landing-pages",
+          "name": "Landing pages",
+          "description": "Para un servicio, campaña o lanzamiento que necesita una página enfocada en explicar una propuesta y orientar al visitante hacia una acción principal.",
+          "url": "https://ramita.dev/#servicio-landing-pages",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/#servicio-redisenos",
+          "name": "Rediseños",
+          "description": "Para una web que necesita mejorar su estructura, diseño o adaptación a celulares. Primero evalúo si conviene trabajar sobre la base actual o reconstruirla.",
+          "url": "https://ramita.dev/#servicio-redisenos",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        }
+      ],
+      "banner": false,
+      "google": false,
+      "axe": []
+    },
+    {
+      "lang": "es",
+      "width": 768,
+      "mode": "reduced-motion",
+      "overflow": 0,
+      "h1": 1,
+      "services": 3,
+      "projects": 4,
+      "missingAlt": 0,
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "@id": "https://ramita.dev/#ramiro",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://ramita.dev/#website",
+          "name": "ramita.dev",
+          "url": "https://ramita.dev/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": "https://ramita.dev/#webpage",
+          "url": "https://ramita.dev/",
+          "name": "Diseño web freelance en Argentina | ramita.dev",
+          "description": "Diseño y desarrollo de sitios institucionales y landing pages para negocios y profesionales. Trabajo directo con Ramiro Garcia, desde la definición hasta la publicación.",
+          "inLanguage": "es",
+          "isPartOf": {
+            "@id": "https://ramita.dev/#website"
+          },
+          "about": {
+            "@id": "https://ramita.dev/#ramiro"
+          },
+          "mainEntity": [
+            {
+              "@id": "https://ramita.dev/#servicio-institucionales"
+            },
+            {
+              "@id": "https://ramita.dev/#servicio-landing-pages"
+            },
+            {
+              "@id": "https://ramita.dev/#servicio-redisenos"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/#servicio-institucionales",
+          "name": "Sitios institucionales",
+          "description": "Para presentar tu actividad, explicar tus servicios y reunir la información de contacto en una web clara, tanto en computadora como en celular.",
+          "url": "https://ramita.dev/#servicio-institucionales",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/#servicio-landing-pages",
+          "name": "Landing pages",
+          "description": "Para un servicio, campaña o lanzamiento que necesita una página enfocada en explicar una propuesta y orientar al visitante hacia una acción principal.",
+          "url": "https://ramita.dev/#servicio-landing-pages",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/#servicio-redisenos",
+          "name": "Rediseños",
+          "description": "Para una web que necesita mejorar su estructura, diseño o adaptación a celulares. Primero evalúo si conviene trabajar sobre la base actual o reconstruirla.",
+          "url": "https://ramita.dev/#servicio-redisenos",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        }
+      ],
+      "banner": false,
+      "google": false
+    },
+    {
+      "lang": "es",
+      "width": 1440,
+      "mode": "reduced-motion",
+      "overflow": 0,
+      "h1": 1,
+      "services": 3,
+      "projects": 4,
+      "missingAlt": 0,
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "@id": "https://ramita.dev/#ramiro",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://ramita.dev/#website",
+          "name": "ramita.dev",
+          "url": "https://ramita.dev/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": "https://ramita.dev/#webpage",
+          "url": "https://ramita.dev/",
+          "name": "Diseño web freelance en Argentina | ramita.dev",
+          "description": "Diseño y desarrollo de sitios institucionales y landing pages para negocios y profesionales. Trabajo directo con Ramiro Garcia, desde la definición hasta la publicación.",
+          "inLanguage": "es",
+          "isPartOf": {
+            "@id": "https://ramita.dev/#website"
+          },
+          "about": {
+            "@id": "https://ramita.dev/#ramiro"
+          },
+          "mainEntity": [
+            {
+              "@id": "https://ramita.dev/#servicio-institucionales"
+            },
+            {
+              "@id": "https://ramita.dev/#servicio-landing-pages"
+            },
+            {
+              "@id": "https://ramita.dev/#servicio-redisenos"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/#servicio-institucionales",
+          "name": "Sitios institucionales",
+          "description": "Para presentar tu actividad, explicar tus servicios y reunir la información de contacto en una web clara, tanto en computadora como en celular.",
+          "url": "https://ramita.dev/#servicio-institucionales",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/#servicio-landing-pages",
+          "name": "Landing pages",
+          "description": "Para un servicio, campaña o lanzamiento que necesita una página enfocada en explicar una propuesta y orientar al visitante hacia una acción principal.",
+          "url": "https://ramita.dev/#servicio-landing-pages",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/#servicio-redisenos",
+          "name": "Rediseños",
+          "description": "Para una web que necesita mejorar su estructura, diseño o adaptación a celulares. Primero evalúo si conviene trabajar sobre la base actual o reconstruirla.",
+          "url": "https://ramita.dev/#servicio-redisenos",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        }
+      ],
+      "banner": false,
+      "google": false,
+      "axe": []
+    },
+    {
+      "lang": "en",
+      "width": 320,
+      "mode": "reduced-motion",
+      "overflow": 0,
+      "h1": 1,
+      "services": 3,
+      "projects": 4,
+      "missingAlt": 0,
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "@id": "https://ramita.dev/#ramiro",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": "https://ramita.dev/en/#webpage",
+          "url": "https://ramita.dev/en/",
+          "name": "Freelance web design in Argentina | ramita.dev",
+          "description": "Design and development of business websites and landing pages. Work directly with Ramiro Garcia, from planning through launch.",
+          "inLanguage": "en",
+          "isPartOf": {
+            "@id": "https://ramita.dev/#website"
+          },
+          "about": {
+            "@id": "https://ramita.dev/#ramiro"
+          },
+          "mainEntity": [
+            {
+              "@id": "https://ramita.dev/en/#servicio-institucionales"
+            },
+            {
+              "@id": "https://ramita.dev/en/#servicio-landing-pages"
+            },
+            {
+              "@id": "https://ramita.dev/en/#servicio-redisenos"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/en/#servicio-institucionales",
+          "name": "Institutional websites",
+          "description": "To present your activity, explain your services and bring your contact details together in a clear website, on both desktop and mobile.",
+          "url": "https://ramita.dev/en/#servicio-institucionales",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/en/#servicio-landing-pages",
+          "name": "Landing pages",
+          "description": "For a service, campaign or launch that needs a focused page to explain a proposal and guide visitors toward one main action.",
+          "url": "https://ramita.dev/en/#servicio-landing-pages",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/en/#servicio-redisenos",
+          "name": "Redesigns",
+          "description": "For a website that needs a better structure, design or mobile experience. I first assess whether it makes sense to build on the current site or rebuild it.",
+          "url": "https://ramita.dev/en/#servicio-redisenos",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        }
+      ],
+      "banner": false,
+      "google": false
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "mode": "reduced-motion",
+      "overflow": 0,
+      "h1": 1,
+      "services": 3,
+      "projects": 4,
+      "missingAlt": 0,
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "@id": "https://ramita.dev/#ramiro",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": "https://ramita.dev/en/#webpage",
+          "url": "https://ramita.dev/en/",
+          "name": "Freelance web design in Argentina | ramita.dev",
+          "description": "Design and development of business websites and landing pages. Work directly with Ramiro Garcia, from planning through launch.",
+          "inLanguage": "en",
+          "isPartOf": {
+            "@id": "https://ramita.dev/#website"
+          },
+          "about": {
+            "@id": "https://ramita.dev/#ramiro"
+          },
+          "mainEntity": [
+            {
+              "@id": "https://ramita.dev/en/#servicio-institucionales"
+            },
+            {
+              "@id": "https://ramita.dev/en/#servicio-landing-pages"
+            },
+            {
+              "@id": "https://ramita.dev/en/#servicio-redisenos"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/en/#servicio-institucionales",
+          "name": "Institutional websites",
+          "description": "To present your activity, explain your services and bring your contact details together in a clear website, on both desktop and mobile.",
+          "url": "https://ramita.dev/en/#servicio-institucionales",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/en/#servicio-landing-pages",
+          "name": "Landing pages",
+          "description": "For a service, campaign or launch that needs a focused page to explain a proposal and guide visitors toward one main action.",
+          "url": "https://ramita.dev/en/#servicio-landing-pages",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/en/#servicio-redisenos",
+          "name": "Redesigns",
+          "description": "For a website that needs a better structure, design or mobile experience. I first assess whether it makes sense to build on the current site or rebuild it.",
+          "url": "https://ramita.dev/en/#servicio-redisenos",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        }
+      ],
+      "banner": false,
+      "google": false
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "mode": "reduced-motion",
+      "overflow": 0,
+      "h1": 1,
+      "services": 3,
+      "projects": 4,
+      "missingAlt": 0,
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "@id": "https://ramita.dev/#ramiro",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": "https://ramita.dev/en/#webpage",
+          "url": "https://ramita.dev/en/",
+          "name": "Freelance web design in Argentina | ramita.dev",
+          "description": "Design and development of business websites and landing pages. Work directly with Ramiro Garcia, from planning through launch.",
+          "inLanguage": "en",
+          "isPartOf": {
+            "@id": "https://ramita.dev/#website"
+          },
+          "about": {
+            "@id": "https://ramita.dev/#ramiro"
+          },
+          "mainEntity": [
+            {
+              "@id": "https://ramita.dev/en/#servicio-institucionales"
+            },
+            {
+              "@id": "https://ramita.dev/en/#servicio-landing-pages"
+            },
+            {
+              "@id": "https://ramita.dev/en/#servicio-redisenos"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/en/#servicio-institucionales",
+          "name": "Institutional websites",
+          "description": "To present your activity, explain your services and bring your contact details together in a clear website, on both desktop and mobile.",
+          "url": "https://ramita.dev/en/#servicio-institucionales",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/en/#servicio-landing-pages",
+          "name": "Landing pages",
+          "description": "For a service, campaign or launch that needs a focused page to explain a proposal and guide visitors toward one main action.",
+          "url": "https://ramita.dev/en/#servicio-landing-pages",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/en/#servicio-redisenos",
+          "name": "Redesigns",
+          "description": "For a website that needs a better structure, design or mobile experience. I first assess whether it makes sense to build on the current site or rebuild it.",
+          "url": "https://ramita.dev/en/#servicio-redisenos",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        }
+      ],
+      "banner": false,
+      "google": false
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "mode": "reduced-motion",
+      "overflow": 0,
+      "h1": 1,
+      "services": 3,
+      "projects": 4,
+      "missingAlt": 0,
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "@id": "https://ramita.dev/#ramiro",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": "https://ramita.dev/en/#webpage",
+          "url": "https://ramita.dev/en/",
+          "name": "Freelance web design in Argentina | ramita.dev",
+          "description": "Design and development of business websites and landing pages. Work directly with Ramiro Garcia, from planning through launch.",
+          "inLanguage": "en",
+          "isPartOf": {
+            "@id": "https://ramita.dev/#website"
+          },
+          "about": {
+            "@id": "https://ramita.dev/#ramiro"
+          },
+          "mainEntity": [
+            {
+              "@id": "https://ramita.dev/en/#servicio-institucionales"
+            },
+            {
+              "@id": "https://ramita.dev/en/#servicio-landing-pages"
+            },
+            {
+              "@id": "https://ramita.dev/en/#servicio-redisenos"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/en/#servicio-institucionales",
+          "name": "Institutional websites",
+          "description": "To present your activity, explain your services and bring your contact details together in a clear website, on both desktop and mobile.",
+          "url": "https://ramita.dev/en/#servicio-institucionales",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/en/#servicio-landing-pages",
+          "name": "Landing pages",
+          "description": "For a service, campaign or launch that needs a focused page to explain a proposal and guide visitors toward one main action.",
+          "url": "https://ramita.dev/en/#servicio-landing-pages",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/en/#servicio-redisenos",
+          "name": "Redesigns",
+          "description": "For a website that needs a better structure, design or mobile experience. I first assess whether it makes sense to build on the current site or rebuild it.",
+          "url": "https://ramita.dev/en/#servicio-redisenos",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        }
+      ],
+      "banner": false,
+      "google": false
+    },
+    {
+      "lang": "pt",
+      "width": 320,
+      "mode": "reduced-motion",
+      "overflow": 0,
+      "h1": 1,
+      "services": 3,
+      "projects": 4,
+      "missingAlt": 0,
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "@id": "https://ramita.dev/#ramiro",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": "https://ramita.dev/pt/#webpage",
+          "url": "https://ramita.dev/pt/",
+          "name": "Design de sites freelance na Argentina | ramita.dev",
+          "description": "Design e desenvolvimento de sites institucionais e landing pages para negócios e profissionais. Trabalho direto com Ramiro Garcia, da definição à publicação.",
+          "inLanguage": "pt",
+          "isPartOf": {
+            "@id": "https://ramita.dev/#website"
+          },
+          "about": {
+            "@id": "https://ramita.dev/#ramiro"
+          },
+          "mainEntity": [
+            {
+              "@id": "https://ramita.dev/pt/#servicio-institucionales"
+            },
+            {
+              "@id": "https://ramita.dev/pt/#servicio-landing-pages"
+            },
+            {
+              "@id": "https://ramita.dev/pt/#servicio-redisenos"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/pt/#servicio-institucionales",
+          "name": "Sites institucionais",
+          "description": "Para apresentar sua atividade, explicar seus serviços e reunir as informações de contato em um site claro, tanto no computador quanto no celular.",
+          "url": "https://ramita.dev/pt/#servicio-institucionales",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/pt/#servicio-landing-pages",
+          "name": "Landing pages",
+          "description": "Para um serviço, campanha ou lançamento que precisa de uma página focada em explicar uma proposta e orientar o visitante para uma ação principal.",
+          "url": "https://ramita.dev/pt/#servicio-landing-pages",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/pt/#servicio-redisenos",
+          "name": "Redesigns",
+          "description": "Para um site que precisa melhorar a estrutura, o design ou a responsividade. Primeiro avalio se vale trabalhar sobre a base atual ou reconstruí-la.",
+          "url": "https://ramita.dev/pt/#servicio-redisenos",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        }
+      ],
+      "banner": false,
+      "google": false
+    },
+    {
+      "lang": "pt",
+      "width": 390,
+      "mode": "reduced-motion",
+      "overflow": 0,
+      "h1": 1,
+      "services": 3,
+      "projects": 4,
+      "missingAlt": 0,
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "@id": "https://ramita.dev/#ramiro",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": "https://ramita.dev/pt/#webpage",
+          "url": "https://ramita.dev/pt/",
+          "name": "Design de sites freelance na Argentina | ramita.dev",
+          "description": "Design e desenvolvimento de sites institucionais e landing pages para negócios e profissionais. Trabalho direto com Ramiro Garcia, da definição à publicação.",
+          "inLanguage": "pt",
+          "isPartOf": {
+            "@id": "https://ramita.dev/#website"
+          },
+          "about": {
+            "@id": "https://ramita.dev/#ramiro"
+          },
+          "mainEntity": [
+            {
+              "@id": "https://ramita.dev/pt/#servicio-institucionales"
+            },
+            {
+              "@id": "https://ramita.dev/pt/#servicio-landing-pages"
+            },
+            {
+              "@id": "https://ramita.dev/pt/#servicio-redisenos"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/pt/#servicio-institucionales",
+          "name": "Sites institucionais",
+          "description": "Para apresentar sua atividade, explicar seus serviços e reunir as informações de contato em um site claro, tanto no computador quanto no celular.",
+          "url": "https://ramita.dev/pt/#servicio-institucionales",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/pt/#servicio-landing-pages",
+          "name": "Landing pages",
+          "description": "Para um serviço, campanha ou lançamento que precisa de uma página focada em explicar uma proposta e orientar o visitante para uma ação principal.",
+          "url": "https://ramita.dev/pt/#servicio-landing-pages",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/pt/#servicio-redisenos",
+          "name": "Redesigns",
+          "description": "Para um site que precisa melhorar a estrutura, o design ou a responsividade. Primeiro avalio se vale trabalhar sobre a base atual ou reconstruí-la.",
+          "url": "https://ramita.dev/pt/#servicio-redisenos",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        }
+      ],
+      "banner": false,
+      "google": false
+    },
+    {
+      "lang": "pt",
+      "width": 768,
+      "mode": "reduced-motion",
+      "overflow": 0,
+      "h1": 1,
+      "services": 3,
+      "projects": 4,
+      "missingAlt": 0,
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "@id": "https://ramita.dev/#ramiro",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": "https://ramita.dev/pt/#webpage",
+          "url": "https://ramita.dev/pt/",
+          "name": "Design de sites freelance na Argentina | ramita.dev",
+          "description": "Design e desenvolvimento de sites institucionais e landing pages para negócios e profissionais. Trabalho direto com Ramiro Garcia, da definição à publicação.",
+          "inLanguage": "pt",
+          "isPartOf": {
+            "@id": "https://ramita.dev/#website"
+          },
+          "about": {
+            "@id": "https://ramita.dev/#ramiro"
+          },
+          "mainEntity": [
+            {
+              "@id": "https://ramita.dev/pt/#servicio-institucionales"
+            },
+            {
+              "@id": "https://ramita.dev/pt/#servicio-landing-pages"
+            },
+            {
+              "@id": "https://ramita.dev/pt/#servicio-redisenos"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/pt/#servicio-institucionales",
+          "name": "Sites institucionais",
+          "description": "Para apresentar sua atividade, explicar seus serviços e reunir as informações de contato em um site claro, tanto no computador quanto no celular.",
+          "url": "https://ramita.dev/pt/#servicio-institucionales",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/pt/#servicio-landing-pages",
+          "name": "Landing pages",
+          "description": "Para um serviço, campanha ou lançamento que precisa de uma página focada em explicar uma proposta e orientar o visitante para uma ação principal.",
+          "url": "https://ramita.dev/pt/#servicio-landing-pages",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/pt/#servicio-redisenos",
+          "name": "Redesigns",
+          "description": "Para um site que precisa melhorar a estrutura, o design ou a responsividade. Primeiro avalio se vale trabalhar sobre a base atual ou reconstruí-la.",
+          "url": "https://ramita.dev/pt/#servicio-redisenos",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        }
+      ],
+      "banner": false,
+      "google": false
+    },
+    {
+      "lang": "pt",
+      "width": 1440,
+      "mode": "reduced-motion",
+      "overflow": 0,
+      "h1": 1,
+      "services": 3,
+      "projects": 4,
+      "missingAlt": 0,
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "@id": "https://ramita.dev/#ramiro",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": "https://ramita.dev/pt/#webpage",
+          "url": "https://ramita.dev/pt/",
+          "name": "Design de sites freelance na Argentina | ramita.dev",
+          "description": "Design e desenvolvimento de sites institucionais e landing pages para negócios e profissionais. Trabalho direto com Ramiro Garcia, da definição à publicação.",
+          "inLanguage": "pt",
+          "isPartOf": {
+            "@id": "https://ramita.dev/#website"
+          },
+          "about": {
+            "@id": "https://ramita.dev/#ramiro"
+          },
+          "mainEntity": [
+            {
+              "@id": "https://ramita.dev/pt/#servicio-institucionales"
+            },
+            {
+              "@id": "https://ramita.dev/pt/#servicio-landing-pages"
+            },
+            {
+              "@id": "https://ramita.dev/pt/#servicio-redisenos"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/pt/#servicio-institucionales",
+          "name": "Sites institucionais",
+          "description": "Para apresentar sua atividade, explicar seus serviços e reunir as informações de contato em um site claro, tanto no computador quanto no celular.",
+          "url": "https://ramita.dev/pt/#servicio-institucionales",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/pt/#servicio-landing-pages",
+          "name": "Landing pages",
+          "description": "Para um serviço, campanha ou lançamento que precisa de uma página focada em explicar uma proposta e orientar o visitante para uma ação principal.",
+          "url": "https://ramita.dev/pt/#servicio-landing-pages",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/pt/#servicio-redisenos",
+          "name": "Redesigns",
+          "description": "Para um site que precisa melhorar a estrutura, o design ou a responsividade. Primeiro avalio se vale trabalhar sobre a base atual ou reconstruí-la.",
+          "url": "https://ramita.dev/pt/#servicio-redisenos",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        }
+      ],
+      "banner": false,
+      "google": false
+    },
+    {
+      "lang": "fr",
+      "width": 320,
+      "mode": "reduced-motion",
+      "overflow": 0,
+      "h1": 1,
+      "services": 3,
+      "projects": 4,
+      "missingAlt": 0,
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "@id": "https://ramita.dev/#ramiro",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": "https://ramita.dev/fr/#webpage",
+          "url": "https://ramita.dev/fr/",
+          "name": "Création de sites web freelance en Argentine | ramita.dev",
+          "description": "Sites institutionnels et landing pages pour entreprises et professionnels. Travaillez directement avec Ramiro Garcia, de la définition à la mise en ligne.",
+          "inLanguage": "fr",
+          "isPartOf": {
+            "@id": "https://ramita.dev/#website"
+          },
+          "about": {
+            "@id": "https://ramita.dev/#ramiro"
+          },
+          "mainEntity": [
+            {
+              "@id": "https://ramita.dev/fr/#servicio-institucionales"
+            },
+            {
+              "@id": "https://ramita.dev/fr/#servicio-landing-pages"
+            },
+            {
+              "@id": "https://ramita.dev/fr/#servicio-redisenos"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/fr/#servicio-institucionales",
+          "name": "Sites institutionnels",
+          "description": "Pour présenter votre activité, expliquer vos services et réunir vos coordonnées sur un site clair, sur ordinateur comme sur mobile.",
+          "url": "https://ramita.dev/fr/#servicio-institucionales",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/fr/#servicio-landing-pages",
+          "name": "Landing pages",
+          "description": "Pour un service, une campagne ou un lancement qui demande une page centrée sur la présentation d’une offre et une action principale pour le visiteur.",
+          "url": "https://ramita.dev/fr/#servicio-landing-pages",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/fr/#servicio-redisenos",
+          "name": "Refontes",
+          "description": "Pour un site dont la structure, le design ou l’affichage sur mobile doit être amélioré. J’évalue d’abord s’il vaut mieux partir de l’existant ou le reconstruire.",
+          "url": "https://ramita.dev/fr/#servicio-redisenos",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        }
+      ],
+      "banner": false,
+      "google": false
+    },
+    {
+      "lang": "fr",
+      "width": 390,
+      "mode": "reduced-motion",
+      "overflow": 0,
+      "h1": 1,
+      "services": 3,
+      "projects": 4,
+      "missingAlt": 0,
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "@id": "https://ramita.dev/#ramiro",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": "https://ramita.dev/fr/#webpage",
+          "url": "https://ramita.dev/fr/",
+          "name": "Création de sites web freelance en Argentine | ramita.dev",
+          "description": "Sites institutionnels et landing pages pour entreprises et professionnels. Travaillez directement avec Ramiro Garcia, de la définition à la mise en ligne.",
+          "inLanguage": "fr",
+          "isPartOf": {
+            "@id": "https://ramita.dev/#website"
+          },
+          "about": {
+            "@id": "https://ramita.dev/#ramiro"
+          },
+          "mainEntity": [
+            {
+              "@id": "https://ramita.dev/fr/#servicio-institucionales"
+            },
+            {
+              "@id": "https://ramita.dev/fr/#servicio-landing-pages"
+            },
+            {
+              "@id": "https://ramita.dev/fr/#servicio-redisenos"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/fr/#servicio-institucionales",
+          "name": "Sites institutionnels",
+          "description": "Pour présenter votre activité, expliquer vos services et réunir vos coordonnées sur un site clair, sur ordinateur comme sur mobile.",
+          "url": "https://ramita.dev/fr/#servicio-institucionales",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/fr/#servicio-landing-pages",
+          "name": "Landing pages",
+          "description": "Pour un service, une campagne ou un lancement qui demande une page centrée sur la présentation d’une offre et une action principale pour le visiteur.",
+          "url": "https://ramita.dev/fr/#servicio-landing-pages",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/fr/#servicio-redisenos",
+          "name": "Refontes",
+          "description": "Pour un site dont la structure, le design ou l’affichage sur mobile doit être amélioré. J’évalue d’abord s’il vaut mieux partir de l’existant ou le reconstruire.",
+          "url": "https://ramita.dev/fr/#servicio-redisenos",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        }
+      ],
+      "banner": false,
+      "google": false
+    },
+    {
+      "lang": "fr",
+      "width": 768,
+      "mode": "reduced-motion",
+      "overflow": 0,
+      "h1": 1,
+      "services": 3,
+      "projects": 4,
+      "missingAlt": 0,
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "@id": "https://ramita.dev/#ramiro",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": "https://ramita.dev/fr/#webpage",
+          "url": "https://ramita.dev/fr/",
+          "name": "Création de sites web freelance en Argentine | ramita.dev",
+          "description": "Sites institutionnels et landing pages pour entreprises et professionnels. Travaillez directement avec Ramiro Garcia, de la définition à la mise en ligne.",
+          "inLanguage": "fr",
+          "isPartOf": {
+            "@id": "https://ramita.dev/#website"
+          },
+          "about": {
+            "@id": "https://ramita.dev/#ramiro"
+          },
+          "mainEntity": [
+            {
+              "@id": "https://ramita.dev/fr/#servicio-institucionales"
+            },
+            {
+              "@id": "https://ramita.dev/fr/#servicio-landing-pages"
+            },
+            {
+              "@id": "https://ramita.dev/fr/#servicio-redisenos"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/fr/#servicio-institucionales",
+          "name": "Sites institutionnels",
+          "description": "Pour présenter votre activité, expliquer vos services et réunir vos coordonnées sur un site clair, sur ordinateur comme sur mobile.",
+          "url": "https://ramita.dev/fr/#servicio-institucionales",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/fr/#servicio-landing-pages",
+          "name": "Landing pages",
+          "description": "Pour un service, une campagne ou un lancement qui demande une page centrée sur la présentation d’une offre et une action principale pour le visiteur.",
+          "url": "https://ramita.dev/fr/#servicio-landing-pages",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/fr/#servicio-redisenos",
+          "name": "Refontes",
+          "description": "Pour un site dont la structure, le design ou l’affichage sur mobile doit être amélioré. J’évalue d’abord s’il vaut mieux partir de l’existant ou le reconstruire.",
+          "url": "https://ramita.dev/fr/#servicio-redisenos",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        }
+      ],
+      "banner": false,
+      "google": false
+    },
+    {
+      "lang": "fr",
+      "width": 1440,
+      "mode": "reduced-motion",
+      "overflow": 0,
+      "h1": 1,
+      "services": 3,
+      "projects": 4,
+      "missingAlt": 0,
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "@id": "https://ramita.dev/#ramiro",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": "https://ramita.dev/fr/#webpage",
+          "url": "https://ramita.dev/fr/",
+          "name": "Création de sites web freelance en Argentine | ramita.dev",
+          "description": "Sites institutionnels et landing pages pour entreprises et professionnels. Travaillez directement avec Ramiro Garcia, de la définition à la mise en ligne.",
+          "inLanguage": "fr",
+          "isPartOf": {
+            "@id": "https://ramita.dev/#website"
+          },
+          "about": {
+            "@id": "https://ramita.dev/#ramiro"
+          },
+          "mainEntity": [
+            {
+              "@id": "https://ramita.dev/fr/#servicio-institucionales"
+            },
+            {
+              "@id": "https://ramita.dev/fr/#servicio-landing-pages"
+            },
+            {
+              "@id": "https://ramita.dev/fr/#servicio-redisenos"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/fr/#servicio-institucionales",
+          "name": "Sites institutionnels",
+          "description": "Pour présenter votre activité, expliquer vos services et réunir vos coordonnées sur un site clair, sur ordinateur comme sur mobile.",
+          "url": "https://ramita.dev/fr/#servicio-institucionales",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/fr/#servicio-landing-pages",
+          "name": "Landing pages",
+          "description": "Pour un service, une campagne ou un lancement qui demande une page centrée sur la présentation d’une offre et une action principale pour le visiteur.",
+          "url": "https://ramita.dev/fr/#servicio-landing-pages",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/fr/#servicio-redisenos",
+          "name": "Refontes",
+          "description": "Pour un site dont la structure, le design ou l’affichage sur mobile doit être amélioré. J’évalue d’abord s’il vaut mieux partir de l’existant ou le reconstruire.",
+          "url": "https://ramita.dev/fr/#servicio-redisenos",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        }
+      ],
+      "banner": false,
+      "google": false
+    },
+    {
+      "lang": "ja",
+      "width": 320,
+      "mode": "reduced-motion",
+      "overflow": 0,
+      "h1": 1,
+      "services": 3,
+      "projects": 4,
+      "missingAlt": 0,
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "@id": "https://ramita.dev/#ramiro",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": "https://ramita.dev/ja/#webpage",
+          "url": "https://ramita.dev/ja/",
+          "name": "アルゼンチンのフリーランスWeb制作 | ramita.dev",
+          "description": "企業・団体サイトとランディングページのデザイン・開発。事業者や専門家のために、Ramiro Garcia が構想の整理から公開まで直接対応します。",
+          "inLanguage": "ja",
+          "isPartOf": {
+            "@id": "https://ramita.dev/#website"
+          },
+          "about": {
+            "@id": "https://ramita.dev/#ramiro"
+          },
+          "mainEntity": [
+            {
+              "@id": "https://ramita.dev/ja/#servicio-institucionales"
+            },
+            {
+              "@id": "https://ramita.dev/ja/#servicio-landing-pages"
+            },
+            {
+              "@id": "https://ramita.dev/ja/#servicio-redisenos"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/ja/#servicio-institucionales",
+          "name": "企業・団体サイト",
+          "description": "活動やサービスを紹介し、連絡先を分かりやすくまとめるウェブサイトを制作します。パソコンでもスマートフォンでも使いやすくします。",
+          "url": "https://ramita.dev/ja/#servicio-institucionales",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/ja/#servicio-landing-pages",
+          "name": "ランディングページ",
+          "description": "サービス、キャンペーン、新しい取り組みについて、内容を明確に伝え、訪問者を一つの主な行動へ導くページです。",
+          "url": "https://ramita.dev/ja/#servicio-landing-pages",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/ja/#servicio-redisenos",
+          "name": "リニューアル",
+          "description": "構成、デザイン、スマートフォンでの表示を改善したいサイト向けです。既存の基盤を生かすか、作り直すかを最初に検討します。",
+          "url": "https://ramita.dev/ja/#servicio-redisenos",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        }
+      ],
+      "banner": false,
+      "google": false
+    },
+    {
+      "lang": "ja",
+      "width": 390,
+      "mode": "reduced-motion",
+      "overflow": 0,
+      "h1": 1,
+      "services": 3,
+      "projects": 4,
+      "missingAlt": 0,
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "@id": "https://ramita.dev/#ramiro",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": "https://ramita.dev/ja/#webpage",
+          "url": "https://ramita.dev/ja/",
+          "name": "アルゼンチンのフリーランスWeb制作 | ramita.dev",
+          "description": "企業・団体サイトとランディングページのデザイン・開発。事業者や専門家のために、Ramiro Garcia が構想の整理から公開まで直接対応します。",
+          "inLanguage": "ja",
+          "isPartOf": {
+            "@id": "https://ramita.dev/#website"
+          },
+          "about": {
+            "@id": "https://ramita.dev/#ramiro"
+          },
+          "mainEntity": [
+            {
+              "@id": "https://ramita.dev/ja/#servicio-institucionales"
+            },
+            {
+              "@id": "https://ramita.dev/ja/#servicio-landing-pages"
+            },
+            {
+              "@id": "https://ramita.dev/ja/#servicio-redisenos"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/ja/#servicio-institucionales",
+          "name": "企業・団体サイト",
+          "description": "活動やサービスを紹介し、連絡先を分かりやすくまとめるウェブサイトを制作します。パソコンでもスマートフォンでも使いやすくします。",
+          "url": "https://ramita.dev/ja/#servicio-institucionales",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/ja/#servicio-landing-pages",
+          "name": "ランディングページ",
+          "description": "サービス、キャンペーン、新しい取り組みについて、内容を明確に伝え、訪問者を一つの主な行動へ導くページです。",
+          "url": "https://ramita.dev/ja/#servicio-landing-pages",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/ja/#servicio-redisenos",
+          "name": "リニューアル",
+          "description": "構成、デザイン、スマートフォンでの表示を改善したいサイト向けです。既存の基盤を生かすか、作り直すかを最初に検討します。",
+          "url": "https://ramita.dev/ja/#servicio-redisenos",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        }
+      ],
+      "banner": false,
+      "google": false
+    },
+    {
+      "lang": "ja",
+      "width": 768,
+      "mode": "reduced-motion",
+      "overflow": 0,
+      "h1": 1,
+      "services": 3,
+      "projects": 4,
+      "missingAlt": 0,
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "@id": "https://ramita.dev/#ramiro",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": "https://ramita.dev/ja/#webpage",
+          "url": "https://ramita.dev/ja/",
+          "name": "アルゼンチンのフリーランスWeb制作 | ramita.dev",
+          "description": "企業・団体サイトとランディングページのデザイン・開発。事業者や専門家のために、Ramiro Garcia が構想の整理から公開まで直接対応します。",
+          "inLanguage": "ja",
+          "isPartOf": {
+            "@id": "https://ramita.dev/#website"
+          },
+          "about": {
+            "@id": "https://ramita.dev/#ramiro"
+          },
+          "mainEntity": [
+            {
+              "@id": "https://ramita.dev/ja/#servicio-institucionales"
+            },
+            {
+              "@id": "https://ramita.dev/ja/#servicio-landing-pages"
+            },
+            {
+              "@id": "https://ramita.dev/ja/#servicio-redisenos"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/ja/#servicio-institucionales",
+          "name": "企業・団体サイト",
+          "description": "活動やサービスを紹介し、連絡先を分かりやすくまとめるウェブサイトを制作します。パソコンでもスマートフォンでも使いやすくします。",
+          "url": "https://ramita.dev/ja/#servicio-institucionales",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/ja/#servicio-landing-pages",
+          "name": "ランディングページ",
+          "description": "サービス、キャンペーン、新しい取り組みについて、内容を明確に伝え、訪問者を一つの主な行動へ導くページです。",
+          "url": "https://ramita.dev/ja/#servicio-landing-pages",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/ja/#servicio-redisenos",
+          "name": "リニューアル",
+          "description": "構成、デザイン、スマートフォンでの表示を改善したいサイト向けです。既存の基盤を生かすか、作り直すかを最初に検討します。",
+          "url": "https://ramita.dev/ja/#servicio-redisenos",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        }
+      ],
+      "banner": false,
+      "google": false
+    },
+    {
+      "lang": "ja",
+      "width": 1440,
+      "mode": "reduced-motion",
+      "overflow": 0,
+      "h1": 1,
+      "services": 3,
+      "projects": 4,
+      "missingAlt": 0,
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "@id": "https://ramita.dev/#ramiro",
+          "name": "Ramiro Garcia",
+          "url": "https://ramita.dev/",
+          "sameAs": [
+            "https://github.com/ramiro-gp"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": "https://ramita.dev/ja/#webpage",
+          "url": "https://ramita.dev/ja/",
+          "name": "アルゼンチンのフリーランスWeb制作 | ramita.dev",
+          "description": "企業・団体サイトとランディングページのデザイン・開発。事業者や専門家のために、Ramiro Garcia が構想の整理から公開まで直接対応します。",
+          "inLanguage": "ja",
+          "isPartOf": {
+            "@id": "https://ramita.dev/#website"
+          },
+          "about": {
+            "@id": "https://ramita.dev/#ramiro"
+          },
+          "mainEntity": [
+            {
+              "@id": "https://ramita.dev/ja/#servicio-institucionales"
+            },
+            {
+              "@id": "https://ramita.dev/ja/#servicio-landing-pages"
+            },
+            {
+              "@id": "https://ramita.dev/ja/#servicio-redisenos"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/ja/#servicio-institucionales",
+          "name": "企業・団体サイト",
+          "description": "活動やサービスを紹介し、連絡先を分かりやすくまとめるウェブサイトを制作します。パソコンでもスマートフォンでも使いやすくします。",
+          "url": "https://ramita.dev/ja/#servicio-institucionales",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/ja/#servicio-landing-pages",
+          "name": "ランディングページ",
+          "description": "サービス、キャンペーン、新しい取り組みについて、内容を明確に伝え、訪問者を一つの主な行動へ導くページです。",
+          "url": "https://ramita.dev/ja/#servicio-landing-pages",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://ramita.dev/ja/#servicio-redisenos",
+          "name": "リニューアル",
+          "description": "構成、デザイン、スマートフォンでの表示を改善したいサイト向けです。既存の基盤を生かすか、作り直すかを最初に検討します。",
+          "url": "https://ramita.dev/ja/#servicio-redisenos",
+          "provider": {
+            "@id": "https://ramita.dev/#ramiro"
+          }
+        }
+      ],
+      "banner": false,
+      "google": false
+    },
+    {
+      "route": "/",
+      "mode": "no-js",
+      "projectLinks": 4
+    },
+    {
+      "route": "/ja/",
+      "mode": "no-js",
+      "projectLinks": 4
+    },
+    {
+      "mode": "GA fixture (no transmission)",
+      "events": [
+        [
+          "event",
+          "page_view",
+          {
+            "page_id": "home_es",
+            "section_id": "page",
+            "destination_id": "home_es",
+            "site_language": "es"
+          }
+        ],
+        [
+          "event",
+          "contact_click",
+          {
+            "page_id": "home_es",
+            "section_id": "contact",
+            "destination_id": "email",
+            "site_language": "es"
+          }
+        ],
+        [
+          "event",
+          "contact_click",
+          {
+            "page_id": "home_es",
+            "section_id": "contact",
+            "destination_id": "whatsapp",
+            "site_language": "es"
+          }
+        ],
+        [
+          "event",
+          "contact_click",
+          {
+            "page_id": "home_es",
+            "section_id": "header",
+            "destination_id": "email",
+            "site_language": "es"
+          }
+        ],
+        [
+          "event",
+          "social_click",
+          {
+            "page_id": "home_es",
+            "section_id": "about",
+            "destination_id": "github",
+            "site_language": "es"
+          }
+        ],
+        [
+          "event",
+          "cta_click",
+          {
+            "page_id": "home_es",
+            "section_id": "hero",
+            "destination_id": "contact",
+            "site_language": "es"
+          }
+        ],
+        [
+          "event",
+          "project_visit",
+          {
+            "page_id": "home_es",
+            "section_id": "projects",
+            "destination_id": "jlaberturas",
+            "site_language": "es"
+          }
+        ],
+        [
+          "event",
+          "contact_copy",
+          {
+            "page_id": "home_es",
+            "section_id": "contact",
+            "destination_id": "email",
+            "site_language": "es"
+          }
+        ]
+      ],
+      "config": [
+        "config",
+        "G-TEST1234",
+        {
+          "send_page_view": false,
+          "page_location": "https://ramita.dev/",
+          "page_referrer": "",
+          "page_title": "Diseño web freelance en Argentina | ramita.dev",
+          "ignore_referrer": true,
+          "allow_google_signals": false,
+          "allow_ad_personalization_signals": false,
+          "cookie_expires": 15552000,
+          "cookie_update": false,
+          "cookie_flags": "SameSite=Lax;Secure"
+        }
+      ],
+      "rejection": true,
+      "reacceptWithoutDuplicates": true
+    },
+    {
+      "mode": "text-200-percent",
+      "lang": "es",
+      "width": 320
+    },
+    {
+      "mode": "text-200-percent",
+      "lang": "ja",
+      "width": 320
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Isolated headless browser, not physical touch or assistive technology.",
+    "GA fixture tests the command contract, not Google receipt or account settings."
+  ],
+  "browser": "151.0.7922.34"
+}

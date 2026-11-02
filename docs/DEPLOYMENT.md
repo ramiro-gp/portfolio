@@ -1,5 +1,11 @@
 # Hostinger — ramita.dev
 
+## Publicación SEO del 2026-11-02
+
+Cambios autorizados publicados desde `984da790cb502572dacc16236c87eb6abca25074`, [CI 41499497113](https://github.com/ramiro-gp/portfolio/actions/runs/41499497113) correcto, salida compilada `1d19433a382ffecaeff5c54ad8c3f9d590fec209`. Sigue el mismo sitio/cuenta/raíz y la integración automática existente. CI añade el checker del HTML inicial antes de actualizar la rama pública. Se publican consolidación 301 de alias index.html, schema/OG/sitemap, resúmenes factuales y privacidad; GA permanece desactivado sin ID real y no hay nuevo aviso visible de cookies. No se cambian DNS, correo, dependencias ni protecciones CDN.
+
+Backup previo real en `release/seo-backup-2026-11-02/`, incluido `.htaccess` leído de Hostinger, con manifiesto de archivos públicos. Confirmación efectiva: 632 checks HTTP SEO sin fallos, 30 archivos comparados con el build, doce redirects de alias y tres 404 correctos, QA pública desktop/mobile/sin JS/reduced motion y W3C válido. Seis PNG públicos idénticos en RGBA aunque recodificados y SVG igual salvo saltos de línea. Lighthouse final mobile 98/100/100/100 y desktop 100/100/100/100; laboratorio, no CWV de campo. La observación de 403 a UA que imitan Google/Bing no prueba acceso/bloqueo de rastreadores reales; Search Console y activación/recepción de GA requieren acceso a la cuenta. Informe, evidencia, límites y rollback en `docs/SEO-2026-11.md`. No se declara H8 cerrado.
+
 ## Publicación del 2026-10-30
 
 Ramiro autoriza publicar el último commit y automatizar futuras publicaciones. Sitio confirmado por API y hPanel: `ramita.dev`, cuenta `u571172642`, plan Premium Web Hosting, raíz `/home/u571172642/domains/ramita.dev/public_html`.

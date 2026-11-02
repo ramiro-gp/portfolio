@@ -6,7 +6,7 @@ import {execFileSync} from 'node:child_process';
 const backup = process.argv.includes('--backup');
 const label = process.argv.find(x=>x.startsWith('--label='))?.slice(8) || '2026-11-02';
 const root = path.resolve(import.meta.dirname,'..');
-const report = {at:new Date().toISOString(),mode:backup?'backup':'verify',files:[],redirects:[],bots:[],external:[],failures:[]};
+const report = {at:new Date().toISOString(),mode:backup?'backup':'verify',files:[],redirects:[],bots:[],external:[],observations:[],failures:[]};
 const hash=bytes=>crypto.createHash('sha256').update(bytes).digest('hex');
 const backupDir=path.join(root,'release',`seo-${backup?'backup':'public'}-${label}`);
 if(fs.existsSync(backupDir))throw Error('Use a new label to preserve evidence.');
@@ -18,8 +18,9 @@ for (const name of paths) {
   const file=path.join(backupDir,name);fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,bytes);
   const expected=backup?null:fs.readFileSync(path.join(root,'dist',name));
   const equal=expected?bytes.equals(expected):null;
-  report.files.push({path:name,status:response.status,bytes:bytes.length,sha256:hash(bytes),matchesBuild:equal});
-  if(response.status!==200 || (equal===false && !name.endsWith('.png')))report.failures.push({file:name,status:response.status,matchesBuild:equal});
+  const equalLineEndings=expected&&name.endsWith('.svg')?bytes.toString('utf8').replace(/\r\n/g,'\n')===expected.toString('utf8').replace(/\r\n/g,'\n'):null;
+  report.files.push({path:name,status:response.status,bytes:bytes.length,sha256:hash(bytes),matchesBuild:equal,matchesNormalizedLineEndings:equalLineEndings});
+  if(response.status!==200 || (equal===false && !equalLineEndings && !name.endsWith('.png')))report.failures.push({file:name,status:response.status,matchesBuild:equal});
 }
 if(!backup){
   const query='?keep=a%2Bb&seo-audit=20261102';
@@ -41,7 +42,11 @@ if(!backup){
     const response=await fetch('https://ramita.dev'+route,{headers:{'User-Agent':agent},signal:AbortSignal.timeout(20000)});
     const bytes=Buffer.from(await response.arrayBuffer());const file=route==='/'?'index.html':route.endsWith('/')?route.slice(1)+'index.html':route.slice(1);
     const equal=bytes.equals(fs.readFileSync(path.join(root,'dist',file)));const robots=response.headers.get('x-robots-tag');
-    report.bots.push({agent,route,status:response.status,matchesBuild:equal,robots});if(response.status!==200||!equal||/noindex/i.test(robots||''))report.failures.push({agent,route,status:response.status});
+    // A caller-supplied UA is not a verified crawler identity. CDN may reject
+    // impersonation; record separately from actual Google/Bing access in GSC.
+    report.bots.push({agent,route,status:response.status,matchesBuild:equal,robots,verifiedCrawler:false,requestId:response.headers.get('x-hcdn-request-id')});
+    if(response.status===403)report.observations.push({agent,route,status:403,meaning:'Unverified user-agent probe denied; actual crawler access requires GSC/Bing live test, not proven by this probe.'});
+    if(response.status!==403 && (response.status!==200||!equal||/noindex/i.test(robots||'')))report.failures.push({agent,route,status:response.status});
   }
 }
 for(const url of ['https://github.com/ramiro-gp','https://residenciasgrupocasa.com.ar/','https://jlaberturas.com.ar/','https://veganrecords.com.ar/','https://lingo-hive.vercel.app/']){
@@ -50,5 +55,5 @@ for(const url of ['https://github.com/ramiro-gp','https://residenciasgrupocasa.c
 }
 fs.writeFileSync(path.join(backupDir,'manifest.json'),JSON.stringify(report,null,2));
 fs.writeFileSync(path.join(root,'qa/seo',`release-${backup?'backup':'verify'}-${label}.json`),JSON.stringify(report,null,2));
-console.log(JSON.stringify({directory:backupDir,files:report.files.length,redirects:report.redirects.length,bots:report.bots.length,external:report.external,failures:report.failures},null,2));
+console.log(JSON.stringify({directory:backupDir,files:report.files.length,redirects:report.redirects.length,bots:report.bots.length,observations:report.observations.length,external:report.external,failures:report.failures},null,2));
 if(report.failures.length)process.exitCode=1;

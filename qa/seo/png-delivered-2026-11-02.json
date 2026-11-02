@@ -1,0 +1,62 @@
+[
+  {
+    "path": "apple-touch-icon.png",
+    "size": [
+      180,
+      180
+    ],
+    "same_size": true,
+    "identical_rgba": true,
+    "same_icc_profile": true
+  },
+  {
+    "path": "social/ramita-en.png",
+    "size": [
+      1200,
+      630
+    ],
+    "same_size": true,
+    "identical_rgba": true,
+    "same_icc_profile": true
+  },
+  {
+    "path": "social/ramita-es.png",
+    "size": [
+      1200,
+      630
+    ],
+    "same_size": true,
+    "identical_rgba": true,
+    "same_icc_profile": true
+  },
+  {
+    "path": "social/ramita-fr.png",
+    "size": [
+      1200,
+      630
+    ],
+    "same_size": true,
+    "identical_rgba": true,
+    "same_icc_profile": true
+  },
+  {
+    "path": "social/ramita-ja.png",
+    "size": [
+      1200,
+      630
+    ],
+    "same_size": true,
+    "identical_rgba": true,
+    "same_icc_profile": true
+  },
+  {
+    "path": "social/ramita-pt.png",
+    "size": [
+      1200,
+      630
+    ],
+    "same_size": true,
+    "identical_rgba": true,
+    "same_icc_profile": true
+  }
+]

@@ -71,6 +71,12 @@ async function state(page) {
         await page.screenshot({path:path.join(out,`${lang}-${width}-footer.png`)});
       }
       if(lang==='es' && [390,1440].includes(width)) {
+        // Reveal each section before scanning so opacity-based entrances do
+        // not hide offscreen content from contrast/accessibility checks.
+        for (const id of ['inicio','servicios','proyectos','ramiro','contacto']) {
+          await page.locator(`#${id}`).scrollIntoViewIfNeeded();
+        }
+        await page.waitForFunction(()=>[...document.querySelectorAll('[data-reveal]')].every(x=>getComputedStyle(x).opacity==='1'));
         await page.addScriptTag({path:'C:/Users/ramiro/AppData/Local/npm-cache/_npx/0f94ee7615faf582/node_modules/axe-core/axe.min.js'});
         const axe=await page.evaluate(async()=>{const r=await axe.run(document,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21aa']}});return r.violations.map(x=>({id:x.id,impact:x.impact,nodes:x.nodes.map(n=>n.target)}));});
         assert.deepEqual(axe,[]);

@@ -1,0 +1,31 @@
+{
+  "recordedAt": "2026-11-02T18:26:35.136Z",
+  "domain": "https://ramita.dev/",
+  "sourceCommit": "984da790cb502572dacc16236c87eb6abca25074",
+  "staticCommit": "1d19433a382ffecaeff5c54ad8c3f9d590fec209",
+  "ci": {
+    "id": 41499497113,
+    "conclusion": "success",
+    "url": "https://github.com/ramiro-gp/portfolio/actions/runs/41499497113"
+  },
+  "hosting": {
+    "username": "u571172642",
+    "publicRoot": "public_html",
+    "method": "existing Git auto-deployment"
+  },
+  "verification": {
+    "publicChecks": 632,
+    "publicFailures": 0,
+    "aliasRedirects": 12,
+    "custom404s": 3,
+    "deliveredFiles": 30,
+    "byteMatches": 23,
+    "svgEqualAfterLineEndings": true,
+    "pngIdenticalRGBA": 6,
+    "gaActive": false,
+    "actualGoogleCrawlerAccess": "pending Search Console",
+    "unverifiedBot403s": 10
+  },
+  "backup": "release/seo-backup-2026-11-02",
+  "rollbackPerformed": false
+}
