@@ -1,0 +1,41 @@
+---
+import '../../styles/global.css';
+import Analytics from '../../components/Analytics.astro';
+import { analyticsId } from '../../content/analytics';
+---
+<!doctype html>
+<html lang="es" data-theme="light" data-accent="light-green">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacidad y cookies | ramita.dev</title>
+    <meta name="description" content="Información sobre contacto, preferencias y cookies en el sitio personal de Ramiro Garcia." />
+    <link rel="canonical" href="https://ramita.dev/privacidad/" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Saltar al contenido</a>
+    <header class="rail privacy-header"><a href="/" class="brand">ramita<span class="brand-dot">.</span>dev</a></header>
+    <main id="main" class="rail privacy-main" tabindex="-1">
+      <h1>Privacidad y cookies</h1>
+      <p>Este es el sitio personal de Ramiro Garcia. Para consultas sobre tus datos podés escribir a <a href="mailto:ramirogperucho@gmail.com">ramirogperucho@gmail.com</a>.</p>
+      <h2>Contacto y enlaces externos</h2>
+      <p>El sitio no tiene formularios. Al elegir email, WhatsApp, GitHub o un proyecto, abrís otro servicio, que aplica sus propias condiciones de privacidad. Los mensajes se gestionan en el canal que elijas.</p>
+      <h2>Preferencias del sitio</h2>
+      <p>Tu navegador guarda localmente el aspecto elegido. Durante la navegación también se guarda temporalmente información para conservar el comportamiento del menú al cambiar de idioma.</p>
+      <h2>Estadísticas y cookies</h2>
+      {analyticsId ? <>
+        <p>Con tu aceptación, Google Analytics registra visitas e interacciones para entender el uso del sitio. Utiliza identificadores y cookies; esta medición no es totalmente anónima. Google recibe datos técnicos como la dirección IP al conectarse a sus servidores.</p>
+        <p>La etiqueta de Google se carga únicamente después de aceptar. Rechazar permite seguir usando toda la web. No se envían mensajes, contenido de campos, direcciones de email, teléfonos ni parámetros de las URLs. Los destinos se registran como categorías, por ejemplo «email» o «github».</p>
+        <p>La elección se guarda en este navegador durante 180 días. Las cookies de Analytics se configuran con un máximo de 180 días sin renovar su vencimiento por cada visita. Podés cambiar tu elección con el botón Cookies del footer; al rechazar se detiene la medición y se borran las cookies de Analytics accesibles para este sitio. Esto no borra información ya recibida por Google.</p>
+        <p>Google puede procesar información fuera de tu país. Consultá <a href="https://policies.google.com/privacy" rel="noopener noreferrer">su política de privacidad</a> y <a href="https://support.google.com/analytics/answer/6004245" rel="noopener noreferrer">la información sobre protección de datos de Analytics</a>.</p>
+      </> : <p>Actualmente no hay una etiqueta de analítica activada ni se instalan cookies de Google Analytics desde este sitio.</p>}
+      <p><a href="/">Volver al sitio</a></p>
+    </main>
+    <footer class="footer rail"><span>ramita<span class="brand-dot">.</span>dev</span>{analyticsId && <button type="button" data-consent-preferences hidden>Cookies</button>}<span>Ramiro Garcia</span></footer>
+    <Analytics locale="es" />
+  </body>
+</html>
+<style>
+  .privacy-header{padding-block:28px;border-bottom:1px solid var(--divider)}.privacy-main{max-width:850px;padding-block:64px 80px}.privacy-main h1{font-size:clamp(2rem,6vw,3.5rem);line-height:1.15;margin-bottom:32px}.privacy-main h2{font-size:1.5rem;margin-block:36px 16px}.privacy-main p{margin-block:16px;line-height:1.7}
+</style>

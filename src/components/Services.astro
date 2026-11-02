@@ -2,6 +2,7 @@
 import { copy, type LocaleCode } from '../content/locales';
 const { locale } = Astro.props as { locale: LocaleCode };
 const t = copy[locale];
+const serviceIds = ['institucionales', 'landing-pages', 'redisenos'];
 ---
 <section class="section services rail" id="servicios" tabindex="-1" aria-labelledby="services-title" data-line-anchor="services">
   <div class="section-intro" data-reveal>
@@ -9,7 +10,7 @@ const t = copy[locale];
     <p>{t.servicesIntro}</p>
   </div>
   <div class="service-stack" data-service-stack>
-    {t.services.map((service, index) => <article class="service-panel" data-service-panel style={`--stack-index:${index}`}>
+    {t.services.map((service, index) => <article id={`servicio-${serviceIds[index]}`} class="service-panel" data-service-panel style={`--stack-index:${index}`}>
       <span class="service-count" aria-hidden="true">{String(index + 1).padStart(2, '0')}</span>
       <div><h3>{service.title}</h3><p>{service.body}</p></div>
     </article>)}

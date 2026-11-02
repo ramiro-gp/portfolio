@@ -2,6 +2,8 @@
 
 ## Producto activo
 
+Excepción de soporte autorizada el 2026-11-02 por la misión SEO/medición: página utilitaria `/privacidad/`, enlazada discretamente desde footer; no es una nueva página comercial de servicio/caso. Los cinco recorridos comerciales conservan su estructura. Analytics autorizado con consentimiento; pendiente de verificar/reutilizar la cuenta de Google antes de activar. Contrato, límites y estado en `docs/SEO-2026-11.md`.
+
 **V2 Commercial Personal Website**: sitio comercial personal de Ramiro Garcia para vender servicios de diseño y desarrollo web, con portfolio/casos como evidencia.
 
 Dominio: `ramita.dev`. Ramiro es quien presta el servicio; identidad personal y primera persona singular.

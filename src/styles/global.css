@@ -236,3 +236,6 @@ html.js-ready .site-header[data-open][data-closing]{animation:menu-close-visible
   .project-detail-link{margin-top:0}
   .project-card-description{font-size:.9375rem}
 }
+
+/* Privacy utilities stay subordinate to the commercial content. */
+.footer-utilities{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:8px 20px}.footer button{font:inherit;color:inherit;border:0;background:transparent;padding:0;min-height:44px;cursor:pointer;text-decoration:underline}.footer button[hidden]{display:none}.footer-utilities a{display:inline-flex;align-items:center;min-height:44px}@media(max-width:479px){.footer{align-items:flex-start;flex-wrap:wrap}.footer-utilities{flex:1 0 auto;max-width:100%;justify-content:flex-start;gap:4px 14px;overflow-wrap:normal}.footer-utilities>span{max-width:100%}}

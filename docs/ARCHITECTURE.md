@@ -231,7 +231,9 @@ La misión final autoriza publicación por el agente y sustituye las restriccion
 
 ## Analytics
 
-Fuera de alcance hasta decisión explícita.
+Autorizado por la misión explícita del 2026-11-02. Implementación propia sin dependencias: `src/scripts/analytics.ts`, `src/components/Analytics.astro` y configuración pública en `src/content/analytics.ts`. Consentimiento básico; no cargar GA ni enviar pings/eventos antes de aceptar. Activación sólo con ID real de propiedad comprobada (`PUBLIC_GA_MEASUREMENT_ID`), también expuesto como variable pública del build CI. Sin ID no hay etiqueta, aviso ni colección. La cuenta no está verificada todavía; no se declara recepción real de eventos. Política utilitaria en `/privacidad/`; el resto de la arquitectura comercial permanece single-page por idioma. Contrato de eventos, dimensiones e informes pendientes en `docs/SEO-2026-11.md`.
+
+Actualización SEO del mismo día: `WebPage` y tres `Service` localizados con nombres/descripciones idénticos al HTML y proveedor `Person` estable; IDs anclados a cada artículo de Servicios. OG declara locale/alternates y sitemap deriva hreflang del mismo mapa, con seis URLs incluyendo privacidad. `.htaccess` suma redirección explícita de `index.html` sólo para esas rutas reales, condicionada a THE_REQUEST para evitar bucles con DirectoryIndex. Se preservan www/HTTPS y 404. No se cambia robots, DNS, hosting ni dependencias. Los nuevos textos JA se incluyen en el subset de la misma fuente/pesos: 95.620 B, 412 codepoints, sin glifos faltantes; evidencia `qa/seo/font-2026-11-02.json`.
 
 No agregar trackers por defecto.
 

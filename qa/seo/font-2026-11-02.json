@@ -1,0 +1,12 @@
+{
+  "source_sha256": "85e5ef353081175fb9f764f037c550dd4b5ad913cb030c0de98a5d4d4018014b",
+  "corpus_files": [
+    "locales.ts",
+    "projects.ts",
+    "analytics.ts"
+  ],
+  "codepoints": 412,
+  "bytes": 95620,
+  "sha256": "0c5370732e6dfbbecff32a7a6c8b356034e969142e6613477964c0c5efe9fc59",
+  "missing_ja_glyphs": []
+}

@@ -1,5 +1,7 @@
 # DESIGN.md — ramita.dev V2
 
+Actualización de soporte SEO/medición autorizada el 2026-11-02: conservar identidad y recorrido comercial; footer añade Privacidad (política española identificada en otros idiomas). Si se activa una propiedad GA comprobada, aviso compacto inferior con texto breve, Aceptar/Rechazar con igual jerarquía y enlace; sin modal/foco atrapado ni lenguaje técnico comercial. El footer permite cambiar Cookies. Sin ID de medición no se muestra aviso ni ese control. `/privacidad/` es página utilitaria sobria con tokens existentes. No se modifica Hero, menú, carrusel, motion ni la jerarquía comercial. QA/estado y límites en `docs/SEO-2026-11.md`.
+
 ## Responsabilidad y estado activo
 
 Fuente de verdad para experiencia visual e interactiva aprobada. V2-H3 aprueba el UX comercial documentado abajo; V2-H4 aprueba el copy de cinco idiomas y el sistema visual estático; V2-H5 cierra la implementación funcional. H6.B fija el par exacto de capturas de Residencias. H6.E integra LingoHive después de Residencias con capturas reales, copy aprobado y créditos visibles, manteniendo el sistema editorial y la ruta aprobada. Las exclusiones de LingoHive en wireframes y auditorías H3 describen aquel estado histórico.

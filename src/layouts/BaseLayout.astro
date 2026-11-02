@@ -7,9 +7,11 @@ const t = copy[locale];
 const canonical = new URL(routes[locale], 'https://ramita.dev').href;
 const socialImage = new URL(`/social/ramita-${locale}.png`, Astro.site).href;
 const socialImageAlt = `ramita.dev — ${t.socialTitle}`;
+const socialLocales = { es: 'es_AR', en: 'en_US', pt: 'pt_BR', fr: 'fr_FR', ja: 'ja_JP' };
 const person = {
   '@context': 'https://schema.org',
   '@type': 'Person',
+  '@id': 'https://ramita.dev/#ramiro',
   name: 'Ramiro Garcia',
   url: 'https://ramita.dev/',
   sameAs: ['https://github.com/ramiro-gp']
@@ -17,8 +19,31 @@ const person = {
 const website = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
+  '@id': 'https://ramita.dev/#website',
   name: 'ramita.dev',
   url: 'https://ramita.dev/'
+};
+const serviceIds = ['institucionales', 'landing-pages', 'redisenos'];
+const services = t.services.map((service, index) => ({
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  '@id': `${canonical}#servicio-${serviceIds[index]}`,
+  name: service.title,
+  description: service.body,
+  url: `${canonical}#servicio-${serviceIds[index]}`,
+  provider: { '@id': person['@id'] }
+}));
+const webpage = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  '@id': `${canonical}#webpage`,
+  url: canonical,
+  name: t.metaTitle,
+  description: t.metaDescription,
+  inLanguage: locale,
+  isPartOf: { '@id': website['@id'] },
+  about: { '@id': person['@id'] },
+  mainEntity: services.map((service) => ({ '@id': service['@id'] }))
 };
 ---
 <!doctype html>
@@ -39,6 +64,8 @@ const website = {
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content="ramita.dev" />
+    <meta property="og:locale" content={socialLocales[locale]} />
+    {localeCodes.filter((code) => code !== locale).map((code) => <meta property="og:locale:alternate" content={socialLocales[code]} />)}
     <meta property="og:title" content={t.socialTitle} />
     <meta property="og:description" content={t.socialDescription} />
     <meta property="og:image" content={socialImage} />
@@ -53,6 +80,8 @@ const website = {
     <meta name="twitter:image:alt" content={socialImageAlt} />
     <script type="application/ld+json" set:html={JSON.stringify(person)} />
     {locale === 'es' && <script type="application/ld+json" set:html={JSON.stringify(website)} />}
+    <script type="application/ld+json" set:html={JSON.stringify(webpage)} />
+    {services.map((service) => <script type="application/ld+json" set:html={JSON.stringify(service)} />)}
     <script is:inline>
       (() => {
         try {

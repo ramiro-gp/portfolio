@@ -1,5 +1,7 @@
 # DECISIONS.md
 
+2026-11-02 — Ramiro autoriza auditoría SEO avanzada, investigación pública, implementación/validación/publicación y medición comercial con consentimiento, preservando identidad y posicionamiento. Se consolidan alias index.html mediante 301 y se amplían resúmenes factuales de cuatro proyectos; se agregan entidades Service/WebPage, locales OG y sitemap consistente. Página utilitaria de Privacidad como soporte de medición. GA preparado sin dependencias y desactivado hasta comprobar la propiedad real; Ramiro autoriza revisar `ramirogperucho@gmail.com` y crear sólo si no existe. Acceso actual a Google bloqueado por el control del navegador, sin DNS ni propiedad nueva. Evidencia/pendientes en `docs/SEO-2026-11.md`; H8 continúa IN PROGRESS.
+
 2026-10-30 — Ramiro autoriza deploy de la actualización y publicación automática desde Git si es posible. Se publica el build estático en Hostinger Premium. Para automatizar sin cambiar de plan se configura GitHub Actions: `main` → check/build → `codex/hostinger-static` (sólo archivos públicos). Ramiro autoriza agregar el acceso a `portfolio`; conexión a esa rama, primera compilación y deploy confirmados. Detalles en `docs/DEPLOYMENT.md`.
 
 ## 2026-10-30 — Formatos responsive, centrado visible y tilt leve

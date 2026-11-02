@@ -452,6 +452,7 @@ if (navigator.clipboard?.writeText && window.isSecureContext && copyFeedback) {
     button.addEventListener('click', async () => {
       try {
         await navigator.clipboard.writeText(button.dataset.copy || '');
+        document.dispatchEvent(new CustomEvent('ramita:copy', { detail: { channel: button.closest('.email-row') ? 'email' : 'whatsapp' } }));
         button.classList.add('is-copied');
         copyFeedback.textContent = button.dataset.copySuccess || '';
         window.clearTimeout(resetTimer);

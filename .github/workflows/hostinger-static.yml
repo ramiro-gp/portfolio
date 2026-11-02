@@ -27,9 +27,12 @@ jobs:
           npm install --global pnpm@11.7.0
           pnpm install --frozen-lockfile
       - name: Validate and build
+        env:
+          PUBLIC_GA_MEASUREMENT_ID: ${{ vars.PUBLIC_GA_MEASUREMENT_ID }}
         run: |
           pnpm check
           pnpm build
+          node qa/seo-checks.cjs --dist dist --out "$RUNNER_TEMP/seo-checks.json"
           cp hosting/hostinger.htaccess dist/.htaccess
       - name: Publish built files to deployment branch
         env:

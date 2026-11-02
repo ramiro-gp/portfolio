@@ -228,8 +228,8 @@ async function pageAudit(locale) {
   const services = all(root, node => node.attrs.id === 'servicios')[0];
   const serviceHeadings = services ? all(services, node => node.tag === 'h3').map(text) : [];
   check(serviceHeadings.length === 3 && serviceHeadings.every(Boolean) && all(services || root, node => node.tag === 'p' && text(node).length > 20).length >= 3, `${locale.code}: three explained services in initial HTML`, serviceHeadings);
-  const projects = all(root, node => hasClass(node, 'project-case'));
-  check(projects.length === 2 && ['Residencias Grupo Casa', 'LingoHive'].every(name => projects.some(node => text(node).includes(name))), `${locale.code}: both real project cases in initial HTML`, projects.map(node => all(node, child => child.tag === 'h3').map(text)));
+  const projects = all(root, node => hasClass(node, 'project-card'));
+  check(projects.length === 4 && ['Residencias Grupo Casa', 'JL Aberturas', 'Vegan Records', 'LingoHive'].every(name => projects.some(node => text(node).includes(name))), `${locale.code}: four real projects in initial HTML`, projects.map(node => all(node, child => child.tag === 'h3').map(text)));
   const anchors = all(root, node => node.tag === 'a');
   check(anchors.some(node => node.attrs.href === 'mailto:ramirogperucho@gmail.com' && text(node).includes('@gmail.com')), `${locale.code}: actionable email in initial HTML`, 'mailto anchor + address text');
   check(anchors.some(node => node.attrs.href === 'https://wa.me/5491151354489' && /5135/.test(text(node))), `${locale.code}: actionable WhatsApp in initial HTML`, 'WhatsApp anchor + number text');
@@ -257,6 +257,15 @@ async function pageAudit(locale) {
   const websites = schema.filter(node => [].concat(node['@type'] || []).includes('WebSite'));
   check(websites.length <= 1, `${locale.code}: at most one WebSite entity`, websites.length);
   for (const website of websites) check(website.name === 'ramita.dev' && website.url === site + '/', `${locale.code}: WebSite identifies the canonical site`, website);
+  const serviceEntities = schema.filter(node => node['@type'] === 'Service');
+  check(serviceEntities.length === 3, `${locale.code}: three factual services`, serviceEntities.map(node => node.name));
+  for (const service of serviceEntities) {
+    const fragment = new URL(service.url).hash.slice(1);
+    const article = all(root, node => node.attrs.id === fragment)[0];
+    check(article && text(article).includes(service.name) && text(article).includes(service.description) && service.provider?.['@id'] === site + '/#ramiro', `${locale.code}: Service matches visible offer and Person`, service);
+  }
+  const webpage = schema.filter(node => node['@type'] === 'WebPage');
+  check(webpage.length === 1 && webpage[0].url === site + locale.route && webpage[0].inLanguage === locale.code, `${locale.code}: localized WebPage`, webpage);
   for (const icon of links(root, 'icon').concat(links(root, 'apple-touch-icon'))) await asset(absolute(icon.attrs.href, canonical), /^image\//i);
   result.pages.push({ locale: locale.code, route: locale.route, status: response.status, headers: response.headers, bytes: response.bytes, title: title.map(text), description: descriptions.map(node => node.attrs.content), canonical: canonicalLinks.map(node => node.attrs.href), hreflang: alternates.map(node => ({ lang: node.attrs.hreflang, url: node.attrs.href })), headings: all(root, node => /^h[1-6]$/.test(node.tag)).map(node => ({ level: node.tag, text: text(node) })), images: images.length, schemaTypes: schema.map(node => node['@type']), parseProblems: problems });
 }
@@ -284,10 +293,17 @@ async function main() {
       const parsed = new URL(url);
       if (![site, base].includes(parsed.origin)) continue;
       const destination = documents.get(parsed.pathname);
-      check(Boolean(destination), `${route}: internal link targets a real page`, anchor.attrs.href);
-      if (destination && parsed.hash && parsed.hash !== '#') {
+      if (parsed.pathname === '/privacidad/' && !destination) {
+        const response = await request(base + '/privacidad/');
+        const privacy = parse(response.body).root;
+        check((staticRoot ? response.found : response.status === 200) && links(privacy, 'canonical').some(node => node.attrs.href === site + '/privacidad/'), `${route}: privacy page exists with canonical`, response.status);
+        documents.set('/privacidad/', privacy);
+      }
+      const resolved = documents.get(parsed.pathname);
+      check(Boolean(resolved), `${route}: internal link targets a real page`, anchor.attrs.href);
+      if (resolved && parsed.hash && parsed.hash !== '#') {
         const id = decodeURIComponent(parsed.hash.slice(1));
-        check(all(destination, node => node.attrs.id === id).length === 1, `${route}: internal fragment exists`, anchor.attrs.href);
+        check(all(resolved, node => node.attrs.id === id).length === 1, `${route}: internal fragment exists`, anchor.attrs.href);
       }
     }
   }
@@ -318,7 +334,14 @@ async function main() {
     if (staticRoot) check(response.found, 'Generated sitemap exists', response.file);
     else check(response.status === 200 && /(?:application|text)\/xml/i.test(response.headers['content-type'] || ''), 'sitemap HTTP/MIME', { status: response.status, headers: response.headers });
     check(problems.length === 0 && urlsets.length === 1 && urlsets[0].attrs.xmlns === 'http://www.sitemaps.org/schemas/sitemap/0.9', 'sitemap XML structure/namespace', problems);
-    check(urls.length === locales.length && new Set(urls).size === locales.length && locales.every(locale => urls.includes(site + locale.route)), 'sitemap contains exactly the five real canonical pages', urls);
+    const expected = [...locales.map(locale => site + locale.route), site + '/privacidad/'];
+    check(urls.length === expected.length && new Set(urls).size === expected.length && expected.every(url => urls.includes(url)), 'sitemap contains five commercial pages and privacy', urls);
+    for (const entry of all(root, node => node.tag === 'url')) {
+      const loc = all(entry, node => node.tag === 'loc').map(text)[0];
+      if (loc === site + '/privacidad/') continue;
+      const alternates = all(entry, node => node.tag === 'xhtml:link');
+      check(alternates.length === 6 && [...locales.map(locale => [locale.code, site + locale.route]), ['x-default', site + '/']].every(([lang, href]) => alternates.some(node => node.attrs.hreflang === lang && node.attrs.href === href)), `sitemap alternates match canonical HTML: ${loc}`, alternates.map(node => node.attrs));
+    }
   });
   await guarded('404 request', async () => {
     const missing = '/__seo-audit-missing-route__/';
